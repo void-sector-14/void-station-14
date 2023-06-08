@@ -11,7 +11,7 @@ comp-pda-io-no-programs-available = Нет доступных программ
 pda-bound-user-interface-show-uplink-title = Открыть Аплинк
 pda-bound-user-interface-show-uplink-description = Получите доступ к своему Аплинку
 pda-bound-user-interface-lock-uplink-title = Закрыть Аплинк
-pda-bound-user-interface-lock-uplink-description = Запретите кому-либо без кода получить доступ к вашему Аплинку
+pda-bound-user-interface-lock-uplink-description = Запретите кому-либо без кода получить доступ к Вашему Аплинку
 comp-pda-ui-menu-title = КПК
 comp-pda-ui-station = станция: [color=white]{ $station }[/color]
 comp-pda-ui-station-alert-level = Уровень угрозы: [color={ $color }]{ $level }[/color]
@@ -19,7 +19,7 @@ comp-pda-ui-station-alert-level-instructions = Инструкции: [color=whit
 comp-pda-ui-station-time = Продолжительность смены: [color=white]{ $time }[/color]
 comp-pda-ui-eject-id-button = Извлечь ID
 comp-pda-ui-eject-pen-button = Извлечь ручку
-comp-pda-ui-ringtone-button-description = Измените рингтон вашего КПК
+comp-pda-ui-ringtone-button-description = Измените рингтон Вашего КПК
 comp-pda-ui-ringtone-button = Рингтон
 comp-pda-ui-toggle-flashlight-button = Переключить фонарик
 pda-bound-user-interface-music-button-description = Слушайте музыку на своём КПК
