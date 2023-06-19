@@ -154,3 +154,6 @@ ent-ClothingHeadHatWatermelon = watermelon helmet
 ent-ClothingHeadHatHetmanHat = Hetman hat
     .desc = From the Zaporozhian Sich with love.
     .suffix = { "" }
+ent-ClothingHeadHatMagician = magician's top hat.
+    .desc = A magician's top hat.
+    .suffix = { "" }
