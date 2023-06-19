@@ -1,24 +1,24 @@
 # Loading Screen
 
-replay-loading = Loading ({ $cur }/{ $total })
-replay-loading-reading = Reading Files
-replay-loading-processing = Processing Files
-replay-loading-spawning = Spawning Entities
-replay-loading-initializing = Initializing Entities
-replay-loading-starting = Starting Entities
+replay-loading = Загрузка ({ $cur }/{ $total })
+replay-loading-reading = Чтение файлов
+replay-loading-processing = Обработка файлов
+replay-loading-spawning = Спавн ентити
+replay-loading-initializing = Инициализация ентити
+replay-loading-starting = Запуск ентити
 replay-loading-failed =
-    Failed to load replay:
+    Не удалось загрузить реплей:
     { $reason }
 # Main Menu
-replay-menu-subtext = Replay Client
-replay-menu-load = Load Selected Replay
-replay-menu-select = Select a Replay
-replay-menu-open = Open Replay Folder
-replay-menu-none = No replays found.
+replay-menu-subtext = Реплей клиент
+replay-menu-load = Загрузить выбранный реплей
+replay-menu-select = Выбрать реплей
+replay-menu-open = Открыть папку реплеев
+replay-menu-none = Не найдено реплеев.
 # Main Menu Info Box
-replay-info-title = Replay Information
-replay-info-none-selected = No replay selected
-replay-info-invalid = [color=red]Invalid replay selected[/color]
+replay-info-title = Информация реплея
+replay-info-none-selected = Реплеи не выбраны
+replay-info-invalid = [color=red]Требуется выбранный реплей[/color]
 replay-info-info =
     { "[" }color=gray]Selected:[/color]  { $name } ({ $file })
     { "[" }color=gray]Time:[/color]   { $time }
@@ -30,10 +30,10 @@ replay-info-info =
     { "[" }color=gray]Type Hash:[/color]   { $hash }
     { "[" }color=gray]Comp Hash:[/color]   { $compHash }
 # Replay selection window
-replay-menu-select-title = Select Replay
+replay-menu-select-title = Выбрать реплей
 # Replay related verbs
-replay-verb-spectate = Spectate
+replay-verb-spectate = Наблюдать
 # command
-cmd-replay-spectate-help = replay_spectate [optional entity]
-cmd-replay-spectate-desc = Attaches or detaches the local player to a given entity uid.
-cmd-replay-spectate-hint = Optional EntityUid
+cmd-replay-spectate-help = Реплей_наблюдатель [optional entity]
+cmd-replay-spectate-desc = Закрепляет или открепляет локального игрока к выбранной uid ентити.
+cmd-replay-spectate-hint = Возможный EntityUid

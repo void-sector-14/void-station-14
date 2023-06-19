@@ -52,5 +52,5 @@ reagent-name-posca = поска
 reagent-desc-posca = Напиток бедных воинов из забытой эпохи.
 reagent-name-the-martinez = бокал Мартинеза
 reagent-desc-the-martinez = Легенда Эджраннерства. Помнят по напитку, забывают по пьяни.
-reagent-name-white-gilgamesh = white gilgamesh
-reagent-desc-white-gilgamesh = A sickening mixture of milk and beer. Makes you feel like you're made of wood.
+reagent-name-white-gilgamesh = Белый Гилгамеш
+reagent-desc-white-gilgamesh = Тошнотворная смесь молока и пива. Заставляет тебя чувствовать себя так, словно ты сделан из дерева.
