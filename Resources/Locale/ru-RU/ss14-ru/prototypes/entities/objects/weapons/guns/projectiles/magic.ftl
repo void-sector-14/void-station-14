@@ -25,3 +25,6 @@ ent-ProjectilePolyboltCluwne = полиболт клувна
 ent-ProjectileIcicle = Сосулька
     .desc = Бр-р-р.
     .suffix = { "" }
+ent-ProjectilePolyboltBread = bread polybolt
+    .desc = Nooo, I don't wanna be bread!
+    .suffix = { "" }

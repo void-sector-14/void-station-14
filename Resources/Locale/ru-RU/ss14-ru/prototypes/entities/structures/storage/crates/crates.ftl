@@ -73,3 +73,6 @@ ent-CrateRodentCage = клетка для хомяка
 ent-CratePirate = пиратский сундук
     .desc = Сундук космического пирата, не для привокзальных бездельников.
     .suffix = { "" }
+ent-CrateToyBox = toy box
+    .desc = A box overflowing with fun.
+    .suffix = Empty

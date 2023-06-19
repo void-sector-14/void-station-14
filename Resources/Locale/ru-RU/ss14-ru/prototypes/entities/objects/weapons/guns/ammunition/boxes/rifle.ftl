@@ -19,3 +19,6 @@ ent-MagazineBoxRiflePractice = коробка патронов (.20 винтов
 ent-MagazineBoxRifleRubber = коробка патронов (.20 винтовочные резиновые)
     .desc = { ent-BaseMagazineBoxRifle.desc }
     .suffix = { "" }
+ent-MagazineBoxRifleIncendiary = ammunition box (.20 rifle incendiary)
+    .desc = { ent-BaseMagazineBoxRifle.desc }
+    .suffix = { "" }

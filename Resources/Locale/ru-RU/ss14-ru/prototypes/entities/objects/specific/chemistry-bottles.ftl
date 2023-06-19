@@ -31,3 +31,6 @@ ent-EphedrineChemistryBottle = бутылочка эфедрина
 ent-OmnizineChemistryBottle = бутылочка омнизина
     .desc = { ent-BaseChemistryEmptyBottle.desc }
     .suffix = { "" }
+ent-CognizineChemistryBottle = cognizine bottle
+    .desc = { ent-BaseChemistryEmptyBottle.desc }
+    .suffix = { "" }

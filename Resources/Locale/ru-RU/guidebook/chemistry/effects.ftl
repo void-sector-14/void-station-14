@@ -28,6 +28,21 @@
         [1] Satiates
        *[other] satiate
     }
+-create-3rd-person =
+    { $chance ->
+        [1] Creates
+       *[other] create
+    }
+-cause-3rd-person =
+    { $chance ->
+        [1] Causes
+       *[other] cause
+    }
+-satiate-3rd-person =
+    { $chance ->
+        [1] Satiates
+       *[other] satiate
+    }
 reagent-effect-guidebook-create-entity-reaction-effect =
     { $chance ->
         [1] Creates

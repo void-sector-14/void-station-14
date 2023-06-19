@@ -1,3 +1,6 @@
+ent-ClothingOuterHardsuitBasic = basic hardsuit
+    .desc = A basic, universal hardsuit that protects the wearer against the horrors of life in space. Beats not having a hardsuit, at least.
+    .suffix = { "" }
 ent-ClothingOuterHardsuitAtmos = скафандр атмос-техника
     .desc = Специальный костюм, защищающий от опасной среды с низким давлением. Имеет тепловую защиту.
     .suffix = { "" }

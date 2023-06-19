@@ -1,3 +1,7 @@
+ent-BaseLathe = lathe
+
+  .desc = { ent-['BaseMachinePowered', 'ConstructibleMachine'].desc }
+  .suffix = { "" }
 ent-Autolathe = автолат
     .desc = Он производит изделия из металла и стекла.
     .suffix = { "" }
@@ -21,4 +25,7 @@ ent-UniformPrinter = принтер униформы
     .suffix = { "" }
 ent-OreProcessor = переработчик руды
     .desc = Он производит металлические листы и слитки из руды.
+    .suffix = { "" }
+ent-Sheetifier = sheet-meister 2000
+    .desc = A very sheety machine.
     .suffix = { "" }

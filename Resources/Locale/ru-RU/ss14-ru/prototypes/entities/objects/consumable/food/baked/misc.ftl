@@ -64,3 +64,6 @@ ent-FoodBakedPretzel = крендель с маком
 ent-FoodBakedCannoli = канноли
     .desc = Сицилийское лакомство, превращает вас в мудреца.
     .suffix = { "" }
+ent-FoodBakedDumplings = dumplings
+    .desc = Average recipe for meat in doughs.
+    .suffix = { "" }
