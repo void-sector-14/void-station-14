@@ -19,6 +19,7 @@
       - id: CargoRequestComputerCircuitboard
       - id: CargoShuttleComputerCircuitboard
       - id: CargoShuttleConsoleCircuitboard
+      - id: SalvageShuttleConsoleCircuitboard
       - id: CigPackGreen
         prob: 0.50
       - id: DoorRemoteCargo
@@ -59,7 +60,7 @@
       - id: WeaponAntiqueLaser
       - id: JetpackCaptainFilled
       - id: MedalCase
-      
+
 - type: entity
   id: LockerCaptainFilled
   suffix: Filled
@@ -157,7 +158,6 @@
     contents:
       - id: ClothingNeckCloakCe
       - id: ClothingEyesGlassesMeson
-      - id: ClothingBeltChiefEngineerFilled
       - id: ClothingHeadHatBeretEngineering
       - id: ClothingHandsGlovesColorYellow
       - id: CigarCase

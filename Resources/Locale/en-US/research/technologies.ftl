@@ -4,6 +4,7 @@ research-discipline-biochemical = Biochemical
 research-discipline-experimental = Experimental
 research-discipline-civilian-services = Civilian Services
 
+research-technology-salvage-weapons = Salvage weapons
 research-technology-salvage-equipment = Salvage Equipment
 research-technology-advanced-powercells = Advanced Powercells
 research-technology-compact-power = Compact Power
@@ -25,6 +26,7 @@ research-technology-virology = Virology
 research-technology-cryogenics = Cryogenics
 research-technology-chemical-dispensary = Chemical Dispensary
 research-technology-crew-monitoring = Crew Monitoring
+research-technology-bluespace-chemistry = Bluespace Chemistry
 research-technology-cloning = Cloning
 
 research-technology-basic-robotics = Basic Robotics
@@ -34,6 +36,7 @@ research-technology-basic-xenoarcheology = Basic XenoArcheology
 research-technology-alternative-research = Alternative Research
 research-technology-magnets-tech = Localized Magnetism
 research-technology-advanced-parts = Advanced Parts
+research-technology-grappling = Grappling
 research-technology-abnormal-artifact-manipulation = Abnormal Artifact Manipulation
 research-technology-gravity-manipulation = Gravity Manipulation
 research-technology-mobile-anomaly-tech = Mobile Anomaly Tech
@@ -43,6 +46,7 @@ research-technology-super-parts = Super Parts
 research-technology-janitorial-equipment = Janitorial Equipment
 research-technology-laundry-tech = Laundry Tech
 research-technology-basic-hydroponics = Basic Hydroponics
+research-technology-hamtr = HAMTR Mech
 research-technology-food-service = Food Service
 research-technology-advanced-entertainment = Advanced Entertainment
 research-technology-audio-visual-communication = A/V Communication
@@ -50,4 +54,4 @@ research-technology-advanced-cleaning = Advanced Cleaning
 research-technology-meat-manipulation = Meat Manipulation
 research-technology-honk-mech = H.O.N.K. Mech
 research-technology-advanced-spray = Advanced Spray
-
+research-technology-bluespace-cargo-transport = Bluespace Cargo Transport

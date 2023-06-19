@@ -4,7 +4,6 @@ using Content.Server.Ghost;
 using Content.Server.Maps;
 using Content.Server.Mind;
 using Content.Server.Players;
-using Content.Shared.CCVar;
 using Content.Shared.GameTicking;
 using Content.Shared.Preferences;
 using JetBrains.Annotations;
@@ -18,7 +17,6 @@ using Robust.Shared.Player;
 using Robust.Shared.Random;
 using Robust.Shared.Utility;
 using System.Linq;
-using System.Threading.Tasks;
 using Content.Shared.Database;
 using Robust.Shared.Asynchronous;
 
@@ -65,9 +63,6 @@ namespace Content.Server.GameTicking
                 RaiseLocalEvent(new GameRunLevelChangedEvent(old, value));
             }
         }
-
-        [ViewVariables]
-        public int RoundId { get; private set; }
 
         /// <summary>
         /// Returns true if the round's map is eligible to be updated.
@@ -524,19 +519,18 @@ namespace Content.Server.GameTicking
         {
             if (Preset == null) return;
 
-            foreach (var proto in _prototypeManager.EnumeratePrototypes<RoundAnnouncementPrototype>())
-            {
-                if (!proto.GamePresets.Contains(Preset.ID)) continue;
+            var options = _prototypeManager.EnumeratePrototypes<RoundAnnouncementPrototype>().ToList();
 
-                if (proto.Message != null)
-                    _chatSystem.DispatchGlobalAnnouncement(Loc.GetString(proto.Message), playSound: true);
+            if (options.Count == 0)
+                return;
 
-                if (proto.Sound != null)
-                    SoundSystem.Play(proto.Sound.GetSound(), Filter.Broadcast());
+            var proto = _robustRandom.Pick(options);
 
-                // Only play one because A
-                break;
-            }
+            if (proto.Message != null)
+                _chatSystem.DispatchGlobalAnnouncement(Loc.GetString(proto.Message), playSound: true);
+
+            if (proto.Sound != null)
+                SoundSystem.Play(proto.Sound.GetSound(), Filter.Broadcast());
         }
     }
 
