@@ -13,3 +13,7 @@ wire-name-power = ПИТА
 wire-name-arcade-invincible = МНДЖР
 wire-name-vending-contraband = МНДЖР
 wire-name-vending-eject = ВБРС
+wire-name-pa-keyboard = KEYB
+wire-name-pa-limiter = LIMT
+wire-name-pa-power = POWR
+wire-name-pa-strength = STRC

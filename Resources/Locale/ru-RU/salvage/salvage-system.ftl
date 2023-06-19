@@ -18,3 +18,4 @@ salvage-system-magnet-examined-active =
     }
 salvage-system-magnet-examined-releasing = Магнит перестаёт удерживать обломки.
 salvage-system-magnet-examined-cooling-down = Магнит остывает. Он будет готов в течении: { $timeLeft } секунд.
+salvage-system-magnet-delay-upgrade = Attaching/cooldown delay

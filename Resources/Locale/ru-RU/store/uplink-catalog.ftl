@@ -13,6 +13,8 @@ uplink-edagger-name = Энергетический кинжал
 uplink-edagger-desc = Маленькое энергетический кинжал спрятанный под форму ручки.
 uplink-fire-axe-flaming-name = Пожарный топор
 uplink-fire-axe-flaming-desc = Стилизованный под классику топор соединёный с продвинутыми атмос технологиями чтобы поджигать цели.
+uplink-gloves-north-star-name = Gloves of the North Star
+uplink-gloves-north-star-desc = A pair of gloves that reduce your punching cooldown drastically, allowing you to beat people to death in a flurry of punches.
 # Взрывчатка
 uplink-explosive-grenade-name = Разрывная граната
 uplink-explosive-grenade-desc = Граната, создающая маленький, но разрушительный взрыв.
