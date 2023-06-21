@@ -12,4 +12,4 @@ chat-radio-service = Сервис
 chat-radio-supply = Поставки
 chat-radio-syndicate = Синдикат
 # not headset but whatever
-chat-radio-handheld = Handheld
+chat-radio-handheld = Рация

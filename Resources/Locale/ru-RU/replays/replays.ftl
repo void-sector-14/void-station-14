@@ -3,37 +3,37 @@
 replay-loading = Загрузка ({ $cur }/{ $total })
 replay-loading-reading = Чтение файлов
 replay-loading-processing = Обработка файлов
-replay-loading-spawning = Спавн ентити
-replay-loading-initializing = Инициализация ентити
-replay-loading-starting = Запуск ентити
+replay-loading-spawning = Спавн энтити
+replay-loading-initializing = Инициализация энтити
+replay-loading-starting = Запуск энтити
 replay-loading-failed =
-    Не удалось загрузить реплей:
+    Не удалось загрузить повтор:
     { $reason }
 # Main Menu
-replay-menu-subtext = Реплей клиент
-replay-menu-load = Загрузить выбранный реплей
-replay-menu-select = Выбрать реплей
-replay-menu-open = Открыть папку реплеев
-replay-menu-none = Не найдено реплеев.
+replay-menu-subtext = Клиент повтора
+replay-menu-load = Загрузить выбранный повтор
+replay-menu-select = Выбрать повтор
+replay-menu-open = Открыть папку повторов
+replay-menu-none = Ни одного повтора не найдено.
 # Main Menu Info Box
-replay-info-title = Информация реплея
-replay-info-none-selected = Реплеи не выбраны
-replay-info-invalid = [color=red]Требуется выбранный реплей[/color]
+replay-info-title = Информация о повторе
+replay-info-none-selected = Повтор не выбран
+replay-info-invalid = [color=red]Выбран недействительный повтор[/color]
 replay-info-info =
-    { "[" }color=gray]Selected:[/color]  { $name } ({ $file })
-    { "[" }color=gray]Time:[/color]   { $time }
-    { "[" }color=gray]Round ID:[/color]   { $roundId }
-    { "[" }color=gray]Duration:[/color]   { $duration }
-    { "[" }color=gray]ForkId:[/color]   { $forkId }
-    { "[" }color=gray]Version:[/color]   { $version }
-    { "[" }color=gray]Engine:[/color]   { $engVersion }
-    { "[" }color=gray]Type Hash:[/color]   { $hash }
-    { "[" }color=gray]Comp Hash:[/color]   { $compHash }
+    { "[" }color=gray]Выбран:[/color]  { $name } ({ $file })
+    { "[" }color=gray]Время:[/color]   { $time }
+    { "[" }color=gray]ID Раунда:[/color]   { $roundId }
+    { "[" }color=gray]Продолжительность:[/color]   { $duration }
+    { "[" }color=gray]ID Ветки:[/color]   { $forkId }
+    { "[" }color=gray]Версия:[/color]   { $version }
+    { "[" }color=gray]Версия движка:[/color]   { $engVersion }
+    { "[" }color=gray]Тип Хэша:[/color]   { $hash }
+    { "[" }color=gray]Скомп Хэш:[/color]   { $compHash }
 # Replay selection window
-replay-menu-select-title = Выбрать реплей
+replay-menu-select-title = Выбрать повтор
 # Replay related verbs
 replay-verb-spectate = Наблюдать
 # command
-cmd-replay-spectate-help = Реплей_наблюдатель [optional entity]
-cmd-replay-spectate-desc = Закрепляет или открепляет локального игрока к выбранной uid ентити.
-cmd-replay-spectate-hint = Возможный EntityUid
+cmd-replay-spectate-help = наблюдать_за_повтором [опциональное энтити]
+cmd-replay-spectate-desc = Прикрепляет или открепляет локального игрока к заданному uid энтити.
+cmd-replay-spectate-hint = Опциональный EntityUid

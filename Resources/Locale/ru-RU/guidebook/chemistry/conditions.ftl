@@ -1,47 +1,47 @@
 reagent-effect-condition-guidebook-total-damage =
     { $max ->
-        [2147483648] it has at least { NATURALFIXED($min, 2) } total damage
+        [2147483648] имеется больше чем { NATURALFIXED($min, 2) } общих повреждений
        *[other]
             { $min ->
-                [0] it has at most { NATURALFIXED($max, 2) } total damage
-               *[other] it has between { NATURALFIXED($min, 2) } and { NATURALFIXED($max, 2) } total damage
+                [0] имеется меньше чем { NATURALFIXED($max, 2) } общих повреждений
+               *[other] имеется между { NATURALFIXED($min, 2) } и { NATURALFIXED($max, 2) } общих повреждений
             }
     }
 reagent-effect-condition-guidebook-reagent-threshold =
     { $max ->
-        [2147483648] there's at least { NATURALFIXED($min, 2) }u of { $reagent }
+        [2147483648] больше чем { NATURALFIXED($min, 2) } ед. { $reagent }
        *[other]
             { $min ->
-                [0] there's at most { NATURALFIXED($max, 2) }u of { $reagent }
-               *[other] there's between { NATURALFIXED($min, 2) }u and { NATURALFIXED($max, 2) }u of { $reagent }
+                [0] меньше чем { NATURALFIXED($max, 2) } ед. { $reagent }
+               *[other] между { NATURALFIXED($min, 2) } ед. и { NATURALFIXED($max, 2) } ед. { $reagent }
             }
     }
-reagent-effect-condition-guidebook-mob-state-condition = the mob is { $state }
+reagent-effect-condition-guidebook-mob-state-condition = состояние существа { $state }
 reagent-effect-condition-guidebook-solution-temperature =
-    the solution's temperature is { $max ->
-        [2147483648] at least { NATURALFIXED($min, 2) }k
+    температура раствора { $max ->
+        [2147483648] выше { NATURALFIXED($min, 2) }К
        *[other]
             { $min ->
-                [0] at most { NATURALFIXED($max, 2) }k
-               *[other] between { NATURALFIXED($min, 2) }k and { NATURALFIXED($max, 2) }k
+                [0] ниже { NATURALFIXED($max, 2) }К
+               *[other] между { NATURALFIXED($min, 2) }К и { NATURALFIXED($max, 2) }К
             }
     }
 reagent-effect-condition-guidebook-body-temperature =
-    the body's temperature is { $max ->
-        [2147483648] at least { NATURALFIXED($min, 2) }k
+    температура тела { $max ->
+        [2147483648] выше { NATURALFIXED($min, 2) }К
        *[other]
             { $min ->
-                [0] at most { NATURALFIXED($max, 2) }k
-               *[other] between { NATURALFIXED($min, 2) }k and { NATURALFIXED($max, 2) }k
+                [0] ниже { NATURALFIXED($max, 2) }К
+               *[other] между { NATURALFIXED($min, 2) }К и { NATURALFIXED($max, 2) }К
             }
     }
 reagent-effect-condition-guidebook-organ-type =
-    the metabolizing organ { $shouldhave ->
-        [true] is
-       *[false] is not
-    } { INDEFINITE($name) } { $name } organ
+    метаболизирующий орган { $shouldhave ->
+        [true] является
+       *[false] не является
+    } органом { $name }
 reagent-effect-condition-guidebook-has-tag =
-    the target { $invert ->
-        [true] does not have
-       *[false] has
-    } the tag { $tag }
+    цель { $invert ->
+        [true] не имеет
+       *[false] имеет
+    } тэга { $tag }

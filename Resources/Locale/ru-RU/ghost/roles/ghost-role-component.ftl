@@ -99,5 +99,5 @@ ghost-role-information-cburn-agent-name = Агент РХБЗЗ
 ghost-role-information-cburn-agent-description = Высококвалифицированный агент ЦентКом, способный справляться с различными угрозами.
 ghost-role-information-centcom-official-name = Представитель ЦентКом
 ghost-role-information-centcom-official-description = Проинспектируйте станцию, запишите отзывы о работе глав отделов, прослушайте Капитана.
-ghost-role-information-behonker-name = Behonker
-ghost-role-information-behonker-description = You are an antagonist, bring death and honks to those who do not follow the honkmother.
+ghost-role-information-behonker-name = Бехонкер
+ghost-role-information-behonker-description = Вы - антагонист, сейте смерть и хонки тем, кто не следует за хонкоматерью.

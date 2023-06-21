@@ -5,7 +5,7 @@ salvage-expedition-structure-remaining =
         [few] { $count } структуры осталось
        *[other] { $count } структур осталось.
     }
-salvage-expedition-megafauna-remaining = { $count } оставшаяся мегафауна.
+salvage-expedition-megafauna-remaining = осталось { $count } существ мегафауны.
 salvage-expedition-window-title = Экспедиции утилизаторов
 salvage-expedition-window-difficulty = Сложность:
 salvage-expedition-window-details = Детали:
@@ -14,8 +14,6 @@ salvage-expedition-window-duration = Длительность:
 salvage-expedition-window-biome = Биом:
 salvage-expedition-window-modifiers = Модификаторы:
 salvage-expedition-window-rewards = Награды:
-salvage-expedition-window-loot = Лут:
-salvage-expedition-window-none = Н/Д
 salvage-expedition-window-claimed = Подтверждено
 salvage-expedition-window-claim = Подтвердить
 salvage-expedition-window-next = Следующее предложение

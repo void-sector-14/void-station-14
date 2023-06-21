@@ -9,14 +9,14 @@ uplink-rifle-mosin-name = Кардашев-Мосин
 uplink-rifle-mosin-desc = Винтовка с продольно-скользящим затвором, повидавшая немало войн. Не современная ни по каким стандартам, ручная перезарядка и ужасная отдача, но дешёвая.
 uplink-esword-name = Энергетический меч
 uplink-esword-desc = Очень опасный энергетический меч, который может отражать выстрелы. Выключенным может храниться в кармане. Производит много шума при использовании и включении.
-uplink-esword-double-name = Double Bladed Energy Sword
-uplink-esword-double-desc = A much more expensive counter part to the normal energy sword: with a much higher reflection chance, larger attack angle, higher structural damage, and faster swing, all at the cost of lower heat and slash damage. Makes a lot of noise when used or turned on.
+uplink-esword-double-name = Сдвоенный энергетический меч
+uplink-esword-double-desc = Гораздо более дорогой аналог обычного энергетического меча с гораздо более высоким шансом отражения, большим углом атаки, большим уроном по конструкциям и более быстрым взмахом, и все это за счет уменьшения термического и колющего урона. При использовании или включении издает много шума.
 uplink-edagger-name = Энергетический кинжал
 uplink-edagger-desc = Маленькое энергетический кинжал спрятанный под форму ручки.
 uplink-fire-axe-flaming-name = Пожарный топор
 uplink-fire-axe-flaming-desc = Стилизованный под классику топор соединёный с продвинутыми атмос технологиями чтобы поджигать цели.
 uplink-gloves-north-star-name = Перчатки северной звезды
-uplink-gloves-north-star-desc = Пара перчаток которые значительно сокращают время между ударами, позволяя забивать людей до смерти градом ударов.
+uplink-gloves-north-star-desc = Пара перчаток, которые значительно сокращают задержку между ударами, позволяя забивать людей до смерти градом ударов.
 # Взрывчатка
 uplink-explosive-grenade-name = Разрывная граната
 uplink-explosive-grenade-desc = Граната, создающая маленький, но разрушительный взрыв.
