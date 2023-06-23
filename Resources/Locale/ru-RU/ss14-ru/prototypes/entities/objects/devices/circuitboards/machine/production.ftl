@@ -158,5 +158,5 @@ ent-TelecomServerCircuitboard = телеком сервер (машинная п
     .desc = Печатная плата телекоммуникационого сервера.
     .suffix = { "" }
 ent-SalvageMagnetMachineCircuitboard = магнит обломков (машинная плата)
-    .desc =  Печатная плата магнита обломков.
+    .desc = Печатная плата магнита обломков.
     .suffix = { "" }
