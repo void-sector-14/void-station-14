@@ -34,3 +34,6 @@ ent-OmnizineChemistryBottle = бутылочка омнизина
 ent-CognizineChemistryBottle = бутылочка когнизина
     .desc = { ent-BaseChemistryEmptyBottle.desc }
     .suffix = { "" }
+ent-ToxinChemistryBottle = toxin bottle
+    .desc = { ent-BaseChemistryEmptyBottle.desc }
+    .suffix = { "" }
