@@ -1,4 +1,4 @@
-ent-BaseLathe = lathe
+ent-BaseLathe = лат
 
   .desc = { ent-['BaseMachinePowered', 'ConstructibleMachine'].desc }
   .suffix = { "" }
@@ -26,6 +26,6 @@ ent-UniformPrinter = принтер униформы
 ent-OreProcessor = переработчик руды
     .desc = Он производит металлические листы и слитки из руды.
     .suffix = { "" }
-ent-Sheetifier = sheet-meister 2000
-    .desc = A very sheety machine.
+ent-Sheetifier = лист-мастер 2000
+    .desc = Очень листовая машина.
     .suffix = { "" }

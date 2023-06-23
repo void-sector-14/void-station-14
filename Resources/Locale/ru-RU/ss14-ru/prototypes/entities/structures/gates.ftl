@@ -1,12 +1,9 @@
 ent-BaseLogicItem = { ent-BaseItem }
     .desc = { ent-BaseItem.desc }
     .suffix = { "" }
-ent-LogicGate = logic gate
-    .desc = A logic gate with two inputs and one output. Technicians can change its mode of operation using a screwdriver.
+ent-LogicGate = логический элемент
+    .desc = Логический элемент с двумя входами и одним выходом. Можно изменить режим работы с помощью отвертки.
     .suffix = { "" }
-ent-EdgeDetector = edge detector
-    .desc = Splits rising and falling edges into unique pulses and detects how edgy you are.
-    .suffix = { "" }
-ent-OrGate = MS7432
-    .desc = Двойной 2-Порта ИЛИ Направляющий.
+ent-EdgeDetector = детектор фронта
+    .desc = Разделяет нарастающие и спадающие фронты на уникальные импульсы и определяет, насколько вы нервный.
     .suffix = { "" }

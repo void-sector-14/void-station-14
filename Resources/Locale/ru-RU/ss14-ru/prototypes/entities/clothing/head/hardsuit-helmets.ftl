@@ -1,5 +1,5 @@
-ent-ClothingHeadHelmetHardsuitBasic = basic hardsuit helmet
-    .desc = A basic-looking hardsuit helmet that provides minor protection against most sources of damage.
+ent-ClothingHeadHelmetHardsuitBasic = базовый шлем скафандра
+    .desc = Базовый шлем для скафандра, обеспечивающий незначительную защиту от большинства повреждений.
     .suffix = { "" }
 ent-ClothingHeadHelmetHardsuitAtmos = шлем скафандра атмос-техника
     .desc = Специальный шлем скафандра, предназначенный для работы в условиях низкого давления и высокой температуры.

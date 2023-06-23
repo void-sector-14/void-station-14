@@ -1,6 +1,6 @@
 ent-XenoWardingTower = Башня охраны Ксено
     .desc = { "" }
     .suffix = { "" }
-ent-CarpStatue = carp statue
-    .desc = A statue of one of the brave carp that got us where we are today. Made with real teeth!
+ent-CarpStatue = статуя карпа
+    .desc = Статуя одного из храбрых карпов, благодаря которому мы оказались там, где мы сейчас. Сделана с настоящими зубами!
     .suffix = { "" }

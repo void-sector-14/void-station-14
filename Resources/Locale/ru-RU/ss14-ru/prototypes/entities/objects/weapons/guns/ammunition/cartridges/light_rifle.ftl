@@ -13,6 +13,6 @@ ent-CartridgeLightRiflePractice = патрон (.30 винтовочный уч�
 ent-CartridgeLightRifleRubber = патрон (.30 винтовочный резиновый)
     .desc = { ent-BaseCartridgeLightRifle.desc }
     .suffix = { "" }
-ent-CartridgeLightRifleIncendiary = cartridge (.30 rifle incendiary)
+ent-CartridgeLightRifleIncendiary = патрон (.30 винтовочный зажигательный)
     .desc = { ent-BaseCartridgeLightRifle.desc }
     .suffix = { "" }
