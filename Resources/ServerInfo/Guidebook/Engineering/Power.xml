@@ -4,6 +4,8 @@
 <Box>
 <GuideEntityEmbed Entity="CableHVStack"/>
 <GuideEntityEmbed Entity="CableMVStack"/>
+</Box>
+<Box>
 <GuideEntityEmbed Entity="CableApcStack"/>
 </Box>
 

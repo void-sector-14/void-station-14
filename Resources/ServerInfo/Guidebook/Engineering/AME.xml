@@ -8,6 +8,8 @@
 <Box>
 <GuideEntityEmbed Entity="AMEController"/>
 <GuideEntityEmbed Entity="AMEPart"/>
+</Box>
+<Box>
 <GuideEntityEmbed Entity="AMEJar"/>
 </Box>
 

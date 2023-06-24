@@ -17,6 +17,8 @@
 <Box>
 <GuideEntityEmbed Entity="Emitter"/>
 <GuideEntityEmbed Entity="ContainmentFieldGenerator"/>
+</Box>
+<Box>
 <GuideEntityEmbed Entity="ContainmentField"/>
 </Box>
 Эмиттеры подключаются к МВ-кабелям и стреляют лазерами, пока у них есть питание и они включены.
@@ -38,7 +40,7 @@
 </Box>
 
 <Box>
-<GuideEntityEmbed Entity="ParticleAcceleratorControlBox" Caption="PA computer"/>
+<GuideEntityEmbed Entity="ParticleAcceleratorControlBox" Caption="консоль УЧ"/>
 <GuideEntityEmbed Entity="ParticleAcceleratorFuelChamber"/>
 <GuideEntityEmbed Entity="CableHV"/>
 </Box>
@@ -48,9 +50,9 @@
 </Box>
 
 <Box>
-<GuideEntityEmbed Entity="ParticleAcceleratorEmitterStarboard" Caption="Starboard Emitter"/>
-<GuideEntityEmbed Entity="ParticleAcceleratorEmitterFore" Caption="Fore Emitter"/>
-<GuideEntityEmbed Entity="ParticleAcceleratorEmitterPort" Caption="Port Emitter"/>
+<GuideEntityEmbed Entity="ParticleAcceleratorEmitterStarboard" Caption="Прав эмиттер"/>
+<GuideEntityEmbed Entity="ParticleAcceleratorEmitterFore" Caption="Центр эмиттер"/>
+<GuideEntityEmbed Entity="ParticleAcceleratorEmitterPort" Caption="Лев эмиттер"/>
 </Box>
 
 Ускоритель частиц (УЧ) - это конструкция из нескольких элементов, которая запускает ускоренные частицы из своих эмиттеров. Его излучатели всегда должны быть обращены к генератору гравитационной сингулярности.
@@ -95,6 +97,8 @@
 
 <Box>
 <GuideEntityEmbed Entity="ClosetRadiationSuit"/>
+</Box>
+<Box>
 <GuideEntityEmbed Entity="ClothingOuterSuitRad"/>
 <GuideEntityEmbed Entity="GeigerCounter"/>
 </Box>
