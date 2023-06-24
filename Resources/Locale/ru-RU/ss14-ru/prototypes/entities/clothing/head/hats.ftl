@@ -160,6 +160,3 @@ ent-ClothingHeadHatHetmanHat = Гетманская шляпа
 ent-ClothingHeadHatMagician = шляпа фокусника.
     .desc = Шляпа фокусника.
     .suffix = { "" }
-ent-ClothingHeadClothingHeadHatWatermelon = арбузный шлем
-    .desc = Небрежно разрезанная половина арбуза, выпотрошенная изнутри, для ношения в качестве шлема. Он может смягчить удар по голове.
-    .suffix = { "" }
