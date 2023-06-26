@@ -11,10 +11,16 @@
   id: AppraisalTool
 
 - type: Tag
+  id: ArtifactFragment
+
+- type: Tag
   id: ATVKeys
 
 - type: Tag
   id: Baguette
+
+- type: Tag
+  id: BaseballBat
 
 - type: Tag
   id: Bee
@@ -65,6 +71,9 @@
   id: BrassInstrument
 
 - type: Tag
+  id: Briefcase
+
+- type: Tag
   id: Brutepack
 
 - type: Tag
@@ -72,6 +81,9 @@
 
 - type: Tag
   id: BulletFoam
+
+- type: Tag
+  id: BypassInteractionRangeChecks
 
 - type: Tag
   id: CableCoil
@@ -240,6 +252,9 @@
   id: DroneUsable
 
 - type: Tag
+  id: Ectoplasm
+
+- type: Tag
   id: Egg
 
 - type: Tag
@@ -250,6 +265,9 @@
 
 - type: Tag
   id: ExplosivePassable
+
+- type: Tag
+  id: Figurine
 
 - type: Tag
   id: FireAlarm
@@ -285,6 +303,9 @@
   id: FootstepSound
 
 - type: Tag
+  id: ForceableFollow
+
+- type: Tag
   id: ForceFixRotations # fixrotations command WILL target this
 
 - type: Tag
@@ -314,6 +335,28 @@
 - type: Tag
   id: GuideEmbeded
 
+
+- type: Tag
+  id: Hamster
+
+- type: Tag
+  id: HamtrCentralControlModule
+
+- type: Tag
+  id: HamtrPeripheralsControlModule
+
+- type: Tag
+  id: HamtrLArm
+
+- type: Tag
+  id: HamtrLLeg
+
+- type: Tag
+  id: HamtrRLeg
+
+- type: Tag
+  id: HamtrRArm
+
 - type: Tag
   id: Handcuffs
 
@@ -323,9 +366,6 @@
 
 - type: Tag
   id: Hardsuit # Prevent melee injectors that can't penetrate hardsuits from injecting the wearer (nettles)
-
-- type: Tag
-  id: HardsuitEVA
 
 - type: Tag
   id: Head
@@ -377,6 +417,9 @@
 
 - type: Tag
   id: Ingot
+
+- type: Tag
+  id: InstantDoAfters
 
 - type: Tag
   id: IntercomElectronics
@@ -496,6 +539,9 @@
   id: Mop
 
 - type: Tag
+  id: Mouse
+
+- type: Tag
   id: Multitool
 
 - type: Tag
@@ -550,7 +596,13 @@
   id: PlantSampleTaker
 
 - type: Tag
+  id: PlasmaGlassShard
+
+- type: Tag
   id: Plastic
+
+- type: Tag
+  id: PlushieGhost
 
 - type: Tag
   id: Powerdrill
@@ -570,6 +622,9 @@
 # Give this to something that doesn't need any special recycler behavior and just needs deleting.
 - type: Tag
   id: Recyclable
+
+- type: Tag
+  id: ReinforcedGlassShard
 
 - type: Tag
   id: RipleyCentralControlModule
@@ -623,6 +678,9 @@
   id: SkeletonMotorcycleKeys
 
 - type: Tag
+  id: SmallMech
+
+- type: Tag
   id: Smokable
 
 - type: Tag
@@ -659,7 +717,13 @@
   id: StringInstrument
 
 - type: Tag
+  id: StationMapElectronics
+
+- type: Tag
   id: SubdermalImplant
+
+- type: Tag
+  id: SuitEVA
 
 - type: Tag
   id: SurveillanceCameraMonitorCircuitboard
@@ -689,10 +753,16 @@
   id: TimerSignalElectronics
 
 - type: Tag
+  id: Toolbox
+
+- type: Tag
   id: Trash
 
 - type: Tag
   id: TrashBag
+
+- type: Tag
+  id: UraniumGlassShard
 
 - type: Tag
   id: VehicleKey
