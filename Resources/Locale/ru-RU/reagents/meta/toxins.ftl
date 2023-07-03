@@ -38,3 +38,5 @@ reagent-name-pax = пакс
 reagent-desc-pax = Психиатрический препарат, который не позволяет употребившему причинять вред кому-либо напрямую.
 reagent-name-honk = хонк
 reagent-desc-honk = Токсин, содержащийся в бананиуме. Вызывает сильное гудение и внутреннее кровотечение, также может вызвать мутацию пациента.
+reagent-name-lead = lead
+reagent-desc-lead = A slow-acting but incredibly lethal toxin found in steel, albiet in trace amounts. Tasteless.
