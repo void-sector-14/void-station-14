@@ -20,5 +20,5 @@ ent-CrateEngineeringMiniJetpack = ящик мини джетпаков
     .desc = Два мини джетпака для тех, кто хочет дополнительное испытание.
 ent-CrateAirlockKit = ящик компонентов шлюзов
     .desc = Набор для постройки 6 шлюзов. Не включает в себя инструменты.
-ent-CrateEvaKit = EVA kit
-    .desc = A set consisting of two prestigious EVA suits and helmets.
+ent-CrateEvaKit = ящик набора EVA
+    .desc = Набор, состоящий из двух престижных костюмов EVA и шлемов.
