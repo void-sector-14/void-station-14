@@ -58,3 +58,6 @@ ent-PaintingAmogusTriptych = Триптих Амогус (Безымянный)
 ent-PaintingHelloWorld = Здравствуй мир
     .desc = Эта картина выполнена из множества разноцветных квадратов, расположенных в необычном порядке. Возможно, это что-то означает?
     .suffix = { "" }
+ent-PaintingSadClown = Sad Clown
+    .desc = This painting is a sad clown! It sparks joy.
+    .suffix = { "" }

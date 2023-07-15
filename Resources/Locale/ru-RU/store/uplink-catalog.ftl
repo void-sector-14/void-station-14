@@ -122,6 +122,8 @@ uplink-chimp-ammo-name = Коробка с 10 Омега картриджами.
 uplink-chimp-ammo-desc = Коробка с 10 картриджами с омега-частицами для Ш.И.М.П. Омега-частицы наносят сильные ожоги и вызывают сверхкритические аномалии.
 uplink-proximity-mine-name = Бесконтактная мина
 uplink-proximity-mine-desc = Мина, замаскированная под знак "мокрый пол".
+uplink-disposable-turret-name = Disposable Ballistic Turret
+uplink-disposable-turret-desc = Looks and functions like a normal electrical toolbox. Upon hitting the toolbox it will transform into a ballistic turret, theoretically shooting at anyone except members of the syndicate.
 # Броня
 uplink-chameleon-name = Набор Хамелеона
 uplink-chameleon-desc = Рюкзак, полный предметов, содержащих технологию хамелеона, позволяющую Вам маскироваться практически под что угодно на станции, и многое другое!
@@ -160,6 +162,8 @@ uplink-stimkit-name = Стимкит
 uplink-stimkit-desc = Аптечка, содержащая 6 микроинъекторов стимуляторов, каждый из которых вводит Вам достаточное количество стимуляторов в течение минуты.
 uplink-syndicate-segway-crate-name = Сегвей синдиката
 uplink-syndicate-segway-crate-desc = Будь врагом корпорации, со стилем!
+uplink-syndicate-sponge-box-name = Syndicate Sponge Box
+uplink-syndicate-sponge-box-desc = A box containing 6 syndicate sponges disguised as monkey cubes, these cubes turn into a variety of angry wildlife after coming into contact with water.
 # Безделушки
 uplink-revolver-cap-gun-name = Пистон
 uplink-revolver-cap-gun-desc = Почти как настоящий! От 8 лет и старше.

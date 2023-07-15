@@ -4,3 +4,6 @@ ent-MonkeyCube = обезьяний кубик
 ent-DehydratedSpaceCarp = обезвоженный космический карп
     .desc = Выглядит как плюшевый игрушечный карп, но стоит только добавить воды, и он превращается в настоящего космического карпа!
     .suffix = { "" }
+ent-SyndicateSponge = monkey cube
+    .desc = Just add water!
+    .suffix = Syndicate
