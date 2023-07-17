@@ -28,3 +28,6 @@ ent-MicroBombImplant = micro bomb implant
 ent-MacroBombImplant = macro bomb implant
     .desc = a large explosion packed into a small implant, be warned as this could be dangerous for your teammates
     .suffix = { "" }
+ent-DeathRattleImplant = deathrattle implant
+    .desc = sends a message with your location to the syndicate radio channel when you fall into a critical state or die.
+    .suffix = { "" }

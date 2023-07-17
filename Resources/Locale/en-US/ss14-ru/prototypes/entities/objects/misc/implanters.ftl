@@ -34,3 +34,6 @@ ent-MicroBombImplanter = micro bomb implanter
 ent-MacroBombImplanter = macro bomb implanter
     .desc = a single use implanter, the implant creates a large explosion on death after the alloted time
     .suffix = { "" }
+ent-DeathRattleImplanter = Deathrattle implanter
+    .desc = a single use implanter, the implant will inform anyone with access to the syndicate radio channel of your death.
+    .suffix = { "" }
