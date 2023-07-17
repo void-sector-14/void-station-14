@@ -77,10 +77,10 @@ uplink-freedom-implanter-name = Имплантат свободы
 uplink-freedom-implanter-desc = Убеги прочь от этих противных офицеров безопасности с этим трёхразовым имплантом!
 uplink-macro-bomb-implanter-name = Имплантат макробомбы
 uplink-macro-bomb-implanter-desc = Введи это и после смерти твоё тело сдетонирует. Большой шанс навредить команде, используйте на свой страх и риск. Имплантирует внутреннюю макробомбу.
-uplink-uplink-implanter-name = Имплантирование Аплинки
+uplink-uplink-implanter-name = Имплантат аплинка
 uplink-uplink-implanter-desc = Незаметно заказывайте оборудование без использования КПК. Глотайте телекристаллы, чтобы пополнить запасы связи.
-uplink-deathrattle-implant-name = Box Of Deathrattle Implants
-uplink-deathrattle-implant-desc = A box containing enough deathrattle implants for the whole squad. Relays a message containing your position to the syndicate channel when you go into a critical state or die.
+uplink-deathrattle-implant-name = Коробка имплантатов предсмертнохрип
+uplink-deathrattle-implant-desc = Коробка, содержащая достаточное количество имплантатов предсмертнохрип для всего отряда. Передаёт сообщение о вашем местоположении по каналу синдиката, когда вы входите в критическое состояние или погибаете.
 # Наборы
 uplink-c20r-bundle-name = Набор С-20r
 uplink-c20r-bundle-desc = Старый и верный: Классический пистолет-пулемет C-20r, в наборе с 3 магазинами.

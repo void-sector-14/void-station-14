@@ -9,16 +9,16 @@ instruments-component-menu-no-midi-support =
     FluidSynth или пакет разработки
     для FluidSynth.
 instruments-component-menu-input-button = MIDI Ввод
-instruments-component-menu-band-button = Join Band
+instruments-component-menu-band-button = Присоединиться к группе
 instruments-component-menu-play-button = Воспроизвести MIDI файл
 instruments-component-menu-loop-button = Повтор
-instruments-component-menu-channels-button = Channels
+instruments-component-menu-channels-button = Каналы
 instruments-component-menu-stop-button = Стоп
-instruments-component-band-menu = Choose band leader
-instrument-component-band-refresh = Refresh
-instruments-component-channels-menu = MIDI Channel Selection
-instrument-component-channel-name = MIDI Channel { $number }
-instruments-component-channels-all-button = All
-instruments-component-channels-clear-button = Clear
+instruments-component-band-menu = Выберите руководителя группы
+instrument-component-band-refresh = Обновить
+instruments-component-channels-menu = Выбор канала MIDI
+instrument-component-channel-name = Канал MIDI { $number }
+instruments-component-channels-all-button = Все
+instruments-component-channels-clear-button = Очистить
 # SwappableInstrumentComponent
 swappable-instrument-component-style-set = Установить стиль на "{ $style }"
