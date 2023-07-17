@@ -42,3 +42,6 @@ ent-MicroBombImplanter = шприц имплантата микро бомбы
 ent-MacroBombImplanter = шприц имплантата макро бомбы
     .desc = Одноразовый шприц для ввода имплантата, имплантат создаёт большой взрыв при смерти после определённого времени
     .suffix = { "" }
+ent-DeathRattleImplanter = Deathrattle implanter
+    .desc = a single use implanter, the implant will inform anyone with access to the syndicate radio channel of your death.
+    .suffix = { "" }

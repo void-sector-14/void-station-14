@@ -73,3 +73,6 @@ ent-BoxEncryptionKeyService = ящик для ключей шифрования 
 ent-BoxEncryptionKeySyndie = ящик для ключей шифрования синдиката
     .desc = Два ключа шифрования синдиката по цене одного. Миниатюрный для простоты использования.
     .suffix = { "" }
+ent-BoxDeathRattleImplants = deathrattle implant box
+    .desc = Six deathrattle implants and handheld GPS devices for the whole squad.
+    .suffix = { "" }

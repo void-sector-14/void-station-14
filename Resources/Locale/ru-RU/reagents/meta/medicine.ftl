@@ -70,3 +70,5 @@ reagent-name-diphenylmethylamine = дифенилметиламин
 reagent-desc-diphenylmethylamine = Более стабильный препарат, чем этилоксиэфедрин. Полезен для того, чтобы не дать кому-то уснуть.
 reagent-name-sigynate = сигинат
 reagent-desc-sigynate = Густой розовый сироп, полезный для нейтрализации кислот и смягчения травм, вызванных кислотами. На вкус сладкий!
+reagent-name-saline = saline
+reagent-desc-saline = "A mixture of salt and water. Commonly used to treat dehydration or low fluid presence in blood."

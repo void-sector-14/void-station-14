@@ -79,6 +79,8 @@ uplink-macro-bomb-implanter-name = Имплантат макробомбы
 uplink-macro-bomb-implanter-desc = Введи это и после смерти твоё тело сдетонирует. Большой шанс навредить команде, используйте на свой страх и риск. Имплантирует внутреннюю макробомбу.
 uplink-uplink-implanter-name = Имплантирование Аплинки
 uplink-uplink-implanter-desc = Незаметно заказывайте оборудование без использования КПК. Глотайте телекристаллы, чтобы пополнить запасы связи.
+uplink-deathrattle-implant-name = Box Of Deathrattle Implants
+uplink-deathrattle-implant-desc = A box containing enough deathrattle implants for the whole squad. Relays a message containing your position to the syndicate channel when you go into a critical state or die.
 # Наборы
 uplink-c20r-bundle-name = Набор С-20r
 uplink-c20r-bundle-desc = Старый и верный: Классический пистолет-пулемет C-20r, в наборе с 3 магазинами.
