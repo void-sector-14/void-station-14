@@ -42,5 +42,5 @@ ent-CrateVendingMachineRestockDonutFilled = ящик пополнения Пон
     .desc = Содержит два набора пополнения торгоматов Пончики Монкинс.
 ent-CrateVendingMachineRestockHappyHonkFilled = ящик пополнения Счастливый Хонк
     .desc = Содержит набор пополнения торгомата Счастливый Хонк.
-ent-CrateVendingMachineRestockChemVendFilled = ChemVend restock crate
-    .desc = Contains a restock box for the ChemVend.
+ent-CrateVendingMachineRestockChemVendFilled = ящик пополнения ХимВенд
+    .desc = Содержит набор пополнения торгомата ХимВенд.

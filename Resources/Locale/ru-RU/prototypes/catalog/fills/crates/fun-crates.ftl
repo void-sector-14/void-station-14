@@ -30,5 +30,5 @@ ent-CrateFunSyndicateSegway = ящик с сегвеем синдиката
     .desc = { ent-CrateLivestock.desc }
 ent-CrateFunBoxing = боксёрский ящик
     .desc = Хотите создать подпольный бойцовский клуб или устроить турнир среди команды станции? Этот ящик для Вас!
-ent-CrateFunBikeHornImplants = Bike Horn Implants
-    .desc = A thousand honks a day keeps security officers away!
+ent-CrateFunBikeHornImplants = ящик с имплантами клаксона
+    .desc = Тысяча клаксонов в день рассеивает сотрудников службы безопасности лень!

@@ -22,5 +22,5 @@ use-freedom-implant-action-name = Вырваться на свободу
 use-freedom-implant-action-description = Активация имплантата свободы избавит Вас от любых ограничений для рук
 open-uplink-implant-action-name = Открыть Аплинк
 open-uplink-implant-action-description = Открывает аплинк синдиката, встроенный в Вашу кожу
-action-name-honk = Honk!
-action-desc-honk = Activates your honking implant, which will produce the signature sound of the clown.
+action-name-honk = Хонк!
+action-desc-honk = Активирует ваш хонкающий имплантат, который будет издавать фирменный звук клоуна.
