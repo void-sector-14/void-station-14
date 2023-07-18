@@ -1,9 +1,9 @@
-ent-BaseBoardEntity = board
-    .desc = A blank board.
+ent-BaseBoardEntity = доска
+    .desc = Пустая доска.
     .suffix = { "" }
 ent-BaseTabletopPiece = { ent-BaseItem }
     .desc = { ent-BaseItem.desc }
     .suffix = { "" }
-ent-BaseBoardTabletop = baseboard
+ent-BaseBoardTabletop = базовая доска
     .desc = { "" }
     .suffix = { "" }

@@ -1,9 +1,6 @@
 ent-BaseGenericTabletopPiece = { ent-BaseTabletopPiece }
     .desc = { ent-BaseTabletopPiece.desc }
     .suffix = { "" }
-ent-BaseTabletopPiece = { ent-BaseItem }
-    .desc = { ent-BaseItem.desc }
-    .suffix = { "" }
 ent-RedTabletopPiece = красная фишка
     .desc = { ent-BaseTabletopPiece.desc }
     .suffix = { "" }

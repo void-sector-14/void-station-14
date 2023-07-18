@@ -3,7 +3,7 @@
 tabletop-verb-play-game = Играть
 tabletop-verb-dump-pieces = Сбросить элементы
 tabletop-default-board-name = Настольная игра
-tabletop-error-remove-non-hologram = Вы не можете удалить встроенный элемент!
+tabletop-error-remove-non-hologram = Вы не можете удалить поставленный элемент!
 tabletop-added-piece = Доска сияет ярким светом!
 
 ## Chess
