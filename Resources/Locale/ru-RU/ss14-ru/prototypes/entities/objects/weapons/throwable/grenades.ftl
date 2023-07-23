@@ -22,3 +22,6 @@ ent-ModularGrenade = модульная граната
 ent-EmpGrenade = ЭМИ граната
     .desc = Граната, предназначенная для поражения электронных систем.
     .suffix = { "" }
+ent-HolyHandGrenade = holy hand grenade
+    .desc = O Lord, bless this thy hand grenade, that with it thou mayst blow thine enemies to tiny bits, in thy mercy.
+    .suffix = { "" }

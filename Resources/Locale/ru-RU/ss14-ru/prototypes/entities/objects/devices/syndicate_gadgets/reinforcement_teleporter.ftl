@@ -1,3 +1,9 @@
 ent-ReinforcementRadioSyndicate = радио подкрепления синдиката
     .desc = Вызывает к Вам агента крайне сомнительного качества, мгновенно! Предоставляется только основное оборудование.
     .suffix = { "" }
+ent-ReinforcementRadioSyndicateNukeops = { ent-ReinforcementRadioSyndicate }
+    .suffix = NukeOps
+    .desc = { ent-ReinforcementRadioSyndicate.desc }
+ent-ReinforcementRadioSyndicateMonkey = syndicate monkey reinforcement radio
+    .desc = Calls in a specially trained monkey to assist you.
+    .suffix = { "" }
