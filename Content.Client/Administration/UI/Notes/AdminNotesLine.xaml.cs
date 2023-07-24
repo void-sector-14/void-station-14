@@ -154,7 +154,7 @@ public sealed partial class AdminNotesLine : BoxContainer
         }
         else
         {
-            sb.Append("for ");
+            sb.Append("на ");
             var banLength = Note.ExpiryTime.Value - Note.CreatedAt;
             if (banLength.Days > 0)
                 sb.Append(Loc.GetString("admin-notes-days", ("days", banLength.TotalDays.ToString(".00"))));
