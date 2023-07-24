@@ -94,8 +94,8 @@ public sealed partial class AdminNotesLine : BoxContainer
             if (Note.ExpiryTime.Value > DateTime.UtcNow)
             {
                 ExpiresLabel.Text = Loc.GetString("admin-note-editor-expiry-label-params",
-                    ("date", Note.ExpiryTime.Value.ToString("yyyy-MM-dd HH:mm:ss")),
-                    ("expiresIn", (Note.ExpiryTime.Value - DateTime.UtcNow).ToString("d'd 'hh':'mm")));
+                    ("date", Note.ExpiryTime.Value.ToString("dd-MM-yyyy HH:mm:ss")),
+                    ("expiresIn", (Note.ExpiryTime.Value - DateTime.UtcNow).ToString("d'д 'hh':'mm")));
                 ExpiresLabel.Modulate = Color.FromHex("#86DC3D");
             }
             else
