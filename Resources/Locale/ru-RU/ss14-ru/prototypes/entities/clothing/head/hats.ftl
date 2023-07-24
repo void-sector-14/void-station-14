@@ -172,3 +172,6 @@ ent-ClothingHeadHatHetmanHat = Гетманская шляпа
 ent-ClothingHeadHatMagician = шляпа фокусника.
     .desc = Шляпа фокусника.
     .suffix = { "" }
+ent-ClothingHeadHatCapcap = cap cap
+    .desc = A grand, stylish captain cap.
+    .suffix = { "" }
