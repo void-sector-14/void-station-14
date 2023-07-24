@@ -289,7 +289,7 @@ public sealed partial class BanPanel : DefaultWindow
         var minutes = (uint) (TimeEntered * Multiplier);
         ExpiresLabel.Text = minutes == 0
             ? $"{Loc.GetString("admin-note-editor-expiry-label")} {Loc.GetString("server-ban-string-never")}"
-            : $"{Loc.GetString("admin-note-editor-expiry-label")} {DateTime.Now + TimeSpan.FromMinutes(minutes):yyyy/MM/dd HH:mm:ss}";
+            : $"{Loc.GetString("admin-note-editor-expiry-label")} {DateTime.Now + TimeSpan.FromMinutes(minutes):dd/MM/yyyy HH:mm:ss}";
     }
 
     private void OnIpChanged()

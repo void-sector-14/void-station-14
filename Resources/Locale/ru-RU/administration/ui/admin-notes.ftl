@@ -16,7 +16,7 @@ admin-notes-round-id-unknown = Id раунда: неизвестно
 admin-notes-created-by = Создал: { $author }
 admin-notes-created-at = Создано в: { $date }
 admin-notes-last-edited-by = Последним изменил: { $author }
-admin-notes-last-edited-at = Последнее изменение в: { $date }
+admin-notes-last-edited-at = Последняя правка в: { $date }
 admin-notes-edit = Изменить
 admin-notes-delete = Удалить
 admin-notes-hide = Скрыть
@@ -57,7 +57,7 @@ admin-note-editor-expiry-checkbox-tooltip = Если установить это
 admin-note-editor-expiry-label = Истекает:
 admin-note-editor-expiry-label-params = Истекает: { $date } (через { $expiresIn })
 admin-note-editor-expiry-label-expired = Истёк
-admin-note-editor-expiry-placeholder = Введите срок действия (yyyy-MM-dd HH:mm:ss)
+admin-note-editor-expiry-placeholder = Введите срок действия (дд-мм-гггг ЧЧ:мм:сс)
 admin-note-editor-submit = Отправить
 admin-note-editor-submit-confirm = Вы уверены?
 # Watchlist and message login

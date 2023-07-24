@@ -143,7 +143,7 @@ public sealed partial class NoteEdit : FancyWindow
         ExpiryLabel.Visible = !PermanentCheckBox.Pressed;
         ExpiryLineEdit.Visible = !PermanentCheckBox.Pressed;
 
-        ExpiryLineEdit.Text = !PermanentCheckBox.Pressed ? DateTime.UtcNow.ToString("yyyy-MM-dd HH:mm:ss") : string.Empty;
+        ExpiryLineEdit.Text = !PermanentCheckBox.Pressed ? DateTime.UtcNow.ToString("dd-MM-yyyy HH:mm:ss") : string.Empty;
     }
 
     private void OnSecretPressed(BaseButton.ButtonEventArgs _)
