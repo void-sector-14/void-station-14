@@ -16,15 +16,15 @@ cmd-ban-hint-duration-4 = 1 неделя
 cmd-ban-hint-duration-5 = 2 недели
 # ban panel
 cmd-banpanel-desc = Открывает панель бана
-cmd-banpanel-help = Использование: banpanel [имя или ID пользователя]
+cmd-banpanel-help = Использование: banpanel [никнейм или ID пользователя]
 cmd-banpanel-server = Это не может быть использовано в консоли сервера
 cmd-banpanel-player-err = Указанный игрок не найден
 cmd-ban-hint-duration-6 = 1 месяц
 # listbans
 cmd-banlist-desc = Выводит список активных блокировок игрока
-cmd-banlist-help = Использование: banlist <имя или ID пользователя>
+cmd-banlist-help = Использование: banlist <никнейм или ID пользователя>
 cmd-banlist-empty = Нет активных блокировок для { $user }
-cmd-banlistF-hint = <имя/ID пользователя>
+cmd-banlistF-hint = <никнейм/ID пользователя>
 cmd-ban_exemption_update-desc = Установить исключение для типа бана для игрока.
 cmd-ban_exemption_update-help =
     Использование: ban_exemption_update <игрок> <флаг> [<флаг> [...]]
