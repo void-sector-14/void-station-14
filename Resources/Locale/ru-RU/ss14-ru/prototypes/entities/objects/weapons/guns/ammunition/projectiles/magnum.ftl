@@ -13,3 +13,6 @@ ent-BulletMagnumRubber = пуля (.45 магнум резиновая)
 ent-BulletMagnumIncendiary = пуля (.45 магнум зажигательная)
     .desc = { ent-BaseBulletIncendiary.desc }
     .suffix = { "" }
+ent-BulletMagnum357 = bullet (.357 magnum)
+    .desc = { ent-BaseBullet.desc }
+    .suffix = { "" }
