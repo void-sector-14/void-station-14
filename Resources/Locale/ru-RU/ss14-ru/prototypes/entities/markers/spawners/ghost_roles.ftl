@@ -1,5 +1,5 @@
 ent-SpawnPointGhostRatKing = спавнер роли призрака
-    .suffix = крысиный король
+    .suffix = Крысиный король
     .desc = { ent-MarkerBase.desc }
 ent-SpawnPointGhostRemilia = спавнер роли призрака
     .suffix = Ремилия
@@ -13,8 +13,8 @@ ent-SpawnPointGhostNukeOperative = спавнер роли призрака
 ent-SpawnPointLoneNukeOperative = спавнер роли призрака
     .suffix = Одинокий Оперативник
     .desc = { ent-MarkerBase.desc }
-ent-SpawnPointGhostDragon = ghost role spawn point
-    .suffix = dragon
+ent-SpawnPointGhostDragon = спавнер роли призрака
+    .suffix = Дракон
     .desc = { ent-MarkerBase.desc }
 ent-SpawnPointGhostSpaceNinja = спавнер роли призрака
     .suffix = Космический Ниндзя
