@@ -88,3 +88,6 @@ ent-ComputerSurveillanceWirelessCameraMonitor = монитор беспрово�
 ent-ComputerPalletConsole = компьютер продажи груза
     .desc = Используется для продажи товаров, загруженных на грузовые поддоны
     .suffix = { "" }
+ent-ComputerMassMedia = mass-media console
+    .desc = Write your message to the world!
+    .suffix = { "" }

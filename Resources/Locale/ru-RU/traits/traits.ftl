@@ -16,5 +16,7 @@ trait-pirate-accent-name = Пиратский акцент
 trait-pirate-accent-desc = Вы не можете перестать говорить как пират!
 trait-archaic-accent-name = Архаичный акцент
 trait-archaic-accent-desc = Вы говорите так, как многие другие считают устаревшим
+trait-accentless-name = Accentless
+trait-accentless-desc = You don't have the accent that your species would usually have
 trait-paracusia-name = Паракузия
 trait-paracusia-desc = Вы слышите звуки, которых на самом деле нет

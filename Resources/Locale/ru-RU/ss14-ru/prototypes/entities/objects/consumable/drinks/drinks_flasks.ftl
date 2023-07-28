@@ -1,3 +1,6 @@
+ent-FlaskBase = { ent-DrinkBase }
+    .desc = { ent-DrinkBase.desc }
+    .suffix = { "" }
 ent-DrinkShinyFlask = блестящая фляга
     .desc = Блестящая металлическая фляга. Похоже, на ней нарисован греческий символ.
     .suffix = { "" }
@@ -6,6 +9,9 @@ ent-DrinkMREFlask = фляга ИРП
     .suffix = { "" }
 ent-DrinkDetFlask = фляга инспектора
     .desc = Металлическая фляга с кожаным ремешком и золотым значком, принадлежащая инспектору.
+    .suffix = { "" }
+ent-DrinkHosFlask = hos's flask
+    .desc = A metal flask, fit for a hard working HoS.
     .suffix = { "" }
 ent-DrinkFlask = фляга капитана
     .desc = Металлическая фляга, принадлежащая капитану.

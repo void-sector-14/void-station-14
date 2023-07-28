@@ -67,6 +67,10 @@ ent-DrinkBeerBottleFull = пиво
 ent-DrinkAleBottleFull = магма-эль
     .desc = Выбор истинных дварфов.
     .suffix = { "" }
+ent-DrinkСhampagneBottleFull = champagne bottle
+
+  .desc = Only people devoid of imagination can't find an excuse for champagne.
+  .suffix = { "" }
 ent-DrinkWaterBottleFull = бутылка воды
     .desc = Просто чистая вода неизвестного происхождения. Вы думаете, что и не хотите знать этого.
     .suffix = { "" }

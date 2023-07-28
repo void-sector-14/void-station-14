@@ -43,3 +43,7 @@ job-description-security = Ловите преступников и врагов
 job-description-serviceworker = Изучите основы барменства, кулинарии и выращивания растений.
 job-description-warden = Патрулируйте отдел безопасности, следите за тем, чтобы никто не воровал из арсенала, и следите за тем, чтобы все заключенные были в тюрьме и выпущены, когда их время истекло.
 job-description-zookeeper = Устройте веселую демонстрацию милых животных и космических карпов на всеобщее обозрение. Доступно на данный момент только на Kettle станции!
+job-description-senior-engineer = Teach new engineers the basics of the station's engine, repairing, atmospherics and power.
+job-description-senior-researcher = Teach new scientists the basics of item printing, artifact research and anomalous objects.
+job-description-senior-physician = Teach new medics the basics of tending to the wounded, chemistry, diagnosing the diseased and disposing of the dead.
+job-description-senior-officer = Teach new officers the basics of searches, preforming arrests, prison times and how to properly shoot a firearm.

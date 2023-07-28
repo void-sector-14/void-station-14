@@ -10,6 +10,7 @@ implanter-draw-text = Извлечь
 implanter-inject-text = Ввести
 implanter-empty-text = Отсутствует
 implanter-implant-text = { $implantName }{ $lineBreak }{ $implantDescription }
+implanter-contained-implant-text = [color=green]{ $desc }[/color]
 implanter-label = [color=white]Имплантат: { $currentEntities }{ $lineBreak }Режим: { $modeString }[/color]
 
 ## Implanter Actions
