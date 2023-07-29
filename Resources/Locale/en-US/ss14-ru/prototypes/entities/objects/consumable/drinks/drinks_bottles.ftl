@@ -67,8 +67,7 @@ ent-DrinkBeerBottleFull = beer
 ent-DrinkAleBottleFull = Magm-Ale
     .desc = A true dorf's drink of choice.
     .suffix = { "" }
-ent-DrinkСhampagneBottleFull = champagne bottle
-
+ent-DrinkChampagneBottleFull = champagne bottle
   .desc = Only people devoid of imagination can't find an excuse for champagne.
   .suffix = { "" }
 ent-DrinkWaterBottleFull = water bottle
