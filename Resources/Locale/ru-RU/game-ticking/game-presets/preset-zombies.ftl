@@ -7,7 +7,7 @@ zombie-healing = Вы чувствуете шевеление в своей пл
 zombie-infection-warning = Вы чувствуете, как зомби-вирус овладевает
 zombie-infection-underway = Ваша кровь начинает сгущаться
 zombie-alone = Вы чувствуете себя совершенно одиноким.
-zombie-shuttle-call = We have detected that the undead have overtaken the station. Dispatching an emergency shuttle to collect remaining personnel.
+zombie-shuttle-call = Мы обнаружили, что мертвецы захватили станцию. Отправляем эвакуационный шаттл для эвакуации выживших членов экипажа.
 zombie-round-end-initial-count =
     { $initialCount ->
         [one] Единственным нулевым пациентом был:

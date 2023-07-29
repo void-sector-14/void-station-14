@@ -1,5 +1,4 @@
 ent-BaseLathe = лат
-
   .desc = { ent-['BaseMachinePowered', 'ConstructibleMachine'].desc }
   .suffix = { "" }
 ent-Autolathe = автолат
@@ -17,8 +16,8 @@ ent-ExosuitFabricator = фабрикатор экзокостюмов
 ent-SecurityTechFab = охранный ТехФаб
     .desc = Печатает снаряжение для службы безопасности и некоторые базовые вещи.
     .suffix = { "" }
-ent-AmmoTechFab = ammo techfab
-    .desc = Prints the bare minimum of bullets that any budget military or armory could need. Nothing fancy.
+ent-AmmoTechFab = ТехФаб боеприпасов
+    .desc = Печатает самый минимум боеприпасов, который может понадобиться любой бюджетной армии или оружейной. Ничего особенного.
     .suffix = { "" }
 ent-MedicalTechFab = медицинский ТехФаб
     .desc = Печатает снаряжение для медицинского отдела.
