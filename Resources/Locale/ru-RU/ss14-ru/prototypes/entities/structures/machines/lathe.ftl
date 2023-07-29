@@ -1,4 +1,5 @@
 ent-BaseLathe = лат
+
   .desc = { ent-['BaseMachinePowered', 'ConstructibleMachine'].desc }
   .suffix = { "" }
 ent-Autolathe = автолат
