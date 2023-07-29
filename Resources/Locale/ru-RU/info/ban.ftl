@@ -71,4 +71,5 @@ ban-panel-severity = Тяжесть:
 # Ban string
 server-ban-string = { $admin } произвёл бан { $severity } тяжести, который истекает { $expires } для [{ $name }, { $ip }, { $hwid }], по причине: { $reason }
 server-ban-string-never = никогда
+server-ban-string-no-pii = { $admin } created a { $severity } severity server ban that expires { $expires } for { $name } with reason: { $reason }
 cmd-ban_exemption_get-arg-player = <игрок>

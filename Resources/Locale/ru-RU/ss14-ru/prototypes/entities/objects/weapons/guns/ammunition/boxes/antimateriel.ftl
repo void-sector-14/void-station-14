@@ -1,3 +1,9 @@
+ent-BaseMagazineBoxAntiMateriel = ammunition box (.60 anti-materiel)
+    .desc = { ent-BaseItem.desc }
+    .suffix = { "" }
+ent-MagazineBoxAntiMaterielBig = ammunition box (.60 anti-materiel)
+    .desc = { ent-BaseMagazineBoxAntiMateriel.desc }
+    .suffix = { "" }
 ent-MagazineBoxAntiMateriel = коробка патронов (.60 антиматериальные)
     .desc = { ent-BaseItem.desc }
     .suffix = { "" }
