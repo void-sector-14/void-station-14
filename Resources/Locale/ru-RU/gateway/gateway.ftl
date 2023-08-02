@@ -1,6 +1,6 @@
-gateway-window-title = Gateway
-gateway-window-ready = Ready!
-gateway-window-ready-in = Ready in: { $time }s
-gateway-window-open-portal = Open Portal
-gateway-window-no-destinations = No destinations found.
-gateway-window-portal-closing = Portal closing
+gateway-window-title = Врата
+gateway-window-ready = Готовы!
+gateway-window-ready-in = Готово через: { $time }с
+gateway-window-open-portal = Открыть портал
+gateway-window-no-destinations = Пункт назначения не найден
+gateway-window-portal-closing = Портал закрывается

@@ -1,3 +1,3 @@
-ent-BookSecretDocuments = emergency security orders
-    .desc = TOP SECRET. These documents specify the Emergency Orders that the HoS must carry out when ordered by Central Command.
+ent-BookSecretDocuments = распоряжения отдела сб в чс
+    .desc = СОВЕРШЕННО СЕКРЕТНО. В этих документах указаны распоряжения на случай чрезвычайных ситуаций, которые должны выполняться ГСБ по приказу Центрального командования.
     .suffix = { "" }

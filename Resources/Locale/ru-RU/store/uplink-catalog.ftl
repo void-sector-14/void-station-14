@@ -39,8 +39,8 @@ uplink-exploding-pen-desc = Взрывное устройство класса I
 # Боеприпасы
 uplink-pistol-magazine-name = Пистолетный магазин (.35 авто)
 uplink-pistol-magazine-desc = Пистолетый магазин с 10 патронами. Подходит для Гадюки.
-uplink-pistol-magazine-c20r-name = SMG magazine (.35 auto)
-uplink-pistol-magazine-c20r-desc = Rifle magazine with 30 catridges. Compatible with C-20r.
+uplink-pistol-magazine-c20r-name = Магазин ПП (.35 авто)
+uplink-pistol-magazine-c20r-desc = Винтовочный магазин с 30 патронами. Совместим с C-20r.
 uplink-pistol-magazine-caseless-name = Пистолетный магазин (.25 безгильзовые)
 uplink-pistol-magazine-caseless-desc = Пистолетный магазин с 10 безгильзовыми патронами. Подходит для Кобры.
 uplink-speedloader-magnum-name = Спидлоадер (.45 магнум)
