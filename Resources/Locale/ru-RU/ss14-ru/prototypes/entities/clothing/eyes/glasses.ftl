@@ -28,3 +28,6 @@ ent-ClothingEyesGlassesMercenary = очки наёмника
 ent-ClothingEyesGlassesThermal = оптический термальный сканер
     .desc = Термалы в форме очков.
     .suffix = { "" }
+ent-ClothingEyesGlassesChemical = chemical analysis goggles
+    .desc = Goggles that can scan the chemical composition of a solution.
+    .suffix = { "" }
