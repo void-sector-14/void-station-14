@@ -258,9 +258,6 @@
   id: Document
 
 - type: Tag
-  id: DogWearable
-
-- type: Tag
   id: DoorBumpOpener
 
 - type: Tag
@@ -800,12 +797,6 @@
 
 - type: Tag
   id: Syringe
-
-- type: Tag
-  id: Syringecartridge
-
-- type: Tag
-  id: SyringeGunMagazine
 
 - type: Tag
   id: Spellbook

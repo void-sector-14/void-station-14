@@ -78,11 +78,6 @@
             max: 1
       - !type:DoActsBehavior
         acts: [ "Destruction" ]
-    - type: SpawnItemsOnUse
-    items:
-      - id: FoodTinPeachesOpen
-    sound:
-      path: /Audio/Items/can_open3.ogg
   - type: StaticPrice
     price: 50
 
@@ -140,11 +135,6 @@
             max: 1
       - !type:DoActsBehavior
         acts: [ "Destruction" ]
-    - type: SpawnItemsOnUse
-    items:
-      - id: FoodTinPeachesMaintOpen
-    sound:
-      path: /Audio/Items/can_open3.ogg
   - type: StaticPrice
     price: 50
 
@@ -197,11 +187,6 @@
             max: 1
       - !type:DoActsBehavior
         acts: [ "Destruction" ]
-    - type: SpawnItemsOnUse
-    items:
-      - id: FoodTinBeansOpen
-    sound:
-      path: /Audio/Items/can_open3.ogg
   - type: StaticPrice
     price: 50
 

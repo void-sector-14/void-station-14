@@ -37,8 +37,6 @@ uplink-emp-grenade-desc = Выпускает электромагнитные и
 uplink-exploding-pen-name = Взрывающаяся ручка
 uplink-exploding-pen-desc = Взрывное устройство класса IV, заключенное в стандартную ручку. Поставляется с 4-секундным взрывателем.
 # Боеприпасы
-uplink-smg-magazine-name = Магазин для пистолета-пулемёта (.35 авто)
-uplink-smg-magazine-desc = Магазин для пистолета-пулемёта с 30 патронами. Подходит для С20-r.
 uplink-pistol-magazine-name = Пистолетный магазин (.35 авто)
 uplink-pistol-magazine-desc = Пистолетый магазин с 10 патронами. Подходит для Гадюки.
 uplink-pistol-magazine-c20r-name = Магазин ПП (.35 авто)
@@ -51,8 +49,6 @@ uplink-mosin-ammo-name = Коробка патронов .30
 uplink-mosin-ammo-desc = Коробка патронов для старой винтовки.
 uplink-sniper-ammo-name = Коробка патронов (.60 антиматериальные)
 uplink-sniper-ammo-desc = Коробка с 10 патронами для снайперской винтовки 'Христов'.
-uplink-syringe-cartridge-name = Коробка шприцевых картриджей
-uplink-syringe-cartridge-desc = Коробка шприцевых картриджей для шприцевого пистолета
 # Утилиты
 uplink-holopara-kit-name = Набор Голопаразита
 uplink-holopara-kit-desc =
@@ -109,8 +105,6 @@ uplink-sniper-bundle-desc = Неприметный чемодан, в котор
 # Наборы
 uplink-c20r-bundle-name = Набор С-20r
 uplink-c20r-bundle-desc = Старый и верный: Классический пистолет-пулемет C-20r, в наборе с 3 магазинами.
-uplink-kr51-bundle-name = Набор КР51
-uplink-kr51-bundle-desc = Скрытая угроза: Классическая автоматическая винтовка КР51, в наборе с 3 магазинами.
 uplink-buldog-bundle-name = Набор "Бульдог"
 uplink-buldog-bundle-desc = Содержит популярный дробовик "Бульдог", 1 травматический барабан с 12 зарядами и 2 с картечью.
 uplink-grenade-launcher-bundle-name = Набор "Чайна-Лэйк"
@@ -224,6 +218,3 @@ uplink-scarf-syndie-red-name = полосатый красный шарф син
 uplink-scarf-syndie-red-desc = Стильный полосатый красный шарф синдиката. Идеальный зимний аксессуар для тех, у кого обостренное чувство моды, и  тех, у кого есть настроение что-нибудь украсть.
 uplink-scarf-syndie-green-name = Полосатый зелёный шарф синдиката
 uplink-scarf-syndie-green-desc = Стильный полосатый зелёный шарф синдиката. Идеальный зимний аксессуар для тех, у кого обостренное чувство моды, и  тех, у кого есть настроение что-нибудь украсть.
-
-uplink-miniature-energy-crossbow-syndie-green-name = Энергетический мини арбалет
-uplink-miniature-energy-crossbow-syndie-green-desc = Энергетический арбалет синдиката, маленький, бесшумный и смертоносный.

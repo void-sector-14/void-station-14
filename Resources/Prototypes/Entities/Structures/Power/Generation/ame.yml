@@ -93,7 +93,6 @@
     onBump: false
     requirePower: true
     highVoltageNode: input
-    chanceOfShock: 0.33
     mediumVoltageNode: ame
 
 - type: entity

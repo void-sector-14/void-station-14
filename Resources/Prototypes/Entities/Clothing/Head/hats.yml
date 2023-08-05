@@ -606,7 +606,6 @@
     - type: Clothing
       sprite: Clothing/Head/Hats/jester.rsi
 
-
 - type: entity
   parent: ClothingHeadHatJester
   id: ClothingHeadHatJesterAlt

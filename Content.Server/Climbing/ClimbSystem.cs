@@ -126,14 +126,7 @@ public sealed class ClimbSystem : SharedClimbSystem
         if (climbing.IsClimbing)
             return true;
 
-        // Time to climb. If someone tries to put someone other to a table, it will not use multiplier
-        float climbDelay = comp.ClimbDelay;
-        if (comp.UseTableMultiplier & user == entityToMove)
-        {
-            climbDelay *= climbing.TableClimbMultiplier;
-        }
-
-        var args = new DoAfterArgs(user, climbDelay, new ClimbDoAfterEvent(), entityToMove, target: climbable, used: entityToMove)
+        var args = new DoAfterArgs(user, comp.ClimbDelay, new ClimbDoAfterEvent(), entityToMove, target: climbable, used: entityToMove)
         {
             BreakOnTargetMove = true,
             BreakOnUserMove = true,

@@ -9,10 +9,10 @@ namespace Content.Shared.Chat.TypingIndicator;
 [Serializable, NetSerializable]
 public sealed class TypingChangedEvent : EntityEventArgs
 {
-    public readonly TypingIndicatorState TypingState;
+    public readonly bool IsTyping;
 
-    public TypingChangedEvent(TypingIndicatorState typingState)
+    public TypingChangedEvent(bool isTyping)
     {
-        TypingState = typingState;
+        IsTyping = isTyping;
     }
 }

@@ -5,10 +5,19 @@
   description: A handy-dandy holographic projector that displays a janitorial sign.
   components:
   - type: HolosignProjector
-    maxSigns: 12
   - type: ItemCooldown
   - type: UseDelay
     delay: 1.0
+  - type: ContainerContainer
+    containers:
+      cell_slot: !type:ContainerSlot {}
+  - type: PowerCellSlot
+    cellSlotId: cell_slot
+  - type: ItemSlots
+    slots:
+      cell_slot:
+        name: power-cell-slot-component-slot-name-default
+        startingItem: PowerCellMedium
   - type: Sprite
     sprite: Objects/Devices/Holoprojectors/custodial.rsi
     state: icon
@@ -20,11 +29,11 @@
   parent: Holoprojector
   id: HolofanProjector
   name: holofan projector
-  description: Stop suicidal assistants from killing everyone during atmos emergencies.
+  description: Stop suicidal passengers from killing everyone during atmos emergencies.
   components:
   - type: HolosignProjector
     signProto: HoloFan
-    maxSigns: 6
+    chargeUse: 120
   - type: Sprite
     sprite: Objects/Devices/Holoprojectors/atmos.rsi
     state: icon
@@ -34,58 +43,21 @@
   - type: StaticPrice
     price: 80
 
-- type: entity
-  parent: Holoprojector
-  id: HoloprojectorEngineering
-  name: engineering holobarrier projector
-  description: A holographic projector that creates holographic engineering barriers.
-  components:
-  - type: HolosignProjector
-    signProto: HolosignEngineering
-    maxSigns: 6
-  - type: Sprite
-    sprite: Objects/Devices/Holoprojectors/engineer.rsi
-    state: icon
-    netsync: false
-  - type: Tag
-    tags:
-      - HolosignProjector
-  - type: StaticPrice
-    price: 80
 
 - type: entity
   parent: Holoprojector
   id: HoloprojectorSecurity
-  name: security holobarrier projector
-  description: A holographic projector that creates holographic security barriers.
+  name: holobarrier projector
+  description: Creates a solid but fragile holographic barrier.
   components:
-  - type: HolosignProjector
-    signProto: HolosignSecurity
-    chargeUse: 120
-  - type: Sprite
-    sprite: Objects/Devices/Holoprojectors/security.rsi
-    state: icon
-  - type: Tag
-    tags:
-      - HolosignProjector
-  - type: StaticPrice
-    price: 80
-
-#- type: entity
-#  parent: Holoprojector
-#  id: HoloprojectorMedical
-#  name: improper PENLITE barrier projector
-#  description: A holographic projector that creates PENLITE holobarriers. Useful during quarantines since they halt those with malicious diseases.
-#  components:
-#  - type: HolosignProjector
-#    signProto: HolosignMedical
-#    maxSigns: 3
-#  - type: Sprite
-#    sprite: Objects/Devices/Holoprojectors/med.rsi
-#    state: icon
-#    netsync: false
-#  - type: Tag
-#    tags:
-#      - HolosignProjector
-#  - type: StaticPrice
-#    price: 80
+    - type: HolosignProjector
+      signProto: HolosignSecurity
+      chargeUse: 120
+    - type: Sprite
+      sprite: Objects/Devices/Holoprojectors/security.rsi
+      state: icon
+    - type: Tag
+      tags:
+        - HolofanProjector
+    - type: StaticPrice
+      price: 80

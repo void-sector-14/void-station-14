@@ -8,7 +8,3 @@ ent-FoodDinnerware = { ent-CrateFoodDinnerware }
     .desc = { ent-CrateFoodDinnerware.desc }
 ent-FoodBarSupply = { ent-CrateFoodBarSupply }
     .desc = { ent-CrateFoodBarSupply.desc }
-ent-FoodCrateKvassTank = { ent-CrateFoodKvassTank }
-    .desc = { ent-CrateFoodKvassTank.desc }
-ent-FoodCrateBeerKeg = { ent-CrateFoodBeerKeg }
-    .desc = { ent-CrateFoodBeerKeg.desc }

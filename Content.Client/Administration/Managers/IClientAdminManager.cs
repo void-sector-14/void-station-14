@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using Content.Shared.Administration;
 
 namespace Content.Client.Administration.Managers
@@ -52,15 +52,5 @@ namespace Content.Client.Administration.Managers
         bool CanAdminMenu();
 
         void Initialize();
-
-        /// <summary>
-        /// Set ahelp sound flag
-        /// </summary>
-        bool SetBwoink(bool state);
-
-        /// <summary>
-        /// Get ahelp sound flag
-        /// </summary>
-        bool GetBwoink();
     }
 }

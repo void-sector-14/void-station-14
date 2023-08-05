@@ -19,10 +19,5 @@ namespace Content.Shared.Climbing
         /// </summary>
         [DataField("delay")]
         public float ClimbDelay = 0.8f;
-
-        /// <summary>
-        /// If true, then entities with multiplier for table climb will use it when trying to climb
-        /// </summary>
-        [DataField("useTableMultiplier")] public bool UseTableMultiplier = true;
     }
 }

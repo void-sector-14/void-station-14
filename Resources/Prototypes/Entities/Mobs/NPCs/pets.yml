@@ -267,7 +267,6 @@
     attributes:
       proper: true
       gender: male
-  - type: DogVision
   - type: Tag
     tags:
     - CannotSuicide
@@ -365,7 +364,6 @@
     attributes:
       proper: true
       gender: male
-  - type: DogVision
   - type: Tag
     tags:
     - CannotSuicide

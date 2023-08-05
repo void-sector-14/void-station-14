@@ -54,8 +54,6 @@
         reagents:
         - ReagentId: Absinthe
           Quantity: 100
-  - type: ExaminableSolution
-    solution: drink
   - type: Sprite
     sprite: Objects/Consumable/Drinks/absinthebottle.rsi
 

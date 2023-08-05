@@ -12,7 +12,6 @@ using Content.Server.Shuttles.Systems;
 using Content.Server.Station.Systems;
 using Content.Shared.Access.Components;
 using Content.Shared.Access.Systems;
-using Content.Shared.AlertLevel;
 using Content.Shared.CCVar;
 using Content.Shared.Communications;
 using Content.Shared.Database;

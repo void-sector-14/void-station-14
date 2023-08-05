@@ -100,7 +100,7 @@
       blacklist:
         tags:
           - NukeOpsUplink
-
+          
 # Explosives
 
 - type: listing
@@ -154,7 +154,7 @@
   description: uplink-c4-desc
   productEntity: C4
   cost:
-    Telecrystal: 2
+    Telecrystal: 4
   categories:
   - UplinkExplosives
 
@@ -179,7 +179,7 @@
   description: uplink-c4-bundle-desc
   productEntity: ClothingBackpackDuffelSyndicateC4tBundle
   cost:
-    Telecrystal: 12
+    Telecrystal: 20
   categories:
   - UplinkExplosives
 
@@ -227,12 +227,12 @@
   cost:
     Telecrystal: 3
   categories:
-    - UplinkAmmo
+  - UplinkAmmo
   conditions:
-    - !type:StoreWhitelistCondition
-      whitelist:
-        tags:
-          - NukeOpsUplink
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - NukeOpsUplink
 
 # For the Cobra
 - type: listing
@@ -279,25 +279,6 @@
     Telecrystal: 2
   categories:
   - UplinkAmmo
-
-#- type: listing
-#  id: UplinkSyringeCartridge
-#  name: uplink-syringe-cartridge-name
-#  description: uplink-syringe-cartridge-desc
-#  productEntity: BoxSyringeCartridge
-#  cost:
-#    Telecrystal: 6
-#  categories:
-#  - UplinkAmmo
-#  conditions:
-#  - !type:StoreWhitelistCondition
-#    whitelist:
-#      tags:
-#      - NukeOpsUplink
-#  - !type:BuyerWhitelistCondition
-#    blacklist:
-#      components:
-#      - SurplusBundle
 
 #Utility
 
@@ -388,7 +369,7 @@
       whitelist:
         tags:
           - NukeOpsUplink
-
+          
 - type: listing
   id: UplinkReinforcementRadioSyndicateMonkey
   name: uplink-reinforcement-radio-monkey-name
@@ -648,17 +629,6 @@
   productEntity: ClothingBackpackDuffelSyndicateFilledSMG
   cost:
     Telecrystal: 17
-  categories:
-  - UplinkBundles
-
-- type: listing
-  id: UplinkKR51Bundle
-  name: uplink-kr51-bundle-name
-  description: uplink-kr51-bundle-desc
-  icon: { sprite: /Textures/Objects/Weapons/Guns/Rifles/kr51.rsi, state: icon }
-  productEntity: ClothingBackpackDuffelSyndicateFilledRifle
-  cost:
-    Telecrystal: 25
   categories:
   - UplinkBundles
 
@@ -972,7 +942,7 @@
     whitelist:
     - Zookeeper
     - Scientist
-    - SeniorResearcher
+    - SeniorResearcher      
     - Chef
 
 - type: listing
@@ -1338,14 +1308,3 @@
     Telecrystal: 1
   categories:
     - UplinkPointless
-
-- type: listing
-  id: UplinkMiniatureEnergyCrossbow
-  name: uplink-miniature-energy-crossbow-syndie-green-name
-  description: uplink-miniature-energy-crossbow-syndie-green-desc
-  icon: { sprite: Objects/Weapons/Guns/Battery/miniature_ebow.rsi, state: icon }
-  productEntity: MiniatureEnergyCrossbow
-  cost:
-    Telecrystal: 10
-  categories:
-  - UplinkWeapons

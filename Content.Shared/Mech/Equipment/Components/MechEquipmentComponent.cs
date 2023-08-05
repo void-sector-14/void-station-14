@@ -1,6 +1,5 @@
-using Content.Shared.DoAfter;
+﻿using Content.Shared.DoAfter;
 using Content.Shared.Mech.Components;
-using Linguini.Syntax.Ast;
 using Robust.Shared.Serialization;
 
 namespace Content.Shared.Mech.Equipment.Components;
@@ -45,11 +44,6 @@ public sealed class MechEquipmentInstallCancelled : EntityEventArgs
 [Serializable, NetSerializable]
 public sealed class GrabberDoAfterEvent : SimpleDoAfterEvent
 {
-}
-
-[Serializable, NetSerializable]
-public sealed class MechDrillDoAfterEvent : SimpleDoAfterEvent
-{ 
 }
 
 [Serializable, NetSerializable]

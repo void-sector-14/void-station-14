@@ -53,7 +53,7 @@
   innerclothingskirt: ClothingUniformJumpskirtColorBlack
   satchel: ClothingBackpackDuffelSyndicateAmmo
   duffelbag: ClothingBackpackDuffelSyndicateAmmo
-
+  
 # Syndicate Operative Outfit - Monkey
 - type: startingGear
   id: SyndicateOperativeGearMonkey
@@ -84,7 +84,7 @@
     ears: ClothingHeadsetAltSyndicate
     gloves: ClothingHandsGlovesCombat
     shoes: ClothingShoesBootsCombatFilled
-    pocket1: BaseUplinkRadio30TC
+    pocket1: BaseUplinkRadio40TC
     id: AgentIDCard
   innerclothingskirt: ClothingUniformJumpsuitOperative
   satchel: ClothingBackpackDuffelSyndicateOperative
@@ -103,9 +103,9 @@
     gloves: ClothingHandsGlovesCombat
     outerClothing: ClothingOuterHardsuitSyndie
     shoes: ClothingShoesBootsCombatFilled
-    id: SyndicateNuclearIDCard
+    id: AgentIDCard
     pocket1: DoubleEmergencyOxygenTankFilled
-    pocket2: BaseUplinkRadio30TC
+    pocket2: BaseUplinkRadio40TC
     belt: ClothingBeltMilitaryWebbing
   innerclothingskirt: ClothingUniformJumpskirtOperative
   satchel: ClothingBackpackDuffelSyndicateOperative
@@ -126,7 +126,7 @@
     shoes: ClothingShoesBootsCombatFilled
     id: SyndiPDA
     pocket1: DoubleEmergencyOxygenTankFilled
-    pocket2: BaseUplinkRadio30TC
+    pocket2: BaseUplinkRadio40TC
     belt: ClothingBeltMilitaryWebbing
   innerclothingskirt: ClothingUniformJumpskirtOperative
   satchel: ClothingBackpackDuffelSyndicateOperative
@@ -146,7 +146,7 @@
     shoes: ClothingShoesBootsMagSyndie
     id: SyndiPDA
     pocket1: DoubleEmergencyOxygenTankFilled
-    pocket2: BaseUplinkRadio30TC
+    pocket2: BaseUplinkRadio40TC
     belt: ClothingBeltMilitaryWebbingMedFilled
   innerclothingskirt: ClothingUniformJumpskirtOperative
   satchel: ClothingBackpackDuffelSyndicateOperativeMedic
@@ -248,7 +248,7 @@
     jumpsuit: ClothingUniformJumpsuitColorBrown
     back: ClothingBackpackDuffelCBURN
     mask: ClothingMaskGasExplorer
-    eyes: ClothingEyesHudMedical
+    eyes: ClothingEyesGlassesSecurity
     ears: ClothingHeadsetAltCentCom
     gloves: ClothingHandsGlovesCombat
     outerClothing: ClothingOuterHardsuitCBURN

@@ -3,7 +3,7 @@
   alias:
     - survival
   name: survival-title
-  showInVote: true # secret
+  showInVote: false # secret
   description: survival-description
   rules:
     - RampingStationEventScheduler
@@ -36,7 +36,7 @@
     - sandbox
   name: sandbox-title
   description: sandbox-description
-  showInVote: false
+  showInVote: true
   maxPlayers: 5
   rules:
     - Sandbox
@@ -59,7 +59,6 @@
     - dm
   name: death-match-title
   description: death-match-description
-  showInVote: true
   rules:
     - DeathMatch
 

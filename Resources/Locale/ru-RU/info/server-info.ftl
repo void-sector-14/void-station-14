@@ -6,6 +6,3 @@ server-info-wiki-button = Wiki
 server-info-forum-button = Форум
 server-info-report-button = Сообщить об ошибке
 server-info-credits-button = Авторы
-server-info-boosty-button = Boosty
-server-info-shop-button = Донат-магазин
-server-info-gitlab-button = Исходный код сборки

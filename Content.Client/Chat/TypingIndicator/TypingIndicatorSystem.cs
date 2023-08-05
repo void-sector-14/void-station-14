@@ -15,33 +15,12 @@ public sealed class TypingIndicatorSystem : SharedTypingIndicatorSystem
 
     private readonly TimeSpan _typingTimeout = TimeSpan.FromSeconds(2);
     private TimeSpan _lastTextChange;
-    private TypingIndicatorState State;
-    private bool isChatBoxActive;
+    private bool _isClientTyping;
 
     public override void Initialize()
     {
         base.Initialize();
         _cfg.OnValueChanged(CCVars.ChatShowTypingIndicator, OnShowTypingChanged);
-    }
-
-    public void ClientFocusChat()
-    {
-        // don't update it if player don't want to show typing indicator
-        if (!_cfg.GetCVar(CCVars.ChatShowTypingIndicator))
-            return;
-
-        isChatBoxActive = true;
-
-        // client typed something - show typing indicator
-        ClientUpdateTyping(TypingIndicatorState.Thinking);
-        _lastTextChange = _time.CurTime;
-    }
-
-    public void ClientUnFocusChat()
-    {
-        isChatBoxActive = false;
-
-        ClientUpdateTyping(TypingIndicatorState.None);
     }
 
     public void ClientChangedChatText()
@@ -51,29 +30,7 @@ public sealed class TypingIndicatorSystem : SharedTypingIndicatorSystem
             return;
 
         // client typed something - show typing indicator
-        ClientUpdateTyping(TypingIndicatorState.Typing);
-        _lastTextChange = _time.CurTime;
-    }
-
-    public void ClientChangedChatTextQuestion()
-    {
-        // don't update it if player don't want to show typing indicator
-        if (!_cfg.GetCVar(CCVars.ChatShowTypingIndicator))
-            return;
-
-        // client typed something - show typing indicator
-        ClientUpdateTyping(TypingIndicatorState.TypingQuestion);
-        _lastTextChange = _time.CurTime;
-    }
-
-    public void ClientChangedChatTextAction()
-    {
-        // don't update it if player don't want to show typing indicator
-        if (!_cfg.GetCVar(CCVars.ChatShowTypingIndicator))
-            return;
-
-        // client typed something - show typing indicator
-        ClientUpdateTyping(TypingIndicatorState.TypingAction);
+        ClientUpdateTyping(true);
         _lastTextChange = _time.CurTime;
     }
 
@@ -84,41 +41,37 @@ public sealed class TypingIndicatorSystem : SharedTypingIndicatorSystem
             return;
 
         // client submitted text - hide typing indicator
-        ClientUpdateTyping(TypingIndicatorState.None);
+        ClientUpdateTyping(false);
     }
 
     public override void Update(float frameTime)
     {
         base.Update(frameTime);
 
-        // check if client didn't changed chat text box for a long time and still chatbox is open
-        if (State != TypingIndicatorState.None)
+        // check if client didn't changed chat text box for a long time
+        if (_isClientTyping)
         {
             var dif = _time.CurTime - _lastTextChange;
             if (dif > _typingTimeout)
             {
-                if(isChatBoxActive)
-                {
-                    // client didn't typed anything for a long time - change state to thinking
-                    ClientUpdateTyping(TypingIndicatorState.Thinking);
-                }
+                // client didn't typed anything for a long time - hide indicator
+                ClientUpdateTyping(false);
             }
         }
     }
 
-    private void ClientUpdateTyping(TypingIndicatorState state)
+    private void ClientUpdateTyping(bool isClientTyping)
     {
-        if (State == state)
+        if (_isClientTyping == isClientTyping)
             return;
-
-        State = state;
+        _isClientTyping = isClientTyping;
 
         // check if player controls any pawn
         if (_playerManager.LocalPlayer?.ControlledEntity == null)
             return;
 
         // send a networked event to server
-        RaiseNetworkEvent(new TypingChangedEvent(state));
+        RaiseNetworkEvent(new TypingChangedEvent(isClientTyping));
     }
 
     private void OnShowTypingChanged(bool showTyping)
@@ -126,7 +79,7 @@ public sealed class TypingIndicatorSystem : SharedTypingIndicatorSystem
         // hide typing indicator immediately if player don't want to show it anymore
         if (!showTyping)
         {
-            ClientUpdateTyping(TypingIndicatorState.None);
+            ClientUpdateTyping(false);
         }
     }
 }

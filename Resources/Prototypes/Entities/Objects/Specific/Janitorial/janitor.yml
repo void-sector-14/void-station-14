@@ -474,17 +474,10 @@
       sprite: Objects/Specific/Janitorial/plunger.rsi
       slots:
         - HEAD
-        - MASK
       clothingVisuals:
         head:
           - state: equipped-HELMET
             offset: "0, 0.15"
-        mask:
-          - state: equipped-MASK
-    - type: MeleeWeapon
-      damage:
-        types:
-          Blunt: 0
 
 - type: entity
   parent: BaseItem

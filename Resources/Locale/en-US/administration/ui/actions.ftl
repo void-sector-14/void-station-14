@@ -6,4 +6,3 @@ admin-player-actions-ahelp = AHelp
 admin-player-actions-respawn = Respawn
 admin-player-actions-teleport = Teleport To
 admin-player-actions-confirm = Are you sure?
-admin-player-actions-sound = Bwoink

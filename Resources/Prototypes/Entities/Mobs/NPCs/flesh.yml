@@ -54,7 +54,6 @@
   - type: ReplacementAccent
     accent: genericAggressive
 
-
 - type: entity
   parent: BaseMobFlesh
   id: MobFleshJared
@@ -80,10 +79,6 @@
     damage:
       types:
         Slash: 8
-  - type: GhostRole
-    name: Flesh
-    description: Meat for beat
-  - type: GhostTakeoverAvailable
 
 - type: entity
   parent: BaseMobFlesh
@@ -114,10 +109,6 @@
     damage:
       types:
         Slash: 8
-  - type: GhostRole
-    name: Flesh
-    description: Meat for beat
-  - type: GhostTakeoverAvailable
 
 - type: entity
   parent: BaseMobFlesh
@@ -142,10 +133,6 @@
   - type: MovementSpeedModifier
     baseWalkSpeed: 2
     baseSprintSpeed: 2.5
-  - type: GhostRole
-    name: Flesh
-    description: Meat for beat
-  - type: GhostTakeoverAvailable
 
 - type: entity
   parent: BaseMobFlesh
@@ -170,10 +157,6 @@
   - type: MovementSpeedModifier
     baseWalkSpeed: 2
     baseSprintSpeed: 2.5
-  - type: GhostRole
-    name: Flesh
-    description: Meat for beat
-  - type: GhostTakeoverAvailable
 
 - type: entity
   parent: BaseMobFlesh

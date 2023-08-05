@@ -31,7 +31,7 @@ public sealed class TypingIndicatorSystem : SharedTypingIndicatorSystem
     private void OnPlayerDetached(EntityUid uid, TypingIndicatorComponent component, PlayerDetachedEvent args)
     {
         // player left entity body - hide typing indicator
-        SetTypingIndicatorEnabled(uid, TypingIndicatorState.None);
+        SetTypingIndicatorEnabled(uid, false);
     }
 
     private void OnClientTypingChanged(TypingChangedEvent ev, EntitySessionEventArgs args)
@@ -47,18 +47,18 @@ public sealed class TypingIndicatorSystem : SharedTypingIndicatorSystem
         if (!_actionBlocker.CanEmote(uid.Value) && !_actionBlocker.CanSpeak(uid.Value))
         {
             // nah, make sure that typing indicator is disabled
-            SetTypingIndicatorEnabled(uid.Value, TypingIndicatorState.None);
+            SetTypingIndicatorEnabled(uid.Value, false);
             return;
         }
 
-        SetTypingIndicatorEnabled(uid.Value, ev.TypingState);
+        SetTypingIndicatorEnabled(uid.Value, ev.IsTyping);
     }
 
-    private void SetTypingIndicatorEnabled(EntityUid uid, TypingIndicatorState state, AppearanceComponent? appearance = null)
+    private void SetTypingIndicatorEnabled(EntityUid uid, bool isEnabled, AppearanceComponent? appearance = null)
     {
         if (!Resolve(uid, ref appearance, false))
             return;
 
-        _appearance.SetData(uid, TypingIndicatorVisuals.State, state, appearance);
+        _appearance.SetData(uid, TypingIndicatorVisuals.IsTyping, isEnabled, appearance);
     }
 }

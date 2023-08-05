@@ -10,8 +10,6 @@ whitelist-playercount-invalid = {$min ->
 }
 whitelist-not-whitelisted-rp = You are not whitelisted. To become whitelisted, visit our Discord (which can be found at https://spacestation14.io) and check the #rp-whitelist channel.
 
-whitelist-no-reserve-slot = You do not have a reserve slot. You can buy it via the donate store by going to Discord.
-
 command-whitelistadd-description = Adds the player with the given username to the server whitelist.
 command-whitelistadd-help = whitelistadd <username>
 command-whitelistadd-existing = {$username} is already on the whitelist!
@@ -33,12 +31,6 @@ ban-expires = This ban is for {$duration} minutes and will expire at {$time} UTC
 ban-banned-1 = You, or another user of this computer or connection, are banned from playing here.
 ban-banned-2 = The ban reason is: "{$reason}"
 ban-banned-3 = Attempts to circumvent this ban such as creating a new account will be logged.
-
-discord-expires-at = until { $date }
-discord-permanent = permanently
-discord-ban-msg = Player { $username } has banned { $expires } for reason: { $reason }
-discord-jobban-msg = Player { $username } has banned for role { $role } { $expires } for reason: { $reason }
-discord-departmentban-msg = Player { $username } has banned for department { $department } { $expires } for reason: { $reason }
 
 soft-player-cap-full = The server is full!
 panic-bunker-account-denied = This server is in panic bunker mode. New connections are not being accepted at this time. Try again later

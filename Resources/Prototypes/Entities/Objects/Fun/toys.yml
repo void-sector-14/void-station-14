@@ -439,25 +439,6 @@
 
 - type: entity
   parent: BasePlushie
-  id: PlushieMoff
-  name: moth plushie
-  description: A plushie depicting an adorable mothperson. It's a huggable bug!
-  components:
-  - type: Sprite
-    state: plushie_moff
-    netsync: false
-  - type: EmitSoundOnUse
-    sound:
-      path: /Audio/Voice/Moth/scream_moth.ogg
-  - type: EmitSoundOnLand
-    sound:
-      path: /Audio/Voice/Moth/scream_moth.ogg
-  - type: MeleeWeapon
-    soundHit:
-      path: /Audio/Voice/Moth/scream_moth.ogg
-
-- type: entity
-  parent: BasePlushie
   id: PlushieXeno
   name: xeno plushie
   description: An adorable stuffed toy that resembles a scary xenomorf. You're lucky it's just a toy.

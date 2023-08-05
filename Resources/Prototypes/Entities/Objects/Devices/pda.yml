@@ -109,7 +109,7 @@
 - type: entity
   parent: BasePDA
   id: PassengerPDA
-  name: assistant PDA
+  name: passenger PDA
   description: Why isn't it gray?
   components:
   - type: Pda
@@ -625,7 +625,7 @@
   parent: BasePDA
   id: SecurityPDA
   name: security PDA
-  description: Red to hide the stains of assistant blood.
+  description: Red to hide the stains of passenger blood.
   components:
   - type: Pda
     id: SecurityIDCard
@@ -646,7 +646,6 @@
     state: pda-centcom
     penSlot:
       startingItem: PenCentcom
-      priority: -1
       whitelist:
         tags:
         - Write
@@ -726,7 +725,7 @@
   description: Ok, time to be a productive member of- oh cool I'm a bad guy time to kill people!
   components:
   - type: Pda
-    id: SyndicateEliteIDCard
+    id: SyndicateIDCard
     state: pda-syndi
   - type: PdaBorderColor
     borderColor: "#891417"

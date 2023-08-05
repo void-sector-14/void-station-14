@@ -1,6 +1,3 @@
-ent-SpawnMobMothroach = Mothroach Spawner
-    .desc = { ent-MarkerBase.desc }
-    .suffix = { "" }
 ent-SpawnMobMouse = Mouse Spawner
     .desc = { ent-MarkerBase.desc }
     .suffix = { "" }
