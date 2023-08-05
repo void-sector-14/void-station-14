@@ -26,7 +26,7 @@ public sealed class AccessReaderSystem : EntitySystem
 
         SubscribeLocalEvent<AccessReaderComponent, GotEmaggedEvent>(OnEmagged);
         SubscribeLocalEvent<AccessReaderComponent, LinkAttemptEvent>(OnLinkAttempt);
-
+//        SubscribeLocalEvent<AccessReaderComponent, WriteToTargetAccessReaderMessage>(OnTargetWriteMessage);
         SubscribeLocalEvent<AccessReaderComponent, ComponentGetState>(OnGetState);
         SubscribeLocalEvent<AccessReaderComponent, ComponentHandleState>(OnHandleState);
     }
@@ -36,7 +36,22 @@ public sealed class AccessReaderSystem : EntitySystem
         args.State = new AccessReaderComponentState(component.Enabled, component.DenyTags, component.AccessLists,
             component.AccessKeys);
     }
-
+/*
+    private void OnTargetWriteMessage(EntityUid uid, AccessReaderComponent component, WriteToTargetAccessReaderMessage args)
+    {
+        component.AccessLists.Clear();
+        component.DenyTags.Clear();
+        //TODO: clean this mess?
+        foreach(var substr in args.AccessList.ToArray())
+        {
+            component.AccessLists.Add(new HashSet<string> { substr });
+        }
+        foreach(var substr in args.DenyTags.ToArray())
+        {
+            component.DenyTags.Add(substr);
+        }
+    }
+*/
     private void OnHandleState(EntityUid uid, AccessReaderComponent component, ref ComponentHandleState args)
     {
         if (args.Current is not AccessReaderComponentState state)

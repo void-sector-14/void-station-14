@@ -1,0 +1,42 @@
+# Anything human specific (e.g. UI, input) goes under MobHuman
+- type: entity
+  name: Urist McCat
+  parent: BaseMobOrganic
+  id: BaseMobFelinid
+  abstract: true
+  components:
+  - type: HumanoidAppearance
+    species: Felinid
+  - type: Hunger
+    starvationDamage:
+      types:
+        Cold: 0.5
+        Bloodloss: 0.5
+  - type: Thirst
+  - type: Perishable
+  - type: Climbing
+    tableClimbMultiplier: 0.9
+  - type: Flashable   # Felinids get longer flashes from flashbangs because of their sensetive ears
+    durationMultiplier: 1
+    bangAddMultiplier: 0.65
+    bangFlash: false
+  - type: WoundLicking
+  - type: Reactive
+    groups:
+      Flammable: [ Touch ]
+      Extinguish: [ Touch ]
+    reactions:
+    - reagents: [ Water, SpaceCleaner ]
+      methods: [ Touch ]
+      effects:
+      - !type:WashCreamPieReaction
+      - !type:CancelDoAfters
+
+- type: entity
+  name: Urist McHands
+  id: MobFelinidDummy
+  parent: BaseMobOrganicDummy
+  noSpawn: true
+  components:
+  - type: HumanoidAppearance
+    species: Felinid

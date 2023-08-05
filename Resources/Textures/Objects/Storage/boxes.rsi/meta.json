@@ -8,7 +8,16 @@
   },
     "states": [
         {
+            "name": "dna"
+        },
+        {
+            "name": "heart_black"
+        },
+        {
             "name": "beaker"
+        },
+        {
+            "name": "bottleplastic"
         },
         {
             "name": "bodybags"

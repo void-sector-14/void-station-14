@@ -335,6 +335,11 @@ namespace Content.Shared.CCVar
         public static readonly CVarDef<string> DiscordAHelpAvatar =
             CVarDef.Create("discord.ahelp_avatar", string.Empty, CVar.SERVERONLY);
 
+        // <summary>
+        /// URL of the discord webhook which will relay all bans messages
+        // </summary>
+        public static readonly CVarDef<string> DiscordBanWebhook =
+            CVarDef.Create("discord.ban_webhook", string.Empty, CVar.SERVERONLY);
         /*
          * Suspicion
          */
@@ -1335,10 +1340,10 @@ namespace Content.Shared.CCVar
             CVarDef.Create("viewport.minimum_width", 15, CVar.REPLICATED);
 
         public static readonly CVarDef<int> ViewportMaximumWidth =
-            CVarDef.Create("viewport.maximum_width", 21, CVar.REPLICATED);
+            CVarDef.Create("viewport.maximum_width", 29, CVar.REPLICATED);
 
         public static readonly CVarDef<int> ViewportWidth =
-            CVarDef.Create("viewport.width", 21, CVar.CLIENTONLY | CVar.ARCHIVE);
+            CVarDef.Create("viewport.width", 29, CVar.CLIENTONLY | CVar.ARCHIVE);
 
         /*
          * UI
@@ -1385,6 +1390,18 @@ namespace Content.Shared.CCVar
         /// </summary>
         public static readonly CVarDef<float> AfkTime =
             CVarDef.Create("afk.time", 60f, CVar.SERVERONLY);
+
+        /// <summary>
+        /// How long seconds a client can go after being detected as AFK before being kicked.
+        /// </summary>
+        public static readonly CVarDef<float> AfkKickTime =
+            CVarDef.Create("afk.kick_time", 600f, CVar.SERVERONLY);
+
+        /// <summary>
+        /// How long seconds a client with admin rights can go after being detected as AFK before being kicked.
+        /// </summary>
+        public static readonly CVarDef<float> AfkAdminKickTime =
+            CVarDef.Create("afk.admin_kick_time", 1800f, CVar.SERVERONLY);
 
         /*
          * IC
@@ -1440,7 +1457,7 @@ namespace Content.Shared.CCVar
         /// Cooldown for successful missions.
         /// </summary>
         public static readonly CVarDef<float>
-            SalvageExpeditionCooldown = CVarDef.Create("salvage.expedition_cooldown", 300f, CVar.REPLICATED);
+            SalvageExpeditionCooldown = CVarDef.Create("salvage.expedition_cooldown", 150f, CVar.REPLICATED);
 
         public static readonly CVarDef<float>
             SalvageExpeditionFailedCooldown = CVarDef.Create("salvage.expedition_failed_cooldown", 900f, CVar.REPLICATED);
@@ -1590,10 +1607,11 @@ namespace Content.Shared.CCVar
             CVarDef.Create("infolinks.forum", "", CVar.SERVER | CVar.REPLICATED);
 
         /// <summary>
-        /// Link to GitHub page to show in the launcher.
+        /// Link to GitLab page to show in the launcher.
         /// </summary>
-        public static readonly CVarDef<string> InfoLinksGithub =
-            CVarDef.Create("infolinks.github", "", CVar.SERVER | CVar.REPLICATED);
+        public static readonly CVarDef<string> InfoLinksGitLab =
+            CVarDef.Create("infolinks.gitlab", "https://git.arumoon.ru/Workbench-Team/space-station-14/-/tree/arumoon-server", CVar.SERVER | CVar.REPLICATED);
+        // HARDCODE: Default value specified because DevInfoBanner window uses client side config instead of server's config
 
         /// <summary>
         /// Link to website to show in the launcher.
@@ -1617,9 +1635,33 @@ namespace Content.Shared.CCVar
         /// Link to the bug report form.
         /// </summary>
         public static readonly CVarDef<string> InfoLinksBugReport =
-            CVarDef.Create("infolinks.bug_report", "", CVar.SERVER | CVar.REPLICATED);
+            CVarDef.Create("infolinks.bug_report", "https://git.arumoon.ru/Workbench-Team/space-station-14/-/issues/new", CVar.SERVER | CVar.REPLICATED);
+        // HARDCODE: Default value specified because DevInfoBanner window uses client side config instead of server's config
 
         /// <summary>
+        /// Link to wiki page with roles description in Rules menu.
+        /// </summary>
+        public static readonly CVarDef<string> InfoLinksRoles =
+            CVarDef.Create("infolinks.roles", "", CVar.SERVER | CVar.REPLICATED);
+
+        /// <summary>
+        /// Link to wiki page with space laws in Rules menu.
+        /// </summary>
+        public static readonly CVarDef<string> InfoLinksLaws =
+            CVarDef.Create("infolinks.laws", "", CVar.SERVER | CVar.REPLICATED);
+
+        /// <summary>
+        /// Link to Boosty.
+        /// </summary>
+        public static readonly CVarDef<string> InfoLinksBoosty =
+            CVarDef.Create("infolinks.boosty", "", CVar.SERVER | CVar.REPLICATED);
+
+        /// <summary>
+        /// Link to Donation shop.
+        /// </summary>
+        public static readonly CVarDef<string> InfoLinksShop =
+            CVarDef.Create("infolinks.shop", "", CVar.SERVER | CVar.REPLICATED);
+
         /// Link to site handling ban appeals. Shown in ban disconnect messages.
         /// </summary>
         public static readonly CVarDef<string> InfoLinksAppeal =
@@ -1657,6 +1699,10 @@ namespace Content.Shared.CCVar
         /// </summary>
         public static readonly CVarDef<bool> ConfigPresetDebug =
             CVarDef.Create("config.preset_debug", true, CVar.SERVERONLY);
+
+        // april fools
+        public static readonly CVarDef<string> ClippyEntity =
+            CVarDef.Create("clippy.entity", "Tippy", CVar.SERVER | CVar.REPLICATED);
 
         /*
          * World Generation

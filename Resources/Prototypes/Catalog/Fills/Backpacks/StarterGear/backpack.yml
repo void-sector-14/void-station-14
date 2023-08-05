@@ -46,9 +46,10 @@
   - type: StorageFill
     contents:
       - id: BoxSurvival
-      - id: Flash
+      #- id: Flash
       #- name: StationCharter
-      #- name: TelescopicBaton
+      - id: TelescopicBaton
+
 - type: entity
   noSpawn: true
   parent: ClothingBackpackEngineering
@@ -57,8 +58,8 @@
   - type: StorageFill
     contents:
       - id: BoxSurvivalEngineering
-      - id: Flash
-      #- id: TelescopicBaton
+      #- id: Flash
+      - id: TelescopicBaton
 
 - type: entity
   noSpawn: true
@@ -68,8 +69,8 @@
   - type: StorageFill
     contents:
       - id: BoxSurvival
-      - id: Flash
-      #- id: TelescopicBaton
+      #- id: Flash
+      - id: TelescopicBaton
 
 - type: entity
   noSpawn: true
@@ -79,8 +80,8 @@
   - type: StorageFill
     contents:
       - id: BoxSurvival
-      - id: Flash
-      #- id: TelescopicBaton
+      #- id: Flash
+      - id: TelescopicBaton
 
 - type: entity
   noSpawn: true
@@ -90,8 +91,8 @@
   - type: StorageFill
     contents:
       - id: BoxSurvivalMedical
-      - id: Flash
-      #- id: TelescopicBaton
+      #- id: Flash
+      - id: TelescopicBaton
 
 - type: entity
   noSpawn: true
@@ -101,8 +102,8 @@
   - type: StorageFill
     contents:
       - id: BoxSurvival
-      - id: Flash
-      #- id: TelescopicBaton
+      #- id: Flash
+      - id: TelescopicBaton
 
 - type: entity
   noSpawn: true
@@ -225,6 +226,7 @@
     - type: StorageFill
       contents:
         - id: BoxSurvival
+        - id: TelescopicBaton
         - id: WeaponPulseCarbine
         - id: WeaponPulsePistol
         - id: WeaponDisabler
@@ -257,6 +259,7 @@
     - type: StorageFill
       contents:
         - id: BoxSurvivalMedical
+        - id: TelescopicBaton
         - id: WeaponPulseCarbine
         - id: Hypospray
         - id: MedkitAdvancedFilled
@@ -273,6 +276,7 @@
     - type: StorageFill
       contents:
         - id: BoxSurvival
+        - id: TelescopicBaton
         - id: trayScanner
         - id: WeaponPulseCarbine
         - id: MedicatedSuture
@@ -292,6 +296,7 @@
     - type: StorageFill
       contents:
         - id: BoxSurvival
+        - id: TelescopicBaton
         - id: WeaponPulsePistol
         - id: MedkitFilled
         - id: BoxLightMixed

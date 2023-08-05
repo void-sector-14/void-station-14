@@ -117,6 +117,9 @@
   noSpawn: true
   components:
   - type: StationEvent
+    startAnnouncement: station-event-kudzu-growth-start-announcement
+    startAudio:
+      path: /Audio/Announcements/notice.ogg
     earliestStart: 15
     minimumPlayers: 15
     weight: 5
@@ -148,11 +151,35 @@
   - type: MeteorSwarmRule
 
 - type: entity
+  id: MeteorSwarmSmall
+  parent: BaseGameRule
+  noSpawn: true
+  components:
+  - type: StationEvent
+    earliestStart: 30
+    weight: 5
+    minimumPlayers: 20
+    startAnnouncement: station-event-meteor-swarm-start-announcement
+    endAnnouncement: station-event-meteor-swarm-end-announcement
+    startAudio:
+      path: /Audio/Announcements/meteors_start.ogg
+      params:
+        volume: -4
+    endAudio:
+      path: /Audio/Announcements/meteors_end.ogg
+      params:
+        volume: -4
+    duration: null #ending is handled by MeteorSwarmSmallRule
+    startAfter: 30
+  - type: MeteorSwarmSmallRule
+
+- type: entity
   id: MouseMigration
   parent: BaseGameRule
   noSpawn: true
   components:
   - type: StationEvent
+    startAnnouncement: station-event-mouse-migration-announcement
     earliestStart: 30
     minimumPlayers: 35
     weight: 5

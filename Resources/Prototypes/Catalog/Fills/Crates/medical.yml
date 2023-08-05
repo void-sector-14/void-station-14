@@ -22,6 +22,9 @@
     contents:
       - id: BoxSyringe
       - id: BoxBeaker
+        amount: 1
+      - id: BoxPlasticBottle
+        amount: 1
       - id: BoxPillCanister
       - id: Dropper
         amount: 2

@@ -146,3 +146,15 @@
     contents:
     - id: SalvagePartsT4Spawner
       amount: 5
+
+- type: entity
+  parent: CrateGenericSteel
+  id: CrateAdvSalvageEquipment
+  name: advanced salvage equipment
+  suffix: Filled
+  description: Contains one advanced plasma cutter and bluespace ore bag.
+  components:
+  - type: StorageFill
+    contents:
+    - id: WeaponCutterAdv
+    - id: OreBagBluespace

@@ -31,20 +31,31 @@
 - type: latheRecipe
   id: WeaponLaserCarbine
   result: WeaponLaserCarbine
-  completetime: 8
+  completetime: 30
   materials:
     Steel: 2000
     Glass: 800
     Plastic: 500
 
 - type: latheRecipe
+  id: WeaponCutter
+  result: WeaponCutter
+  completetime: 10
+  materials:
+    Steel: 1100
+    Glass: 200
+    Gold: 300
+    Plasma: 800
+  
+- type: latheRecipe
   id: WeaponAdvancedLaser
   result: WeaponAdvancedLaser
-  completetime: 5
+  completetime: 20
   materials:
     Steel: 1000
     Glass: 500
     Gold: 150
+    Uranium: 600
 
 - type: latheRecipe
   id: WeaponLaserCannon
@@ -162,6 +173,14 @@
     Steel: 10
 
 - type: latheRecipe
+  id: CartridgePistolUranium
+  result: CartridgePistolUranium
+  completetime: 10
+  materials:
+    Uranium: 1
+    Steel: 10
+
+- type: latheRecipe
   id: ShellShotgun
   result: ShellShotgun
   completetime: 2
@@ -244,12 +263,229 @@
   materials:
     Steel: 500
 
+# Magazines for SecurityTechFab and WeaponsTechFab
+# Resource logic. [Number of rounds in magazine]*[Cartridge material] + 100 steel
+# Complete time logic. [Number of rounds in magazine]*[Cartridge complete time] + 5
+- type: latheRecipe
+  id: MagazinePistolRubber
+  icon:
+    sprite: Objects/Weapons/Guns/Ammunition/Magazine/Pistol/pistol_mag.rsi
+    state: rubber
+  result: MagazinePistolRubber
+  completetime: 10
+  materials:
+    Plastic: 50
+    Steel: 150
+
+- type: latheRecipe
+  id: SpeedLoaderMagnumRubber
+  icon:
+    sprite: Objects/Weapons/Guns/Ammunition/SpeedLoaders/Magnum/magnum_speed_loader.rsi
+    state: rubber-6
+  result: SpeedLoaderMagnumRubber
+  completetime: 10
+  materials:
+    Plastic: 50
+    Steel: 150
+
+- type: latheRecipe
+  id: MagazineLightRifleRubber
+  icon:
+    sprite: Objects/Weapons/Guns/Ammunition/Magazine/LightRifle/light_rifle_mag.rsi
+    state: rubber
+  result: MagazineLightRifleRubber
+  completetime: 20
+  materials:
+    Plastic: 300
+    Steel: 250
+
+- type: latheRecipe
+  id: MagazineRifleRubber
+  icon:
+    sprite: Objects/Weapons/Guns/Ammunition/Magazine/Rifle/rifle_mag.rsi
+    state: rubber
+  result: MagazineRifleRubber
+  completetime: 20
+  materials:
+    Plastic: 250
+    Steel: 225
+
+- type: latheRecipe
+  id: MagazineMagnumSubMachineGunRubber
+  icon:
+    sprite: Objects/Weapons/Guns/Ammunition/Magazine/Magnum/magnum_smg_mag.rsi
+    state: rubber
+  result: MagazineMagnumSubMachineGunRubber
+  completetime: 20
+  materials:
+    Plastic: 250
+    Steel: 250
+
+- type: latheRecipe
+  id: MagazinePistol
+  icon:
+    sprite: Objects/Weapons/Guns/Ammunition/Magazine/Pistol/pistol_mag.rsi
+    state: red
+  result: MagazinePistol
+  completetime: 10
+  materials:
+    Steel: 200
+
+- type: latheRecipe
+  id: SpeedLoaderMagnum
+  icon:
+    sprite: Objects/Weapons/Guns/Ammunition/SpeedLoaders/Magnum/magnum_speed_loader.rsi
+    state: base-6
+  result: SpeedLoaderMagnum
+  completetime: 10
+  materials:
+    Steel: 200
+
+- type: latheRecipe
+  id: MagazineLightRifle
+  icon:
+    sprite: Objects/Weapons/Guns/Ammunition/Magazine/LightRifle/light_rifle_mag.rsi
+    state: red
+  result: MagazineLightRifle
+  completetime: 20
+  materials:
+    Steel: 1000
+
+- type: latheRecipe
+  id: MagazineRifle
+  icon:
+    sprite: Objects/Weapons/Guns/Ammunition/Magazine/Rifle/rifle_mag.rsi
+    state: red
+  result: MagazineRifle
+  completetime: 20
+  materials:
+    Plastic: 250
+    Steel: 225
+
+- type: latheRecipe
+  id: MagazineMagnumSubMachineGun
+  icon:
+    sprite: Objects/Weapons/Guns/Ammunition/Magazine/Magnum/magnum_smg_mag.rsi
+    state: red
+  result: MagazineMagnumSubMachineGun
+  completetime: 20
+  materials:
+    Steel: 350
+
+- type: latheRecipe
+  id: MagazinePistolSubMachineGunTopMounted
+  icon:
+    sprite: Objects/Weapons/Guns/Ammunition/Magazine/Pistol/smg_mag_top_mounted.rsi
+    state: mag-unshaded-5
+  result: MagazinePistolSubMachineGunTopMounted
+  completetime: 20
+  materials:
+    Plastic: 100
+    Steel: 250
+
+# Magazines for SecurityTechFab
+# Weapons kinetic
+- type: latheRecipe
+  id: WeaponRevolverInspector
+  icon:
+    sprite: Objects/Weapons/Guns/Revolvers/inspector.rsi
+    state: icon
+  result: WeaponRevolverInspector
+  completetime: 15
+  materials:
+    Steel: 600
+
+- type: latheRecipe
+  id: WeaponSubMachineGunWt550
+  icon:
+    sprite: Objects/Weapons/Guns/SMGs/wt550.rsi
+    state: base
+  result: WeaponSubMachineGunWt550
+  completetime: 30
+  materials:
+    Plastic: 250
+    Steel: 1200
+
+- type: latheRecipe
+  id: WeaponRifleLecter
+  icon:
+    sprite: Objects/Weapons/Guns/Rifles/lecter.rsi
+    state: base
+  result: WeaponRifleLecter
+  completetime: 30
+  materials:
+    Plastic: 250
+    Steel: 1600
+
+- type: latheRecipe
+  id: WeaponShotgunDoubleBarreled
+  icon:
+    sprite: Objects/Weapons/Guns/Shotguns/db_shotgun.rsi
+    state: icon
+  result: WeaponShotgunDoubleBarreled
+  completetime: 20
+  materials:
+    Wood: 600
+    Steel: 600
+
+- type: latheRecipe
+  id: WeaponPistolMk58
+  icon:
+    sprite: Objects/Weapons/Guns/Pistols/mk58.rsi
+    state: base
+  result: WeaponPistolMk58
+  completetime: 15
+  materials:
+    Steel: 600
+
+- type: latheRecipe
+  id: WeaponSubMachineGunVector
+  icon:
+    sprite: Objects/Weapons/Guns/SMGs/vector.rsi
+    state: base
+  result: WeaponSubMachineGunVector
+  completetime: 30
+  materials:
+    Plastic: 400
+    Steel: 1200
+
+# Weapons energy
+- type: latheRecipe
+  id: WeaponDisabler
+  icon:
+    sprite: Objects/Weapons/Guns/Battery/disabler.rsi
+    state: base
+  result: WeaponDisabler
+  completetime: 15
+  materials:
+    Glass: 350
+    Steel: 350
+
+- type: latheRecipe
+  id: WeaponDisablerPractice
+  icon:
+    sprite: Objects/Weapons/Guns/Battery/practice_disabler.rsi
+    state: base
+  result: WeaponDisablerPractice
+  completetime: 15
+  materials:
+    Glass: 250
+    Steel: 250
+
 - type: latheRecipe
   id: MagazineBoxPistol
   result: MagazineBoxPistol
   completetime: 5
   materials:
     Steel: 650
+
+- type: latheRecipe
+  id: MagazineBoxPistolUranium
+  result: MagazineBoxPistolUranium
+  completetime: 25
+  materials:
+    Steel: 650
+    Uranium: 60
 
 - type: latheRecipe
   id: MagazineBoxPistolRubber

@@ -74,8 +74,8 @@ namespace Content.Server.Remotes
                 return;
             }
 
-            if (TryComp<AccessReaderComponent>(args.Target, out var accessComponent) &&
-                !_doorSystem.HasAccess(args.Target.Value, args.Used, doorComp, accessComponent))
+            if (!_doorSystem.HasAccess(args.Target.Value, args.Used, doorComp))
+
             {
                 _doorSystem.Deny(args.Target.Value, doorComp, args.User);
                 ShowPopupToUser("door-remote-denied", args.User);

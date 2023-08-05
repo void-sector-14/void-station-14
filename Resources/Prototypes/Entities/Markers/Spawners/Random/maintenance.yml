@@ -54,6 +54,7 @@
         - ClothingUnderSocksBee
         - ClothingUnderSocksCoder
         - ClothingHeadHatSquid
+        - ClothingHeadHatCatEars
         - ClothingMaskFox
         - ClothingMaskBee
         - ClothingMaskBear
@@ -129,6 +130,7 @@
         - Spear
         - LidSalami
         - ClothingEyesBlindfold
+        - PortalRadio
       chance: 0.6
       offset: 0.0
 
