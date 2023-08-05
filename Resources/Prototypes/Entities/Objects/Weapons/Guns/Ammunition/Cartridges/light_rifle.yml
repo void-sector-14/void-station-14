@@ -11,7 +11,7 @@
   - type: CartridgeAmmo
     proto: BulletLightRifle
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Ammunition/Casings/light_rifle.rsi
+    sprite: Objects/Weapons/Guns/Ammunition/Casings/ammo_casing.rsi
     layers:
     - state: base
       map: ["enum.AmmoVisualLayers.Base"]
@@ -35,10 +35,6 @@
   components:
   - type: CartridgeAmmo
     proto: BulletLightRifleHighVelocity
-  - type: Sprite
-    layers:
-    - state: hv
-      map: ["enum.AmmoVisualLayers.Base"]
 
 - type: entity
   id: CartridgeLightRiflePractice
@@ -47,10 +43,6 @@
   components:
   - type: CartridgeAmmo
     proto: BulletLightRiflePractice
-  - type: Sprite
-    layers:
-    - state: practice
-      map: ["enum.AmmoVisualLayers.Base"]
 
 - type: entity
   id: CartridgeLightRifleRubber
@@ -59,10 +51,6 @@
   components:
   - type: CartridgeAmmo
     proto: BulletLightRifleRubber
-  - type: Sprite
-    layers:
-    - state: rubber
-      map: ["enum.AmmoVisualLayers.Base"]
 
 - type: entity
   id: CartridgeLightRifleIncendiary

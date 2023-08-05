@@ -162,12 +162,15 @@
   description: "NYAH!"
   suffix: DO NOT MAP
   components:
+  - type: Tag
+    tags: # ignore "WhitelistChameleon" tag
+      - DroneUsable
   - type: Sprite
     sprite: Clothing/Head/Hats/catears.rsi
   - type: Clothing
     sprite: Clothing/Head/Hats/catears.rsi
   - type: AddAccentClothing
-    accent: NyaAccent
+    accent: OwOAccent
 
 - type: entity
   parent: ClothingHeadBase

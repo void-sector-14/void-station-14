@@ -175,12 +175,9 @@
       - Hemostat
       - Beaker
       - LargeBeaker
-      - LargeBottle
-      - SmallBottle
       - CryostasisBeaker
       - Dropper
       - Syringe
-      - MiningDrill
       - Implanter
       - PillCanister
       - ChemistryEmptyBottle01
@@ -223,7 +220,6 @@
       - WeaponCrusherDagger
       - WeaponForceGun
       - WeaponProtoKineticAccelerator
-      - WeaponCutter
       - WeaponTetherGun
       - WeaponGrapplingGun
       - ClothingBackpackHolding
@@ -253,7 +249,6 @@
     board: CircuitImprinterMachineCircuitboard
   - type: Lathe
     producingSound: /Audio/Machines/circuitprinter.ogg
-    errorSound: /Audio/Machines/custom_deny.ogg
     idleState: icon
     runningState: building
     dynamicRecipes:
@@ -319,8 +314,6 @@
       - APECircuitboard
       - ArtifactAnalyzerMachineCircuitboard
       - TraversalDistorterMachineCircuitboard
-      - SecurityTechFabCircuitboard
-      - WeaponTechFabCircuitboard
       - BoozeDispenserMachineCircuitboard
       - SodaDispenserMachineCircuitboard
       - TelecomServerCircuitboard
@@ -365,7 +358,6 @@
     - RipleyLLeg
     - RipleyRLeg
     - MechEquipmentGrabber
-    - MechEquipmentDrill
     - HonkerHarness
     - HonkerLArm
     - HonkerRArm
@@ -394,8 +386,6 @@
   name: security techfab
   description: Prints equipment for use by security crew.
   components:
-  - type: AccessReader
-    access: [["Brig"]]
   - type: Sprite
     sprite: Structures/Machines/techfab.rsi
     layers:
@@ -411,8 +401,6 @@
   - type: Machine
     board: SecurityTechFabCircuitboard
   - type: Lathe
-    producingSound: /Audio/Machines/circuitprinter.ogg
-    soundError: /Audio/Machines/custom_deny.ogg
     idleState: icon
     runningState: icon
     staticRecipes:
@@ -424,7 +412,6 @@
       - ClothingEyesGlassesSecurity
       - RiotShield
       - CartridgePistol
-      - CartridgePistolUranium
       - CartridgeMagnum
       - ShellShotgun
       - ShellShotgunFlare
@@ -432,16 +419,13 @@
       - CartridgeLightRifle
       - CartridgeRifle
       - MagazineBoxPistol
-      - MagazineBoxPistolUranium
       - MagazineBoxMagnum
       - MagazineBoxRifle
       - MagazineBoxLightRifle
       - TargetHuman
       - TargetSyndicate
       - TargetClown
-
     dynamicRecipes:
-      # Magazines
       - CartridgePistolRubber
       - CartridgeMagnumRubber
       - ShellShotgunBeanbag
@@ -486,72 +470,6 @@
         - Sheet
         - RawMaterial
         - Ingot
-
-# Machine which makes weapons and ammunition
-- type: entity
-  parent: Protolathe
-  id: WeaponTechFab
-  name: Weapon techfab
-  description: Prints weapons for use by security crew.
-  components:
-  - type: AccessReader
-    access: [["Armory"]]
-  - type: Sprite
-    netsync: false
-    sprite: Structures/Machines/techfab.rsi
-    layers:
-    - state: icon
-      map: ["enum.LatheVisualLayers.IsRunning"]
-    - state: weapon
-    - state: unlit
-      shader: unshaded
-      map: ["enum.PowerDeviceVisualLayers.Powered"]
-    - state: inserting
-      map: ["enum.MaterialStorageVisualLayers.Inserting"]
-    - state: panel
-      map: ["enum.WiresVisualLayers.MaintenancePanel"]
-  - type: Machine
-    board: WeaponTechFabCircuitboard
-  - type: Lathe
-    producingSound: /Audio/Machines/circuitprinter.ogg
-    soundError: /Audio/Machines/custom_deny.ogg
-    idleState: icon
-    runningState: icon
-    staticRecipes:
-      - WeaponDisablerPractice
-    dynamicRecipes:
-      # Magazines
-      - MagazinePistolRubber
-      - SpeedLoaderMagnumRubber
-      - MagazineLightRifleRubber
-      - MagazineRifleRubber
-      - MagazineMagnumSubMachineGunRubber
-      - MagazinePistol
-      - SpeedLoaderMagnum
-      - MagazineLightRifle
-      - MagazineRifle
-      - MagazineMagnumSubMachineGun
-      - MagazinePistolSubMachineGunTopMounted
-      # Weapons kinetic
-      - WeaponRevolverInspector
-      - WeaponSubMachineGunWt550
-      - WeaponRifleLecter
-      - WeaponShotgunDoubleBarreled
-      - WeaponPistolMk58
-      - WeaponSubMachineGunVector
-      # Weapons energy
-      - WeaponDisabler
-      - WeaponLaserCarbine
-      - WeaponAdvancedLaser
-  - type: MaterialStorage
-    whitelist:
-      tags:
-        - Sheet
-        - RawMaterial
-        - Ingot
-        - Wood
-        - Uranium
-        - Gold
 
 - type: entity
   id: AmmoTechFab
@@ -626,8 +544,6 @@
       - ClothingMaskSterile
       - DiseaseSwab
       - Beaker
-      - SmallBottle
-      - Syringecartridge
       - Syringe
       - Implanter
       - PillCanister
@@ -644,10 +560,8 @@
     dynamicRecipes:
       - HandheldCrewMonitor
       - ClothingHandsGlovesNitrile
-      - ClothingEyesHudMedical
       - CryostasisBeaker
       - LargeBeaker
-      - LargeBottle
       - Dropper
       - Scalpel
       - Retractor

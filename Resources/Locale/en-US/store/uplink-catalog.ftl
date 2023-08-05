@@ -73,9 +73,6 @@ uplink-mosin-ammo-desc = A box of cartridges for the surplus rifle.
 uplink-sniper-ammo-name = ammunition box (.60 antimateriel)
 uplink-sniper-ammo-desc = a box of 10 cartridges for the hristov sniper rifle
 
-uplink-syringe-cartridge-name = Box of Syringe cartridges
-uplink-syringe-cartridge-desc = A box of syringe cartridges for the syringe pistol.
-
 # Utility
 uplink-holopara-kit-name = Holoparasite Kit
 uplink-holopara-kit-desc = The pride and joy of Cybersun. Contains an injector that hosts a sentient metaphysical guardian made of hard light which resides in the user's body when not active.
@@ -154,9 +151,6 @@ uplink-sniper-bundle-desc = An inconspicuous briefcase that contains a hristov, 
 
 uplink-c20r-bundle-name = C-20r Bundle
 uplink-c20r-bundle-desc = Old faithful: The classic C-20r Submachine Gun, bundled with three magazines.
-
-uplink-kr51-bundle-name = KR51 Bundle
-uplink-kr51-bundle-desc = Hidden threat: The classic KR51 automatic rifle, bundled with three magazines.
 
 uplink-buldog-bundle-name = Bulldog Bundle
 uplink-buldog-bundle-desc = Lean and mean: Contains the popular Bulldog Shotgun, a 12g beanbag drum and three 12g buckshot drums.
@@ -325,5 +319,3 @@ uplink-scarf-syndie-red-desc = A stylish striped syndicate red scarf. The perfec
 uplink-scarf-syndie-green-name = striped syndicate green scarf
 uplink-scarf-syndie-green-desc = A stylish striped syndicate green scarf. The perfect winter accessory for those with a keen fashion sense, and those who are in the mood to steal something.
 
-uplink-miniature-energy-crossbow-syndie-green-name = Miniature Energy Crossbow
-uplink-miniature-energy-crossbow-syndie-green-desc = The syndicate's energy crossbow, small, silent and deadly.

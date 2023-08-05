@@ -68,7 +68,7 @@ public sealed partial class GatherableSystem : EntitySystem
         Gather(uid, args.User, args.Used, component: component);
     }
 
-    public void OnDoAfter(EntityUid uid, GatherableComponent component, DoAfterEvent args)
+    private void OnDoAfter(EntityUid uid, GatherableComponent component, GatherableDoAfterEvent args)
     {
         if(!TryComp<GatheringToolComponent>(args.Args.Used, out var tool))
             return;

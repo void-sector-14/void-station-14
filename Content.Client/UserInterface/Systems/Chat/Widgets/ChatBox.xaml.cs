@@ -31,9 +31,6 @@ public partial class ChatBox : UIWidget
     {
         RobustXamlLoader.Load(this);
 
-
-        ChatInput.Input.OnFocusEnter += OnFocusEnter;
-        ChatInput.Input.OnFocusExit += OnFocusExit;
         ChatInput.Input.OnTextEntered += OnTextEntered;
         ChatInput.Input.OnKeyBindDown += OnKeyBindDown;
         ChatInput.Input.OnTextChanged += OnTextChanged;
@@ -43,16 +40,6 @@ public partial class ChatBox : UIWidget
         _controller = UserInterfaceManager.GetUIController<ChatUIController>();
         _controller.MessageAdded += OnMessageAdded;
         _controller.RegisterChat(this);
-    }
-
-    private void OnFocusEnter(LineEditEventArgs args)
-    {
-        _controller.FocusEnter();
-    }
-
-    private void OnFocusExit(LineEditEventArgs args)
-    {
-        _controller.FocusExit();
     }
 
     private void OnTextEntered(LineEditEventArgs args)
@@ -186,7 +173,7 @@ public partial class ChatBox : UIWidget
         _controller.UpdateSelectedChannel(this);
 
         // Warn typing indicator about change
-        _controller.NotifyChatTextChange(args.Text);
+        _controller.NotifyChatTextChange();
     }
 
     protected override void Dispose(bool disposing)
@@ -195,8 +182,6 @@ public partial class ChatBox : UIWidget
 
         if (!disposing) return;
         _controller.UnregisterChat(this);
-        ChatInput.Input.OnFocusEnter -= OnFocusEnter;
-        ChatInput.Input.OnFocusExit -= OnFocusExit;
         ChatInput.Input.OnTextEntered -= OnTextEntered;
         ChatInput.Input.OnKeyBindDown -= OnKeyBindDown;
         ChatInput.Input.OnTextChanged -= OnTextChanged;

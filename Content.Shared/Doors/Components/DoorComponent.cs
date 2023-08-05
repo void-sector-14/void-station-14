@@ -4,7 +4,6 @@ using Content.Shared.Doors.Systems;
 using Content.Shared.Tools;
 using JetBrains.Annotations;
 using Robust.Shared.Audio;
-using Robust.Shared.Containers;
 using Robust.Shared.GameStates;
 using Robust.Shared.Serialization;
 using Robust.Shared.Serialization.TypeSerializers.Implementations.Custom;

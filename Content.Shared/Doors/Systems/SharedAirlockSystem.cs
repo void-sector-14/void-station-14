@@ -1,11 +1,5 @@
-using Content.Shared.Access.Components;
-using Content.Shared.Access.Systems;
 using Content.Shared.Doors.Components;
-using Content.Shared.Doors.Systems;
-using Content.Shared.Emag.Components;
-using Content.Shared.Emag.Systems;
 using Content.Shared.Popups;
-using Robust.Shared.Containers;
 using Robust.Shared.GameStates;
 
 namespace Content.Shared.Doors.Systems;
@@ -13,7 +7,6 @@ namespace Content.Shared.Doors.Systems;
 public abstract class SharedAirlockSystem : EntitySystem
 {
     [Dependency] protected readonly SharedAppearanceSystem Appearance = default!;
-    [Dependency] protected readonly SharedContainerSystem _container = default!;
     [Dependency] protected readonly SharedDoorSystem DoorSystem = default!;
     [Dependency] protected readonly SharedPopupSystem Popup = default!;
 
@@ -45,6 +38,7 @@ public abstract class SharedAirlockSystem : EntitySystem
         if (!airlock.Safety)
             args.PerformCollisionCheck = false;
     }
+
 
     public void UpdateEmergencyLightStatus(EntityUid uid, AirlockComponent component)
     {

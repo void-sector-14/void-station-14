@@ -6,4 +6,3 @@ admin-player-actions-ahelp = Ahelp
 admin-player-actions-respawn = Возродить
 admin-player-actions-teleport = Телепортироваться к
 admin-player-actions-confirm = Вы уверены?
-admin-player-actions-sound = Бвоинк

@@ -144,17 +144,6 @@
   - type: Sprite
     state: energybar-open
   - type: Item
-  - type: SolutionContainerManager
-    solutions:
-      food:
-        maxVol: 30
-        reagents:
-        - ReagentId: Sugar
-          Quantity: 5
-        - ReagentId: Nutriment
-          Quantity: 10
-  - type: Extractable
-    grindableSolutionName: food
 
 - type: entity
   name: popcorn
@@ -217,17 +206,6 @@
     state: syndicakes
   - type: Item
   - type: Food
-  - type: SolutionContainerManager
-    solutions:
-      food:
-        maxVol: 30
-        reagents:
-        - ReagentId: Sugar
-          Quantity: 5
-        - ReagentId: Nutriment
-          Quantity: 10
-  - type: Extractable
-    grindableSolutionName: food
     trash: FoodPacketSyndiTrash
 
 - type: entity
@@ -298,13 +276,10 @@
   - type: SolutionContainerManager
     solutions:
       food:
+        maxVol: 1
         reagents:
         - ReagentId: Nutriment
           Quantity: 1
-        - ReagentId: Sugar
-          Quantity: 3
-  - type: Extractable
-    grindableSolutionName: food
   - type: Item
     sprite: Objects/Consumable/Food/snacks.rsi
     heldPrefix: packet

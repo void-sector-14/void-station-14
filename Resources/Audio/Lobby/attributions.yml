@@ -8,6 +8,12 @@
   copyright: "Endless Space by SolusLunes. Converted from MP3 to OGG."
   source: "https://www.newgrounds.com/audio/listen/67583"
 
+- files: ["space_asshole.ogg"]
+  license: "Custom"
+  copyright: "Space Asshole by Chris Remo is used with special permission from the author, under the condition that the project remains non-commercial and open source. The author also requested that a link to his bandcamp be included: https://chrisremo.bandcamp.com/"
+  source: "https://idlethumbs.bandcamp.com/track/space-asshole"
+  # The source is a direct link the the track, but not the "main" bandcamp of the author. Hence the link is also included separately in the copyright.
+
 - files: ["absconditus.ogg"]
   license: "CC-BY-NC-SA-3.0"
   copyright: "Absconditus by ZhayTee. Converted from MP3 to OGG."
@@ -43,6 +49,11 @@
   copyright: "Comet Haley by Stellardrone. Converted from MP3 to OGG."
   source: "https://freemusicarchive.org/music/Stellardrone/Light_Years_1227/07_Comet_Halley"
 
+- files: ["mod.flip-flap.ogg"]
+  license: "Custom"
+  copyright: "Flip Flap by X-ceed is licensed under a short but clear license (see flip-flap.txt in this directory) and is free for non-commercial use. It was converted from MOD to WAV using Schism Tracker, in 16 Bit, Non-Interpolated mode, no output equalizer settings, Ramp volume at start of sample enabled. From there it was converted to OGG Vorbis with `ffmpeg -i flip-flap.wav -q 2.9 flip-flap-renc.ogg` (quality scale chosen to match size of the OGG file being replaced). Non-interpolated mode was chosen as the module has a high enough sample rate to balance it out, but seems muffled in other interpolation modes. If 'Ramp volume at start of sample' is not enabled, a clicking phenomenon results."
+  source: "http://aminet.net/package/mods/xceed/Flipflap"
+
 - files: ["Monument.ogg"]
   license: "CC-BY-NC-SA-3.0"
   copyright: "Monument by Six Umbrellas."
@@ -67,18 +78,3 @@
   license: "CC-BY-NC-SA-3.0"
   copyright: "every light is blinking at once by Alexander Divine."
   source: "https://soundcloud.com/alexanderdivine/every-light-is-blinking-at-once"
-
-- files: ["clown.ogg"]
-  license: "Custom"
-  copyright: "Clown taken from tgstation, that was modified specially for April Fools from title2.ogg"
-  source: "https://github.com/tgstation/tgstation/commit/5dbd2d49a6e2c38e446db5e3051df2d0addc1390"
-
-- files: ["lightness.ogg"]
-  license: "CC-BY-3.0"
-  copyright: "Lightness by Nomyn"
-  source: "https://soundcloud.com/nomyn/lightness"
-
-- files: ["родина.ogg"]
-  license: "CC-BY-3.0"
-  copyright: "Родина от Проект Лазарь"
-  source: "https://www.youtube.com/watch?v=XnY7Q-ULqpA"

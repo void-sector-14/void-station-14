@@ -35,11 +35,3 @@
     materialComposition:
       Steel: 400
       Glass: 100
-  - type: SolutionContainerManager
-    solutions:
-      gasanalyser:
-        reagents:
-        - ReagentId: Mercury
-          Quantity: 15
-  - type: Extractable
-    grindableSolutionName: gasanalyser

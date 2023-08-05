@@ -1,6 +1,5 @@
 using Robust.Shared.Prototypes;
 
-
 namespace Content.Shared.Roles
 {
     /// <summary>
@@ -46,8 +45,5 @@ namespace Content.Shared.Roles
         /// </summary>
         [DataField("setPreference")]
         public bool SetPreference { get; private set; }
-
-        [DataField("requirements")]
-        public HashSet<JobRequirement>? Requirements;
     }
 }

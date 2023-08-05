@@ -29,7 +29,6 @@
         - HolofanProjector
         - Multitool
         - AppraisalTool
-        - HolosignProjector
       components:
         - AirlockPainter
         - NetworkConfigurator
@@ -103,7 +102,6 @@
         - HolofanProjector
         - Multitool
         - AppraisalTool
-        - HolosignProjector
       components:
         - AirlockPainter
         - NetworkConfigurator
@@ -168,7 +166,6 @@
       tags:
         - CigPack
         - Taser
-        - HolosignProjector
       components:
         - Stunbaton
         - FlashOnTrigger
@@ -366,7 +363,6 @@
         - Taser
         - SecBeltEquip
         - Radio
-        - HolosignProjector
       components:
         - Stunbaton
         - FlashOnTrigger

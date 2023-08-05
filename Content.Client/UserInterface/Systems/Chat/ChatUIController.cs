@@ -847,30 +847,9 @@ public sealed class ChatUIController : UIController
         return MapLocalIfGhost(PreferredChannel);
     }
 
-    public void FocusEnter()
+    public void NotifyChatTextChange()
     {
-        _typingIndicator?.ClientFocusChat();
-    }
-
-    public void FocusExit()
-    {
-        _typingIndicator?.ClientUnFocusChat();
-    }
-
-    public void NotifyChatTextChange(string text)
-    {
-        if(text.EndsWith('!'))
-        {
-            _typingIndicator?.ClientChangedChatTextAction();
-        }
-        else if(text.EndsWith('?'))
-        {
-            _typingIndicator?.ClientChangedChatTextQuestion();
-        }
-        else
-        {
-            _typingIndicator?.ClientChangedChatText();
-        }
+        _typingIndicator?.ClientChangedChatText();
     }
 
     public void Repopulate()

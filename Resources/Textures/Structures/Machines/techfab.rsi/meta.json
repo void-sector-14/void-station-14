@@ -14,11 +14,8 @@
       "name": "med"
     },
     {
-      "name": "weapon"
+        "name": "ammo"
     },
-	{
-	  "name": "ammo"
-	},
     {
       "name": "panel"
     },

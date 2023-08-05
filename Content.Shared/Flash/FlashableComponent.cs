@@ -10,27 +10,6 @@ namespace Content.Shared.Flash
         public TimeSpan LastFlash;
 
         public override bool SendOnlyToOwner => true;
-
-        /// <summary>
-        /// Coefficent for flash duration
-        /// </summary>
-        [DataField("durationMultiplier")]
-        [ViewVariables(VVAccess.ReadWrite)]
-        public float DurationMultiplier { get; set; } = 1;
-
-        /// <summary>
-        /// Additional duration coefficent if entity was flashed with flashbang
-        /// </summary>
-        [DataField("bangAddMultiplier")]
-        [ViewVariables(VVAccess.ReadWrite)]
-        public float BangAddMultiplier { get; set; } = 0;
-
-        /// <summary>
-        /// Additional duration coefficent if entity was flashed with flashbang
-        /// </summary>
-        [DataField("bangFlash")]
-        [ViewVariables(VVAccess.ReadWrite)]
-        public bool BangFlash { get; set; } = true;
     }
 
     [Serializable, NetSerializable]

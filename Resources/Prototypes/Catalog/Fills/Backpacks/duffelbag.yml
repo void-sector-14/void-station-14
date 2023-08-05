@@ -73,18 +73,6 @@
 #     - id: SMGSuppressor
 
 - type: entity
-  parent: ClothingBackpackDuffelSyndicateAmmoBundle
-  id: ClothingBackpackDuffelSyndicateFilledRifle
-  name: KR51 bundle
-  description: "Hidden threat: The classic KR51 automatic rifle, bundled with three magazines."
-  components:
-  - type: StorageFill
-    contents:
-      - id: WeaponRifleKR51
-      - id: MagazineCaselessRifleShort
-        amount: 2
-
-- type: entity
   parent: ClothingBackpackDuffelSyndicateBundle
   id: ClothingBackpackDuffelSyndicateFilledRevolver
   name: Python bundle
@@ -314,7 +302,6 @@
       - id: PinpointerNuclear
       - id: HandheldHealthAnalyzer
       - id: CombatMedipen
-#      - id: SyringeGun
 
 - type: entity
   parent: ClothingBackpackDuffelSyndicateMedicalBundle

@@ -169,9 +169,6 @@
   - type: IdentityBlocker
   - type: Tag
     tags:
-    - PetWearable
-    - WhitelistChameleon
-  # for H.O.N.K. construction
     - ClownMask
     - WhitelistChameleon
 

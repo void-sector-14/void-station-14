@@ -130,6 +130,3 @@ ent-BoxMagazineRiflePractice = box of .20 rifle (practice) magazines
 ent-BoxMagazineRifleRubber = box of .20 rifle (rubber) magazines
     .desc = A box full of .20 rifle (rubber) magazines.
     .suffix = { "" }
-ent-BoxSyringeCartridge = Syringe Cartridges box
-    .desc = A box full of syringe cartridges.
-    .suffix = { "" }

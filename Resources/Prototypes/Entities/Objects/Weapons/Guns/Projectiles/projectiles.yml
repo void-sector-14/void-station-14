@@ -67,16 +67,6 @@
     lifetime: 10
 
 - type: entity
-  id: syringeprojctile
-  parent: BaseBullet
-  noSpawn: true
-  components:
-  - type: Sprite
-    sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
-    layers:
-    - state: syringeproj
-
-- type: entity
   id: BaseBulletTrigger # Trigger-on-collide bullets
   parent: BaseBullet
   noSpawn: true
@@ -292,49 +282,6 @@
       path: "/Audio/Weapons/tap.ogg"
     soundForce: true
 
-- type: entity
-  id: BulletCutter
-  name: cutter bolt
-  parent: BaseBullet
-  noSpawn: true
-  description: Not too bad, but you still don't want to get hit by it.
-  components:
-  - type: Reflective
-    reflective:
-      - NonEnergy
-  - type: Sprite
-    noRot: false
-    sprite: Objects/Weapons/Guns/Projectiles/bullet_cutter.rsi
-    layers:
-    - state: icon
-      shader: unshaded
-  - type: GatheringProjectile
-    amount: 30
-  - type: Projectile
-    deleteOnCollide: false
-    damage:
-      types:
-        Heat: 10
-  - type: TimedDespawn
-    lifetime: 0.2
-  - type: PointLight
-    radius: 2
-    color: purple
-    energy: 1
-
-- type: entity
-  id: BulletCutterAdv
-  name: cutter bolt advanced
-  parent: BulletCutter
-  noSpawn: true
-  components:
-  - type: Projectile
-    damage:
-      types:
-        Heat: 15
-  - type: TimedDespawn
-    lifetime: 0.25
-  
 - type: entity
   name: emitter bolt
   id: EmitterBolt
@@ -635,7 +582,6 @@
     layers:
       - state: grenade
   - type: FlashOnTrigger
-    bang: true
     range: 7
 
 # This is supposed to spawn shrapnel and stuff so uhh... TODO?
@@ -787,25 +733,3 @@
             - Impassable
             - HighImpassable
     - type: GrapplingProjectile
-
-- type: entity
-  id: BulletMic
-  name: MIC bolt
-  parent: BaseBullet
-  noSpawn: true
-  description: Not too bad, but you still don't want to get hit by it.
-  components:
-  - type: Sprite
-    noRot: false
-    sprite: Objects/Weapons/Guns/Projectiles/projectiles_tg.rsi
-    layers:
-    - state: cbbolt
-  - type: GatheringProjectile
-  - type: Projectile
-    damage:
-      types:
-        Poison: 10
-  - type: TimedDespawn
-    lifetime: 0.4
-  - type: StaminaDamageOnCollide
-    damage: 65

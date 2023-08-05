@@ -20,29 +20,15 @@ public sealed class TypingIndicatorVisualizerSystem : VisualizerSystem<TypingInd
             return;
         }
 
-        AppearanceSystem.TryGetData<TypingIndicatorState>(uid, TypingIndicatorVisuals.State, out var TypingState, args.Component);
+        AppearanceSystem.TryGetData<bool>(uid, TypingIndicatorVisuals.IsTyping, out var isTyping, args.Component);
         var layerExists = args.Sprite.LayerMapTryGet(TypingIndicatorLayers.Base, out var layer);
         if (!layerExists)
             layer = args.Sprite.LayerMapReserveBlank(TypingIndicatorLayers.Base);
 
         args.Sprite.LayerSetRSI(layer, proto.SpritePath);
-        switch (TypingState)
-        {
-            case TypingIndicatorState.Typing:
-            args.Sprite.LayerSetState(layer, proto.TypingState);
-            break;
-            case TypingIndicatorState.TypingQuestion:
-            args.Sprite.LayerSetState(layer, proto.QuestionState);
-            break;
-            case TypingIndicatorState.TypingAction:
-            args.Sprite.LayerSetState(layer, proto.ActionState);
-            break;
-            case TypingIndicatorState.Thinking:
-            args.Sprite.LayerSetState(layer, proto.ThinkState);
-            break;
-        }
+        args.Sprite.LayerSetState(layer, proto.TypingState);
         args.Sprite.LayerSetShader(layer, proto.Shader);
         args.Sprite.LayerSetOffset(layer, proto.Offset);
-        args.Sprite.LayerSetVisible(layer, TypingState != TypingIndicatorState.None);
+        args.Sprite.LayerSetVisible(layer, isTyping);
     }
 }

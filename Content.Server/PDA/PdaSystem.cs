@@ -17,7 +17,6 @@ using Content.Shared.PDA;
 using Robust.Server.GameObjects;
 using Robust.Server.Player;
 using Robust.Shared.Containers;
-using Content.Shared.AlertLevel;
 
 namespace Content.Server.PDA
 {
