@@ -47,7 +47,8 @@
         prob: 0.6
       - id: ClothingHandsGlovesLatex
       - id: ClothingHeadsetMedical
-     # - id: ClothingEyesHudMedical #Removed until working properly
+      - id: ClothingEyesHudMedical
+      - id: DnaSyringeGun
       - id: ClothingBeltMedical
       - id: ClothingHeadHatSurgcapGreen
         prob: 0.1
@@ -116,6 +117,7 @@
     contents:
       - id: BoxSyringe
       - id: BoxBeaker
+      - id: BoxPlasticBottle
       - id: BoxPillCanister
       - id: BoxBottle
         amount: 2

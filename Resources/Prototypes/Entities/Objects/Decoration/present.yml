@@ -76,6 +76,8 @@
         orGroup: GiftPool
       - id: PlushieVox
         orGroup: GiftPool
+      - id: PlushieMoff
+        orGroup: GiftPool
       - id: PlushieRatvar
         orGroup: GiftPool
       - id: PlushieSpaceLizard
@@ -357,6 +359,7 @@
       - id: WeaponPulseCarbine
         prob: .001
         orGroup: GiftPool
+      - id: ToyPadoru
       - id: RGBStaff
         orGroup: GiftPool
     sound:

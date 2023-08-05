@@ -7,8 +7,10 @@ using Content.Shared.Database;
 using Content.Shared.Doors;
 using Content.Shared.Doors.Components;
 using Content.Shared.Doors.Systems;
+using Content.Shared.Emag.Components;
 using Content.Shared.Emag.Systems;
 using Content.Shared.Interaction;
+using Robust.Shared.Containers;
 using Content.Shared.Tools.Components;
 using Content.Shared.Verbs;
 using Robust.Shared.Audio;
@@ -211,8 +213,7 @@ public sealed class DoorSystem : SharedDoorSystem
     }
 #endregion
 
-
-    /// <summary>
+/// <summary>
     ///     Open a door if a player or door-bumper (PDA, ID-card) collide with the door. Sadly, bullets no longer
     ///     generate "access denied" sounds as you fire at a door.
     /// </summary>

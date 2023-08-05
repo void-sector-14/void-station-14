@@ -35,6 +35,7 @@
     - trigger:
         !type:DamageTrigger
         damage: 100
+        triggersOnce: true
       behaviors:
       - !type:DoActsBehavior
         acts: ["Breakage"]

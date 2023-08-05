@@ -599,6 +599,15 @@
     FoodButter: 1
 
 - type: microwaveMealRecipe
+  id: RecipeButterDog
+  name: butter dog recipe
+  result: FoodBreadButterDog
+  time: 10
+  solids:
+    FoodBreadPlain: 1
+    FoodButter: 1
+
+- type: microwaveMealRecipe
   id: RecipeChowMein
   name: chow mein recipe
   result: FoodNoodlesChowmein
@@ -1224,7 +1233,7 @@
     UncookedAnimalProteins: 6
   solids:
     FoodDoughSlice: 3
-    
+
 #Donks i guess
 - type: microwaveMealRecipe
   id: RecipeWarmDonkpocket
@@ -1509,7 +1518,7 @@
   name: medicated suture recipe
   result: MedicatedSuture
   time: 10
-  solids: 
+  solids:
     FoodPoppy: 1
     Brutepack: 1
     MaterialCloth1: 1
@@ -1528,7 +1537,7 @@
     MaterialCloth1: 1
   reagents:
     Sigynate: 50
-    Dermaline: 50 
+    Dermaline: 50
 
 # Suppermatter
 - type: microwaveMealRecipe
@@ -1640,3 +1649,14 @@
   time: 5
   solids:
     FoodSpaceshroom: 1
+
+- type: microwaveMealRecipe
+  id: RecipeShaurma
+  name: shaurma recipe
+  result: FoodMeatShaurma
+  time: 5
+  solids:
+    FoodMeat: 1
+    FoodBreadPlainSlice: 1 # TODO: Add pita bread (лаваш) instead of classic bread
+    FoodTomato: 1
+    FoodOnionSlice: 1

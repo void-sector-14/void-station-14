@@ -49,6 +49,6 @@ ent-ClothingHeadsetService = сервисная гарнитура
 ent-ClothingHeadsetBrigmedic = гарнитура бригмедика
     .desc = Гарнитура, которая помогает слышать предсмертные крики.
     .suffix = { "" }
-ent-ClothingHeadsetGrey = гарнитура пассажира
+ent-ClothingHeadsetGrey = гарнитура ассистента
     .desc = Модифицированный модульный интерком, надеваемый на голову. Принимает ключи шифрования.
     .suffix = { "" }

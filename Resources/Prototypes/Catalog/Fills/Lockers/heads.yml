@@ -12,6 +12,8 @@
       - id: ClothingHeadHatQMsoft
       - id: CargoRequestComputerCircuitboard
       - id: CargoShuttleComputerCircuitboard
+      - id: ClothingOuterHardsuitKm
+      - id: HandheldCargoMonitor
       - id: CargoShuttleConsoleCircuitboard
       - id: SalvageShuttleConsoleCircuitboard
       - id: CargoBountyComputerCircuitboard
@@ -72,6 +74,7 @@
       - id: ClothingHandsGlovesCaptain
       - id: WeaponDisabler
       - id: CommsComputerCircuitboard
+      - id: HandheldIntercomMonitor
       - id: ClothingHeadsetAltCommand
       - id: SpaceCash1000
       - id: PlushieNuke
@@ -134,7 +137,7 @@
       - id: ClothingBeltChiefEngineerFilled
       - id: ClothingHeadHatBeretEngineering
       - id: ClothingShoesBootsMagAdv
-      - id: ClothingHandsGlovesColorYellow
+#      - id: ClothingHandsGlovesColorYellow
       - id: CigarCase
         prob: 0.15
       - id: DoorRemoteEngineering
@@ -142,6 +145,9 @@
       - id: JetpackVoidFilled
       - id: ClothingHeadsetAltEngineering
       - id: BoxEncryptionKeyEngineering
+      - id: HolofanProjector
+      - id: HoloprojectorEngineering
+      - id: ClothingHandsGlovesCE
 
 - type: entity
   id: LockerChiefEngineerFilled
@@ -154,13 +160,14 @@
       - id: ClothingEyesGlassesMeson
       - id: ClothingBeltChiefEngineerFilled
       - id: ClothingHeadHatBeretEngineering
-      - id: ClothingHandsGlovesColorYellow
+      - id: HandheldSolarMonitor
       - id: CigarCase
         prob: 0.15
       - id: DoorRemoteEngineering
       - id: RubberStampCE
       - id: ClothingHeadsetAltEngineering
       - id: BoxEncryptionKeyEngineering
+      - id: ClothingHandsGlovesCE
 
 - type: entity
   id: LockerChiefMedicalOfficerFilledHardsuit
@@ -171,7 +178,7 @@
     contents:
       - id: MedkitFilled
       - id: ClothingHandsGlovesNitrile
-      #- name: ClothingEyesHudMedical #Removed until working properly
+      - id: ClothingEyesHudMedical
       - id: ClothingHeadsetAltMedical
       - id: ClothingCloakCmo
       - id: ClothingBackpackDuffelSurgeryFilled
@@ -253,6 +260,7 @@
       - id: HandTeleporter
       - id: DoorRemoteResearch
       - id: ClothingHeadHatBeretRND
+      - id: HandheldRndMonitor
       - id: RubberStampRd
       - id: ClothingHeadsetAltScience
       - id: BoxEncryptionKeyScience
@@ -287,6 +295,7 @@
       - id: SecurityTechFabCircuitboard
       - id: JetpackSecurityFilled
       - id: BoxEncryptionKeySecurity
+      - id: WeaponTechFabCircuitboard
       - id: HoloprojectorSecurity
 
 - type: entity

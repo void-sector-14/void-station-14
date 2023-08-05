@@ -142,9 +142,10 @@
     sprite: Objects/Tanks/Jetpacks/captain.rsi
     slots:
       - Back
+      - suitStorage
   - type: Item
     sprite: Objects/Tanks/Jetpacks/captain.rsi
-    size: 30
+    size: 50
   - type: Tag
     tags:
     - HighRiskItem

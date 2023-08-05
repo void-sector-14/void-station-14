@@ -7,6 +7,12 @@ namespace Content.Shared.Climbing;
 public sealed class ClimbingComponent : Component
 {
     /// <summary>
+    ///     Delay Multiplier to climb onto tables
+    /// </summary>
+    [DataField("tableClimbMultiplier")]
+    public float TableClimbMultiplier = 1f;
+
+    /// <summary>
     /// Whether the owner is climbing on a climbable entity.
     /// </summary>
     [ViewVariables]

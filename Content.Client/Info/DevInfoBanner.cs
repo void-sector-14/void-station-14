@@ -33,6 +33,22 @@ namespace Content.Client.Info
             var creditsButton = new Button {Text = Loc.GetString("server-info-credits-button")};
             creditsButton.OnPressed += args => new CreditsWindow().Open();
             buttons.AddChild(creditsButton);
+
+            var Boosty = cfg.GetCVar(CCVars.InfoLinksBoosty);
+            if (Boosty != "")
+            {
+                var BoostyButton = new Button {Text = Loc.GetString("server-info-boosty-button")};
+                BoostyButton.OnPressed += args => uriOpener.OpenUri(Boosty);
+                buttons.AddChild(BoostyButton);
+            }
+
+            var GitLab = cfg.GetCVar(CCVars.InfoLinksGitLab);
+            if (GitLab != "")
+            {
+               var GitLabButton = new Button {Text = Loc.GetString("server-info-gitlab-button")};
+               GitLabButton.OnPressed += args => uriOpener.OpenUri(GitLab);
+               buttons.AddChild(GitLabButton);
+            }
         }
     }
 }

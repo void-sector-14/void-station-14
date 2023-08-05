@@ -23,6 +23,10 @@
     clothingVisuals:
       neck:
       - state: lgbt-equipped
+  - type: Tag
+    tags:
+    - Recyclable
+    - Trash
 
 - type: entity
   parent: ClothingNeckPinBase
@@ -39,6 +43,10 @@
     clothingVisuals:
       neck:
       - state: aro-equipped
+  - type: Tag
+    tags:
+    - Recyclable
+    - Trash
 
 - type: entity
   parent: ClothingNeckPinBase
@@ -55,6 +63,10 @@
     clothingVisuals:
       neck:
       - state: asex-equipped
+  - type: Tag
+    tags:
+    - Recyclable
+    - Trash
 
 - type: entity
   parent: ClothingNeckPinBase
@@ -71,6 +83,10 @@
     clothingVisuals:
       neck:
       - state: bi-equipped
+  - type: Tag
+    tags:
+    - Recyclable
+    - Trash
 
 - type: entity
   parent: ClothingNeckPinBase
@@ -87,6 +103,10 @@
     clothingVisuals:
       neck:
       - state: inter-equipped
+  - type: Tag
+    tags:
+    - Recyclable
+    - Trash
 
 - type: entity
   parent: ClothingNeckPinBase
@@ -103,6 +123,10 @@
     clothingVisuals:
       neck:
       - state: les-equipped
+  - type: Tag
+    tags:
+    - Recyclable
+    - Trash
 
 - type: entity
   parent: ClothingNeckPinBase
@@ -119,6 +143,10 @@
     clothingVisuals:
       neck:
       - state: non-equipped
+  - type: Tag
+    tags:
+    - Recyclable
+    - Trash
 
 - type: entity
   parent: ClothingNeckPinBase
@@ -135,6 +163,10 @@
     clothingVisuals:
       neck:
       - state: pan-equipped
+  - type: Tag
+    tags:
+    - Recyclable
+    - Trash
 
 - type: entity
   parent: ClothingNeckPinBase
@@ -151,3 +183,7 @@
     clothingVisuals:
       neck:
       - state: trans-equipped
+  - type: Tag
+    tags:
+    - Recyclable
+    - Trash

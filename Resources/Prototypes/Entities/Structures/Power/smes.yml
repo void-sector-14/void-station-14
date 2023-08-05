@@ -75,6 +75,7 @@
       requirePower: true
       highVoltageNode: input
       mediumVoltageNode: output
+      chanceOfShock: 0.33
     - type: Damageable
       damageContainer: Inorganic
       damageModifierSet: StrongMetallic
