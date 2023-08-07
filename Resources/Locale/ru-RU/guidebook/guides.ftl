@@ -42,3 +42,6 @@ guide-entry-security = Служба безопасности
 guide-entry-dna = ДНК
 guide-entry-antagonists = Антагонисты
 guide-entry-nuclear-operatives = Ядерные Оперативники
+guide-entry-traitors = Traitors
+guide-entry-zombies = Zombies
+guide-entry-minor-antagonists = Minor Antagonists

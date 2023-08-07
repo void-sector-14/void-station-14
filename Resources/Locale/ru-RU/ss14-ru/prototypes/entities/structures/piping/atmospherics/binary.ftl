@@ -25,3 +25,6 @@ ent-GasDualPortVentPump = двухпортовая вентиляция
 ent-GasRecycler = переработчик газа
     .desc = Перерабатывает углекислый газ и оксид азота. Нагреватель и компрессор в комплект не входят.
     .suffix = { "" }
+ent-HeatExchanger = radiator
+    .desc = Transfers heat between the pipe and its surroundings.
+    .suffix = { "" }

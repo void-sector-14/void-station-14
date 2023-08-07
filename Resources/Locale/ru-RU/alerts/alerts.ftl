@@ -58,3 +58,5 @@ alerts-suit-power-name = Сила костюма
 alerts-suit-power-desc = Сколько энергии у Вашего костюма космического ниндзя.
 alerts-bleed-name = [color=red]Кровотечение[/color]
 alerts-bleed-desc = Вы [color=red]истекаете кровью[/color].
+alerts-pacified-name = [color=green]Pacified[/color]
+alerts-pacified-desc = You're pacified; you won't be able to attack anyone directly.
