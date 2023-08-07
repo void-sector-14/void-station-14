@@ -1,3 +1,3 @@
-ent-BaseMob = BaseMob
+ent-BaseMob = БазовыйМоб
     .desc = { "" }
     .suffix = { "" }

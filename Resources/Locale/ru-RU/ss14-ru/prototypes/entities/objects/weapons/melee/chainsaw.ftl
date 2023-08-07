@@ -1,3 +1,3 @@
-ent-Chainsaw = chainsaw
-    .desc = A very large chainsaw. Usually you use this for cutting down trees... usually.
+ent-Chainsaw = бензопила
+    .desc = Очень большая бензопила. Обычно её используют для спиливания деревьев... обычно.
     .suffix = { "" }

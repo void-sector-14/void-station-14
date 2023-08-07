@@ -10,9 +10,9 @@
     }
 reagent-effect-guidebook-emp-reaction-effect =
     { $chance ->
-        [1] Causes
-       *[other] cause
-    } an electromagnetic pulse
+        [1] Вызывает
+       *[other] вызвать
+    } электромагнитный импульс
 -satiate-3rd-person =
     { $chance ->
         [1] Утоляет
