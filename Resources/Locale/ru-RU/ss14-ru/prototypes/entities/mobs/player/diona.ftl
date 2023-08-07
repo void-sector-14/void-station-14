@@ -1,3 +1,3 @@
 ent-MobDiona = Урист МакПлэнтс
-    .desc = { ent-BaseMobDiona.desc }
-    .suffix = { "" }
+  .desc = { ent-['BaseMobDiona', 'BaseMob'].desc }
+  .suffix = { "" }

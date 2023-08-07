@@ -1,3 +1,3 @@
 ent-MobArachnid = Урист МакВеб
-    .desc = { ent-BaseMobArachnid.desc }
-    .suffix = { "" }
+  .desc = { ent-['BaseMobArachnid', 'BaseMob'].desc }
+  .suffix = { "" }

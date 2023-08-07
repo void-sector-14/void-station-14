@@ -1,4 +1,4 @@
-nuke-component-cant-anchor-floor = The anchoring bolts fail to lock into the floor!
+nuke-component-cant-anchor-floor = Не удаётся закрутить крепёжные болты к полу!
 nuke-component-cant-anchor = Похоже, что без диска болты заблокированы!
 nuke-component-announcement-sender = Ядерная боеголовка
 nuke-component-announcement-armed = Внимание! Механизм самоуничтожения станции был активирован по координатам { $position }. До детонации { $time } секунд.
