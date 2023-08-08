@@ -1,3 +1,3 @@
-ent-AccessConfigurator = access configurator
-    .desc = Used to modify the access level requirements for airlocks and other lockable devices.
+ent-AccessConfigurator = конфигуратор доступа
+    .desc = Используется для изменения уровня доступа к шлюзам и другим запираемым устройствам.
     .suffix = { "" }
