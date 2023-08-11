@@ -24,6 +24,10 @@ uplink-flash-grenade-name = Светошумовая граната
 uplink-flash-grenade-desc = Ииииииииииииии!
 uplink-mini-bomb-name = Минибомба Синдиката
 uplink-mini-bomb-desc = Высокоточная взрывчатка, подходящая для уничтожения тела, машины или ещё чего-нибудь, что нужно уничтожить.
+uplink-supermatter-grenade-name = Supermatter Grenade
+uplink-supermatter-grenade-desc = Grenade that simulates delamination of a suppermatter engine, generates powerful gravity well. Explosion comparable to a Mini Bomb.
+uplink-whitehole-grenade-name = Whitehole Grenade
+uplink-whitehole-grenade-desc = Grenade that are repulses everything around for about 10 seconds. Very useful in small rooms and for chasing someone.
 uplink-penguin-grenade-name = Пингвин Гренадёр
 uplink-penguin-grenade-desc = Маленький пингвин, с гранатой привязанной к его телу. Собираются Синдикатом с морозных планет.
 uplink-c4-name = C-4
@@ -95,6 +99,9 @@ uplink-uplink-implanter-name = Имплантат аплинка
 uplink-uplink-implanter-desc = Незаметно заказывайте оборудование без использования КПК. Глотайте телекристаллы, чтобы пополнить запасы связи.
 uplink-deathrattle-implant-name = Коробка имплантатов предсмертнохрип
 uplink-deathrattle-implant-desc = Коробка, содержащая достаточное количество имплантатов предсмертнохрип для всего отряда. Передаёт сообщение о вашем местоположении по каналу синдиката, когда вы входите в критическое состояние или погибаете.
+# Bundles
+uplink-emp-kit-name = Electrical Disruptor Kit
+uplink-emp-kit-desc = The ultimate reversal on energy-based weaponry: Disables disablers, stuns stunbatons, discharges laser guns! Contains 3 EMP grenades and an EMP implanter. Note: Does not disrupt actual firearms.
 # Bundles
 uplink-meds-bundle-name = Набор медикаментов
 uplink-meds-bundle-desc = Всё, что нужно для возвращения товарищей в бой: в основном боевая аптечка, дефибриллятор и три боевых медипена.
