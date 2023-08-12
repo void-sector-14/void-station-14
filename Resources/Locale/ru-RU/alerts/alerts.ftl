@@ -30,6 +30,10 @@ alerts-dead-name = Мертвый
 alerts-dead-desc = Вы мертвы, учтите, что Вас еще можно оживить!
 alerts-health-name = Здоровье
 alerts-health-desc = [color=green]Зеленый[/color] хорошо. [color=red]Красный[/color] плохо.
+alerts-battery-name = Battery
+alerts-battery-desc = If your battery depletes, you will be unable to use your abilities.
+alerts-no-battery-name = No Battery
+alerts-no-battery-desc = You don't have a battery, rendering you unable to charge or use your abilities.
 alerts-internals-name = Переключить баллон
 alerts-internals-desc = Включает или выключает газовый баллон.
 alerts-piloting-name = Пилотирование шаттла

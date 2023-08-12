@@ -1,3 +1,9 @@
+ent-BaseHandheldStationMap = station map
+    .desc = Displays a readout of the current station.
+    .suffix = { "" }
 ent-HandheldStationMap = карта станции
     .desc = Отображает данные о текущей станции.
     .suffix = Ручной
+ent-HandheldStationMapUnpowered = { ent-BaseHandheldStationMap }
+    .suffix = Handheld, Unpowered
+    .desc = { ent-BaseHandheldStationMap.desc }
