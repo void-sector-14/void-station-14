@@ -50,6 +50,7 @@ research-technology-rped = Быстрая замена деталей
 research-technology-super-parts = Супер детали
 research-technology-janitorial-equipment = Уборочное снаряжение
 research-technology-laundry-tech = Технология прачечной
+research-technology-critter-mechs = Critter Mechs
 research-technology-basic-hydroponics = Базовая гидропоника
 research-technology-hamtr = ХМЯК Меха
 research-technology-food-service = Общественное питание
