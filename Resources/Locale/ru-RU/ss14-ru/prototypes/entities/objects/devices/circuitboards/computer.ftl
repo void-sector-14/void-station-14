@@ -100,3 +100,6 @@ ent-ComputerIFFSyndicateCircuitboard = консоль системы опозн�
 ent-ComputerMassMediaCircuitboard = консоль СМИ (машинная плата)
     .desc = Напишите свое послание миру!
     .suffix = { "" }
+ent-SensorConsoleCircuitboard = sensor monitoring console board
+    .desc = A computer printed circuit board for a sensor monitoring console.
+    .suffix = { "" }
