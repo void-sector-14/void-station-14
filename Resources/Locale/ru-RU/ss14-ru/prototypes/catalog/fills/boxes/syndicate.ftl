@@ -1,3 +1,3 @@
-ent-ElectricalDisruptionKit = electrical disruption kit
-    .suffix = Filled
+ent-ElectricalDisruptionKit = набор для отключения электричества
+    .suffix = Заполненный
     .desc = { ent-BoxCardboard.desc }

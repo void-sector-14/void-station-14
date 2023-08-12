@@ -1,3 +1,3 @@
-ent-Stunprod = stun prod
-    .desc = A stun prod for illegal incapacitation.
+ent-Stunprod = пруток-шокер
+    .desc = Пруток-шокер для незаконного обезвреживания.
     .suffix = { "" }
