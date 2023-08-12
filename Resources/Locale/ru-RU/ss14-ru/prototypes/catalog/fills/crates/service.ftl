@@ -35,5 +35,5 @@ ent-CrateJanitorBiosuit = ящик биокостюмов уборщиков
     .desc = Содержит 2 костюма биологической опасности, чтобы никакая болезнь не отвлекала Вас от уборки.
     .suffix = { "" }
 ent-CrateTrashCartFilled = { ent-CrateTrashCart }
-    .suffix = Filled
+    .suffix = Заполненный
     .desc = { ent-CrateTrashCart.desc }

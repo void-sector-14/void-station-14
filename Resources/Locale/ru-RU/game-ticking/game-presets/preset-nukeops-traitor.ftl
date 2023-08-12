@@ -1,2 +1,2 @@
-nukeops-traitor-title = Traitors and Nuclear Operatives
-nukeops-traitor-description = Both Syndicate agents and Nuclear Operatives have targeted the station. Will they fight or cooperate?
+nukeops-traitor-title = Предатели и Ядерные Оперативники
+nukeops-traitor-description = На станцию нацелились как агенты Синдиката, так и Ядерные Оперативники. Будут ли они сражаться или сотрудничать?
