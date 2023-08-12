@@ -1,3 +1,3 @@
-ent-BaseBorgChassis = cyborg
-    .desc = A man-machine hybrid that assists in station activity. They love being asked to state their laws over and over.
+ent-BaseBorgChassis = киборг
+    .desc = Гибрид человека и машины, помогающий в работе станции. Им нравится, когда их снова и снова просят изложить свои законы.
     .suffix = { "" }

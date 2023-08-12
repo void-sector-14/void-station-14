@@ -1,3 +1,3 @@
-ent-CyborgEndoskeleton = cyborg endoskeleton
-    .desc = A frame that cyborgs are built on. Significantly less spooky than expected.
+ent-CyborgEndoskeleton = эндоскелет киборга
+    .desc = Каркас, на котором строятся киборги. Значительно менее жуткий, чем ожидалось.
     .suffix = { "" }

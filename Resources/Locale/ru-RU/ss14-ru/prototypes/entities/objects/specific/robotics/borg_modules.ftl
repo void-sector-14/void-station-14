@@ -1,5 +1,5 @@
-ent-BaseBorgModule = borg module
-    .desc = A piece of tech that gives cyborgs new abilities.
+ent-BaseBorgModule = модуль борга
+    .desc = Часть технологии, дающая киборгам новые способности.
     .suffix = { "" }
 ent-BaseProviderBorgModule = { "" }
     .desc = { "" }
@@ -19,7 +19,7 @@ ent-BaseBorgModuleMedical = { ent-BaseBorgModule }
 ent-BaseBorgModuleService = { ent-BaseBorgModule }
     .desc = { ent-BaseBorgModule.desc }
     .suffix = { "" }
-ent-BorgModuleCable = cable cyborg module
+ent-BorgModuleCable = кабельный модуль киборга
 
   .desc = { ent-['BaseBorgModule', 'BaseProviderBorgModule'].desc }
   .suffix = { "" }
@@ -27,7 +27,7 @@ ent-BorgModuleFireExtinguisher = fire extinguisher cyborg module
 
   .desc = { ent-['BaseBorgModule', 'BaseProviderBorgModule'].desc }
   .suffix = { "" }
-ent-BorgModuleGPS = GPS cyborg module
+ent-BorgModuleGPS = GPS-модуль киборга
 
   .desc = { ent-['BaseBorgModule', 'BaseProviderBorgModule'].desc }
   .suffix = { "" }
@@ -35,79 +35,79 @@ ent-BorgModuleRadiationDetection = radiation detection cyborg module
 
   .desc = { ent-['BaseBorgModule', 'BaseProviderBorgModule'].desc }
   .suffix = { "" }
-ent-BorgModuleTool = tool cyborg module
+ent-BorgModuleTool = модуль инструментов киборга
 
   .desc = { ent-['BaseBorgModule', 'BaseProviderBorgModule'].desc }
   .suffix = { "" }
-ent-BorgModuleAppraisal = appraisal cyborg module
+ent-BorgModuleAppraisal = модуль оценки стоимости киборга
 
   .desc = { ent-['BaseBorgModuleCargo', 'BaseProviderBorgModule'].desc }
   .suffix = { "" }
-ent-BorgModuleMining = mining cyborg module
+ent-BorgModuleMining = модуль шахтёра киборга
 
   .desc = { ent-['BaseBorgModuleCargo', 'BaseProviderBorgModule'].desc }
   .suffix = { "" }
-ent-BorgModuleGrapplingGun = grappling gun cyborg module
+ent-BorgModuleGrapplingGun = модуль крюка-кошки киборга
 
   .desc = { ent-['BaseBorgModuleCargo', 'BaseProviderBorgModule'].desc }
   .suffix = { "" }
-ent-BorgModuleAdvancedTool = advanced tool cyborg module
+ent-BorgModuleAdvancedTool = модуль продвинутых инструментов киборга
 
   .desc = { ent-['BaseBorgModuleEngineering', 'BaseProviderBorgModule'].desc }
   .suffix = { "" }
-ent-BorgModuleGasAnalyzer = gas analyzer cyborg module
+ent-BorgModuleGasAnalyzer = модуль газоанализатора киборга
 
   .desc = { ent-['BaseBorgModuleEngineering', 'BaseProviderBorgModule'].desc }
   .suffix = { "" }
-ent-BorgModuleRCD = RCD cyborg module
+ent-BorgModuleRCD = модуль РСУ киборга
 
   .desc = { ent-['BaseBorgModuleEngineering', 'BaseProviderBorgModule'].desc }
   .suffix = { "" }
-ent-BorgModuleLightReplacer = light replacer cyborg module
+ent-BorgModuleLightReplacer = модуль лампозаменителя киборга
 
   .desc = { ent-['BaseBorgModuleJanitor', 'BaseProviderBorgModule'].desc }
   .suffix = { "" }
-ent-BorgModuleCleaning = cleaning cyborg module
+ent-BorgModuleCleaning = модуль уборки киборга
 
   .desc = { ent-['BaseBorgModuleJanitor', 'BaseProviderBorgModule'].desc }
   .suffix = { "" }
-ent-BorgModuleTrashCollection = trash collection cyborg module
+ent-BorgModuleTrashCollection = модуль мусоросборки киборга
 
   .desc = { ent-['BaseBorgModuleJanitor', 'BaseProviderBorgModule'].desc }
   .suffix = { "" }
-ent-BorgModuleDiagnosis = diagnosis cyborg module
+ent-BorgModuleDiagnosis = модуль диагностики киборга
 
   .desc = { ent-['BaseBorgModuleMedical', 'BaseProviderBorgModule'].desc }
   .suffix = { "" }
-ent-BorgModuleTreatment = treatment cyborg module
+ent-BorgModuleTreatment = лечебный модуль киборга
 
   .desc = { ent-['BaseBorgModuleMedical', 'BaseProviderBorgModule'].desc }
   .suffix = { "" }
-ent-BorgModuleDefibrillator = defibrillator cyborg module
+ent-BorgModuleDefibrillator = модуль дефибриллятора киборга
 
   .desc = { ent-['BaseBorgModuleMedical', 'BaseProviderBorgModule'].desc }
   .suffix = { "" }
-ent-BorgModuleArtifact = artifact cyborg module
+ent-BorgModuleArtifact = модуль для артефактов киборга
 
   .desc = { ent-['BaseBorgModule', 'BaseProviderBorgModule'].desc }
   .suffix = { "" }
-ent-BorgModuleAnomaly = anomaly cyborg module
+ent-BorgModuleAnomaly = модуль для аномалий киборга
 
   .desc = { ent-['BaseBorgModule', 'BaseProviderBorgModule'].desc }
   .suffix = { "" }
-ent-BorgModuleLiteracy = literacy cyborg module
+ent-BorgModuleLiteracy = модуль грамотности киборга
 
   .desc = { ent-['BaseBorgModuleService', 'BaseProviderBorgModule'].desc }
   .suffix = { "" }
-ent-BorgModuleMusique = musique cyborg module
+ent-BorgModuleMusique = модуль музыки киборга
 
   .desc = { ent-['BaseBorgModuleService', 'BaseProviderBorgModule'].desc }
   .suffix = { "" }
-ent-BorgModuleGardening = gardening cyborg module
+ent-BorgModuleGardening = модуль садоводства киборга
 
   .desc = { ent-['BaseBorgModuleService', 'BaseProviderBorgModule'].desc }
   .suffix = { "" }
-ent-BorgModuleClowning = clowning cyborg module
+ent-BorgModuleClowning = модуль клоуна киборга
 
   .desc = { ent-['BaseBorgModuleService', 'BaseProviderBorgModule'].desc }
   .suffix = { "" }
