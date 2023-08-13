@@ -7,3 +7,6 @@ ent-MobHoloparasiteGuardian = Голопаразит
 ent-MobIfritGuardian = Ифрит
     .desc = Испорченный джинн, вырванный из Фитры, чтобы прислуживать волшебнику в его низменных нуждах. Он стоит злой, настраиваясь на жизнь своего владельца, чтобы поддерживать себя.
     .suffix = { "" }
+ent-MobHoloClownGuardian = HoloClown
+    .desc = A mesmerising whirl of hard-light patterns weaves a blue colored clown of dubious origin.
+    .suffix = { "" }

@@ -10,3 +10,6 @@ ent-DogBed = собачья лежанка
 ent-Mattress = матрас
     .desc = Лучше спать на этом, чем на полу, наверное.
     .suffix = { "" }
+ent-WebBed = web bed
+    .desc = You got webbed.
+    .suffix = { "" }

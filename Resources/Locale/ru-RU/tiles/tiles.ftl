@@ -101,4 +101,5 @@ tiles-basalt-floor = базальтовый пол
 tiles-snow-floor = снежный пол
 tiles-wood3 = разбитый деревянный пол
 tiles-hull = наружная обшивка корпуса
+tiles-web = web tile
 tiles-hull-reinforced = укреплённая наружная обшивка корпуса
