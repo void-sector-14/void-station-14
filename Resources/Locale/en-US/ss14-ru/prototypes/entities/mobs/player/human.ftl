@@ -14,6 +14,3 @@ ent-MobHumanNukeOp = Nuclear Operative
 ent-MobHumanLoneNuclearOperative = Lone Operative
     .desc = { ent-MobHuman.desc }
     .suffix = { "" }
-ent-MobHumanScrambled = Scrambled Human
-    .desc = { ent-MobHuman.desc }
-    .suffix = { "" }
