@@ -109,6 +109,6 @@ ent-WatermelonSeeds = пакет семян арбуза
 ent-GrapeSeeds = пакет виноградных косточек
     .desc = { ent-SeedBase.desc }
     .suffix = { "" }
-ent-CocoaSeeds = packet of cocoa seeds
+ent-CocoaSeeds = пакет семян какао
     .desc = { ent-SeedBase.desc }
     .suffix = { "" }
