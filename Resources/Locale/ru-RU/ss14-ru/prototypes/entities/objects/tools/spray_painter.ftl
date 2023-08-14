@@ -1,3 +1,3 @@
-ent-SprayPainter = Spray painter
-    .desc = A spray painter for painting airlocks and pipes.
+ent-SprayPainter = распылительный покрасчик
+    .desc = Распылительный покрасчик для покраски шлюзов и труб.
     .suffix = { "" }
