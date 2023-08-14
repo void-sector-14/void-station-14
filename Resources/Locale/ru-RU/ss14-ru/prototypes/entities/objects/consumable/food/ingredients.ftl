@@ -100,3 +100,6 @@ ent-FoodTofuSlice = кусочек тофу
 ent-FoodBadRecipe = горелое месиво
     .desc = За это кого-то следует понизить с должности повара.
     .suffix = { "" }
+ent-FoodCocoaBeans = cocoa beans
+    .desc = You can never have too much chocolate!
+    .suffix = { "" }
