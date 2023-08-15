@@ -21,6 +21,7 @@ chat-manager-sender-announcement-wrap-message =
     Объявление { $sender }:
     { $message }
 chat-manager-entity-say-wrap-message = { $entityName } говорит: "{ $message }"
+chat-manager-entity-say-bold-wrap-message = [bold]{ $entityName }[/bold] { $verb }, [font={ $fontType } size={ $fontSize }][bold]"{ $message }"[/bold][/font]
 chat-manager-entity-whisper-wrap-message = { $entityName } шепчет: "{ $message }"
 chat-manager-entity-whisper-unknown-wrap-message = Кто-то шепчет: "{ $message }"
 chat-manager-entity-me-wrap-message = { $entityName } { $message }
@@ -34,3 +35,22 @@ chat-manager-send-admin-announcement-wrap-message = { $adminChannelName }: { $me
 chat-manager-send-hook-ooc-wrap-message = OOC: (D){ $senderName }: { $message }
 chat-manager-dead-channel-name = МЁРТВЫЕ
 chat-manager-admin-channel-name = АДМИН
+chat-speech-verb-suffix-exclamation = !
+chat-speech-verb-suffix-exclamation-strong = !!
+chat-speech-verb-suffix-question = ?
+chat-speech-verb-default = says
+chat-speech-verb-exclamation = shouts
+chat-speech-verb-exclamation-strong = yells
+chat-speech-verb-question = asks
+chat-speech-verb-insect-1 = chitters
+chat-speech-verb-insect-2 = flutters
+chat-speech-verb-slime = chirps
+chat-speech-verb-robotic = states
+chat-speech-verb-reptilian = hisses
+chat-speech-verb-skeleton = rattles
+chat-speech-verb-small-mob = squeaks
+chat-speech-verb-large-mob = roars
+chat-speech-verb-monkey = chimpers
+chat-speech-verb-cluwne-1 = giggles
+chat-speech-verb-cluwne-2 = guffaws
+chat-speech-verb-cluwne-3 = laughs
