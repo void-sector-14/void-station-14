@@ -6,10 +6,10 @@ pai-system-role-name = персональный ИИ
 pai-system-role-description =
     Станьте чьим-то персональным Искуственным Интеллектом!
     (Воспоминания *не* прилагаются.)
-pai-system-role-name-syndicate = Syndicate personal ai
+pai-system-role-name-syndicate = Персональный ИИ Синдиката
 pai-system-role-description-syndicate =
-    Be someone's Syndicate pal!
-    (Memories *not* included.)
+    Станьте чьим-то Синдикатовским приятелем!
+    (Воспоминания *не* прилагаются.)
 pai-system-wipe-device-verb-text = Удалить пИИ
 pai-system-wiped-device = пИИ был удалён.
 pai-system-stop-searching-verb-text = Прекратить поиск

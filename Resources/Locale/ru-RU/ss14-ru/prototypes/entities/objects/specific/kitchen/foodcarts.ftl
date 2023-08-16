@@ -1,9 +1,9 @@
-ent-FoodCartBase = Food Cart
-    .desc = A cart for food.
+ent-FoodCartBase = тележка с едой
+    .desc = Тележка для продуктов.
     .suffix = { "" }
-ent-FoodCartHot = Hot Food Cart
-    .desc = Get out there and slang some dogs.
+ent-FoodCartHot = Тележка с горячей едой
+    .desc = Налетай пока горячее!
     .suffix = { "" }
-ent-FoodCartCold = Cold Food Cart
-    .desc = It's the Ice Cream Man! It's the Ice Cream Man!
+ent-FoodCartCold = Тележка с холодной едой
+    .desc = Это мороженщик! Это мороженщик!
     .suffix = { "" }
