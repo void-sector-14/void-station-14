@@ -32,5 +32,5 @@ ent-CrateFunBoxing = боксёрский ящик
     .desc = Хотите создать подпольный бойцовский клуб или устроить турнир среди команды станции? Этот ящик для Вас!
 ent-CrateFunBikeHornImplants = ящик с имплантами клаксона
     .desc = Тысяча клаксонов в день рассеивает сотрудников службы безопасности лень!
-ent-CrateFunMysteryFigurines = Mystery Figure Crate
-    .desc = A collection of 10 Mystery Figurine boxes. Duplicates non refundable.
+ent-CrateFunMysteryFigurines = Ящик загадочных фигурок
+    .desc = Коллекция из 10 коробок с загадочными фигурками. Дубликаты возврату не подлежат.

@@ -51,7 +51,7 @@ job-name-senior-officer = Офицер-инструктор
 # Role timers - Make these alphabetical or I cut you
 JobAtmosphericTechnician = Атмосферный техник
 JobBartender = Бармен
-JobBorg = Borg
+JobBorg = Борг
 JobBotanist = Ботаник
 JobCaptain = Капитан
 JobCargoTechnician = Грузчик

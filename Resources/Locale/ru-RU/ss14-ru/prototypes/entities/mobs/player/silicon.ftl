@@ -11,5 +11,5 @@ ent-PlayerBorgGeneric = { ent-BorgChassisGeneric }
     .desc = { ent-BorgChassisGeneric.desc }
     .suffix = { "" }
 ent-PlayerBorgBattery = { ent-BorgChassisGeneric }
-    .suffix = Battery
+    .suffix = Батарея
     .desc = { ent-BorgChassisGeneric.desc }
