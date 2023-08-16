@@ -1,6 +1,10 @@
 ent-CigPackBase = пачка сигарет
     .desc = { ent-BaseItem.desc }
     .suffix = { "" }
+ent-CigPackMixedBase = soaked cigarette pack
+
+  .desc = { ent-['BaseStorageItem', 'BaseBagOpenClose'].desc }
+  .suffix = { "" }
 ent-CigPackGreen = пачка сигарет Spessman's Smokes
     .desc = Надпись на упаковке гласит: "Изменит ли что-нибудь медленная смерть?"
     .suffix = { "" }
@@ -15,4 +19,13 @@ ent-CigPackBlack = пачка сигарет Nomads
     .suffix = { "" }
 ent-CigPackSyndicate = пачка травяных сигар Interdyne
     .desc = Элитные сигареты для элитных агентов синдиката. Наполнены целебными травами для тех случаев, когда вам нужно больше, чем просто успокоить нервы.
+    .suffix = { "" }
+ent-CigPackMixedMedical = Dan's soaked smokes
+    .desc = Dan worked with NT chemistry to dispose of excess chemicals, ENJOY.
+    .suffix = { "" }
+ent-CigPackMixed = Dan's soaked smokes
+    .desc = Dan worked with NT chemistry to dispose of excess chemicals, ENJOY.
+    .suffix = { "" }
+ent-CigPackMixedNasty = Dan's soaked smokes
+    .desc = Dan worked with NT chemistry to dispose of excess chemicals, ENJOY.
     .suffix = { "" }
