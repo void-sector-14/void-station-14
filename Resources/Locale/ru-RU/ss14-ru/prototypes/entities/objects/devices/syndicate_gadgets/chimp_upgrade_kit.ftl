@@ -1,3 +1,3 @@
-ent-WeaponPistolCHIMPUpgradeKit = C.H.I.M.P. handcannon upgrade chip
-    .desc = An experimental upgrade kit for the C.H.I.M.P.
+ent-WeaponPistolCHIMPUpgradeKit = чип для улучшения ручной пушки Ш.И.М.П.
+    .desc = Экспериментальный набор для улучшения Ш.И.М.П.
     .suffix = { "" }
