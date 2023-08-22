@@ -36,10 +36,11 @@ publish:
   stage: publish
   retry: 2
   interruptible: true
-  rules:
-    - if: '$SSH_PRIVATE_KEY != null && $SSH_REMOTE_IP != null && $SSH_USER != null'
   only:
     - schedules
+  except:
+    variables:
+      - ($SSH_PRIVATE_KEY == null || $SSH_REMOTE_IP == null || $SSH_USER == null)
   script:
     - mkdir .git/hooks -p
     - python3 RUN_THIS.py
