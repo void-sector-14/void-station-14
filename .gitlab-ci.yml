@@ -7,6 +7,8 @@ stages:
 test-debug:
   stage: test
   retry: 2
+  except:
+    - schedules
   script:
     - mkdir .git/hooks -p
     - python3 RUN_THIS.py
@@ -19,6 +21,8 @@ test-debug:
 test-release:
   stage: test
   retry: 2
+  except:
+    - schedules
   script:
     - mkdir .git/hooks -p
     - python3 RUN_THIS.py
@@ -34,7 +38,8 @@ publish:
   interruptible: true
   rules:
     - if: '$SSH_PRIVATE_KEY != null && $SSH_REMOTE_IP != null && $SSH_USER != null'
-    - if: $CI_PIPELINE_SOURCE == "schedule"
+  only:
+    - schedules
   script:
     - mkdir .git/hooks -p
     - python3 RUN_THIS.py
@@ -61,9 +66,8 @@ publish-artifact:
   stage: publish
   retry: 2
   interruptible: true
-  rules:
-    - if: $CI_PIPELINE_SOURCE == "schedule"
-      when: never
+  except:
+    - schedules
   script:
     - mkdir .git/hooks -p
     - python3 RUN_THIS.py
