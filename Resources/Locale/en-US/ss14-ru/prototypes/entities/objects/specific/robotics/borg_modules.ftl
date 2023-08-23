@@ -59,6 +59,10 @@ ent-BorgModuleGasAnalyzer = gas analyzer cyborg module
 
   .desc = { ent-['BaseBorgModuleEngineering', 'BaseProviderBorgModule'].desc }
   .suffix = { "" }
+ent-BorgModuleConstruction = construction cyborg module
+
+  .desc = { ent-['BaseBorgModuleEngineering', 'BaseProviderBorgModule'].desc }
+  .suffix = { "" }
 ent-BorgModuleRCD = RCD cyborg module
 
   .desc = { ent-['BaseBorgModuleEngineering', 'BaseProviderBorgModule'].desc }
