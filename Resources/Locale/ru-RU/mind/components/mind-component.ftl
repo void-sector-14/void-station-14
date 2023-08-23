@@ -8,3 +8,4 @@ comp-mind-examined-catatonic = { CAPITALIZE(SUBJECT($ent)) } в кататони
 comp-mind-examined-dead = { CAPITALIZE(POSS-PRONOUN($ent)) } душа покинула тело.
 comp-mind-examined-ssd = { CAPITALIZE(SUBJECT($ent)) } рассеяно смотрит в пустоту и ни на что не реагирует. { CAPITALIZE(SUBJECT($ent)) } может скоро прийти в себя.
 comp-mind-examined-dead-and-ssd = { CAPITALIZE(POSS-ADJ($ent)) } душа покинула тело и пропала. Восстановление маловероятно.
+comp-mind-examined-dead-and-irrecoverable = { CAPITALIZE(POSS-ADJ($ent)) } soul has departed and moved on. Any recovery is unlikely.

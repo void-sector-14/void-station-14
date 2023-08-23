@@ -48,3 +48,4 @@ guide-entry-nuclear-operatives = Ядерные Оперативники
 guide-entry-traitors = Предатели
 guide-entry-zombies = Зомби
 guide-entry-minor-antagonists = Малые Антагонисты
+guide-entry-writing = Writing

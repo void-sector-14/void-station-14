@@ -49,6 +49,10 @@ ent-BorgModuleAdvancedTool = модуль продвинутых инструм�
 ent-BorgModuleGasAnalyzer = модуль газоанализатора киборга
     .desc = { ent-BaseBorgModuleEngineering.desc }
     .suffix = { "" }
+ent-BorgModuleConstruction = construction cyborg module
+
+  .desc = { ent-['BaseBorgModuleEngineering', 'BaseProviderBorgModule'].desc }
+  .suffix = { "" }
 ent-BorgModuleRCD = модуль РСУ киборга
     .desc = { ent-BaseBorgModuleEngineering.desc }
     .suffix = { "" }
