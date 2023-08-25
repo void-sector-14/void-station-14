@@ -111,6 +111,10 @@ ent-BorgModuleGardening = gardening cyborg module
 
   .desc = { ent-['BaseBorgModuleService', 'BaseProviderBorgModule'].desc }
   .suffix = { "" }
+ent-BorgModuleHarvesting = harvesting cyborg module
+
+  .desc = { ent-['BaseBorgModuleService', 'BaseProviderBorgModule'].desc }
+  .suffix = { "" }
 ent-BorgModuleClowning = clowning cyborg module
 
   .desc = { ent-['BaseBorgModuleService', 'BaseProviderBorgModule'].desc }
