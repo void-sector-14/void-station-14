@@ -54,5 +54,5 @@ marking-DionaVinesHead-vines = Диона, голова (Лианы)
 marking-DionaVinesHead = Диона, голова (Лианы)
 marking-DionaWildflowerHead-wildflower = Диона, голова (Цветы)
 marking-DionaWildflowerHead = Диона, голова (Цветы)
-marking-DionaVineOverlay-overlay = Diona Body Vines
-marking-DionaVineOverlay = Diona Body Vines
+marking-DionaVineOverlay-overlay = Диона, туловище (Лианы)
+marking-DionaVineOverlay = Диона, туловище (Лианы)
