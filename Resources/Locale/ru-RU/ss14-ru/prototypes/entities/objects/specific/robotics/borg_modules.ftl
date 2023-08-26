@@ -88,10 +88,9 @@ ent-BorgModuleMusique = музыкальный модуль киборга
 ent-BorgModuleGardening = садоводческий модуль киборга
     .desc = { ent-BaseBorgModuleService.desc }
     .suffix = { "" }
-ent-BorgModuleHarvesting = harvesting cyborg module
-
-  .desc = { ent-['BaseBorgModuleService', 'BaseProviderBorgModule'].desc }
-  .suffix = { "" }
+ent-BorgModuleHarvesting = ботанический модуль киборга
+    .desc = { ent-BaseBorgModuleService.desc }
+    .suffix = { "" }
 ent-BorgModuleClowning = клоунский модуль киборга
     .desc = { ent-BaseBorgModuleService.desc }
     .suffix = { "" }
