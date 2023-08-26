@@ -13,6 +13,7 @@
 <Box>
 <GuideEntityEmbed Entity="ComputerShuttle"/>
 <GuideEntityEmbed Entity="SubstationBasic"/>
+<GuideEntityEmbed Entity="PortableGeneratorPacman" Caption="P.A.C.M.A.N." />
 </Box>
 <Box>
 <GuideEntityEmbed Entity="CableHVStack"/>
