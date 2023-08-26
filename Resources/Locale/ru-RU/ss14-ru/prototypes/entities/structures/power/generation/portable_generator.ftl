@@ -1,23 +1,22 @@
-ent-PortableGeneratorBase = { ent-['BaseMachine', 'ConstructibleMachine'] }
-
-  .desc = { ent-['BaseMachine', 'ConstructibleMachine'].desc }
-  .suffix = { "" }
+ent-PortableGeneratorBase = { ent-BaseMachine }
+    .desc = { ent-BaseMachine.desc }
+    .suffix = { "" }
 ent-PortableGeneratorSwitchableBase = { ent-PortableGeneratorBase }
     .desc = { ent-PortableGeneratorBase.desc }
     .suffix = { "" }
-ent-PortableGeneratorPacman = P.A.C.M.A.N.-type portable generator
+ent-PortableGeneratorPacman = портативный генератор П.А.К.М.А.Н.
     .desc =
-        A flexible backup generator for powering a variety of equipment.
-        Runs off solid plasma sheets and is rated for up to 30 kW.
-    .suffix = Plasma, 30 kW
-ent-PortableGeneratorSuperPacman = S.U.P.E.R.P.A.C.M.A.N.-type portable generator
+        Гибкий резервный генератор для питания различного оборудования.
+        Работает от твердотельных листов плазмы и рассчитан на мощность до 30 кВт.
+    .suffix = Плазма, 30 кВт
+ent-PortableGeneratorSuperPacman = портативный генератор С.У.П.Е.Р.П.А.К.М.А.Н.
     .desc =
-        An advanced generator for powering departments.
-        Runs off uranium sheets and is rated for up to 50 kW.
-    .suffix = Uranium, 50 kW
-ent-PortableGeneratorJrPacman = J.R.P.A.C.M.A.N.-type portable generator
+        Продвинутый генератор для электроснабжения отделов.
+        Работает на листах урана и рассчитан на мощность до 50 кВт.
+    .suffix = Уран, 50 кВт
+ent-PortableGeneratorJrPacman = портативный генератор М.Л.П.А.К.М.А.Н.
     .desc =
-        A small generator capable of powering individual rooms, in case of emergencies.
-        Runs off welding fuel and is rated for up to 5 kW.
-        Rated ages 3 and up.
-    .suffix = Welding Fuel, 5 kW
+        Небольшой генератор, способный обеспечить электроэнергией отдельные помещения в случае возникновения аварийных ситуаций.
+        Работает на сварочном топливе и рассчитан на мощность до 5 кВт.
+        От 3 лет и старше.
+    .suffix = Сварочное Топливо, 5 кВт
