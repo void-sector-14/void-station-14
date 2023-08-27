@@ -1,4 +1,4 @@
-melee-speech-config = Set Battlecry
-melee-speech-config-desc = Set a custom battlecry for when you attack!
-melee-speech-current-battlecry = Battlecry:
-melee-speech-menu-title = Set Battlecry
+melee-speech-config = Задать Боевой клич
+melee-speech-config-desc = Установите собственный боевой клич при атаке!
+melee-speech-current-battlecry = Боевой клич:
+melee-speech-menu-title = Задать Боевой клич
