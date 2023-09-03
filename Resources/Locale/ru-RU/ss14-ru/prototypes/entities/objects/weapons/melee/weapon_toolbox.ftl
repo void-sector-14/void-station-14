@@ -1,3 +1,3 @@
-ent-WeaponMeleeToolboxRobust = robust toolbox
-    .desc = A tider's weapon.
-    .suffix = Do Not Map
+ent-WeaponMeleeToolboxRobust = робуст тулбокс
+    .desc = Оружие тайдера.
+    .suffix = Не Мапить
