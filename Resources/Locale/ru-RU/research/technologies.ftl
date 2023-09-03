@@ -4,6 +4,7 @@ research-discipline-biochemical = Биохимическая
 research-discipline-arsenal = Оружейная
 research-discipline-experimental = Экспериментальная
 research-discipline-civilian-services = Сервисная
+research-technology-fulton = Fultons
 research-technology-salvage-weapons = Оружия утилизаторов
 research-technology-salvage-equipment = Экипировка для утилизаторов
 research-technology-advanced-powercells = Продвинутые батареи

@@ -227,6 +227,11 @@ reagent-effect-guidebook-extinguish-reaction =
         [1] Тушит
        *[other] потушить
     } огонь
+reagent-effect-guidebook-make-polymorph =
+    { $chance ->
+        [1] Polymorphs
+       *[other] polymorph
+    } the metabolizer into a { $entityname }
 reagent-effect-guidebook-flammable-reaction =
     { $chance ->
         [1] Повышает

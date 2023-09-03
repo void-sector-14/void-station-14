@@ -1,6 +1,9 @@
 ent-ClothingOuterWinterCoat = зимнее пальто
     .desc = Тяжелая куртка из 'синтетического' меха животных.
     .suffix = { "" }
+ent-ClothingOuterWinterCoatToggleable = winter coat with hood
+    .desc = { ent-ClothingOuterWinterCoat.desc }
+    .suffix = { "" }
 ent-ClothingOuterWinterAtmos = зимнее пальто атмос-техника
     .desc = { ent-ClothingOuterWinterCoat.desc }
     .suffix = { "" }

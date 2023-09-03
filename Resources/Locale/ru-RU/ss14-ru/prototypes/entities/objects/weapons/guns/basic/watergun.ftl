@@ -7,3 +7,6 @@ ent-WeaponWaterPistol = водяной пистолет
 ent-WeaponWaterBlaster = водяной бластер
     .desc = С этим плохишом вы будете самым крутым парнем на летнем барбекю.
     .suffix = { "" }
+ent-WeaponWaterBlasterSuper = super water blaster
+    .desc = No! No! Not in the eyes!
+    .suffix = { "" }
