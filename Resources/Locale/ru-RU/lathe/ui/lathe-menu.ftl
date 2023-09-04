@@ -17,7 +17,5 @@ lathe-menu-tooltip-display =
     } { $material }
 lathe-menu-no-materials-message = Материалы не загружены
 lathe-menu-fabricating-message = Печатает...
-lathe-menu-materials-title = Materials
-lathe-menu-queue-title = Build Queue
-lathe-menu-materials-ejection = Извлечь материалы
-lathe-menu-materials-ejection-title = Извлечение материалов
+lathe-menu-materials-title = Материалы
+lathe-menu-queue-title = Очередь Создания

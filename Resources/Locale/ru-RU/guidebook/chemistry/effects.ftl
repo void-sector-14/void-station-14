@@ -229,9 +229,9 @@ reagent-effect-guidebook-extinguish-reaction =
     } огонь
 reagent-effect-guidebook-make-polymorph =
     { $chance ->
-        [1] Polymorphs
-       *[other] polymorph
-    } the metabolizer into a { $entityname }
+        [1] Превращает
+       *[other] превратить
+    } существо в { $entityname }
 reagent-effect-guidebook-flammable-reaction =
     { $chance ->
         [1] Повышает
@@ -280,19 +280,19 @@ reagent-effect-guidebook-paralyze =
     } существо на { NATURALFIXED($time, 3) } { MANY("секунд", $time) }
 reagent-effect-guidebook-cure-zombie-infection =
     { $chance ->
-        [1] Cures
-       *[other] cure
-    } an ongoing zombie infection
+        [1] Излечивает
+       *[other] излечить
+    } действующую зомби-инфекцию
 reagent-effect-guidebook-cause-zombie-infection =
     { $chance ->
-        [1] Gives
-       *[other] give
-    } an individual the zombie infection
+        [1] Заражает
+       *[other] заразить
+    } зомби-инфекцией
 reagent-effect-guidebook-innoculate-zombie-infection =
     { $chance ->
-        [1] Cures
-       *[other] cure
-    } an ongoing zombie infection, and provides immunity to future infections
+        [1] Излечивает
+       *[other] излечить
+    } действующую зомби-инфекцию и обеспечивает иммунитет к будущим инфекциям
 reagent-effect-guidebook-movespeed-modifier =
     { $chance ->
         [1] Изменяет
