@@ -1,5 +1,5 @@
 ent-BaseSimpleMob = { "" }
-    .suffix = AI
+    .suffix = ИИ
     .desc = { "" }
 ent-SimpleSpaceMobBase = { "" }
     .suffix = ИИ
