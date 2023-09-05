@@ -331,3 +331,6 @@ ent-ClothingUniformJumpsuitSeniorPhysician = senior physician jumpsuit
 ent-ClothingUniformJumpsuitSeniorOfficer = senior officer jumpsuit
     .desc = A sign of skill and prestige within the security department.
     .suffix = { "" }
+ent-ClothingUniformJumpsuitWeb = web jumpsuit
+    .desc = Makes it clear that you are one with the webs.
+    .suffix = { "" }
