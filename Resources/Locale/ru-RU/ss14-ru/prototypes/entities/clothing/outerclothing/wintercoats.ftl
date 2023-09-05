@@ -97,3 +97,6 @@ ent-ClothingOuterWinterSyndie = зимнее пальто синдиката
 ent-ClothingOuterWinterMusician = зимнее пальто музыканта
     .desc = Безразмерный пластилиновый космический фрак, который заставит людей спрашивать: "Вы меня знаете?".
     .suffix = { "" }
+ent-ClothingOuterWinterWeb = web winter coat
+    .desc = Feels like the inside of a cocoon, not that this would make you less afraid of being in one.
+    .suffix = { "" }

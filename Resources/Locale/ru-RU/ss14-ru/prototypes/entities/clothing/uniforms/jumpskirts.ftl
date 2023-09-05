@@ -208,3 +208,6 @@ ent-ClothingUniformJumpskirtSeniorOfficer = юбка офицера-инстру
 ent-ClothingUniformJumpskirtSecGrey = серый комбинезон охраны
     .desc = Тактический пережиток прошлых лет, когда Nanotrasen решила, что дешевле красить костюмы в красный цвет вместо того, чтобы смывать кровь.
     .suffix = { "" }
+ent-ClothingUniformJumpskirtWeb = web jumpskirt
+    .desc = Makes it clear that you are one with the webs.
+    .suffix = { "" }

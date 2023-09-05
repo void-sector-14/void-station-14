@@ -148,3 +148,6 @@ ent-PlasticBanana = банан
 ent-CrazyGlue = безумный клей
     .desc = Бутылка безумного клея производства компании Хонк! Корпорейтед.
     .suffix = { "" }
+ent-PlushieMoth = moth plushie
+    .desc = Cute and fluffy moth plushie. Enjoy, bz!
+    .suffix = { "" }
