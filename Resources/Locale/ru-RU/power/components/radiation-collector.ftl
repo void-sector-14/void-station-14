@@ -1,3 +1,3 @@
-power-radiation-collector-gas-tank-missing = [color=red]No gas tank attached.[/color]
-power-radiation-collector-gas-tank-present = A gas tank is [color=darkgreen]connected[/color].
-power-radiation-collector-gas-tank-low-pressure = The gas tank [color=orange]low pressure[/color] light is on.
+power-radiation-collector-gas-tank-missing = [color=red]Баллон плазмы отсутствует.[/color]
+power-radiation-collector-gas-tank-present = Баллон плазмы [color=darkgreen]подключен[/color].
+power-radiation-collector-gas-tank-low-pressure = Индикатор баллона оповещает о [color=orange]низком давлении[/color].

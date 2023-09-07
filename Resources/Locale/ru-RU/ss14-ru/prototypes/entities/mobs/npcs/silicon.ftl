@@ -1,10 +1,9 @@
 ent-MobSiliconBase = { "" }
     .desc = { "" }
     .suffix = { "" }
-ent-MobSiliconBaseVehicle = { ent-['MobSiliconBase', 'BaseVehicle'] }
-
-  .desc = { ent-['MobSiliconBase', 'BaseVehicle'].desc }
-  .suffix = { "" }
+ent-MobSiliconBaseVehicle = { ent-MobSiliconBase }
+    .desc = { ent-MobSiliconBase.desc }
+    .suffix = { "" }
 ent-MobTaxiBot = таксибот
     .desc = Подвезти?
     .suffix = { "" }

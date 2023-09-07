@@ -5,8 +5,8 @@ comp-gas-tank-examine = Давление: [color=orange]{ PRESSURE($pressure) }[
 # Examine text when internals are active.
 comp-gas-tank-connected = Он подключен к внешнему компоненту.
 # Examine text when valve is open or closed.
-comp-gas-tank-examine-open-valve = Gas release valve is [color=red]open[/color].
-comp-gas-tank-examine-closed-valve = Gas release valve is [color=green]closed[/color].
+comp-gas-tank-examine-open-valve = Выпускной клапан: [color=red]Открыт[/color].
+comp-gas-tank-examine-closed-valve = Выпускной клапан: [color=green]Закрыт[/color].
 
 ## ControlVerb
 
@@ -22,5 +22,5 @@ gas-tank-window-internal-text = Маска: [color={ $colorName }]{ $status }[/c
 gas-tank-window-internal-text = Маска: { $status }
 gas-tank-window-internal-connected = [color=green]Подключена[/color]
 gas-tank-window-internal-disconnected = [color=red]Отключена[/color]
-comp-gas-tank-open-valve = Open Valve
-comp-gas-tank-close-valve = Close Valve
+comp-gas-tank-open-valve = Открыть Клапан
+comp-gas-tank-close-valve = Закрыть Клапан

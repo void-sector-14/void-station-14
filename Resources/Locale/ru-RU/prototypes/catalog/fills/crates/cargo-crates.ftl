@@ -1,2 +1,2 @@
-ent-CrateCargoLuxuryHardsuit = luxury mining hardsuit crate
-    .desc = Finally, a hardsuit Quartermasters could call their own. Centcomm has heard you, now stop asking.
+ent-CrateCargoLuxuryHardsuit = ящик с роскошным шахтёрским комбинезоном
+    .desc = Наконец-то у Квартирмейстеров появился скафандр, который они могли бы назвать своим. Центком услышал вас, теперь перестаньте запрашивать.

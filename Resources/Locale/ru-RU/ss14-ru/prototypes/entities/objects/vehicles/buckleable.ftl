@@ -1,7 +1,7 @@
-ent-BaseVehicle = Транспорт
+ent-BaseVehicle = { "" }
     .desc = { "" }
     .suffix = { "" }
-ent-BaseVehicleRideable = Vehicle
+ent-BaseVehicleRideable = Транспорт
     .desc = { ent-BaseVehicle.desc }
     .suffix = { "" }
 ent-VehicleJanicart = уборочная машина

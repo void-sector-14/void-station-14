@@ -1,9 +1,9 @@
 ent-RadiationCollector = накопитель радиации
-    .desc = Машина, которая накапливает радиацию и превращает ее в энергию.
-    .suffix = { "" }
+    .desc = Машина, которая накапливает радиацию и превращает её в электроэнергию. Для работы требуется газ плазмы.
+    .suffix = Пустой баллон
 ent-RadiationCollectorNoTank = { ent-RadiationCollector }
-    .suffix = No tank
+    .suffix = Без баллона
     .desc = { ent-RadiationCollector.desc }
 ent-RadiationCollectorFullTank = { ent-RadiationCollector }
-    .suffix = Filled tank
+    .suffix = Заполненный баллон
     .desc = { ent-RadiationCollector.desc }
