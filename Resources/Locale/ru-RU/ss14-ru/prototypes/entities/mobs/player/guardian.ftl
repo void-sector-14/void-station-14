@@ -10,3 +10,6 @@ ent-MobIfritGuardian = Ифрит
 ent-MobHoloClownGuardian = ГолоКлоун
     .desc = Завораживающий вихрь сложносветящихся узоров сплетает сине-окрашенного клоуна сомнительного происхождения.
     .suffix = { "" }
+ent-ActionToggleGuardian = Toggle Guardian
+    .desc = Either manifests the guardian or recalls it back into your body
+    .suffix = { "" }

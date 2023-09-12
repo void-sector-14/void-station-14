@@ -76,3 +76,6 @@ ent-BoxEncryptionKeySyndie = коробка ключей шифрования с
 ent-BoxDeathRattleImplants = коробка имплантатов предсмертнохрип
     .desc = Шесть имплантатов предсмертнохрип и глобальных систем позиционирования для всего отряда.
     .suffix = { "" }
+ent-BoxLeadLined = lead-lined box
+    .desc = This box stymies the transmission of harmful radiation.
+    .suffix = Debug

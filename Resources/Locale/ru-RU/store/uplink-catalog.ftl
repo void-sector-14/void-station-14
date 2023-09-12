@@ -40,6 +40,8 @@ uplink-emp-grenade-name = ЭМИ Граната
 uplink-emp-grenade-desc = Выпускает электромагнитные импульсы, которые выводят из строя или повреждают многие электронные устройства или разряжают элементы питания.
 uplink-exploding-pen-name = Взрывающаяся ручка
 uplink-exploding-pen-desc = Взрывное устройство класса IV, заключенное в стандартную ручку. Поставляется с 4-секундным взрывателем.
+uplink-exploding-syndicate-bomb-name = Syndicate Bomb
+uplink-exploding-syndicate-bomb-desc = A reliable bomb that can put a big hole in the station. Useful as a distraction.
 # Боеприпасы
 uplink-pistol-magazine-name = Пистолетный магазин (.35 авто)
 uplink-pistol-magazine-desc = Пистолетый магазин с 10 патронами. Подходит для Гадюки.

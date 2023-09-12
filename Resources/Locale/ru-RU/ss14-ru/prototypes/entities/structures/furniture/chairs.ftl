@@ -43,3 +43,6 @@ ent-ChairFolding = раскладной стул
 ent-ChairFoldingSpawnFolded = { ent-ChairFolding }
     .desc = { ent-ChairFolding.desc }
     .suffix = сложенный
+ent-SteelBench = steel bench
+    .desc = A long chair made for a metro. Really standard design.
+    .suffix = { "" }

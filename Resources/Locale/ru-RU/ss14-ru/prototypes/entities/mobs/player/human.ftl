@@ -13,3 +13,6 @@ ent-MobHumanNukeOp = Ядерный оперативник
 ent-MobHumanLoneNuclearOperative = Одинокий Оперативник
     .desc = { ent-MobHuman.desc }
     .suffix = { "" }
+ent-MobHumanSpaceNinja = Space Ninja
+    .desc = { ent-MobHuman.desc }
+    .suffix = { "" }

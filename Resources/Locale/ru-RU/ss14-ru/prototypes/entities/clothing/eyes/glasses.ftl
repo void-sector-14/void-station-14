@@ -31,3 +31,6 @@ ent-ClothingEyesGlassesThermal = оптический термальный ск�
 ent-ClothingEyesGlassesChemical = очки хим-анализа
     .desc = Очки, позволяющие определять химический состав раствора.
     .suffix = { "" }
+ent-ClothingEyesVisorNinja = ninja visor
+    .desc = An advanced visor protecting a ninja's eyes from flashing lights.
+    .suffix = { "" }

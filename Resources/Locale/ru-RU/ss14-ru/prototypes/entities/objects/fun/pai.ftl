@@ -4,3 +4,6 @@ ent-PersonalAI = персональный ИИ
 ent-SyndicatePersonalAI = персональный ИИ Синдиката
     .desc = { ent-PersonalAI.desc }
     .suffix = { "" }
+ent-ActionPAIPlayMidi = Play MIDI
+    .desc = Open your portable MIDI interface to soothe your owner.
+    .suffix = { "" }
