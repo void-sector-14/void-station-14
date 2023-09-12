@@ -10,6 +10,6 @@ ent-ClothingNeckBling = побрякушки
 ent-ClothingNeckLawyerbadge = значок адвоката
     .desc = Значок, свидетельствующий что владелец является "законным" адвокатом, сдавшим экзамен НТ, необходимый для занятия юридической практикой.
     .suffix = { "" }
-ent-ActionStethoscope = Listen with stethoscope
+ent-ActionStethoscope = Слушать стетоскопом
     .desc = { "" }
     .suffix = { "" }

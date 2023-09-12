@@ -1,3 +1,3 @@
-ent-ActionViewLaws = View Laws
-    .desc = View the laws that you must follow.
+ent-ActionViewLaws = Просмотреть Законы
+    .desc = Просмотреть законы, которые вы обязаны соблюдать.
     .suffix = { "" }

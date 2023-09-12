@@ -1,3 +1,3 @@
-ent-ActionFireball = Fireball
-    .desc = Fires an explosive fireball towards the clicked location.
+ent-ActionFireball = Огненный шар
+    .desc = Выпускает взрывающийся огненный шар в направлении кликнутого места.
     .suffix = { "" }

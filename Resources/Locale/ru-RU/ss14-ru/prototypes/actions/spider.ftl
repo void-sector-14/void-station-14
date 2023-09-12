@@ -1,6 +1,6 @@
-ent-ActionSpiderWeb = Spider Web
-    .desc = Spawns a web that slows your prey down.
+ent-ActionSpiderWeb = Паутина
+    .desc = Создаёт паутину, которая замедляет Вашу добычу.
     .suffix = { "" }
-ent-ActionSericulture = Weave silk
-    .desc = Weave a bit of silk for use in arts and crafts.
+ent-ActionSericulture = Сплести шёлк
+    .desc = Сплести немного шёлка для использования в декоративно-прикладном искусстве.
     .suffix = { "" }

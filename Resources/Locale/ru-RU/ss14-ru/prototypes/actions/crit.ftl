@@ -1,9 +1,9 @@
-ent-ActionCritSuccumb = Succumb
-    .desc = Accept your fate.
+ent-ActionCritSuccumb = Сдаться
+    .desc = Принять свою судьбу.
     .suffix = { "" }
-ent-ActionCritFakeDeath = Fake Death
-    .desc = Pretend to take your final breath while staying alive.
+ent-ActionCritFakeDeath = Притвориться мёртвым
+    .desc = Притвориться, сделав последний вдох, оставаясь при этом в живых.
     .suffix = { "" }
-ent-ActionCritLastWords = Say Last Words
-    .desc = Whisper your last words to anyone nearby, and then succumb to your fate. You only have 30 characters to work with.
+ent-ActionCritLastWords = Произнести последние слова
+    .desc = Прошепчите свои последние слова всем, кто находится поблизости, а затем отдайтесь на волю судьбы. Вы можете прошептать только 30 символов.
     .suffix = { "" }

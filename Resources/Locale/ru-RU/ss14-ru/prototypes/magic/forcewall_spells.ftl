@@ -1,3 +1,3 @@
-ent-ActionForceWall = Forcewall
-    .desc = Creates a magical barrier.
+ent-ActionForceWall = Силовой барьер
+    .desc = Создает магический барьер.
     .suffix = { "" }

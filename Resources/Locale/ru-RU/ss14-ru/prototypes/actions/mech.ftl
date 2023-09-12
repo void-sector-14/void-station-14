@@ -1,9 +1,9 @@
-ent-ActionMechCycleEquipment = Cycle
-    .desc = Cycles currently selected equipment
+ent-ActionMechCycleEquipment = Цикл
+    .desc = Циклы выбранного в данный момент оборудования
     .suffix = { "" }
-ent-ActionMechOpenUI = Control Panel
-    .desc = Opens the control panel for the mech
+ent-ActionMechOpenUI = Панель управления
+    .desc = Открывает панель управления меха
     .suffix = { "" }
-ent-ActionMechEject = Eject
-    .desc = Ejects the pilot from the mech
+ent-ActionMechEject = Извлечь
+    .desc = Извлекает пилота из меха
     .suffix = { "" }
