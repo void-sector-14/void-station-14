@@ -32,7 +32,6 @@ research-technology-cloning = Клонирование
 research-technology-draconic-munitions = Драконовые боеприпасы
 research-technology-explosive-technology = Технология взрывчаток
 research-technology-weaponized-laser-manipulation = Weaponized Laser Manipulation
-research-technology-advanced-laser-manipulation = Продвинутое лазерное оружие
 research-technology-nonlethal-ammunition = Нелетальная аммуниция
 research-technology-concentrated-laser-weaponry = Кучное лазерное оружие
 research-technology-wave-particle-harnessing = Использование рентген-частиц
