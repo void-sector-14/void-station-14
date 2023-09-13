@@ -1,3 +1,3 @@
-objective-condition-spider-charge-title = Detonate the spider clan charge in { $location }
-objective-condition-spider-charge-no-target = Detonate the spider clan charge... somewhere?
-objective-condition-spider-charge-description = This bomb can be detonated in a specific location. Note that the bomb will not work anywhere else!
+objective-condition-spider-charge-title = Сдетонировать заряд клана пауков в { $location }
+objective-condition-spider-charge-no-target = Сдетонировать заряд клана пауков... где-то?
+objective-condition-spider-charge-description = Эта бомба может быть сдетонирована в определённом месте. Учтите, что в другом месте бомба не сработает!
