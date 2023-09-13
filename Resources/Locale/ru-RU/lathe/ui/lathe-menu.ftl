@@ -5,8 +5,8 @@ lathe-menu-sync = Синхр.
 lathe-menu-search-designs = Поиск проектов
 lathe-menu-search-filter = Фильтр
 lathe-menu-amount = Кол-во:
-lathe-menu-material-display = {$material} ({$amount})
-lathe-menu-tooltip-display = {$amount} {$material}
+lathe-menu-material-display = { $material } ({ $amount })
+lathe-menu-tooltip-display = { $amount } { $material }
 lathe-menu-material-amount =
     { $amount ->
         [1] { NATURALFIXED($amount, 2) } { $unit }
