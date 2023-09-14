@@ -28,3 +28,6 @@ ent-EnergyShield = энергетический щит
 ent-BrokenEnergyShield = сломанный энергетический щит
     .desc = Внутри что-то перегорело, он больше не работает.
     .suffix = { "" }
+ent-TelescopicShield = telescopic shield
+    .desc = An advanced riot shield made of lightweight materials that collapses for easy storage.
+    .suffix = { "" }
