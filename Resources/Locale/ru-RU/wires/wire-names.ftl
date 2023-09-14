@@ -56,6 +56,6 @@ wire-name-pa-power = ПИТА
 wire-name-pa-strength = СИЛА
 wire-name-bomb-live = АКТВ
 wire-name-bomb-delay = ЗДРК
-wire-name-bomb-proceed = ПРТК
+wire-name-bomb-proceed = ТЧНЕ
 wire-name-bomb-boom = БУМ
 wire-name-bomb-bolt = БОЛТ
