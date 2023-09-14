@@ -1,4 +1,3 @@
 ent-MobMoth = Urist McFluff
-
-  .desc = { ent-['BaseMobMoth', 'BaseMob'].desc }
-  .suffix = { "" }
+    .desc = { ent-BaseMobMoth.desc }
+    .suffix = { "" }

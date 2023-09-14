@@ -1,44 +1,33 @@
 ent-PartMoth = moth body part
-
-  .desc = { ent-['BaseItem', 'BasePart'].desc }
-  .suffix = { "" }
+    .desc = { ent-BaseItem.desc }
+    .suffix = { "" }
 ent-TorsoMoth = moth torso
-
-  .desc = { ent-['PartMoth', 'BaseTorso'].desc }
-  .suffix = { "" }
+    .desc = { ent-PartMoth.desc }
+    .suffix = { "" }
 ent-HeadMoth = moth head
-
-  .desc = { ent-['PartMoth', 'BaseHead'].desc }
-  .suffix = { "" }
+    .desc = { ent-PartMoth.desc }
+    .suffix = { "" }
 ent-LeftArmMoth = left moth arm
-
-  .desc = { ent-['PartMoth', 'BaseLeftArm'].desc }
-  .suffix = { "" }
+    .desc = { ent-PartMoth.desc }
+    .suffix = { "" }
 ent-RightArmMoth = right moth arm
-
-  .desc = { ent-['PartMoth', 'BaseRightArm'].desc }
-  .suffix = { "" }
+    .desc = { ent-PartMoth.desc }
+    .suffix = { "" }
 ent-LeftHandMoth = left moth hand
-
-  .desc = { ent-['PartMoth', 'BaseLeftHand'].desc }
-  .suffix = { "" }
+    .desc = { ent-PartMoth.desc }
+    .suffix = { "" }
 ent-RightHandMoth = right moth hand
-
-  .desc = { ent-['PartMoth', 'BaseRightHand'].desc }
-  .suffix = { "" }
+    .desc = { ent-PartMoth.desc }
+    .suffix = { "" }
 ent-LeftLegMoth = left moth leg
-
-  .desc = { ent-['PartMoth', 'BaseLeftLeg'].desc }
-  .suffix = { "" }
+    .desc = { ent-PartMoth.desc }
+    .suffix = { "" }
 ent-RightLegMoth = right moth leg
-
-  .desc = { ent-['PartMoth', 'BaseRightLeg'].desc }
-  .suffix = { "" }
+    .desc = { ent-PartMoth.desc }
+    .suffix = { "" }
 ent-LeftFootMoth = left moth foot
-
-  .desc = { ent-['PartMoth', 'BaseLeftFoot'].desc }
-  .suffix = { "" }
+    .desc = { ent-PartMoth.desc }
+    .suffix = { "" }
 ent-RightFootMoth = right moth foot
-
-  .desc = { ent-['PartMoth', 'BaseRightFoot'].desc }
-  .suffix = { "" }
+    .desc = { ent-PartMoth.desc }
+    .suffix = { "" }
