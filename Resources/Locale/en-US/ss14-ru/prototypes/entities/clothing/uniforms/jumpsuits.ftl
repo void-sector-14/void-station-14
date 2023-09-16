@@ -337,3 +337,6 @@ ent-ClothingUniformJumpsuitSeniorOfficer = senior officer jumpsuit
 ent-ClothingUniformJumpsuitWeb = web jumpsuit
     .desc = Makes it clear that you are one with the webs.
     .suffix = { "" }
+ent-ClothingUniformJumpsuitLoungewear = loungewear
+    .desc = A long stretch of fabric that wraps around your body for comfort.
+    .suffix = { "" }

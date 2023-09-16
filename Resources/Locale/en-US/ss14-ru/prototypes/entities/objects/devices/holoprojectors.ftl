@@ -7,3 +7,6 @@ ent-HolofanProjector = holofan projector
 ent-HoloprojectorSecurity = holobarrier projector
     .desc = Creates a solid but fragile holographic barrier.
     .suffix = { "" }
+ent-HoloprojectorSecurityEmpty = { ent-HoloprojectorSecurity }
+    .suffix = Empty
+    .desc = { ent-HoloprojectorSecurity.desc }

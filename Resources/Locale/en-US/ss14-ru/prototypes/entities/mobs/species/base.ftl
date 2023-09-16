@@ -1,6 +1,11 @@
-ent-BaseMobOrganic = Urist McHands
+ent-BaseMobSpecies = { ent-['BaseMob', 'MobDamageable', 'MobCombat'] }
+
+  .desc = { ent-['BaseMob', 'MobDamageable', 'MobCombat'].desc }
+  .suffix = { "" }
+ent-BaseMobSpeciesOrganic = { ent-['MobBloodstream', 'MobRespirator', 'MobAtmosStandard', 'MobFlammable', 'BaseMobSpecies'] }
+
+  .desc = { ent-['MobBloodstream', 'MobRespirator', 'MobAtmosStandard', 'MobFlammable', 'BaseMobSpecies'].desc }
+  .suffix = { "" }
+ent-BaseSpeciesDummy = { "" }
     .desc = { "" }
-    .suffix = { "" }
-ent-BaseMobOrganicDummy = Urist McHands
-    .desc = A dummy human meant to be used in character setup.
     .suffix = { "" }
