@@ -337,3 +337,6 @@ ent-ClothingUniformJumpsuitSeniorOfficer = комбинезон офицера-�
 ent-ClothingUniformJumpsuitWeb = паутинный комбинезон
     .desc = Даёт понять, что вы едины с паутиной.
     .suffix = { "" }
+ent-ClothingUniformJumpsuitLoungewear = loungewear
+    .desc = A long stretch of fabric that wraps around your body for comfort.
+    .suffix = { "" }
