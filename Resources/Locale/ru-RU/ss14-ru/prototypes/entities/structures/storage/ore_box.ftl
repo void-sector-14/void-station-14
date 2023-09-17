@@ -1,3 +1,3 @@
-ent-OreBox = ore box
-    .desc = A large storage container for holding unprocessed ores.
+ent-OreBox = ящик для руды
+    .desc = Большое хранилище для хранения необработанных руд.
     .suffix = { "" }

@@ -1,36 +1,30 @@
 ent-BaseTraitorObjective = { ent-BaseObjective }
     .desc = { ent-BaseObjective.desc }
     .suffix = { "" }
-ent-BaseTraitorSocialObjective = { ent-['BaseTraitorObjective', 'BaseSocialObjective'] }
-
-  .desc = { ent-['BaseTraitorObjective', 'BaseSocialObjective'].desc }
-  .suffix = { "" }
-ent-BaseTraitorStealObjective = { ent-['BaseTraitorObjective', 'BaseStealObjective'] }
-
-  .desc = { ent-['BaseTraitorObjective', 'BaseStealObjective'].desc }
-  .suffix = { "" }
-ent-EscapeShuttleObjective = Escape to centcom alive and unrestrained.
-    .desc = One of our undercover agents will debrief you when you arrive. Don't show up in cuffs.
+ent-BaseTraitorSocialObjective = { ent-BaseTraitorObjective }
+    .desc = { ent-BaseTraitorObjective.desc }
     .suffix = { "" }
-ent-DieObjective = Die a glorious death
-    .desc = Die.
+ent-BaseTraitorStealObjective = { ent-BaseTraitorObjective }
+    .desc = { ent-BaseTraitorObjective.desc }
     .suffix = { "" }
-ent-KillRandomPersonObjective = { ent-['BaseTraitorObjective', 'BaseKillObjective'] }
-
-  .desc = Do it however you like, just make sure they don't make it to centcom.
-  .suffix = { "" }
-ent-KillRandomHeadObjective = { ent-['BaseTraitorObjective', 'BaseKillObjective'] }
-
-  .desc = We need this head gone and you probably know why. Good luck, agent.
-  .suffix = { "" }
-ent-RandomTraitorAliveObjective = { ent-['BaseTraitorSocialObjective', 'BaseKeepAliveObjective'] }
-
-  .desc = Identify yourself at your own risk. We just need them alive.
-  .suffix = { "" }
-ent-RandomTraitorProgressObjective = { ent-['BaseTraitorSocialObjective', 'BaseHelpProgressObjective'] }
-
-  .desc = Identify yourself at your own risk. We just need them to succeed.
-  .suffix = { "" }
+ent-EscapeShuttleObjective = Попасть на центком живым и свободным.
+    .desc = Один из наших агентов под прикрытием допросит вас по прибытии. Не дайте себя арестовать.
+    .suffix = { "" }
+ent-DieObjective = Умереть славной смертью.
+    .desc = Умереть.
+    .suffix = { "" }
+ent-KillRandomPersonObjective = { ent-BaseTraitorObjective }
+    .desc = Сделайте это, как посчитаете нужным. Только убедитесь, что цель не попадёт на центком.
+    .suffix = { "" }
+ent-KillRandomHeadObjective = { ent-BaseTraitorObjective }
+    .desc = Нам нужно, чтобы этот член командования погиб, и вы, вероятно, знаете почему. Удачи, агент.
+    .suffix = { "" }
+ent-RandomTraitorAliveObjective = { ent-BaseTraitorSocialObjective }
+    .desc = Раскрывайте себя на свой страх и риск. Нам просто нужно, чтобы он выжил.
+    .suffix = { "" }
+ent-RandomTraitorProgressObjective = { ent-BaseTraitorSocialObjective }
+    .desc = Раскрывайте себя на свой страх и риск. Нам просто нужно, чтобы он добился успеха.
+    .suffix = { "" }
 ent-CMOHyposprayStealObjective = { ent-BaseTraitorStealObjective }
     .desc = { ent-BaseTraitorStealObjective.desc }
     .suffix = { "" }
