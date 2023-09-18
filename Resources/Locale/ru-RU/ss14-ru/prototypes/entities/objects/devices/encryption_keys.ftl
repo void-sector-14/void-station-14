@@ -40,3 +40,6 @@ ent-EncryptionKeyService = ключ шифрования сервиса
 ent-EncryptionKeySyndie = кроваво-красный ключ шифрования
     .desc = Ключ шифрования используемый... подождите... Кто владеет этим чипом?
     .suffix = { "" }
+ent-EncryptionKeyBinary = binary translator key
+    .desc = An encryption key that translates binary signals used by silicons.
+    .suffix = { "" }
