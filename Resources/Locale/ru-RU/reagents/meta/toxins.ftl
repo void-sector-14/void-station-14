@@ -42,3 +42,5 @@ reagent-name-honk = хонк
 reagent-desc-honk = Токсин, содержащийся в бананиуме. Вызывает сильное гудение и внутреннее кровотечение, также может вызвать мутацию пациента.
 reagent-name-lead = свинец
 reagent-desc-lead = Медленно действующий, но невероятно смертоносный токсин даже в незначительных количествах. Содержится в стали. Безвкусный.
+reagent-name-bungotoxin = bungotoxin
+reagent-desc-bungotoxin = A moderately slow-acting poison found within the pit of the bungo fruit.
