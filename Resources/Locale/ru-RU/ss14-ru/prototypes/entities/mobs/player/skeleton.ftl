@@ -7,6 +7,6 @@ ent-MobSkeletonPirate = скелет-пират
 ent-MobSkeletonBiker = скелет-байкер
     .desc = { ent-MobSkeletonPerson.desc }
     .suffix = { "" }
-ent-MobSkeletonCloset = Closet Skeleton
+ent-MobSkeletonCloset = скелет из шкафа
     .desc = { ent-MobSkeletonPerson.desc }
     .suffix = { "" }
