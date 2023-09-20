@@ -79,3 +79,6 @@ ent-FoodSaladWatermelonFruitBowl = melon fruit bowl
 ent-FoodMealTaco = taco
     .desc = Take a bite!
     .suffix = { "" }
+ent-FoodMealCornInButter = corn in butter
+    .desc = Buttery.
+    .suffix = { "" }

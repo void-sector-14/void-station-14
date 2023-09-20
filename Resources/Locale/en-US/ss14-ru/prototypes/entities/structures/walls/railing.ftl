@@ -7,3 +7,6 @@ ent-RailingCorner = railing
 ent-RailingCornerSmall = railing
     .desc = Basic railing meant to protect idiots like you from falling.
     .suffix = { "" }
+ent-RailingRound = railing
+    .desc = Basic railing meant to protect idiots like you from falling.
+    .suffix = { "" }
