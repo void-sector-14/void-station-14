@@ -1,15 +1,11 @@
 ent-filingCabinet = картотечный шкаф
     .desc = Шкаф для хранения документов.
-    .suffix = { "" }
 ent-filingCabinetTall = высокий шкаф
     .desc = { ent-filingCabinet.desc }
-    .suffix = { "" }
 ent-filingCabinetDrawer = комод
     .desc = Маленький шкафчик для хранения предметов. Теперь на колёсиках!
-    .suffix = { "" }
 ent-BaseBureaucraticStorageFill = { "" }
     .desc = { "" }
-    .suffix = { "" }
 ent-filingCabinetRandom = { ent-filingCabinet }
     .suffix = Наполнен случайно
     .desc = { ent-filingCabinet.desc }
