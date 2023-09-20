@@ -79,3 +79,6 @@ ent-FoodSaladWatermelonFruitBowl = чаша для фруктов из дыни
 ent-FoodMealTaco = тако
     .desc = Откусите кусочек!
     .suffix = { "" }
+ent-FoodMealCornInButter = кукуруза в масле
+    .desc = Масляная.
+    .suffix = { "" }
