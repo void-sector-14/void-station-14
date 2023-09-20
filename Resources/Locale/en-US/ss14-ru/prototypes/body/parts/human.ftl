@@ -1,44 +1,22 @@
 ent-PartHuman = human body part
-
-  .desc = { ent-['BaseItem', 'BasePart'].desc }
-  .suffix = { "" }
+    .desc = { ent-BaseItem.desc }
 ent-TorsoHuman = human torso
-
-  .desc = { ent-['PartHuman', 'BaseTorso'].desc }
-  .suffix = { "" }
+    .desc = { ent-PartHuman.desc }
 ent-HeadHuman = human head
-
-  .desc = { ent-['PartHuman', 'BaseHead'].desc }
-  .suffix = { "" }
+    .desc = { ent-PartHuman.desc }
 ent-LeftArmHuman = left human arm
-
-  .desc = { ent-['PartHuman', 'BaseLeftArm'].desc }
-  .suffix = { "" }
+    .desc = { ent-PartHuman.desc }
 ent-RightArmHuman = right human arm
-
-  .desc = { ent-['PartHuman', 'BaseRightArm'].desc }
-  .suffix = { "" }
+    .desc = { ent-PartHuman.desc }
 ent-LeftHandHuman = left human hand
-
-  .desc = { ent-['PartHuman', 'BaseLeftHand'].desc }
-  .suffix = { "" }
+    .desc = { ent-PartHuman.desc }
 ent-RightHandHuman = right human hand
-
-  .desc = { ent-['PartHuman', 'BaseRightHand'].desc }
-  .suffix = { "" }
+    .desc = { ent-PartHuman.desc }
 ent-LeftLegHuman = left human leg
-
-  .desc = { ent-['PartHuman', 'BaseLeftLeg'].desc }
-  .suffix = { "" }
+    .desc = { ent-PartHuman.desc }
 ent-RightLegHuman = right human leg
-
-  .desc = { ent-['PartHuman', 'BaseRightLeg'].desc }
-  .suffix = { "" }
+    .desc = { ent-PartHuman.desc }
 ent-LeftFootHuman = left human foot
-
-  .desc = { ent-['PartHuman', 'BaseLeftFoot'].desc }
-  .suffix = { "" }
+    .desc = { ent-PartHuman.desc }
 ent-RightFootHuman = right human foot
-
-  .desc = { ent-['PartHuman', 'BaseRightFoot'].desc }
-  .suffix = { "" }
+    .desc = { ent-PartHuman.desc }

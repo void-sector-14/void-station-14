@@ -1,4 +1,2 @@
-ent-TestStation = { ent-['BaseStation', 'BaseStationJobsSpawning', 'BaseStationRecords', 'BaseStationAlertLevels'] }
-
-  .desc = { ent-['BaseStation', 'BaseStationJobsSpawning', 'BaseStationRecords', 'BaseStationAlertLevels'].desc }
-  .suffix = { "" }
+ent-TestStation = { ent-BaseStation }
+    .desc = { ent-BaseStation.desc }

@@ -1,44 +1,22 @@
 ent-PartArachnid = arachnid body part
-
-  .desc = { ent-['BaseItem', 'BasePart'].desc }
-  .suffix = { "" }
+    .desc = { ent-BaseItem.desc }
 ent-TorsoArachnid = arachnid torso
-
-  .desc = { ent-['PartArachnid', 'BaseTorso'].desc }
-  .suffix = { "" }
+    .desc = { ent-PartArachnid.desc }
 ent-HeadArachnid = arachnid head
-
-  .desc = { ent-['PartArachnid', 'BaseHead'].desc }
-  .suffix = { "" }
+    .desc = { ent-PartArachnid.desc }
 ent-LeftArmArachnid = left arachnid arm
-
-  .desc = { ent-['PartArachnid', 'BaseLeftArm'].desc }
-  .suffix = { "" }
+    .desc = { ent-PartArachnid.desc }
 ent-RightArmArachnid = right arachnid arm
-
-  .desc = { ent-['PartArachnid', 'BaseRightArm'].desc }
-  .suffix = { "" }
+    .desc = { ent-PartArachnid.desc }
 ent-LeftHandArachnid = left arachnid hand
-
-  .desc = { ent-['PartArachnid', 'BaseLeftHand'].desc }
-  .suffix = { "" }
+    .desc = { ent-PartArachnid.desc }
 ent-RightHandArachnid = right arachnid hand
-
-  .desc = { ent-['PartArachnid', 'BaseRightHand'].desc }
-  .suffix = { "" }
+    .desc = { ent-PartArachnid.desc }
 ent-LeftLegArachnid = left arachnid leg
-
-  .desc = { ent-['PartArachnid', 'BaseLeftLeg'].desc }
-  .suffix = { "" }
+    .desc = { ent-PartArachnid.desc }
 ent-RightLegArachnid = right arachnid leg
-
-  .desc = { ent-['PartArachnid', 'BaseRightLeg'].desc }
-  .suffix = { "" }
+    .desc = { ent-PartArachnid.desc }
 ent-LeftFootArachnid = left arachnid foot
-
-  .desc = { ent-['PartArachnid', 'BaseLeftFoot'].desc }
-  .suffix = { "" }
+    .desc = { ent-PartArachnid.desc }
 ent-RightFootArachnid = right arachnid foot
-
-  .desc = { ent-['PartArachnid', 'BaseRightFoot'].desc }
-  .suffix = { "" }
+    .desc = { ent-PartArachnid.desc }

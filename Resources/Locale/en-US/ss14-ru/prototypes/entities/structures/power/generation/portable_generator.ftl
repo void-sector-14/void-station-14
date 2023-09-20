@@ -1,10 +1,7 @@
-ent-PortableGeneratorBase = { ent-['BaseMachine', 'ConstructibleMachine'] }
-
-  .desc = { ent-['BaseMachine', 'ConstructibleMachine'].desc }
-  .suffix = { "" }
+ent-PortableGeneratorBase = { ent-BaseMachine }
+    .desc = { ent-BaseMachine.desc }
 ent-PortableGeneratorSwitchableBase = { ent-PortableGeneratorBase }
     .desc = { ent-PortableGeneratorBase.desc }
-    .suffix = { "" }
 ent-PortableGeneratorPacman = P.A.C.M.A.N.-type portable generator
     .desc =
         A flexible backup generator for powering a variety of equipment.

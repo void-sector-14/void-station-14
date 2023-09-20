@@ -1,10 +1,7 @@
 ent-BaseDefibrillator = defibrillator
     .desc = CLEAR! Zzzzat!
-    .suffix = { "" }
-ent-Defibrillator = { ent-['BaseDefibrillator', 'PowerCellSlotMediumItem'] }
-
-  .desc = { ent-['BaseDefibrillator', 'PowerCellSlotMediumItem'].desc }
-  .suffix = { "" }
+ent-Defibrillator = { ent-BaseDefibrillator }
+    .desc = { ent-BaseDefibrillator.desc }
 ent-DefibrillatorEmpty = { ent-Defibrillator }
     .suffix = Empty
     .desc = { ent-Defibrillator.desc }

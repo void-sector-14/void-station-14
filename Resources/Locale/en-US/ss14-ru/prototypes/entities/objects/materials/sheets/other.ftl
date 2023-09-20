@@ -1,6 +1,5 @@
 ent-SheetOtherBase = { ent-BaseItem }
     .desc = A sheet of material, used often on the station in various applications.
-    .suffix = { "" }
 ent-SheetPaper = paper
     .suffix = Full
     .desc = { ent-SheetOtherBase.desc }
@@ -23,9 +22,8 @@ ent-SheetPlastic1 = plastic
     .suffix = Single
     .desc = { ent-SheetPlastic.desc }
 ent-SheetUranium = uranium
-
-  .suffix = Full
-  .desc = { ent-['SheetOtherBase', 'FoodBase'].desc }
+    .suffix = Full
+    .desc = { ent-SheetOtherBase.desc }
 ent-SheetUranium1 = uranium
     .suffix = Single
     .desc = { ent-SheetUranium.desc }
