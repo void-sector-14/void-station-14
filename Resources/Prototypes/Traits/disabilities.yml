@@ -57,10 +57,3 @@
   components:
     - type: WheelchairBound
     - type: LegsParalyzed
-
-- type: trait
-  id: FrontalLisp
-  name: trait-frontal-lisp-name
-  description: trait-frontal-lisp-desc
-  components:
-    - type: FrontalLisp
