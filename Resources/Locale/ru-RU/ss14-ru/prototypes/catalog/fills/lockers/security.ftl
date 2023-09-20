@@ -30,5 +30,6 @@ ent-GunSafeShotgunKammerer = сейф каммерера
     .desc = { ent-GunSafe.desc }
 ent-GunSafeSubMachineGunWt550 = сейф WT550
     .desc = { ent-GunSafe.desc }
+    .suffix = Wt550
 ent-GunSafeLaserCarbine = сейф лазерного карабина
     .desc = { ent-GunSafe.desc }

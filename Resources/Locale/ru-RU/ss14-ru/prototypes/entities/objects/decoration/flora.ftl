@@ -62,5 +62,6 @@ ent-FloraTreeChristmas01 = рождественская ель
     .desc = { ent-BaseTreeConifer.desc }
 ent-FloraTreeChristmas02 = рождественская ель
     .desc = { ent-BaseTreeConifer.desc }
+    .suffix = Даритель подарков
 ent-FloraTreeStumpConifer = пень
     .desc = { ent-BaseTreeConifer.desc }
