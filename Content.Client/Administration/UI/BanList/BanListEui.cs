@@ -70,7 +70,7 @@ public sealed class BanListEui : BaseEui
 
     private static string FormatDate(DateTimeOffset date)
     {
-        return date.ToString("MM/dd/yyyy h:mm tt");
+        return date.ToString("yyy/MM/dd h:mm tt");
     }
 
     public static void SetData<T>(IBanListLine<T> line, SharedServerBan ban) where T : SharedServerBan
