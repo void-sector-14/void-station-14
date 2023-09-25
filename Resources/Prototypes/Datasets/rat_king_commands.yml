@@ -8,7 +8,7 @@
 - type: dataset
   id: RatKingCommandFollow
   values:
-    - "К ноге"
+    - "Ко мне"
     - "За мной"
 
 - type: dataset
@@ -17,7 +17,7 @@
     - "Атаковать"
     - "Фас"
     - "Убить"
-    - "Сделайте в них дырки"
+    - "Сыруйте их"
 
 - type: dataset
   id: RatKingCommandLoose
