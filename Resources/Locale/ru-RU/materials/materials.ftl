@@ -20,5 +20,6 @@ materials-uranium = урана
 materials-bananium = бананиума
 materials-meat = мяса
 materials-web = шёлка
+materials-bones = bone
 # Material Reclaimer
 material-reclaimer-upgrade-process-rate = Скорость процесса
