@@ -8,5 +8,5 @@ ent-ActionToggleFov = Переключить поле обзора
     .desc = Переключает поле обзора для того, чтобы увидеть, что видят игроки.
 ent-ActionToggleGhosts = Переключение призраков
     .desc = Переключить видимость других призраков.
-ent-ActionToggleGhostHearing = Toggle Ghost Hearing
-    .desc = Toggle between hearing all messages and hearing only radio & nearby messages.
+ent-ActionToggleGhostHearing = Переключить слух призрака
+    .desc = Переключает между прослушиванием всех сообщений и прослушиванием только рации и сообщений поблизости.
