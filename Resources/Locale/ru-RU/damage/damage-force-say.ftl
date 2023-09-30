@@ -1,10 +1,10 @@
 damage-force-say-message-wrap = { $message }-{ $suffix }
 damage-force-say-message-wrap-no-suffix = { $message }-
-damage-force-say-1 = GACK!
-damage-force-say-2 = GLORF!
-damage-force-say-3 = OOF!
-damage-force-say-4 = AUGH!
-damage-force-say-5 = OW!
-damage-force-say-6 = URGH!
-damage-force-say-7 = HRNK!
+damage-force-say-1 = ГЭКХ!
+damage-force-say-2 = ГЛРХ!
+damage-force-say-3 = УФФ!
+damage-force-say-4 = АГХ!
+damage-force-say-5 = АЙ!
+damage-force-say-6 = УГХ!
+damage-force-say-7 = ЙЭГХ!
 damage-force-say-sleep = zzz...
