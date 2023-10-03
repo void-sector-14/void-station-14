@@ -18,3 +18,5 @@ tool-quality-honking-name = Хонканье
 tool-quality-honking-tool-name = Велосипедный клаксон
 tool-quality-woodcutting-name = Деревообработка
 tool-quality-woodcutting-tool-name = Топорик
+tool-quality-rolling-name = Rolling
+tool-quality-rolling-tool-name = Rolling Pin
