@@ -12,5 +12,5 @@ ent-ClothingShoesBootsMerc = ботинки наёмника
     .desc = Ботинки, прошедшие через множество испытаний, доказав свою надежность в бою.
 ent-ClothingShoesBootsLaceup = шнурованные туфли
     .desc = Последний писк моды, и поставляются сразу отполированными!
-ent-ClothingShoesBootsWinter = winter boots
-    .desc = Fluffy boots to help survive even the coldest of winters.
+ent-ClothingShoesBootsWinter = зимние сапоги
+    .desc = Пушистые сапоги помогут пережить даже самую холодную зиму.

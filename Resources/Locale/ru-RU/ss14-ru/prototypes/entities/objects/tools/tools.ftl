@@ -31,5 +31,5 @@ ent-Shovel = лопата
     .desc = Большой инструмент для копания и перемещения грунта.
 ent-Omnitool = омнитул
     .desc = Лучший друг дрона.
-ent-RollingPin = rolling pin
-    .desc = A tool used to shape and flatten dough.
+ent-RollingPin = скалка
+    .desc = Инструмент, используемый для придания формы и разравнивания теста.
