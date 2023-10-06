@@ -766,6 +766,9 @@
   id: PetWearable
 
 - type: Tag
+  id: MonkeyWearable
+
+- type: Tag
   id: Pickaxe
 
 - type: Tag
@@ -1057,3 +1060,5 @@
 - type: Tag
   id: ModularReceiver
 
+- type: Tag
+  id: MindShield
