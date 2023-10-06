@@ -1,8 +1,8 @@
 ent-MobElementalBase = { "" }
     .desc = { "" }
-ent-MobQuartzCrab = quartz crab
-    .desc = An ore crab made from quartz.
-ent-MobIronCrab = ore crab
-    .desc = An ore crab made from iron.
-ent-MobUraniumCrab = ore crab
-    .desc = An ore crab made from uranium.
+ent-MobQuartzCrab = кварцевый краб
+    .desc = Рудный краб, состоящий из кварца.
+ent-MobIronCrab = рудный краб
+    .desc = Рудный краб, состоящий из железа.
+ent-MobUraniumCrab = рудный краб
+    .desc = Рудный краб, состоящий из урана.
