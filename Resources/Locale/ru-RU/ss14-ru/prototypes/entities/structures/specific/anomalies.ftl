@@ -22,5 +22,5 @@ ent-AnomalyRock = { ent-BaseAnomaly }
     .suffix = Каменная
     .desc = { ent-BaseAnomaly.desc }
 ent-AnomalyLiquid = { ent-BaseAnomaly }
-    .suffix = Liquid
+    .suffix = Жидкая
     .desc = { ent-BaseAnomaly.desc }
