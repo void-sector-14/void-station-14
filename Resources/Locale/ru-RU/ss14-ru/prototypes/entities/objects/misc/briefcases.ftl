@@ -4,5 +4,6 @@ ent-BriefcaseBrown = коричневый чемодан
     .desc = Удобный чемоданчик.
 ent-BriefcaseSyndieBase = { ent-BaseStorageItem }
     .desc = { ent-BriefcaseBase.desc }
+    .suffix = Syndicate, Empty
 ent-BriefcaseSyndie = { ent-BriefcaseBrown }
     .desc = { ent-BriefcaseBrown.desc }

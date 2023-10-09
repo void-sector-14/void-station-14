@@ -12,6 +12,7 @@ ent-FoodTinPeachesMaint = персики из техов
     .desc = Банка отличных спелых персиков, плавающих в собственном соку.
 ent-FoodTinPeachesMaintOpen = персики из техов
     .desc = Банка отличных спелых персиков, плавающих в собственном соку.
+    .suffix = Open
 ent-FoodTinPeachesMaintTrash = персики из техов
     .desc = { ent-FoodTinBaseTrash.desc }
 ent-FoodTinBeans = консервированная фасоль
