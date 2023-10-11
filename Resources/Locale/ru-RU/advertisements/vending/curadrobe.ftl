@@ -1,2 +1,2 @@
-advertisement-curadrobe-1 = Glasses for your eyes and literature for your soul, CuraDrobe has it all!
-advertisement-curadrobe-2 = Impress & enthrall your library guests with CuraDrobe's extended line of pens!
+advertisement-curadrobe-1 = Очки для глаз и литература для души - всё это есть в КураторШкафу!
+advertisement-curadrobe-2 = Впечатлите и поразите гостей вашей библиотеки расширенной линейкой ручек КураторШкафа!
