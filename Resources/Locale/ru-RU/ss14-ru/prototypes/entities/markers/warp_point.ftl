@@ -29,6 +29,7 @@ ent-WarpPointBeaconScience = { ent-WarpPoint }
     .suffix = Научный
 ent-WarpPointBeaconSecurity = warp point (security)
     .desc = { ent-WarpPointBeacon.desc }
+	.suffix = СБ
 ent-WarpPointBeaconService = { ent-WarpPoint }
     .desc = { ent-WarpPointBeacon.desc }
     .suffix = Сервисный
