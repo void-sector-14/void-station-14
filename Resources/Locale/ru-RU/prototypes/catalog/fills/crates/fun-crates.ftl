@@ -34,3 +34,5 @@ ent-CrateFunBikeHornImplants = ящик с имплантами клаксона
     .desc = Тысяча клаксонов в день рассеивает сотрудников службы безопасности лень!
 ent-CrateFunMysteryFigurines = Ящик загадочных фигурок
     .desc = Коллекция из 10 коробок с загадочными фигурками. Дубликаты возврату не подлежат.
+ent-CrateFunDartsSet = Dartboard Box Set
+    .desc = A box with everything you need for a fun game of darts.

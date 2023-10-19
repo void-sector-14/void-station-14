@@ -53,3 +53,5 @@ ent-BoxDeathRattleImplants = коробка имплантатов предсм�
 ent-BoxLeadLined = свинцовообшитая коробка
     .desc = Эта коробка препятствует прохождению губительной радиации.
     .suffix = Debug
+ent-BoxDarts = darts box
+    .desc = This box filled with colorful darts.
