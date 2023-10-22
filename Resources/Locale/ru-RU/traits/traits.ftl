@@ -20,3 +20,5 @@ trait-wheelchair-bound-name = Прикованный к инвалидному �
 trait-wheelchair-bound-desc = Вы не можете передвигаться без инвалидного кресла. Инвалидное кресло прилагается.
 trait-paracusia-name = Паракузия
 trait-paracusia-desc = Вы слышите звуки, которых на самом деле нет
+trait-socialanxiety-name = Social Anxiety
+trait-socialanxiety-desc = You are anxious when you speak and stutter.
