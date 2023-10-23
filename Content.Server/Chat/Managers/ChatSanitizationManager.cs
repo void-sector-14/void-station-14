@@ -86,7 +86,9 @@ public sealed class ChatSanitizationManager : IChatSanitizationManager
         { "idk", "chatsan-shrugs" },
         { "idk.", "chatsan-shrugs" },
         { "хз", "chatsan-shrugs" },
-        { "хз.", "chatsan-shrugs" }
+        { "хз.", "chatsan-shrugs" },
+        { "яхз", "chatsan-shrugs" },
+        { "яхз.", "chatsan-shrugs" }
     };
 
     private bool _doSanitize;
