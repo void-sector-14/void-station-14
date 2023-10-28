@@ -77,7 +77,9 @@ chatsan-word-41 = квс
 chatsan-replacement-41 = к вашему сведению
 chatsan-word-42 = чтвд
 chatsan-replacement-42 = что вы делаете
+
 ### Starshine
+
 chatsan-word-ss-1 = кеп
 chatsan-word-ss-2 = кэп
 chatsan-replacement-ss-cap-1 = капитан
@@ -175,7 +177,9 @@ chatsan-replacement-ss-57 = толкнуть
 chatsan-word-ss-58 = синга
 chatsan-word-ss-59 = сингу
 chatsan-replacement-ss-singularity = сингулярность
+
 ### IC
+
 chatsan-word-ss-60 = синд
 chatsan-word-ss-61 = синди
 chatsan-replacement-ss-syndi = синдикат
@@ -244,7 +248,9 @@ chatsan-word-ss-96 = хелпанул
 chatsan-replacement-ss-96 = помог
 chatsan-word-ss-97 = хелпанула
 chatsan-replacement-ss-97 = помогла
+
 ### OOC
+
 chatsan-word-ss-98 = админ
 chatsan-replacement-ss-98 = бог
 chatsan-word-ss-99 = админа
