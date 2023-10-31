@@ -115,5 +115,5 @@ ghost-role-information-loneop-description = Вы - одинокий ядерны
 ghost-role-information-loneop-rules = Вы являетесь оперативником синдиката, которому поручено уничтожить станцию. Как антагонист, сделайте всё необходимое для выполнения этой задачи.
 ghost-role-information-taxibot-name = ТаксиБот
 ghost-role-information-taxibot-description = Доставьте экипаж станции к месту их назначения.
-ghost-role-information-Death-Squad-name = Death Squad Operative
-ghost-role-information-Death-Squad-description = Prepare for an all-out offensive on the station. As a heavily armed operative, your mission is to obliterate all life in your path. No witnesses.
+ghost-role-information-Death-Squad-name = Оперативник Эскадрона Смерти
+ghost-role-information-Death-Squad-description = Приготовьтесь к тотальному наступлению на станцию. Ваша задача как хорошо вооруженного оперативника - уничтожить всё живое на своем пути. Никаких свидетелей.
