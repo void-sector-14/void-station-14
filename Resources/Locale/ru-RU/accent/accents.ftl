@@ -77,4 +77,4 @@ accent-words-slimes-3 = Бламп!
 accent-words-slimes-4 = Блааамп...
 accent-words-slimes-5 = Блабл Бламп!
 # Mothroach
-accent-words-mothroach-1 = Chirp!
+accent-words-mothroach-1 = Бззз!
