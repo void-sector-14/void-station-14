@@ -105,3 +105,5 @@ ent-SeniorPhysicianPDA = КПК врача-инструктора
     .desc = Похоже, он пережил годы химических ожогов и взрывов.
 ent-SeniorOfficerPDA = КПК офицера-инструктора
     .desc = Побитый, потрёпанный и сломанный, но ещё пригодный для использования.
+ent-PiratePDA = pirate PDA
+    .desc = Yargh!

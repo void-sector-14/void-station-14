@@ -28,3 +28,5 @@ ent-EncryptionKeySyndie = кроваво-красный ключ шифрова�
     .desc = Ключ шифрования используемый... подождите... Кто владеет этим чипом?
 ent-EncryptionKeyBinary = ключ бинарного переводчика
     .desc = Ключ шифрования, который переводит бинарные сигналы, используемые роботами.
+ent-EncryptionKeyFreelance = freelancer encryption key
+    .desc = An encryption key used by freelancers, who may or may not have an affiliation. It looks like its worn out.

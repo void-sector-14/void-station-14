@@ -6,3 +6,7 @@ ent-SpawnVehicleATV = спавнер квадроцикла
     .desc = { ent-MarkerBase.desc }
 ent-SpawnVehicleMotobike = спавнер мотобайка
     .desc = { ent-MarkerBase.desc }
+ent-SpawnVehicleWheelchair = Wheelchair Spawner
+    .desc = { ent-MarkerBase.desc }
+ent-SpawnVehicleWheelchairFolded = Wheelchair [Folded] Spawner
+    .desc = { ent-MarkerBase.desc }

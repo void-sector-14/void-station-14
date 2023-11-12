@@ -100,3 +100,5 @@ seeds-pea-name = гороха
 seeds-pea-display-name = гороховых лоз
 seeds-pumpkin-name = тыквы
 seeds-pumpkin-display-name = тыквы
+seeds-cotton-name = cotton
+seeds-cotton-display-name = cotton plant

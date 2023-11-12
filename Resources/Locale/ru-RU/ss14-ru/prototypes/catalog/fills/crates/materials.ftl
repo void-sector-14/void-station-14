@@ -14,3 +14,5 @@ ent-CrateMaterialPlasma = ящик твёрдой плазмы
     .desc = 90 листов плазмы.
 ent-CrateMaterialCardboard = ящик картона
     .desc = 60 листов картона.
+ent-CrateMaterialPaper = { ent-CrateGenericSteel }
+    .desc = { ent-CrateGenericSteel.desc }
