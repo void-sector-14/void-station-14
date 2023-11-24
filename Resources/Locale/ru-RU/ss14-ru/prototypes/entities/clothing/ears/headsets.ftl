@@ -34,5 +34,5 @@ ent-ClothingHeadsetBrigmedic = гарнитура бригмедика
     .desc = Гарнитура, которая помогает слышать предсмертные крики.
 ent-ClothingHeadsetGrey = гарнитура пассажира
     .desc = Модифицированный модульный интерком, надеваемый на голову. Принимает ключи шифрования.
-ent-ClothingHeadsetFreelance = freelancer headset
-    .desc = This is used by a roaming group of freelancers
+ent-ClothingHeadsetFreelance = гарнитура фрилансера
+    .desc = Его использует группа блуждающих фрилансеров

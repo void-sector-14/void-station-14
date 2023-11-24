@@ -20,5 +20,5 @@ ent-ClothingEyesHudMultiversal = мультиверсальный визор
     .desc = Заполнитель
 ent-ClothingEyesHudOmni = омни визор
     .desc = Заполнитель
-ent-ClothingEyesHudSyndicate = syndicate visor
-    .desc = The syndicate's professional head-up display, designed for better detection of humanoids and their subsequent elimination.
+ent-ClothingEyesHudSyndicate = визор синдиката
+    .desc = Профессиональный головной дисплей синдиката, предназначенный для более точного обнаружения гуманоидов и их последующего уничтожения.

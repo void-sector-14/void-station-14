@@ -103,5 +103,5 @@ ent-CrazyGlue = безумный клей
     .desc = Бутылка безумного клея производства компании Хонк! Корпорейтед.
 ent-PlushieMoth = плюшевая моль
     .desc = Милая и пушистая плюшевая моль. Наслаждайтесь, бз!
-ent-PlushiePenguin = penguin plushie
-    .desc = I use arch btw!
+ent-PlushiePenguin = плюшевый пингвин
+    .desc = Я использую arch между прочим!

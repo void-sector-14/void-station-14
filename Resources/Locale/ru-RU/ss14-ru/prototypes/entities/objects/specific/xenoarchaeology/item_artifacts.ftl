@@ -15,5 +15,5 @@ ent-VariedXenoArtifactItem = { ent-BaseXenoArtifactItem }
 ent-ArtifactFragment = фрагмент артефакта
     .desc = Кусок разбитого артефакта. Возможно, вы могли бы восстановить его, если бы у вас было их больше.
 ent-ArtifactFragment1 = { ent-ArtifactFragment }
-    .suffix = Single
+    .suffix = Один
     .desc = { ent-ArtifactFragment.desc }

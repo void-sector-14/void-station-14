@@ -1,2 +1,2 @@
-ent-IceCrust = ice crust
-    .desc = It's cold and slippery.
+ent-IceCrust = ледяная корка
+    .desc = Она холодная и скользкая.
