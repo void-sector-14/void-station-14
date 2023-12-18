@@ -11,13 +11,6 @@ head-rev-role-greeting =
 head-rev-briefing =
     Используйте вспышки для переманивания людей на свою сторону.
     Убейте всех глав, чтобы захватить станцию.
-head-rev-initial-name = [color=#5e9cff]{ $name }[/color] был(а) одним из Главных Революционеров.
-head-rev-initial-name-user = [color=#5e9cff]{ $name }[/color] ([color=gray]{ $username }[/color]) был(а) одним из Главных Революционеров.
-head-rev-initial-count =
-    { $initialCount ->
-        [one] Был один Главный Революционер:
-       *[other] Было { $initialCount } Главных Революционеров:
-    }
 head-rev-break-mindshield = Имплант защиты разума был уничтожен!
 
 ## Rev
