@@ -25,3 +25,5 @@ ent-CrateJanitorBiosuit = ящик биокостюмов уборщиков
 ent-CrateTrashCartFilled = { ent-CrateTrashCart }
     .suffix = Заполненный
     .desc = { ent-CrateTrashCart.desc }
+ent-CrateJanitorExplosive = { ent-ClosetJanitorBomb }
+    .desc = { ent-ClosetJanitorBomb.desc }

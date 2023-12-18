@@ -27,3 +27,5 @@ ent-SpawnMobKangarooSalvage = спавнер космического кенгу
     .desc = { ent-MarkerBase.desc }
 ent-SpawnMobSpiderSalvage = спавнер космического паука на обломке
     .desc = { ent-MarkerBase.desc }
+ent-SpawnMobCobraSalvage = Salvage Space Cobra Spawner
+    .desc = { ent-MarkerBase.desc }

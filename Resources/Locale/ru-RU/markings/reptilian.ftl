@@ -60,3 +60,5 @@ marking-LizardHornsKoboldEars-horns_kobold_ears = Уши Унатха (Кобо�
 marking-LizardHornsKoboldEars = Уши Унатха (Кобольд)
 marking-LizardHornsFloppyKoboldEars-horns_floppy_kobold_ears = Уши Унатха (Вислоухий кобольд)
 marking-LizardHornsFloppyKoboldEars = Уши Унатха (Вислоухий кобольд)
+marking-LizardChestUnderbelly-body_underbelly = Lizard Chest (Underbelly)
+marking-LizardChestUnderbelly = Lizard Chest (Underbelly)

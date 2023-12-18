@@ -44,3 +44,7 @@ reagent-name-lead = свинец
 reagent-desc-lead = Медленно действующий, но невероятно смертоносный токсин даже в незначительных количествах. Содержится в стали. Безвкусный.
 reagent-name-bungotoxin = бунготоксин
 reagent-desc-bungotoxin = Яд умеренно медленного действия, содержащийся в косточке плода бунго.
+reagent-name-vestine = vestine
+reagent-desc-vestine = Has an adverse reaction within the body causing major jittering. While not particularly useful on it's own, it can be used to produce a small variety of chemicals.
+reagent-name-tazinide = tazinide
+reagent-desc-tazinide = A highly dangerous metallic mixture which can interfere with most movement through an electrifying current.

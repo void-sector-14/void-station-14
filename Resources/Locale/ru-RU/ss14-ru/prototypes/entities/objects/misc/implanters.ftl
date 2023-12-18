@@ -33,5 +33,7 @@ ent-MacroBombImplanter = шприц имплантата макро-бомбы
     .desc = { ent-BaseImplantOnlyImplanterSyndi.desc }
 ent-DeathRattleImplanter = шприц имплантата предсмертнохрип
     .desc = { ent-BaseImplantOnlyImplanterSyndi.desc }
+ent-DeathAcidifierImplanter = death acidifier implanter
+    .desc = { ent-BaseImplantOnlyImplanterSyndi.desc }
 ent-MindShieldImplanter = шприц импланта защиты разума
     .desc = { ent-BaseImplantOnlyImplanter.desc }

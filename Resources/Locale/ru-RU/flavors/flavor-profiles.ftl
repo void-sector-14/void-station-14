@@ -44,6 +44,7 @@ flavor-base-sharp = резко
 flavor-base-syrupy = сиропно
 flavor-base-spaceshroom = загадочно
 flavor-base-clean = чисто
+flavor-base-holy = holy
 # lmao
 flavor-base-terrible = ужасно
 
@@ -74,6 +75,7 @@ flavor-complex-bread = как хлеб
 flavor-complex-batter = как тесто для торта
 flavor-complex-butter = как масло
 flavor-complex-egg = как яйца
+flavor-complex-raw-egg = like raw egg
 flavor-complex-bacon = как бекон
 flavor-complex-chicken = как курица
 flavor-complex-duck = как утка
@@ -88,6 +90,7 @@ flavor-complex-dough = как тесто
 flavor-complex-sweet-dough = как сладкое тесто
 flavor-complex-tofu = как тофу
 flavor-complex-miso = как мисо
+flavor-complex-lemoon = like laurel
 flavor-complex-muffin = как маффин
 flavor-complex-peas = как горох
 flavor-complex-pineapple = как ананас

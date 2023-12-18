@@ -41,6 +41,16 @@ rev-no-one-ready = Нет готовых игроков! Невозможно н
 rev-no-heads = Не удалось выбрать Главного Революционера. Невозможно начать Революция.
 rev-all-heads-dead = Все главы мертвы, теперь добейте остальных членов экипажа!
 rev-won = Главные Революционеры выжили и убили всё Командование.
+rev-headrev-count =
+    { $initialCount ->
+        [one] There was one Head Revolutionary:
+       *[other] There were { $initialCount } Head Revolutionaries:
+    }
+rev-headrev-player =
+    { $title } converted { $count } { $count ->
+        [one] person
+       *[other] people
+    }.
 rev-lost = Командование выжило и убило всех Главных Революционеров.
 rev-stalemate = Все Главные Революционеры и члены Командования погибли. Это ничья.
 rev-reverse-stalemate = Выжили как Командование, так и Главные Революционеры.

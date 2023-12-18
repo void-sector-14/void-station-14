@@ -258,3 +258,5 @@ ent-DrinkHellRamen = чашка адского рамэна
     .desc = Просто добавьте 10 мл кипятка! Супер острый вкус.
 ent-DrinkTheMartinez = бокал Мартинеза
     .desc = Легенда Эджраннерства. Помнят по напитку, забывают по пьяни.
+ent-DrinkBloodGlass = blood glass
+    .desc = Drink like a vampire!

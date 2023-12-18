@@ -96,3 +96,5 @@ ent-ToyOwlman = фигурка совы
     .desc = Фигурка, созданная по образу "Совы", защитник справедливости.
 ent-ToySkeleton = фигурка скелета
     .desc = Ха, испугался!
+ent-ToyFigurineThief = thief character figure
+    .desc = Hiding in the shadows...

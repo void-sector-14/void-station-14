@@ -40,3 +40,7 @@ signal-port-name-pulse = Пульс
 signal-port-description-pulse = Этот порт вызывается, когда связанная аномалия пульсирует.
 signal-port-name-supercrit = Сверхкритическая
 signal-port-description-supercrit = Этот порт вызывается, когда связанная аномалия взрывается после сверхкритического состояния.
+signal-port-name-power-charging = Charging
+signal-port-description-power-charging = This port is invoked with HIGH when the battery is gaining charge and LOW when not.
+signal-port-name-power-discharging = Discharging
+signal-port-description-power-discharging = This port is invoked with HIGH when the battery is losing charge and LOW when not.

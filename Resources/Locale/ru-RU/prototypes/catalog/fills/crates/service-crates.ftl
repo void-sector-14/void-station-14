@@ -22,3 +22,5 @@ ent-CrateJanitorBiosuit = ящик биокостюмов уборщиков
     .desc = Содержит 2 костюма биологической опасности, чтобы никакая болезнь не отвлекала Вас от уборки.
 ent-CrateServiceTheatre = ящик театральных постановок
     .desc = Содержит плащ моли, форму горничной, атрибуты клоуна и мима, а также другие атрибуты представления.
+ent-CrateJanitorExplosive = Janitorial bomb suit crate
+    .desc = Supplies a bomb suit for cleaning up any explosive compounds, buy one today!
