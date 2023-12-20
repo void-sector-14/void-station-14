@@ -1,2 +1,2 @@
-ent-Urn = Urn
-    .desc = Store the Dead smart and Compact since 2300
+ent-Urn = Урна
+    .desc = Хранить мертвых умно и компактно с 2300 года

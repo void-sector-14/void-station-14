@@ -1,5 +1,5 @@
-ent-MiningWindow = mining window
+ent-MiningWindow = окно шахты
     .desc = { ent-Window.desc }
-ent-MiningWindowDiagonal = diagonal mining window
-    .suffix = diagonal
+ent-MiningWindowDiagonal = диагональное окно шахты
+    .suffix = Диагональное
     .desc = { ent-ShuttleWindow.desc }
