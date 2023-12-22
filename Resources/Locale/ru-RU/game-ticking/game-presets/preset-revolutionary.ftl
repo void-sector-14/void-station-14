@@ -36,13 +36,13 @@ rev-all-heads-dead = Все главы мертвы, теперь добейте
 rev-won = Главные Революционеры выжили и убили всё Командование.
 rev-headrev-count =
     { $initialCount ->
-        [one] There was one Head Revolutionary:
-       *[other] There were { $initialCount } Head Revolutionaries:
+        [one] Был один Главный Революционер:
+       *[other] Было { $initialCount } Главных Революционеров:
     }
 rev-headrev-player =
-    { $title } converted { $count } { $count ->
-        [one] person
-       *[other] people
+    { $title } завербовал { $count } { $count ->
+        [one] человека
+       *[other] людей
     }.
 rev-lost = Командование выжило и убило всех Главных Революционеров.
 rev-stalemate = Все Главные Революционеры и члены Командования погибли. Это ничья.

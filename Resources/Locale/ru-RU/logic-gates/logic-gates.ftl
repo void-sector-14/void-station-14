@@ -1,14 +1,14 @@
 logic-gate-examine = На данный момент является элементом { $gate }.
 logic-gate-cycle = Переключён на элемент { $gate }
 power-sensor-examine =
-    It is currently checking the network's { $output ->
-        [true] output
-       *[false] input
-    } battery.
-power-sensor-voltage-examine = It is checking the { $voltage } power network.
+    На данный момент проверяет { $output ->
+        [true] выходные данные сети
+       *[false] входные данные сети
+    } батареи.
+power-sensor-voltage-examine = Он проверяет { $voltage } электросеть.
 power-sensor-switch =
-    Switched to checking the network's { $output ->
-        [true] output
-       *[false] input
-    } battery.
-power-sensor-voltage-switch = Switched network to { $voltage }!
+    Переключён на проверку { $output ->
+        [true] выходных данных сети
+       *[false] входных данных сети
+    } батареи.
+power-sensor-voltage-switch = Переключена сеть на { $voltage }!

@@ -18,4 +18,4 @@ two-way-lever-left = Вы сдвигаете рычаг влево
 two-way-lever-right = Вы сдвигаете рычаг вправо
 two-way-lever-cant = Рычаг не может быть сдвинут в эту сторону!
 recycler-count-items = Переработано { $items } объектов.
-machine-already-in-use = { CAPITALIZE(THE($machine)) } is already in use.
+machine-already-in-use = { CAPITALIZE($machine) } уже используется.

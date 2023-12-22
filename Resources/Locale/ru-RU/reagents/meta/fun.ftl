@@ -10,5 +10,5 @@ reagent-name-saxoite = саксонит
 reagent-desc-saxoite = Отдаёт джазом.
 reagent-name-licoxide = ликоксид
 reagent-desc-licoxide = Это выглядит... электризующе.
-reagent-name-razorium = razorium
-reagent-desc-razorium = A strange, non-newtonian chemical. It is produced when two conflicting brute medications are combined. When force is applied to it, it temporarily hardens creating millions of tiny, sharp edges. Very painful.
+reagent-name-razorium = бритвиум
+reagent-desc-razorium = Странное неньютоновское химическое вещество. Оно образуется при смешивании двух конфликтующих друг с другом лекарств от механических повреждений. Под влиянием силы оно временно затвердевает, образуя миллионы крохотных острых граней. Весьма болезненно.
