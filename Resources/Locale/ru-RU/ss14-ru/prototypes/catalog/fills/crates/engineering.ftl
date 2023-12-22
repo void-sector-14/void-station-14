@@ -20,3 +20,7 @@ ent-CrateAirlockKit = ящик компонентов шлюзов
     .desc = Набор для постройки 6 шлюзов. Не включает в себя инструменты.
 ent-CrateEvaKit = ящик набора EVA
     .desc = Набор, состоящий из двух престижных костюмов EVA и шлемов.
+ent-CrateRCDAmmo = { ent-CrateEngineering }
+    .desc = { ent-CrateEngineering.desc }
+ent-CrateRCD = { ent-CrateEngineeringSecure }
+    .desc = { ent-CrateEngineeringSecure.desc }

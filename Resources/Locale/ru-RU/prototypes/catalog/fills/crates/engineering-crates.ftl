@@ -22,3 +22,7 @@ ent-CrateAirlockKit = ящик компонентов шлюзов
     .desc = Набор для постройки 6 шлюзов. Не включает в себя инструменты.
 ent-CrateEvaKit = ящик набора EVA
     .desc = Набор, состоящий из двух престижных костюмов EVA и шлемов.
+ent-CrateRCDAmmo = RCD ammo crate
+    .desc = 3 RCD ammo, each restoring 5 charges.
+ent-CrateRCD = RCD crate
+    .desc = A crate containing a single Rapid Construction Device.

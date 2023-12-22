@@ -56,3 +56,4 @@ guide-entry-revolutionaries = Революционеры
 guide-entry-minor-antagonists = Малые Антагонисты
 guide-entry-space-ninja = Космический Ниндзя
 guide-entry-writing = Разметка письма
+guide-entry-glossary = Glossary

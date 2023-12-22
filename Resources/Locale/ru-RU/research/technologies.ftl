@@ -30,6 +30,7 @@ research-technology-chemical-dispensary = Химическое оборудов�
 research-technology-crew-monitoring = Мониторинг экипажа
 research-technology-bluespace-chemistry = Блюспейс Химия
 research-technology-cloning = Клонирование
+research-technology-uranium-munitions = Uranium Munitions
 research-technology-draconic-munitions = Драконовые боеприпасы
 research-technology-explosive-technology = Технология взрывчаток
 research-technology-weaponized-laser-manipulation = Манипуляция с лазерами
