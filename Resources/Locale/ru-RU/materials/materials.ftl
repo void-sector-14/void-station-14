@@ -22,6 +22,6 @@ materials-bananium = бананиум
 materials-meat = мясо
 materials-web = шёлк
 materials-bones = кость
-materials-coal = coal
+materials-coal = уголь
 # Material Reclaimer
 material-reclaimer-upgrade-process-rate = Скорость процесса
