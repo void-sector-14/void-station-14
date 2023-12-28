@@ -1,11 +1,11 @@
 default-program-name = Программа
-notekeeper-program-name = Блокнот
+notekeeper-program-name = Заметки
 news-read-program-name = Новости станции
 crew-manifest-program-name = Манифест экипажа
-crew-manifest-cartridge-loading = Загрузка ...
-net-probe-program-name = Сетевой зонд
-net-probe-scan = Сканировано устройство { $device }!
-net-probe-label-name = Имя
+crew-manifest-cartridge-loading = Загрузка...
+net-probe-program-name = NetProbe
+net-probe-scan = Просканирован { $device }!
+net-probe-label-name = Название
 net-probe-label-address = Адрес
 net-probe-label-frequency = Частота
 net-probe-label-network = Сеть
