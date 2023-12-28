@@ -90,4 +90,5 @@ reagent-physical-desc-exhilarating = захватывающее
 reagent-physical-desc-vibrant = энергичное
 reagent-physical-desc-fluffy = пушистое
 reagent-physical-desc-reflective = светоотражающее
+reagent-physical-desc-alkaline = alkaline
 reagent-physical-desc-holy = святое

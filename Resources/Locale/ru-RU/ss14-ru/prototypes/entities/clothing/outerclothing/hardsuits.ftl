@@ -62,3 +62,5 @@ ent-ClothingOuterHardsuitPirateEVA = глубококосмический ска
     .suffix = Pirate
 ent-ClothingOuterHardsuitClown = скафандр клоуна
     .desc = Самодельный скафандр клоуна.
+ent-ClothingOuterHardsuitSanta = Santa's hardsuit
+    .desc = A festive, cheerful hardsuit that protects the jolly gift-giver while on sleighrides in space. Offers some resistance against asteroid strikes.

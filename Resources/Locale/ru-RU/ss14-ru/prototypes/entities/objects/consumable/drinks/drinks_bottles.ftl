@@ -1,3 +1,7 @@
+ent-DrinkBottlePlasticBaseFull = { ent-DrinkBase }
+    .desc = { ent-DrinkBase.desc }
+ent-DrinkBottleGlassBaseFull = { ent-DrinkBottlePlasticBaseFull }
+    .desc = { ent-DrinkBottlePlasticBaseFull.desc }
 ent-DrinkBottleBaseFull = { ent-DrinkBase }
     .desc = { ent-DrinkBase.desc }
 ent-DrinkAbsintheBottleFull = Джейлбрейк Верте

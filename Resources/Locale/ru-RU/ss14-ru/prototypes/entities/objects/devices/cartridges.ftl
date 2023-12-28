@@ -6,3 +6,5 @@ ent-CrewManifestCartridge = картридж Манифест Экипажа
     .desc = Программа для составления списка ваших коллег по экипажу.
 ent-NetProbeCartridge = картридж Сетевой зонд
     .desc = Программа для получения адресов и частот сетевых устройств
+ent-LogProbeCartridge = LogProbe cartridge
+    .desc = A program for getting access logs from devices
