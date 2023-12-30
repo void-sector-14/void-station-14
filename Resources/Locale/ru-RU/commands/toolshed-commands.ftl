@@ -37,3 +37,4 @@ command-description-solution-get = Получает заданный раств�
 command-description-solution-adjreagent = Добавляет заданный реагент к заданному раствору.
 command-description-mind-get = Получает разум субъекта, если таковой имеется.
 command-description-mind-control = Передает управление объектом заданному игроку.
+command-description-addaccesslog = Adds an access log to this entity. Do note that this bypasses the log's default limit and pause check.
