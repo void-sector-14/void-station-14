@@ -30,4 +30,4 @@ id-card-access-level-maintenance = Технический
 id-card-access-level-external = Внешний
 id-card-access-level-nuclear-operative = Ядерные оперативники
 id-card-access-level-syndicate-agent = Агент Синдиката
-id-card-access-level-central-command = Central Command
+id-card-access-level-central-command = Центральное командование
