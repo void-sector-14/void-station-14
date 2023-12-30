@@ -1,2 +1,2 @@
-ent-FolderSpawner = Random Folder Spawner
+ent-FolderSpawner = спавнер случайной папки
     .desc = { ent-MarkerBase.desc }
