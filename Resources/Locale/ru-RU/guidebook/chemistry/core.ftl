@@ -9,6 +9,9 @@ guidebook-reagent-effect-description =
 guidebook-reagent-name = [bold][color={ $color }]{ CAPITALIZE($name) }[/color][/bold]
 guidebook-reagent-recipes-header = Рецепт
 guidebook-reagent-recipes-reagent-display = [bold]{ $reagent }[/bold] \[{ $ratio }\]
+guidebook-reagent-sources-header = Sources
+guidebook-reagent-sources-ent-wrapper = [bold]{ $name }[/bold] \[1\]
+guidebook-reagent-sources-gas-wrapper = [bold]{ $name } (gas)[/bold] \[1\]
 guidebook-reagent-recipes-mix = Смешать
 guidebook-reagent-recipes-mix-and-heat = Смешать при { $temperature }K
 guidebook-reagent-effects-header = Эффекты

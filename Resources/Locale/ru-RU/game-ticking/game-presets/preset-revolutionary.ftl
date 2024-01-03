@@ -46,4 +46,14 @@ rev-headrev-player =
     }.
 rev-lost = Командование выжило и убило всех Главных Революционеров.
 rev-stalemate = Все Главные Революционеры и члены Командования погибли. Это ничья.
+rev-headrev-name-user =
+    [color=#5e9cff]{ $name }[/color] ([color=gray]{ $username }[/color]) converted { $count } { $count ->
+        [one] person
+       *[other] people
+    }
+rev-headrev-name =
+    [color=#5e9cff]{ $name }[/color] converted { $count } { $count ->
+        [one] person
+       *[other] people
+    }
 rev-reverse-stalemate = Выжили как Командование, так и Главные Революционеры.
