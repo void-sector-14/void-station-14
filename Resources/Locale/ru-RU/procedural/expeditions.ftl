@@ -13,10 +13,8 @@ salvage-expedition-window-hostiles = Враги:
 salvage-expedition-window-duration = Длительность:
 salvage-expedition-window-biome = Биом:
 salvage-expedition-window-modifiers = Модификаторы:
-offering-window-claimed = Claimed
-offering-window-claim = Claim
-salvage-expedition-window-claimed = Подтверждено
-salvage-expedition-window-claim = Подтвердить
+offering-window-claimed = Утверждено
+offering-window-claim = Утвердить
 salvage-expedition-window-next = Следующее предложение
 salvage-expedition-difficulty-players = Рекомендуемые добытчики:
 # Expedition descriptions
