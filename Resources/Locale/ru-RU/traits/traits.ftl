@@ -1,9 +1,9 @@
 trait-blindness-name = Слепота
-trait-blindness-desc = У Вас ужасное зрение
+trait-blindness-desc = Вы слепы и не можете видеть дальше нескольких метров перед собой.
 trait-narcolepsy-name = Нарколепсия
 trait-narcolepsy-decs = Вас одолевают приступы сонливости
 trait-pacifist-name = Пацифист
-permanent-blindness-trait-examined = [color=lightblue]{ CAPITALIZE(POSS-PRONOUN($target)) } глаза остекленелые и расфокусированные. Не похоже, что { SUBJECT($target) } может Вас видеть.[/color]
+permanent-blindness-trait-examined = [color=lightblue]{ CAPITALIZE(POSS-PRONOUN($target)) } глаза остекленелые и расфокусированные. Не похоже, что { SUBJECT($target) } может Вас видеть, если вообще может.[/color]
 trait-lightweight-name = Легкомысленный пьяница
 trait-lightweight-desc = Алкоголь оказывает на Вас более сильное воздействие
 trait-muted-name = Молчун

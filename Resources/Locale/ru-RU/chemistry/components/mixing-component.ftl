@@ -1,8 +1,8 @@
 # Types
-mixing-verb-default-mix = mix
-mixing-verb-default-grind = grind
-mixing-verb-default-juice = juice
-mixing-verb-default-condense = condense
+mixing-verb-default-mix = смешать
+mixing-verb-default-grind = измельчить
+mixing-verb-default-juice = выжать
+mixing-verb-default-condense = конденсировать
 # Types
 mixing-verb-centrifuge = центрифугирование
 mixing-verb-electrolysis = электролиз

@@ -1,2 +1,2 @@
-ent-MachineFlatpacker = Flatpacker 1001
-    .desc = An industrial machine used for expediting machine construction across the station.
+ent-MachineFlatpacker = Плоскоупаковщик 1001
+    .desc = Промышленная машина, используемая для ускорения строительства оборудования на всей станции.

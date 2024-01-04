@@ -1,2 +1,2 @@
-ent-BaseFlatpack = base flatpack
-    .desc = A flatpack used for constructing something.
+ent-BaseFlatpack = базовый плоскоблок
+    .desc = Плоскоблок, используемый для конструирования чего-то.
