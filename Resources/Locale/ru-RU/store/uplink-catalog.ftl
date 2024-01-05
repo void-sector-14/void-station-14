@@ -103,6 +103,8 @@ uplink-storage-implanter-name = Имплантат хранилища
 uplink-storage-implanter-desc = Прячь различные вещи внутри себя с новой блюспейс технологией!
 uplink-freedom-implanter-name = Имплантат свободы
 uplink-freedom-implanter-desc = Убеги прочь от этих противных офицеров безопасности с этим трёхразовым имплантом!
+uplink-scram-implanter-name = Scram Implanter
+uplink-scram-implanter-desc = A 3-use implant which teleports you within a large radius. Attempts to teleport you onto an unobstructed tile. May sometimes fail to do so. Life insurance not included.
 uplink-dna-scrambler-implanter-name = Имплантат искажателя ДНК
 uplink-dna-scrambler-implanter-desc = Одноразовый имплантат, который может быть активирован для изменения ДНК и придания совершенно нового облика.
 uplink-emp-implanter-name = Имплантат ЭМИ
@@ -117,6 +119,9 @@ uplink-death-acidifier-implant-name = Имплантер Посмертного 
 uplink-death-acidifier-implant-desc = Полностью растворяет пользователя и его снаряжение при ручной активации или гибели носителя.
 uplink-micro-bomb-implanter-name = Имплантер Микробомбы
 uplink-micro-bomb-implanter-desc = Взрывается при ручной активации или гибели носителя этого импланта. Уничтожает тело пользователя со всем снаряжением.
+# Bundles
+uplink-observation-kit-name = Observation Kit
+uplink-observation-kit-desc = Includes syndicate crew monitor, high power cell and security hud disguised as sunglasses.
 # Bundles
 uplink-emp-kit-name = Набор для отключения электричества
 uplink-emp-kit-desc = Превосходное средство против энергетического оружия: Разряжает дизейблеры, шокер-дубинки, лазерное оружие! Содержит 3 ЭМИ гранаты и шприц имплантата ЭМИ. Примечание: Не выводит из строя огнестрельное оружие.
