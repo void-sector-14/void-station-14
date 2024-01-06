@@ -10,7 +10,7 @@ microwave-component-suicide-others-message = { $victim } пытается заж
 microwave-component-suicide-multi-head-message = Вы зажариваете свои головы!
 microwave-component-suicide-message = Вы зажариваете свою голову!
 microwave-component-upgrade-cook-time = Время готовки
-microwave-component-interact-full = It's full.
+microwave-component-interact-full = Она заполнена.
 
 ## Bound UI
 

@@ -24,12 +24,12 @@ materials-web = шёлк
 materials-bones = кость
 materials-coal = уголь
 # Ores
-materials-raw-iron = raw iron
-materials-raw-quartz = raw quartz
-materials-raw-gold = raw gold
-materials-raw-silver = raw silver
-materials-raw-plasma = raw plasma
-materials-raw-uranium = raw uranium
-materials-raw-bananium = raw bananium
+materials-raw-iron = сталь
+materials-raw-quartz = кварц
+materials-raw-gold = золото
+materials-raw-silver = серебро
+materials-raw-plasma = плазма
+materials-raw-uranium = уран
+materials-raw-bananium = бананиум
 # Material Reclaimer
 material-reclaimer-upgrade-process-rate = Скорость процесса
