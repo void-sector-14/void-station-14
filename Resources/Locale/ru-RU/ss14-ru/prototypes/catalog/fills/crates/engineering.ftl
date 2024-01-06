@@ -26,5 +26,5 @@ ent-CrateRCDAmmo = ящик зарядов РСУ
     .desc = 3 обоймы для РСУ, каждая из которых восстанавливает 5 зарядов.
 ent-CrateRCD = ящик РСУ
     .desc = Ящик, содержащий одно ручное строительное устройство.
-ent-CrateParticleDecelerators = { ent-CrateEngineeringSecure }
-    .desc = { ent-CrateEngineeringSecure.desc }
+ent-CrateParticleDecelerators = ящик с замедлителями частиц
+    .desc = Ящик, содержащий 3 замедлителя частиц.

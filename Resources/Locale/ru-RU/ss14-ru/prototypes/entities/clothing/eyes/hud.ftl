@@ -22,5 +22,5 @@ ent-ClothingEyesHudOmni = омни визор
     .desc = Заполнитель
 ent-ClothingEyesHudSyndicate = визор синдиката
     .desc = Профессиональный головной дисплей синдиката, предназначенный для более точного обнаружения гуманоидов и их последующего уничтожения.
-ent-ClothingEyesGlassesHiddenSecurity = sun glasses
-    .desc = A pair of black sunglasses.
+ent-ClothingEyesGlassesHiddenSecurity = солнцезащитные очки
+    .desc = Пара чёрных солнцезащитных очков.
