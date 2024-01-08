@@ -1,7 +1,7 @@
 ent-Holoprojector = проектор голографических знаков
     .desc = Удобный голографический проектор, отображающий табличку уборщика.
 ent-HoloprojectorBorg = { ent-Holoprojector }
-    .suffix = borg
+    .suffix = Борг
     .desc = { ent-Holoprojector.desc }
 ent-HolofanProjector = атмос голопроектор
     .desc = Останавливает суицидально настроеных пассажиров от убийства остальных во время разгерметизации.

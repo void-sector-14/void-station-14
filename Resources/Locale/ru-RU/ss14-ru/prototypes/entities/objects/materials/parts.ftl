@@ -1,6 +1,6 @@
 ent-PartBase = { ent-BaseItem }
     .desc = { ent-BaseItem.desc }
-ent-PartRodMetal = металлические прутки
+ent-PartRodMetal = металлический пруток
     .suffix = Полный
     .desc = { ent-PartBase.desc }
 ent-PartRodMetal10 = { ent-PartRodMetal }
@@ -13,5 +13,5 @@ ent-PartRodMetalLingering0 = { ent-PartRodMetal }
     .suffix = Постоянный, 0
     .desc = { ent-PartRodMetal.desc }
 ent-FloorTileItemSteelLingering0 = { ent-FloorTileItemSteel }
-    .suffix = Lingering, 0
+    .suffix = Постоянный, 0
     .desc = { ent-FloorTileItemSteel.desc }

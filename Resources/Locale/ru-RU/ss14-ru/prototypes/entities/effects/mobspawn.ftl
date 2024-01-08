@@ -1,8 +1,8 @@
-ent-MobSpawnCrabQuartz = mobspawner quartzcrab
+ent-MobSpawnCrabQuartz = спавнер моба кварцекраб
     .desc = { "" }
-ent-MobSpawnCrabIron = mobspawner ironcrab
+ent-MobSpawnCrabIron = спавнер моба железнокраб
     .desc = { ent-MobSpawnCrabQuartz.desc }
-ent-MobSpawnCrabSilver = mobspawner silvercrab
+ent-MobSpawnCrabSilver = спавнер моба сереброкраб
     .desc = { ent-MobSpawnCrabQuartz.desc }
-ent-MobSpawnCrabUranium = mobspawner uraniumcrab
+ent-MobSpawnCrabUranium = спавнер моба уранокраб
     .desc = { ent-MobSpawnCrabQuartz.desc }
