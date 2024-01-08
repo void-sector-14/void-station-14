@@ -12,3 +12,6 @@ ent-PartRodMetal1 = { ent-PartRodMetal }
 ent-PartRodMetalLingering0 = { ent-PartRodMetal }
     .suffix = Постоянный, 0
     .desc = { ent-PartRodMetal.desc }
+ent-FloorTileItemSteelLingering0 = { ent-FloorTileItemSteel }
+    .suffix = Lingering, 0
+    .desc = { ent-FloorTileItemSteel.desc }
