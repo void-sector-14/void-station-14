@@ -204,6 +204,8 @@ uplink-clothing-shoes-boots-mag-syndie-name = Кроваво-красные ма
 uplink-clothing-shoes-boots-mag-syndie-desc = Пара магнитных ботинок которые позволят Вам оставаться на земле если гравитация вдруг отключится или будет саботирована. При включении в условиях наличия гравитации они защитят от подскальзывания, но замедлят Вас.
 uplink-eva-syndie-name = Набор EVA синдиката
 uplink-eva-syndie-desc = Простая EVA синдиката, не имеющая никакой защиты кроме той, которая необходима для выживания в космосе.
+uplink-hardsuit-syndieelite-name = Syndicate Elite Hardsuit
+uplink-hardsuit-syndieelite-desc = An elite version of the blood-red hardsuit, with improved mobility and fireproofing. Property of Gorlex Marauders.
 uplink-clothing-outer-hardsuit-juggernaut-name = Костюм Джаггернаута Киберсан
 uplink-clothing-outer-hardsuit-juggernaut-desc = Суперупругая броня, созданная из эластичных материалов. Всё что сможет тебя замедлить в этой броне - эта броня... И тазеры.
 # Разное

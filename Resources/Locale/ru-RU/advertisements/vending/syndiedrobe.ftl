@@ -29,3 +29,6 @@ advertisement-syndiedrobe-28 = Наши костюмы влагостойкие,
 advertisement-syndiedrobe-29 = Лучшие в галактике!
 advertisement-syndiedrobe-30 = Что может быть лучше, чем запах нашей униформы по утрам?
 advertisement-syndiedrobe-31 = Вы можете оставить отзыв об удобстве формы, отправив запрос на нашу горячую линию Тайпан, главное - не ошибиться номером!
+thankyou-syndiedrobe-1 = Put it to good use!
+thankyou-syndiedrobe-2 = Death to NT!
+thankyou-syndiedrobe-3 = Show them the power of style.
