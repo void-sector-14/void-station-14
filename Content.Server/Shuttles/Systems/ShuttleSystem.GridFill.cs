@@ -3,6 +3,7 @@ using Content.Server.Station.Components;
 using Content.Server.Station.Events;
 using Content.Shared.Cargo.Components;
 using Content.Shared.CCVar;
+using Content.Shared.Shuttles.Components;
 using Robust.Shared.Random;
 using Robust.Shared.Utility;
 
@@ -90,11 +91,28 @@ public sealed partial class ShuttleSystem
                     if (TryComp<ShuttleComponent>(ent[0], out var shuttle))
                     {
                         TryFTLProximity(ent[0], shuttle, targetGrid.Value);
-                        _station.AddGridToStation(uid, ent[0]);
                     }
                     else
                     {
                         valid = false;
+                    }
+
+                    if (group.Hide)
+                    {
+                        var iffComp = EnsureComp<IFFComponent>(ent[0]);
+                        iffComp.Flags |= IFFFlags.Hide;
+                        Dirty(ent[0], iffComp);
+                    }
+
+                    if (group.StationGrid)
+                    {
+                        _station.AddGridToStation(uid, ent[0]);
+                    }
+
+                    if (group.NameGrid)
+                    {
+                        var name = path.FilenameWithoutExtension;
+                        _metadata.SetEntityName(ent[0], name);
                     }
                 }
                 else

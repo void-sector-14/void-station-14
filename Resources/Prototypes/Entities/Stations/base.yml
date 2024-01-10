@@ -52,6 +52,11 @@
           paths:
           - /Maps/Shuttles/mining.yml
         ruins:
+          hide: true
+          nameGrid: true
+          minCount: 2
+          maxCount: 2
+          stationGrid: false
           paths:
           - /Maps/Ruins/derelict.yml
           - /Maps/Ruins/djstation.yml
@@ -59,7 +64,7 @@
           - /Maps/Ruins/relaystation.yml
           - /Maps/Ruins/whiteship_ancient.yml
           - /Maps/Ruins/whiteship_bluespacejumper.yml
-          
+
 
 
 - type: entity
@@ -75,6 +80,11 @@
           paths:
           - /Maps/Shuttles/mining.yml
         ruins:
+          hide: true
+          nameGrid: true
+          minCount: 2
+          maxCount: 2
+          stationGrid: false
           paths:
           - /Maps/Ruins/derelict.yml
           - /Maps/Ruins/djstation.yml
