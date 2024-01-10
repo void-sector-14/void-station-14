@@ -26,5 +26,5 @@ guidebook-reagent-recipes-mix-info =
                 [true] между { $minTemp }K и { $maxTemp }K
                *[false] выше { $minTemp }K
             }
-}
+    }
 guidebook-reagent-physical-description = На вид { $description }.
