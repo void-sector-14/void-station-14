@@ -14,16 +14,16 @@ salvage-magnet-resources =
         [OreSilver] Серебро
         [OrePlasma] Плазма
         [OreUranium] Уран
-		[OreArtifactFragment] Фрагменты артефакта
+        [OreArtifactFragment] Фрагменты артефакта
        *[other] { $resource }
     }
 salvage-magnet-resources-count =
     { $count ->
         [1] (Мало)
         [2] (Средне)
-		[3] (Средне)
+        [3] (Средне)
         [4] (Много)
-		[5] (Много)
+        [5] (Много)
        *[other] (Изобилие)
     }
 # Asteroids
