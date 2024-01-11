@@ -1,15 +1,11 @@
-swap-teleporter-popup-link-create = Quantum link established!
-swap-teleporter-popup-link-fail-already = Quantum link failed! Link already present on device.
-swap-teleporter-popup-link-fail-already-other = Quantum link failed! Link already present on secondary device.
-swap-teleporter-popup-link-destroyed = Quantum link destroyed!
-swap-teleporter-popup-teleport-cancel-time = It's still recharging!
-swap-teleporter-popup-teleport-cancel-link = It's not linked with another device!
-swap-teleporter-popup-teleport-other = { CAPITALIZE(THE($entity)) } activates, and you find yourself somewhere else.
-swap-teleporter-verb-destroy-link = Destroy Quantum Link
-swap-teleporter-examine-link-present = [color=forestgreen]It is linked to another device.[/color] Alt-Click to break the quantum link.
-swap-teleporter-examine-link-absent = [color=yellow]It is not currently linked.[/color] Use on another device to establish a quantum link.
-swap-teleporter-examine-time-remaining =
-    Time left to recharge: [color=purple]{ $second } second{ $second ->
-        [one] .
-       *[other] s.
-    }[/color]
+swap-teleporter-popup-link-create = Квантовая связь установлена!
+swap-teleporter-popup-link-fail-already = Не удалось установить квантовую связь! Устройство уже имеет связь.
+swap-teleporter-popup-link-fail-already-other = Не удалось установить квантовую связь! Вторичное устройство уже имеет связь.
+swap-teleporter-popup-link-destroyed = Квантовая связь разрушена!
+swap-teleporter-popup-teleport-cancel-time = Он всё ещё перезаряжается!
+swap-teleporter-popup-teleport-cancel-link = Он не связан с другим устройством!
+swap-teleporter-popup-teleport-other = { CAPITALIZE($entity) } активируется, и вы оказываетесь в другом месте.
+swap-teleporter-verb-destroy-link = Разрушить квантовую связь
+swap-teleporter-examine-link-present = [color=forestgreen]Он связан с другим устройством.[/color] Alt+ЛКМ, чтобы разорвать квантовую связь.
+swap-teleporter-examine-link-absent = [color=yellow]В настоящее время он не связан.[/color] Используйте на другом устройстве для установления квантовой связи.
+swap-teleporter-examine-time-remaining = Время, оставшееся до перезарядки: [color=purple]{ $second } секунд.[/color]
