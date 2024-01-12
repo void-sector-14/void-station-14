@@ -1,5 +1,7 @@
 ent-CrateFunPlushie = ящик плюшевых игрушек
     .desc = Куча мягких плюшевых игрушек. Разложите их повсюду, а потом подумайте, как Вы объясните эту покупку NT.
+ent-CrateFunLizardPlushieBulk = { ent-CrateGenericSteel }
+    .desc = { ent-CrateGenericSteel.desc }
 ent-CrateFunInstrumentsVariety = коллекция музыкальных инструментов
     .desc = Развеселите и расшевелите станцию с этим универсальным набором инструментов! Содержит семь музыкальных инструментов.
 ent-CrateFunInstrumentsBrass = ящик духовых музыкальных инструментов
