@@ -84,3 +84,5 @@ reagent-name-insuzine = инсузин
 reagent-desc-insuzine = Быстро восстанавливает омертвевшие ткани, вызванные поражением электрическим током, но при этом слегка охлаждает вас. Полностью замораживает пациента при передозировке.
 reagent-name-necrosol = некрозоль
 reagent-desc-necrosol = Некротическое вещество, которое, похоже, способно исцелять замороженные трупы.
+reagent-name-aloxadone = aloxadone
+reagent-desc-aloxadone = A cryogenics chemical. Used to treat severe third degree burns via regeneration of the burnt tissue. Works regardless of the patient being alive or dead.

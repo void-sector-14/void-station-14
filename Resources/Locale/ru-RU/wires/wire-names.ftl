@@ -64,3 +64,4 @@ wire-name-bomb-proceed = ТЧНЕ
 wire-name-bomb-boom = БУМ
 wire-name-bomb-bolt = БОЛТ
 wire-name-speech = РЕЧЬ
+wire-name-listen = MIC

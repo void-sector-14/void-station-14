@@ -58,3 +58,9 @@ rev-headrev-name =
        *[other] членов
     } экипажа
 rev-reverse-stalemate = Главы революции и командный состав станции выжили.
+rev-deconverted-title = Deconverted!
+rev-deconverted-text =
+    As the last headrev has died, the revolution is over.
+    
+    You are no longer a revolutionary, so be nice.
+rev-deconverted-confirm = Confirm
