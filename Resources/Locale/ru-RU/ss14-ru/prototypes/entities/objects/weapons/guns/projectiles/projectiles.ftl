@@ -68,5 +68,5 @@ ent-GrapplingHook = цепляющий крюк
     .desc = { "" }
 ent-BulletDisablerSmg = заряд станнера-пулемёта
     .desc = { ent-BaseBullet.desc }
-ent-TeslaGunBullet = молния пушки теслы
+ent-TeslaGunBullet = молния тесла-пушки
     .desc = { ent-BaseBullet.desc }

@@ -63,5 +63,5 @@ wire-name-bomb-delay = ЗДРК
 wire-name-bomb-proceed = ТЧНЕ
 wire-name-bomb-boom = БУМ
 wire-name-bomb-bolt = БОЛТ
-wire-name-speech = РЕЧЬ
-wire-name-listen = MIC
+wire-name-speech = ДНМК
+wire-name-listen = МИКР
