@@ -57,4 +57,4 @@ ent-ClothingHeadHatBizarreSoftFlipped = перевёрнутая кепка ху
 ent-ClothingHeadHatParamedicsoft = кепка парамедика
     .desc = Бейсболка парамедика с логотипом медицинского отдела.
 ent-ClothingHeadHatParamedicsoftFlipped = перевёрнутая кепка парамедика
-   .desc = Бейсболка парамедика с логотипом медицинского отдела. Перевёрнутая.
+    .desc = Бейсболка парамедика с логотипом медицинского отдела. Перевёрнутая.
