@@ -1,4 +1,4 @@
-action-name-toggle-wagging = Махать хвостом
-action-description-toggle-wagging = Начать или прекратить махать хвостом.
-wagging-emote-start = начинает махать своим хвостом.
-wagging-emote-stop = прекращает махать своим хвостом.
+action-name-toggle-wagging = Вилять хвостом
+action-description-toggle-wagging = Начать или прекратить вилять хвостом.
+wagging-emote-start = начинает вилять своим хвостом.
+wagging-emote-stop = прекращает вилять своим хвостом.
