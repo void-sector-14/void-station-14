@@ -7,6 +7,5 @@ admin-player-actions-respawn = Возродить
 admin-player-actions-spawn = Заспавнить здесь
 admin-player-spawn-failed = Не удалось найти действительные координаты
 admin-player-actions-clone = Клонировать
-admin-player-actions-follow = Follow
-admin-player-actions-teleport = Телепортироваться к
+admin-player-actions-follow = Следовать
 admin-player-actions-confirm = Вы уверены?
