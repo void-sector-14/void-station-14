@@ -1,2 +1,2 @@
-shuttle-timer-eta = ETA
-shuttle-timer-etd = ETD
+shuttle-timer-eta = РВП
+shuttle-timer-etd = РВО
