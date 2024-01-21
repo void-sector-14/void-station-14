@@ -7,6 +7,6 @@ ent-BriefcaseSyndieSniperBundleFilled = { ent-BriefcaseBrown }
 ent-BriefcaseSyndieLobbyingBundleFilled = { ent-BriefcaseBrown }
     .suffix = Синдикат, Космобаксы
     .desc = { ent-BriefcaseSyndie.desc }
-ent-BriefcaseThiefBribingBundleFilled = brown briefcase
+ent-BriefcaseThiefBribingBundleFilled = { ent-BriefcaseBrown }
     .suffix = Вор, Космобаксы
     .desc = { ent-BriefcaseSyndie.desc }
