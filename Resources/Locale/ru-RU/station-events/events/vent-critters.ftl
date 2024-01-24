@@ -1,1 +1,2 @@
+station-event-vent-creatures-start-announcement = Attention. A large influx of unknown life forms have been detected residing within the station's ventilation systems. Please be rid of these creatures before it begins to affect productivity.
 station-event-vent-spiders-start-announcement = Опираясь на { $data }, мы полагаем, что небольшая колония неизвестных организмов обосновалась внутри вентиляции станции, и мы предприняли меры по выдворению их оттуда.
