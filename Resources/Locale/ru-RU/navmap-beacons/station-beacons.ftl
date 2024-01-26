@@ -61,4 +61,4 @@ station-beacon-dorms = Жилой отсек
 station-beacon-theater = Театр
 station-beacon-tools = Хранилище инструментов
 station-beacon-disposals = Мусоросброс
-station-beacon-cryosleep = Cryosleep
+station-beacon-cryosleep = Криосон
