@@ -11,4 +11,4 @@ advertisement-happyhonk-10 = Our Happy Honk meals are sure to offer a great surp
 thankyou-happyhonk-1 = Хонк!
 thankyou-happyhonk-2 = Хонк хонк!
 thankyou-happyhonk-3 = Поделитесь весельем! Хонк!
-thankyou-happyhonk-4 = Go slip people! Honk!
+thankyou-happyhonk-4 = Идите и поскользните людей! Хонк!
