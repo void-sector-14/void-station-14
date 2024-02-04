@@ -16,6 +16,7 @@ ghost-role-information-hamlet-name = Хомяк Гамлет
 ghost-role-information-hamlet-description = Живёт на мостике станции, немного вспыльчив и всегда голодный.
 ghost-role-information-slimes-name = Слайм
 ghost-role-information-slimes-description = Обычный слайм без особых потребностей и интересов. Он просто живет.
+ghost-role-information-angry-slimes-name = Slime
 ghost-role-information-angry-slimes-description = Все вокруг раздражает Ваши инстинкты, уничтожьте их!
 ghost-role-information-smile-name = Слайм Смайл
 ghost-role-information-smile-description = Самое милое существо на свете. Слайм Смайл!
