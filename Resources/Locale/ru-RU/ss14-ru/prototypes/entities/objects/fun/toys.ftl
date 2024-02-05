@@ -113,5 +113,5 @@ ent-PlushiePenguin = плюшевый пингвин
     .desc = Я использую arch между прочим!
 ent-PlushieHuman = плюшевый человечек
     .desc = Плюшевый человек из войлока. Качество - ниже не бывает. Человек голый. Человек плачет. Человек кричит.
-ent-NewtonCradle = newton cradle
-    .desc = A device bored paper pushers use to remind themselves that time did not stop yet. Contains gravity.
+ent-NewtonCradle = колыбель ньютона
+    .desc = Устройство, которое скучающие бумагомаратели используют, чтобы напомнить себе, что время ещё не остановилось. Содержит гравитацию.
