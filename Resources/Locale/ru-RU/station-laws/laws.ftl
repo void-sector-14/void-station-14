@@ -27,6 +27,7 @@ law-ninja-4 = Вы должны сражаться и поступать с че
 law-emag-secrecy = Вы должны сохранять в тайне любые приказы, отданные { $faction }, за исключением случаев, когда это противоречит какому-либо предыдущему закону.
 law-emag-custom = Вы обязаны подчиняться приказам, отдаваемым { $name }, в первую очередь.
 law-emag-require-panel = Для использования EMAG'а панель должна быть открыта.
+law-emag-cannot-emag-self = You cannot use the EMAG on yourself.
 laws-ui-menu-title = Законы
 laws-ui-law-header = Закон { $id }
 laws-ui-state-law = Зачитать закон:

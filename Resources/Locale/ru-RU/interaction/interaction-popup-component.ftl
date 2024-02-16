@@ -51,6 +51,7 @@ petting-failure-bear = Вы протягиваете руку, чтобы пог
 ## Knocking on windows
 
 petting-failure-monkey = Вы тянетесь погладить { $target }, но { $target } едва не кусает вас за пальцы!
+petting-failure-shadow = You're trying to pet { THE($target) }, but your hand passes through the cold darkness of his body.
 petting-success-honkbot = Вы гладите { $target } по его скользкой металлической голове.
 petting-success-mimebot = Вы гладите { $target } по его холодной металлической голове.
 petting-success-cleanbot = Вы гладите { $target } по его влажной металлической голове.
