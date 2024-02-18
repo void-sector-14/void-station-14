@@ -2,8 +2,7 @@ melee-inject-failed-hardsuit = Ваше { $weapon } не может проник
 melee-balloon-pop = { CAPITALIZE(THE($balloon)) } popped!
 #BatteryComponent
 melee-battery-examine =
-    Заряда хватит на [color={ $color }]{ $count }[/color]
-	{ $count ->
+    Заряда хватит на [color={ $color }]{ $count }[/color] { $count ->
         [one] удар
         [few] удара
        *[other] ударов
