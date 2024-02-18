@@ -1,4 +1,4 @@
-ent-DionaGibAction = Gib Yourself!
-    .desc = Split apart into 3 nymphs.
-ent-DionaReformAction = Reform
-    .desc = Reform back into a whole Diona.
+ent-DionaGibAction = Гибнуть себя!
+    .desc = Разделиться на 3 нимфы.
+ent-DionaReformAction = Преобразование
+    .desc = Преобразуйтесь в цельную Диону.
