@@ -1,0 +1,75 @@
+[game]
+desc = "Тут есть описание, просто оно далеко от вас."
+hostname = "[RU][HRP] VoidSector"
+soft_max_players = 60
+lobbyduration = 180
+fallbackpreset = Extended
+
+[traitor]
+min_players = 3
+
+[zombie]
+min_players = 10
+
+[pirates]
+min_players = 15
+
+[tips]
+enabled = false
+
+[console]
+login_host_user = "Makot"
+
+[server]
+rules_file = "RP_Rules.txt"
+rules_header = "ui-rules-header-rp"
+
+[admin]
+see_own_notes = true
+note_fresh_days = 0
+message_wait_time = 1
+new_player_threshold = 180
+afk_time = 180f
+
+[atmos]
+space_wind = true
+
+[looc]
+enabled_crit = true
+
+[vote]
+timermap = 30
+
+[shuttle]
+arrivals_returns = true
+emergency_early_launch_allowed = true
+emergency_dock_time = 300f
+emergency_authorize_time = 30f
+recall_turning_point = 0.1f
+auto_call_time = 120
+auto_call_extension_time = 60
+
+[biomass]
+easy_mode = false
+
+[accessibility]
+reduced_motion = true
+
+[ooc]
+enable_during_round = false
+
+[ic]
+flavor_text = true
+punctuation = true
+
+[rules]
+time = 90f
+
+[infolinks]
+discord = "https://discord.gg/Tc5RNEWVWS"
+
+[replay]
+auto_record = true
+
+[hub]
+tags = "lang:ru,region:eu_e,rp:high"
