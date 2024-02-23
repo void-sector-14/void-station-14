@@ -1,0 +1,11 @@
+ent-HolosignWetFloor = знак "мокрый пол"
+    .desc = Слова мерцают, как будто ничего не значат.
+    .suffix = { "" }
+
+ent-HoloFan = атмосферный барьер
+    .desc = Барьер из твёрдого света, который блокирует воздух, и ничего более.
+    .suffix = { ent-HolosignWetFloor.suffix }
+
+ent-HolosignSecurity = голографический барьер
+    .desc = Барьер из твёрдого света, блокирует движение, но довольно хрупкий.
+    .suffix = { ent-HolosignWetFloor.suffix }

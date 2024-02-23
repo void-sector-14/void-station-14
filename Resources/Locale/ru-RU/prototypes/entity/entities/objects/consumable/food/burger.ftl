@@ -1,0 +1,131 @@
+ent-FoodBreadBun = булочка
+    .desc = Булочка для гамбургера. Круглая и удобная для удержания чего-то.
+    .suffix = { ent-FoodBreadSliceBase.suffix }
+
+ent-FoodBurgerBase = { ent-FoodInjectableBase }
+    .desc = { ent-FoodInjectableBase.desc }
+    .suffix = { ent-FoodInjectableBase.suffix }
+
+ent-FoodBurgerJelly = желейный бургер
+    .desc = Кулинарный изыск...?
+    .suffix = { ent-FoodBurgerBase.suffix }
+
+ent-FoodBurgerAppendix = апендикс бургер
+    .desc = На вкус как аппендицит.
+    .suffix = { ent-FoodBurgerBase.suffix }
+
+ent-FoodBurgerBacon = бургер с беконом
+    .desc = Идеальное сочетание всего американского.
+    .suffix = { ent-FoodBurgerBase.suffix }
+
+ent-FoodBurgerBaseball = хоум-ран бургер
+    .desc = Он еще теплый. Пар, исходящий от него, пахнет чем-то вроде пота.
+    .suffix = { ent-FoodBurgerBase.suffix }
+
+ent-FoodBurgerBear = медвебургер
+    .desc = Лучше всего подавать сырым.
+    .suffix = { ent-FoodBurgerBase.suffix }
+
+ent-FoodBurgerBig = большой бургер
+    .desc = Забудьте о Биг Маке. ЭТО - будущее!
+    .suffix = { ent-FoodBurgerBase.suffix }
+
+ent-FoodBurgerBrain = мозгобургер
+    .desc = Странный на вид бургер. Он выглядит почти разумным.
+    .suffix = { ent-FoodBurgerBase.suffix }
+
+ent-FoodBurgerCat = котбургер
+    .desc = Наконец-то эти кошки и кошколюди на что-то годятся!
+    .suffix = { ent-FoodBurgerBase.suffix }
+
+ent-FoodBurgerCheese = чизбургер
+    .desc = Этот благородный бургер гордо стоит, одетый в золотистый сыр.
+    .suffix = { ent-FoodBurgerBase.suffix }
+
+ent-FoodBurgerChicken = бургер с курицей
+    .desc = Вкусный бургер с курицей, говорят, что выручка от этого угощения помогает криминализировать разоружение людей на космической границе.
+    .suffix = { ent-FoodBurgerBase.suffix }
+
+ent-FoodBurgerClown = клоунский бургер
+    .desc = Забавный вкус...
+    .suffix = { ent-FoodBurgerBase.suffix }
+
+ent-FoodBurgerCorgi = коргбургер
+    .desc = Любимчик главы персонала!
+    .suffix = { ent-FoodBurgerBase.suffix }
+
+ent-FoodBurgerCrab = краббургер
+    .desc = Вкусная котлета из крабовых палочек, засунутая между булочками.
+    .suffix = { ent-FoodBurgerBase.suffix }
+
+ent-FoodBurgerCrazy = безумный гамбургер
+    .desc = Это похоже на еду, которую мог бы приготовить сумасшедший клоун в плаще.
+    .suffix = { ent-FoodBurgerBase.suffix }
+
+ent-FoodBurgerDuck = бургер с уткой
+    .desc = Бургер с уткой, только полные психи осмелятся есть мясо такого очаровательного существа.
+    .suffix = { ent-FoodBurgerBase.suffix }
+
+ent-FoodBurgerEmpowered = заряженный бургер
+    .desc = Шокирующе хорош, если вы живете за счет электричества.
+    .suffix = { ent-FoodBurgerBase.suffix }
+
+ent-FoodBurgerCarp = филе -о- карп бургер
+    .desc = Словно где-то кричит карп...
+    .suffix = { ent-FoodBurgerBase.suffix }
+
+ent-FoodBurgerFive = файв аларм бургер
+    .desc = ГОРЯЧО! ГОРЯЧО! ГОРЯЧО!
+    .suffix = { ent-FoodBurgerBase.suffix }
+
+ent-FoodBurgerGhost = призрачный бургер
+    .desc = Очень жутко!
+    .suffix = { ent-FoodBurgerBase.suffix }
+
+ent-FoodBurgerHuman = челбургер
+    .desc = Невозможно определить, из кого это сделано...
+    .suffix = { ent-FoodBurgerBase.suffix }
+
+ent-FoodBurgerMcguffin = макгаффин
+    .desc = Дешевая и жирная имитация яиц Бенедикт.
+    .suffix = { ent-FoodBurgerBase.suffix }
+
+ent-FoodBurgerMcrib = макриб
+    .desc = Неуловимый гамбургер в форме ребрышек, доступность которого весьма ограничена по всей галактике. Не так хорош, как вы его помните.
+    .suffix = { ent-FoodBurgerBase.suffix }
+
+ent-FoodBurgerMime = мимбургер
+    .desc = Его вкус не поддается описанию.
+    .suffix = { ent-FoodBurgerBase.suffix }
+
+ent-FoodBurgerPlain = бургер
+    .desc = Скучный, сухой бургер.
+    .suffix = { ent-FoodBurgerBase.suffix }
+
+ent-FoodBurgerRat = крысобургер
+    .desc = Вполне то, чего вы ожидали...
+    .suffix = { ent-FoodBurgerBase.suffix }
+
+ent-FoodBurgerRobot = робобургер
+    .desc = Салат-латук - единственный органический компонент. Бип.
+    .suffix = { ent-FoodBurgerBase.suffix }
+
+ent-FoodBurgerSoy = сойлент бургер
+    .desc = После еды у вас возникает непреодолимое желание купить по завышенной цене фигурки супергероев.
+    .suffix = { ent-FoodBurgerBase.suffix }
+
+ent-FoodBurgerSpell = заколдованный бургер
+    .desc = Это абсолютно точно Ei Nath.
+    .suffix = { ent-FoodBurgerBase.suffix }
+
+ent-FoodBurgerSuper = мегабургер
+    .desc = Это бургер гора. ЕДА!
+    .suffix = { ent-FoodBurgerBase.suffix }
+
+ent-FoodBurgerTofu = тофу бургер
+    .desc = Что... это мясо?
+    .suffix = { ent-FoodBurgerBase.suffix }
+
+ent-FoodBurgerXeno = ксенобургер
+    .desc = Пахнет едко. На вкус как ересь.
+    .suffix = { ent-FoodBurgerBase.suffix }

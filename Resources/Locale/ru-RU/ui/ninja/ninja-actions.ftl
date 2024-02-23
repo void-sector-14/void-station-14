@@ -1,0 +1,3 @@
+ninja-no-power = Недостаточно энергии в батареи костюма!
+ninja-research-steal-fail = Никаких новых технологий украдено не было...
+ninja-research-steal-success = Украдено {$count} новых технологий из {THE($server)}.

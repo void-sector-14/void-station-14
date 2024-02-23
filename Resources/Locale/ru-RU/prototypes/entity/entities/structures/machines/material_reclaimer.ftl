@@ -1,0 +1,3 @@
+ent-MaterialReclaimer = переработчик материалов
+    .desc = Не может переработать обратно нематериальное, например, мотивацию.
+    .suffix = { ent-BaseMachinePowered.suffix }

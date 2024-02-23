@@ -1,0 +1,7 @@
+ent-XenoWardingTower = охранная башня ксено
+    .desc = { "" }
+    .suffix = { "" }
+
+ent-CarpStatue = статуя карпа
+    .desc = Статуя одного из храбрых карпов, благодаря которому мы находимся там, где находимся. С настоящими зубами!
+    .suffix = { ent-XenoWardingTower.suffix }
