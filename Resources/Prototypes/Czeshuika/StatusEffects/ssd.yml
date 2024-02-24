@@ -1,6 +1,0 @@
-- type: statusIcon
-  id: SSDSoftIcon
-  icon:
-    sprite: /Textures/Czeshuika/Effects/ssd2.rsi
-    state: default0
-  locationPreference: Left

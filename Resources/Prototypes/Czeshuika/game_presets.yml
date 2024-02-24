@@ -1,9 +1,0 @@
-- type: gamePreset
-  id: Relax
-  alias:
-  - relax
-  name: relax-title
-  description: relax-description
-  showInVote: true
-  rules:
-  - Relax
