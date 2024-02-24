@@ -1,0 +1,21 @@
+- type: entity
+  parent: ClothingShoesBaseButcherable
+  id: ClothingShoesBootsStorekeeper
+  name: Ботинки кладовщика
+  description: Перетоптали не мало накладных
+  components:
+  - type: Sprite
+    sprite: Czeshuika/Clothing/Shoes/Boots/storekeeper.rsi
+  - type: Clothing
+    sprite: Czeshuika/Clothing/Shoes/Boots/storekeeper.rsi
+
+- type: entity
+  parent: ClothingShoesBaseButcherable
+  id: ClothingShoesBootsCowBoySuit
+  name: Ботинки ковбоя
+  description: Пара шпор на пятке вам явно сделает больно
+  components:
+  - type: Sprite
+    sprite: Czeshuika/Clothing/Shoes/Boots/cowboyboots.rsi
+  - type: Clothing
+    sprite: Czeshuika/Clothing/Shoes/Boots/cowboyboots.rsi

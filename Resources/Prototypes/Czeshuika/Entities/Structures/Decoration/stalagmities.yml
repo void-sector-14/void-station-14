@@ -1,0 +1,72 @@
+- type: entity
+  id: Stalagmite1
+  parent: BaseStructure
+  name: Stalagmite
+  description: It's not a shiny crystal.
+  components:
+  - type: Sprite
+    sprite: Czeshuika/Structures/Decoration/stalagmite.rsi
+    state: stalagmite1
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeCircle
+          radius: 0.45
+        density: 60
+        mask:
+        - MachineMask
+        layer:
+        - MidImpassable
+        - LowImpassable
+        - BulletImpassable
+        - Opaque
+  - type: Damageable
+    damageContainer: Inorganic
+    damageModifierSet: Metallic
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 50
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+      - !type:PlaySoundBehavior
+        sound: /Audio/Effects/break_stone.ogg
+
+- type: entity
+  id: Stalagmite2
+  parent: Stalagmite1
+  name: Stalagmite
+  description: It's not a shiny crystal.
+  components:
+  - type: Sprite
+    state: stalagmite2
+
+- type: entity
+  id: Stalagmite3
+  parent: Stalagmite1
+  name: Stalagmite
+  description: It's not a shiny crystal.
+  components:
+  - type: Sprite
+    state: stalagmite3
+
+- type: entity
+  id: Stalagmite4
+  parent: Stalagmite1
+  name: Stalagmite
+  description: It's not a shiny crystal.
+  components:
+  - type: Sprite
+    state: stalagmite4
+
+- type: entity
+  id: Stalagmite5
+  parent: Stalagmite1
+  name: Stalagmite
+  description: It's not a shiny crystal.
+  components:
+  - type: Sprite
+    state: stalagmite5

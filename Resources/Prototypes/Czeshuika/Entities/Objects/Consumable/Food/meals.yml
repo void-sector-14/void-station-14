@@ -1,0 +1,27 @@
+- type: entity
+  name: сгущённое молоко
+  parent: FoodMealBase
+  id: FoodMealCondensedMilk
+  description: вопреки всему ничего не слипнется!
+  components:
+  - type: FlavorProfile
+    flavors:
+    - milk
+    - sweet
+  - type: Sprite
+    sprite: Czeshuika/Objects/Consumable/Food/meals.rsi
+    state: CMilk
+
+- type: entity
+  name: вареное сгущённое молоко
+  parent: FoodMealBase
+  id: FoodMealBoiledCondensedMilk
+  description: лучший выбор подсласьить себе жизнь!
+  components:
+  - type: FlavorProfile
+    flavors:
+    - milk
+    - sweet
+  - type: Sprite
+    sprite: Czeshuika/Objects/Consumable/Food/meals.rsi
+    state: BCMilk

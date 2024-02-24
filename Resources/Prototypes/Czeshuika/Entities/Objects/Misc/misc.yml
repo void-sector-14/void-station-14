@@ -1,0 +1,38 @@
+#TODO нужно куда-то этот предмет засунуть, чтобы игроки имели к нему доступ
+- type: entity
+  id: bush
+  parent: BaseItem
+  name: Букет цветов
+  description: Красивый букет для торжества
+  components:
+  - type: Sprite
+    sprite: Czeshuika/Objects/Misc/bush.rsi
+    state: bush
+  - type: EmitSoundOnUse
+    sound:
+      path: /Audio/Items/lighter_off.ogg
+  - type: EmitSoundOnActivate
+    sound:
+      path: /Audio/Items/lighter_off.ogg
+  - type: EmitSoundOnCollide
+    sound:
+      path: /Audio/Items/lighter_off.ogg
+  - type: EmitSoundOnLand
+    sound:
+      path: /Audio/Items/lighter_off.ogg
+  - type: ItemCooldown
+  - type: UseDelay
+    delay: 1.0
+  - type: MeleeWeapon
+    soundHit:
+      path: /Audio/Items/lighter_off.ogg
+    damage:
+      types:
+        Blunt: 0
+  - type: PhysicalComposition
+    materialComposition:
+      Cloth: 100
+  - type: StaticPrice
+    price: 5
+  - type: Item
+    heldPrefix: bush

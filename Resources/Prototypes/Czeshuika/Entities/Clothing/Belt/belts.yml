@@ -1,0 +1,23 @@
+- type: entity
+  parent: ClothingBeltStorageBase
+  id: ClothingBeltSheathkatana
+  name: сая
+  description: специальные ножны для катаны из крепкого материала
+  components:
+  - type: Sprite
+    sprite: Czeshuika/Clothing/Belt/sheathkatana.rsi
+    state: sheath
+  - type: Clothing
+    sprite: Czeshuika/Clothing/Belt/sheathkatana.rsi
+  - type: Storage
+    capacity: 15
+    whitelist:
+      tags:
+        - Katana
+  - type: ItemMapper
+    mapLayers:
+      sheath-sabre:
+        whitelist:
+          tags:
+          - Katana
+  - type: Appearance

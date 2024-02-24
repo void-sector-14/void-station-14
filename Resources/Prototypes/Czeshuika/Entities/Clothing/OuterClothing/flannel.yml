@@ -1,0 +1,59 @@
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingOuterClothingFlannelBlueNew
+  name: Синяя рубашка
+  description: Ходить в клеточку всё еще модно
+  components:
+  - type: Sprite
+    sprite: Czeshuika/Clothing/OuterClothing/Flannel/flannel_blue.rsi 
+  - type: Clothing
+    slots: [ outerClothing ]
+    sprite: Czeshuika/Clothing/OuterClothing/Flannel/flannel_blue.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingOuterClothingFlannelRedNew
+  name: Красная рубашка
+  description: Ходить в клеточку всё еще модно
+  components:
+  - type: Sprite
+    sprite: Czeshuika/Clothing/OuterClothing/Flannel/flannel_red.rsi 
+  - type: Clothing
+    slots: [ outerClothing ]
+    sprite: Czeshuika/Clothing/OuterClothing/Flannel/flannel_red.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingOuterClothingFlannelOrangeNew
+  name: Оранжевая рубашка
+  description: Ходить в клеточку всё еще модно
+  components:
+  - type: Sprite
+    sprite: Czeshuika/Clothing/OuterClothing/Flannel/flannel_orange.rsi 
+  - type: Clothing
+    slots: [ outerClothing ]
+    sprite: Czeshuika/Clothing/OuterClothing/Flannel/flannel_orange.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingOuterClothingFlannelGreenNew
+  name: Зеленая рубашка
+  description: Ходить в клеточку всё еще модно
+  components:
+  - type: Sprite
+    sprite: Czeshuika/Clothing/OuterClothing/Flannel/flannel_green.rsi 
+  - type: Clothing
+    slots: [ outerClothing ]
+    sprite: Czeshuika/Clothing/OuterClothing/Flannel/flannel_green.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingOuterClothingFlannelPinkNew
+  name: Розовая рубашка
+  description: Ходить в клеточку всё еще модно
+  components:
+  - type: Sprite
+    sprite: Czeshuika/Clothing/OuterClothing/Flannel/flannel_pink.rsi 
+  - type: Clothing
+    slots: [ outerClothing ]
+    sprite: Czeshuika/Clothing/OuterClothing/Flannel/flannel_pink.rsi              

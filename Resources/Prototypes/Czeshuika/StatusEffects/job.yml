@@ -1,0 +1,6 @@
+- type: statusIcon
+  parent: JobIcon
+  id: JobIconStorekeeper
+  icon:
+    sprite: Czeshuika/Interface/Misc/job_icons.rsi
+    state: Storekeeper

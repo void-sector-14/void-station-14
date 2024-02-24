@@ -1,0 +1,16 @@
+- type: entity
+  id: JetpackAdvanced
+  parent: BaseJetpack
+  name: продвинутый джетпак
+  description: продвинутый джетпак созданный с совестью учеными. Главное, чтобы не взорвался.
+  suffix: Empty
+  components:
+  - type: Item
+    sprite: Czeshuika/Objects/Tanks/Jetpacks/advanced.rsi
+  - type: Sprite
+    sprite: Czeshuika/Objects/Tanks/Jetpacks/advanced.rsi
+  - type: Clothing
+    sprite: Czeshuika/Objects/Tanks/Jetpacks/advanced.rsi
+    slots:
+    - Back
+    - suitStorage

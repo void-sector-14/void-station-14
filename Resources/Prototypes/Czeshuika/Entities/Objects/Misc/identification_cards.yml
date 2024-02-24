@@ -1,0 +1,12 @@
+- type: entity
+  parent: IDCardStandard
+  id: StorekeeperIDCard
+  name: ID карта кладовщика
+  components:
+  - type: Sprite
+    sprite: Czeshuika/Objects/Misc/id_cards.rsi
+    layers:
+    - state: default
+    - state: idstorekeeper
+  - type: PresetIdCard
+    job: Storekeeper

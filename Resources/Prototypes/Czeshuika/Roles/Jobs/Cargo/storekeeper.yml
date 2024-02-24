@@ -1,0 +1,37 @@
+- type: job
+  id: Storekeeper
+  name: job-name-storekeeper
+  description: job-description-storekeeper
+  playTimeTracker: JobStorekeeper
+  requirements:
+  - !type:RoleTimeRequirement
+    role: JobSalvageSpecialist
+    time: 3600
+  - !type:DepartmentTimeRequirement
+    department: Cargo
+    time: 18000
+  - !type:OverallPlaytimeRequirement
+    time: 72000
+  startingGear: StorekeeperGear
+  icon: "JobIconStorekeeper"
+  supervisors: job-supervisors-hop-qm
+  canBeAntag: true
+  access:
+  - Cargo
+  - Salvage
+  - Maintenance
+  - External
+
+- type: startingGear
+  id: StorekeeperGear
+  equipment:
+    head: ClothingHeadHatStorekeeper
+    jumpsuit: ClothingUniformJumpsuitStorekeeper
+    back: ClothingBackpackFilled
+    shoes: ClothingShoesBootsStorekeeper
+    id: StorekeeperPDA
+    ears: ClothingHeadsetCargo
+    pocket1: AppraisalTool
+  innerclothingskirt: ClothingUniformJumpskirtStorekeeper
+  satchel: ClothingBackpackSatchelFilled
+  duffelbag: ClothingBackpackDuffelFilled

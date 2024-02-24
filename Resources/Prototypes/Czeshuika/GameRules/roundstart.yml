@@ -1,0 +1,6 @@
+- type: entity
+  id: Relax
+  parent: BaseGameRule
+  noSpawn: true
+  components:
+  - type: RelaxRule

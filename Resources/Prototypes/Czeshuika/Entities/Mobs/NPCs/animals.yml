@@ -1,0 +1,103 @@
+- type: entity
+  name: белый гусь
+  parent: SimpleMobBase
+  id: MobGooseWhite
+  description: Белый гусь. Ходят слухи, что он дружелюбнее своего серого собрата.
+  components:
+  - type: Sprite
+    drawdepth: Mobs
+    layers:
+    - map: [ "enum.DamageStateVisualLayers.Base" ]
+      state: goose
+      sprite: Czeshuika/Mobs/Animals/goosewhite.rsi
+  - type: Appearance
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeCircle
+          radius: 0.35
+        density: 25
+        mask:
+        - MobMask
+        layer:
+        - MobLayer
+  - type: DamageStateVisuals
+    states:
+      Alive:
+        Base: goose
+      Critical:
+        Base: dead
+      Dead:
+        Base: dead
+  - type: Butcherable
+    spawned:
+    - id: FoodMeatDuck
+      amount: 2
+  - type: InteractionPopup
+    successChance: 0.1
+    interactSuccessString: petting-success-goose
+    interactFailureString: petting-failure-goose
+    interactSuccessSound:
+      path: /Audio/Czeshuika/Animals/goose_honk2.ogg
+  - type: Bloodstream
+    bloodMaxVolume: 100
+  - type: Puller
+
+- type: entity
+  name: Шинка
+  parent: SimpleMobBase
+  id: MobFoxWhite
+  description: Белоснежная верная капитанская лисица.
+  components:
+  - type: Sprite
+    drawdepth: Mobs
+    sprite:  Czeshuika/Mobs/Animals/whitefox.rsi
+    layers:
+    - map: ["enum.DamageStateVisualLayers.Base"]
+      state: fox
+  - type: Physics
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeCircle
+          radius: 0.35
+        density: 50 #They actually are pretty light, I looked it up
+        mask:
+        - MobMask
+        layer:
+        - MobLayer
+  - type: Inventory
+    speciesId: fox
+    templateId: pet
+  - type: InventorySlots
+  - type: Strippable
+  - type: UserInterface
+    interfaces:
+    - key: enum.StrippingUiKey.Key
+      type: StrippableBoundUserInterface
+  - type: DamageStateVisuals
+    states:
+      Alive:
+        Base: fox
+      Dead:
+        Base: fox_dead
+  - type: Butcherable
+    spawned:
+    - id: FoodMeat
+      amount: 3
+  - type: InteractionPopup
+    successChance: 0.5
+    interactSuccessString: petting-success-soft-floofy
+    interactFailureString: petting-failure-generic
+    interactSuccessSound:
+      path: /Audio/Animals/fox_squeak.ogg
+  - type: Grammar
+    attributes:
+      gender: epicene
+  - type: Bloodstream
+    bloodMaxVolume: 100
+  - type: Tag
+    tags:
+    - VimPilot

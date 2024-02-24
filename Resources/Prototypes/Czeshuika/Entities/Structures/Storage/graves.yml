@@ -1,0 +1,88 @@
+- type: entity
+  id: CrateWoodenGrave
+  name: grave
+  suffix: wooden
+  description: Someone died here...
+  placement:
+    mode: SnapgridCenter
+  components:
+  - type: Transform
+    anchored: true
+  - type: Clickable
+  - type: Sprite
+    sprite: Structures/Storage/Crates/wooden_grave.rsi
+    layers:
+    - state: base
+      map: ["enum.StorageVisualLayers.Base"]
+    - state: closed
+      map: ["enum.StorageVisualLayers.Door"]
+  - type: Icon
+    sprite: Structures/Storage/Crates/wooden_grave.rsi
+    state: base
+  #- type: InteractionOutline будет атмосфернее без зеленой обводки. Но будет тут если понадобится.
+  - type: Physics
+    bodyType: Static
+  - type: Tag
+    tags:
+      - Structure      
+  #- type: Fixtures
+  #  fixtures:
+  #    fix1:
+  #      shape:
+  #        !type:PhysShapeCircle
+  #        radius: 0.45
+  #      density: 60
+  #      mask:
+  #      - MachineMask
+  #      layer:
+  #      - MidImpassable
+  #      - LowImpassable
+  #      - BulletImpassable
+  #      - Opaque
+  - type: Damageable
+    damageContainer: Inorganic
+    damageModifierSet: Metallic
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 50
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+      - !type:PlaySoundBehavior
+        sound: /Audio/Effects/break_stone.ogg
+  - type: EntityStorageLayingDownOverride
+  - type: EntityStorage
+    closeSound:
+      path: /Audio/Effects/Footsteps/asteroid3.ogg 
+    openSound:
+      path: /Audio/Effects/Footsteps/asteroid3.ogg  
+  - type: PlaceableSurface
+    isPlaceable: false # defaults to closed.
+  - type: ContainerContainer
+    containers:
+      entity_storage: !type:Container
+      paper_label: !type:ContainerSlot
+  - type: ItemSlots
+  - type: Appearance
+  - type: EntityStorageVisuals
+    stateDoorOpen: open
+    stateDoorClosed: closed    
+
+- type: entity
+  parent: CrateWoodenGrave
+  id: CrateStoneGrave
+  name: grave
+  suffix: stone
+  description: Someone died here...
+  components:
+  - type: Sprite
+    sprite: Structures/Storage/Crates/stone_grave.rsi
+    layers:
+    - state: base
+    - state: closed
+      map: ["enum.StorageVisualLayers.Door"]
+  - type: Icon
+    sprite: Structures/Storage/Crates/stone_grave.rsi
+    state: base

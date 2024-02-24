@@ -1,0 +1,6 @@
+- type: trait
+  id: OwOAccent
+  name: trait-owoaccent-name
+  description: trait-owoaccent-desc
+  components:
+  - type: OwOAccent

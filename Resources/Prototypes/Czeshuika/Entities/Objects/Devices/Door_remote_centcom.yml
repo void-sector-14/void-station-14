@@ -1,0 +1,14 @@
+#TODO игроки не имеют доступа к предмету
+- type: entity
+  parent: DoorRemoteDefault
+  id: DoorRemoteCentcom
+  name: пульт от дверей ЦентКома
+  description: Гаджет, который может открывать и закрывать любые двери дистанционно
+  components:
+  - type: Sprite
+    sprite: Czeshuika/Objects/Devices/door_remote_centcom.rsi
+    state: door_remote_centcom
+    netsync: false
+  - type: Access
+    groups:
+    - AllAccess

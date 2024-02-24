@@ -1,0 +1,16 @@
+- type: entity
+  parent: DrinkGlassBase
+  id: DrinkChocolateGlass
+  name: hot chocolate
+  description: A heated drink consisting melted chocolate and heated milk.
+  components:
+  - type: Drink
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 30
+        reagents:
+        - ReagentId: HotChocolate
+          Quantity: 30
+  - type: Sprite
+    sprite: Objects/Consumable/Drinks/chocolateglass.rsi

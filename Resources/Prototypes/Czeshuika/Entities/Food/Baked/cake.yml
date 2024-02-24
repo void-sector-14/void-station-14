@@ -1,0 +1,25 @@
+- type: entity
+  name: свадебный торт
+  parent: FoodCakeBase
+  id: FoodCakeWedding
+  description: По статистике, этот торт роняют чаще всего.
+  components:
+  - type: Sprite
+    sprite: Czeshuika/Objects/Consumable/Food/Baked/cake.rsi
+    layers:
+    - state: wedding
+  - type: SliceableFood
+    slice: FoodCakeWeddingSlice
+    count: 10
+  - type: Item
+    size: Huge
+
+- type: entity
+  name: кусок свадебного торта
+  parent: FoodCakeSliceBase
+  id: FoodCakeWeddingSlice
+  description: По статистике, этот торт роняют чаще всего.
+  components:
+  - type: Sprite
+    sprite: Czeshuika/Objects/Consumable/Food/Baked/cake.rsi
+    state: wedding_slice

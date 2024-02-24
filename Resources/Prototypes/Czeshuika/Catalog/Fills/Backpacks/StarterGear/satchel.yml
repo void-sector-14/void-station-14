@@ -1,0 +1,11 @@
+- type: entity
+  noSpawn: true
+  parent: ClothingBackpackSatchelHolding
+  id: ClothingBackpackSatchelCentCommOfficialFilled
+  components:
+  - type: StorageFill
+    contents:
+      - id: BoxSurvivalEngineering
+      - id: Flash
+      - id: Handcuffs
+      - id: WeaponPulsePistol

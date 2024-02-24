@@ -1,0 +1,41 @@
+- type: entity
+  id: EmergencyNitrogenTankFilled
+  parent: EmergencyNitrogenTank
+  suffix: Filled
+  components:
+  - type: GasTank
+    outputPressure: 21.27825
+    air:
+      volume: 2
+      moles:
+      - 0 # oxygen
+      - 0.323460326 # nitrogen
+      temperature: 293.15
+
+- type: entity
+  id: ExtendedEmergencyNitrogenTankFilled
+  parent: ExtendedEmergencyNitrogenTank
+  suffix: Filled
+  components:
+  - type: GasTank
+    outputPressure: 21.27825
+    air:
+      volume: 6
+      moles:
+      - 0 # oxygen
+      - 0.969830813 # nitrogen
+      temperature: 293.15
+
+- type: entity
+  id: DoubleEmergencyNitrogenTankFilled
+  parent: DoubleEmergencyNitrogenTank
+  suffix: Filled
+  components:
+  - type: GasTank
+    outputPressure: 21.27825
+    air:
+      volume: 10
+      moles:
+      - 0 # oxygen
+      - 1.61721219 # nitrogen
+      temperature: 293.15
