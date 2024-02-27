@@ -12,8 +12,8 @@ ent-BirdToyInstrument = птичий свист
 
 ent-PhoneInstrument = красный телефон
     .desc = Если что-то пойдет не так...
-    .suffix = { "" }
-
+ent-PhoneInstrumentSyndicate = кроваво-красный телефон
+    .desc = Для злых людей, для связи с друзьями.
 ent-HelicopterInstrument = игрушечный вертолёт
     .desc = Ч-ка-ч-ка-ч-ка-ч-ка-ч-ка-ч-ка...
     .suffix = { ent-BaseHandheldInstrument.suffix }

@@ -16,8 +16,8 @@ ent-ClothingShoesBootsPerformer = ботинки артиста
 
 ent-ClothingShoesBootsCombat = армейские ботинки
     .desc = Надёжные армейские ботинки, для боевых операций или боевых действий. Борьба - всё, борьба - всегда.
-    .suffix = { ent-ClothingShoesStorageBase.suffix }
-
+ent-ClothingShoesHighheelBoots = сапоги на высоком каблуке
+    .desc = Удобные сапожки для тех случаев, когда вы хотите быть стильным, и одновременно подготовленным.
 ent-ClothingShoesBootsMerc = ботинки наёмника
     .desc = Ботинки, прошедшие через множество конфликтов и доказавшие свою боевую надежность.
     .suffix = { ent-ClothingShoesStorageBase.suffix }
@@ -29,3 +29,26 @@ ent-ClothingShoesBootsLaceup = шнурованные туфли
 ent-ClothingShoesBootsWinter = зимние ботинки
     .desc = Утеплённые ботинки помогут пережить даже самую холодную зиму.
     .suffix = { "" }
+ent-ClothingShoesBootsWinterCargo = зимние ботинки снабжения
+    .desc = { ent-ClothingShoesBaseWinterBoots.desc }
+ent-ClothingShoesBootsWinterEngi = инженерные зимние ботинки
+    .desc = { ent-ClothingShoesBaseWinterBoots.desc }
+ent-ClothingShoesBootsWinterMed = медицинские зимние ботинки
+    .desc = { ent-ClothingShoesBaseWinterBoots.desc }
+ent-ClothingShoesBootsWinterSci = научные зимние ботинки
+    .desc = { ent-ClothingShoesBaseWinterBoots.desc }
+ent-ClothingShoesBootsWinterSec = зимние ботинки охраны
+    .desc = { ent-ClothingShoesBaseWinterBoots.desc }
+ent-ClothingShoesBootsWinterSyndicate = зимние ботинки синдиката
+    .desc = Прочные тяжелые ботинки, выглядят как мерч из "Синдиленда".
+ent-ClothingShoesBootsWinterWeb = зимние ботинки из паутины
+    .desc = Ботинки из плотной паутины, которые помогут пережить даже самую холодную зиму.
+ent-ClothingShoesBootsCowboyBrown = коричневые ковбойские ботинки
+    .desc = На них шпоры, которые звенят и/или бренчат.
+ent-ClothingShoesBootsCowboyBlack = чёрные ковбойские ботинки
+    .desc = { ent-ClothingShoesBootsCowboyBrown.desc }
+ent-ClothingShoesBootsCowboyWhite = белые ковбойские ботинки
+    .desc = { ent-ClothingShoesBootsCowboyBrown.desc }
+ent-ClothingShoesBootsCowboyFancy = модные ковбойские ботинки
+    .desc = { ent-ClothingShoesBootsCowboyBrown.desc }
+

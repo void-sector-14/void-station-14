@@ -1,39 +1,28 @@
 ent-GasUnaryBase = { ent-GasPipeBase }
     .desc = { ent-GasPipeBase.desc }
-    .suffix = { ent-GasPipeBase.suffix }
-
 ent-GasVentPump = вентиляция
     .desc = Имеет клапан и прикрепленный к нему насос.
-    .suffix = { ent-GasUnaryBase.suffix }
-
 ent-GasPassiveVent = пассивная вентиляция
     .desc = Это открытая вентиляция.
-    .suffix = { ent-GasUnaryBase.suffix }
-
 ent-GasVentScrubber = скруббер
     .desc = Он же вытяжка. Имеет клапан и прикрепленный к нему насос.
-    .suffix = { ent-GasUnaryBase.suffix }
-
 ent-GasOutletInjector = инжектор
     .desc = Он же форсунка. Имеет клапан и прикрепленный к нему насос.
-    .suffix = { ent-GasUnaryBase.suffix }
-
 ent-BaseGasThermoMachine = термомашина
-    .desc = Нагревает или охлаждает газ в подсоединенных трубах.
-    .suffix = { ent-BaseMachinePowered.suffix }
-
+    .desc = Нагревает газ в присоединенных трубах.
 ent-GasThermoMachineFreezer = охладитель
-    .desc = { ent-BaseGasThermoMachine.desc }
-    .suffix = { ent-BaseGasThermoMachine.suffix }
-
+    .desc = Охлаждает газ в присоединенных трубах.
 ent-GasThermoMachineFreezerEnabled = { ent-GasThermoMachineFreezer }
-    .desc = { ent-GasThermoMachineFreezer.desc }
     .suffix = Включено
-
+    .desc = { ent-GasThermoMachineFreezer.desc }
 ent-GasThermoMachineHeater = нагреватель
     .desc = { ent-BaseGasThermoMachine.desc }
-    .suffix = { ent-BaseGasThermoMachine.suffix }
-
 ent-GasThermoMachineHeaterEnabled = { ent-GasThermoMachineHeater }
-    .desc = { ent-GasThermoMachineHeater.desc }
     .suffix = Включено
+    .desc = { ent-GasThermoMachineHeater.desc }
+ent-GasThermoMachineHellfireFreezer = адский охладитель
+    .desc = Продвинутое устройство, охлаждающее газ в присоединенных трубах. Побочный эффект - охлаждение окружающего пространства. Холодно как в аду!
+ent-GasThermoMachineHellfireHeater = адский нагреватель
+    .desc = Продвинутое устройство, нагревающее газ в присоединенных трубах. Побочный эффект - нагревание окружающего пространства. Жарко как в аду!
+ent-BaseGasCondenser = конденсатор газа
+    .desc = Конденсирует газы в жидкости. Осталось только провести водопровод.

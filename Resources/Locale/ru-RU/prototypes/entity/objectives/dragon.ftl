@@ -1,11 +1,6 @@
 ent-BaseDragonObjective = { ent-BaseObjective }
-    .desc = { "" }
-    .suffix = { "" }
-
+    .desc = { ent-BaseObjective.desc }
 ent-CarpRiftsObjective = { ent-BaseDragonObjective }
-    .desc = { "" }
-    .suffix = { "" }
-
-ent-DragonSurviveObjective = Выживите
-    .desc = Вы должны остаться в живых, чтобы удержать контроль.
-    .suffix = { "" }
+    .desc = { ent-BaseDragonObjective.desc }
+ent-DragonSurviveObjective = Выжить
+    .desc = Вы должны оставаться в живых, чтобы сохранять контроль.

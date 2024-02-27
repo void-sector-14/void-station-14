@@ -44,8 +44,8 @@ ent-MicroBombImplant = имплант Микробомба
 
 ent-MacroBombImplant = имплант Макробомба
     .desc = Этот имплант создаёт большой взрыв при смерти пользователя после запрограммированного обратного отсчета.
-    .suffix = { ent-BaseSubdermalImplant.suffix }
-
+ent-DeathAcidifierImplant = имплант Посмертный растворитель
+    .desc = Этот имплант растворяет носителя и всё снаряжение при его смерти.
 ent-DeathRattleImplant = имплант Предсмертный хрип
     .desc = Этот имплант сообщит в радиоканал Синдиката, если пользователь окажется в критическом состоянии или умрёт.
     .suffix = { ent-BaseSubdermalImplant.suffix }

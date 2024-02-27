@@ -85,7 +85,12 @@ ent-FoodDoughCornmealSlice = кусок кукурузного теста
 ent-FoodDoughBun = булочка
     .desc = Основа любого уважающего себя бургера.
     .suffix = { ent-FoodBakingBase.suffix }
-
+ent-FoodDoughTortilla = тесто тортильи
+    .desc = Большой кусок теста тортильи.
+ent-FoodDoughTortillaSlice = кусок теста тортильи
+    .desc = Кусок теста тортильи.
+ent-FoodDoughTortillaFlat = плоское тесто тортильи
+    .desc = Расплющенный кусок теста тортильи. Приготовьте его, чтобы получить лепёшку тако.
 ent-FoodDoughPastryBaseRaw = сырая основа для выпечки
     .desc = Перед использованием необходимо приготовить.
     .suffix = { ent-FoodBakingBase.suffix }

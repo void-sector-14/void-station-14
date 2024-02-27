@@ -18,6 +18,9 @@ ent-ClothingEyesGlasses = очки
     .desc = Пара неприглядных очков с линзами по рецепту.
     .suffix = { ent-ClothingEyesBase.suffix }
 
+ent-ClothingEyesGlassesJensen = очки Дженсена
+    .desc = Пара складных очков жёлтого оттенка. Вы никогда не просили о них.
+
 ent-ClothingEyesGlassesJamjar = очки умника
     .desc = Так же известны как Защитники Девственности.
     .suffix = { "" }

@@ -8,8 +8,8 @@ ent-MobCorgiIanOld = Старый Иан
 
 ent-MobCorgiLisa = Лиза
     .desc = Любимая корги Иана.
-    .suffix = { ent-MobCorgiIan.suffix }
-
+ent-MobCorgiIanPup = щенок Иан
+    .desc = Любимый щенок корги. Аввв.
 ent-MobCatRuntime = Рантайм
     .desc = Профессиональный охотник на мышей. Мастер побега.
     .suffix = { ent-MobCat.suffix }
@@ -44,8 +44,11 @@ ent-MobWalter = Уолтер
 
 ent-MobPossumMorty = Морти
     .desc = Обитатель станции, Виргинский опоссум. Чувствительный, но стойкий парень.
-    .suffix = { ent-MobPossum.suffix }
-
+ent-MobPossumMortyOld = Морти
+    .suffix = Старый спрайт
+    .desc = { ent-MobPossumMorty.desc }
+ent-MobPossumPoppy = Поппи
+    .desc = Это опоссум, небольшое сумчатое животное, питающееся отбросами. На него надеты соответствующие средства индивидуальной защиты.
 ent-MobRaccoonMorticia = Мортиша
     .desc = Могущественное создание ночи. Ее тени для век всегда на высоте.
     .suffix = { ent-MobRaccoon.suffix }
@@ -76,4 +79,5 @@ ent-MobSlimesPet = Смайл
 
 ent-MobMonkeyPunpun = Пун Пун
     .desc = Видный представитель обезьян с неограниченным доступом к алкоголю.
-    .suffix = { ent-MobMonkey.suffix }
+ent-MobCrabAtmos = Тропико
+    .desc = Благородный и непоколебимый защитник Атмосии. Viva!

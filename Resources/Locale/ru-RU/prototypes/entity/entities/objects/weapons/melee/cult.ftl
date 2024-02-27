@@ -1,11 +1,6 @@
 ent-RitualDagger = ритуальный кинжал
     .desc = Странного вида кинжал, используемый зловещими тайными обществами в ритуалах и жертвоприношениях.
-    .suffix = { ent-BaseItem.suffix }
-
 ent-EldritchBlade = потусторонний клинок
     .desc = Меч, источающий нечестивую энергию.
-    .suffix = { ent-BaseItem.suffix }
-
 ent-UnholyHalberd = нечестивая алебарда
     .desc = Алебарда, которая словно привязана к своему владельцу.
-    .suffix = { ent-BaseItem.suffix }

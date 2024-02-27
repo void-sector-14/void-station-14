@@ -2,6 +2,8 @@ ent-SpawnMobMouse = спавнер мышь
     .desc = { ent-MarkerBase.desc }
     .suffix = { ent-MarkerBase.suffix }
 
+ent-SpawnMobCockroach = спавнер таракан
+    .desc = { ent-MarkerBase.desc }
 ent-SpawnMobCorgi = спавнер корги
     .desc = { ent-MarkerBase.desc }
     .suffix = { ent-MarkerBase.suffix }
@@ -28,8 +30,8 @@ ent-SpawnMobCatRuntime = спавнер кот Рантайм
 
 ent-SpawnMobCatException = спавнер кот Эксепшен
     .desc = { ent-MarkerBase.desc }
-    .suffix = { ent-MarkerBase.suffix }
-
+ent-SpawnMobCrabAtmos = спавнер краб Тропико
+    .desc = { ent-MarkerBase.desc }
 ent-SpawnMobCatFloppa = спавнер каракал Шлёпа
     .desc = { ent-MarkerBase.desc }
     .suffix = { ent-MarkerBase.suffix }
@@ -41,7 +43,8 @@ ent-SpawnMobCatBingus = спавнер кот Бингус
 ent-SpawnMobCatSpace = спавнер космический кот
     .desc = { ent-MarkerBase.desc }
     .suffix = { ent-MarkerBase.suffix }
-
+ent-SpawnMobCatKitten = спавнер котёнок
+    .desc = { ent-MarkerBase.desc }
 ent-SpawnMobCat = спавнер кот
     .desc = { ent-MarkerBase.desc }
     .suffix = { ent-MarkerBase.suffix }
@@ -80,8 +83,8 @@ ent-SpawnMobCarpMagic = спавнер мэджикарп
 
 ent-SpawnMobCarpHolo = спавнер голокарп
     .desc = { ent-MarkerBase.desc }
-    .suffix = { ent-MarkerBase.suffix }
-
+ent-SpawnMobShark = спавнер космическая карпоакула
+    .desc = { ent-MarkerBase.desc }
 ent-SpawnMobHamsterHamlet = спавнер хомяк Гамлет
     .desc = { ent-MarkerBase.desc }
     .suffix = { ent-MarkerBase.suffix }
@@ -108,8 +111,8 @@ ent-SpawnMobBoxingKangaroo = спавнер кенгуру-боксёр
 
 ent-SpawnMobSpaceSpider = спавнер космический паук
     .desc = { ent-MarkerBase.desc }
-    .suffix = { ent-MarkerBase.suffix }
-
+ent-SpawnMobSpaceCobra = спавнер космическая кобра
+    .desc = { ent-MarkerBase.desc }
 ent-SpawnMobAdultSlimesBlue = спавнер слайм синий
     .desc = { ent-MarkerBase.desc }
     .suffix = { ent-MarkerBase.suffix }
@@ -200,8 +203,13 @@ ent-SpawnMobGorilla = спавнер горилла
 
 ent-SpawnMobPenguin = спавнер пингвин
     .desc = { ent-MarkerBase.desc }
-    .suffix = { ent-MarkerBase.suffix }
-
+ent-SpawnMobHellspawn = спавнер адское отродье
+    .desc = { ent-MarkerBase.desc }
 ent-SpawnMobOreCrab = спавнер рудный краб
-    .desc = { "" }
-    .suffix = { "" }
+    .desc = { ent-MarkerBase.desc }
+ent-SpawnMobLuminousPerson = спавнер светящаяся персона
+    .desc = { ent-MarkerBase.desc }
+ent-SpawnMobLuminousObject = спавнер светящийся объект
+    .desc = { ent-MarkerBase.desc }
+ent-SpawnMobLuminousEntity = спавнер светящаяся сущность
+    .desc = { ent-MarkerBase.desc }

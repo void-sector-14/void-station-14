@@ -4,4 +4,5 @@ ent-ClothingBeltBase = { ent-Clothing }
 
 ent-ClothingBeltStorageBase = { ent-ClothingBeltBase }
     .desc = { ent-ClothingBeltBase.desc }
-    .suffix = { ent-ClothingBeltBase.suffix }
+ent-ClothingBeltAmmoProviderBase = { ent-ClothingBeltBase }
+    .desc = { ent-ClothingBeltBase.desc }

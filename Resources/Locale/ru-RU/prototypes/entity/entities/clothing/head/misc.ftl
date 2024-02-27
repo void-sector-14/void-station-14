@@ -49,7 +49,12 @@ ent-ClothingHeadHatFancyCrown = причудливая корона
 ent-ClothingHeadHatCatEars = кошачьи ушки
     .desc = НЯ!
     .suffix = НЕ МАППИТЬ!
-
+ent-ClothingHeadHatDogEars = собачьи ушки
+    .desc = Только для хороших мальчиков.
+    .suffix = НЕ МАППИТЬ!
 ent-ClothingHeadHatSquid = сквидди
     .desc = Напугайте своих друзей этой маской древнего ужаса.
-    .suffix = { ent-ClothingHeadBase.suffix }
+ent-ClothingHeadHatRedRacoon = шапка рыжего енота
+    .desc = Пушистая шапка рыжего енота!
+ent-WaterDropletHat = капелька воды
+    .desc = Делает 8-глазых друзей в 8 раз очаровательнее!

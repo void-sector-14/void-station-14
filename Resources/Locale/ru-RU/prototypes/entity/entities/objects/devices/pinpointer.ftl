@@ -4,8 +4,8 @@ ent-PinpointerBase = пинпоинтер
 
 ent-PinpointerNuclear = пинпоинтер
     .desc = { ent-PinpointerBase.desc }
-    .suffix = { ent-PinpointerBase.suffix }
-
+ent-PinpointerSyndicateNuclear = пинпоинтер синдиката
+    .desc = Изготовлен специально для миссий ядерных оперативников, получите этот диск!
 ent-PinpointerUniversal = универсальный пинпоинтер
     .desc = Портативное устройство слежения, способное отслеживать любой физический объект в выключенном состоянии.
     .suffix = { ent-PinpointerBase.suffix }

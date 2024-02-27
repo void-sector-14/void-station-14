@@ -1,3 +1,3 @@
 ent-MobMoth = Урист МакНиан
-    .desc = { ent-BaseMob.desc }
+    .desc = { ent-BaseMobMoth.desc }
     .suffix = { ent-BaseMob.suffix }

@@ -56,4 +56,5 @@ ent-ClothingOuterArmorChangeling = хитиновый панцирь
 
 ent-ClothingOuterArmorBone = костяная броня
     .desc = Сидит на вас как вторая кожа.
-    .suffix = { "" }
+ent-ClothingOuterArmorPodWars = броня Броненосец II
+    .desc = Переделанный бронескафандр Броненосец II, реликвия войн подов.

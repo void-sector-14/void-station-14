@@ -1,3 +1,2 @@
-ent-KitchenSpike = мясницкий крюк
+ent-KitchenSpike = мясной крюк
     .desc = Крюк для снятия мяса с животных.
-    .suffix = { ent-BaseStructure.suffix }

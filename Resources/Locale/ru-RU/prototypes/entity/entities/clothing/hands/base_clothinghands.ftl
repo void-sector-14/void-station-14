@@ -1,3 +1,4 @@
 ent-ClothingHandsBase = { ent-Clothing }
     .desc = { ent-Clothing.desc }
-    .suffix = { ent-Clothing.suffix }
+ent-ClothingHandsButcherable = { ent-ClothingHandsBase }
+    .desc = { ent-ClothingHandsBase.desc }

@@ -1,15 +1,9 @@
-ent-BaseHardBomb = бомба
-    .desc = Just keep talking and nobody will explode.
-    .suffix = { "" }
-
-ent-TrainingBomb = тренировочная бомба
+ent-BaseHardBomb = мегабомба
+    .desc = Просто говорите и никто не взорвётся.
+ent-TrainingBomb = учебная бомба
     .desc = Бомба для чайников, инструкция в комплект не входит.
-    .suffix = { "" }
-
-ent-SyndicateBomb = бомба синдиката
-    .desc = Бомба как для оперативников Синдиката, так и для агентов. Настоящая работа, больше никаких тренировок, приступайте!
-    .suffix = { "" }
-
+ent-SyndicateBomb = бомба Синдиката
+    .desc = Бомба для оперативников и агентов Синдиката. Настоящее дело, никаких тренировок, приступайте!
 ent-DebugHardBomb = DEBUG бомба
-    .desc = Черт возьми, она сейчас рванёт!
+    .desc = Господи, она сейчас взорвётся.
     .suffix = DEBUG

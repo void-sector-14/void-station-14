@@ -1,3 +1,6 @@
 ent-BoozeDispenser = раздатчик алкоголя
     .desc = Дозатор спиртных напитков. Имеет один слот для емкостей.
-    .suffix = { ent-ReagentDispenserBase.suffix }
+    .suffix = Заполненный
+ent-BoozeDispenserEmpty = { ent-BoozeDispenser }
+    .suffix = Пустой
+    .desc = { ent-BoozeDispenser.desc }

@@ -1,3 +1,6 @@
 ent-ChemDispenser = раздатчик химикатов
     .desc = Химический дозатор промышленного класса с большим запасом реагентов.
-    .suffix = { ent-ReagentDispenserBase.suffix }
+    .suffix = Заполненный
+ent-ChemDispenserEmpty = { ent-ChemDispenser }
+    .suffix = Пустой
+    .desc = { ent-ChemDispenser.desc }

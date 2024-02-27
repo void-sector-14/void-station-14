@@ -1,11 +1,6 @@
 ent-BaseArrow = { ent-BaseItem }
-    .desc = { "" }
-    .suffix = { "" }
-
+    .desc = { ent-BaseItem.desc }
 ent-ArrowRegular = стрела
-    .desc = Вы можете почувствовать силу степи внутри себя.
-    .suffix = { "" }
-
-ent-ArrowImprovised = стрела с осколком стекла
-    .desc = Любимый снаряд грейтардов.
-    .suffix = { "" }
+    .desc = Вы чувствуете в себе силу степей.
+ent-ArrowImprovised = стрела из осколка стекла
+    .desc = Любимый метательный снаряд серорубашечников.

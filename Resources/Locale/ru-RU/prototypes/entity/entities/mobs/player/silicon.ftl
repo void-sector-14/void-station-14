@@ -17,3 +17,6 @@ ent-PlayerBorgGeneric = { ent-BorgChassisGeneric }
 ent-PlayerBorgBattery = { ent-BorgChassisGeneric }
     .desc = { ent-BorgChassisGeneric.desc }
     .suffix = Батарея
+ent-PlayerBorgSyndicateAssaultBattery = { ent-BorgChassisSyndicateAssault }
+    .suffix = Батарея, Модуль, Оперативник
+    .desc = { ent-BorgChassisSyndicateAssault.desc }

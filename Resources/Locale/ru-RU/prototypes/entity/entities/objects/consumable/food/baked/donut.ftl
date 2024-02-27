@@ -40,12 +40,8 @@ ent-FoodDonutCaramel = карамельный пончик
 
 ent-FoodDonutChocolate = шоколадный пончик
     .desc = Отлично сочетается со стаканом теплого молока.
-    .suffix = { ent-FoodDonutBase.suffix }
-
-ent-FoodDonutBlumpkin = синетыквенный пончик
-    .desc = Отлично сочетается с кружкой успокаивающего напитка из синетыквы.
-    .suffix = { ent-FoodDonutBase.suffix }
-
+ent-FoodDonutBlumpkin = блорбо пончик
+    .desc = Отлично сочетается с кружкой БЛОРБО.
 ent-FoodDonutBungo = бунго пончик
     .desc = Отлично сочетается с закаточной банкой "Восторга хиппи".
     .suffix = { ent-FoodDonutBase.suffix }
@@ -105,3 +101,7 @@ ent-FoodDonutJellySlugcat = слизнекотовый желейный понч
 ent-FoodDonutPoison = { ent-FoodDonutPink }
     .desc = { ent-FoodDonutPink.desc }
     .suffix = Яд
+    .desc = Отлично сочетается со стаканом теплого молока.
+ent-FoodDonutJellyBlumpkin = желейный блорбо пончик
+    .desc = Отлично сочетается с кружкой БЛОРБО.
+ent-FoodDonutJellyBungo = желейный бунго пончик

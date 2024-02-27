@@ -1,3 +1,2 @@
 ent-Bookshelf = книжный шкаф
     .desc = Преимущественно, наполнен книгами.
-    .suffix = { ent-BaseStructure.suffix }

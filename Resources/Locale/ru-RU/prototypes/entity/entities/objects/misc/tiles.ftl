@@ -60,8 +60,14 @@ ent-FloorTileItemRockVault = каменная плитка хранилища
 
 ent-FloorTileItemBlue = голубая плитка
     .desc = { ent-FloorTileItemBase.desc }
-    .suffix = { ent-FloorTileItemBase.suffix }
-
+ent-FloorTileItemLime = лаймовая плитка
+    .desc = { ent-FloorTileItemBase.desc }
+ent-FloorTileItemMining = шахтёрская плитка
+    .desc = { ent-FloorTileItemBase.desc }
+ent-FloorTileItemMiningDark = тёмная шахтёрская плитка
+    .desc = { ent-FloorTileItemBase.desc }
+ent-FloorTileItemMiningLight = светлая шахтёрская плитка
+    .desc = { ent-FloorTileItemBase.desc }
 ent-FloorTileItemFreezer = плитка морозильника
     .desc = { ent-FloorTileItemBase.desc }
     .suffix = { ent-FloorTileItemBase.suffix }
@@ -156,8 +162,10 @@ ent-FloorTileItemShuttlePurple = фиолетовый пол шаттла
 
 ent-FloorTileItemShuttleRed = красный пол шаттла
     .desc = { ent-FloorTileItemBase.desc }
-    .suffix = { ent-FloorTileItemBase.suffix }
-
+ent-FloorTileItemShuttleGrey = серый пол шаттла
+    .desc = { ent-FloorTileItemBase.desc }
+ent-FloorTileItemShuttleBlack = чёрный пол шаттла
+    .desc = { ent-FloorTileItemBase.desc }
 ent-FloorTileItemGold = золотая плитка
     .desc = { ent-FloorTileItemBase.desc }
     .suffix = { ent-FloorTileItemBase.suffix }
@@ -172,8 +180,12 @@ ent-FloorTileItemGCircuit = плитка зелёных микросхем
 
 ent-FloorTileItemBCircuit = плитка голубых микросхем
     .desc = { ent-FloorTileItemBase.desc }
-    .suffix = { ent-FloorTileItemBase.suffix }
-
+ent-FloorTileItemGCircuit4 = { ent-FloorTileItemGCircuit }
+    .suffix = 4
+    .desc = { ent-FloorTileItemGCircuit.desc }
+ent-FloorTileItemBCircuit4 = { ent-FloorTileItemBCircuit }
+    .suffix = 4
+    .desc = { ent-FloorTileItemBCircuit.desc }
 ent-FloorTileItemGrass = плитка травы
     .desc = { ent-FloorTileItemBase.desc }
     .suffix = { ent-FloorTileItemBase.suffix }
@@ -204,4 +216,7 @@ ent-FloorTileItemGratingMaint = решётчатый технический по
 
 ent-FloorTileItemWeb = паутинный пол
     .desc = { ent-FloorTileItemBase.desc }
-    .suffix = { ent-FloorTileItemBase.suffix }
+ent-FloorTileItemAstroGrass = астро-трава
+    .desc = Искусственная трава, отлично прячущая провода, поставляется с реалистичными НаноТравинками!
+ent-FloorTileItemAstroIce = астро-лёд
+    .desc = Искусственный лёд, такой же скользкий, как настоящий, и при этом легко снимается!

@@ -1,191 +1,110 @@
 ent-SeedBase = { ent-BaseItem }
     .desc = { ent-BaseItem.desc }
-    .suffix = { ent-BaseItem.suffix }
-
-ent-WheatSeeds = пакет семян пшеницы
+ent-WheatSeeds = пакет семян (пшеница)
     .desc = { ent-SeedBase.desc }
-    .suffix = { ent-SeedBase.suffix }
-
-ent-OatSeeds = пакет семян овса
+ent-OatSeeds = пакет семян (овёс)
     .desc = { ent-SeedBase.desc }
-    .suffix = { ent-SeedBase.suffix }
-
-ent-BananaSeeds = пакет семян банана
+ent-BananaSeeds = пакет семян (банан)
     .desc = { ent-SeedBase.desc }
-    .suffix = { ent-SeedBase.suffix }
-
-ent-MimanaSeeds = пакетик семян мимана
-    .desc = { "" }
-    .suffix = { "" }
-
-ent-CarrotSeeds = пакет семян моркови
+ent-MimanaSeeds = пакет семян (миман)
     .desc = { ent-SeedBase.desc }
-    .suffix = { ent-SeedBase.suffix }
-
-ent-CabbageSeeds = пакет семян капусты
+ent-CarrotSeeds = пакет семян (морковь)
     .desc = { ent-SeedBase.desc }
-    .suffix = { ent-SeedBase.suffix }
-
-ent-GarlicSeeds = пакет семян чеснока
+ent-CabbageSeeds = пакет семян (капуста)
     .desc = { ent-SeedBase.desc }
-    .suffix = { ent-SeedBase.suffix }
-
-ent-LemonSeeds = пакет семян лимона
+ent-GarlicSeeds = пакет семян (чеснок)
     .desc = { ent-SeedBase.desc }
-    .suffix = { ent-SeedBase.suffix }
-
-ent-LimeSeeds = пакет семян лайма
+ent-LaughinPeaSeeds = пакет семян (смешной горошек)
+    .desc = Эти семена излучают очень мягкое фиолетовое свечение... Из них должен вырасти смешной горошек.
+ent-LemonSeeds = пакет семян (лимон)
     .desc = { ent-SeedBase.desc }
-    .suffix = { ent-SeedBase.suffix }
-
-ent-OrangeSeeds = пакет семян апельсина
+ent-LemoonSeeds = пакет семян (лилун)
     .desc = { ent-SeedBase.desc }
-    .suffix = { ent-SeedBase.suffix }
-
-ent-PineappleSeeds = пакет семян ананаса
+ent-LimeSeeds = пакет семян (лайм)
     .desc = { ent-SeedBase.desc }
-    .suffix = { ent-SeedBase.suffix }
-
-ent-PotatoSeeds = пакет семян картофеля
+ent-OrangeSeeds = пакет семян (апельсин)
     .desc = { ent-SeedBase.desc }
-    .suffix = { ent-SeedBase.suffix }
-
-ent-SugarcaneSeeds = пакет семян сахарного тростника
+ent-PineappleSeeds = пакет семян (ананас)
     .desc = { ent-SeedBase.desc }
-    .suffix = { ent-SeedBase.suffix }
-
-ent-TowercapSeeds = пакет спор грибошляпника
+ent-PotatoSeeds = пакет семян (картофель)
     .desc = { ent-SeedBase.desc }
-    .suffix = { ent-SeedBase.suffix }
-
-ent-SteelcapSeeds = пакетик спор сталешляпника
-    .desc = { "" }
-    .suffix = { "" }
-
-ent-TomatoSeeds = пакет семян томата
+ent-SugarcaneSeeds = пакет семян (сахарный тростник)
     .desc = { ent-SeedBase.desc }
-    .suffix = { ent-SeedBase.suffix }
-
-ent-BlueTomatoSeeds = пакетик семян голубых помидоров
-    .desc = { "" }
-    .suffix = { "" }
-
-ent-BloodTomatoSeeds = пакетик семян кровавых помидоров
-    .desc = { "" }
-    .suffix = { "" }
-
-ent-EggplantSeeds = пакет семян баклажана
+ent-TowercapSeeds = пакет спор (грибошляпник)
     .desc = { ent-SeedBase.desc }
-    .suffix = { ent-SeedBase.suffix }
-
-ent-AppleSeeds = пакет семян яблока
+ent-SteelcapSeeds = пакет спор (сталешляпник)
     .desc = { ent-SeedBase.desc }
-    .suffix = { ent-SeedBase.suffix }
-
-ent-CornSeeds = пакет семян кукурузы
+ent-TomatoSeeds = пакет семян (томат)
     .desc = { ent-SeedBase.desc }
-    .suffix = { ent-SeedBase.suffix }
-
-ent-ChanterelleSeeds = пакет спор лисичек
+ent-BlueTomatoSeeds = пакет семян (синий томат)
     .desc = { ent-SeedBase.desc }
-    .suffix = { ent-SeedBase.suffix }
-
-ent-EggySeeds = пакет семян яйцефрута
+ent-BloodTomatoSeeds = пакет семян (кровяной томат)
     .desc = { ent-SeedBase.desc }
-    .suffix = { ent-SeedBase.suffix }
-
-ent-TobaccoSeeds = пакет семян табака
+ent-EggplantSeeds = пакет семян (баклажан)
+    .desc = { ent-SeedBase.desc }
+ent-AppleSeeds = пакет семян (яблоко)
+    .desc = { ent-SeedBase.desc }
+ent-CornSeeds = пакет семян (кукуруза)
+    .desc = { ent-SeedBase.desc }
+ent-ChanterelleSeeds = пакет спор (лисички)
+    .desc = { ent-SeedBase.desc }
+ent-EggySeeds = пакет семян (яйцефрут)
+    .desc = { ent-SeedBase.desc }
+ent-TobaccoSeeds = пакет семян (табак)
     .desc = Из этих семян вырастут кусты табака.
-    .suffix = { ent-SeedBase.suffix }
-
-ent-CannabisSeeds = пакет семян конопли
+ent-CannabisSeeds = пакет семян (конопля)
     .desc = Облагается налогом.
-    .suffix = { ent-SeedBase.suffix }
-
-ent-NettleSeeds = пакет семян крапивы
+ent-NettleSeeds = пакет семян (крапива)
     .desc = Работать в перчатках.
-    .suffix = { ent-SeedBase.suffix }
-
-ent-DeathNettleSeeds = пакетик семян крапивы смерти
-    .desc = Работайте в очень толстых перчатках.
-    .suffix = { "" }
-
-ent-ChiliSeeds = пакет семян чили
+ent-DeathNettleSeeds = пакет семян (смертокрапива)
+    .desc = Работать в очень толстых перчатках.
+ent-ChiliSeeds = пакет семян (чили)
     .desc = Острые.
-    .suffix = { ent-SeedBase.suffix }
-
-ent-ChillySeeds = пакетик семян перца чили
-    .desc = Обмороживающе.
-    .suffix = { "" }
-
-ent-AloeSeeds = пакет семян алоэ
+ent-ChillySeeds = пакет семян (чилли)
+    .desc = Обморожительные.
+ent-AloeSeeds = пакет семян (алоэ)
     .desc = Успокаивающие.
-    .suffix = { ent-SeedBase.suffix }
-
-ent-PoppySeeds = пакет семян мака
+ent-PoppySeeds = пакет семян (мак)
     .desc = Не есть за 72 часа до анализа на наркотики.
-    .suffix = { ent-SeedBase.suffix }
-
-ent-LingzhiSeeds = пакет спор линчжи
+ent-LilySeeds = пакет семян (лилия)
+    .desc = Из этих семян вырастают лилии.
+ent-LingzhiSeeds = пакет спор (линчжи)
     .desc = Также известен как трутовик.
-    .suffix = { ent-SeedBase.suffix }
-
-ent-AmbrosiaVulgarisSeeds = пакет семян амброзии вульгарис
-    .desc = Лекарственное растение для простого народа.
-    .suffix = { ent-SeedBase.suffix }
-
-ent-AmbrosiaDeusSeeds = пакетик семян божественной амброзии
-    .desc = Лекарственное растение для самих богов.
-    .suffix = { "" }
-
-ent-GalaxythistleSeeds = пакет семян галакточертополоха
+ent-AmbrosiaVulgarisSeeds = пакет семян (амброзия вульгарис)
+    .desc = Лекарственное растение простого люда.
+ent-AmbrosiaDeusSeeds = пакет семян (амброзия деус)
+    .desc = Лекарственное растение самих богов.
+ent-GalaxythistleSeeds = пакет семян (галакточертополох)
     .desc = Кисточки ночных звёзд.
-    .suffix = { ent-SeedBase.suffix }
-
-ent-FlyAmanitaSeeds = пакет спор мухоморов
+ent-FlyAmanitaSeeds = пакет спор (мухомор)
     .desc = Знаковый, невероятно смертоносный гриб, выращиваемый исключительно в декоративных целях.
-    .suffix = { ent-SeedBase.suffix }
-
-ent-GatfruitSeeds = пакет семян гатфрукта
+ent-GatfruitSeeds = пакет семян (гатфрукт)
     .desc = Это вам не горохострел.
-    .suffix = { ent-SeedBase.suffix }
-
-ent-OnionSeeds = пакет семян лука
+ent-OnionSeeds = пакет семян (лук)
     .desc = Не лук-шалот.
-    .suffix = { ent-SeedBase.suffix }
-
-ent-RiceSeeds = пакет семян риса
+ent-RiceSeeds = пакет семян (рис)
     .desc = { ent-SeedBase.desc }
-    .suffix = { ent-SeedBase.suffix }
-
-ent-SoybeanSeeds = пакет семян сои
+ent-SoybeanSeeds = пакет семян (соя)
     .desc = { ent-SeedBase.desc }
-    .suffix = { ent-SeedBase.suffix }
-
-ent-KoibeanSeeds = пакетик семян бобов кои
-    .desc = { "" }
-    .suffix = { "" }
-
-ent-OnionRedSeeds = пакет семян красного лука
+ent-SpacemansTrumpetSeeds = пакет семян (космонавтская труба)
+    .desc = { ent-SeedBase.desc }
+ent-KoibeanSeeds = пакет семян (коибобы)
+    .desc = { ent-SeedBase.desc }
+ent-OnionRedSeeds = пакет семян (красный лук)
     .desc = Несмотря на название, фиолетовый.
-    .suffix = { ent-SeedBase.suffix }
-
-ent-WatermelonSeeds = пакет семян арбуза
+ent-WatermelonSeeds = пакет семян (арбуз)
     .desc = { ent-SeedBase.desc }
-    .suffix = { ent-SeedBase.suffix }
-
-ent-GrapeSeeds = пакет семян винограда
+ent-GrapeSeeds = пакет семян (виноград)
     .desc = { ent-SeedBase.desc }
-    .suffix = { ent-SeedBase.suffix }
-
-ent-CocoaSeeds = пакет семян какао-бобов
+ent-CocoaSeeds = пакет семян (какао-бобы)
     .desc = { ent-SeedBase.desc }
-    .suffix = { ent-SeedBase.suffix }
-
-ent-BerrySeeds = packet of berry seeds
-    .desc = { "" }
-    .suffix = { "" }
-
-ent-BungoSeeds = packet of bungo seeds
-    .desc = Don't eat the pits.
-    .suffix = { "" }
+ent-BerrySeeds = пакет семян (ягоды)
+    .desc = { ent-SeedBase.desc }
+ent-BungoSeeds = пакет семян (бунго)
+    .desc = Не ешьте косточки.
+ent-PeaSeeds = пакет семян (горох)
+    .desc = Когда-то это скромное растение играло важную роль в изучении генетики.
+ent-PumpkinSeeds = пакет семян (тыква)
+    .desc = { ent-SeedBase.desc }
+ent-CottonSeeds = пакет семян (хлопок)
+    .desc = { ent-SeedBase.desc }

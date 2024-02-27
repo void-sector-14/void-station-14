@@ -81,7 +81,8 @@ ent-FoodMeatSpiderLeg = сырая паучья нога
 ent-FoodMeatWheat = мясной комок
     .desc = Это совсем не похоже на мясо, но и ваши стандарты не так уж и высоки.
     .suffix = { ent-FoodMeatBase.suffix }
-
+ent-FoodMeatSnake = сырое мясо змеи
+    .desc = Длинный кусок змеиного мяса, будем надеяться, не ядовитого.
 ent-FoodMeatXeno = сырое ксено мясо
     .desc = Кусок мяса ксеноса, сочащийся кислотой.
     .suffix = { ent-FoodMeatBase.suffix }

@@ -1,11 +1,13 @@
 ent-AutolatheMachineCircuitboard = автолат (машинная плата)
     .desc = { ent-BaseMachineCircuitboard.desc }
-    .suffix = { ent-BaseMachineCircuitboard.suffix }
-
+ent-AutolatheHyperConvectionMachineCircuitboard = гиперконвекционный автолат (машинная плата)
+    .desc = Печатная плата гиперконвекционного автолата.
 ent-ProtolatheMachineCircuitboard = протолат (машинная плата)
     .desc = { ent-BaseMachineCircuitboard.desc }
-    .suffix = { ent-BaseMachineCircuitboard.suffix }
-
+ent-ProtolatheHyperConvectionMachineCircuitboard = гиперконвекционный протолат (машинная плата)
+    .desc = Печатная плата гиперконвекционного протолата.
+ent-BiofabricatorMachineCircuitboard = биофабрикатор (машинная плата)
+    .desc = Печатная плата биофабрикатора.
 ent-SecurityTechFabCircuitboard = охранный ТехФаб (машинная плата)
     .desc = Печатная плата охранного ТехФаба.
     .suffix = { ent-BaseMachineCircuitboard.suffix }
@@ -48,24 +50,28 @@ ent-ArtifactAnalyzerMachineCircuitboard = анализатор артефакт�
 
 ent-TraversalDistorterMachineCircuitboard = исказитель обхода (машинная плата)
     .desc = Печатная плата для исказителя обхода.
-    .suffix = { ent-BaseMachineCircuitboard.suffix }
-
+ent-ArtifactCrusherMachineCircuitboard = дробитель артефактов (машинная плата)
+    .desc = Печатная плата для дробителя артефактов.
 ent-AnomalyVesselCircuitboard = сосуд аномалии (машинная плата)
     .desc = Печатная плата для сосуда аномалии.
-    .suffix = { ent-BaseMachineCircuitboard.suffix }
-
+ent-AnomalyVesselExperimentalCircuitboard = экспериментальный сосуд аномалии (машинная плата)
+    .desc = Печатная плата для экспериментального сосуда аномалии.
+ent-AnomalySynchronizerCircuitboard = синхронизатор аномалий (машинная плата)
+    .desc = Печатная плата для синхронизатора аномалий.
 ent-APECircuitboard = М.А.К.А.К. (машинная плата)
     .desc = Печатная плата для М.А.К.А.К.
-    .suffix = { ent-BaseMachineCircuitboard.suffix }
-
-ent-ThermomachineFreezerMachineCircuitBoard = морозильная термомашина (машинная плата)
+ent-ThermomachineFreezerMachineCircuitBoard = охладительная термомашина (машинная плата)
     .desc = Для изменения типа платы можно использовать отвертку.
     .suffix = { ent-BaseMachineCircuitboard.suffix }
 
 ent-ThermomachineHeaterMachineCircuitBoard = нагревательная термомашина (машинная плата)
     .desc = Для изменения типа платы можно использовать отвертку.
-    .suffix = { ent-BaseMachineCircuitboard.suffix }
-
+ent-HellfireFreezerMachineCircuitBoard = адская охладительная термомашина (машинная плата)
+    .desc = Для изменения типа платы можно использовать отвертку.
+ent-HellfireHeaterMachineCircuitBoard = адская нагревательная термомашина (машинная плата)
+    .desc = Для изменения типа платы можно использовать отвертку.
+ent-CondenserMachineCircuitBoard = конденсатор газа (машинная плата)
+    .desc = Печатная плата для конденсатора газа.
 ent-PortableScrubberMachineCircuitBoard = переносной скруббер (машинная плата)
     .desc = Переносной скруббер, коротко - ПСК.
     .suffix = { ent-BaseMachineCircuitboard.suffix }
@@ -112,16 +118,16 @@ ent-SMESMachineCircuitboard = СМЭС (машинная плата)
 
 ent-CellRechargerCircuitboard = зарядник батарей (машинная плата)
     .desc = Печатная плата зарядника батарей.
-    .suffix = { ent-BaseMachineCircuitboard.suffix }
-
+ent-PowerCageRechargerCircuitboard = зарядник энергоячеек (машинная плата)
+    .desc = Печатная плата зарядника энергоячеек.
 ent-BorgChargerCircuitboard = станция зарядки киборгов (машинная плата)
     .desc = Печатная плата станции зарядки киборгов.
     .suffix = { ent-BaseMachineCircuitboard.suffix }
 
 ent-WeaponCapacitorRechargerCircuitboard = зарядник энергооружия (машинная плата)
     .desc = Печатная плата зарядника энергооружия.
-    .suffix = { ent-BaseMachineCircuitboard.suffix }
-
+ent-TurboItemRechargerCircuitboard = турбозарядник (машинная плата)
+    .desc = Печатная плата турбозарядника.
 ent-SubstationMachineCircuitboard = подстанция (машинная плата)
     .desc = { ent-BaseMachineCircuitboard.desc }
     .suffix = { ent-BaseMachineCircuitboard.suffix }
@@ -132,8 +138,10 @@ ent-DawInstrumentMachineCircuitboard = цифровая звуковая раб�
 
 ent-PortableGeneratorPacmanMachineCircuitboard = портативный генератор П.А.К.М.А.Н. (машинная плата)
     .desc = { ent-BaseMachineCircuitboard.desc }
-    .suffix = { ent-BaseMachineCircuitboard.suffix }
-
+ent-PortableGeneratorSuperPacmanMachineCircuitboard = портативный генератор С.У.П.Е.Р.П.А.К.М.А.Н. (машинная плата)
+    .desc = { ent-BaseMachineCircuitboard.desc }
+ent-PortableGeneratorJrPacmanMachineCircuitboard = портативный генератор М.И.Н.И.П.А.К.М.А.Н. (машинная плата)
+    .desc = { ent-BaseMachineCircuitboard.desc }
 ent-ThrusterMachineCircuitboard = ракетный двигатель (машинная плата)
     .desc = { ent-BaseMachineCircuitboard.desc }
     .suffix = { ent-BaseMachineCircuitboard.suffix }
@@ -164,16 +172,18 @@ ent-ElectricGrillMachineCircuitboard = электрогриль (машинна�
 
 ent-StasisBedMachineCircuitboard = стазисная кровать (машинная плата)
     .desc = { ent-BaseMachineCircuitboard.desc }
-    .suffix = { ent-BaseMachineCircuitboard.suffix }
-
+ent-ElectrolysisUnitMachineCircuitboard = электролизная установка (машинная плата)
+    .desc = Печатная плата для электролизной установки.
+ent-CentrifugeMachineCircuitboard = настольная центрифуга (машинная плата)
+    .desc = Печатная плата для настольной центрифуги.
 ent-MaterialReclaimerMachineCircuitboard = переработчик материалов (машинная плата)
     .desc = { ent-BaseMachineCircuitboard.desc }
     .suffix = { ent-BaseMachineCircuitboard.suffix }
 
 ent-OreProcessorMachineCircuitboard = переработчик руды (машинная плата)
     .desc = { ent-BaseMachineCircuitboard.desc }
-    .suffix = { ent-BaseMachineCircuitboard.suffix }
-
+ent-OreProcessorIndustrialMachineCircuitboard = промышленный переработчик руды (машинная плата)
+    .desc = { ent-BaseMachineCircuitboard.desc }
 ent-SheetifierMachineCircuitboard = лист-мастер 2000 (машинная плата)
     .desc = { ent-BaseMachineCircuitboard.desc }
     .suffix = { ent-BaseMachineCircuitboard.suffix }
@@ -184,8 +194,8 @@ ent-MicrowaveMachineCircuitboard = микроволновка (машинная 
 
 ent-FatExtractorMachineCircuitboard = экстрактор жира (машинная плата)
     .desc = { ent-BaseMachineCircuitboard.desc }
-    .suffix = { ent-BaseMachineCircuitboard.suffix }
-
+ent-FlatpackerMachineCircuitboard = Упаковщик 1001 (машинная плата)
+    .desc = { ent-BaseMachineCircuitboard.desc }
 ent-EmitterCircuitboard = эмиттер (машинная плата)
     .desc = { ent-BaseMachineCircuitboard.desc }
     .suffix = { ent-BaseMachineCircuitboard.suffix }
@@ -232,4 +242,13 @@ ent-SalvageMagnetMachineCircuitboard = магнит обломков (машин
 
 ent-MiniGravityGeneratorCircuitboard = мини-генератор гравитации (машинная плата)
     .desc = Печатная плата мини-генератора гравитации.
-    .suffix = { ent-BaseMachineCircuitboard.suffix }
+ent-ShuttleGunSvalinnMachineGunCircuitboard = LSE-400c "Пулемёт Свалинн" (машинная плата)
+    .desc = Печатная плата LSE-400c "Пулемёт Свалинн".
+ent-ShuttleGunPerforatorCircuitboard = LSE-1200c "Перфоратор" (машинная плата)
+    .desc = Печатная плата LSE-1200c "Перфоратор".
+ent-ShuttleGunFriendshipCircuitboard = EXP-320g "Дружба" (машинная плата)
+    .desc = Печатная плата EXP-320g "Дружба".
+ent-ShuttleGunDusterCircuitboard = EXP-2100g "Дастер" (машинная плата)
+    .desc = Печатная плата EXP-2100g "Дастер".
+ent-ShuttleGunKineticCircuitboard = PTK-800 "Дематериализатор материи" (машинная плата)
+    .desc = Печатная плата PTK-800 "Дематериализатор материи".

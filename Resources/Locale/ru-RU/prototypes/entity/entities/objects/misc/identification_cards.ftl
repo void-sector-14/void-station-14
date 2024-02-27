@@ -141,7 +141,16 @@ ent-CentcomIDCard = ID карта старшего офицера
 ent-ERTLeaderIDCard = ID карта ОБР
     .desc = { ent-CentcomIDCard.desc }
     .suffix = { ent-CentcomIDCard.suffix }
-
+ent-ERTChaplainIDCard = ID карта священника ОБР
+    .desc = { ent-ERTLeaderIDCard.desc }
+ent-ERTEngineerIDCard = ID карта инженера ОБР
+    .desc = { ent-ERTChaplainIDCard.desc }
+ent-ERTJanitorIDCard = ID карта уборщика ОБР
+    .desc = { ent-ERTChaplainIDCard.desc }
+ent-ERTMedicIDCard = ID карта врача ОБР
+    .desc = { ent-ERTChaplainIDCard.desc }
+ent-ERTSecurityIDCard = ID карта офицера ОБР
+    .desc = { ent-ERTChaplainIDCard.desc }
 ent-CentcomIDCardSyndie = ID карта офицера командования
     .desc = { ent-IDCardStandard.desc }
     .suffix = Фальшивый
@@ -160,16 +169,17 @@ ent-AgentIDCard = { ent-PassengerIDCard }
 
 ent-NukieAgentIDCard = { ent-PassengerIDCard }
     .desc = { ent-PassengerIDCard.desc }
-    .suffix = ЯО
-
+ent-NukieAgentIDCard = ID карта пассажира
+    .suffix = Оперативники
+    .desc = { ent-AgentIDCard.desc }
 ent-AtmosIDCard = ID карта атмосферного техника
     .desc = { ent-IDCardStandard.desc }
     .suffix = { ent-IDCardStandard.suffix }
 
 ent-SyndicateIDCard = ID карта Синдиката
     .desc = { ent-IDCardStandard.desc }
-    .suffix = { ent-IDCardStandard.suffix }
-
+ent-PirateIDCard = ID карта пирата
+    .desc = { ent-IDCardStandard.desc }
 ent-PsychologistIDCard = ID карта психолога
     .desc = { ent-IDCardStandard.desc }
     .suffix = { ent-IDCardStandard.suffix }

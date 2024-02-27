@@ -120,4 +120,7 @@ ent-ClothingOuterHardsuitCBURN = экзокостюм отряда РХБЗЗ
 
 ent-ClothingOuterHardsuitClown = скафандр клоуна
     .desc = Самодельный клоунский скафандр.
-    .suffix = { ent-ClothingOuterHardsuitBase.suffix }
+ent-ClothingOuterHardsuitMime = скафандр мима
+    .desc = Самодельный мимский скафандр.
+ent-ClothingOuterHardsuitSanta = скафандр Санты
+    .desc = Весёлый, праздничный скафандр, который защищает весёлого дарителя подарков во время полётов на космосанях. Предоставляет некоторую защиту от ударов астероидов.

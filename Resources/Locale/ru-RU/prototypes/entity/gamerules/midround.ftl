@@ -1,7 +1,8 @@
-ent-Ninja = Ниндзя
+ent-Ninja = { ent-BaseGameRule }
     .desc = { ent-BaseGameRule.desc }
-    .suffix = { ent-BaseGameRule.suffix }
-
 ent-Dragon = { ent-BaseGameRule }
     .desc = { ent-BaseGameRule.desc }
-    .suffix = { "" }
+ent-Thief = { ent-BaseGameRule }
+    .desc = { ent-BaseGameRule.desc }
+ent-Exterminator = { ent-BaseGameRule }
+    .desc = { ent-BaseGameRule.desc }

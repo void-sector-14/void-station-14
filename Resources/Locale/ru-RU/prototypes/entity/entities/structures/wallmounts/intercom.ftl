@@ -1,43 +1,31 @@
 ent-Intercom = интерком
     .desc = Интерком. На случай, когда необходимо что-то сообщить станции.
-    .suffix = { "" }
-
 ent-IntercomAssesmbly = каркас интеркома
     .desc = Интерком. На данный момент он бесполезен.
-    .suffix = { "" }
-
 ent-IntercomCommon = { ent-Intercom }
-    .desc = { ent-Intercom.desc }
     .suffix = Общий
-
+    .desc = { ent-Intercom.desc }
 ent-IntercomCommand = { ent-Intercom }
-    .desc = { ent-Intercom.desc }
     .suffix = Командный
-
+    .desc = { ent-Intercom.desc }
 ent-IntercomEngineering = { ent-Intercom }
-    .desc = { ent-Intercom.desc }
     .suffix = Инженерный
-
+    .desc = { ent-Intercom.desc }
 ent-IntercomMedical = { ent-Intercom }
-    .desc = { ent-Intercom.desc }
     .suffix = Медицинский
-
+    .desc = { ent-Intercom.desc }
 ent-IntercomScience = { ent-Intercom }
-    .desc = { ent-Intercom.desc }
     .suffix = Научный
-
+    .desc = { ent-Intercom.desc }
 ent-IntercomSecurity = { ent-Intercom }
-    .desc = { ent-Intercom.desc }
     .suffix = Безопасность
-
+    .desc = { ent-Intercom.desc }
 ent-IntercomService = { ent-Intercom }
-    .desc = { ent-Intercom.desc }
     .suffix = Сервис
-
+    .desc = { ent-Intercom.desc }
 ent-IntercomSupply = { ent-Intercom }
-    .desc = { ent-Intercom.desc }
     .suffix = Снабжение
-
-ent-IntercomAll = { ent-Intercom }
     .desc = { ent-Intercom.desc }
+ent-IntercomAll = { ent-Intercom }
     .suffix = Все
+    .desc = { ent-Intercom.desc }

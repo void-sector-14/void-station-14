@@ -20,8 +20,8 @@ ent-WoodenBuckler = деревянный баклер
 
 ent-MakeshiftShield = импровизированный щит
     .desc = Ветхий на вид щит, мало на что пригодный.
-    .suffix = { ent-BaseShield.suffix }
-
+ent-WebShield = паутинный щит
+    .desc = Нитяной щит. Он слаб и плохо противостоит нагреванию.
 ent-ClockworkShield = часовой щит
     .desc = Ratvar oyrffrf lbh jvgu uvf cebgrpgvba. Ратвар благословляет вас Своей защитой.
     .suffix = { ent-BaseShield.suffix }

@@ -1,7 +1,4 @@
 ent-BaseBow = лук
-    .desc = Обычная палка-стрелялка для палок-леталок.
-    .suffix = { "" }
-
+    .desc = Самый первый пример дерзай — налетай, целься и стреляй.
 ent-BowImprovised = { ent-BaseBow }
     .desc = { ent-BaseBow.desc }
-    .suffix = { "" }

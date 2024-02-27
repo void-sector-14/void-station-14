@@ -36,12 +36,14 @@ ent-ClothingHeadsetCE = гарнитура СИ
 
 ent-ClothingHeadsetMedical = гарнитура медицинского отдела
     .desc = Гарнитура для обученного персонала медблока.
-    .suffix = { ent-ClothingHeadset.suffix }
-
+ent-ClothingHeadsetMedicalScience = медико-научная гарнитура
+    .desc = Гарнитура, ставшая результатом сочетания медицины и науки.
+ent-ClothingHeadsetMining = шахтёрская гарнитура
+    .desc = Гарнитура, используемая шахтерами.
 ent-ClothingHeadsetCMO = гарнитура ГВ
     .desc = Гарнитура, используемая главным врачом.
-    .suffix = { ent-ClothingHeadsetMedical.suffix }
-
+ent-ClothingHeadsetRobotics = робототехническая гарнитура
+    .desc = Сделано специально для робототехников, которые не могут определиться между отделами.
 ent-ClothingHeadsetScience = гарнитура научного отдела
     .desc = Научная гарнитура. Как обычно.
     .suffix = { ent-ClothingHeadset.suffix }
@@ -60,12 +62,11 @@ ent-ClothingHeadsetRD = гарнитура НР
 
 ent-ClothingHeadsetSecurity = гарнитура службы безопасности
     .desc = Её используют ваши элитные силы безопасности.
-    .suffix = { ent-ClothingHeadset.suffix }
-
-ent-ClothingHeadsetBrigmedic = гарнитура бригмедика
-    .desc = Гарнитура, которая помогает слушать предсмертные крики.
-    .suffix = { ent-ClothingHeadset.suffix }
-
 ent-ClothingHeadsetService = гарнитура сервисного отдела
     .desc = Гарнитура, используемая сотрудниками сервисного отдела, которым поручено поддерживать станцию сытой, счастливой, и чистой.
-    .suffix = { ent-ClothingHeadset.suffix }
+ent-ClothingHeadsetBrigmedic = гарнитура бригмедика
+    .desc = Гарнитура, которая помогает слушать предсмертные крики.
+ent-ClothingHeadsetGrey = гарнитура пассажира
+    .desc = { ent-ClothingHeadset.desc }
+ent-ClothingHeadsetFreelance = гарнитура фрилансера
+    .desc = Такими пользуются группы бродячих фрилансеров.

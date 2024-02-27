@@ -5,7 +5,9 @@ ent-RandomHumanoidSpawnerERTLeader = ОБР лидер
 ent-RandomHumanoidSpawnerERTLeaderEVA = ОБР лидер
     .desc = { ent-RandomHumanoidSpawnerERTLeader.desc }
     .suffix = EVA
-
+ent-RandomHumanoidSpawnerERTLeaderEVALecter = { ent-RandomHumanoidSpawnerERTLeaderEVA }
+    .suffix = Роль ОБР, Лектер, EVA
+    .desc = { ent-RandomHumanoidSpawnerERTLeaderEVA.desc }
 ent-RandomHumanoidSpawnerERTJanitor = ОБР уборщик
     .desc = { ent-RandomHumanoidSpawnerERTLeader.desc }
     .suffix = { ent-RandomHumanoidSpawnerERTLeader.suffix }

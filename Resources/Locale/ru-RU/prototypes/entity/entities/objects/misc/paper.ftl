@@ -1,7 +1,7 @@
 ent-Paper = бумага
     .desc = Лист белой бумаги.
-    .suffix = { ent-BaseItem.suffix }
-
+ent-PaperScrap = обрывки бумаги
+    .desc = Скомканный лист белой бумаги.
 ent-PaperOffice = офисная бумага
     .desc = Лист белой офисной бумаги.
     .suffix = { ent-Paper.suffix }
@@ -40,8 +40,10 @@ ent-NukeCodePaperStation = { ent-NukeCodePaper }
 
 ent-Pen = ручка
     .desc = Ручка с чёрными чернилами.
-    .suffix = { ent-BaseItem.suffix }
-
+ent-PenEmbeddable = { ent-Pen }
+    .desc = { ent-Pen.desc }
+ent-LuxuryPen = роскошная ручка
+    .desc = Дорогая и модная ручка, которой вы достойны обладать только в том случае, если вы умеете работать с огромным количеством бумаг.
 ent-CyberPen = ручка Cybersun
     .desc = Высокотехнологичная ручка прямо из юридического отдела Cybersun, для письма преломляющая яркий свет под невозможными углами через свой алмазный наконечник. Она не бессмысленна в прямом смысле, только в переносном.
     .suffix = { ent-BaseItem.suffix }
@@ -83,8 +85,16 @@ ent-BoxFolderGrey = { ent-BoxFolderBase }
     .suffix = Серая
 
 ent-BoxFolderBlack = { ent-BoxFolderBase }
+ent-BoxFolderCentCom = папка Центком
+    .desc = Жалкая кучка секретов Центком!
+    .suffix = НЕ МАППИТЬ
     .desc = { ent-BoxFolderBase.desc }
     .suffix = Чёрная
+
+ent-BoxFolderCentComClipboard = планшет Центком
+    .desc = Роскошный планшет, обитый зеленым бархатом. Представители Центком часто носят его с собой, но редко используют.
+ent-BoxFolderQmClipboard = цифровой планшет заявок
+    .desc = Громоздкий цифровой планшет, содержащий информацию о поставках и финансовых операциях. При таком количестве компрометирующих документов его следует беречь.
 
 ent-BoxFolderClipboard = планшет
     .desc = Оружие для тех, кто находится на передовой бюрократии.

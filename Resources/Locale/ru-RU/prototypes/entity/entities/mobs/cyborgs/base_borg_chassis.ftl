@@ -4,4 +4,5 @@ ent-BaseBorgChassis = киборг
 
 ent-BaseBorgChassisNT = { ent-BaseBorgChassis }
     .desc = { ent-BaseBorgChassis.desc }
-    .suffix = { ent-BaseBorgChassis.suffix }
+ent-BaseBorgChassisSyndicate = { ent-BaseBorgChassis }
+    .desc = { ent-BaseBorgChassis.desc }

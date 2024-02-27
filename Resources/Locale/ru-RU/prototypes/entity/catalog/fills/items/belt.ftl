@@ -24,6 +24,10 @@ ent-ClothingBeltMedicalFilled = { ent-ClothingBeltMedical }
 
 ent-ClothingBeltParamedicFilled = { ent-ClothingBeltMedical }
     .desc = { ent-ClothingBeltMedical.desc }
+ent-ClothingBeltMedicalEMTFilled = { ent-ClothingBeltMedicalEMT }
+    .suffix = Заполненный, Парамедик
+    .desc = { ent-ClothingBeltMedicalEMT.desc }
+ent-ClothingBeltPlantFilled = { ent-ClothingBeltPlant }
     .suffix = Заполненный
 
 ent-ClothingBeltPlantFilled = { ent-ClothingBeltPlant }

@@ -8,12 +8,13 @@ ent-BaseLightTube = { ent-BaseLightbulb }
 
 ent-LightBulb = лампа накаливания
     .desc = Обычная лампочка.
-    .suffix = { ent-BaseLightbulb.suffix }
-
+ent-LightBulbOld = старая лампа накаливания
+    .desc = Старая обычная лампочка.
 ent-LightBulbBroken = лампа накаливания
     .desc = Обычная лампочка.
     .suffix = Сломанный
-
+ent-ServiceLightBulb = сервисная лампочка
+    .desc = Тусклая зелёная лампочка, используемая в лампах вызова уборщика.
 ent-LightTube = люминесцентная лампа-трубка
     .desc = Это световая трубка.
     .suffix = { ent-BaseLightTube.suffix }
@@ -32,4 +33,15 @@ ent-ExteriorLightTube = экстерьерная лампа-трубка
 
 ent-SodiumLightTube = натриевая лампа-трубка
     .desc = Мощная энергосберегающая лампа для космических глубин. Солёная.
-    .suffix = { ent-BaseLightTube.suffix }
+ent-LightTubeCrystalCyan = голубая кристальная лампа-трубка
+    .desc = Мощная лампа, внутри которой находится маленький цветной кристалл.
+ent-LightTubeCrystalBlue = синяя кристальная лампа-трубка
+    .desc = { ent-LightTubeCrystalCyan.desc }
+ent-LightTubeCrystalPink = розовая кристальная лампа-трубка
+    .desc = { ent-LightTubeCrystalCyan.desc }
+ent-LightTubeCrystalOrange = оранжевая кристальная лампа-трубка
+    .desc = { ent-LightTubeCrystalCyan.desc }
+ent-LightTubeCrystalRed = красная кристальная лампа-трубка
+    .desc = { ent-LightTubeCrystalCyan.desc }
+ent-LightTubeCrystalGreen = зелёная кристальная лампа-трубка
+    .desc = { ent-LightTubeCrystalCyan.desc }

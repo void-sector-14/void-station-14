@@ -1,3 +1,5 @@
-ent-EffectSparks = EffectSparks
+ent-EffectSparks = { "" }
+    .desc = { "" }
+ent-EffectTeslaSparks = { "" }
     .desc = { "" }
     .suffix = { "" }

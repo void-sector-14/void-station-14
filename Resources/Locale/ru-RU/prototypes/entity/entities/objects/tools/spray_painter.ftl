@@ -1,3 +1,2 @@
 ent-SprayPainter = краскопульт
     .desc = Краскопульт для окрашивания шлюзов и труб.
-    .suffix = { ent-BaseItem.suffix }

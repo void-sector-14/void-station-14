@@ -1,3 +1,4 @@
 ent-AsteroidCrabSpawner = спавнер рудный краб
     .desc = { "" }
-    .suffix = { "" }
+ent-RockAnomCrabSpawner = спавнер каменная аномалия рудокраб
+    .desc = { ent-MarkerBase.desc }

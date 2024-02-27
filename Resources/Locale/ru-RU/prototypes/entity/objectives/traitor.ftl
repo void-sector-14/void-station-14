@@ -1,83 +1,42 @@
 ent-BaseTraitorObjective = { ent-BaseObjective }
-    .desc = { "" }
-    .suffix = { "" }
-
+    .desc = { ent-BaseObjective.desc }
 ent-BaseTraitorSocialObjective = { ent-BaseSocialObjective }
-    .desc = { "" }
-    .suffix = { "" }
-
+    .desc = { ent-BaseSocialObjective.desc }
 ent-BaseTraitorStealObjective = { ent-BaseStealObjective }
-    .desc = { "" }
-    .suffix = { "" }
-
-ent-EscapeShuttleObjective = Улетите на эвакуационном шаттле живым и свободным.
-    .desc = Когда вы приедете, один из наших агентов под прикрытием допросит вас. Не дайте себя арестовать.
-    .suffix = { "" }
-
-ent-DieObjective = Умереть славной смертью
+    .desc = { ent-BaseStealObjective.desc }
+ent-EscapeShuttleObjective = Улететь на Центком живым и свободным.
+    .desc = Один из наших агентов под прикрытием допросит вас по прибытии. Не дайте себя арестовать.
+ent-DieObjective = Умереть славной смертью.
     .desc = Умрите.
-    .suffix = { "" }
-
 ent-KillRandomPersonObjective = { ent-BaseKillObjective }
-    .desc = Сделайте это, как посчитаете нужным. Только убедитесь, что цель не переживёт смену.
-    .suffix = { "" }
-
+    .desc = Сделайте это, как посчитаете нужным. Только убедитесь, что цель не улетит на Центком.
 ent-KillRandomHeadObjective = { ent-BaseKillObjective }
-    .desc = Нам нужно, чтобы этот глава исчез, и вы, наверное, знаете, почему. Удачи, агент.
-    .suffix = { "" }
-
+    .desc = Нам нужно, чтобы этот глава исчез, и вы, вероятно, знаете, почему. Удачи, агент.
 ent-RandomTraitorAliveObjective = { ent-BaseKeepAliveObjective }
-    .desc = Раскрывать себя или нет — решайте сами. Просто сделайте всё, чтобы он выжил.
-    .suffix = { "" }
-
+    .desc = Раскрывать себя или нет — решайте сами. Нам нужно, чтобы он выжил.
 ent-RandomTraitorProgressObjective = { ent-BaseHelpProgressObjective }
-    .desc = Скооперируйтесь или помогайте незаметно. Нам просто нужно, чтобы он добился успеха.
-    .suffix = { "" }
-
+    .desc = Раскрывать себя или нет — решайте сами. Нам нужно, чтобы он преуспел.
 ent-CMOHyposprayStealObjective = { ent-BaseTraitorStealObjective }
-    .desc = { "" }
-    .suffix = { "" }
-
-ent-BaseRDObjective = { ent-BaseTraitorStealObjective }
-    .desc = { "" }
-    .suffix = { "" }
-
-ent-RDHardsuitStealObjective = { ent-BaseRDObjective }
-    .desc = { "" }
-    .suffix = { "" }
-
-ent-HandTeleporterStealObjective = { ent-BaseRDObjective }
-    .desc = { "" }
-    .suffix = { "" }
-
+    .desc = { ent-BaseTraitorStealObjective.desc }
+ent-RDHardsuitStealObjective = { ent-BaseTraitorStealObjective }
+    .desc = { ent-BaseTraitorStealObjective.desc }
+ent-HandTeleporterStealObjective = { ent-BaseTraitorStealObjective }
+    .desc = { ent-BaseTraitorStealObjective.desc }
 ent-SecretDocumentsStealObjective = { ent-BaseTraitorStealObjective }
-    .desc = { "" }
-    .suffix = { "" }
-
+    .desc = { ent-BaseTraitorStealObjective.desc }
 ent-MagbootsStealObjective = { ent-BaseTraitorStealObjective }
-    .desc = { "" }
-    .suffix = { "" }
-
+    .desc = { ent-BaseTraitorStealObjective.desc }
+ent-ClipboardStealObjective = { ent-BaseTraitorStealObjective }
+    .desc = { ent-BaseTraitorStealObjective.desc }
 ent-CorgiMeatStealObjective = { ent-BaseTraitorStealObjective }
-    .desc = { "" }
-    .suffix = { "" }
-
+    .desc = { ent-BaseTraitorStealObjective.desc }
 ent-BaseCaptainObjective = { ent-BaseTraitorStealObjective }
-    .desc = { "" }
-    .suffix = { "" }
-
+    .desc = { ent-BaseTraitorStealObjective.desc }
 ent-CaptainIDStealObjective = { ent-BaseCaptainObjective }
-    .desc = { "" }
-    .suffix = { "" }
-
+    .desc = { ent-BaseCaptainObjective.desc }
 ent-CaptainJetpackStealObjective = { ent-BaseCaptainObjective }
-    .desc = { "" }
-    .suffix = { "" }
-
+    .desc = { ent-BaseCaptainObjective.desc }
 ent-CaptainGunStealObjective = { ent-BaseCaptainObjective }
-    .desc = { "" }
-    .suffix = { "" }
-
+    .desc = { ent-BaseCaptainObjective.desc }
 ent-NukeDiskStealObjective = { ent-BaseCaptainObjective }
-    .desc = { "" }
-    .suffix = { "" }
+    .desc = { ent-BaseCaptainObjective.desc }

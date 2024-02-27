@@ -12,4 +12,5 @@ ent-CrewManifestCartridge = картридж Манифест экипажа
 
 ent-NetProbeCartridge = картридж NetProbe
     .desc = Программа для получения адресов и частот сетевых устройств
-    .suffix = { ent-BaseItem.suffix }
+ent-LogProbeCartridge = картридж Зонд логов
+    .desc = Программа для получения логов доступа с устройств

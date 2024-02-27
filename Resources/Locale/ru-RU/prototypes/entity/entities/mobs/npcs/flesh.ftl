@@ -20,4 +20,14 @@ ent-MobFleshLover = { ent-BaseMobFlesh }
 
 ent-MobAbomination = мерзость
     .desc = Бракованный клон, испытывающий постоянную боль и жаждущий мести.
-    .suffix = { ent-BaseMobFlesh.suffix }
+ent-BaseMobFleshSalvage = искажённая плоть
+    .desc = Колышущаяся масса плоти, оживленная под действием аномальной энергии.
+    .suffix = Обломок
+ent-MobFleshJaredSalvage = { ent-BaseMobFleshSalvage }
+    .desc = { ent-BaseMobFleshSalvage.desc }
+ent-MobFleshGolemSalvage = { ent-BaseMobFleshSalvage }
+    .desc = { ent-BaseMobFleshSalvage.desc }
+ent-MobFleshClampSalvage = { ent-BaseMobFleshSalvage }
+    .desc = { ent-BaseMobFleshSalvage.desc }
+ent-MobFleshLoverSalvage = { ent-BaseMobFleshSalvage }
+    .desc = { ent-BaseMobFleshSalvage.desc }

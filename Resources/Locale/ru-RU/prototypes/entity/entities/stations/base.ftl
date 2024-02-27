@@ -1,47 +1,28 @@
 ent-BaseStation = { "" }
     .desc = { "" }
-    .suffix = { "" }
-
 ent-BaseStationCargo = { "" }
     .desc = { "" }
-    .suffix = { "" }
-
 ent-BaseStationJobsSpawning = { "" }
     .desc = { "" }
-    .suffix = { "" }
-
 ent-BaseStationRecords = { "" }
     .desc = { "" }
-    .suffix = { "" }
-
 ent-BaseStationArrivals = { "" }
     .desc = { "" }
-    .suffix = { "" }
-
+ent-BaseStationGateway = { "" }
+    .desc = { "" }
 ent-BaseStationShuttles = { "" }
     .desc = { "" }
-    .suffix = { "" }
-
 ent-BaseStationCentcomm = { "" }
     .desc = { "" }
-    .suffix = { "" }
-
 ent-BaseStationEvacuation = { "" }
     .desc = { "" }
-    .suffix = { "" }
-
 ent-BaseStationAlertLevels = { "" }
     .desc = { "" }
-    .suffix = { "" }
-
 ent-BaseStationExpeditions = { "" }
     .desc = { "" }
-    .suffix = { "" }
-
+ent-BaseStationMagnet = { "" }
+    .desc = { "" }
 ent-BaseStationSiliconLawCrewsimov = { "" }
     .desc = { "" }
-    .suffix = { "" }
-
 ent-BaseStationAllEventsEligible = { "" }
     .desc = { "" }
-    .suffix = { "" }

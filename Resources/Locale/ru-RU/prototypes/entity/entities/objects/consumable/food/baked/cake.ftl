@@ -68,8 +68,10 @@ ent-FoodCakeLemon = лимонный торт
 
 ent-FoodCakeLemonSlice = кусок лимонного торта
     .desc = { ent-FoodCakeSliceBase.desc }
-    .suffix = { ent-FoodCakeSliceBase.suffix }
-
+ent-FoodCakeLemoon = лилунный торт
+    .desc = Торт, символизирующий земную луну.
+ent-FoodCakeLemoonSlice = кусок лилунного торта
+    .desc = Осколок луны, пахнущий молоком.
 ent-FoodCakeChocolate = шоколадный торт
     .desc = Торт с шоколадом.
     .suffix = { ent-FoodCakeBase.suffix }
@@ -140,8 +142,8 @@ ent-FoodCakeSpaceman = космонавтский торт
 
 ent-FoodCakeSpacemanSlice = кусок космонавтского торта
     .desc = Торт из трубы космонавта с глазурью.
-    .suffix = { ent-FoodCakeSliceBase.suffix }
-
+ent-MobCatCake = Корт
+    .desc = Это кот. Это торт. Это корт.
 ent-FoodCakeSuppermatter = суперматерия
     .desc = Чрезвычайно плотная и мощная пища.
     .suffix = { ent-FoodCakeBase.suffix }

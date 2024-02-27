@@ -1,23 +1,19 @@
 ent-GasPipeBase = труба
     .desc = Содержит газ.
-    .suffix = { ent-BaseItem.suffix }
-
 ent-GasPipeHalf = { ent-GasPipeBase }
-    .desc = { ent-GasPipeBase.desc }
     .suffix = Половинная
-
+    .desc = { ent-GasPipeBase.desc }
 ent-GasPipeStraight = { ent-GasPipeBase }
-    .desc = { ent-GasPipeBase.desc }
     .suffix = Прямая
-
+    .desc = { ent-GasPipeBase.desc }
 ent-GasPipeBend = { ent-GasPipeBase }
-    .desc = { ent-GasPipeBase.desc }
     .suffix = Угловая
-
+    .desc = { ent-GasPipeBase.desc }
 ent-GasPipeTJunction = { ent-GasPipeBase }
-    .desc = { ent-GasPipeBase.desc }
     .suffix = Т-образная
-
-ent-GasPipeFourway = { ent-GasPipeBase }
     .desc = { ent-GasPipeBase.desc }
+ent-GasPipeFourway = { ent-GasPipeBase }
     .suffix = Четверная
+    .desc = { ent-GasPipeBase.desc }
+ent-GasPipeBroken = сломанная труба
+    .desc = Раньше в ней содержался газ.

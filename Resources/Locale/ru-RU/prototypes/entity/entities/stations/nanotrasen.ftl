@@ -1,15 +1,8 @@
 ent-BaseStationNanotrasen = { "" }
     .desc = { "" }
-    .suffix = { "" }
-
-ent-StandardNanotrasenStation = StandardNanotrasenStation
+ent-StandardNanotrasenStation = { ent-BaseStation }
     .desc = { ent-BaseStation.desc }
-    .suffix = { ent-BaseStation.suffix }
-
-ent-NanotrasenCentralCommand = NanotrasenCentralCommand
+ent-NanotrasenCentralCommand = { ent-BaseStation }
     .desc = { ent-BaseStation.desc }
-    .suffix = { ent-BaseStation.suffix }
-
-ent-StandardStationArena = StandardStationArena
+ent-StandardStationArena = { ent-BaseStation }
     .desc = { ent-BaseStation.desc }
-    .suffix = { ent-BaseStation.suffix }

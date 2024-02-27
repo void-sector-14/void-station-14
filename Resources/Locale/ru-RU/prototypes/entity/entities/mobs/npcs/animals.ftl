@@ -12,12 +12,20 @@ ent-MobAngryBee = пчела
 
 ent-MobChicken = курица
     .desc = Была раньше яйца, динозавром!
-    .suffix = { ent-SimpleMobBase.suffix }
-
+ent-MobChicken1 = { ent-MobChicken }
+    .desc = { ent-MobChicken.desc }
+ent-MobChicken2 = { ent-MobChicken }
+    .desc = { ent-MobChicken.desc }
 ent-FoodEggChickenFertilized = { ent-FoodEgg }
-    .desc = { ent-FoodEgg.desc }
     .suffix = Оплодотворенный, Курица
-
+    .desc = { ent-FoodEgg.desc }
+ent-MobCockroach = таракан
+    .desc = Эта станция просто кишит насекомыми.
+ent-MobGlockroach = ТТаракан
+    .desc = Эта станция просто кишит на- О БОЖЕ, У ЭТОГО ТАРАКАНА ПИСТОЛЕТ!!!
+    .suffix = Адмемы
+ent-MobMothroach = таракамоль
+    .desc = Очаровательный результат многочисленных попыток генетического смешения ниан с тараканами.
 ent-MobDuckMallard = кряква
     .desc = Очаровательная кряква, она пушистая и мягкая!
     .suffix = { ent-SimpleMobBase.suffix }
@@ -64,16 +72,20 @@ ent-MobKangaroo = кенгуру
 
 ent-MobBoxingKangaroo = кенгуру-боксёр
     .desc = { ent-MobKangaroo.desc }
-    .suffix = { ent-MobKangaroo.suffix }
-
+ent-MobBaseAncestor = генетический предок
+    .desc = Генетический бипедальный предок... э-э... чего-то. Да, на станции определённо есть что-то, произошедшее от этого, чем бы оно ни было.
 ent-MobMonkey = обезьяна
     .desc = Новая церковь неодарвинистов действительно верит, что КАЖДОЕ животное произошло от обезьяны. На вкус они как свинина, а убивать их весело и приятно.
-    .suffix = { ent-SimpleMobBase.suffix }
-
-ent-MobGuidebookMonkey = обучающая обезьяна
-    .desc = Возможно полезная обезьянка, чья единственная цель в жизни — чтобы вы на нее нажимали. Считается ли это, что обезьяна обучает вас?
-    .suffix = { ent-MobMonkey.suffix }
-
+ent-MobBaseSyndicateMonkey = обезьяна
+    .desc = Новая церковь неодарвинистов действительно верит, что КАЖДОЕ животное произошло от обезьяны. На вкус они как свинина, а убивать их весело и приятно.
+    .suffix = Синдикат, Базовый
+ent-MobKobold = кобольд
+    .desc = Двоюродные братья разумной расы унатхов, кобольды сливаются со своей естественной средой обитания, и так же противны, как обезьяны. Они готовы вырвать ваши волосы и заколоть вас до смерти.
+ent-MobMonkeySyndicateAgentNukeops = { ent-MobBaseSyndicateMonkey }
+    .suffix = Ядерные Оперативники
+    .desc = { ent-MobBaseSyndicateMonkey.desc }
+ent-MobGuidebookMonkey = тренировочная обезьяна
+    .desc = Специально обученная обезьяна, чья единственная цель в жизни - чтобы вы кликнули на неё. Можно ли считать, что обезьяна преподала вам урок?
 ent-MobMouse = мышь
     .desc = Пии!
     .suffix = { ent-SimpleMobBase.suffix }
@@ -140,8 +152,9 @@ ent-MobClownSpider = клоун-паук
 
 ent-MobPossum = поссум
     .desc = "О поссум! Мой поссум!" -- Уолт Уитмен, 1865
-    .suffix = { ent-SimpleMobBase.suffix }
-
+ent-MobPossumOld = поссум
+    .suffix = Старый спрайт
+    .desc = { ent-MobPossum.desc }
 ent-MobRaccoon = енот
     .desc = Мусорная панда!
     .suffix = { ent-SimpleMobBase.suffix }
@@ -172,24 +185,28 @@ ent-MobCatCalico = трёхцветная кошка
 
 ent-MobCatSpace = космическая кошка
     .desc = Питомец семейства кошачьих, подготовленный к худшему.
-    .suffix = { ent-MobCat.suffix }
-
+ent-MobCatSyndy = синдикот
+    .desc = Взрывоопасный котёнок.
 ent-MobCatCaracal = каракаловая кошка
     .desc = Весёлое создание природы.
     .suffix = { ent-MobCat.suffix }
 
 ent-MobSloth = ленивец
     .desc = Очень медлительное животное. Для людей с низкой энергией.
-    .suffix = { ent-SimpleMobBase.suffix }
-
+ent-MobCatKitten = котёнок
+    .desc = Маленький и пушистый.
 ent-MobFerret = хорёк
     .desc = Просто маленький глупый парнишка!
-    .suffix = { ent-SimpleMobBase.suffix }
-
+ent-MobFox = лиса
+    .desc = Они - лисы.
 ent-MobHamster = хомяк
     .desc = Милый, пушистый, робастный хомяк.
     .suffix = { ent-SimpleMobBase.suffix }
 
 ent-MobPig = свинья
     .desc = Хрю.
-    .suffix = { ent-SimpleMobBase.suffix }
+ent-MobDionaNymph = нимфа дионы
+    .desc = Похожа на кошку, только.... ветвистее.
+ent-MobDionaNymphAccent = { ent-MobDionaNymph }
+    .suffix = Акцент
+    .desc = { ent-MobDionaNymph.desc }

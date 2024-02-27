@@ -44,8 +44,8 @@ ent-ClothingMaskClownBase = маска и парик клоуна
 
 ent-ClothingMaskClown = { ent-ClothingMaskClownBase }
     .desc = { ent-ClothingMaskClownBase.desc }
-    .suffix = { ent-ClothingMaskClownBase.suffix }
-
+ent-ClothingMaskClownBanana = банановые маска и парик клоуна
+    .desc = { ent-ClothingMaskClown.desc }
 ent-ClothingMaskJoy = маска радости
     .desc = Выразите свою радость или спрячьте свою печаль с помощью этой хохочущей до слёз маски.
     .suffix = { ent-ClothingMaskBase.suffix }

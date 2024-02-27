@@ -1,3 +1,3 @@
 ent-CargoTelepad = грузовой телепад
-    .desc = { ent-BaseStructureDynamic.desc }
+    .desc = Захватите пиццу и приступайте к работе.
     .suffix = { "" }

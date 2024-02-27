@@ -1,7 +1,8 @@
 ent-ClothingOuterSuitBomb = сапёрный костюм
     .desc = Тяжелый костюм, предназначенный для защиты от осколков и давления, создаваемого взрывом.
-    .suffix = { ent-ClothingOuterBaseLarge.suffix }
-
+ent-ClothingOuterSuitJanitorBomb = сапёрно-уборочный костюм
+    .desc = Тяжелый костюм, предназначенный для выдерживания взрывов, возникающих в результате реакций между химическими веществами.
+    .suffix = НЕ МАППИТЬ
 ent-ClothingOuterSuitFire = пожарный костюм
     .desc = Костюм, обеспечивающий защиту от опасных температур.
     .suffix = { ent-ClothingOuterBaseLarge.suffix }

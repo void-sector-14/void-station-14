@@ -1,35 +1,26 @@
 ent-BaseAnomaly = аномалия
     .desc = Непостижимый объект в пространстве. Стоит ли стоять так близко к нему?
-    .suffix = { "" }
-
 ent-AnomalyPyroclastic = { ent-BaseAnomaly }
-    .desc = { ent-BaseAnomaly.desc }
     .suffix = Пирокластика
-
+    .desc = { ent-BaseAnomaly.desc }
 ent-AnomalyGravity = { ent-BaseAnomaly }
-    .desc = { ent-BaseAnomaly.desc }
     .suffix = Гравитация
-
+    .desc = { ent-BaseAnomaly.desc }
 ent-AnomalyElectricity = { ent-BaseAnomaly }
-    .desc = { ent-BaseAnomaly.desc }
     .suffix = Электричество
-
+    .desc = { ent-BaseAnomaly.desc }
 ent-AnomalyFlesh = { ent-BaseAnomaly }
-    .desc = { ent-BaseAnomaly.desc }
     .suffix = Плоть
-
+    .desc = { ent-BaseAnomaly.desc }
 ent-AnomalyBluespace = { ent-BaseAnomaly }
-    .desc = { ent-BaseAnomaly.desc }
     .suffix = Блюспейс
-
+    .desc = { ent-BaseAnomaly.desc }
 ent-AnomalyIce = { ent-BaseAnomaly }
-    .desc = { ent-BaseAnomaly.desc }
     .suffix = Лёд
-
+    .desc = { ent-BaseAnomaly.desc }
 ent-AnomalyRock = { ent-BaseAnomaly }
-    .desc = { ent-BaseAnomaly.desc }
     .suffix = Камень
-
-ent-AnomalyLiquid = { ent-BaseAnomaly }
     .desc = { ent-BaseAnomaly.desc }
+ent-AnomalyLiquid = { ent-BaseAnomaly }
     .suffix = Жидкость
+    .desc = { ent-BaseAnomaly.desc }

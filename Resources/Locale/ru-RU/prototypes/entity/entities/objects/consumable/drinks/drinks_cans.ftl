@@ -4,8 +4,9 @@ ent-DrinkCanBaseFull = { ent-BaseItem }
 
 ent-DrinkColaCan = космическая кола
     .desc = Прохладительный напиток.
-    .suffix = { ent-DrinkCanBaseFull.suffix }
-
+ent-DrinkColaCanEmpty = { ent-DrinkColaCan }
+    .suffix = Пустой
+    .desc = { ent-DrinkColaCan.desc }
 ent-DrinkIcedTeaCan = банка холодного чая
     .desc = Освежающая банка холодного чая.
     .suffix = { ent-DrinkCanBaseFull.suffix }
@@ -72,4 +73,7 @@ ent-DrinkShamblersJuiceCan = банка сока Shambler
 
 ent-DrinkPwrGameCan = банка pwr game
     .desc = Единственный напиток, обладающий СИЛОЙ, которую жаждут настоящие геймеры. Когда геймеры говорят о геймерском топливе, они имеют в виду именно это.
-    .suffix = { ent-DrinkCanBaseFull.suffix }
+ent-DrinkBeerCan = банка пива
+    .desc = Маленькая радость, яркий вкус, никаких забот!
+ent-DrinkWineCan = банка вина
+    .desc = Ваш путь к веселью и забвению всех забот!

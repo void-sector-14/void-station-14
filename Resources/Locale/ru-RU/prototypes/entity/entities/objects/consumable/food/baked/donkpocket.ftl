@@ -1,71 +1,40 @@
 ent-FoodDonkpocketBase = { ent-FoodInjectableBase }
     .desc = { ent-FoodInjectableBase.desc }
-    .suffix = { ent-FoodInjectableBase.suffix }
-
 ent-FoodDonkpocket = донк-покет
     .desc = Еда опытного предателя.
-    .suffix = { ent-FoodDonkpocketBase.suffix }
-
-ent-FoodDonkpocketWarm = теплый донк-покет
+ent-FoodDonkpocketWarm = тёплый донк-покет
     .desc = Разогретая еда опытного предателя
-    .suffix = { ent-FoodDonkpocket.suffix }
-
 ent-FoodDonkpocketDank = данк-покет
     .desc = Еда опытного ботаника.
-    .suffix = { ent-FoodDonkpocketBase.suffix }
-
-ent-FoodDonkpocketDankWarm = теплый данк-покет
+ent-FoodDonkpocketDankWarm = тёплый данк-покет
     .desc = Разогретая еда опытного ботаника.
-    .suffix = { ent-FoodDonkpocketDank.suffix }
-
 ent-FoodDonkpocketSpicy = спайси-покет
     .desc = Классическая закуска, теперь с активируемым при нагревании острым вкусом.
-    .suffix = { ent-FoodDonkpocketBase.suffix }
-
-ent-FoodDonkpocketSpicyWarm = теплый спайси-покет
+ent-FoodDonkpocketSpicyWarm = тёплый спайси-покет
     .desc = Классическая закуска, теперь слишком острая.
-    .suffix = { ent-FoodDonkpocketSpicy.suffix }
-
 ent-FoodDonkpocketTeriyaki = терияки-покет
     .desc = Восточноазиатский вариант классической станционной закуски.
-    .suffix = { ent-FoodDonkpocketBase.suffix }
-
-ent-FoodDonkpocketTeriyakiWarm = теплый терияки-покет
+ent-FoodDonkpocketTeriyakiWarm = тёплый терияки-покет
     .desc = Восточноазиатский вариант классической станционной закуски, горячий и распаренный.
-    .suffix = { ent-FoodDonkpocketTeriyaki.suffix }
-
 ent-FoodDonkpocketPizza = пицца-покет
     .desc = Вкусные, сырные и удивительно сытные.
-    .suffix = { ent-FoodDonkpocketBase.suffix }
-
-ent-FoodDonkpocketPizzaWarm = теплый пицца-покет
-    .desc = Теплый сырный наполнитель - очень вкусный.
-    .suffix = { ent-FoodDonkpocketPizza.suffix }
-
+ent-FoodDonkpocketPizzaWarm = тёплый пицца-покет
+    .desc = тёплый сырный наполнитель - очень вкусный.
 ent-FoodDonkpocketHonk = хонк-покет
     .desc = Отмеченный наградами донк-покет, который завоевал сердца как клоунов, так и людей.
-    .suffix = { ent-FoodDonkpocketBase.suffix }
-
-ent-FoodDonkpocketHonkWarm = теплый хонк-покет
+ent-FoodDonkpocketHonkWarm = тёплый хонк-покет
     .desc = Отмеченный наградами донк-покет, теперь горячий и аппетитный.
-    .suffix = { ent-FoodDonkpocketHonk.suffix }
-
 ent-FoodDonkpocketBerry = ягодный покет
-    .desc = Бескомпромиссно сладкий донк-покет, впервые созданный для применения во время операции "Иракская свобода".
-    .suffix = { ent-FoodDonkpocketBase.suffix }
-
-ent-FoodDonkpocketBerryWarm = теплый ягодный покет
+    .desc = Бескомпромиссно сладкий донк-покет. На 100% состоит из искусственных ароматизаторов.
+ent-FoodDonkpocketBerryWarm = тёплый ягодный покет
     .desc = Бескомпромиссно сладкий донк-покет, теперь горячий и аппетитный.
-    .suffix = { ent-FoodDonkpocketBerry.suffix }
-
-ent-FoodDonkpocketGondola = гондола-покет
-    .desc = Решение использовать в рецепте настоящее мясо гондолы, мягко говоря, спорное.
-    .suffix = { ent-FoodDonkpocketBase.suffix }
-
-ent-FoodDonkpocketGondolaWarm = теплый гондола-покет
-    .desc = { ent-FoodDonkpocketGondola.desc }
-    .suffix = { ent-FoodDonkpocketGondola.suffix }
-
+ent-FoodDonkpocketStonk = стонк-покет
+    .desc = Вкусное, но грустное напоминание о великом биржевом крахе 24-го года.
+ent-FoodDonkpocketStonkWarm = тёплый стонк-покет
+    .desc = { ent-FoodDonkpocketStonk.desc }
+ent-FoodDonkpocketCarp = карп-покет
+    .desc = Давно забытая серия донк-покетов, созданная специально для трудолюбивых утилизаторов.
+ent-FoodDonkpocketCarpWarm = тёплый карп-покет
+    .desc = { ent-FoodDonkpocketCarp.desc }
 ent-FoodDonkpocketDink = динк-покет
     .desc = Малоизвестный донк-покет для ящеров, с начинкой из маринованной моркови и обернутый морскими водорослями. Рекомендуется употреблять холодным, а еще лучше вообще не есть.
-    .suffix = { ent-FoodDonkpocketBase.suffix }

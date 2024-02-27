@@ -28,4 +28,5 @@ ent-BoxMouthSwab = коробка стерильных палочек
 
 ent-BoxBodyBag = коробка мешков для тел
     .desc = Содержит мешки для тел.
-    .suffix = { ent-BoxCardboard.suffix }
+ent-BoxVial = коробка пробирок
+    .desc = Полная коробка пробирок.

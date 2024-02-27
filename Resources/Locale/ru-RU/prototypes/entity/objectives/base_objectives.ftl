@@ -1,35 +1,18 @@
-ent-BaseObjective = BaseObjective
+ent-BaseObjective = { "" }
     .desc = { "" }
-    .suffix = { "" }
-
 ent-BaseLivingObjective = { ent-BaseObjective }
-    .desc = { "" }
-    .suffix = { "" }
-
+    .desc = { ent-BaseObjective.desc }
 ent-BaseTargetObjective = { ent-BaseObjective }
-    .desc = { "" }
-    .suffix = { "" }
-
+    .desc = { ent-BaseObjective.desc }
 ent-BaseKillObjective = { ent-BaseTargetObjective }
-    .desc = { "" }
-    .suffix = { "" }
-
+    .desc = { ent-BaseTargetObjective.desc }
 ent-BaseSocialObjective = { ent-BaseTargetObjective }
-    .desc = { "" }
-    .suffix = { "" }
-
+    .desc = { ent-BaseTargetObjective.desc }
 ent-BaseKeepAliveObjective = { ent-BaseSocialObjective }
-    .desc = { "" }
-    .suffix = { "" }
-
+    .desc = { ent-BaseSocialObjective.desc }
 ent-BaseHelpProgressObjective = { ent-BaseSocialObjective }
-    .desc = { "" }
-    .suffix = { "" }
-
+    .desc = { ent-BaseSocialObjective.desc }
 ent-BaseStealObjective = { ent-BaseLivingObjective }
-    .desc = { "" }
-    .suffix = { "" }
-
+    .desc = { ent-BaseLivingObjective.desc }
 ent-BaseSurviveObjective = { ent-BaseObjective }
-    .desc = { "" }
-    .suffix = { "" }
+    .desc = { ent-BaseObjective.desc }

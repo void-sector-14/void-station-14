@@ -1,43 +1,34 @@
 ent-SurveillanceCameraBase = камера
     .desc = Камера наблюдения. Она наблюдает за тобой. Вроде как.
-    .suffix = { "" }
-
 ent-SurveillanceCameraConstructed = камера
-    .desc = { ent-SurveillanceCameraBase.desc }
     .suffix = Построенный
-
+    .desc = { ent-SurveillanceCameraBase.desc }
 ent-SurveillanceCameraEngineering = камера
-    .desc = { ent-SurveillanceCameraBase.desc }
     .suffix = Инженерный
-
+    .desc = { ent-SurveillanceCameraBase.desc }
 ent-SurveillanceCameraSecurity = камера
-    .desc = { ent-SurveillanceCameraBase.desc }
     .suffix = Охранный
-
+    .desc = { ent-SurveillanceCameraBase.desc }
 ent-SurveillanceCameraScience = камера
-    .desc = { ent-SurveillanceCameraBase.desc }
     .suffix = Научный
-
+    .desc = { ent-SurveillanceCameraBase.desc }
 ent-SurveillanceCameraSupply = камера
-    .desc = { ent-SurveillanceCameraBase.desc }
     .suffix = Карго, Снабжение
-
+    .desc = { ent-SurveillanceCameraBase.desc }
+ent-SurveillanceCameraScience = камера
+    .suffix = Научный
+    .desc = { ent-SurveillanceCameraBase.desc }
 ent-SurveillanceCameraCommand = камера
-    .desc = { ent-SurveillanceCameraBase.desc }
     .suffix = Командный
-
+    .desc = { ent-SurveillanceCameraBase.desc }
 ent-SurveillanceCameraService = камера
-    .desc = { ent-SurveillanceCameraBase.desc }
     .suffix = Сервисный
-
+    .desc = { ent-SurveillanceCameraBase.desc }
 ent-SurveillanceCameraMedical = камера
-    .desc = { ent-SurveillanceCameraBase.desc }
     .suffix = Медицинский
-
-ent-SurveillanceCameraGeneral = камера
     .desc = { ent-SurveillanceCameraBase.desc }
+ent-SurveillanceCameraGeneral = камера
     .suffix = Общий
-
+    .desc = { ent-SurveillanceCameraBase.desc }
 ent-SurveillanceCameraAssembly = камера
     .desc = Камера наблюдения. Не похоже, что в ближайшее время она будет за кем-то наблюдать. Возможно.
-    .suffix = { "" }

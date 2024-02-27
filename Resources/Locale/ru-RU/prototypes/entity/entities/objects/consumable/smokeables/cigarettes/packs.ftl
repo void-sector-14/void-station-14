@@ -28,12 +28,10 @@ ent-CigPackSyndicate = пачка трав Интердайн
 
 ent-CigPackMixedMedical = пачка пропитанных сигарет Дэна
     .desc = Дискаунтер Дэна работал с химическим подразделением компании Nanotrasen в области утилизации избытка химикатов, НАСЛАЖДАЙТЕСЬ.
-    .suffix = { ent-CigPackMixedBase.suffix }
-
+    .suffix = Лечебные
 ent-CigPackMixed = пачка пропитанных сигарет Дэна
     .desc = Дискаунтер Дэна работал с химическим подразделением компании Nanotrasen в области утилизации избытка химикатов, НАСЛАЖДАЙТЕСЬ.
-    .suffix = { ent-CigPackMixedBase.suffix }
-
+    .suffix = Смешанные
 ent-CigPackMixedNasty = пачка пропитанных сигарет Дэна
     .desc = Дискаунтер Дэна работал с химическим подразделением компании Nanotrasen в области утилизации избытка химикатов, НАСЛАЖДАЙТЕСЬ.
-    .suffix = { ent-CigPackMixedBase.suffix }
+    .suffix = Мерзкие

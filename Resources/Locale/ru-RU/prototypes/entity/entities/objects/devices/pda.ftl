@@ -128,8 +128,8 @@ ent-SecurityPDA = КПК офицера СБ
 
 ent-CentcomPDA = КПК Центком
     .desc = Светло-зеленый символ ходячей бюрократии.
-    .suffix = { ent-BasePDA.suffix }
-
+ent-AdminPDA = КПК админа
+    .desc = Если вы не админ, верните этот КПК ближайшему админу.
 ent-CentcomPDAFake = { ent-CentcomPDA }
     .desc = { ent-CentcomPDA.desc }
     .suffix = Фальшивый
@@ -156,8 +156,22 @@ ent-SyndiPDA = КПК синдиката
 
 ent-ERTLeaderPDA = КПК ОБР
     .desc = Красный значит мощный.
-    .suffix = { ent-BasePDA.suffix }
-
+    .suffix = Лидер
+ent-ERTChaplainPDA = { ent-ERTLeaderPDA }
+    .suffix = Священник
+    .desc = { ent-ERTLeaderPDA.desc }
+ent-ERTEngineerPDA = { ent-ERTLeaderPDA }
+    .suffix = Инженер
+    .desc = { ent-ERTLeaderPDA.desc }
+ent-ERTJanitorPDA = { ent-ERTLeaderPDA }
+    .suffix = Уборщик
+    .desc = { ent-ERTLeaderPDA.desc }
+ent-ERTMedicPDA = { ent-ERTLeaderPDA }
+    .suffix = Врач
+    .desc = { ent-ERTLeaderPDA.desc }
+ent-ERTSecurityPDA = { ent-ERTLeaderPDA }
+    .suffix = Офицер
+    .desc = { ent-ERTLeaderPDA.desc }
 ent-CBURNPDA = КПК РХБЗЗ
     .desc = Пахнет гнилой плотью.
     .suffix = { ent-ERTLeaderPDA.suffix }
@@ -204,4 +218,7 @@ ent-SeniorPhysicianPDA = КПК ведущего врача
 
 ent-SeniorOfficerPDA = КПК инструктора СБ
     .desc = Побит, помят, поломан, практически не пригоден для использования.
-    .suffix = { ent-BasePDA.suffix }
+ent-PiratePDA = КПК пирата
+    .desc = Йарр!
+ent-SyndiAgentPDA = КПК агента Синдиката
+    .desc = Когда лечения простых агентов Синдикатов недостаточно, займитесь лучением Ядерных оперативников!

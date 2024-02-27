@@ -1,3 +1,2 @@
-ent-ActionVehicleHorn = { action-name-honk }
-    .desc = { action-desc-honk }
-    .suffix = { "" }
+ent-ActionVehicleHorn = Бип
+    .desc = Бип бип!
