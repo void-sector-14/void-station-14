@@ -5,9 +5,20 @@ ui-options-tab-graphics = Графика
 ui-options-tab-controls = Управление
 ui-options-tab-audio = Аудио
 ui-options-tab-network = Сеть
+ui-options-tab-misc = Основные
 ui-options-apply = Применить
 ui-options-reset-all = Сбросить всё
 ui-options-default = По-умолчанию
+
+# Misc/General menu
+
+ui-options-discordrich = Включить Discord Rich Presence
+ui-options-general-ui-style = Стиль UI
+ui-options-general-discord = Discord
+ui-options-general-cursor = Курсор
+ui-options-general-speech = Речь
+ui-options-general-storage = Инвентарь
+ui-options-general-accessibility = Доступность
 
 ## Audio menu
 
@@ -16,6 +27,7 @@ ui-options-midi-volume = Громкость MIDI (Муз. инструменты
 ui-options-ambient-music-volume = Громкость музыки окружения:
 ui-options-ambience-volume = Громкость окружения:
 ui-options-lobby-volume = Громкость лобби и окончания раунда:
+ui-options-interface-volume = Громкость интерфейса:
 ui-options-ambience-max-sounds = Кол-во одновременных звуков окружения:
 ui-options-lobby-music = Музыка в лобби
 ui-options-restart-sounds = Звуки перезапуска раунда
@@ -26,8 +38,16 @@ ui-options-volume-percent = { TOSTRING($volume, "P0") }
 
 ## Graphics menu
 
-ui-options-show-held-item = Показать удерживаемый элемент рядом с курсором?
-ui-options-show-combat-mode-indicators = Показать индикатор боевого режима рядом с курсором?
+ui-options-show-held-item = Показать удерживаемый элемент рядом с курсором
+ui-options-show-combat-mode-indicators = Показать индикатор боевого режима рядом с курсором
+ui-options-opaque-storage-window = Непрозрачность окна хранилища
+ui-options-show-looc-on-head = Показывать LOOC-чат над головами персонажей
+ui-options-fancy-speech = Показывать имена в облачках с текстом
+ui-options-fancy-name-background = Добавить фон облачкам с текстом
+ui-options-enable-color-name = Цветные имена персонажей
+ui-options-reduced-motion = Снижение интенсивности визуальных эффектов
+ui-options-screen-shake-intensity = Интенсивность дрожания экрана
+ui-options-screen-shake-percent = { TOSTRING($intensity, "P0") }
 ui-options-vsync = Вертикальная синхронизация
 ui-options-fullscreen = Полный экран
 ui-options-lighting-label = Качество освещения:
@@ -45,12 +65,18 @@ ui-options-scale-175 = 175%
 ui-options-scale-200 = 200%
 ui-options-hud-theme = Тема HUD:
 ui-options-hud-theme-default = По умолчанию
-ui-options-hud-theme-modernized = Модернизированная
-ui-options-hud-theme-classic = Классическая
+ui-options-hud-theme-plasmafire = Плазма
+ui-options-hud-theme-slimecore = Слаймкор
+ui-options-hud-theme-clockwork = Механизм
+ui-options-hud-theme-retro = Ретро
+ui-options-hud-theme-minimalist = Минимализм
+ui-options-hud-theme-eris = Эрис
+ui-options-hud-theme-ashen = Пепел
 ui-options-vp-stretch = Растянуть изображение для соответствия окну игры
 ui-options-vp-scale = Фиксированный масштаб окна игры: x{ $scale }
 ui-options-vp-integer-scaling = Использовать целочисленное масштабирование (может вызывать появление чёрных полос/обрезания)
-ui-options-vp-integer-scaling-tooltip = Если эта опция включена, область просмотра будет масштабироваться,
+ui-options-vp-integer-scaling-tooltip =
+    Если эта опция включена, область просмотра будет масштабироваться,
     используя целочисленное значение при определённых разрешениях. Хотя это и
     приводит к чётким текстурам, это часто означает, что сверху/снизу экрана будут
     чёрные полосы или что часть окна не будет видна.
@@ -81,7 +107,7 @@ ui-options-header-dev = Разработка
 ui-options-header-general = Основное
 
 ui-options-hotkey-keymap = Использовать клавиши QWERTY (США)
-
+ui-options-hotkey-toggle-walk = Переключать шаг\бег
 ui-options-function-move-up = Двигаться вверх
 ui-options-function-move-left = Двигаться налево
 ui-options-function-move-down = Двигаться вниз
@@ -106,9 +132,13 @@ ui-options-function-alt-activate-item-in-world = Альтернативно ис
 ui-options-function-drop = Положить предмет
 ui-options-function-examine-entity = Изучить
 ui-options-function-swap-hands = Поменять руки
-
+ui-options-function-move-stored-item = Переместить хранящийся объект
+ui-options-function-rotate-stored-item = Повернуть хранящийся объект
+ui-options-static-storage-ui = Закрепить интерфейс хранилища на хотбаре
 ui-options-function-smart-equip-backpack = Умная экипировка в рюкзак
 ui-options-function-smart-equip-belt = Умная экипировка на пояс
+ui-options-function-open-backpack = Открыть рюкзак
+ui-options-function-open-belt = Открыть пояс
 ui-options-function-throw-item-in-hand = Бросить предмет
 ui-options-function-try-pull-object = Тянуть объект
 ui-options-function-move-pulled-object = Тянуть объект в сторону
@@ -146,7 +176,7 @@ ui-options-function-escape-context = Закрыть текущее окно ил
 
 ui-options-function-take-screenshot = Сделать скриншот
 ui-options-function-take-screenshot-no-ui = Сделать скриншот (без интерфейса)
-
+ui-options-function-toggle-fullscreen = Переключить полноэкранный режим
 ui-options-function-editor-place-object = Разместить объект
 ui-options-function-editor-cancel-place = Отменить размещение
 ui-options-function-editor-grid-place = Размещать в сетке

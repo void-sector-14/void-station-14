@@ -1,29 +1,20 @@
+marking-TattooHiveChest-tattoo_hive_chest = Татуировка, спина (Улей)
+marking-TattooNightlingChest-tattoo_nightling = Татуировка, грудь (Найтлинг)
 marking-TattooHiveChest = Татуировка, спина (Улей)
-marking-TattooHiveChest-hivechest = { marking-TattooHiveChest }
-
+marking-TattooSilverburghLeftLeg-tattoo_silverburgh_l_leg = Татуировка, левая нога (Силвербург)
+marking-TattooSilverburghRightLeg-tattoo_silverburgh_r_leg = Татуировка, правая нога (Силвербург)
 marking-TattooNightlingChest = Татуировка, грудь (Найтлинг)
-marking-TattooNightlingChest-nightlingchest = { marking-TattooNightlingChest }
-
+marking-TattooCampbellLeftArm-tattoo_campbell_l_arm = Татуировка, левая рука (Кэмпбелль)
+marking-TattooCampbellRightArm-tattoo_campbell_r_arm = Татуировка, правая рука (Кэмпбелль)
 marking-TattooSilverburghLeftLeg = Татуировка, левая нога (Силвербург)
-marking-TattooSilverburghLeftLeg-silverburghleftleg = { marking-TattooSilverburghLeftLeg }
-
+marking-TattooCampbellLeftLeg-tattoo_campbell_l_leg = Татуировка, левая нога (Кэмпбелль)
+marking-TattooCampbellRightLeg-tattoo_campbell_r_leg = Татуировка, правая нога (Кэмпбелль)
 marking-TattooSilverburghRightLeg = Татуировка, правая нога (Силвербург)
-marking-TattooSilverburghRightLeg-silverburghRightleg = { marking-TattooSilverburghRightLeg }
-
+marking-TattooEyeRight-tattoo_eye_r = Правый глаз
+marking-TattooEyeLeft-tattoo_eye_l = Левый глаз
 marking-TattooCampbellLeftArm = Татуировка, левая рука (Кэмпбелль)
-marking-TattooCampbellLeftArm-campbelleleftArm = { marking-TattooCampbellLeftArm }
-
 marking-TattooCampbellRightArm = Татуировка, правая рука (Кэмпбелль)
-marking-TattooCampbellRightArm-campbellrightarm = { marking-TattooCampbellRightArm }
-
 marking-TattooCampbellLeftLeg = Татуировка, левая нога (Кэмпбелль)
-marking-TattooCampbellLeftLeg-campbellleftleg = { marking-TattooCampbellLeftLeg }
-
 marking-TattooCampbellRightLeg = Татуировка, правая нога (Кэмпбелль)
-marking-TattooCampbellRightLeg-campbellrightleg = { marking-TattooCampbellRightLeg }
-
 marking-TattooEyeRight = Правый глаз
-marking-TattooEyeRight-eyeright = { marking-TattooEyeRight }
-
 marking-TattooEyeLeft = Левый глаз
-marking-TattooEyeLeft-eyeleft = { marking-TattooEyeLeft }

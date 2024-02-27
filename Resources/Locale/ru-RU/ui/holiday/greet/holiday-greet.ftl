@@ -1,41 +1,71 @@
-# Декабрь-Январь
-holiday-name-new-year = Счастливого Нового Года!
+## Generic Congrats
 
-# 14 Января
-holiday-name-old-new-year = Отмечаем Старый Новый Год!
+holiday-greet = Счастливого { $holidayName }!
 
-# 14 Февраля
-holiday-name-valentines-day = С днём Валентина!
+## Holiday Names
 
-# 16 Февраля
-holiday-name-birthday13 = Сегодня день рождения Space Station 13!
-
-# 29 Февраля
-holiday-name-leap-day = 29 февраля случается раз в 4 года.
-
-# 9 Марта
-#holiday-name-miku-day = Hatsune Miku Day
-
-# 1 Апреля
-holiday-name-april-fool-day = А у вас спина белая. С днём дурака! =Р
-
-# 12 Апреля
-holiday-name-cosmonautics-day = С днём Космонавтики!
-
-# 26 Апреля
-holiday-name-birthday14 = С днём рождения Space Station 14!
-
-# 1 Мая
-holiday-name-labor-day = Мир! Труд! Май!
-
-# 21 Июня
-holiday-name-summer-solstice = Сегодня день летнего солнцестояния.
-
-# 31 Октября
-holiday-name-halloween = Halloween!
-
-# Пятница 13-е
-holiday-name-friday-thirteenth = Пятница 13!
-
-# 5 Декабря
-holiday-name-birthday-czeshuika = День рождения Чешуйки!
+holiday-name-new-year = Нового года
+holiday-name-mister-lizard = дня рождения Мистера Ящерки
+holiday-name-chinese-new-year = Китайского Нового года
+holiday-name-groundhog-day = Дня сурка
+holiday-name-valentines-day = Дня святого Валентина
+holiday-name-birthday13 = Дня рождения Space Station 13
+holiday-name-random-kindness = Дня спонтанного проявления доброты
+holiday-name-leap-day = високосного дня
+holiday-name-miku-day = Дня Мику Хацунэ
+holiday-name-pi-day = Дня Пи
+holiday-name-st-patricks-day = Дня святого Патрика
+holiday-name-easter = дня католической Пасхи
+holiday-name-april-fool-day = Дня дураков
+holiday-name-autism-awareness-day = Дня распространения информации о проблеме аутизма
+holiday-name-cosmonautics-day = Дня космонавтики
+holiday-name-four-twenty = четыре-двадцать
+holiday-name-tea-day = Национального дня чая в Великобритании
+holiday-name-earth-day = Дня Земли
+holiday-name-anzac-day = Дня АНЗАК
+holiday-name-birthday14 = Дня рождения Space Station 14
+holiday-name-labor-day = Дня труда
+holiday-name-firefighter-day = Международного дня пожарных
+holiday-name-mothers-day = Международного дня матери
+holiday-name-owl-and-pussycat-day = Дня Совёнка и Кошечки
+holiday-name-towel-day = Дня полотенца
+holiday-name-mommi-day = Дня MoMMI
+holiday-name-garbage-day = Дня мусора
+holiday-name-international-picnic-day = Международного дня пикника
+holiday-name-fathers-day = Дня отца
+holiday-name-summer-solstice = летнего солнцестояния
+holiday-name-stonewall-riots-anniversary = дня годовщины Стоунволлских бунтов
+holiday-name-doctor-day = Национального дня врача в США
+holiday-name-ufo-day = Международного дня НЛО
+holiday-name-us-independence-day = Дня независимости США
+holiday-name-writers-day = Дня писателя
+holiday-name-bastille-day = Дня взятия Бастилии
+holiday-name-friendship-day = Дня дружбы
+holiday-name-beer-day = Дня пива
+holiday-name-talk-like-a-pirate-day = Дня «Говори как пират»
+holiday-name-programmers-day = Дня программиста
+holiday-name-bisexual-pride-day = Дня празднования бисексуальности
+holiday-name-stupid-questions-day = Дня глупых вопросов
+holiday-name-animals-day = Дня защиты животных
+holiday-name-smiling-day = Дня улыбки
+holiday-name-lesbian-day = Дня осведомленности о лесбиянках
+holiday-name-canadian-thanksgiving = Дня благодарения в Канаде
+holiday-name-spirit-day = Дня сильных духом
+holiday-name-halloween = Хэллоуина
+holiday-name-vegan-day = Веганского дня
+holiday-name-armistice-day = Дня перемирия
+holiday-name-kindness-day = Дня доброты
+holiday-name-life-day = Дня жизни у вуки
+holiday-name-flowers-day = Дня цветов
+holiday-name-transgender-remembrance-day = Дня памяти трансгендерных людей
+holiday-name-saying-hello-day = Дня приветствий
+holiday-name-thanksgiving = Дня благодарения в США
+holiday-name-sinterklaas = Синтерклааса
+holiday-name-human-rights-day = Дня прав человека
+holiday-name-monkey-day = Дня обезьян
+holiday-name-mayan-doomsday = дня годовщины Конца света по календарю майя
+holiday-name-christmas = католического Рождества
+holiday-name-festive-season = наступающего Нового года
+holiday-name-boxing-day = Дня подарков
+holiday-name-friday-thirteenth = Дня неприятностей
+holiday-name-national-coming-out-day = Национального дня каминг-аута

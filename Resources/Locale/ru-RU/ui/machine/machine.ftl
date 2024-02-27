@@ -9,10 +9,9 @@ machine-upgrade-not-upgraded = Параметр [color=yellow]{ $upgraded }[/col
 machine-part-name-capacitor = конденсатор
 machine-part-name-manipulator = манипулятор
 machine-part-name-matter-bin = ёмкость материи
-upgrade-power-draw = потребление энергии
-upgrade-max-charge = максимальный запас энергии
-upgrade-power-supply = производство энергии
+machine-part-name-power-cell = батарея
 two-way-lever-left = Вы сдвигаете рычаг влево
 two-way-lever-right = Вы сдвигаете рычаг вправо
 two-way-lever-cant = Рычаг не может быть сдвинут в эту сторону!
 recycler-count-items = Переработано объектов: { $items }.
+machine-already-in-use = { CAPITALIZE($machine) } уже используется.

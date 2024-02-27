@@ -20,7 +20,11 @@ gun-ballistic-transfer-target-full = { CAPITALIZE($entity) } уже полнос
 gun-cartridge-spent = Он [color=red]израсходован[/color].
 gun-cartridge-unspent = Он [color=lime]не израсходован[/color].
 # BatteryAmmoProvider
-gun-battery-examine = Заряда хватит на [color={ $color }]{ $count }[/color] выстрелов.
+gun-battery-examine = Заряда хватит на [color={ $color }]{ $count }[/color] { $count ->
+        [one] выстрел
+        [few] выстрела
+       *[other] выстрелов
+    }.
 # CartridgeAmmoProvider
 gun-chamber-bolt-ammo = Затвор не закрыт
 gun-chamber-bolt = Затвор [color={ $color }]{ $bolt }[/color].

@@ -9,3 +9,5 @@ species-name-arachnid = Арахнид
 species-name-moth = Ниан
 species-name-vulpkanin = Вульпканин
 species-name-katunian = Катунианец
+species-name-skeleton = Скелет
+species-name-vox = Вокс

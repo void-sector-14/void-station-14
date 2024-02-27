@@ -2,7 +2,6 @@ anomaly-component-contact-damage = Аномалия сдирает с вас к�
 anomaly-vessel-component-anomaly-assigned = Аномалия присвоена сосуду.
 anomaly-vessel-component-not-assigned = Этому сосуду не присвоена ни одна аномалия. Попробуйте использовать на нём сканер.
 anomaly-vessel-component-assigned = Этому сосуду уже присвоена аномалия.
-anomaly-vessel-component-upgrade-output = генерация очков
 anomaly-particles-delta = Дельта-частицы
 anomaly-particles-epsilon = Эпсилон-частицы
 anomaly-particles-zeta = Зета-частицы
@@ -20,6 +19,31 @@ anomaly-scanner-particle-danger = - [color=crimson]Опасный тип:[/color
 anomaly-scanner-particle-unstable = - [color=plum]Нестабильный тип:[/color] { $type }
 anomaly-scanner-particle-containment = - [color=goldenrod]Сдерживающий тип:[/color] { $type }
 anomaly-scanner-pulse-timer = Время до следующего импульса: [color=gray]{ $time }[/color]
+anomaly-gorilla-core-slot-name = Ядро аномалии
+anomaly-gorilla-charge-none = Внутри нет [bold]ядра аномалии[/bold].
+anomaly-gorilla-charge-limit =
+    { $count ->
+        [one] Остался
+       *[other] Осталось
+    } [color={ $count ->
+        [3] green
+        [2] yellow
+        [1] orange
+        [0] red
+       *[other] purple
+    }]{ $count } { $count ->
+        [one] заряд
+        [few] заряда
+       *[other] зарядов
+    }[/color].
+anomaly-gorilla-charge-infinite = Осталось [color=gold]бесконечное количество зарядов[/color]. [italic]Пока что...[/italic]
+anomaly-sync-connected = Аномалия успешно привязана
+anomaly-sync-disconnected = Соединение с аномалией было потеряно!
+anomaly-sync-no-anomaly = Отсутствует аномалия в пределах диапазона.
+anomaly-sync-examine-connected = Он [color=darkgreen]присоединён[/color] к аномалии.
+anomaly-sync-examine-not-connected = Он [color=darkred]не присоединён[/color] к аномалии.
+anomaly-sync-connect-verb-text = Присоединить аномалию
+anomaly-sync-connect-verb-message = Присоединить близлежащую аномалию к { $machine }.
 anomaly-generator-ui-title = генератор аномалий
 anomaly-generator-fuel-display = Топливо:
 anomaly-generator-cooldown = Перезарядка: [color=gray]{ $time }[/color]

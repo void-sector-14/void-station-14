@@ -1,100 +1,69 @@
+marking-LizardFrillsShort-frills_short = Унатх, воротник (Короткий)
 marking-LizardFrillsShort = Унатх, воротник (Короткий)
-marking-LizardFrillsShort-frills_short = { marking-LizardFrillsShort }
-
+marking-LizardFrillsSimple-frills_simple = Унатх, воротник (Простой)
 marking-LizardFrillsSimple = Унатх, воротник (Простой)
-marking-LizardFrillsSimple-frills_simple = { marking-LizardFrillsSimple }
-
+marking-LizardFrillsAquatic-frills_aquatic = Унатх, воротник (Водный)
 marking-LizardFrillsAquatic = Унатх, воротник (Водный)
-marking-LizardFrillsAquatic-frills_aquatic = { marking-LizardFrillsAquatic }
-
+marking-LizardHornsAngler-horns_angler = Унатх, рожки (Рыболов)
 marking-LizardHornsAngler = Унатх, рожки (Рыболов)
-marking-LizardHornsAngler-horns_angler = { marking-LizardHornsAngler }
-
+marking-LizardHornsCurled-horns_curled = Унатх, рожки (Завитые)
 marking-LizardHornsCurled = Унатх, рожки (Завитые)
-marking-LizardHornsCurled-horns_curled = { marking-LizardHornsCurled }
-
+marking-LizardHornsRam-horns_ram = Унатх, рожки (Бараньи)
 marking-LizardHornsRam = Унатх, рожки (Бараньи)
-marking-LizardHornsRam-horns_ram = { marking-LizardHornsRam }
-
+marking-LizardHornsShort-horns_short = Унатх, рожки (Короткие)
 marking-LizardHornsShort = Унатх, рожки (Короткие)
-marking-LizardHornsShort-horns_short = { marking-LizardHornsShort }
-
+marking-LizardHornsSimple-horns_simple = Унатх, рожки
 marking-LizardHornsSimple = Унатх, рожки
-marking-LizardHornsSimple-horns_simple = { marking-LizardHornsSimple }
-
+marking-LizardTailSmooth-tail_smooth = Унатх, хвост (Гладкий)
 marking-LizardTailSmooth = Унатх, хвост (Гладкий)
-marking-LizardTailSmooth-tail_smooth = { marking-LizardTailSmooth }
-
+marking-LizardTailLarge-tail_large = Унатх, хвост (Большой)
+marking-LizardTailLarge = Унатх, хвост (Большой)
+marking-LizardTailSpikes-tail_spikes = Унатх, хвост (Шипастый)
 marking-LizardTailSpikes = Унатх, хвост (Шипастый)
-marking-LizardTailSpikes-tail_spikes = { marking-LizardTailSpikes }
-
+marking-LizardTailLTiger-tail_ltiger = Унатх, хвост (Светлые тигриные полоски)
 marking-LizardTailLTiger = Унатх, хвост (Светлые тигриные полоски)
-marking-LizardTailLTiger-tail_ltiger = { marking-LizardTailLTiger }
-
+marking-LizardTailDTiger-tail_dtiger = Унатх, хвост (Тёмные тигриные полоски)
 marking-LizardTailDTiger = Унатх, хвост (Тёмные тигриные полоски)
-marking-LizardTailDTiger-tail_dtiger = { marking-LizardTailDTiger }
-
+marking-LizardSnoutRound-snout_round = Унатх, морда (Круглая)
 marking-LizardSnoutRound = Унатх, морда (Круглая)
-marking-LizardSnoutRound-snout_round = { marking-LizardSnoutRound }
-
+marking-LizardSnoutSharp-snout_sharp = Унатх, морда (Заострёная)
 marking-LizardSnoutSharp = Унатх, морда (Заострёная)
-marking-LizardSnoutSharp-snout_sharp = { marking-LizardSnoutSharp }
-
+marking-LizardChestTiger-body_tiger = Унатх, грудь (Тигр)
 marking-LizardChestTiger = Унатх, грудь (Тигр)
-marking-LizardChestTiger-chest_tiger = { marking-LizardChestTiger }
-
+marking-LizardHeadTiger-head_tiger = Унатх, голова (Тигр)
 marking-LizardHeadTiger = Унатх, голова (Тигр)
-marking-LizardHeadTiger-head_tiger = { marking-LizardHeadTiger }
-
+marking-LizardLArmTiger-l_arm_tiger = Унатх, левая рука (Тигр)
 marking-LizardLArmTiger = Унатх, левая рука (Тигр)
-marking-LizardLArmTiger-l_arm_tiger = { marking-LizardLArmTiger }
-
+marking-LizardLLegTiger-l_leg_tiger = Унатх, левая нога (Тигр)
 marking-LizardLLegTiger = Унатх, левая нога (Тигр)
-marking-LizardLLegTiger-l_leg_tiger = { marking-LizardLLegTiger }
-
+marking-LizardRArmTiger-r_arm_tiger = Унатх, правая рука (Тигр)
 marking-LizardRArmTiger = Унатх, правая рука (Тигр)
-marking-LizardRArmTiger-r_arm_tiger = { marking-LizardRArmTiger }
-
+marking-LizardRLegTiger-r_leg_tiger = Унатх, правая нога (Тигр)
 marking-LizardRLegTiger = Унатх, правая нога (Тигр)
-marking-LizardRLegTiger-r_leg_tiger = { marking-LizardRLegTiger }
-
+marking-LizardFrillsDivinity-frills_divinity = Унатх, воротник (Божественный)
 marking-LizardFrillsDivinity = Унатх, воротник (Божественный)
-marking-LizardFrillsDivinity-frills_divinity = { marking-LizardFrillsDivinity }
-
+marking-LizardFrillsBig-frills_big = Унатх, воротник (Большой)
 marking-LizardFrillsBig = Унатх, воротник (Большой)
-marking-LizardFrillsBig-frills_big = { marking-LizardFrillsBig }
-
+marking-LizardHornsDouble-horns_double = Унатх, рожки (Двойные)
 marking-LizardHornsDouble = Унатх, рожки (Двойные)
-marking-LizardHornsDouble-horns_double = { marking-LizardHornsDouble }
-
+marking-LizardFrillsAxolotl-frills_axolotl = Унатх, воротник (Аксолотль)
+marking-LizardFrillsHood-frills_hood_primary = Внешний капюшон
+marking-LizardFrillsHood-frills_hood_secondary = Внутренний капюшон
 marking-LizardFrillsAxolotl = Унатх, воротник (Аксолотль)
-marking-LizardFrillsAxolotl-frills_axolotl = { marking-LizardFrillsAxolotl }
-
 marking-LizardFrillsHood = Унатх, воротник (Капюшон)
-marking-LizardFrillsHood-frills_hood = { marking-LizardFrillsHood }
-
-marking-LizardChestTatu1 = (wip) LizardChestTatu1
-
-marking-LizardHornsRich = (wip) LizardHornsRich
-marking-LizardHornsChain = (wip) LizardHornsChain
-marking-LizardHornsImperial = (wip) LizardHornsImperial
-marking-LizardHornsRing = (wip) LizardHornsRing
-marking-LizardHornsBell = (wip) LizardHornsBell
-marking-LizardHornsFlower = (wip) LizardHornsFlower
-marking-LizardHornsShortBell = (wip) LizardHornsShortBell
-marking-LizardHornsShortFL = (wip) LizardHornsShortFL
-marking-LizardHornsShortFlowers = (wip) LizardHornsShortFlowers
-marking-LizardHornsShortLeafs = (wip) LizardHornsShortLeafs
-marking-LizardHornsShortSickle = (wip) LizardHornsShortSickle
-marking-LizardHornsShortToy = (wip) LizardHornsShortToy
-marking-LizardHornsRamBell = (wip) LizardHornsRamBell
-marking-LizardHornsRamFlower = (wip) LizardHornsRamFlower
-marking-LizardHornsRamRibbon1 = (wip) LizardHornsRamRibbon1
-marking-LizardHornsRamRibbon2 = (wip) LizardHornsRamRibbon2
-marking-LizardHornsDoubleBell = (wip) LizardHornsDoubleBell
-marking-LizardHornsDoubleRibbon = (wip) LizardHornsDoubleRibbon
-marking-LizardHornsDoubleLeaf = (wip) LizardHornsDoubleLeaf
-marking-LizardHornsCurledBell = (wip) LizardHornsCurledBell
-marking-LizardHornsCurledFlower = (wip) LizardHornsCurledFlower
-marking-LizardHornsCurledFrozen = (wip) LizardHornsCurledFrozen
-marking-LizardHornsCurledMoss = (wip) LizardHornsCurledMoss
+marking-LizardHornsArgali-horns_argali = Унатх, рожки (Аргали)
+marking-LizardHornsArgali = Унатх, рожки (Аргали)
+marking-LizardHornsAyrshire-horns_ayrshire = Унатх, рожки (Айршир)
+marking-LizardHornsAyrshire = Унатх, рожки (Айршир)
+marking-LizardHornsMyrsore-horns_myrsore = Унатх, рожки (Мирзора)
+marking-LizardHornsMyrsore = Унатх, рожки (Мирзора)
+marking-LizardHornsBighorn-horns_bighorn = Унатх, рожки (Толсторог)
+marking-LizardHornsBighorn = Унатх, рожки (Толсторог)
+marking-LizardHornsKoboldEars-horns_kobold_ears = Унатх, уши (Кобольд)
+marking-LizardHornsKoboldEars = Унатх, уши (Кобольд)
+marking-LizardHornsFloppyKoboldEars-horns_floppy_kobold_ears = Унатх, уши (Вислоухий кобольд)
+marking-LizardHornsFloppyKoboldEars = Унатх, уши (Вислоухий кобольд)
+marking-LizardChestUnderbelly-body_underbelly = Унатх, грудь (Подбрюшье)
+marking-LizardChestUnderbelly = Унатх, грудь (Подбрюшье)
+marking-LizardChestBackspikes-body_backspikes = Унатх, грудь, шипы на спине (Четыре)
+marking-LizardChestBackspikes = Унатх, грудь, шипы на спине (Четыре)

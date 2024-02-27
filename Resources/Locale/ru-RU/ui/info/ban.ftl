@@ -2,9 +2,9 @@
 cmd-ban-desc = Банит кого-либо
 cmd-ban-help = Использование: ban <name or user ID> <reason> [продолжительность в минутах, без указания или 0 для пермабана]
 cmd-ban-player = Не удалось найти игрока с таким именем.
-cmd-ban-invalid-minutes = ${ minutes } is not a valid amount of minutes!
-cmd-ban-invalid-severity = ${ severity } is not a valid severity!
-cmd-ban-invalid-arguments = Invalid amount of arguments
+cmd-ban-invalid-minutes = { $minutes } не является допустимым количеством минут!
+cmd-ban-invalid-severity = { $severity } не является допустимой тяжестью!
+cmd-ban-invalid-arguments = Недопустимое число аргументов
 cmd-ban-hint = <name/user ID>
 cmd-ban-hint-reason = <reason>
 cmd-ban-hint-severity = [severity]
@@ -76,9 +76,11 @@ ban-panel-months = Месяца
 ban-panel-years = Года
 ban-panel-permanent = Перманентно
 ban-panel-ip-hwid-tooltip = Оставьте пустым и установите флажок ниже, чтобы использовать данные последнего подключения.
-ban-panel-severity = Критерий:
+ban-panel-severity = Тяжесть:
 
 # Ban string
-server-ban-string = { $admin } создал полную блокировку игрока по критерию { $severity } со сроком действия { $expires } для [{ $name }, { $ip }, { $hwid }] по причине: { $reason }
+server-ban-string = { $admin } created a { $severity } severity server ban that expires { $expires } for [{ $name }, { $ip }, { $hwid }], with reason: { $reason }
+ban-panel-erase = Стереть сообщения в чате и игрока из раунда
 server-ban-string-never = никогда
 server-ban-string-no-pii = { $admin } создал полную блокировку игрока по критерию { $severity } со сроком действия { $expires } для { $name } по причине: { $reason }
+cmd-ban_exemption_get-arg-player = <player>

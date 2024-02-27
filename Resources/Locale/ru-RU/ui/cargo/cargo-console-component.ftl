@@ -12,7 +12,7 @@ cargo-console-menu-shuttle-status-away-text = Отбыл
 cargo-console-menu-order-capacity-label = Объём заказов:{ " " }
 cargo-console-menu-call-shuttle-button = Активировать телепад
 cargo-console-menu-permissions-button = Доступы
-cargo-console-menu-categories-label = Категория:{ " " }
+cargo-console-menu-categories-label = Категории:{ " " }
 cargo-console-menu-search-bar-placeholder = Поиск
 cargo-console-menu-requests-label = Запросы
 cargo-console-menu-orders-label = Заказы
@@ -29,6 +29,8 @@ cargo-console-invalid-product = Неверный ID продукта
 cargo-console-too-many = Слишком много одобренных заказов
 cargo-console-snip-snip = Заказ урезан до вместимости
 cargo-console-insufficient-funds = Недостаточно средств (требуется { $cost })
+cargo-console-unfulfilled = Нет места для выполнения заказа
+cargo-console-trade-station = Отправить на { $destination }
 cargo-console-paper-print-name = Заказ #{ $orderNumber }
 cargo-console-paper-print-text =
     Заказ #{ $orderNumber }
