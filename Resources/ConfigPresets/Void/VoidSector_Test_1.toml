@@ -1,0 +1,93 @@
+################################################################################
+##### General ##################################################################
+
+[net]
+port = 1213
+bindto = "0.0.0.0"
+log_late_msg = false
+
+[database]
+engine = "sqlite"
+sqlite_dbpath = "database.sqlite"
+
+[game]
+desc = "VoidSector Test 1"
+#hostname = "[RU][HRP] VoidSector"
+soft_max_players = 60
+lobbyduration = 180
+fallbackpreset = "Extended"
+
+[hub]
+advertise = false
+
+[server]
+rules_file = "RP_Rules.txt"
+rules_header = "ui-rules-header-rp"
+
+[console]
+login_host_user = "Makot"
+
+[admin]
+see_own_notes = true
+note_fresh_days = 0
+message_wait_time = 1
+new_player_threshold = 180
+afk_time = 180.0
+
+[infolinks]
+discord = "https://discord.gg/Tc5RNEWVWS"
+
+[replay]
+auto_record = true
+
+[accessibility]
+reduced_motion = true
+
+################################################################################
+##### In Game ##################################################################
+
+[atmos]
+space_wind = true
+
+[biomass]
+easy_mode = false
+
+[vote]
+timermap = 30
+
+[shuttle]
+arrivals_returns = true
+emergency_early_launch_allowed = true
+emergency_dock_time = 300.0
+emergency_authorize_time = 30.0
+recall_turning_point = 0.1
+auto_call_time = 120
+auto_call_extension_time = 60
+
+[rules]
+time = 0.0
+
+[tips]
+enabled = false
+
+[ooc]
+enable_during_round = false
+
+[looc]
+enabled_crit = true
+
+[ic]
+flavor_text = true
+punctuation = true
+
+################################################################################
+##### Events ###################################################################
+
+[zombie]
+min_players = 10
+
+[traitor]
+min_players = 3
+
+[pirates]
+min_players = 15
