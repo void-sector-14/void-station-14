@@ -67,9 +67,18 @@ time = 90.0
 
 [infolinks]
 discord = "https://discord.gg/Tc5RNEWVWS"
+wiki = "https://js.ss14.su/home"
 
 [replay]
 auto_record = true
 
 [hub]
 tags = "lang:ru,region:eu_e,rp:high"
+
+################################################################################
+##### Discord ##################################################################
+
+[discord]
+ahelp_webhook = "https://discord.com/api/webhooks/1212462166574112768/DHvqrMihrQHcvo5j8bp0tJhZ4U_728r4FWvTSTZsCwUu74UcG3lyL6g7QtmwaV0UiCoV"
+ahelp_avatar = "https://i.imgur.com/e9AMvev.png"
+ahelp_footer_icon = "https://i.imgur.com/e9AMvev.png"

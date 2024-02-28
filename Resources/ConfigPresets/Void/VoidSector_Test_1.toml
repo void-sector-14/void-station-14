@@ -17,9 +17,6 @@ soft_max_players = 60
 lobbyduration = 180
 fallbackpreset = "Extended"
 
-[discord]
-ahelp_webhook = "https://discord.com/api/webhooks/1212438778099142667/OeGhFXmXqIR4_pg7o2tBBIG7c6Vsz-8XOP1rgi1cTgeR5LYzwSZmyRqukEHuNgN71LkV"
-
 [hub]
 advertise = false
 
