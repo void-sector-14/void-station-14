@@ -12,7 +12,7 @@ sqlite_dbpath = "database.sqlite"
 
 [game]
 desc = "VoidSector Test 1"
-#hostname = "[RU][HRP] VoidSector"
+hostname = "Пустотный Полигон"
 soft_max_players = 60
 lobbyduration = 180
 fallbackpreset = "Extended"
