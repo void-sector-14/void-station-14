@@ -54,20 +54,20 @@ ent-ClothingOuterHardsuitLuxury = роскошный скафандр шахтё
     .desc = Отремонтированный скафандр шахтёра, выполненный в цветах Квартирмейстера. Графеновая подкладка обеспечивает меньшую защиту, но с ней гораздо легче двигаться.
     .suffix = { ent-ClothingOuterHardsuitBase.suffix }
 
-ent-ClothingOuterHardsuitSyndie = ядовито-зелёный скафандр
+ent-ClothingOuterHardsuitSyndie = кроваво-красный скафандр
     .desc = Тяжелобронированный и мобильный скафандр, предназначенный для специальных операций.
     .suffix = { ent-ClothingOuterHardsuitBase.suffix }
 
-ent-ClothingOuterHardsuitMedic = ядовито-зелёный медицинский скафандр
+ent-ClothingOuterHardsuitMedic = кроваво-красный медицинский скафандр
     .desc = Тяжелобронированный и маневренный усовершенствованный скафандр, специально разработанный для полевых операций.
     .suffix = { "" }
 
 ent-ClothingOuterHardsuitSyndieElite = скафандр элиты синдиката
-    .desc = Усовершенствованная версия ядовито-зелёного скафандра, отличающаяся повышенной огнеупорностью, устойчивостью к давлению и превосходной броней.
+    .desc = Усовершенствованная версия кроваво-красного скафандра, отличающаяся повышенной огнеупорностью, устойчивостью к давлению и превосходной броней.
     .suffix = { ent-ClothingOuterHardsuitBase.suffix }
 
 ent-ClothingOuterHardsuitSyndieCommander = скафандр командира синдиката
-    .desc = Ядовито-зелёный скафандр, серьезно модифицированный для использования командирами оперативных отрядов.
+    .desc = кроваво-красный скафандр, серьезно модифицированный для использования командирами оперативных отрядов.
     .suffix = { ent-ClothingOuterHardsuitBase.suffix }
 
 ent-ClothingOuterHardsuitJuggernaut = костюм джаггернаута Cybersun

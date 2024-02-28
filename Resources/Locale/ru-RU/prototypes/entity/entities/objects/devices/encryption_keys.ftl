@@ -50,7 +50,7 @@ ent-EncryptionKeyService = ключ шифрования сервисного о
     .desc = Ключ шифрования, используемый сотрудниками сервисного отдела, которым поручено поддерживать станцию сытой, счастливой, и чистой.
     .suffix = { ent-EncryptionKey.suffix }
 
-ent-EncryptionKeySyndie = ядовито-зелёный ключ шифрования
+ent-EncryptionKeySyndie = кроваво-красный ключ шифрования
     .desc = Ключ шифрования, используемый... секундочку... Кто владелец этого чипа?
     .suffix = { ent-EncryptionKey.suffix }
 

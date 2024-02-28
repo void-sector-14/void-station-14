@@ -10,7 +10,7 @@ ent-ClothingShoesBootsMagBlinding = магнитные сапоги ослепл
     .desc = Они будут отлично смотреться на ловкаче вроде вас.
     .suffix = { ent-ClothingShoesBootsMag.suffix }
 
-ent-ClothingShoesBootsMagSyndie = ядовито-зелёные магнитные сапоги
+ent-ClothingShoesBootsMagSyndie = кроваво-красные магнитные сапоги
     .desc = Созданные по технологии реверс-инжиниринга магнитные ботинки с встроенными ускорителями.
     .suffix = { ent-ClothingShoesBase.suffix }
 
