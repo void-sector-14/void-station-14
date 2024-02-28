@@ -3,7 +3,7 @@ desc = "Тут есть описание, просто оно далеко от 
 hostname = "[RU][HRP] VoidSector"
 soft_max_players = 60
 lobbyduration = 180
-fallbackpreset = Extended
+fallbackpreset = "Extended"
 
 [traitor]
 min_players = 3
@@ -29,7 +29,7 @@ see_own_notes = true
 note_fresh_days = 0
 message_wait_time = 1
 new_player_threshold = 180
-afk_time = 180f
+afk_time = 180.0
 
 [atmos]
 space_wind = true
@@ -43,9 +43,9 @@ timermap = 30
 [shuttle]
 arrivals_returns = true
 emergency_early_launch_allowed = true
-emergency_dock_time = 300f
-emergency_authorize_time = 30f
-recall_turning_point = 0.1f
+emergency_dock_time = 300.0
+emergency_authorize_time = 30.0
+recall_turning_point = 0.1
 auto_call_time = 120
 auto_call_extension_time = 60
 
@@ -63,7 +63,7 @@ flavor_text = true
 punctuation = true
 
 [rules]
-time = 90f
+time = 90.0
 
 [infolinks]
 discord = "https://discord.gg/Tc5RNEWVWS"
