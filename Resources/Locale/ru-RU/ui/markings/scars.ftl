@@ -1,13 +1,13 @@
-marking-ScarEyeRight-scar_eye_right = Шрам на глазу (Правый)
-marking-ScarEyeLeft-scar_eye_left = Шрам на глазу (Левый)
-marking-ScarEyeRight = Шрам на глазу (Правый)
-marking-ScarTopSurgeryShort-scar_top_surgery_short = Хирургический шрам (Короткий)
-marking-ScarTopSurgeryLong-scar_top_surgery_long = Хирургический шрам (Длинный)
-marking-ScarEyeLeft = Шрам на глазу (Левый)
-marking-ScarTopSurgeryShort = Хирургический шрам (Короткий)
-marking-ScarTopSurgeryLong = Хирургический шрам (Длинный)
-marking-ScarChest-scar_chest = Шрам на груди
-marking-ScarChest = Шрам на груди
+marking-ScarEyeRight-scar_eye_right = РЁСЂР°Рј РЅР° РіР»Р°Р·Сѓ (РџСЂР°РІС‹Р№)
+marking-ScarEyeLeft-scar_eye_left = РЁСЂР°Рј РЅР° РіР»Р°Р·Сѓ (Р›РµРІС‹Р№)
+marking-ScarEyeRight = РЁСЂР°Рј РЅР° РіР»Р°Р·Сѓ (РџСЂР°РІС‹Р№)
+marking-ScarTopSurgeryShort-scar_top_surgery_short = РҐРёСЂСѓСЂРіРёС‡РµСЃРєРёР№ С€СЂР°Рј (РљРѕСЂРѕС‚РєРёР№)
+marking-ScarTopSurgeryLong-scar_top_surgery_long = РҐРёСЂСѓСЂРіРёС‡РµСЃРєРёР№ С€СЂР°Рј (Р”Р»РёРЅРЅС‹Р№)
+marking-ScarEyeLeft = РЁСЂР°Рј РЅР° РіР»Р°Р·Сѓ (Р›РµРІС‹Р№)
+marking-ScarTopSurgeryShort = РҐРёСЂСѓСЂРіРёС‡РµСЃРєРёР№ С€СЂР°Рј (РљРѕСЂРѕС‚РєРёР№)
+marking-ScarTopSurgeryLong = РҐРёСЂСѓСЂРіРёС‡РµСЃРєРёР№ С€СЂР°Рј (Р”Р»РёРЅРЅС‹Р№)
+marking-ScarChest-scar_chest = РЁСЂР°Рј РЅР° РіСЂСѓРґРё
+marking-ScarChest = РЁСЂР°Рј РЅР° РіСЂСѓРґРё
 
 marking-KatunianHeadScar1 = (wip) KatunianHeadScar1
 marking-KatunianHeadScar2 = (wip) KatunianHeadScar2

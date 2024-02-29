@@ -9,4 +9,4 @@ ent-ClothingShoesBaseButcherable = { ent-ClothingShoesBase }
 ent-ClothingShoesStorageBase = { ent-ClothingShoesBase }
     .desc = { ent-ClothingShoesBase.desc }
 ent-ClothingShoesBaseWinterBoots = { ent-ClothingShoesBaseButcherable }
-    .desc = Меховые ботинки, которые помогут пережить даже самую холодную зиму.
+    .desc = РњРµС…РѕРІС‹Рµ Р±РѕС‚РёРЅРєРё, РєРѕС‚РѕСЂС‹Рµ РїРѕРјРѕРіСѓС‚ РїРµСЂРµР¶РёС‚СЊ РґР°Р¶Рµ СЃР°РјСѓСЋ С…РѕР»РѕРґРЅСѓСЋ Р·РёРјСѓ.

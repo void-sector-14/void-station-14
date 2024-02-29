@@ -1,3 +1,3 @@
-vending-machine-thanks = Спасибо что воспользовались { $name }!
-vending-machine-flavor-left = Запрашивайте пополнение в отделе снабжения
+vending-machine-thanks = РЎРїР°СЃРёР±Рѕ С‡С‚Рѕ РІРѕСЃРїРѕР»СЊР·РѕРІР°Р»РёСЃСЊ { $name }!
+vending-machine-flavor-left = Р—Р°РїСЂР°С€РёРІР°Р№С‚Рµ РїРѕРїРѕР»РЅРµРЅРёРµ РІ РѕС‚РґРµР»Рµ СЃРЅР°Р±Р¶РµРЅРёСЏ
 vending-machine-flavor-right = v1.1
