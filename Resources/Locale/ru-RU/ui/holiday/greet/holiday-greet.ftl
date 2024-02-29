@@ -4,6 +4,7 @@ holiday-greet = Счастливого { $holidayName }!
 
 ## Holiday Names
 
+holiday-name-birthday-void = дня рождения Войда
 holiday-name-new-year = Нового года
 holiday-name-mister-lizard = дня рождения Мистера Ящерки
 holiday-name-chinese-new-year = Китайского Нового года

@@ -1,5 +1,11 @@
 - type: holiday
   id: NewYear
+  name: holiday-name-birthday-void
+  beginDay: 8
+  beginMonth: March
+
+- type: holiday
+  id: NewYear
   name: holiday-name-new-year
   beginDay: 30
   beginMonth: December
