@@ -1,7 +1,7 @@
 - type: holiday
-  id: NewYear
+  id: BirthdayVoid
   name: holiday-name-birthday-void
-  beginDay: 8
+  beginDay: 9
   beginMonth: March
 
 - type: holiday
@@ -55,11 +55,11 @@
   beginDay: 29
   beginMonth: February
 
-- type: holiday
-  id: MikuDay
-  name: holiday-name-miku-day
-  beginDay: 9
-  beginMonth: March
+#- type: holiday
+#  id: MikuDay
+#  name: holiday-name-miku-day
+#  beginDay: 9
+#  beginMonth: March
 
 - type: holiday
   id: PiDay
@@ -85,11 +85,11 @@
   beginDay: 1
   beginMonth: April
 
-- type: holiday
-  id: AutismAwarenessDay
-  name: holiday-name-autism-awareness-day
-  beginDay: 2
-  beginMonth: April
+#- type: holiday
+#  id: AutismAwarenessDay
+#  name: holiday-name-autism-awareness-day
+#  beginDay: 2
+#  beginMonth: April
 
 - type: holiday
   id: CosmonauticsDay
@@ -166,11 +166,11 @@
   beginDay: 25
   beginMonth: May
 
-- type: holiday
-  id: MoMMIDay
-  name: holiday-name-mommi-day
-  beginDay: 30
-  beginMonth: May
+#- type: holiday
+#  id: MoMMIDay
+#  name: holiday-name-mommi-day
+#  beginDay: 30
+#  beginMonth: May
 
 - type: holiday
   id: GarbageDay
@@ -199,11 +199,11 @@
   beginDay: 21
   beginMonth: June
 
-- type: holiday
-  id: StonewallRiotsAnniversary
-  name: holiday-name-stonewall-riots-anniversary
-  beginDay: 28
-  beginMonth: June
+#- type: holiday
+#  id: StonewallRiotsAnniversary
+#  name: holiday-name-stonewall-riots-anniversary
+#  beginDay: 28
+#  beginMonth: June
 
 - type: holiday
   id: DoctorDay
@@ -217,11 +217,11 @@
   beginDay: 2
   beginMonth: July
 
-- type: holiday
-  id: USIndependenceDay
-  name: holiday-name-us-independence-day
-  beginDay: 4
-  beginMonth: July
+#- type: holiday
+#  id: USIndependenceDay
+#  name: holiday-name-us-independence-day
+#  beginDay: 4
+#  beginMonth: July
 
 - type: holiday
   id: WritersDay
@@ -271,11 +271,11 @@
     !type:DayOfYear
     dayOfYear: 256
 
-- type: holiday
-  id: BisexualPrideDay
-  name: holiday-name-bisexual-pride-day
-  beginDay: 23
-  beginMonth: September
+#- type: holiday
+#  id: BisexualPrideDay
+#  name: holiday-name-bisexual-pride-day
+#  beginDay: 23
+#  beginMonth: September
 
 - type: holiday
   id: StupidQuestionsDay
@@ -295,11 +295,11 @@
   beginDay: 7
   beginMonth: October
 
-- type: holiday
-  id: LesbianDay
-  name: holiday-name-lesbian-day
-  beginDay: 8
-  beginMonth: October
+#- type: holiday
+#  id: LesbianDay
+#  name: holiday-name-lesbian-day
+#  beginDay: 8
+#  beginMonth: October
 
 - type: holiday
   id: NationalComingOutDay
@@ -307,14 +307,14 @@
   beginDay: 11
   beginMonth: October
 
-- type: holiday
-  id: CanadianThanksgiving
-  name: holiday-name-canadian-thanksgiving
-  beginMonth: October
-  shouldCelebrate:
-    !type:WeekdayInMonth
-    occurrence: 2
-    weekday: Monday
+#- type: holiday
+#  id: CanadianThanksgiving
+#  name: holiday-name-canadian-thanksgiving
+#  beginMonth: October
+#  shouldCelebrate:
+#    !type:WeekdayInMonth
+#    occurrence: 2
+#    weekday: Monday
 
 - type: holiday
   id: SpiritDay
@@ -334,11 +334,11 @@
     !type:Custom
     text: holiday-custom-halloween
 
-- type: holiday
-  id: VeganDay
-  name: holiday-name-vegan-day
-  beginDay: 1
-  beginMonth: November
+#- type: holiday
+#  id: VeganDay
+#  name: holiday-name-vegan-day
+#  beginDay: 1
+#  beginMonth: November
 
 - type: holiday
   id: ArmisticeDay
@@ -367,11 +367,11 @@
   beginDay: 19
   beginMonth: November
 
-- type: holiday
-  id: TransgenderRemembranceDay
-  name: holiday-name-transgender-remembrance-day
-  beginDay: 20
-  beginMonth: November
+#- type: holiday
+#  id: TransgenderRemembranceDay
+#  name: holiday-name-transgender-remembrance-day
+#  beginDay: 20
+#  beginMonth: November
 
 - type: holiday
   id: SayingHelloDay
