@@ -155,6 +155,13 @@ namespace Content.Client.Construction.UI
                 if (recipe.Hide)
                     continue;
 
+                if (!recipe.Localized)
+                {
+                    recipe.Name = Loc.GetString($"con-{recipe.ID}");
+                    recipe.Description = Loc.GetString($"con-{recipe.ID}.desc");
+                    recipe.Localized = true;
+                }
+
                 if (_playerManager.LocalSession == null
                 || _playerManager.LocalEntity == null
                 || (recipe.EntityWhitelist != null && !recipe.EntityWhitelist.IsValid(_playerManager.LocalEntity.Value)))
