@@ -40,5 +40,5 @@ salvage-expedition-announcement-countdown-seconds = До окончания эк
    *[other] секунд
 }.
 salvage-expedition-reward-description = Награда за завершение миссии
-salvage-expedition-announcement-dungeon = Подземелье расположено от вас на { $direction }.
+salvage-expedition-announcement-dungeon = Цель расположена от вас на { $direction }.
 salvage-expedition-completed = Экспедиция окончена.
