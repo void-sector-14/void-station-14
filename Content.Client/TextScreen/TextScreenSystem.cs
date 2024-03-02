@@ -1,6 +1,5 @@
 using System.Linq;
 using System.Numerics;
-using System.Text.RegularExpressions;
 using Content.Shared.TextScreen;
 using Robust.Client.GameObjects;
 using Robust.Shared.Timing;
@@ -43,8 +42,6 @@ public sealed class TextScreenSystem : VisualizerSystem<TextScreenVisualsCompone
             { '-', "dash" },
             { ' ', "blank" }
         };
-
-    private const string CyrillicPattern = @"[А-Яа-я]";
 
     private const string DefaultState = "blank";
 
@@ -344,10 +341,6 @@ public sealed class TextScreenSystem : VisualizerSystem<TextScreenVisualsCompone
     public static string? GetStateFromChar(char? character)
     {
         if (character == null)
-            return null;
-
-        // Запрет писать на кириллице
-        if (Regex.IsMatch(character.Value.ToString(), CyrillicPattern))
             return null;
 
         // First checks if its one of our special characters
