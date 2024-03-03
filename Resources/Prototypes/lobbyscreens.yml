@@ -45,3 +45,15 @@
 - type: lobbyBackground
   id: Wallpaper-6
   background: /Textures/LobbyScreens/wallpaper-6.png
+
+- type: lobbyBackground
+  id: Wallpaper-7
+  background: /Textures/LobbyScreens/wallpaper-7.png
+
+- type: lobbyBackground
+  id: Wallpaper-8
+  background: /Textures/LobbyScreens/wallpaper-8.png
+
+- type: lobbyBackground
+  id: BSA
+  background: /Textures/LobbyScreens/BSA.png
