@@ -355,16 +355,7 @@
   markingCategory: Hair
   speciesRestriction: [ Katunian ]
   sprites:
-
   - sprite: Void/Mobs/Customization/katunian_hair.rsi
-- type: marking
-  bodyPart: Hair
-  markingCategory: Hair
-  speciesRestriction: [ Katunian ]
-  sprites:
-
-  - sprite: Void/Mobs/Customization/katunian_hair.rsi
-
     state: cornrowbraid
 
 - type: marking
@@ -373,9 +364,7 @@
   markingCategory: Hair
   speciesRestriction: [ Katunian ]
   sprites:
-
   - sprite: Void/Mobs/Customization/katunian_hair.rsi
-
     state: cornrowtail
 
 - type: marking
@@ -384,9 +373,7 @@
   markingCategory: Hair
   speciesRestriction: [ Katunian ]
   sprites:
-
   - sprite: Void/Mobs/Customization/katunian_hair.rsi
-
     state: crewcut
 
 - type: marking
