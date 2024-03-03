@@ -4,7 +4,7 @@
   markingCategory: Head
   speciesRestriction: [ Katunian ]
   sprites:
-  - sprite: Czeshuika/Mobs/Customization/scars.rsi
+  - sprite: Void/Mobs/Customization/scars.rsi
     state: headscars1
 
 - type: marking
@@ -13,7 +13,7 @@
   markingCategory: Head
   speciesRestriction: [ Katunian ]
   sprites:
-  - sprite: Czeshuika/Mobs/Customization/scars.rsi
+  - sprite: Void/Mobs/Customization/scars.rsi
     state: headscars2
 
 - type: marking
@@ -22,7 +22,7 @@
   markingCategory: Head
   speciesRestriction: [ Katunian ]
   sprites:
-  - sprite: Czeshuika/Mobs/Customization/scars.rsi
+  - sprite: Void/Mobs/Customization/scars.rsi
     state: headscars3
 
 - type: marking
@@ -31,7 +31,7 @@
   markingCategory: Chest
   speciesRestriction: [ Katunian ]
   sprites:
-  - sprite: Czeshuika/Mobs/Customization/scars.rsi
+  - sprite: Void/Mobs/Customization/scars.rsi
     state: chestscars1
 
 - type: marking
@@ -40,7 +40,7 @@
   markingCategory: Legs
   speciesRestriction: [ Katunian ]
   sprites:
-  - sprite: Czeshuika/Mobs/Customization/scars.rsi
+  - sprite: Void/Mobs/Customization/scars.rsi
     state: llegscars1
 
 - type: marking
@@ -49,7 +49,7 @@
   markingCategory: Legs
   speciesRestriction: [ Katunian ]
   sprites:
-  - sprite: Czeshuika/Mobs/Customization/scars.rsi
+  - sprite: Void/Mobs/Customization/scars.rsi
     state: rlegscars1
 
 - type: marking
@@ -58,7 +58,7 @@
   markingCategory: Arms
   speciesRestriction: [ Katunian ]
   sprites:
-  - sprite: Czeshuika/Mobs/Customization/scars.rsi
+  - sprite: Void/Mobs/Customization/scars.rsi
     state: lhandscars1
 
 - type: marking
@@ -67,5 +67,5 @@
   markingCategory: Arms
   speciesRestriction: [ Katunian ]
   sprites:
-  - sprite: Czeshuika/Mobs/Customization/scars.rsi
+  - sprite: Void/Mobs/Customization/scars.rsi
     state: rhandscars1

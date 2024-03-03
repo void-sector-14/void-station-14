@@ -13,7 +13,7 @@
         Quantity: 10
   - type: Sprite
     netsync: false
-    sprite: Czeshuika/Mobs/Species/Vulpkanin/parts.rsi
+    sprite: Void/Mobs/Species/Vulpkanin/parts.rsi
 
 - type: entity
   id: TorsoVulpkanin

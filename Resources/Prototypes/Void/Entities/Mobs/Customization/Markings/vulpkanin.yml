@@ -6,7 +6,7 @@
   markingCategory: Head
   speciesRestriction: [ VulpkaninPerson ]
   sprites:
-  - sprite: Czeshuika/Mobs/Customization/Vulpkanin/head.rsi
+  - sprite: Void/Mobs/Customization/Vulpkanin/head.rsi
     state: tiger_head
 
 - type: marking
@@ -15,7 +15,7 @@
   markingCategory: Head
   speciesRestriction: [ VulpkaninPerson ]
   sprites:
-  - sprite: Czeshuika/Mobs/Customization/Vulpkanin/head.rsi
+  - sprite: Void/Mobs/Customization/Vulpkanin/head.rsi
     state: tiger_face
 
 - type: marking
@@ -24,7 +24,7 @@
   markingCategory: Head
   speciesRestriction: [ VulpkaninPerson ]
   sprites:
-  - sprite: Czeshuika/Mobs/Customization/Vulpkanin/head.rsi
+  - sprite: Void/Mobs/Customization/Vulpkanin/head.rsi
     state: slash
 
 ### SNOUT ###
@@ -35,7 +35,7 @@
   markingCategory: Snout
   speciesRestriction: [ VulpkaninPerson ]
   sprites:
-  - sprite: Czeshuika/Mobs/Customization/Vulpkanin/vulpkanin.rsi
+  - sprite: Void/Mobs/Customization/Vulpkanin/vulpkanin.rsi
     state: vulp_face
 
 - type: marking
@@ -44,9 +44,9 @@
   markingCategory: Snout
   speciesRestriction: [ VulpkaninPerson ]
   sprites:
-  - sprite: Czeshuika/Mobs/Customization/Vulpkanin/head.rsi
+  - sprite: Void/Mobs/Customization/Vulpkanin/head.rsi
     state: muzzle_sharp
-  - sprite: Czeshuika/Mobs/Customization/Vulpkanin/head.rsi
+  - sprite: Void/Mobs/Customization/Vulpkanin/head.rsi
     state: nose
 
 - type: marking
@@ -55,9 +55,9 @@
   markingCategory: Snout
   speciesRestriction: [ VulpkaninPerson ]
   sprites:
-  - sprite: Czeshuika/Mobs/Customization/Vulpkanin/head.rsi
+  - sprite: Void/Mobs/Customization/Vulpkanin/head.rsi
     state: muzzle_fade
-  - sprite: Czeshuika/Mobs/Customization/Vulpkanin/head.rsi
+  - sprite: Void/Mobs/Customization/Vulpkanin/head.rsi
     state: nose
 
 - type: marking
@@ -66,7 +66,7 @@
   markingCategory: Snout
   speciesRestriction: [ VulpkaninPerson ]
   sprites:
-  - sprite: Czeshuika/Mobs/Customization/Vulpkanin/head.rsi
+  - sprite: Void/Mobs/Customization/Vulpkanin/head.rsi
     state: nose
 
 - type: marking
@@ -75,9 +75,9 @@
   markingCategory: Snout
   speciesRestriction: [ VulpkaninPerson ]
   sprites:
-  - sprite: Czeshuika/Mobs/Customization/Vulpkanin/head.rsi
+  - sprite: Void/Mobs/Customization/Vulpkanin/head.rsi
     state: mask
-  - sprite: Czeshuika/Mobs/Customization/Vulpkanin/head.rsi
+  - sprite: Void/Mobs/Customization/Vulpkanin/head.rsi
     state: nose
 
 - type: marking
@@ -86,9 +86,9 @@
   markingCategory: Snout
   speciesRestriction: [ VulpkaninPerson ]
   sprites:
-  - sprite: Czeshuika/Mobs/Customization/Vulpkanin/head.rsi
+  - sprite: Void/Mobs/Customization/Vulpkanin/head.rsi
     state: vulpine
-  - sprite: Czeshuika/Mobs/Customization/Vulpkanin/head.rsi
+  - sprite: Void/Mobs/Customization/Vulpkanin/head.rsi
     state: vulpine-lines
 
 - type: marking
@@ -97,7 +97,7 @@
   markingCategory: Snout
   speciesRestriction: [ VulpkaninPerson ]
   sprites:
-  - sprite: Czeshuika/Mobs/Customization/Vulpkanin/head.rsi
+  - sprite: Void/Mobs/Customization/Vulpkanin/head.rsi
     state: vulpine-lines
 
 - type: marking
@@ -106,7 +106,7 @@
   markingCategory: Snout
   speciesRestriction: [ VulpkaninPerson ]
   sprites:
-  - sprite: Czeshuika/Mobs/Customization/Vulpkanin/head.rsi
+  - sprite: Void/Mobs/Customization/Vulpkanin/head.rsi
     state: blaze
 
 - type: marking
@@ -115,7 +115,7 @@
   markingCategory: Snout
   speciesRestriction: [ VulpkaninPerson ]
   sprites:
-  - sprite: Czeshuika/Mobs/Customization/Vulpkanin/head.rsi
+  - sprite: Void/Mobs/Customization/Vulpkanin/head.rsi
     state: patch
 
 ### EARS ###
@@ -126,9 +126,9 @@
   markingCategory: HeadTop
   speciesRestriction: [ VulpkaninPerson ]
   sprites:
-  - sprite: Czeshuika/Mobs/Customization/Vulpkanin/vulpkanin.rsi
+  - sprite: Void/Mobs/Customization/Vulpkanin/vulpkanin.rsi
     state: vulp_ear
-  - sprite: Czeshuika/Mobs/Customization/Vulpkanin/vulpkanin.rsi
+  - sprite: Void/Mobs/Customization/Vulpkanin/vulpkanin.rsi
     state: vulp_ear_inner
 
 - type: marking
@@ -137,9 +137,9 @@
   markingCategory: HeadTop
   speciesRestriction: [ VulpkaninPerson ]
   sprites:
-  - sprite: Czeshuika/Mobs/Customization/Vulpkanin/vulpkanin.rsi
+  - sprite: Void/Mobs/Customization/Vulpkanin/vulpkanin.rsi
     state: vulp_ear
-  - sprite: Czeshuika/Mobs/Customization/Vulpkanin/ears.rsi
+  - sprite: Void/Mobs/Customization/Vulpkanin/ears.rsi
     state: vulp-fade
 
 - type: marking
@@ -148,9 +148,9 @@
   markingCategory: HeadTop
   speciesRestriction: [ VulpkaninPerson ]
   sprites:
-  - sprite: Czeshuika/Mobs/Customization/Vulpkanin/vulpkanin.rsi
+  - sprite: Void/Mobs/Customization/Vulpkanin/vulpkanin.rsi
     state: vulp_ear
-  - sprite: Czeshuika/Mobs/Customization/Vulpkanin/ears.rsi
+  - sprite: Void/Mobs/Customization/Vulpkanin/ears.rsi
     state: vulp-sharp
 
 - type: marking
@@ -159,9 +159,9 @@
   markingCategory: HeadTop
   speciesRestriction: [ VulpkaninPerson ]
   sprites:
-  - sprite: Czeshuika/Mobs/Customization/Vulpkanin/ears.rsi
+  - sprite: Void/Mobs/Customization/Vulpkanin/ears.rsi
     state: jackal
-  - sprite: Czeshuika/Mobs/Customization/Vulpkanin/ears.rsi
+  - sprite: Void/Mobs/Customization/Vulpkanin/ears.rsi
     state: jackal-inner
 
 - type: marking
@@ -170,9 +170,9 @@
   markingCategory: HeadTop
   speciesRestriction: [ VulpkaninPerson ]
   sprites:
-  - sprite: Czeshuika/Mobs/Customization/Vulpkanin/ears.rsi
+  - sprite: Void/Mobs/Customization/Vulpkanin/ears.rsi
     state: terrier
-  - sprite: Czeshuika/Mobs/Customization/Vulpkanin/ears.rsi
+  - sprite: Void/Mobs/Customization/Vulpkanin/ears.rsi
     state: terrier-inner
 
 - type: marking
@@ -181,9 +181,9 @@
   markingCategory: HeadTop
   speciesRestriction: [ VulpkaninPerson ]
   sprites:
-  - sprite: Czeshuika/Mobs/Customization/Vulpkanin/ears.rsi
+  - sprite: Void/Mobs/Customization/Vulpkanin/ears.rsi
     state: wolf
-  - sprite: Czeshuika/Mobs/Customization/Vulpkanin/ears.rsi
+  - sprite: Void/Mobs/Customization/Vulpkanin/ears.rsi
     state: wolf-inner
 
 - type: marking
@@ -192,9 +192,9 @@
   markingCategory: HeadTop
   speciesRestriction: [ VulpkaninPerson ]
   sprites:
-  - sprite: Czeshuika/Mobs/Customization/Vulpkanin/ears.rsi
+  - sprite: Void/Mobs/Customization/Vulpkanin/ears.rsi
     state: fennec
-  - sprite: Czeshuika/Mobs/Customization/Vulpkanin/ears.rsi
+  - sprite: Void/Mobs/Customization/Vulpkanin/ears.rsi
     state: fennec-inner
 
 - type: marking
@@ -203,7 +203,7 @@
   markingCategory: HeadTop
   speciesRestriction: [ VulpkaninPerson ]
   sprites:
-  - sprite: Czeshuika/Mobs/Customization/Vulpkanin/ears.rsi
+  - sprite: Void/Mobs/Customization/Vulpkanin/ears.rsi
     state: fox
 
 - type: marking
@@ -212,9 +212,9 @@
   markingCategory: HeadTop
   speciesRestriction: [ VulpkaninPerson ]
   sprites:
-  - sprite: Czeshuika/Mobs/Customization/Vulpkanin/ears.rsi
+  - sprite: Void/Mobs/Customization/Vulpkanin/ears.rsi
     state: otie
-  - sprite: Czeshuika/Mobs/Customization/Vulpkanin/ears.rsi
+  - sprite: Void/Mobs/Customization/Vulpkanin/ears.rsi
     state: otie-inner
 
 - type: marking
@@ -223,9 +223,9 @@
   markingCategory: HeadTop
   speciesRestriction: [ VulpkaninPerson ]
   sprites:
-  - sprite: Czeshuika/Mobs/Customization/Vulpkanin/ears.rsi
+  - sprite: Void/Mobs/Customization/Vulpkanin/ears.rsi
     state: msai
-  - sprite: Czeshuika/Mobs/Customization/Vulpkanin/ears.rsi
+  - sprite: Void/Mobs/Customization/Vulpkanin/ears.rsi
     state: msai-inner
 
 - type: marking
@@ -234,7 +234,7 @@
   markingCategory: HeadTop
   speciesRestriction: [ VulpkaninPerson ]
   sprites:
-  - sprite: Czeshuika/Mobs/Customization/Vulpkanin/ears.rsi
+  - sprite: Void/Mobs/Customization/Vulpkanin/ears.rsi
     state: shock
 
 - type: marking
@@ -243,7 +243,7 @@
   markingCategory: HeadTop
   speciesRestriction: [ VulpkaninPerson ]
   sprites:
-  - sprite: Czeshuika/Mobs/Customization/Vulpkanin/ears.rsi
+  - sprite: Void/Mobs/Customization/Vulpkanin/ears.rsi
     state: coyote
 
 - type: marking
@@ -252,7 +252,7 @@
   markingCategory: HeadTop
   speciesRestriction: [ VulpkaninPerson ]
   sprites:
-  - sprite: Czeshuika/Mobs/Customization/Vulpkanin/ears.rsi
+  - sprite: Void/Mobs/Customization/Vulpkanin/ears.rsi
     state: dalmatian
 
 ### CHEST ###
@@ -263,7 +263,7 @@
   markingCategory: Chest
   speciesRestriction: [ VulpkaninPerson ]
   sprites:
-  - sprite: Czeshuika/Mobs/Customization/Vulpkanin/vulpkanin.rsi
+  - sprite: Void/Mobs/Customization/Vulpkanin/vulpkanin.rsi
     state: vulp_belly-torso
 
 - type: marking
@@ -272,7 +272,7 @@
   markingCategory: Chest
   speciesRestriction: [ VulpkaninPerson ]
   sprites:
-  - sprite: Czeshuika/Mobs/Customization/Vulpkanin/body.rsi
+  - sprite: Void/Mobs/Customization/Vulpkanin/body.rsi
     state: belly_crest
 
 - type: marking
@@ -281,7 +281,7 @@
   markingCategory: Chest
   speciesRestriction: [ VulpkaninPerson ]
   sprites:
-  - sprite: Czeshuika/Mobs/Customization/Vulpkanin/body.rsi
+  - sprite: Void/Mobs/Customization/Vulpkanin/body.rsi
     state: belly_full
 
 ### RFOOT ###
@@ -292,7 +292,7 @@
   bodyPart: RFoot #highest possible layer
   speciesRestriction: [ VulpkaninPerson ]
   sprites:
-  - sprite: Czeshuika/Mobs/Customization/Vulpkanin/vulpkanin.rsi
+  - sprite: Void/Mobs/Customization/Vulpkanin/vulpkanin.rsi
     state: pawsocks
 
 - type: marking
@@ -301,7 +301,7 @@
   bodyPart: RFoot
   speciesRestriction: [ VulpkaninPerson ]
   sprites:
-  - sprite: Czeshuika/Mobs/Customization/Vulpkanin/body.rsi
+  - sprite: Void/Mobs/Customization/Vulpkanin/body.rsi
     state: points_crest
 
 - type: marking
@@ -310,7 +310,7 @@
   bodyPart: RFoot
   speciesRestriction: [ VulpkaninPerson ]
   sprites:
-  - sprite: Czeshuika/Mobs/Customization/Vulpkanin/body.rsi
+  - sprite: Void/Mobs/Customization/Vulpkanin/body.rsi
     state: points_fade
 
 - type: marking
@@ -319,7 +319,7 @@
   bodyPart: RFoot
   speciesRestriction: [ VulpkaninPerson ]
   sprites:
-  - sprite: Czeshuika/Mobs/Customization/Vulpkanin/body.rsi
+  - sprite: Void/Mobs/Customization/Vulpkanin/body.rsi
     state: points_sharp
 
 - type: marking
@@ -328,7 +328,7 @@
   bodyPart: RFoot
   speciesRestriction: [ VulpkaninPerson ]
   sprites:
-  - sprite: Czeshuika/Mobs/Customization/Vulpkanin/body.rsi
+  - sprite: Void/Mobs/Customization/Vulpkanin/body.rsi
     state: points_feet
 
 ### LEGS ###
@@ -339,7 +339,7 @@
   bodyPart: LLeg
   speciesRestriction: [ VulpkaninPerson ]
   sprites:
-  - sprite: Czeshuika/Mobs/Customization/Vulpkanin/body.rsi
+  - sprite: Void/Mobs/Customization/Vulpkanin/body.rsi
     state: points_crest-legs
 
 - type: marking
@@ -348,7 +348,7 @@
   bodyPart: LLeg
   speciesRestriction: [ VulpkaninPerson ]
   sprites:
-  - sprite: Czeshuika/Mobs/Customization/Vulpkanin/body.rsi
+  - sprite: Void/Mobs/Customization/Vulpkanin/body.rsi
     state: points_fade-legs
 
 - type: marking
@@ -357,7 +357,7 @@
   bodyPart: LLeg
   speciesRestriction: [ VulpkaninPerson ]
   sprites:
-  - sprite: Czeshuika/Mobs/Customization/Vulpkanin/body.rsi
+  - sprite: Void/Mobs/Customization/Vulpkanin/body.rsi
     state: points_sharp-legs
 
 ### ARMS ###
@@ -368,7 +368,7 @@
   bodyPart: RHand
   speciesRestriction: [ VulpkaninPerson ]
   sprites:
-  - sprite: Czeshuika/Mobs/Customization/Vulpkanin/body.rsi
+  - sprite: Void/Mobs/Customization/Vulpkanin/body.rsi
     state: points_hands
 
 - type: marking
@@ -377,7 +377,7 @@
   bodyPart: LArm
   speciesRestriction: [ VulpkaninPerson ]
   sprites:
-  - sprite: Czeshuika/Mobs/Customization/Vulpkanin/body.rsi
+  - sprite: Void/Mobs/Customization/Vulpkanin/body.rsi
     state: points_crest-arms
 
 - type: marking
@@ -386,7 +386,7 @@
   bodyPart: LArm
   speciesRestriction: [ VulpkaninPerson ]
   sprites:
-  - sprite: Czeshuika/Mobs/Customization/Vulpkanin/body.rsi
+  - sprite: Void/Mobs/Customization/Vulpkanin/body.rsi
     state: points_fade-arms
 
 - type: marking
@@ -395,7 +395,7 @@
   bodyPart: LArm
   speciesRestriction: [ VulpkaninPerson ]
   sprites:
-  - sprite: Czeshuika/Mobs/Customization/Vulpkanin/body.rsi
+  - sprite: Void/Mobs/Customization/Vulpkanin/body.rsi
     state: points_sharp-arms
 
 ### TAIL ###
@@ -406,9 +406,9 @@
   markingCategory: Tail
   speciesRestriction: [ VulpkaninPerson ]
   sprites:
-  - sprite: Czeshuika/Mobs/Customization/Vulpkanin/tail_static.rsi
+  - sprite: Void/Mobs/Customization/Vulpkanin/tail_static.rsi
     state: vulp
-  - sprite: Czeshuika/Mobs/Customization/Vulpkanin/tail_static.rsi
+  - sprite: Void/Mobs/Customization/Vulpkanin/tail_static.rsi
     state: vulp-fade
 
 - type: marking
@@ -417,9 +417,9 @@
   markingCategory: Tail
   speciesRestriction: [ VulpkaninPerson ]
   sprites:
-  - sprite: Czeshuika/Mobs/Customization/Vulpkanin/tail_static.rsi
+  - sprite: Void/Mobs/Customization/Vulpkanin/tail_static.rsi
     state: wolf_tail
-  - sprite: Czeshuika/Mobs/Customization/Vulpkanin/tail_static.rsi
+  - sprite: Void/Mobs/Customization/Vulpkanin/tail_static.rsi
     state: wolf_tail_inner
 
 - type: marking
@@ -428,9 +428,9 @@
   markingCategory: Tail
   speciesRestriction: [ VulpkaninPerson ]
   sprites:
-  - sprite: Czeshuika/Mobs/Customization/Vulpkanin/tail_static.rsi
+  - sprite: Void/Mobs/Customization/Vulpkanin/tail_static.rsi
     state: vulp
-  - sprite: Czeshuika/Mobs/Customization/Vulpkanin/tail_static.rsi
+  - sprite: Void/Mobs/Customization/Vulpkanin/tail_static.rsi
     state: vulp-tip
 
 - type: marking
@@ -439,9 +439,9 @@
   markingCategory: Tail
   speciesRestriction: [ VulpkaninPerson ]
   sprites:
-  - sprite: Czeshuika/Mobs/Customization/Vulpkanin/tail.rsi
+  - sprite: Void/Mobs/Customization/Vulpkanin/tail.rsi
     state: vulp_wag
-  - sprite: Czeshuika/Mobs/Customization/Vulpkanin/tail.rsi
+  - sprite: Void/Mobs/Customization/Vulpkanin/tail.rsi
     state: vulp_wag-fade
 
 - type: marking
@@ -450,9 +450,9 @@
   markingCategory: Tail
   speciesRestriction: [ VulpkaninPerson ]
   sprites:
-  - sprite: Czeshuika/Mobs/Customization/Vulpkanin/tail.rsi
+  - sprite: Void/Mobs/Customization/Vulpkanin/tail.rsi
     state: vulp_wag
-  - sprite: Czeshuika/Mobs/Customization/Vulpkanin/tail.rsi
+  - sprite: Void/Mobs/Customization/Vulpkanin/tail.rsi
     state: vulp_wag-tip
 
 - type: marking
@@ -461,7 +461,7 @@
   markingCategory: Tail
   speciesRestriction: [ VulpkaninPerson ]
   sprites:
-  - sprite: Czeshuika/Mobs/Customization/Vulpkanin/tail_static.rsi
+  - sprite: Void/Mobs/Customization/Vulpkanin/tail_static.rsi
     state: bushfluff
 
 - type: marking
@@ -470,7 +470,7 @@
   markingCategory: Tail
   speciesRestriction: [ VulpkaninPerson ]
   sprites:
-  - sprite: Czeshuika/Mobs/Customization/Vulpkanin/tail.rsi
+  - sprite: Void/Mobs/Customization/Vulpkanin/tail.rsi
     state: bushfluff_wag
 
 - type: marking
@@ -479,7 +479,7 @@
   markingCategory: Tail
   speciesRestriction: [ VulpkaninPerson ]
   sprites:
-  - sprite: Czeshuika/Mobs/Customization/Vulpkanin/tail_static.rsi
+  - sprite: Void/Mobs/Customization/Vulpkanin/tail_static.rsi
     state: coyote
 
 - type: marking
@@ -488,7 +488,7 @@
   markingCategory: Tail
   speciesRestriction: [ VulpkaninPerson ]
   sprites:
-  - sprite: Czeshuika/Mobs/Customization/Vulpkanin/tail.rsi
+  - sprite: Void/Mobs/Customization/Vulpkanin/tail.rsi
     state: coyote_wag
 
 - type: marking
@@ -497,7 +497,7 @@
   markingCategory: Tail
   speciesRestriction: [ VulpkaninPerson ]
   sprites:
-  - sprite: Czeshuika/Mobs/Customization/Vulpkanin/tail.rsi
+  - sprite: Void/Mobs/Customization/Vulpkanin/tail.rsi
     state: corgi_wag
 
 - type: marking
@@ -506,9 +506,9 @@
   markingCategory: Tail
   speciesRestriction: [ VulpkaninPerson ]
   sprites:
-  - sprite: Czeshuika/Mobs/Customization/Vulpkanin/tail_static.rsi
+  - sprite: Void/Mobs/Customization/Vulpkanin/tail_static.rsi
     state: husky-inner
-  - sprite: Czeshuika/Mobs/Customization/Vulpkanin/tail_static.rsi
+  - sprite: Void/Mobs/Customization/Vulpkanin/tail_static.rsi
     state: husky-outer
 
 - type: marking
@@ -517,7 +517,7 @@
   markingCategory: Tail
   speciesRestriction: [ VulpkaninPerson ]
   sprites:
-  - sprite: Czeshuika/Mobs/Customization/Vulpkanin/tail_static.rsi
+  - sprite: Void/Mobs/Customization/Vulpkanin/tail_static.rsi
     state: fennec
 
 - type: marking
@@ -526,7 +526,7 @@
   markingCategory: Tail
   speciesRestriction: [ VulpkaninPerson ]
   sprites:
-  - sprite: Czeshuika/Mobs/Customization/Vulpkanin/tail_static.rsi
+  - sprite: Void/Mobs/Customization/Vulpkanin/tail_static.rsi
     state: otie
 
 - type: marking
@@ -535,7 +535,7 @@
   markingCategory: Tail
   speciesRestriction: [ VulpkaninPerson ]
   sprites:
-  - sprite: Czeshuika/Mobs/Customization/Vulpkanin/tail_static.rsi
+  - sprite: Void/Mobs/Customization/Vulpkanin/tail_static.rsi
     state: fluffy
 
 - type: marking
@@ -544,7 +544,7 @@
   markingCategory: Tail
   speciesRestriction: [ VulpkaninPerson ]
   sprites:
-  - sprite: Czeshuika/Mobs/Customization/Vulpkanin/tail.rsi
+  - sprite: Void/Mobs/Customization/Vulpkanin/tail.rsi
     state: dalmatian_wag
 
 ## Fox
@@ -555,9 +555,9 @@
   markingCategory: Tail
   speciesRestriction: [ VulpkaninPerson ]
   sprites:
-  - sprite: Czeshuika/Mobs/Customization/Vulpkanin/tail_static.rsi
+  - sprite: Void/Mobs/Customization/Vulpkanin/tail_static.rsi
     state: fox
-  - sprite: Czeshuika/Mobs/Customization/Vulpkanin/tail_static.rsi
+  - sprite: Void/Mobs/Customization/Vulpkanin/tail_static.rsi
     state: fox-fade
 
 - type: marking
@@ -566,9 +566,9 @@
   markingCategory: Tail
   speciesRestriction: [ VulpkaninPerson ]
   sprites:
-  - sprite: Czeshuika/Mobs/Customization/Vulpkanin/tail_static.rsi
+  - sprite: Void/Mobs/Customization/Vulpkanin/tail_static.rsi
     state: fox
-  - sprite: Czeshuika/Mobs/Customization/Vulpkanin/tail_static.rsi
+  - sprite: Void/Mobs/Customization/Vulpkanin/tail_static.rsi
     state: fox-tip
 
 - type: marking
@@ -577,9 +577,9 @@
   markingCategory: Tail
   speciesRestriction: [ VulpkaninPerson ]
   sprites:
-  - sprite: Czeshuika/Mobs/Customization/Vulpkanin/tail.rsi
+  - sprite: Void/Mobs/Customization/Vulpkanin/tail.rsi
     state: fox_wag
-  - sprite: Czeshuika/Mobs/Customization/Vulpkanin/tail.rsi
+  - sprite: Void/Mobs/Customization/Vulpkanin/tail.rsi
     state: fox_wag-fade
 
 - type: marking
@@ -588,9 +588,9 @@
   markingCategory: Tail
   speciesRestriction: [ VulpkaninPerson ]
   sprites:
-  - sprite: Czeshuika/Mobs/Customization/Vulpkanin/tail.rsi
+  - sprite: Void/Mobs/Customization/Vulpkanin/tail.rsi
     state: fox_wag
-  - sprite: Czeshuika/Mobs/Customization/Vulpkanin/tail.rsi
+  - sprite: Void/Mobs/Customization/Vulpkanin/tail.rsi
     state: fox_wag-tip
 
 - type: marking
@@ -599,7 +599,7 @@
   markingCategory: Tail
   speciesRestriction: [ VulpkaninPerson ]
   sprites:
-  - sprite: Czeshuika/Mobs/Customization/Vulpkanin/tail_static.rsi
+  - sprite: Void/Mobs/Customization/Vulpkanin/tail_static.rsi
     state: fox2
 
 - type: marking
@@ -608,7 +608,7 @@
   markingCategory: Tail
   speciesRestriction: [ VulpkaninPerson ]
   sprites:
-  - sprite: Czeshuika/Mobs/Customization/Vulpkanin/tail_static.rsi
+  - sprite: Void/Mobs/Customization/Vulpkanin/tail_static.rsi
     state: fox3
-  - sprite: Czeshuika/Mobs/Customization/Vulpkanin/tail_static.rsi
+  - sprite: Void/Mobs/Customization/Vulpkanin/tail_static.rsi
     state: fox3-tip

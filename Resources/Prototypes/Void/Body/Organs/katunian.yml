@@ -7,7 +7,7 @@
     maxVolume: 50
   - type: Sprite
     netsync: false
-    sprite: Czeshuika/Mobs/Species/Katunian/organs.rsi
+    sprite: Void/Mobs/Species/Katunian/organs.rsi
     state: stomach
 
 - type: entity
@@ -17,5 +17,5 @@
   components:
   - type: Sprite
     netsync: false
-    sprite: Czeshuika/Mobs/Species/Katunian/organs.rsi
+    sprite: Void/Mobs/Species/Katunian/organs.rsi
     state: heart-on

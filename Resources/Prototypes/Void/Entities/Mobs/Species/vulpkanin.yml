@@ -14,7 +14,7 @@
         Bloodloss: 0.5
   - type: Thirst
   - type: Icon
-    sprite: Czeshuika/Mobs/Species/Vulpkanin/parts.rsi
+    sprite: Void/Mobs/Species/Vulpkanin/parts.rsi
     state: full
   - type: Body
     prototype: Vulpkanin

@@ -4,7 +4,7 @@
   markingCategory: Hair
   speciesRestriction: [ Katunian ]
   sprites:
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
     state: antenna
 
 - type: marking
@@ -13,7 +13,7 @@
   markingCategory: Hair
   speciesRestriction: [ Katunian ]
   sprites:
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
     state: bedhead
 
 - type: marking
@@ -22,7 +22,7 @@
   markingCategory: Hair
   speciesRestriction: [ Katunian ]
   sprites:
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
     state: bedheadv2
 
 - type: marking
@@ -31,7 +31,7 @@
   markingCategory: Hair
   speciesRestriction: [ Katunian ]
   sprites:
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
     state: bedheadv3
 
 - type: marking
@@ -40,7 +40,7 @@
   markingCategory: Hair
   speciesRestriction: [ Katunian ]
   sprites:
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
     state: long_bedhead
 
 - type: marking
@@ -49,7 +49,7 @@
   markingCategory: Hair
   speciesRestriction: [ Katunian ]
   sprites:
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
     state: floorlength_bedhead
 
 - type: marking
@@ -58,7 +58,7 @@
   markingCategory: Hair
   speciesRestriction: [ Katunian ]
   sprites:
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
     state: beehive
 
 - type: marking
@@ -67,7 +67,7 @@
   markingCategory: Hair
   speciesRestriction: [ Katunian ]
   sprites:
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
     state: beehivev2
 
 - type: marking
@@ -76,7 +76,7 @@
   markingCategory: Hair
   speciesRestriction: [ Katunian ]
   sprites:
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
     state: bob
 
 - type: marking
@@ -85,7 +85,7 @@
   markingCategory: Hair
   speciesRestriction: [ Katunian ]
   sprites:
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
     state: bob2
 
 - type: marking
@@ -94,7 +94,7 @@
   markingCategory: Hair
   speciesRestriction: [ Katunian ]
   sprites:
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
     state: bobcut
 
 - type: marking
@@ -103,7 +103,7 @@
   markingCategory: Hair
   speciesRestriction: [ Katunian ]
   sprites:
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
     state: bob4
 
 - type: marking
@@ -112,7 +112,7 @@
   markingCategory: Hair
   speciesRestriction: [ Katunian ]
   sprites:
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
     state: bobcurl
 
 - type: marking
@@ -121,7 +121,7 @@
   markingCategory: Hair
   speciesRestriction: [ Katunian ]
   sprites:
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
     state: boddicker
 
 - type: marking
@@ -130,7 +130,7 @@
   markingCategory: Hair
   speciesRestriction: [ Katunian ]
   sprites:
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
     state: bowlcut
 
 - type: marking
@@ -139,7 +139,7 @@
   markingCategory: Hair
   speciesRestriction: [ Katunian ]
   sprites:
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
     state: bowlcut2
 
 - type: marking
@@ -148,7 +148,7 @@
   markingCategory: Hair
   speciesRestriction: [ Katunian ]
   sprites:
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
     state: braid
 
 - type: marking
@@ -157,7 +157,7 @@
   markingCategory: Hair
   speciesRestriction: [ Katunian ]
   sprites:
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
     state: braided
 
 - type: marking
@@ -166,7 +166,7 @@
   markingCategory: Hair
   speciesRestriction: [ Katunian ]
   sprites:
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
     state: braidfront
 
 - type: marking
@@ -175,7 +175,7 @@
   markingCategory: Hair
   speciesRestriction: [ Katunian ]
   sprites:
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
     state: braid2
 
 - type: marking
@@ -184,7 +184,7 @@
   markingCategory: Hair
   speciesRestriction: [ Katunian ]
   sprites:
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
     state: hbraid
 
 - type: marking
@@ -193,7 +193,7 @@
   markingCategory: Hair
   speciesRestriction: [ Katunian ]
   sprites:
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
     state: shortbraid
 
 - type: marking
@@ -202,7 +202,7 @@
   markingCategory: Hair
   speciesRestriction: [ Katunian ]
   sprites:
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
     state: braidtail
 
 - type: marking
@@ -211,7 +211,7 @@
   markingCategory: Hair
   speciesRestriction: [ Katunian ]
   sprites:
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
     state: bun
 
 - type: marking
@@ -220,7 +220,7 @@
   markingCategory: Hair
   speciesRestriction: [ Katunian ]
   sprites:
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
     state: bunhead2
 
 - type: marking
@@ -229,7 +229,7 @@
   markingCategory: Hair
   speciesRestriction: [ Katunian ]
   sprites:
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
     state: bun3
 
 - type: marking
@@ -238,7 +238,7 @@
   markingCategory: Hair
   speciesRestriction: [ Katunian ]
   sprites:
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
     state: largebun
 
 - type: marking
@@ -247,7 +247,7 @@
   markingCategory: Hair
   speciesRestriction: [ Katunian ]
   sprites:
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
     state: manbun
 
 - type: marking
@@ -256,7 +256,7 @@
   markingCategory: Hair
   speciesRestriction: [ Katunian ]
   sprites:
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
     state: tightbun
 
 - type: marking
@@ -265,7 +265,7 @@
   markingCategory: Hair
   speciesRestriction: [ Katunian ]
   sprites:
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
     state: business
 
 - type: marking
@@ -274,7 +274,7 @@
   markingCategory: Hair
   speciesRestriction: [ Katunian ]
   sprites:
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
     state: business2
 
 - type: marking
@@ -283,7 +283,7 @@
   markingCategory: Hair
   speciesRestriction: [ Katunian ]
   sprites:
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
     state: business3
 
 - type: marking
@@ -292,7 +292,7 @@
   markingCategory: Hair
   speciesRestriction: [ Katunian ]
   sprites:
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
     state: business4
 
 - type: marking
@@ -301,7 +301,7 @@
   markingCategory: Hair
   speciesRestriction: [ Katunian ]
   sprites:
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
     state: buzzcut
 
 - type: marking
@@ -310,7 +310,7 @@
   markingCategory: Hair
   speciesRestriction: [ Katunian ]
   sprites:
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
     state: cia
 
 - type: marking
@@ -319,7 +319,7 @@
   markingCategory: Hair
   speciesRestriction: [ Katunian ]
   sprites:
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
     state: coffeehouse
 
 - type: marking
@@ -328,7 +328,7 @@
   markingCategory: Hair
   speciesRestriction: [ Katunian ]
   sprites:
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
     state: combover
 
 - type: marking
@@ -337,7 +337,7 @@
   markingCategory: Hair
   speciesRestriction: [ Katunian ]
   sprites:
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
     state: cornrows
 
 - type: marking
@@ -346,7 +346,7 @@
   markingCategory: Hair
   speciesRestriction: [ Katunian ]
   sprites:
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
     state: cornrows2
 
 - type: marking
@@ -356,14 +356,14 @@
   speciesRestriction: [ Katunian ]
   sprites:
 
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
 - type: marking
   bodyPart: Hair
   markingCategory: Hair
   speciesRestriction: [ Katunian ]
   sprites:
 
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
 
     state: cornrowbraid
 
@@ -374,7 +374,7 @@
   speciesRestriction: [ Katunian ]
   sprites:
 
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
 
     state: cornrowtail
 
@@ -385,7 +385,7 @@
   speciesRestriction: [ Katunian ]
   sprites:
 
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
 
     state: crewcut
 
@@ -396,7 +396,7 @@
   speciesRestriction: [ Katunian ]
   sprites:
 
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
 
     state: curls
 
@@ -407,7 +407,7 @@
   speciesRestriction: [ Katunian ]
   sprites:
 
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
 
     state: c
 
@@ -418,7 +418,7 @@
   speciesRestriction: [ Katunian ]
   sprites:
 
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
 
     state: dandypompadour
 
@@ -429,7 +429,7 @@
   speciesRestriction: [ Katunian ]
   sprites:
 
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
 
     state: devilock
 
@@ -440,7 +440,7 @@
   speciesRestriction: [ Katunian ]
   sprites:
 
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
 
     state: doublebun
 
@@ -451,7 +451,7 @@
   speciesRestriction: [ Katunian ]
   sprites:
 
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
 
     state: dreads
 
@@ -462,7 +462,7 @@
   speciesRestriction: [ Katunian ]
   sprites:
 
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
 
     state: drillruru
 
@@ -473,7 +473,7 @@
   speciesRestriction: [ Katunian ]
   sprites:
 
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
 
     state: drillhairextended
 
@@ -484,7 +484,7 @@
   speciesRestriction: [ Katunian ]
   sprites:
 
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
 
     state: emo
 
@@ -495,7 +495,7 @@
   speciesRestriction: [ Katunian ]
   sprites:
 
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
 
     state: emofringe
 
@@ -506,7 +506,7 @@
   speciesRestriction: [ Katunian ]
   sprites:
 
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
 
     state: nofade
 
@@ -517,7 +517,7 @@
   speciesRestriction: [ Katunian ]
   sprites:
 
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
 
     state: highfade
 
@@ -528,7 +528,7 @@
   speciesRestriction: [ Katunian ]
   sprites:
 
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
 
     state: medfade
 
@@ -539,7 +539,7 @@
   speciesRestriction: [ Katunian ]
   sprites:
 
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
 
     state: lowfade
 
@@ -550,7 +550,7 @@
   speciesRestriction: [ Katunian ]
   sprites:
 
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
 
     state: feather
 
@@ -561,7 +561,7 @@
   speciesRestriction: [ Katunian ]
   sprites:
 
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
 
     state: father
 
@@ -572,7 +572,7 @@
   speciesRestriction: [ Katunian ]
   sprites:
 
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
 
     state: sargeant
 
@@ -583,7 +583,7 @@
   speciesRestriction: [ Katunian ]
   sprites:
 
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
 
     state: flair
 
@@ -594,7 +594,7 @@
   speciesRestriction: [ Katunian ]
   sprites:
 
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
 
     state: bigflattop
 
@@ -605,7 +605,7 @@
   speciesRestriction: [ Katunian ]
   sprites:
 
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
 
     state: f
 
@@ -616,7 +616,7 @@
   speciesRestriction: [ Katunian ]
   sprites:
 
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
 
     state: gelled
 
@@ -627,7 +627,7 @@
   speciesRestriction: [ Katunian ]
   sprites:
 
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
 
     state: gentle
 
@@ -638,7 +638,7 @@
   speciesRestriction: [ Katunian ]
   sprites:
 
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
 
     state: halfbang
 
@@ -649,7 +649,7 @@
   speciesRestriction: [ Katunian ]
   sprites:
 
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
 
     state: halfbang2
 
@@ -660,7 +660,7 @@
   speciesRestriction: [ Katunian ]
   sprites:
 
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
 
     state: halfshaved
 
@@ -671,7 +671,7 @@
   speciesRestriction: [ Katunian ]
   sprites:
 
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
 
     state: hedgehog
 
@@ -682,7 +682,7 @@
   speciesRestriction: [ Katunian ]
   sprites:
 
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
 
     state: himecut
 
@@ -693,7 +693,7 @@
   speciesRestriction: [ Katunian ]
   sprites:
 
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
 
     state: himecut2
 
@@ -704,7 +704,7 @@
   speciesRestriction: [ Katunian ]
   sprites:
 
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
 
     state: shorthime
 
@@ -715,7 +715,7 @@
   speciesRestriction: [ Katunian ]
   sprites:
 
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
 
     state: himeup
 
@@ -726,7 +726,7 @@
   speciesRestriction: [ Katunian ]
   sprites:
 
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
 
     state: hitop
 
@@ -737,7 +737,7 @@
   speciesRestriction: [ Katunian ]
   sprites:
 
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
 
     state: jade
 
@@ -748,7 +748,7 @@
   speciesRestriction: [ Katunian ]
   sprites:
 
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
 
     state: jensen
 
@@ -759,7 +759,7 @@
   speciesRestriction: [ Katunian ]
   sprites:
 
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
 
     state: joestar
 
@@ -770,7 +770,7 @@
   speciesRestriction: [ Katunian ]
   sprites:
 
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
 
     state: keanu
 
@@ -781,7 +781,7 @@
   speciesRestriction: [ Katunian ]
   sprites:
 
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
 
     state: kusanagi
 
@@ -792,7 +792,7 @@
   speciesRestriction: [ Katunian ]
   sprites:
 
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
 
     state: long
 
@@ -803,7 +803,7 @@
   speciesRestriction: [ Katunian ]
   sprites:
 
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
 
     state: long2
 
@@ -814,7 +814,7 @@
   speciesRestriction: [ Katunian ]
   sprites:
 
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
 
     state: long3
 
@@ -825,7 +825,7 @@
   speciesRestriction: [ Katunian ]
   sprites:
 
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
 
     state: longovereye
 
@@ -836,7 +836,7 @@
   speciesRestriction: [ Katunian ]
   sprites:
 
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
 
     state: lbangs
 
@@ -847,7 +847,7 @@
   speciesRestriction: [ Katunian ]
   sprites:
 
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
 
     state: longemo
 
@@ -858,7 +858,7 @@
   speciesRestriction: [ Katunian ]
   sprites:
 
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
 
     state: longfringe
 
@@ -869,7 +869,7 @@
   speciesRestriction: [ Katunian ]
   sprites:
 
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
 
     state: longsidepart
 
@@ -880,7 +880,7 @@
   speciesRestriction: [ Katunian ]
   sprites:
 
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
 
     state: megaeyebrows
 
@@ -891,7 +891,7 @@
   speciesRestriction: [ Katunian ]
   sprites:
 
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
 
     state: messy
 
@@ -902,7 +902,7 @@
   speciesRestriction: [ Katunian ]
   sprites:
 
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
 
     state: modern
 
@@ -913,7 +913,7 @@
   speciesRestriction: [ Katunian ]
   sprites:
 
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
 
     state: d
 
@@ -924,7 +924,7 @@
   speciesRestriction: [ Katunian ]
   sprites:
 
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
 
     state: nitori
 
@@ -935,7 +935,7 @@
   speciesRestriction: [ Katunian ]
   sprites:
 
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
 
     state: reversemohawk
 
@@ -946,7 +946,7 @@
   speciesRestriction: [ Katunian ]
   sprites:
 
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
 
     state: unshaven_mohawk
 
@@ -957,7 +957,7 @@
   speciesRestriction: [ Katunian ]
   sprites:
 
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
 
     state: mulder
 
@@ -968,7 +968,7 @@
   speciesRestriction: [ Katunian ]
   sprites:
 
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
 
     state: odango
 
@@ -979,7 +979,7 @@
   speciesRestriction: [ Katunian ]
   sprites:
 
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
 
     state: ombre
 
@@ -990,7 +990,7 @@
   speciesRestriction: [ Katunian ]
   sprites:
 
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
 
     state: oneshoulder
 
@@ -1001,7 +1001,7 @@
   speciesRestriction: [ Katunian ]
   sprites:
 
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
 
     state: shortovereye
 
@@ -1012,7 +1012,7 @@
   speciesRestriction: [ Katunian ]
   sprites:
 
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
 
     state: oxton
 
@@ -1023,7 +1023,7 @@
   speciesRestriction: [ Katunian ]
   sprites:
 
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
 
     state: parted
 
@@ -1034,7 +1034,7 @@
   speciesRestriction: [ Katunian ]
   sprites:
 
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
 
     state: part
 
@@ -1045,7 +1045,7 @@
   speciesRestriction: [ Katunian ]
   sprites:
 
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
 
     state: kagami
 
@@ -1056,7 +1056,7 @@
   speciesRestriction: [ Katunian ]
   sprites:
 
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
 
     state: pigtails
 
@@ -1067,7 +1067,7 @@
   speciesRestriction: [ Katunian ]
   sprites:
 
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
 
     state: pigtails2
 
@@ -1078,7 +1078,7 @@
   speciesRestriction: [ Katunian ]
   sprites:
 
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
 
     state: pixie
 
@@ -1089,7 +1089,7 @@
   speciesRestriction: [ Katunian ]
   sprites:
 
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
 
     state: pompadour
 
@@ -1100,7 +1100,7 @@
   speciesRestriction: [ Katunian ]
   sprites:
 
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
 
     state: bigpompadour
 
@@ -1111,7 +1111,7 @@
   speciesRestriction: [ Katunian ]
   sprites:
 
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
 
     state: ponytail
 
@@ -1122,7 +1122,7 @@
   speciesRestriction: [ Katunian ]
   sprites:
 
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
 
     state: ponytail2
 
@@ -1133,7 +1133,7 @@
   speciesRestriction: [ Katunian ]
   sprites:
 
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
 
     state: ponytail3
 
@@ -1144,7 +1144,7 @@
   speciesRestriction: [ Katunian ]
   sprites:
 
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
 
     state: ponytail4
 
@@ -1155,7 +1155,7 @@
   speciesRestriction: [ Katunian ]
   sprites:
 
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
 
     state: ponytail5
 
@@ -1166,7 +1166,7 @@
   speciesRestriction: [ Katunian ]
   sprites:
 
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
 
     state: ponytail6
 
@@ -1177,7 +1177,7 @@
   speciesRestriction: [ Katunian ]
   sprites:
 
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
 
     state: ponytail7
 
@@ -1188,7 +1188,7 @@
   speciesRestriction: [ Katunian ]
   sprites:
 
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
 
     state: highponytail
 
@@ -1199,7 +1199,7 @@
   speciesRestriction: [ Katunian ]
   sprites:
 
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
 
     state: stail
 
@@ -1210,7 +1210,7 @@
   speciesRestriction: [ Katunian ]
   sprites:
 
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
 
     state: longstraightponytail
 
@@ -1221,7 +1221,7 @@
   speciesRestriction: [ Katunian ]
   sprites:
 
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
 
     state: country
 
@@ -1232,7 +1232,7 @@
   speciesRestriction: [ Katunian ]
   sprites:
 
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
 
     state: fringetail
 
@@ -1243,7 +1243,7 @@
   speciesRestriction: [ Katunian ]
   sprites:
 
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
 
     state: sidetail
 
@@ -1254,7 +1254,7 @@
   speciesRestriction: [ Katunian ]
   sprites:
 
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
 
     state: sidetail2
 
@@ -1265,7 +1265,7 @@
   speciesRestriction: [ Katunian ]
   sprites:
 
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
 
     state: sidetail3
 
@@ -1276,7 +1276,7 @@
   speciesRestriction: [ Katunian ]
   sprites:
 
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
 
     state: sidetail4
 
@@ -1287,7 +1287,7 @@
   speciesRestriction: [ Katunian ]
   sprites:
 
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
 
     state: spikyponytail
 
@@ -1298,7 +1298,7 @@
   speciesRestriction: [ Katunian ]
   sprites:
 
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
 
     state: poofy
 
@@ -1309,7 +1309,7 @@
   speciesRestriction: [ Katunian ]
   sprites:
 
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
 
     state: poofy2
 
@@ -1320,7 +1320,7 @@
   speciesRestriction: [ Katunian ]
   sprites:
 
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
 
     state: quiff
 
@@ -1331,7 +1331,7 @@
   speciesRestriction: [ Katunian ]
   sprites:
 
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
 
     state: ronin
 
@@ -1342,7 +1342,7 @@
   speciesRestriction: [ Katunian ]
   sprites:
 
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
 
     state: shaved
 
@@ -1353,7 +1353,7 @@
   speciesRestriction: [ Katunian ]
   sprites:
 
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
 
     state: shavedpart
 
@@ -1364,7 +1364,7 @@
   speciesRestriction: [ Katunian ]
   sprites:
 
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
 
     state: shortbangs
 
@@ -1375,7 +1375,7 @@
   speciesRestriction: [ Katunian ]
   sprites:
 
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
 
     state: a
 
@@ -1386,7 +1386,7 @@
   speciesRestriction: [ Katunian ]
   sprites:
 
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
 
     state: shorthair2
 
@@ -1397,7 +1397,7 @@
   speciesRestriction: [ Katunian ]
   sprites:
 
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
 
     state: shorthair3
 
@@ -1408,7 +1408,7 @@
   speciesRestriction: [ Katunian ]
   sprites:
 
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
 
     state: d
 
@@ -1419,7 +1419,7 @@
   speciesRestriction: [ Katunian ]
   sprites:
 
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
 
     state: f
 
@@ -1430,7 +1430,7 @@
   speciesRestriction: [ Katunian ]
   sprites:
 
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
 
     state: shorthairg
 
@@ -1441,7 +1441,7 @@
   speciesRestriction: [ Katunian ]
   sprites:
 
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
 
     state: 80s
 
@@ -1452,7 +1452,7 @@
   speciesRestriction: [ Katunian ]
   sprites:
 
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
 
     state: rosa
 
@@ -1463,7 +1463,7 @@
   speciesRestriction: [ Katunian ]
   sprites:
 
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
 
     state: b
 
@@ -1474,7 +1474,7 @@
   speciesRestriction: [ Katunian ]
   sprites:
 
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
 
     state: sidecut
 
@@ -1485,7 +1485,7 @@
   speciesRestriction: [ Katunian ]
   sprites:
 
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
 
     state: protagonist
 
@@ -1496,7 +1496,7 @@
   speciesRestriction: [ Katunian ]
   sprites:
 
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
 
     state: spikey
 
@@ -1507,7 +1507,7 @@
   speciesRestriction: [ Katunian ]
   sprites:
 
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
 
     state: spiky
 
@@ -1518,7 +1518,7 @@
   speciesRestriction: [ Katunian ]
   sprites:
 
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
 
     state: spiky2
 
@@ -1529,7 +1529,7 @@
   speciesRestriction: [ Katunian ]
   sprites:
 
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
 
     state: swept
 
@@ -1540,7 +1540,7 @@
   speciesRestriction: [ Katunian ]
   sprites:
 
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
 
     state: swept2
 
@@ -1551,7 +1551,7 @@
   speciesRestriction: [ Katunian ]
   sprites:
 
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
 
     state: thinning
 
@@ -1562,7 +1562,7 @@
   speciesRestriction: [ Katunian ]
   sprites:
 
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
 
     state: thinningfront
 
@@ -1573,7 +1573,7 @@
   speciesRestriction: [ Katunian ]
   sprites:
 
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
 
     state: thinningrear
 
@@ -1584,7 +1584,7 @@
   speciesRestriction: [ Katunian ]
   sprites:
 
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
 
     state: topknot
 
@@ -1595,7 +1595,7 @@
   speciesRestriction: [ Katunian ]
   sprites:
 
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
 
     state: tressshoulder
 
@@ -1606,7 +1606,7 @@
   speciesRestriction: [ Katunian ]
   sprites:
 
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
 
     state: trimmed
 
@@ -1617,7 +1617,7 @@
   speciesRestriction: [ Katunian ]
   sprites:
 
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
 
     state: trimflat
 
@@ -1628,7 +1628,7 @@
   speciesRestriction: [ Katunian ]
   sprites:
 
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
 
     state: twintail
 
@@ -1639,7 +1639,7 @@
   speciesRestriction: [ Katunian ]
   sprites:
 
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
 
     state: undercut
 
@@ -1650,7 +1650,7 @@
   speciesRestriction: [ Katunian ]
   sprites:
 
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
 
     state: undercutleft
 
@@ -1661,7 +1661,7 @@
   speciesRestriction: [ Katunian ]
   sprites:
 
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
 
     state: undercutright
 
@@ -1672,7 +1672,7 @@
   speciesRestriction: [ Katunian ]
   sprites:
 
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
 
     state: unkept
 
@@ -1683,7 +1683,7 @@
   speciesRestriction: [ Katunian ]
   sprites:
 
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
 
     state: updo
 
@@ -1694,7 +1694,7 @@
   speciesRestriction: [ Katunian ]
   sprites:
 
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
 
     state: vlong
 
@@ -1705,7 +1705,7 @@
   speciesRestriction: [ Katunian ]
   sprites:
 
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
 
     state: longest
 
@@ -1716,7 +1716,7 @@
   speciesRestriction: [ Katunian ]
   sprites:
 
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
 
     state: longest2
 
@@ -1727,7 +1727,7 @@
   speciesRestriction: [ Katunian ]
   sprites:
 
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
 
     state: veryshortovereyealternate
 
@@ -1738,7 +1738,7 @@
   speciesRestriction: [ Katunian ]
   sprites:
 
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
 
     state: vlongfringe
 
@@ -1749,7 +1749,7 @@
   speciesRestriction: [ Katunian ]
   sprites:
 
-  - sprite: Czeshuika/Mobs/Customization/katunian_hair.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
 
     state: volaju
 
@@ -1766,7 +1766,7 @@
   markingCategory: Head
   speciesRestriction: [ Katunian ]
   sprites:
-  - sprite: Czeshuika/Mobs/Customization/katunian_ears.rsi
+  - sprite: Void/Mobs/Customization/katunian_ears.rsi
     state: lpirs1
 
 - type: marking
@@ -1775,7 +1775,7 @@
   markingCategory: Head
   speciesRestriction: [ Katunian ]
   sprites:
-  - sprite: Czeshuika/Mobs/Customization/katunian_ears.rsi
+  - sprite: Void/Mobs/Customization/katunian_ears.rsi
     state: lpirs2
 
 - type: marking
@@ -1784,7 +1784,7 @@
   markingCategory: Head
   speciesRestriction: [ Katunian ]
   sprites:
-  - sprite: Czeshuika/Mobs/Customization/katunian_ears.rsi
+  - sprite: Void/Mobs/Customization/katunian_ears.rsi
     state: rpirs1
 
 - type: marking
@@ -1793,5 +1793,5 @@
   markingCategory: Head
   speciesRestriction: [ Katunian ]
   sprites:
-  - sprite: Czeshuika/Mobs/Customization/katunian_ears.rsi
+  - sprite: Void/Mobs/Customization/katunian_ears.rsi
     state: rpirs2

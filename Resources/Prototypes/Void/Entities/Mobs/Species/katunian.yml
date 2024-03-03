@@ -10,7 +10,7 @@
   - type: Hunger
   - type: Thirst
   - type: Icon
-    sprite: Czeshuika/Mobs/Species/Katunian/parts.rsi
+    sprite: Void/Mobs/Species/Katunian/parts.rsi
     state: full
   - type: Body
     prototype: Katunian
