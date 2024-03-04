@@ -37,9 +37,6 @@ afk_time = 180.0
 [infolinks]
 discord = "https://discord.gg/Tc5RNEWVWS"
 
-[replay]
-auto_record = true
-
 [accessibility]
 reduced_motion = true
 

@@ -69,9 +69,6 @@ time = 90.0
 discord = "https://discord.gg/Tc5RNEWVWS"
 wiki = "https://js.ss14.su/home"
 
-[replay]
-auto_record = true
-
 [hub]
 tags = "lang:ru,region:eu_e,rp:high"
 
