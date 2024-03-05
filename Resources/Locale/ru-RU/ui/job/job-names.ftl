@@ -80,6 +80,7 @@ job-name-passenger = Пассажир
 job-name-reporter = Репортёр
 job-name-serviceworker = Сервисный работник
 job-name-zookeeper = Зоотехник
+job-name-visitor = Посетитель
 #
 JobBartender = { job-name-bartender }
 JobBotanist = { job-name-botanist }
@@ -96,6 +97,7 @@ JobPassenger = { job-name-passenger }
 JobReporter = { job-name-reporter }
 JobServiceWorker = { job-name-serviceworker }
 JobZookeeper = { job-name-zookeeper }
+JobVisitor = { job-name-visitor }
 
 
 # Служба Безопасности
