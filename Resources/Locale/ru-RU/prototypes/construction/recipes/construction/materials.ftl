@@ -18,3 +18,6 @@ con-SheetUGlass = урановое стекло
 
 con-SheetRUGlass = армированное урановое стекло
     .desc = Лист уранового стекла.
+
+con-CottonWovenCloth = { ent-CottonWovenCloth }
+    .desc = { ent-CottonWovenCloth.desc }

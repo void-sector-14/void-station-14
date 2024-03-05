@@ -36,3 +36,15 @@ con-improvisedshotgun = самопал
 
 con-riflestock = ружейное ложе
     .desc = Ложе, вырезанное из дерева, необходимое для самодельного огнестрельного оружия.
+
+con-improvisedexplosive = { ent-ImprovisedExplosive }
+    .desc = { ent-ImprovisedExplosive.desc }
+
+con-PotatoAIChip = { ent-PotatoAIChip }
+    .desc = { ent-PotatoAIChip.desc }
+
+con-PowerCellPotato = { ent-PowerCellPotato }
+    .desc = { ent-PowerCellPotato.desc }
+
+con-PotatoAI = { ent-PotatoAI }
+    .desc = { ent-PotatoAI.desc }

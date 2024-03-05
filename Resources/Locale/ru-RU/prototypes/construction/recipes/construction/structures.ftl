@@ -183,3 +183,42 @@ con-SolidSecretDoor = скрытая дверь
 
 con-FanTiny = маленький вентилятор
     .desc = Маленький вентилятор, создающий легкий поток воздуха.
+
+con-BarricadeDirectional = { ent-BaseBarricade }
+    .desc = { ent-BaseBarricade.desc }
+
+con-BlastDoor = { ent-BlastDoor }
+    .desc = { ent-BlastDoor.desc }
+
+con-DiagonalShuttleWall = { ent-WallShuttleDiagonal }
+    .desc { ent-WallShuttleDiagonal.desc }
+
+con-InteriorShuttleWall = { ent-InteriorShuttleWall }
+    .desc = { ent-InteriorShuttleWall.desc }
+
+con-GrilleDiagonal = { ent-GrilleDiagonal }
+    .desc = { ent-Grille.desc }
+
+con-PlasmaWindowDiagonal = { ent-PlasmaWindowDiagonal }
+    .desc = { ent-PlasmaWindow.desc }
+
+con-UraniumWindowDiagonal = { ent-UraniumWindowDiagonal }
+    .desc = { ent-UraniumWindow.desc }
+
+con-WindowDiagonal = { ent-WindowDiagonal }
+    .desc = { ent-Window.desc }
+
+con-ReinforcedPlasmaWindowDiagonal = { ent-ReinforcedPlasmaWindowDiagonal }
+    .desc = { ent-ReinforcedPlasmaWindow.desc }
+
+con-ReinforcedUraniumWindowDiagonal = { ent-ReinforcedUraniumWindowDiagonal }
+    .desc = { ent-ReinforcedUraniumWindow.desc }
+
+con-ReinforcedWindowDiagonal = { ent-ReinforcedWindowDiagonal }
+    .desc = { ent-ReinforcedWindow.desc }
+
+con-ShuttleWall = { ent-WallShuttle }
+    .desc = { ent-WallShuttle.desc }
+
+con-ShuttleWindow = { ent-ShuttleWindow }
+    .desc = { ent-ShuttleWindow.desc }

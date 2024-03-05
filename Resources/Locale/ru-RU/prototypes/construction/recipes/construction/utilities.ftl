@@ -144,3 +144,9 @@ con-ScreenTimer = экранный таймер
 
 con-BrigTimer = бриг-таймер
     .desc = Настенный таймер для отправки сигналов устройствам. У этого есть экран для отображения текста и требует доступ СБ для использования.
+
+con-DisposalSignalRouter = { ent-DisposalSignalRouter }
+    .desc = { ent-DisposalSignalRouter.desc }
+
+con-PowerSensor = { ent-PowerSensor }
+    .desc = Генерирует сигналы в ответ на изменение напряжения в сети. Может циклически переключаться между напряжениями кабеля.

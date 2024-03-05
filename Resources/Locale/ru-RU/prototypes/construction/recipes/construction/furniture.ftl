@@ -81,3 +81,24 @@ con-Curtains = шторы
 
 con-Bookshelf = { ent-Bookshelf }
     .desc = В основном заполненный книгами.
+
+con-ChairSteelBench = { ent-SteelBench }
+    .desc = { ent-SteelBench.desc }
+
+con-ChestDrawer = { ent-filingCabinetDrawer }
+    .desc = { ent-filingCabinetDrawer.desc }
+
+con-ClosetSteel = { ent-ClosetSteelBase }
+    .desc = { ent-ClosetSteelBase.desc }
+
+con-Dresser = { ent-Dresser }
+    .desc = { ent-Dresser.desc }
+
+con-FilingCabinet = { ent-fillingCabinet }
+    .desc = { ent-fillingCabinet.desc }
+
+con-TallCabinet = { ent-fillingCabinetTall }
+    .desc = { ent-fillingCabinet.desc }
+
+con-RedComfBench = { ent-RedComfBench }
+    .desc = { ent-RedComfBench.desc }
