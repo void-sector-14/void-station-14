@@ -193,8 +193,8 @@ con-BlastDoor = { ent-BlastDoor }
 con-DiagonalShuttleWall = { ent-WallShuttleDiagonal }
     .desc { ent-WallShuttleDiagonal.desc }
 
-con-InteriorShuttleWall = { ent-InteriorShuttleWall }
-    .desc = { ent-InteriorShuttleWall.desc }
+con-InteriorShuttleWall = внутренняя стена шаттла
+    .desc = { ent-WallShuttle.desc }
 
 con-GrilleDiagonal = { ent-GrilleDiagonal }
     .desc = { ent-Grille.desc }

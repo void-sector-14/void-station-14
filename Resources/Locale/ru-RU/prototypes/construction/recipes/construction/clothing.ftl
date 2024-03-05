@@ -22,8 +22,8 @@ con-ClothingEyesHudMedSec = { ent-ClothingEyesHudMedSec }
 con-flowerwreath = { ent-ClothingNeckFlowerWreath }
     .desc = { ent-ClothingNeckFlowerWreath.desc }
 
-con-MimeHardsuit = { ent-MimeHardsuit }
-    .desc = { ent-MimeHardsuit.desc }
+con-MimeHardsuit = { ent-ClothingOuterHardsuitMime }
+    .desc = { ent-ClothingOuterHardsuitMime.desc }
 
 con-strawHat = { ent-ClothingHeadHatStrawHat }
     .desc  = { ent-ClothingHeadHatStrawHat.desc }

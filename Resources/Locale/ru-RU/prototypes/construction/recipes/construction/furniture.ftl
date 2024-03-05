@@ -94,11 +94,14 @@ con-ClosetSteel = { ent-ClosetSteelBase }
 con-Dresser = { ent-Dresser }
     .desc = { ent-Dresser.desc }
 
-con-FilingCabinet = { ent-fillingCabinet }
-    .desc = { ent-fillingCabinet.desc }
+con-FilingCabinet = картотечный шкаф
+    .desc = Шкаф для хранения документов.
 
-con-TallCabinet = { ent-fillingCabinetTall }
-    .desc = { ent-fillingCabinet.desc }
+con-TallCabinet = высокий шкаф
+    .desc = Шкаф для хранения документов.
 
-con-RedComfBench = { ent-RedComfBench }
-    .desc = { ent-RedComfBench.desc }
+con-RedComfBench = красная удобная скамейка
+    .desc = Скамейка с очень удобной спинкой.
+
+con-BlueComfBench = синяя удобная скамейка
+    .desc = Скамейка с очень удобной спинкой.
