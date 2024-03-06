@@ -66,6 +66,34 @@
         {
             "name": "up",
             "directions": 4
+        },
+		{
+            "name": "horn1",
+            "directions": 4
+        },
+        {
+            "name": "horn2",
+            "directions": 4
+        },
+        {
+            "name": "horn3",
+            "directions": 4
+        },
+        {
+            "name": "horn4",
+            "directions": 4
+        },
+        {
+            "name": "horn5",
+            "directions": 4
+        },
+        {
+            "name": "horn6",
+            "directions": 4
+        },
+        {
+            "name": "lord",
+            "directions": 4
         }
     ]
 }

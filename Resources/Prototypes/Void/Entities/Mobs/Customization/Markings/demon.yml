@@ -132,3 +132,66 @@
   sprites:
   - sprite: Void/Mobs/Customization/demon.rsi
     state: goatee
+
+- type: marking
+  id: DemonHorn1
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [DemonSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/demon.rsi
+    state: horn1
+
+- type: marking
+  id: DemonHorn2
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [DemonSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/demon.rsi
+    state: horn2
+
+- type: marking
+  id: DemonHorn3
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [DemonSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/demon.rsi
+    state: horn3
+
+- type: marking
+  id: DemonHorn4
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [DemonSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/demon.rsi
+    state: horn4
+
+- type: marking
+  id: DemonHorn5
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [DemonSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/demon.rsi
+    state: horn5
+
+- type: marking
+  id: DemonHorn6
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [DemonSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/demon.rsi
+    state: horn6
+
+- type: marking
+  id: DemonHornLord
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [DemonSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/demon.rsi
+    state: lord
