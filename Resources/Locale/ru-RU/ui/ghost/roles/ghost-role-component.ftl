@@ -203,3 +203,6 @@ ghost-role-information-syndicate-reinforcement-rules = Действуют обы
 ghost-role-information-syndicate-monkey-reinforcement-name = Агент-обезьяна Синдиката
 ghost-role-information-syndicate-monkey-reinforcement-description = Кому-то нужно подкрепление. Вы, специально обученная обезьяна, поможете им.
 ghost-role-information-syndicate-monkey-reinforcement-rules = Действуют обычные правила антагонистов Синдиката. Работайте с тем, кто вас вызвал, и не причиняйте ему вреда.
+ghost-role-information-syndicate-cyborg-reinforcement-name = Штурмовой киборг синдиката
+ghost-role-information-syndicate-cyborg-reinforcement-description = Ядерным операциям требуется подкрепление. Вы, холодная кремниевая машина для убийства, поможете им.
+ghost-role-information-syndicate-cyborg-reinforcement-rules = Действуют обычные правила антагонистов Синдиката. Работайте с тем, кто вас вызвал, и не причиняйте ему вреда.
