@@ -20,16 +20,16 @@
       "name": "blue-1"
     },
     {
-      "name": "can-connector"
+      "name": "connector"
     },
     {
-      "name": "can-locked"
+      "name": "locked"
     },
     {
-      "name": "can-unlocked"
+      "name": "unlocked"
     },
     {
-      "name": "can-o0",
+      "name": "o0",
       "delays": [
         [
           0.5,
@@ -38,19 +38,19 @@
       ]
     },
     {
-      "name": "can-o1"
+      "name": "o1"
     },
     {
-      "name": "can-o2"
+      "name": "o2"
     },
     {
-      "name": "can-o3"
+      "name": "o3"
     },
     {
-      "name": "can-oa1"
+      "name": "oa1"
     },
     {
-      "name": "can-open"
+      "name": "open"
     },
     {
       "name": "grey"
