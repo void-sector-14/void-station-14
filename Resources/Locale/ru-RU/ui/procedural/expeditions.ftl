@@ -13,13 +13,12 @@ salvage-expedition-window-hostiles = Враги:
 salvage-expedition-window-duration = Длительность:
 salvage-expedition-window-biome = Биом:
 salvage-expedition-window-modifiers = Модификаторы:
-salvage-expedition-window-claimed = Выбрано
-salvage-expedition-window-claim = Выбрать
+
+offering-window-claimed = Выбрано
+offering-window-claim = Выбрать
 
 salvage-expedition-window-next = Следующее предложение
-# Expedition descriptions
-salvage-expedition-difficulty-players = Рекомендовано утилизаторов:
-#  С вас удержат налог в размере { $tax }% от добытых ресурсов.
+
 salvage-expedition-difficulty-Moderate = Умеренная
 salvage-expedition-difficulty-Hazardous = Высокая
 salvage-expedition-difficulty-Extreme = Экстремальная
