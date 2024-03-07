@@ -181,17 +181,11 @@
         - id: ClothingBeltMilitaryWebbing
           prob: 0.005
           orGroup: syndiemaintloot
-        - id: ClothingShoesBootsCombatFilled
-          prob: 0.005
-          orGroup: syndiemaintloot
         - id: ToolboxSyndicateFilled
           prob: 0.005
           orGroup: syndiemaintloot
         - id: BalloonSyn
           prob: 0.005
-          orGroup: syndiemaintloot
-        - id: WeaponSniperMosin
-          prob: 0.0010
           orGroup: syndiemaintloot
 
 - type: entity
@@ -272,15 +266,9 @@
         - id: ClothingBeltMilitaryWebbing
           prob: 0.005
           orGroup: syndiemaintloot
-        - id: ClothingShoesBootsCombatFilled
-          prob: 0.005
-          orGroup: syndiemaintloot
         - id: ToolboxSyndicateFilled
           prob: 0.005
           orGroup: syndiemaintloot
         - id: BalloonSyn
           prob: 0.005
-          orGroup: syndiemaintloot
-        - id: WeaponSniperMosin
-          prob: 0.0010
           orGroup: syndiemaintloot
