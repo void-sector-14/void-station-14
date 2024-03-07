@@ -209,3 +209,27 @@
       collection: RadiationPulse
   - type: UseDelay
     delay: 5.0
+
+- type: entity
+  parent: BaseVoidPlushie
+  id: PlushieSharssee
+  name: Плюшевый Шарсси
+  description: |
+    Вам кажется что эта игрушка за вами следит.
+    Ограниченная серия игрушек команды проекта "Void Sector".
+    Собери их всех!
+  components:
+  - type: Sprite
+    state: plushie_sharssee
+  - type: EmitSoundOnUse
+    sound:
+      path: /Audio/Items/Toys/weh.ogg
+  - type: EmitSoundOnLand
+    sound:
+      path: /Audio/Items/Toys/weh.ogg
+  - type: EmitSoundOnActivate
+    sound:
+      path: /Audio/Items/Toys/weh.ogg
+  - type: MeleeWeapon
+    soundHit:
+      path: /Audio/Items/Toys/weh.ogg
