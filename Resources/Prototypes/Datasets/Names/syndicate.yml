@@ -58,4 +58,6 @@
   id: SyndicateNamesPrefix
   values:
   - Оперативник
+  - Оператор
   - Агент
+  - Специалист 
