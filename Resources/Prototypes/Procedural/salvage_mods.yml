@@ -31,26 +31,26 @@
 # Light mods -> required
 - type: salvageLightMod
   id: Daylight
-  desc: Daylight
+  desc: День
   color: "#D8B059"
   biomes:
     - Grasslands
 
 - type: salvageLightMod
   id: Lavalight
-  desc: Daylight
+  desc: День
   color: "#A34931"
   biomes:
     - Lava
 
 - type: salvageLightMod
   id: Evening
-  desc: Evening
+  desc: Вечер
   color: "#2b3143"
 
 - type: salvageLightMod
   id: Night
-  desc: Night time
+  desc: Ночь
   cost: 1
   color: null
 
@@ -71,7 +71,7 @@
 
 - type: salvageTemperatureMod
   id: Burning
-  desc: High temperature
+  desc: Высокая Температура
   cost: 2
   temperature: 423.15 # 200C
   biomes:
@@ -81,7 +81,7 @@
 
 - type: salvageTemperatureMod
   id: Melting
-  desc: Extreme heat
+  desc: Адская Жара
   cost: 4
   temperature: 1273.15 # 1000C hot hot hot
   biomes:
@@ -99,7 +99,7 @@
 
 - type: salvageTemperatureMod
   id: Tundra
-  desc: Low temperature
+  desc: Низкая Температура
   cost: 2
   temperature: 263.15 # -40C
   biomes:
@@ -108,7 +108,7 @@
 
 - type: salvageTemperatureMod
   id: Frozen
-  desc: Extreme cold
+  desc: Экстремальный Холод
   cost: 4
   temperature: 123.15 # -150C
   biomes:
@@ -117,7 +117,7 @@
 # Air mixtures
 - type: salvageAirMod
   id: Space
-  desc: No atmosphere
+  desc: Без Атмосферы
   space: true
   cost: 2
   biomes:
@@ -134,7 +134,7 @@
 - type: salvageAirMod
   id: Sleepy
   cost: 1
-  desc: Dangerous atmosphere
+  desc: Опасная Атмосфера
   gases:
     - 21.824779 # oxygen
     - 72.10312 # nitrogen
@@ -154,7 +154,7 @@
 - type: salvageAirMod
   id: Poisoned
   cost: 2
-  desc: Dangerous atmosphere
+  desc: Опасная Атмосфера
   gases:
     - 21.824779 # oxygen
     - 77.10312 # nitrogen
@@ -169,7 +169,7 @@
 - type: salvageAirMod
   id: Poison
   cost: 3
-  desc: Toxic atmosphere
+  desc: Токсичная Атмосфера
   gases:
     - 21.824779 # oxygen
     - 0
@@ -182,7 +182,7 @@
 - type: salvageAirMod
   id: Plasma
   cost: 4
-  desc: Toxic atmosphere
+  desc: Токсичная Атмосфера
   gases:
     - 0
     - 0
@@ -195,7 +195,7 @@
 - type: salvageAirMod
   id: Burnable
   cost: 5
-  desc: Volatile atmosphere
+  desc: Огнеопасная Атмосфера
   gases:
     - 21.824779 # oxygen
     - 0
@@ -206,14 +206,14 @@
     - Lava
 
 # Weather mods -> not required
-#- type: salvageWeatherMod
-#  id: SnowfallHeavy
-#  weather: SnowfallHeavy
-#  cost: 1
-#
-#- type: salvageWeatherMod
-#  id: Rain
-#  weather: Rain
+- type: salvageWeatherMod
+  id: SnowfallHeavy
+  weather: SnowfallHeavy
+  cost: 1
+
+- type: salvageWeatherMod
+  id: Rain
+  weather: Rain
 
 # Dungeons
 #  For now just simple 1-dungeon setups
