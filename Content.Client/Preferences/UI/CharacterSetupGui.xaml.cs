@@ -196,12 +196,13 @@ namespace Content.Client.Preferences.UI
                 view.SetEntity(_previewDummy);
 
                 var description = profile.Name;
+                var balance = humanoid?.BankBalance;
 
                 var highPriorityJob = humanoid?.JobPriorities.SingleOrDefault(p => p.Value == JobPriority.High).Key;
                 if (highPriorityJob != null)
                 {
                     var jobName = IoCManager.Resolve<IPrototypeManager>().Index<JobPrototype>(highPriorityJob).LocalizedName;
-                    description = $"{description}\n{jobName}";
+                    description = $"{description}\n{jobName}\n${balance}";
                 }
 
                 var descriptionLabel = new Label

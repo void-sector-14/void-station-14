@@ -2,15 +2,22 @@
 
 #nullable disable
 
-namespace Content.Server.Database.Migrations.Sqlite
+namespace Content.Server.Database.Migrations.Postgres
 {
-    public partial class ProfileTraitIndexUnique : Migration
+    public partial class BankAccount : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropIndex(
                 name: "IX_trait_profile_id",
                 table: "trait");
+
+            migrationBuilder.AddColumn<int>(
+                name: "bank_balance",
+                table: "profile",
+                type: "integer",
+                nullable: false,
+                defaultValue: 0);
 
             migrationBuilder.CreateIndex(
                 name: "IX_trait_profile_id_trait_name",
@@ -24,6 +31,10 @@ namespace Content.Server.Database.Migrations.Sqlite
             migrationBuilder.DropIndex(
                 name: "IX_trait_profile_id_trait_name",
                 table: "trait");
+
+            migrationBuilder.DropColumn(
+                name: "bank_balance",
+                table: "profile");
 
             migrationBuilder.CreateIndex(
                 name: "IX_trait_profile_id",

@@ -14,8 +14,8 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace Content.Server.Database.Migrations.Postgres
 {
     [DbContext(typeof(PostgresServerDbContext))]
-    [Migration("20230319110655_ProfileTraitIndexUnique")]
-    partial class ProfileTraitIndexUnique
+    [Migration("20230318040706_BankAccount")]
+    partial class BankAccount
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -587,6 +587,10 @@ namespace Content.Server.Database.Migrations.Postgres
                         .IsRequired()
                         .HasColumnType("text")
                         .HasColumnName("backpack");
+
+                    b.Property<int>("BankBalance")
+                        .HasColumnType("integer")
+                        .HasColumnName("bank_balance");
 
                     b.Property<string>("CharacterName")
                         .IsRequired()
