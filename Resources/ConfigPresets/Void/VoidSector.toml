@@ -1,6 +1,6 @@
 [game]
-desc = "Тут есть описание, просто оно далеко от вас."
 hostname = "[RU][HRP] VoidSector"
+desc = "Далекие пустоты космоса, миллионы световых лет без единой души. Сможешь ли ты выжить в Пустоте?"
 soft_max_players = 60
 lobbyduration = 180
 fallbackpreset = "Extended"
