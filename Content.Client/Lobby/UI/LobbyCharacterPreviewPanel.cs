@@ -28,7 +28,6 @@ namespace Content.Client.Lobby.UI
 
         private EntityUid? _previewDummy;
         private readonly Label _summaryLabel;
-        private readonly Label _bankAccountLabel;
         private readonly BoxContainer _loaded;
         private readonly BoxContainer _viewBox;
         private readonly Label _unloaded;
@@ -54,12 +53,6 @@ namespace Content.Client.Lobby.UI
                 Margin = new Thickness(3, 3),
             };
 
-            _bankAccountLabel = new Label
-            {
-                HorizontalAlignment = HAlignment.Center,
-                Margin = new Thickness(3,3),
-            };
-
             var vBox = new BoxContainer
             {
                 Orientation = LayoutOrientation.Vertical
@@ -79,7 +72,6 @@ namespace Content.Client.Lobby.UI
             var _vSpacer = new VSpacer();
 
             _loaded.AddChild(_summaryLabel);
-            _loaded.AddChild(_bankAccountLabel);
             _loaded.AddChild(_viewBox);
             _loaded.AddChild(_vSpacer);
             _loaded.AddChild(CharacterSetupButton);
@@ -117,7 +109,6 @@ namespace Content.Client.Lobby.UI
                 if (_preferencesManager.Preferences?.SelectedCharacter is not HumanoidCharacterProfile selectedCharacter)
                 {
                     _summaryLabel.Text = string.Empty;
-                    _bankAccountLabel.Text = string.Empty;
                 }
                 else
                 {
@@ -132,7 +123,6 @@ namespace Content.Client.Lobby.UI
                     };
                     spriteView.SetEntity(_previewDummy.Value);
                     _viewBox.AddChild(spriteView);
-                    _bankAccountLabel.Text = "$" + selectedCharacter.BankBalance;
                     _summaryLabel.Text = selectedCharacter.Summary;
                     _entityManager.System<HumanoidAppearanceSystem>().LoadProfile(_previewDummy.Value, selectedCharacter);
                     GiveDummyJobClothes(_previewDummy.Value, selectedCharacter);

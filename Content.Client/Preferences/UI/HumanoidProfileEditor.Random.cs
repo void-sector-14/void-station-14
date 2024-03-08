@@ -9,7 +9,7 @@ namespace Content.Client.Preferences.UI
 
         private void RandomizeEverything()
         {
-            Profile = HumanoidCharacterProfile.Random(balance : Profile?.BankBalance ?? HumanoidCharacterProfile.DefaultBalance);
+            Profile = HumanoidCharacterProfile.Random();
             UpdateControls();
             IsDirty = true;
         }
