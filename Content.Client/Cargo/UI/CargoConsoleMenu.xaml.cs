@@ -24,8 +24,8 @@ namespace Content.Client.Cargo.UI
         public event Action<ButtonEventArgs>? OnOrderApproved;
         public event Action<ButtonEventArgs>? OnOrderCanceled;
 
-        private readonly List<string> _categoryStrings = new();
-        private string? _category;
+        private readonly List<CargoCategoryItem> _categoryList = new();
+        private CargoCategoryItem? _category;
 
         public CargoConsoleMenu(EntityUid owner, IEntityManager entMan, IPrototypeManager protoManager, SpriteSystem spriteSystem)
         {
@@ -54,7 +54,7 @@ namespace Content.Client.Cargo.UI
 
         private void SetCategoryText(int id)
         {
-            _category = id == 0 ? null : _categoryStrings[id];
+            _category = id == 0 ? null : _categoryList[id];
             Categories.SelectId(id);
         }
 
@@ -92,7 +92,7 @@ namespace Content.Client.Cargo.UI
                 // else if category and not search
                 if (search.Length == 0 && _category == null ||
                     search.Length != 0 && prototype.Name.ToLowerInvariant().Contains(search) ||
-                    search.Length == 0 && _category != null && prototype.Category.Equals(_category))
+                    search.Length == 0 && _category != null && prototype.Category.Equals(_category.Original))
                 {
                     var button = new CargoProductRow
                     {
@@ -116,25 +116,28 @@ namespace Content.Client.Cargo.UI
         /// </summary>
         public void PopulateCategories()
         {
-            _categoryStrings.Clear();
+            _categoryList.Clear();
             Categories.Clear();
 
             foreach (var prototype in ProductPrototypes)
             {
-                if (!_categoryStrings.Contains(prototype.Category))
-                {
-                    _categoryStrings.Add(Loc.GetString(prototype.Category));
-                }
+                var categoryItem = new CargoCategoryItem(
+                    prototype.Category,
+                    Loc.GetString("cargo-category-" + prototype.Category)
+                );
+
+                if (!_categoryList.Contains(categoryItem))
+                    _categoryList.Add(categoryItem);
             }
 
-            _categoryStrings.Sort();
+            _categoryList.Sort((i1, i2) => string.Compare(i1.Locale, i2.Locale, StringComparison.Ordinal));
 
             // Add "All" category at the top of the list
-            _categoryStrings.Insert(0, Loc.GetString("cargo-console-menu-populate-categories-all-text"));
+            _categoryList.Insert(0, new CargoCategoryItem("All", Loc.GetString("cargo-console-menu-populate-categories-all-text")));
 
-            foreach (var str in _categoryStrings)
+            foreach (var item in _categoryList)
             {
-                Categories.AddItem(str);
+                Categories.AddItem(item.Locale);
             }
         }
 
@@ -194,4 +197,6 @@ namespace Content.Client.Cargo.UI
             PointsLabel.Text = Loc.GetString("cargo-console-menu-points-amount", ("amount", points.ToString()));
         }
     }
+
+    internal record CargoCategoryItem(string Original, string Locale);
 }

@@ -6,8 +6,10 @@
   sprites: MobTerminatorSprites
   defaultSkinTone: "#fff9e2"
   markingLimits: MobHumanMarkingLimits
-  maleFirstNames: skeletonNamesFirst
-  femaleFirstNames: skeletonNamesFirst
+  maleFirstNames: skeletonMaleNamesFirst
+  femaleFirstNames: skeletonFemaleNamesFirst
+  maleLastNames: skeletonNamesLast
+  femaleLastNames: skeletonNamesLast
   dollPrototype: MobSkeletonPersonDummy
   skinColoration: TintedHues
 

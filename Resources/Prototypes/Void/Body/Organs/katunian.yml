@@ -1,0 +1,21 @@
+- type: entity
+  id: OrganKatunianStomach
+  parent: OrganAnimalStomach
+  noSpawn: true
+  components:
+  - type: Stomach
+    maxVolume: 50
+  - type: Sprite
+    netsync: false
+    sprite: Void/Mobs/Species/Katunian/organs.rsi
+    state: stomach
+
+- type: entity
+  id: OrganKatunianHeart
+  parent: OrganHumanHeart
+  noSpawn: true
+  components:
+  - type: Sprite
+    netsync: false
+    sprite: Void/Mobs/Species/Katunian/organs.rsi
+    state: heart-on

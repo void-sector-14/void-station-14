@@ -1,0 +1,109 @@
+- type: entity
+  id: PartVulpkanin
+  parent: [ BaseItem, BasePart ]
+  name: часть тела вульпканина
+  abstract: true
+  components:
+  - type: Extractable
+    juiceSolution:
+      reagents:
+      - ReagentId: Fat
+        Quantity: 3
+      - ReagentId: Blood
+        Quantity: 10
+  - type: Sprite
+    netsync: false
+    sprite: Void/Mobs/Species/Vulpkanin/parts.rsi
+
+- type: entity
+  id: TorsoVulpkanin
+  name: торс вульпканина
+  parent: [ PartVulpkanin, BaseTorso ]
+  components:
+  - type: Sprite
+    state: "torso_m"
+  - type: Extractable
+    juiceSolution:
+      reagents:
+      - ReagentId: Fat
+        Quantity: 10
+      - ReagentId: Blood
+        Quantity: 20
+
+- type: entity
+  id: HeadVulpkanin
+  name: голова вульпканина
+  parent: [ PartVulpkanin, BaseHead ]
+  components:
+  - type: Sprite
+    state: "head_m"
+
+- type: entity
+  id: LeftArmVulpkanin
+  name: левая рука вульпканина
+  parent: [ PartVulpkanin, BaseLeftArm ]
+  components:
+  - type: Sprite
+    state: "l_arm"
+
+- type: entity
+  id: RightArmVulpkanin
+  name: правая рука вульпканина
+  parent: [ PartVulpkanin, BaseRightArm ]
+  components:
+  - type: Sprite
+    state: "r_arm"
+
+- type: entity
+  id: LeftHandVulpkanin
+  name: левая кисть вульпканина
+  parent: [ PartVulpkanin, BaseLeftHand ]
+  components:
+  - type: Sprite
+    state: "l_hand"
+
+- type: entity
+  id: RightHandVulpkanin
+  name: правая кисть вульпканина
+  parent: [ PartVulpkanin, BaseRightHand ]
+  components:
+  - type: Sprite
+    state: "r_hand"
+
+- type: entity
+  id: LeftLegVulpkanin
+  name: левая нога вульпканина
+  parent: [ PartVulpkanin, BaseLeftLeg ]
+  components:
+  - type: Sprite
+    state: "l_leg"
+  - type: MovementSpeedModifier
+    baseWalkSpeed: 2.7
+    baseSprintSpeed: 4.5
+
+- type: entity
+  id: RightLegVulpkanin
+  name: правая нога вульпканина
+  parent: [ PartVulpkanin, BaseRightLeg ]
+  components:
+  - type: Sprite
+    state: "r_leg"
+  - type: MovementSpeedModifier
+    baseWalkSpeed: 2.7
+    baseSprintSpeed: 4.5
+
+- type: entity
+  id: LeftFootVulpkanin
+  name: левая ступня вульпканина
+  parent: [ PartVulpkanin, BaseLeftFoot ]
+  components:
+  - type: Sprite
+    state: "l_foot"
+
+- type: entity
+  id: RightFootVulpkanin
+  name: правая ступня вульпканина
+  parent: [ PartVulpkanin, BaseRightFoot ]
+  components:
+  - type: Sprite
+    state: "r_foot"

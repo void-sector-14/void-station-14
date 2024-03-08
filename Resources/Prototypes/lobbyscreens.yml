@@ -1,22 +1,10 @@
 - type: lobbyBackground
-  id: Robotics
-  background: /Textures/LobbyScreens/robotics.webp
-
-- type: lobbyBackground
-  id: Supermatter
-  background: /Textures/LobbyScreens/supermatter.webp
-
-- type: lobbyBackground
   id: Warden
   background: /Textures/LobbyScreens/warden.webp
 
 - type: lobbyBackground
   id: Pharmacy
   background: /Textures/LobbyScreens/pharmacy.webp
-
-- type: lobbyBackground
-  id: SSXIV
-  background: /Textures/LobbyScreens/ssxiv.webp
 
 - type: lobbyBackground
   id: Susstation
@@ -33,3 +21,39 @@
 - type: lobbyBackground
   id: Blueprint
   background: /Textures/LobbyScreens/blueprint.webp
+
+- type: lobbyBackground
+  id: Wallpaper-1
+  background: /Textures/LobbyScreens/wallpaper-1.png
+
+- type: lobbyBackground
+  id: Wallpaper-2
+  background: /Textures/LobbyScreens/wallpaper-2.png
+
+- type: lobbyBackground
+  id: Wallpaper-3
+  background: /Textures/LobbyScreens/wallpaper-3.png
+
+- type: lobbyBackground
+  id: Wallpaper-4
+  background: /Textures/LobbyScreens/wallpaper-4.png
+
+- type: lobbyBackground
+  id: Wallpaper-5
+  background: /Textures/LobbyScreens/wallpaper-5.png
+
+- type: lobbyBackground
+  id: Wallpaper-6
+  background: /Textures/LobbyScreens/wallpaper-6.png
+
+- type: lobbyBackground
+  id: Wallpaper-7
+  background: /Textures/LobbyScreens/wallpaper-7.png
+
+- type: lobbyBackground
+  id: Wallpaper-8
+  background: /Textures/LobbyScreens/wallpaper-8.png
+
+- type: lobbyBackground
+  id: BSA
+  background: /Textures/LobbyScreens/BSA.png

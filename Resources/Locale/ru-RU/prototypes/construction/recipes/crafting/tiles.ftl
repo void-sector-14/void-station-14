@@ -1,0 +1,17 @@
+con-TileSteel = стальная плитка
+    .desc = Четыре стальные станционные плитки.
+
+con-TileWood = деревянный пол
+    .desc = Четыре куска деревянного настила станции.
+
+con-TileWhite = белая плитка
+    .desc = Четыре белые плитки станции.
+
+con-TileDark = темная плитка
+    .desc = Четыре темные плитки станции.
+
+con-TileFlesh = пол из плоти
+    .desc = Четыре мясные плитки.
+
+con-TileWoodLarge = { ent-FloorTileItemWoodLarge }
+    .desc = { ent-FloorTileItemWoodLarge.desc }

@@ -1,0 +1,81 @@
+[game]
+hostname = "[RU][HRP] VoidSector"
+desc = "Далекие пустоты космоса, миллионы световых лет без единой души. Сможешь ли ты выжить в Пустоте?"
+soft_max_players = 60
+lobbyduration = 180
+fallbackpreset = "Extended"
+
+[traitor]
+min_players = 3
+
+[zombie]
+min_players = 10
+
+[pirates]
+min_players = 15
+
+[tips]
+enabled = false
+
+[console]
+login_host_user = "Makot"
+
+[server]
+rules_file = "RP_Rules.txt"
+rules_header = "ui-rules-header-rp"
+
+[admin]
+see_own_notes = true
+note_fresh_days = 0
+message_wait_time = 1
+new_player_threshold = 180
+afk_time = 180.0
+
+[atmos]
+space_wind = true
+
+[looc]
+enabled_crit = true
+
+[vote]
+timermap = 30
+
+[shuttle]
+arrivals_returns = true
+emergency_early_launch_allowed = true
+emergency_dock_time = 300.0
+emergency_authorize_time = 30.0
+recall_turning_point = 0.1
+auto_call_time = 120
+auto_call_extension_time = 60
+
+[biomass]
+easy_mode = false
+
+[accessibility]
+reduced_motion = true
+
+[ooc]
+enable_during_round = false
+
+[ic]
+flavor_text = true
+punctuation = true
+
+[rules]
+time = 90.0
+
+[infolinks]
+discord = "https://discord.gg/Tc5RNEWVWS"
+wiki = "https://js.ss14.su/home"
+
+[hub]
+tags = "lang:ru,region:eu_e,rp:high"
+
+################################################################################
+##### Discord ##################################################################
+
+[discord]
+ahelp_webhook = "https://discord.com/api/webhooks/1212462166574112768/DHvqrMihrQHcvo5j8bp0tJhZ4U_728r4FWvTSTZsCwUu74UcG3lyL6g7QtmwaV0UiCoV"
+ahelp_avatar = "https://i.imgur.com/e9AMvev.png"
+ahelp_footer_icon = "https://i.imgur.com/e9AMvev.png"

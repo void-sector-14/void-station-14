@@ -1,0 +1,614 @@
+### HEAD ###
+
+- type: marking
+  id: VulpkaninTigerHead
+  bodyPart: Head
+  markingCategory: Head
+  speciesRestriction: [ VulpkaninPerson ]
+  sprites:
+  - sprite: Void/Mobs/Customization/Vulpkanin/head.rsi
+    state: tiger_head
+
+- type: marking
+  id: VulpkaninTigerFaceHead
+  bodyPart: Head
+  markingCategory: Head
+  speciesRestriction: [ VulpkaninPerson ]
+  sprites:
+  - sprite: Void/Mobs/Customization/Vulpkanin/head.rsi
+    state: tiger_face
+
+- type: marking
+  id: VulpkaninSlashHead
+  bodyPart: Head
+  markingCategory: Head
+  speciesRestriction: [ VulpkaninPerson ]
+  sprites:
+  - sprite: Void/Mobs/Customization/Vulpkanin/head.rsi
+    state: slash
+
+### SNOUT ###
+
+- type: marking
+  id: VulpkaninSnout
+  bodyPart: Snout
+  markingCategory: Snout
+  speciesRestriction: [ VulpkaninPerson ]
+  sprites:
+  - sprite: Void/Mobs/Customization/Vulpkanin/vulpkanin.rsi
+    state: vulp_face
+
+- type: marking
+  id: VulpkaninMuzzleSharpSnout
+  bodyPart: Snout
+  markingCategory: Snout
+  speciesRestriction: [ VulpkaninPerson ]
+  sprites:
+  - sprite: Void/Mobs/Customization/Vulpkanin/head.rsi
+    state: muzzle_sharp
+  - sprite: Void/Mobs/Customization/Vulpkanin/head.rsi
+    state: nose
+
+- type: marking
+  id: VulpkaninMuzzleFadeSnout
+  bodyPart: Snout
+  markingCategory: Snout
+  speciesRestriction: [ VulpkaninPerson ]
+  sprites:
+  - sprite: Void/Mobs/Customization/Vulpkanin/head.rsi
+    state: muzzle_fade
+  - sprite: Void/Mobs/Customization/Vulpkanin/head.rsi
+    state: nose
+
+- type: marking
+  id: VulpkaninNoseSnout
+  bodyPart: Snout
+  markingCategory: Snout
+  speciesRestriction: [ VulpkaninPerson ]
+  sprites:
+  - sprite: Void/Mobs/Customization/Vulpkanin/head.rsi
+    state: nose
+
+- type: marking
+  id: VulpkaninMaskSnout
+  bodyPart: Snout
+  markingCategory: Snout
+  speciesRestriction: [ VulpkaninPerson ]
+  sprites:
+  - sprite: Void/Mobs/Customization/Vulpkanin/head.rsi
+    state: mask
+  - sprite: Void/Mobs/Customization/Vulpkanin/head.rsi
+    state: nose
+
+- type: marking
+  id: VulpkaninSnout2
+  bodyPart: Snout
+  markingCategory: Snout
+  speciesRestriction: [ VulpkaninPerson ]
+  sprites:
+  - sprite: Void/Mobs/Customization/Vulpkanin/head.rsi
+    state: vulpine
+  - sprite: Void/Mobs/Customization/Vulpkanin/head.rsi
+    state: vulpine-lines
+
+- type: marking
+  id: VulpkaninSwiftSnout
+  bodyPart: Snout
+  markingCategory: Snout
+  speciesRestriction: [ VulpkaninPerson ]
+  sprites:
+  - sprite: Void/Mobs/Customization/Vulpkanin/head.rsi
+    state: vulpine-lines
+
+- type: marking
+  id: VulpkaninBlazeSnout
+  bodyPart: Snout
+  markingCategory: Snout
+  speciesRestriction: [ VulpkaninPerson ]
+  sprites:
+  - sprite: Void/Mobs/Customization/Vulpkanin/head.rsi
+    state: blaze
+
+- type: marking
+  id: VulpkaninPatchSnout
+  bodyPart: Snout
+  markingCategory: Snout
+  speciesRestriction: [ VulpkaninPerson ]
+  sprites:
+  - sprite: Void/Mobs/Customization/Vulpkanin/head.rsi
+    state: patch
+
+### EARS ###
+
+- type: marking
+  id: VulpkaninEar
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [ VulpkaninPerson ]
+  sprites:
+  - sprite: Void/Mobs/Customization/Vulpkanin/vulpkanin.rsi
+    state: vulp_ear
+  - sprite: Void/Mobs/Customization/Vulpkanin/vulpkanin.rsi
+    state: vulp_ear_inner
+
+- type: marking
+  id: VulpkaninFadeEar
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [ VulpkaninPerson ]
+  sprites:
+  - sprite: Void/Mobs/Customization/Vulpkanin/vulpkanin.rsi
+    state: vulp_ear
+  - sprite: Void/Mobs/Customization/Vulpkanin/ears.rsi
+    state: vulp-fade
+
+- type: marking
+  id: VulpkaninSharpEar
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [ VulpkaninPerson ]
+  sprites:
+  - sprite: Void/Mobs/Customization/Vulpkanin/vulpkanin.rsi
+    state: vulp_ear
+  - sprite: Void/Mobs/Customization/Vulpkanin/ears.rsi
+    state: vulp-sharp
+
+- type: marking
+  id: VulpkaninJackalEar
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [ VulpkaninPerson ]
+  sprites:
+  - sprite: Void/Mobs/Customization/Vulpkanin/ears.rsi
+    state: jackal
+  - sprite: Void/Mobs/Customization/Vulpkanin/ears.rsi
+    state: jackal-inner
+
+- type: marking
+  id: VulpkaninTerrierEar
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [ VulpkaninPerson ]
+  sprites:
+  - sprite: Void/Mobs/Customization/Vulpkanin/ears.rsi
+    state: terrier
+  - sprite: Void/Mobs/Customization/Vulpkanin/ears.rsi
+    state: terrier-inner
+
+- type: marking
+  id: VulpkaninWolfEar
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [ VulpkaninPerson ]
+  sprites:
+  - sprite: Void/Mobs/Customization/Vulpkanin/ears.rsi
+    state: wolf
+  - sprite: Void/Mobs/Customization/Vulpkanin/ears.rsi
+    state: wolf-inner
+
+- type: marking
+  id: VulpkaninFennecEar
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [ VulpkaninPerson ]
+  sprites:
+  - sprite: Void/Mobs/Customization/Vulpkanin/ears.rsi
+    state: fennec
+  - sprite: Void/Mobs/Customization/Vulpkanin/ears.rsi
+    state: fennec-inner
+
+- type: marking
+  id: VulpkaninFoxEar
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [ VulpkaninPerson ]
+  sprites:
+  - sprite: Void/Mobs/Customization/Vulpkanin/ears.rsi
+    state: fox
+
+- type: marking
+  id: VulpkaninOtieEar
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [ VulpkaninPerson ]
+  sprites:
+  - sprite: Void/Mobs/Customization/Vulpkanin/ears.rsi
+    state: otie
+  - sprite: Void/Mobs/Customization/Vulpkanin/ears.rsi
+    state: otie-inner
+
+- type: marking
+  id: VulpkaninMsaiEar
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [ VulpkaninPerson ]
+  sprites:
+  - sprite: Void/Mobs/Customization/Vulpkanin/ears.rsi
+    state: msai
+  - sprite: Void/Mobs/Customization/Vulpkanin/ears.rsi
+    state: msai-inner
+
+- type: marking
+  id: VulpkaninShockEar
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [ VulpkaninPerson ]
+  sprites:
+  - sprite: Void/Mobs/Customization/Vulpkanin/ears.rsi
+    state: shock
+
+- type: marking
+  id: VulpkaninCoyoteEar
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [ VulpkaninPerson ]
+  sprites:
+  - sprite: Void/Mobs/Customization/Vulpkanin/ears.rsi
+    state: coyote
+
+- type: marking
+  id: VulpkaninDalmatianEar
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [ VulpkaninPerson ]
+  sprites:
+  - sprite: Void/Mobs/Customization/Vulpkanin/ears.rsi
+    state: dalmatian
+
+### CHEST ###
+
+- type: marking
+  id: VulpkaninBelly
+  bodyPart: Chest
+  markingCategory: Chest
+  speciesRestriction: [ VulpkaninPerson ]
+  sprites:
+  - sprite: Void/Mobs/Customization/Vulpkanin/vulpkanin.rsi
+    state: vulp_belly-torso
+
+- type: marking
+  id: VulpkaninBellyCrestChest
+  bodyPart: Chest
+  markingCategory: Chest
+  speciesRestriction: [ VulpkaninPerson ]
+  sprites:
+  - sprite: Void/Mobs/Customization/Vulpkanin/body.rsi
+    state: belly_crest
+
+- type: marking
+  id: VulpkaninBellyFullChest
+  bodyPart: Chest
+  markingCategory: Chest
+  speciesRestriction: [ VulpkaninPerson ]
+  sprites:
+  - sprite: Void/Mobs/Customization/Vulpkanin/body.rsi
+    state: belly_full
+
+### RFOOT ###
+
+- type: marking
+  id: PawSocks
+  markingCategory: Overlay
+  bodyPart: RFoot #highest possible layer
+  speciesRestriction: [ VulpkaninPerson ]
+  sprites:
+  - sprite: Void/Mobs/Customization/Vulpkanin/vulpkanin.rsi
+    state: pawsocks
+
+- type: marking
+  id: VulpkaninPointsCrestRfoot
+  markingCategory: Overlay
+  bodyPart: RFoot
+  speciesRestriction: [ VulpkaninPerson ]
+  sprites:
+  - sprite: Void/Mobs/Customization/Vulpkanin/body.rsi
+    state: points_crest
+
+- type: marking
+  id: VulpkaninPointsFadeRfoot
+  markingCategory: Overlay
+  bodyPart: RFoot
+  speciesRestriction: [ VulpkaninPerson ]
+  sprites:
+  - sprite: Void/Mobs/Customization/Vulpkanin/body.rsi
+    state: points_fade
+
+- type: marking
+  id: VulpkaninPointsSharpRfoot
+  markingCategory: Overlay
+  bodyPart: RFoot
+  speciesRestriction: [ VulpkaninPerson ]
+  sprites:
+  - sprite: Void/Mobs/Customization/Vulpkanin/body.rsi
+    state: points_sharp
+
+- type: marking
+  id: VulpkaninPointsFeetRfoot
+  markingCategory: Overlay
+  bodyPart: RFoot
+  speciesRestriction: [ VulpkaninPerson ]
+  sprites:
+  - sprite: Void/Mobs/Customization/Vulpkanin/body.rsi
+    state: points_feet
+
+### LEGS ###
+
+- type: marking
+  id: VulpkaninPointsCrestLegs
+  markingCategory: Legs
+  bodyPart: LLeg
+  speciesRestriction: [ VulpkaninPerson ]
+  sprites:
+  - sprite: Void/Mobs/Customization/Vulpkanin/body.rsi
+    state: points_crest-legs
+
+- type: marking
+  id: VulpkaninPointsFadeLegs
+  markingCategory: Legs
+  bodyPart: LLeg
+  speciesRestriction: [ VulpkaninPerson ]
+  sprites:
+  - sprite: Void/Mobs/Customization/Vulpkanin/body.rsi
+    state: points_fade-legs
+
+- type: marking
+  id: VulpkaninPointsSharpLegs
+  markingCategory: Legs
+  bodyPart: LLeg
+  speciesRestriction: [ VulpkaninPerson ]
+  sprites:
+  - sprite: Void/Mobs/Customization/Vulpkanin/body.rsi
+    state: points_sharp-legs
+
+### ARMS ###
+
+- type: marking
+  id: VulpkaninPointsHands
+  markingCategory: Overlay
+  bodyPart: RHand
+  speciesRestriction: [ VulpkaninPerson ]
+  sprites:
+  - sprite: Void/Mobs/Customization/Vulpkanin/body.rsi
+    state: points_hands
+
+- type: marking
+  id: VulpkaninPointsCrestArms
+  markingCategory: Arms
+  bodyPart: LArm
+  speciesRestriction: [ VulpkaninPerson ]
+  sprites:
+  - sprite: Void/Mobs/Customization/Vulpkanin/body.rsi
+    state: points_crest-arms
+
+- type: marking
+  id: VulpkaninPointsFadeArms
+  markingCategory: Arms
+  bodyPart: LArm
+  speciesRestriction: [ VulpkaninPerson ]
+  sprites:
+  - sprite: Void/Mobs/Customization/Vulpkanin/body.rsi
+    state: points_fade-arms
+
+- type: marking
+  id: VulpkaninPointsSharpArms
+  markingCategory: Arms
+  bodyPart: LArm
+  speciesRestriction: [ VulpkaninPerson ]
+  sprites:
+  - sprite: Void/Mobs/Customization/Vulpkanin/body.rsi
+    state: points_sharp-arms
+
+### TAIL ###
+
+- type: marking
+  id: VulpkaninTail
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [ VulpkaninPerson ]
+  sprites:
+  - sprite: Void/Mobs/Customization/Vulpkanin/tail_static.rsi
+    state: vulp
+  - sprite: Void/Mobs/Customization/Vulpkanin/tail_static.rsi
+    state: vulp-fade
+
+- type: marking
+  id: WolfTail
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [ VulpkaninPerson ]
+  sprites:
+  - sprite: Void/Mobs/Customization/Vulpkanin/tail_static.rsi
+    state: wolf_tail
+  - sprite: Void/Mobs/Customization/Vulpkanin/tail_static.rsi
+    state: wolf_tail_inner
+
+- type: marking
+  id: VulpkaninTipTail
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [ VulpkaninPerson ]
+  sprites:
+  - sprite: Void/Mobs/Customization/Vulpkanin/tail_static.rsi
+    state: vulp
+  - sprite: Void/Mobs/Customization/Vulpkanin/tail_static.rsi
+    state: vulp-tip
+
+- type: marking
+  id: VulpkaninWagTail
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [ VulpkaninPerson ]
+  sprites:
+  - sprite: Void/Mobs/Customization/Vulpkanin/tail.rsi
+    state: vulp_wag
+  - sprite: Void/Mobs/Customization/Vulpkanin/tail.rsi
+    state: vulp_wag-fade
+
+- type: marking
+  id: VulpkaninWagTipTail
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [ VulpkaninPerson ]
+  sprites:
+  - sprite: Void/Mobs/Customization/Vulpkanin/tail.rsi
+    state: vulp_wag
+  - sprite: Void/Mobs/Customization/Vulpkanin/tail.rsi
+    state: vulp_wag-tip
+
+- type: marking
+  id: VulpkaninBushfluffTail
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [ VulpkaninPerson ]
+  sprites:
+  - sprite: Void/Mobs/Customization/Vulpkanin/tail_static.rsi
+    state: bushfluff
+
+- type: marking
+  id: VulpkaninBushfluffWagTail
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [ VulpkaninPerson ]
+  sprites:
+  - sprite: Void/Mobs/Customization/Vulpkanin/tail.rsi
+    state: bushfluff_wag
+
+- type: marking
+  id: VulpkaninCoyoteTail
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [ VulpkaninPerson ]
+  sprites:
+  - sprite: Void/Mobs/Customization/Vulpkanin/tail_static.rsi
+    state: coyote
+
+- type: marking
+  id: VulpkaninCoyoteWagTail
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [ VulpkaninPerson ]
+  sprites:
+  - sprite: Void/Mobs/Customization/Vulpkanin/tail.rsi
+    state: coyote_wag
+
+- type: marking
+  id: VulpkaninCorgiWagTail
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [ VulpkaninPerson ]
+  sprites:
+  - sprite: Void/Mobs/Customization/Vulpkanin/tail.rsi
+    state: corgi_wag
+
+- type: marking
+  id: VulpkaninHuskyTail
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [ VulpkaninPerson ]
+  sprites:
+  - sprite: Void/Mobs/Customization/Vulpkanin/tail_static.rsi
+    state: husky-inner
+  - sprite: Void/Mobs/Customization/Vulpkanin/tail_static.rsi
+    state: husky-outer
+
+- type: marking
+  id: VulpkaninFennecTail
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [ VulpkaninPerson ]
+  sprites:
+  - sprite: Void/Mobs/Customization/Vulpkanin/tail_static.rsi
+    state: fennec
+
+- type: marking
+  id: VulpkaninOtieTail
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [ VulpkaninPerson ]
+  sprites:
+  - sprite: Void/Mobs/Customization/Vulpkanin/tail_static.rsi
+    state: otie
+
+- type: marking
+  id: VulpkaninFluffyTail
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [ VulpkaninPerson ]
+  sprites:
+  - sprite: Void/Mobs/Customization/Vulpkanin/tail_static.rsi
+    state: fluffy
+
+- type: marking
+  id: VulpkaninDalmatianWagTail
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [ VulpkaninPerson ]
+  sprites:
+  - sprite: Void/Mobs/Customization/Vulpkanin/tail.rsi
+    state: dalmatian_wag
+
+## Fox
+
+- type: marking
+  id: VulpkaninFoxTail
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [ VulpkaninPerson ]
+  sprites:
+  - sprite: Void/Mobs/Customization/Vulpkanin/tail_static.rsi
+    state: fox
+  - sprite: Void/Mobs/Customization/Vulpkanin/tail_static.rsi
+    state: fox-fade
+
+- type: marking
+  id: VulpkaninFoxTipTail
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [ VulpkaninPerson ]
+  sprites:
+  - sprite: Void/Mobs/Customization/Vulpkanin/tail_static.rsi
+    state: fox
+  - sprite: Void/Mobs/Customization/Vulpkanin/tail_static.rsi
+    state: fox-tip
+
+- type: marking
+  id: VulpkaninFoxWagTail
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [ VulpkaninPerson ]
+  sprites:
+  - sprite: Void/Mobs/Customization/Vulpkanin/tail.rsi
+    state: fox_wag
+  - sprite: Void/Mobs/Customization/Vulpkanin/tail.rsi
+    state: fox_wag-fade
+
+- type: marking
+  id: VulpkaninFoxWagTipTail
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [ VulpkaninPerson ]
+  sprites:
+  - sprite: Void/Mobs/Customization/Vulpkanin/tail.rsi
+    state: fox_wag
+  - sprite: Void/Mobs/Customization/Vulpkanin/tail.rsi
+    state: fox_wag-tip
+
+- type: marking
+  id: VulpkaninFox2Tail
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [ VulpkaninPerson ]
+  sprites:
+  - sprite: Void/Mobs/Customization/Vulpkanin/tail_static.rsi
+    state: fox2
+
+- type: marking
+  id: VulpkaninFox3TipTail
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [ VulpkaninPerson ]
+  sprites:
+  - sprite: Void/Mobs/Customization/Vulpkanin/tail_static.rsi
+    state: fox3
+  - sprite: Void/Mobs/Customization/Vulpkanin/tail_static.rsi
+    state: fox3-tip

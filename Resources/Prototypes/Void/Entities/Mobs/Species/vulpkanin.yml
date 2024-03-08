@@ -1,0 +1,46 @@
+- type: entity
+  save: false
+  name: Urist McVulp
+  parent: BaseMobSpeciesOrganic
+  id: BaseMobVulpkaninPerson
+  abstract: true
+  components:
+  - type: HumanoidAppearance
+    species: VulpkaninPerson
+  - type: Hunger
+    starvationDamage:
+      types:
+        Cold: 0.5
+        Bloodloss: 0.5
+  - type: Thirst
+  - type: Icon
+    sprite: Void/Mobs/Species/Vulpkanin/parts.rsi
+    state: full
+  - type: Body
+    prototype: Vulpkanin
+    requiredLegs: 2
+  - type: RoarAccent
+#    - type: Temperature
+#      heatDamageThreshold: 317
+#      coldDamageThreshold: 307
+#      currentTemperature: 312
+#      specificHeat: 180
+#      coldDamage:
+#        types:
+#          Cold: 1.1 #per second, scales with temperature & other constants
+#      heatDamage:
+#        types:
+#          Heat: 0.9 #per second, scales with temperature & other constants
+#    - type: ThermalRegulator
+#      normalBodyTemperature: 312
+#      implicitHeatRegulation: 0
+#      sweatHeatRegulation: 2
+#      shiveringHeatRegulation: 150
+
+- type: entity
+  parent: BaseSpeciesDummy
+  id: MobVulpkaninPersonDummy
+  noSpawn: true
+  components:
+  - type: HumanoidAppearance
+    species: VulpkaninPerson

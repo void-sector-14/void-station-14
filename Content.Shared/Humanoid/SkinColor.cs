@@ -58,6 +58,13 @@ public static class SkinColor
         return color;
     }
 
+    public static Color KatunianSkinTone(int tone)
+    {
+        tone = Math.Clamp(tone, 0, 50);
+        var val = 100.0f - tone;
+        return Color.FromHsv(new Vector4(0, 0, val / 100, 1.0f));
+    }
+
     /// <summary>
     ///     Gets a human skin tone from a given color.
     /// </summary>
@@ -83,6 +90,12 @@ public static class SkinColor
         {
             return hsv.Y * 100;
         }
+    }
+
+    public static float KatunianSkinFromColor(Color color)
+    {
+        var hsv = Color.ToHsv(color);
+        return 100 - hsv.Z * 100;
     }
 
     /// <summary>
@@ -144,7 +157,7 @@ public static class SkinColor
     ///     This takes in a color, and returns a color guaranteed to be above MinHuesLightness
     /// </summary>
     /// <param name="color"></param>
-    /// <returns>Either the color as-is if it's above MinHuesLightness, or the color with luminosity increased above MinHuesLightness</returns> 
+    /// <returns>Either the color as-is if it's above MinHuesLightness, or the color with luminosity increased above MinHuesLightness</returns>
     public static Color MakeHueValid(Color color)
     {
         var manipulatedColor = Color.ToHsv(color);
@@ -190,4 +203,5 @@ public enum HumanoidSkinColor : byte
     HumanToned,
     Hues,
     TintedHues, //This gives a color tint to a humanoid's skin (10% saturation with full hue range).
+    KatunianToned,
 }

@@ -1,0 +1,235 @@
+- type: entity
+  id: BaseVoidPlushie
+  parent: BasePlushie
+  abstract: true
+  components:
+  - type: Sprite
+    sprite: Void/Objects/Fun/toys.rsi
+
+- type: entity
+  id: PlushieMayla
+  parent: BaseVoidPlushie
+  name: Плюшевая Маланиса
+  description: |
+    Выпуск этой серии игрушек тесно связан с акцией по спасению катунианцев. Пахнет ванилью.
+    Ограниченная серия игрушек команды проекта "Void Sector".
+    Собери их всех!
+  components:
+  - type: Sprite
+    state: plushie_mayla
+
+- type: entity
+  parent: BaseVoidPlushie
+  id: PlushieVoomra
+  name: Плюшевый Вумра
+  description: >
+    Озлобленный. Одинокий.
+    Ограниченная серия игрушек команды проекта "Void Sector".
+    Собери их всех!
+  components:
+  - type: Sprite
+    layers:
+    - state: plushie_voomra
+    - state: plushie_voomra_unshad
+      shader: unshaded
+  - type: PointLight
+    color: "#8f40ff"
+    radius: 1.5
+
+- type: entity
+  id: PlushieFrezon
+  parent: BaseVoidPlushie
+  name: Плюшевый Фрезон
+  description: Любимая игрушка главного по атмосу
+  components:
+  - type: Sprite
+    state: plushie_frezon
+
+- type: entity
+  id: PlushieStv
+  parent: BaseVoidPlushie
+  name: Плюшевый Стив
+  description: Лучший друг утилизатора, которого унесло далеко в космос
+  components:
+  - type: Sprite
+    state: plushie_stv
+
+- type: entity
+  id: Toybug
+  parent: BaseVoidPlushie
+  name: Игрушечный космический клещ
+  description: Шутка, которая может довести до красного кода
+  components:
+  - type: Sprite
+    state: toybug
+  - type: EmitSoundOnUse
+    sound:
+      path: /Audio/Effects/bite.ogg
+  - type: EmitSoundOnLand
+    sound:
+      path: /Audio/Effects/bite.ogg
+  - type: EmitSoundOnActivate
+    sound:
+      path: /Audio/Effects/bite.ogg
+  - type: MeleeWeapon
+    soundHit:
+      path: /Audio/Effects/bite.ogg
+
+- type: entity
+  parent: BaseVoidPlushie
+  id: PlushieNeksit
+  name: Плюшевая Нексит
+  description: |
+    Тихая унати на самом деле обладает не только исключительными навыками баристы, но может и обогнать вас в гонке.
+    Ограниченная серия игрушек команды проекта "Void Sector".
+    Собери их всех!
+  components:
+  - type: Sprite
+    state: plushie_neksit
+  - type: EmitSoundOnUse
+    sound:
+      path: /Audio/Items/Toys/weh.ogg
+  - type: EmitSoundOnLand
+    sound:
+      path: /Audio/Items/Toys/weh.ogg
+  - type: EmitSoundOnActivate
+    sound:
+      path: /Audio/Items/Toys/weh.ogg
+  - type: MeleeWeapon
+    soundHit:
+      path: /Audio/Items/Toys/weh.ogg
+
+- type: entity
+  parent: BaseVoidPlushie
+  id: PlushieCorwin
+  name: Плюшевый Корвин
+  description: |
+    "Олухи! Бездари! Огузки!"
+    Ограниченная серия игрушек команды проекта "Void Sector".
+    Собери их всех!
+  components:
+  - type: Sprite
+    state: plushie_corwin
+  - type: EmitSoundOnUse
+    sound:
+      path: /Audio/Void/Items/Toys/oguzki.ogg
+  - type: EmitSoundOnActivate
+    sound:
+      path: /Audio/Void/Items/Toys/oguzki.ogg
+  - type: UseDelay
+    delay: 5.0
+
+- type: entity
+  parent: BaseVoidPlushie
+  id: PlushieBear
+  name: Плюшевый мишка
+  description: |
+    Обними его!
+    Его на станции теряли пять раз.
+  components:
+  - type: Sprite
+    state: plushie_bear
+
+- type: entity
+  parent: BaseVoidPlushie
+  id: PlushieCosmocat
+  name: Плюшевый космокотик
+  description: Космическик космокотики! Инопланетное мур мур мур!
+  components:
+  - type: Sprite
+    state: plushie_cosmocat
+
+- type: entity
+  parent: BaseVoidPlushie
+  id: PlushieUnicorn
+  name: Плюшевый единорожек
+  description: Будет оберегать ваши сны и любить вас!
+  components:
+  - type: Sprite
+    state: plushie_unicorn
+
+- type: entity
+  parent: BaseVoidPlushie
+  id: PlushieRabbit
+  name: Плюшевый кролик
+  description: Очень милое крылатое создание!
+  components:
+  - type: Sprite
+    state: plushie_rabbit
+
+- type: entity
+  parent: BaseVoidPlushie
+  id: PlushiePalastir
+  name: Плюшевый Паластир
+  description: |
+    Милая и красивая игрушка одного небезизвестного робототехника, который ничего не делал. Пахнет мятой.
+    Ограниченная серия игрушек команды проекта "Void Sector".
+    Собери их всех!
+  components:
+  - type: Sprite
+    state: plushie_palastir
+  - type: EmitSoundOnUse
+    sound:
+      path: /Audio/Void/Items/Toys/discord.ogg
+  - type: EmitSoundOnLand
+    sound:
+      path: /Audio/Void/Items/Toys/discord.ogg
+  - type: EmitSoundOnActivate
+    sound:
+      path: /Audio/Void/Items/Toys/discord.ogg
+  - type: MeleeWeapon
+    soundHit:
+      path: /Audio/Void/Items/Toys/discord.ogg
+
+- type: entity
+  parent: BaseVoidPlushie
+  id: PlushieYen
+  name: Плюшевый Йен
+  description: |
+    Пахнет как страх и 500 ананасов. Спрятать в шкафу, в случае экстренной ситуации.
+    Ограниченная серия игрушек команды проекта "Void Sector".
+    Собери их всех!
+  components:
+  - type: Sprite
+    state: plushie_yen
+
+- type: entity
+  parent: BaseVoidPlushie
+  id: PlushiePinkBall
+  name: Розовый шарик
+  description: Залипательно...
+  components:
+  - type: Sprite
+    state: pink_ball
+  - type: EmitSoundOnUse
+    sound:
+      collection: RadiationPulse
+  - type: EmitSoundOnActivate
+    sound:
+      collection: RadiationPulse
+  - type: UseDelay
+    delay: 5.0
+
+- type: entity
+  parent: BaseVoidPlushie
+  id: PlushieSharssee
+  name: Плюшевый Шарсси
+  description: |
+    Вам кажется что эта игрушка за вами следит.
+    Ограниченная серия игрушек команды проекта "Void Sector".
+    Собери их всех!
+  components:
+  - type: Sprite
+    state: plushie_sharssee
+  - type: EmitSoundOnUse
+    sound:
+      path: /Audio/Items/Toys/weh.ogg
+  - type: EmitSoundOnLand
+    sound:
+      path: /Audio/Items/Toys/weh.ogg
+  - type: EmitSoundOnActivate
+    sound:
+      path: /Audio/Items/Toys/weh.ogg
+  - type: MeleeWeapon
+    soundHit:
+      path: /Audio/Items/Toys/weh.ogg

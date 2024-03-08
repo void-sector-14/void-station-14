@@ -32,14 +32,6 @@
                 </BoxContainer>
                 <!-- Import/Export -->
                 <BoxContainer Orientation="Vertical">
-                    <prefUi:HighlightedContainer>
-                        <BoxContainer Orientation="Horizontal">
-                            <Button Text="{Loc 'humanoid-profile-editor-import-button'}" Disabled="True"
-                                    ToolTip="{Loc 'generic-not-yet-implemented'}" />
-                            <Button Text="{Loc 'humanoid-profile-editor-export-button'}" Disabled="True"
-                                    ToolTip="{Loc 'generic-not-yet-implemented'}" />
-                        </BoxContainer>
-                    </prefUi:HighlightedContainer>
                     <!-- Save -->
                     <prefUi:HighlightedContainer>
                         <Button Name="CSaveButton" Text="{Loc 'humanoid-profile-editor-save-button'}" HorizontalAlignment="Center" />
@@ -107,6 +99,7 @@
                             <BoxContainer Margin="10" HorizontalExpand="True" Orientation="Vertical">
                                 <Label Text="{Loc 'humanoid-profile-editor-skin-color-label'}" />
                                 <Slider HorizontalExpand="True" Name="CSkin" MinValue="0" MaxValue="100" Value="20" />
+                                <Slider HorizontalExpand="True" Name="CSkinKatunian" Visible="False" MinValue="0" MaxValue="50" Value="0" />
                                 <BoxContainer Name="CRgbSkinColorContainer" Visible="False" Orientation="Vertical" HorizontalExpand="True"></BoxContainer>
                             </BoxContainer>
                             <!-- Hair -->
