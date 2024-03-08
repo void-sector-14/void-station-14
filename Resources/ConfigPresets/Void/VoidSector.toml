@@ -22,7 +22,9 @@ lobbyduration = 180
 fallbackpreset = "Extended"
 
 [hub]
+advertise = true
 tags = "lang:ru,region:eu_e,rp:high"
+server_url = "ss14://37.27.103.62:1212"
 
 [server]
 rules_file = "RP_Rules.txt"
