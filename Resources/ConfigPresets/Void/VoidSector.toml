@@ -44,10 +44,10 @@ timermap = 30
 arrivals_returns = true
 emergency_early_launch_allowed = true
 emergency_dock_time = 300.0
-emergency_authorize_time = 30.0
+emergency_authorize_time = 15.0
 recall_turning_point = 0.1
-auto_call_time = 120
-auto_call_extension_time = 60
+auto_call_time = 300
+auto_call_extension_time = 90
 
 [biomass]
 easy_mode = false
