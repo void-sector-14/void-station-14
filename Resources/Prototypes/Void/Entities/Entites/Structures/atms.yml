@@ -117,8 +117,12 @@
 
 - type: entity
   suffix: Wallmount
-  parent: [ComputerBankATMBase, ComputerBankATMDeposit, BaseStructureDisableToolUse, BaseStructureIndestructible, BaseStructureWallmount, BaseStructureComputer]
+  parent: [ComputerBankATMBase, ComputerBankATMDeposit, BaseStructureDisableToolUse, BaseStructureIndestructible, BaseStructureComputer]
   id: ComputerWallmountBankATM
+  placement:
+    mode: SnapgridCenter
+    snap:
+    - Wallmount
   components:
   - type: Sprite
     netsync: false
@@ -132,8 +136,12 @@
 
 - type: entity
   suffix: Wallmount
-  parent: [ComputerBankATMBase, ComputerBankATMWithdraw, BaseStructureDisableToolUse, BaseStructureIndestructible, BaseStructureWallmount, BaseStructureComputer]
+  parent: [ComputerBankATMBase, ComputerBankATMWithdraw, BaseStructureDisableToolUse, BaseStructureIndestructible, BaseStructureComputer]
   id: ComputerWallmountWithdrawBankATM
+  placement:
+    mode: SnapgridCenter
+    snap:
+    - Wallmount
   components:
   - type: Sprite
     netsync: false
