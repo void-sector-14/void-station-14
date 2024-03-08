@@ -88,7 +88,7 @@
         type: WithdrawBankATMMenuBoundUserInterface
 
 - type: entity
-  parent: [ComputerBankATMBase, ComputerBankATMDeposit, BaseStructureComputer]
+  parent: [ComputerBankATMBase, ComputerBankATMDeposit, BaseStructureDisableToolUse, BaseStructureIndestructible, BaseStructureComputer]
   id: ComputerBankATM
   components:
   - type: Sprite
@@ -102,7 +102,7 @@
       state: unshaded
 
 - type: entity
-  parent: [ComputerBankATMBase, ComputerBankATMWithdraw, BaseStructureComputer]
+  parent: [ComputerBankATMBase, ComputerBankATMWithdraw, BaseStructureDisableToolUse, BaseStructureIndestructible, BaseStructureComputer]
   id: ComputerWithdrawBankATM
   components:
   - type: Sprite
@@ -117,7 +117,7 @@
 
 - type: entity
   suffix: Wallmount
-  parent: [ComputerBankATMBase, ComputerBankATMDeposit, BaseStructureComputer]
+  parent: [ComputerBankATMBase, ComputerBankATMDeposit, BaseStructureDisableToolUse, BaseStructureIndestructible, BaseStructureComputer]
   id: ComputerWallmountBankATM
   placement:
     mode: SnapgridCenter
@@ -136,7 +136,7 @@
 
 - type: entity
   suffix: Wallmount
-  parent: [ComputerBankATMBase, ComputerBankATMWithdraw, BaseStructureComputer]
+  parent: [ComputerBankATMBase, ComputerBankATMWithdraw, BaseStructureDisableToolUse, BaseStructureIndestructible, BaseStructureComputer]
   id: ComputerWallmountWithdrawBankATM
   placement:
     mode: SnapgridCenter
@@ -155,7 +155,7 @@
 
 - type: entity
   suffix: BlackMarket
-  parent: [ComputerBankATMBase, ComputerBankATMDeposit, BaseStructureDestructible, BaseStructureComputer]
+  parent: [ComputerBankATMBase, ComputerBankATMDeposit, BaseStructureDisableToolUse, BaseStructureDestructible, BaseStructureComputer]
   id: ComputerBlackMarketBankATM
   description: Has some sketchy looking modifications and a sticker that says DEPOSIT FEE 30%
   components:
@@ -177,7 +177,7 @@
 
 - type: entity
   name: station administration console
-  parent: [ComputerBankATMBase, BaseStructureAccessReaderImmuneToEmag, BaseStructureComputer]
+  parent: [ComputerBankATMBase, BaseStructureDisableToolUse, BaseStructureIndestructible, BaseStructureAccessReaderImmuneToEmag, BaseStructureComputer]
   id: StationAdminBankATM
   description: Used to pay out from the station's bank account
   components:
