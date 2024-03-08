@@ -154,8 +154,8 @@
   parent: ClothingHeadHardsuitBase
   id: ClothingHeadHelmetHardsuitMaxim
   noSpawn: true
-  name: salvager maxim helmet
-  description: A predication of decay washes over your mind.
+  name: ультимативный шлем утилизаторского скафандра
+  description: Предсказание упадка захлестывает ваш разум.
   components:
   - type: BreathMask
   - type: Sprite

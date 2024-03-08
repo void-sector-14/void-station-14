@@ -10,7 +10,7 @@
   - type: Hunger
   - type: Thirst
   - type: Icon
-    sprite: Lust/Mobs/Demon/parts.rsi
+    sprite: Void\Mobs\Species\Demon\parts.rsi
     state: full_m
   - type: Sprite
     netsync: false

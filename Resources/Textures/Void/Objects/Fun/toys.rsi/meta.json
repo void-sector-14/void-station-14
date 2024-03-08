@@ -22,16 +22,31 @@
       "name": "plushie_frezon"
     },
     {
+      "name": "plushie_ma-sei"
+    },
+    {
       "name": "plushie_mayla"
     },
     {
       "name": "plushie_neksit"
     },
     {
+      "name": "plushie_nuke"
+    },
+    {
+      "name": "plushie_nuke_unshad"
+    },
+    {
       "name": "plushie_palastir"
     },
     {
       "name": "plushie_rabbit"
+    },
+    {
+      "name": "plushie_rocco"
+    },
+    {
+      "name": "plushie_shon"
     },
     {
       "name": "plushie_stv"
@@ -50,24 +65,6 @@
     },
     {
       "name": "toybug"
-    },
-    {
-        "name": "pink_ball",
-        "delays": [
-          [
-            0.15625,
-            0.15625,
-            0.15625,
-            0.15625,
-            0.15625,
-            0.15625,
-            0.15625,
-            0.15625
-          ]
-        ]
-      },
-      {
-        "name": "plushie_sharssee"
-      }
+    }
   ]
 }

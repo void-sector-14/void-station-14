@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "stalagmite1"
+    },
+    {
+      "name": "stalagmite2"
+    },
+    {
+      "name": "stalagmite3"
+    },
+    {
+      "name": "stalagmite4"
+    },
+    {
+      "name": "stalagmite5"
+    }
+  ]
+}
