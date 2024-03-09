@@ -9,7 +9,7 @@ log_late_msg = false
 [database]
 engine = "postgres"
 pg_host = "{{ postgres_host }}"
-pg_port = {{ postgres_port }}
+pg_port = "{{ postgres_port }}"
 pg_database = "{{ ss14setup_db_name }}"
 pg_username = "{{ ss14setup_db_user }}"
 pg_password = "{{ ss14setup_db_passwd }}"
