@@ -44,9 +44,6 @@ afk_time = 180.0
 discord = "https://discord.gg/Tc5RNEWVWS"
 wiki = "https://js.ss14.su/home"
 
-[accessibility]
-reduced_motion = true
-
 ################################################################################
 ##### In Game ##################################################################
 
