@@ -1,0 +1,6 @@
+- type: statusIcon
+  id: SSDSoftIcon
+  icon:
+    sprite: /Textures/Void/Effects/ssd2.rsi
+    state: default0
+  locationPreference: Left

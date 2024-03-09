@@ -1745,7 +1745,7 @@
   markingCategory: Hair
   speciesRestriction: [ Katunian ]
   sprites:
-  - sprite: Void/Mobs/Customization/katunian_ears.rsi
+  - sprite: Void/Mobs/Customization/katunian_hair.rsi
     state: wisp
 
 - type: marking

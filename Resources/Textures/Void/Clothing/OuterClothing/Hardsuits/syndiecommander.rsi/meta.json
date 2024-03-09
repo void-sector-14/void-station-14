@@ -6,20 +6,19 @@
   },
   "states": [
     {
-      "name": "lpirs1",
+      "name": "icon"
+    },
+    {
+      "name": "equipped-OUTERCLOTHING",
       "directions": 4
     },
     {
-      "name": "lpirs2",
+      "name": "inhand-left",
       "directions": 4
     },
     {
-      "name": "rpirs1",
+      "name": "inhand-right",
       "directions": 4
-    },
-    {
-        "name": "rpirs2",
-        "directions": 4
     }
   ]
 }

@@ -1,0 +1,40 @@
+- type: reagent
+  id: HotChocolate
+  name: reagent-name-choco
+  parent: BaseDrink
+  desc: reagent-desc-choco
+  physicalDesc: reagent-physical-desc-aromatic
+  flavor: chocolate
+  color: "#452416"
+  metabolisms:
+    Drink:
+      effects:
+      - !type:SatiateThirst
+        factor: 2
+      - !type:AdjustReagent
+        reagent: Theobromine
+        amount: 0.1
+
+- type: reagent
+  id: Charlotte
+  name: reagent-name-charlotte
+  parent: BaseAlcohol
+  desc: reagent-desc-charlotte
+  physicalDesc: reagent-physical-desc-bubbly
+  flavor: alcohol
+  color: "#ffffff"
+  metamorphicSprite:
+    sprite: Void/Objects/Consumable/Drinks/charlotte.rsi
+    state: icon
+
+- type: reagent
+  id: Uolongtea
+  name: reagent-name-uolongtea
+  parent: BaseAlcohol
+  desc: reagent-desc-uolongtea
+  physicalDesc: reagent-physical-desc-bubbly
+  flavor: alcohol
+  color: "#a56e54"
+  metamorphicSprite:
+    sprite: Void/Objects/Consumable/Drinks/uolong.rsi
+    state: icon
