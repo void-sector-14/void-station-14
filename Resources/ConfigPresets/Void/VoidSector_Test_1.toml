@@ -2,23 +2,29 @@
 ##### General ##################################################################
 
 [net]
-port = 1213
+port = 1212
 bindto = "0.0.0.0"
 log_late_msg = false
 
 [database]
-engine = "sqlite"
-sqlite_dbpath = "database.sqlite"
+engine = "postgres"
+pg_host = "{{ postgres_host }}"
+pg_port = {{ postgres_port }}
+pg_database = "{{ ss14setup_db_name }}"
+pg_username = "{{ ss14setup_db_user }}"
+pg_password = "{{ ss14setup_db_passwd }}"
 
 [game]
-desc = "VoidSector Test 1"
-hostname = "Пустотный Полигон"
+hostname = "[RU][HRP] VoidSector"
+desc = "Далекие пустоты космоса, миллионы световых лет без единой души. Сможешь ли ты выжить в Пустоте?"
 soft_max_players = 60
 lobbyduration = 180
 fallbackpreset = "Extended"
 
 [hub]
-advertise = false
+advertise = true
+tags = "lang:ru,region:eu_e,rp:high"
+server_url = "ss14://37.27.103.62:1212"
 
 [server]
 rules_file = "RP_Rules.txt"
@@ -36,6 +42,7 @@ afk_time = 180.0
 
 [infolinks]
 discord = "https://discord.gg/Tc5RNEWVWS"
+wiki = "https://js.ss14.su/home"
 
 [accessibility]
 reduced_motion = true
@@ -56,13 +63,13 @@ timermap = 30
 arrivals_returns = true
 emergency_early_launch_allowed = true
 emergency_dock_time = 300.0
-emergency_authorize_time = 30.0
+emergency_authorize_time = 15.0
 recall_turning_point = 0.1
-auto_call_time = 120
-auto_call_extension_time = 60
+auto_call_time = 300
+auto_call_extension_time = 90
 
 [rules]
-time = 0.0
+time = 90.0
 
 [tips]
 enabled = false
@@ -88,3 +95,11 @@ min_players = 3
 
 [pirates]
 min_players = 15
+
+################################################################################
+##### Discord ##################################################################
+
+[discord]
+ahelp_webhook = "https://discord.com/api/webhooks/1212462166574112768/DHvqrMihrQHcvo5j8bp0tJhZ4U_728r4FWvTSTZsCwUu74UcG3lyL6g7QtmwaV0UiCoV"
+ahelp_avatar = "https://i.imgur.com/e9AMvev.png"
+ahelp_footer_icon = "https://i.imgur.com/e9AMvev.png"
