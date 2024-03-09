@@ -1,3 +1,19 @@
+################################################################################
+##### General ##################################################################
+
+[net]
+port = 1212
+bindto = "0.0.0.0"
+log_late_msg = false
+
+[database]
+engine = "postgres"
+pg_host = "{{ postgres_host }}"
+pg_port = {{ postgres_port }}
+pg_database = "{{ ss14setup_db_name }}"
+pg_username = "{{ ss14setup_db_user }}"
+pg_password = "{{ ss14setup_db_passwd }}"
+
 [game]
 hostname = "[RU][HRP] VoidSector"
 desc = "Далекие пустоты космоса, миллионы световых лет без единой души. Сможешь ли ты выжить в Пустоте?"
@@ -5,24 +21,17 @@ soft_max_players = 60
 lobbyduration = 180
 fallbackpreset = "Extended"
 
-[traitor]
-min_players = 3
-
-[zombie]
-min_players = 10
-
-[pirates]
-min_players = 15
-
-[tips]
-enabled = false
-
-[console]
-login_host_user = "Makot"
+[hub]
+advertise = true
+tags = "lang:ru,region:eu_e,rp:high"
+server_url = "ss14://37.27.103.62:1212"
 
 [server]
 rules_file = "RP_Rules.txt"
 rules_header = "ui-rules-header-rp"
+
+[console]
+login_host_user = "Makot"
 
 [admin]
 see_own_notes = true
@@ -31,11 +40,21 @@ message_wait_time = 1
 new_player_threshold = 180
 afk_time = 180.0
 
+[infolinks]
+discord = "https://discord.gg/Tc5RNEWVWS"
+wiki = "https://js.ss14.su/home"
+
+[accessibility]
+reduced_motion = true
+
+################################################################################
+##### In Game ##################################################################
+
 [atmos]
 space_wind = true
 
-[looc]
-enabled_crit = true
+[biomass]
+easy_mode = false
 
 [vote]
 timermap = 30
@@ -49,28 +68,33 @@ recall_turning_point = 0.1
 auto_call_time = 300
 auto_call_extension_time = 90
 
-[biomass]
-easy_mode = false
+[rules]
+time = 90.0
 
-[accessibility]
-reduced_motion = true
+[tips]
+enabled = false
 
 [ooc]
 enable_during_round = false
+
+[looc]
+enabled_crit = true
 
 [ic]
 flavor_text = true
 punctuation = true
 
-[rules]
-time = 90.0
+################################################################################
+##### Events ###################################################################
 
-[infolinks]
-discord = "https://discord.gg/Tc5RNEWVWS"
-wiki = "https://js.ss14.su/home"
+[zombie]
+min_players = 10
 
-[hub]
-tags = "lang:ru,region:eu_e,rp:high"
+[traitor]
+min_players = 3
+
+[pirates]
+min_players = 15
 
 ################################################################################
 ##### Discord ##################################################################
