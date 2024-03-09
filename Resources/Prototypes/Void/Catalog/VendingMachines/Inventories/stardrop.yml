@@ -1,0 +1,48 @@
+- type: vendingMachineInventory
+  id: StardropInventory
+  startingInventory:
+    # Шёлковое платье
+    ClothingShoesBootsSilkDress: 1
+    ClothingUniformJumpskirtSilkDress: 1
+    # Розовое платье
+    ClothingShoesBootsPinkDress: 1
+    ClothingUniformJumpskirtPinkDress: 1
+    # Свадебный наряд
+    ClothingHeadHatFata: 1
+    ClothingUniformJumpskirtDress: 1
+    # Смокинг
+    ClothingUniformJumpsuitBlacksm: 1
+    ClothingUniformJumpsuitWhitesm: 1
+    # Дорогое платье
+    ClothingUniformJumpskirtRichDress: 1
+    ClothingShoesRichDress: 1
+    # Красное летнее платье
+    ClothingUniformJumpskirtSummerdressRed: 1
+    # Красное платье
+    ClothingUniformJumpskirtRedDress: 1
+    ClothingShoesRedDress: 1
+    # Звёздное платье
+    ClothingUniformJumpskirtStarDress: 1
+    ClothingShoesStarDress: 1
+    # Космическое платье
+    ClothingHeadHatCosmoCrown: 1
+    ClothingUniformJumpskirtCosmoDress: 1
+    # Чёрное платье
+    ClothingUniformJumpskirtBlackDress: 1
+    ClothingShoesBlackDress: 1
+    # Чёрное летнее платье
+    ClothingUniformJumpskirtSummerdressBlack: 1
+    # Бельё
+    ClothingUniformJumpskirtWhiteSc: 1
+    ClothingUniformJumpskirtBrownSc: 1
+    ClothingUniformJumpskirtBlackSc: 1
+    # Другое
+    BoxRing: 1
+    ClothingHeadHatStarpin: 2
+    ClothingHeadHatDressMask: 2
+    ClothingHeadHatBeretDress: 2
+    ClothingHeadHatRedFlowerDress: 2
+    ClothingUniformJumpskirtKnight: 3
+  contrabandInventory:
+    ClothingUniformJumpsuitTacticool: 1
+    ClothingUniformJumpskirtTacticool: 1

@@ -1,0 +1,21 @@
+- type: entity
+  name: деревянный стол
+  id: TableWoodNew
+  parent: TableWood
+  description: Просто деревянный стол стол.
+  components:
+  - type: Sprite
+    sprite: Void/Structures/Furniture/tablewoodnew.rsi
+  - type: Icon
+    sprite: Void/Structures/Furniture/tablewoodnew.rsi
+
+- type: entity
+  name: деревянный стол
+  id: TableWoodNtNew
+  parent: TableWood
+  description: Просто деревянный стол стол с символом "NT".
+  components:
+  - type: Sprite
+    sprite: Void/Structures/Furniture/tablewoodntnew.rsi
+  - type: Icon
+    sprite: Void/Structures/Furniture/tablewoodntnew.rsi

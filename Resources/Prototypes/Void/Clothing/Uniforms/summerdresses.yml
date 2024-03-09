@@ -1,0 +1,32 @@
+- type: entity
+  parent: ClothingUniformSkirtBase
+  id: ClothingUniformJumpskirtSummerdressBlue
+  name: Синее летнее платье
+  description: Милое короткое платье из легкого материала
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Uniforms/SummerDresses/blue.rsi
+  - type: Clothing
+    sprite: Void/Clothing/Uniforms/SummerDresses/blue.rsi
+
+- type: entity
+  parent: ClothingUniformSkirtBase
+  id: ClothingUniformJumpskirtSummerdressGreen
+  name: Зелёное летнее платье
+  description: Милое короткое платье из легкого материала
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Uniforms/SummerDresses/green.rsi
+  - type: Clothing
+    sprite: Void/Clothing/Uniforms/SummerDresses/green.rsi
+
+- type: entity
+  parent: ClothingUniformSkirtBase
+  id: ClothingUniformJumpskirtSummerdressPurple
+  name: Фиолетовое летнее платье
+  description: Милое короткое платье из легкого материала
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Uniforms/SummerDresses/purple.rsi
+  - type: Clothing
+    sprite: Void/Clothing/Uniforms/SummerDresses/purple.rsi

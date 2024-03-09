@@ -13,5 +13,5 @@ con-TileDark = темная плитка
 con-TileFlesh = пол из плоти
     .desc = Четыре мясные плитки.
 
-con-TileWoodLarge = { ent-FloorTileItemWoodLarge }
-    .desc = { ent-FloorTileItemWoodLarge.desc }
+con-TileWoodLarge = ламинат
+    .desc = Пол из досок

@@ -1,0 +1,22 @@
+- type: entity
+  parent: ClothingUniformSkirtBase
+  id: ClothingUniformJumpskirtStorekeeper
+  name: юбка кладовщика
+  description: Пахнет пивом и солёными карпами
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Uniforms/Jumpskirt/storekeeper.rsi
+  - type: Clothing
+    sprite: Void/Clothing/Uniforms/Jumpskirt/storekeeper.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpskirtKnight
+  name: Рыцарский костюм
+  description: Демо-версия рыцарского доспеха. Выглядит точно также, как настоящий, но не защитит вас даже от вилки
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Uniforms/Jumpskirt/armorkn.rsi
+  - type: Clothing
+    slots: [ outerClothing ]
+    sprite: Void/Clothing/Uniforms/Jumpskirt/armorkn.rsi
