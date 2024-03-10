@@ -15,7 +15,7 @@ pg_username = "{{ ss14setup_db_user }}"
 pg_password = "{{ ss14setup_db_passwd }}"
 
 [game]
-hostname = "[RU][HRP] VoidSector"
+hostname = "[RU][HRP] 🌌 VoidSector 🌌"
 desc = "Далекие пустоты космоса, миллионы световых лет без единой души. Сможешь ли ты выжить в Пустоте?"
 soft_max_players = 60
 lobbyduration = 180
@@ -58,6 +58,7 @@ easy_mode = false
 
 [vote]
 timermap = 30
+map_enabled = true
 
 [shuttle]
 arrivals_returns = true
