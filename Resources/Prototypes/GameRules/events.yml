@@ -463,6 +463,8 @@
   components:
   - type: StationEvent
     startAnnouncement: station-event-ion-storm-start-announcement
+    startAudio:
+      path: /Audio/Announcements/ion_storm.ogg
     weight: 10
     earliestStart: 20
     reoccurrenceDelay: 20
