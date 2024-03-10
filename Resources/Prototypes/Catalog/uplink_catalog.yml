@@ -1234,7 +1234,7 @@
 - type: listing
   id: UplinkVoidClothingUniformTurleneckTactick
   name: тактическая водолазка синдиката
-  description: Осторожно, только для крутых оперативников. Оснащена встоенным кивларовым бронежилетом скрытого ношения, что поможет в любой передряге!
+  description: Специальная форма. Оснащена кевларовыми вставками, что обеспечивают дополнительную защиту в случае передряги.
   productEntity: VoidClothingUniformTurleneckTactick
   cost:
     Telecrystal: 2
