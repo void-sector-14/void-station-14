@@ -3,7 +3,7 @@
   parent: ClothingUniformBase
   id: VoidClothingUniformTurleneckTactick
   name: тактическая водолазка синдиката
-  description: Осторожно, только для крутых оперативников. Оснащена встоенным кивларовым бронежилетом скрытого ношения, что поможет в любой передряге!
+  description: Осторожно, только для крутых оперативников. Оснащена встроенным кевларовым бронежилетом скрытого ношения, что поможет в любой передряге!
   components:
   - type: Sprite
     sprite: Void/Clothing/Uniforms/Turleneck/turleneck_tactick.rsi
