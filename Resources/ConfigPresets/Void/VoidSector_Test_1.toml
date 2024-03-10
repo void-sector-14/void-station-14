@@ -68,14 +68,13 @@ time = 0.0
 enabled = false
 
 [ooc]
-enable_during_round = false
+enable_during_round = true
 
 [looc]
 enabled_crit = true
 
 [ic]
 flavor_text = true
-punctuation = true
 
 ################################################################################
 ##### Events ###################################################################

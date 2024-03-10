@@ -122,6 +122,8 @@
   id: FlippoLighter
   description: "A rugged metal lighter, lasts quite a while."
   components:
+  - type: IgnitionSource
+    ignited: false
   - type: Sprite
     sprite: Objects/Tools/lighters.rsi
     layers:
