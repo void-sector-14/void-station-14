@@ -45,7 +45,7 @@ public sealed partial class PuddleSystem
     {
         using (args.PushGroup(nameof(SpillableComponent)))
         {
-            args.PushMarkup(Loc.GetString("\n""spill-examine-is-spillable"));
+            args.PushMarkup(Loc.GetString("spill-examine-is-spillable"));
 
             if (HasComp<MeleeWeaponComponent>(entity))
                 args.PushMarkup(Loc.GetString("spill-examine-spillable-weapon"));
