@@ -1232,6 +1232,16 @@
   - UplinkArmor
 
 - type: listing
+  id: UplinkVoidClothingUniformTurleneckTactick
+  name: тактическая водолазка синдиката
+  description: Осторожно, только для крутых оперативников. Оснащена встоенным кивларовым бронежилетом скрытого ношения, что поможет в любой передряге!
+  productEntity: VoidClothingUniformTurleneckTactick
+  cost:
+    Telecrystal: 2
+  categories:
+  - UplinkArmor
+
+- type: listing
   id: UplinkClothingOuterVestWeb
   name: uplink-clothing-outer-vest-web-name
   description: uplink-clothing-outer-vest-web-desc
