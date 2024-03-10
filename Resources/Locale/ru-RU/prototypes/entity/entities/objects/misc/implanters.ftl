@@ -71,8 +71,6 @@ ent-MindShieldImplanter = { ent-Implanter }
     .desc = { ent-BaseImplantOnlyImplanter.desc }
     .suffix = Щит разума
 
-# Corvax anti-meta localization end
-
 ent-MindShieldImplanter = имплантер защиты разума
     .desc = { ent-BaseImplantOnlyImplanter.desc }
     .suffix = { "" }
