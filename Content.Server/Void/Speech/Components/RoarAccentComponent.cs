@@ -1,4 +1,4 @@
-namespace Content.Server.Czeshuika.Speech.Components;
+namespace Content.Server.Void.Speech.Components;
 
 [RegisterComponent]
 public sealed partial class RoarAccentComponent : Component
