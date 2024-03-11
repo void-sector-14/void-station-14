@@ -1047,6 +1047,9 @@
         condition:
         - !type:TotalDamage
           max: 50
+        - !type:OrganType
+          type: Demon
+          shouldHave: false
         damage:
           types:
             Blunt: -0.2
@@ -1054,6 +1057,13 @@
             Heat: -0.2
             Shock: -0.2
             Cold: -0.2
+       - !type:HealthChange
+        condition:
+        - !type:OrganType
+          type: Demon
+        damage:
+          types:
+            Caustic: 0.5
 
 - type: reagent
   id: Pyrazine
