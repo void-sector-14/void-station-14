@@ -1,10 +1,10 @@
 <Document>
-  # Trade Station
-  The Trade Station is seperate from the station, usually floating around in space visible on the scanner and shuttle computer. It is self maintaining, and self powered with solar pannels, so cargo doesn't need to do anything for it to work.
+# Торговая станция
+  Торговая станция отделена от станции, обычно парящая в космосе, видимая на сканере и компьютере шаттла. Она самоподдерживается и питается от солнечных панелей, поэтому грузу не нужно ничего делать, чтобы она работала.
  
-  ## Selling
-  Using the [color=#a4885c]cargo shuttle[/color], you are able to transport items and bounties to sell at the trade station by flying the shuttle (explained in [textlink="cargo" link="Cargo"]) and docking it to the trade station. Then you bring the objects to sell over the cargo pallets, go to the computer inbetween the 2 sets of pallets and sell what can be sold. Dont worry, you can't sell yourself! Then [color=#118C4F]Spessos[/color] should come out of the computer, and can be inserted into the Quartermasters Digiboard or the Cargo Computer to be added to the Bank.  
+  ## Продажа
+  Используя [color=#a4885c]грузовой шаттл[/color], вы можете перевозить предметы и награды для продажи на торговой станции, управляя шаттлом (описано в [textlink="cargo" link="Cargo"]) и пристыковывая его к торговой станции. Затем вы кладете предметы для продажи на грузовые поддоны, подходите к компьютеру между двумя наборами поддонов и продаете то, что можно продать. Не волнуйтесь, вы не можете продать себя! Затем [color=#118C4F]Spessos[/color] должен выйти из компьютера и может быть вставлен в портативную консоль Квартирмейстера или консоль заказов для добавления в банк.  
   
-  ## Collecting Orders
-  All cargo orders are sent to the [color=#a4885c]Trade Station[/color] to be [color=#a4885c]collected[/color], this includes items sent by centcom. To collect them you have to travel to the Trade station and they should be there on the cargo pallets in a crate, ready to be taken back to the station.
+  ## Сбор заказов
+  Все заказы на груз отправляются на [color=#a4885c]торговую станцию[/color] для [color=#a4885c]получения[/color], включая товары, отправленные ЦентКомом. Чтобы забрать их, вам нужно отправиться на торговую станцию, и они должны быть там на грузовых поддонах в ящике, готовые к отправке обратно на станцию.
 </Document>
