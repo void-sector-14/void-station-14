@@ -13,10 +13,10 @@
     torso:
       part: TorsoDemon
       organs:
-        heart: OrganAnimalHeart
+        heart: OrganDemonHeart
         lungs: OrganHumanLungs
         stomach: OrganDemonStomach
-        liver: OrganAnimalLiver
+        liver: OrganDemonLiver
         kidneys: OrganHumanKidneys
       connections:
       - left arm
