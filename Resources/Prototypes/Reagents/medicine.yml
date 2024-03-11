@@ -1057,7 +1057,7 @@
             Heat: -0.2
             Shock: -0.2
             Cold: -0.2
-       - !type:HealthChange
+      - !type:HealthChange
         condition:
         - !type:OrganType
           type: Demon
