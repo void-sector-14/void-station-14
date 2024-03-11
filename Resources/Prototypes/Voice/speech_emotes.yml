@@ -161,4 +161,10 @@
   chatMessages: [ "emote-deathgasp" ]
   chatTriggers:
   - умер
-  - умер.
+
+- type: emote
+  id: GooseHonk
+  category: Vocal
+  chatMessages: [ крякает ]
+  chatTriggers:
+  - крякает
