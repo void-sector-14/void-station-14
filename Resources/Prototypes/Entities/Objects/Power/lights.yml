@@ -179,9 +179,9 @@
 
 - type: entity
   parent: LightTube
-  name: old fluorescent light tube
+  name: старая флуоресцентная лампа
   id: LightTubeOld
-  description: An aging light fixture.
+  description: Винтажный светильник
   components:
   - type: LightBulb
     color: "#FFDABB" # old fluorescents are yellower-4500K temp
