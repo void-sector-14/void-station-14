@@ -33,7 +33,7 @@
   parent: BaseAlcohol
   desc: reagent-desc-uolongtea
   physicalDesc: reagent-physical-desc-bubbly
-  flavor: alcohol
+  flavor: uolong
   color: "#a56e54"
   metamorphicSprite:
     sprite: Void/Objects/Consumable/Drinks/uolong.rsi
