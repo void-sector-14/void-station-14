@@ -234,8 +234,6 @@
     endAnnouncement: station-event-power-grid-check-end-announcement
     startAudio:
       path: /Audio/Announcements/power_off.ogg
-    endAudio:
-      path: /Audio/Announcements/power_on.ogg
     startDelay: 24
     duration: 60
     maxDuration: 120
