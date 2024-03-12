@@ -202,9 +202,10 @@
   - type: SolutionContainerManager
     solutions:
       drink:
+        maxVol: 300
         reagents:
         - ReagentId: Cognac
-          Quantity: 100
+          Quantity: 300
   - type: Label
     currentLabel: Коньяк
   - type: Sprite
@@ -220,9 +221,10 @@
   - type: SolutionContainerManager
     solutions:
       drink:
+        maxVol: 300
         reagents:
         - ReagentId: Cola
-          Quantity: 100
+          Quantity: 300
   - type: Label
     currentLabel: Кола
   - type: Sprite
@@ -258,9 +260,10 @@
   - type: SolutionContainerManager
     solutions:
       drink:
+        maxVol: 300
         reagents:
         - ReagentId: Gin
-          Quantity: 100
+          Quantity: 300
   - type: Label
     currentLabel: Джин
   - type: Sprite
@@ -292,9 +295,10 @@
   - type: SolutionContainerManager
     solutions:
       drink:
+        maxVol: 300
         reagents:
         - ReagentId: CoffeeLiqueur
-          Quantity: 100
+          Quantity: 300
   - type: Label
     currentLabel: Кофейный Ликёр
   - type: Sprite
@@ -365,9 +369,10 @@
   - type: SolutionContainerManager
     solutions:
       drink:
+        maxVol: 300
         reagents:
         - ReagentId: Rum
-          Quantity: 100
+          Quantity: 300
   - type: Label
     currentLabel: Ром
   - type: Sprite
@@ -383,9 +388,10 @@
   - type: SolutionContainerManager
     solutions:
       drink:
+        maxVol: 300
         reagents:
         - ReagentId: SpaceMountainWind
-          Quantity: 100
+          Quantity: 300
   - type: Drink
   - type: Label
     currentLabel: Космический маунтин винд
@@ -402,9 +408,10 @@
   - type: SolutionContainerManager
     solutions:
       drink:
+        maxVol: 300
         reagents:
         - ReagentId: SpaceUp
-          Quantity: 100
+          Quantity: 300
   - type: Drink
   - type: Label
     currentLabel: Спейс-ап
@@ -421,9 +428,10 @@
   - type: SolutionContainerManager
     solutions:
       drink:
+        maxVol: 300
         reagents:
         - ReagentId: Tequila
-          Quantity: 100
+          Quantity: 300
   - type: Label
     currentLabel: Текила
   - type: Sprite
@@ -439,9 +447,10 @@
   - type: SolutionContainerManager
     solutions:
       drink:
+        maxVol: 300
         reagents:
         - ReagentId: Vermouth
-          Quantity: 100
+          Quantity: 300
   - type: Label
     currentLabel: Вермут
   - type: Sprite
@@ -457,9 +466,10 @@
   - type: SolutionContainerManager
     solutions:
       drink:
+        maxVol: 300
         reagents:
         - ReagentId: Vodka
-          Quantity: 100
+          Quantity: 300
   - type: Label
     currentLabel: Водка
   - type: Sprite
@@ -475,9 +485,10 @@
   - type: SolutionContainerManager
     solutions:
       drink:
+        maxVol: 300
         reagents:
         - ReagentId: Whiskey
-          Quantity: 100
+          Quantity: 300
   - type: Label
     currentLabel: Виски
   - type: Sprite
@@ -493,9 +504,10 @@
   - type: SolutionContainerManager
     solutions:
       drink:
+        maxVol: 300
         reagents:
         - ReagentId: Wine
-          Quantity: 100
+          Quantity: 300
   - type: Label
     currentLabel: Вино
   - type: Sprite
@@ -533,10 +545,10 @@
   - type: SolutionContainerManager
     solutions:
       drink:
-        maxVol: 150
+        maxVol: 300
         reagents:
         - ReagentId: Beer
-          Quantity: 150
+          Quantity: 300
   - type: Label
     currentLabel: Пиво
   - type: Sprite
@@ -574,10 +586,10 @@
   - type: SolutionContainerManager
     solutions:
       drink:
-        maxVol: 150
+        maxVol: 300
         reagents:
         - ReagentId: Ale
-          Quantity: 150
+          Quantity: 300
   - type: Label
     currentLabel: Эль
   - type: Sprite
@@ -626,10 +638,10 @@
   - type: SolutionContainerManager
     solutions:
       drink:
-        maxVol: 150
+        maxVol: 300
         reagents:
         - ReagentId: SodaWater
-          Quantity: 150
+          Quantity: 300
   - type: Label
     currentLabel: Содовая
 
@@ -642,10 +654,10 @@
   - type: SolutionContainerManager
     solutions:
       drink:
-        maxVol: 150
+        maxVol: 300
         reagents:
         - ReagentId: TonicWater
-          Quantity: 150
+          Quantity: 300
   - type: Label
     currentLabel: Тоник
 
@@ -660,10 +672,10 @@
   - type: SolutionContainerManager
     solutions:
       drink:
-        maxVol: 150
+        maxVol: 300
         reagents:
         - ReagentId: JuiceLime
-          Quantity: 150
+          Quantity: 300
   - type: Drink
   - type: Label
     currentLabel: Сок лайма
@@ -679,10 +691,10 @@
   - type: SolutionContainerManager
     solutions:
       drink:
-        maxVol: 150
+        maxVol: 300
         reagents:
         - ReagentId: JuiceOrange
-          Quantity: 150
+          Quantity: 300
   - type: Drink
   - type: Label
     currentLabel: Апельсиновый сок
@@ -698,10 +710,10 @@
   - type: SolutionContainerManager
     solutions:
       drink:
-        maxVol: 150
+        maxVol: 300
         reagents:
         - ReagentId: Cream
-          Quantity: 150
+          Quantity: 300
   - type: Drink
   - type: Label
     currentLabel: Сливки
@@ -725,6 +737,8 @@
         - ReagentId: Sugar
           Quantity: 300
   - type: Drink
+  - type: Label
+    currentLabel: Сахар
 
 - type: entity
   parent: DrinkBottlePlasticBaseFull
@@ -752,10 +766,10 @@
   - type: SolutionContainerManager
     solutions:
       drink:
-        maxVol: 150
+        maxVol: 300
         reagents:
         - ReagentId: Mead
-          Quantity: 150
+          Quantity: 300
   - type: Drink
   - type: Label
     currentLabel: Мёд
@@ -920,5 +934,5 @@
   - type: SolutionContainerManager
     solutions:
       drink:
-        maxVol: 150
+        maxVol: 300
   - type: Drink
