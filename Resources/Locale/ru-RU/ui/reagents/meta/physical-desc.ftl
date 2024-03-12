@@ -89,3 +89,5 @@ reagent-physical-desc-energizing = заряжающее энергией
 reagent-physical-desc-exhilarating = бодрящее
 reagent-physical-desc-vibrant = вибрирующее
 reagent-physical-desc-holy =  святое
+reagent-physical-desc-alkaline = щелочное
+reagent-physical-desc-slimy = слизистое

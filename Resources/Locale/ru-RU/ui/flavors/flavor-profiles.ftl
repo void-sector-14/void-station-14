@@ -180,7 +180,7 @@ flavor-complex-juice = как сок
 
 flavor-complex-rocksandstones = как скалы и камни
 flavor-complex-water = как вода
-flavor-complex-beer = как моча
+flavor-complex-beer = как хмель
 flavor-complex-ale = как хлеб
 flavor-complex-cola = как кола
 flavor-complex-cognac = как сухой пряный алкоголь
@@ -238,6 +238,7 @@ flavor-complex-screwdriver = как крепкий апельсиновый со
 flavor-complex-cogchamp = как латунь
 flavor-complex-themartinez = как фиалки и лимонная водка
 flavor-complex-irish-car-bomb = как шипучая пенка колы
+flavor-complex-uolong = как чай, что может загорется
 
 ### This is exactly what pilk tastes like. I'm not even joking. I might've been a little drunk though
 
