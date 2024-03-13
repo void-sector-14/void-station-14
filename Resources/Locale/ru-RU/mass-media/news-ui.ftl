@@ -11,6 +11,5 @@ news-write-ui-default-title = Управление СМИ
 news-write-ui-articles-label = Статьи:
 news-write-ui-delete-text = Удалить
 news-write-ui-share-text = Опубликовать
-news-write-ui-article-name-label = Заголовок:
-news-write-ui-article-content-label = Содержание:
+news-write-ui-article-name-label = Название:
 news-write-no-access-popup = Нет доступа
