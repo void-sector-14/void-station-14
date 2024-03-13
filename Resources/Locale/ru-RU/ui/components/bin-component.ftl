@@ -1,1 +1,1 @@
-bin-component-on-examine-text = Стаканчиков осталось
+bin-component-on-examine-text = Стаканчиков осталось: {$count}
