@@ -7,5 +7,5 @@ ent-ActionCritFakeDeath = Притвориться мёртвым
     .suffix = { "" }
 
 ent-ActionCritLastWords = { action-name-crit-last-words }
-    .desc = { action-description-crit-last-words }
+    .desc = { "" }
     .suffix = { "" }
