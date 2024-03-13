@@ -29,3 +29,13 @@
 #    - Yamato
 #  - type: DisarmMalus
 
+- type: entity
+  parent: ClothingOuterStorageBase
+  id: ClothingOuterCoatVerfilfort
+  name: Старое фамильное пальто
+  description: длинный чёрный плащ с серебряными пуговицами и серебряным вышитым узором, похожим на змею. "Голова" змеи лежит на левом плече, а её "хвост" проходит вдоль воротника, через правое плечо и спускается вдоль пуговиц до нижнего края плаща. 
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/OuterClothing/Coats/vergilcoat.rsi
+  - type: Clothing
+    sprite: Void/Clothing/OuterClothing/Coats/vergilcoat.rsi
