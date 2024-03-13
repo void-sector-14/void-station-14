@@ -1,8 +1,6 @@
 ent-NotekeeperCartridge = картридж Блокнот
     .desc = Программа для хранения заметок
-ent-NewsReaderCartridge = news cartridge
-    .desc = A program for reading news
-ent-NewsReadCartridge = картридж Новости
+ent-NewsReaderCartridge = картридж Новости
     .desc = Программа для чтения новостей
 ent-CrewManifestCartridge = картридж Манифест Экипажа
     .desc = Программа для составления списка ваших коллег по экипажу.

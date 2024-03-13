@@ -1,5 +1,3 @@
-ent-BaseLightStructure = { ent-BaseStructure }
-    .desc = { ent-BaseStructure.desc }
 ent-LightPostSmall = фонарный столб
     .desc = Всегда работающий светильник.
     .suffix = Всегда запитанный

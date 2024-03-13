@@ -22,7 +22,7 @@ injector-component-cannot-toggle-inject-message = Nothing to inject!
 
 ## mob-inject doafter messages
 
-injector-component-drawing-user = You start drawing the needle.
-injector-component-injecting-user = Вы начинаете вводить иглу.
-injector-component-drawing-target = { CAPITALIZE(THE($user)) } is trying to use a needle to draw from you!
-injector-component-injecting-target = { CAPITALIZE($user) } пытается ввести Вам иглу!
+injector-component-drawing-user = Вы начинаете набирать шприц.
+injector-component-injecting-user = Вы начинаете вводить содержимое шприца.
+injector-component-drawing-target = { CAPITALIZE($user) } начинает набирать шприц из вас!
+injector-component-injecting-target = { CAPITALIZE($user) } начинает вводить содержимое шприца в вас!
