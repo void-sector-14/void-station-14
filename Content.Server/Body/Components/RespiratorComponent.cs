@@ -60,8 +60,6 @@ namespace Content.Server.Body.Components
         public float CycleDelay = 2.0f;
 
         public float AccumulatedFrametime;
-
-        public bool IsReceivingCPR = false;
     }
 }
 
