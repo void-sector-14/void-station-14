@@ -57,7 +57,7 @@
       sound:
         path: /Audio/Misc/epsilon.ogg
         params:
-          volume: -2
+          volume: -7
       disableSelection: true
       color: DarkViolet
       emergencyLightColor: DarkViolet
