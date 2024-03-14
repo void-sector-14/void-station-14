@@ -49,6 +49,7 @@ public sealed class ChatSanitizationManager : IChatSanitizationManager
         { ":i", "chatsan-sighs" },
         { ":|", "chatsan-sighs" },
         { ":p", "chatsan-stick-out-tongue" },
+        { ";p", "chatsan-stick-out-tongue" },
         { ":b", "chatsan-stick-out-tongue" },
         { "0-0", "chatsan-wide-eyed" },
         { "o-o", "chatsan-wide-eyed" },
