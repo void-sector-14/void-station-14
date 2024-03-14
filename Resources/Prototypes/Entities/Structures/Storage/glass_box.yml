@@ -1,4 +1,4 @@
-﻿- type: entity
+- type: entity
   id: GlassBoxLaser
   name: glass box
   description: A sturdy showcase for an expensive exhibit.

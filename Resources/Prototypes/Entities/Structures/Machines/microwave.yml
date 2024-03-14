@@ -1,4 +1,4 @@
-﻿- type: entity
+- type: entity
   id: KitchenMicrowave
   parent: [ BaseMachinePowered, ConstructibleMachine ]
   name: microwave

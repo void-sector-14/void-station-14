@@ -1,4 +1,4 @@
-﻿- type: entity
+- type: entity
   id: FloorLiquidPlasmaEntity
   name: liquid plasma
   description: Sweet, expensive nectar. Don't consume.
