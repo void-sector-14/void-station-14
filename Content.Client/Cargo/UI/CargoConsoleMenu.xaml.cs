@@ -92,7 +92,8 @@ namespace Content.Client.Cargo.UI
                 // else if category and not search
                 if (search.Length == 0 && _category == null ||
                     search.Length != 0 && prototype.Name.ToLowerInvariant().Contains(search) ||
-                    search.Length == 0 && _category != null && prototype.Category.Equals(_category.Original))
+                    search.Length != 0 && prototype.Description.ToLowerInvariant().Contains(search) ||
+                    search.Length == 0 && _category != null && Loc.GetString(prototype.Category).Equals(_category))
                 {
                     var button = new CargoProductRow
                     {
@@ -121,13 +122,10 @@ namespace Content.Client.Cargo.UI
 
             foreach (var prototype in ProductPrototypes)
             {
-                var categoryItem = new CargoCategoryItem(
-                    prototype.Category,
-                    Loc.GetString("cargo-category-" + prototype.Category)
-                );
-
-                if (!_categoryList.Contains(categoryItem))
-                    _categoryList.Add(categoryItem);
+                if (!_categoryStrings.Contains(Loc.GetString(prototype.Category)))
+                {
+                    _categoryStrings.Add(Loc.GetString(prototype.Category));
+                }
             }
 
             _categoryList.Sort((i1, i2) => string.Compare(i1.Locale, i2.Locale, StringComparison.Ordinal));
