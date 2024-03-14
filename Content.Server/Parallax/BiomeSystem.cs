@@ -29,7 +29,6 @@ using Robust.Shared.Prototypes;
 using Robust.Shared.Random;
 using Robust.Shared.Threading;
 using Robust.Shared.Utility;
-using ChunkIndicesEnumerator = Robust.Shared.Map.Enumerators.ChunkIndicesEnumerator;
 
 namespace Content.Server.Parallax;
 

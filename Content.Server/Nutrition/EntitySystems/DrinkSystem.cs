@@ -130,18 +130,21 @@ public sealed class DrinkSystem : EntitySystem
 
     private void OnExamined(Entity<DrinkComponent> entity, ref ExaminedEvent args)
     {
-        TryComp<OpenableComponent>(entity, out var openable);
+        var hasOpenable = TryComp<OpenableComponent>(entity, out var openable);
         if (_openable.IsClosed(entity.Owner, null, openable) || !args.IsInDetailsRange || !entity.Comp.Examinable)
             return;
+
+        // put Empty / Xu after Opened, or start a new line
+        args.AddMarkup(hasOpenable ? " - " : "\n");
 
         var empty = IsEmpty(entity, entity.Comp);
         if (empty)
         {
-            args.PushMarkup(Loc.GetString("drink-component-on-examine-is-empty"));
+            args.AddMarkup(Loc.GetString("drink-component-on-examine-is-empty"));
             return;
         }
 
-        if (HasComp<ExaminableSolutionComponent>(entity))
+        if (TryComp<ExaminableSolutionComponent>(entity, out var comp))
         {
             //provide exact measurement for beakers
             args.PushText(Loc.GetString("drink-component-on-examine-exact-volume", ("amount", DrinkVolume(entity, entity.Comp))));
@@ -156,7 +159,7 @@ public sealed class DrinkSystem : EntitySystem
                 > 33 => HalfEmptyOrHalfFull(args),
                 _ => "drink-component-on-examine-is-mostly-empty",
             };
-            args.PushMarkup(Loc.GetString(remainingString));
+            args.AddMarkup(Loc.GetString(remainingString));
         }
     }
 
@@ -309,9 +312,6 @@ public sealed class DrinkSystem : EntitySystem
             return;
 
         if (args.Used is null || !_solutionContainer.TryGetSolution(args.Used.Value, args.Solution, out var soln, out var solution))
-            return;
-
-        if (_openable.IsClosed(args.Used.Value, args.Target.Value))
             return;
 
         // TODO this should really be checked every tick.

@@ -76,13 +76,6 @@ public abstract class SharedWiresSystem : EntitySystem
         }
     }
 
-    public void ChangePanelVisibility(EntityUid uid, WiresPanelComponent component, bool visible)
-    {
-        component.Visible = visible;
-        UpdateAppearance(uid, component);
-        Dirty(uid, component);
-    }
-
     protected void UpdateAppearance(EntityUid uid, WiresPanelComponent panel)
     {
         if (TryComp<AppearanceComponent>(uid, out var appearance))

@@ -1,4 +1,3 @@
-using System.Linq;
 using System.Numerics;
 using Content.Client.CrewManifest;
 using Content.Client.GameTicking.Managers;
@@ -160,10 +159,8 @@ namespace Content.Client.LateJoin
                 };
 
                 var firstCategory = true;
-                var departments = _prototypeManager.EnumeratePrototypes<DepartmentPrototype>().ToArray();
-                Array.Sort(departments, DepartmentUIComparer.Instance);
 
-                foreach (var department in departments)
+                foreach (var department in _prototypeManager.EnumeratePrototypes<DepartmentPrototype>())
                 {
                     var departmentName = Loc.GetString($"department-{department.ID}");
                     _jobCategories[id] = new Dictionary<string, BoxContainer>();
@@ -179,7 +176,7 @@ namespace Content.Client.LateJoin
                         jobsAvailable.Add(_prototypeManager.Index<JobPrototype>(jobId));
                     }
 
-                    jobsAvailable.Sort(JobUIComparer.Instance);
+                    jobsAvailable.Sort((x, y) => -string.Compare(x.LocalizedName, y.LocalizedName, StringComparison.CurrentCultureIgnoreCase));
 
                     // Do not display departments with no jobs available.
                     if (jobsAvailable.Count == 0)
@@ -234,7 +231,7 @@ namespace Content.Client.LateJoin
                         var icon = new TextureRect
                         {
                             TextureScale = new Vector2(2, 2),
-                            VerticalAlignment = VAlignment.Center
+                            Stretch = TextureRect.StretchMode.KeepCentered
                         };
 
                         var jobIcon = _prototypeManager.Index<StatusIconPrototype>(prototype.Icon);

@@ -218,12 +218,6 @@
   id: Briefcase
 
 - type: Tag
-  id: BrimFlatcapBrown
-
-- type: Tag
-  id: BrimFlatcapGrey
-
-- type: Tag
   id: Brutepack
 
 - type: Tag
@@ -252,36 +246,6 @@
 
 - type: Tag
   id: Carpet
-
-- type: Tag
-  id: CarpetBlack
-
-- type: Tag
-  id: CarpetBlue
-
-- type: Tag
-  id: CarpetCyan
-
-- type: Tag
-  id: CarpetGreen
-
-- type: Tag
-  id: CarpetOrange
-
-- type: Tag
-  id: CarpetPurple
-
-- type: Tag
-  id: CarpetSBlue
-
-- type: Tag
-  id: CarpetPink
-
-- type: Tag
-  id: CarpetRed
-
-- type: Tag
-  id: CarpetWhite
 
 - type: Tag
   id: CanPilot
@@ -358,9 +322,6 @@
 
 - type: Tag
   id: Cleaver
-
-- type: Tag
-  id: ClockworkGlassShard
 
 - type: Tag
   id: ClothMade
@@ -666,9 +627,6 @@
   id: HidesHair # for headwear.
 
 - type: Tag
-  id: HidesNose # for non-standard noses.
-
-- type: Tag
   id: HighRiskItem
 
 - type: Tag
@@ -769,9 +727,6 @@
 
 - type: Tag
   id: MimeHappyHonk
-
-- type: Tag
-  id: Mineshaft
 
 # Magazines ordered by slot then caliber
 
@@ -1008,9 +963,6 @@
   id: ReinforcedGlassShard
 
 - type: Tag
-  id: ReptilianFood
-
-- type: Tag
   id: RifleStock
 
 - type: Tag
@@ -1086,13 +1038,7 @@
   id: SmallMech
 
 - type: Tag
-  id: SnapPop
-
-- type: Tag
   id: Smokable
-
-- type: Tag
-  id: SnowyLabs
 
 - type: Tag
   id: Soap
@@ -1143,9 +1089,6 @@
   id: SuitEVA
 
 - type: Tag
-  id: SurgeryTool
-
-- type: Tag
   id: SurveillanceCameraMonitorCircuitboard
 
 - type: Tag
@@ -1183,9 +1126,6 @@
 
 - type: Tag
   id: Torch
-
-- type: Tag
-  id: ToySidearm
 
 - type: Tag
   id: Trash

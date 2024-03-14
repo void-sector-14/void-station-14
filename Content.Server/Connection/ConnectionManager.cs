@@ -1,5 +1,4 @@
 using System.Collections.Immutable;
-using System.Text.Json.Nodes;
 using System.Threading.Tasks;
 using Content.Server.Database;
 using Content.Server.GameTicking;
@@ -78,11 +77,7 @@ namespace Content.Server.Connection
                 if (banHits is { Count: > 0 })
                     await _db.AddServerBanHitsAsync(id, banHits);
 
-                var properties = new Dictionary<string, object>();
-                if (reason == ConnectionDenyReason.Full)
-                    properties["delay"] = _cfg.GetCVar(CCVars.GameServerFullReconnectDelay);
-
-                e.Deny(new NetDenyReason(msg, properties));
+                e.Deny(msg);
             }
             else
             {
@@ -111,7 +106,7 @@ namespace Content.Server.Connection
 
             var adminData = await _dbManager.GetAdminDataForAsync(e.UserId);
 
-            if (_cfg.GetCVar(CCVars.PanicBunkerEnabled) && adminData == null)
+            if (_cfg.GetCVar(CCVars.PanicBunkerEnabled))
             {
                 var showReason = _cfg.GetCVar(CCVars.PanicBunkerShowReason);
                 var customReason = _cfg.GetCVar(CCVars.PanicBunkerCustomReason);
@@ -161,8 +156,7 @@ namespace Content.Server.Connection
             var wasInGame = EntitySystem.TryGet<GameTicker>(out var ticker) &&
                             ticker.PlayerGameStatuses.TryGetValue(userId, out var status) &&
                             status == PlayerGameStatus.JoinedGame;
-            var adminBypass = _cfg.GetCVar(CCVars.AdminBypassMaxPlayers) && adminData != null;
-            if ((_plyMgr.PlayerCount >= _cfg.GetCVar(CCVars.SoftMaxPlayers) && !adminBypass) && !wasInGame)
+            if ((_plyMgr.PlayerCount >= _cfg.GetCVar(CCVars.SoftMaxPlayers) && adminData is null) && !wasInGame)
             {
                 return (ConnectionDenyReason.Full, Loc.GetString("soft-player-cap-full"), null);
             }

@@ -175,11 +175,6 @@
   description: flavor-base-clean
 
 - type: flavor
-  id: mindful
-  flavorType: Base
-  description: flavor-base-mindful
-
-- type: flavor
   id: mustard
   flavorType: Complex
   description: flavor-complex-mustard
@@ -1008,11 +1003,6 @@
   id: profits
   flavorType: Complex
   description: flavor-complex-profits
-
-- type: flavor
-  id: weh
-  flavorType: Base
-  description: flavor-weh
 
 - type: flavor
   id: fishops

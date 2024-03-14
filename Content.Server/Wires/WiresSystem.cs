@@ -620,6 +620,13 @@ public sealed class WiresSystem : SharedWiresSystem
         }
     }
 
+    public void ChangePanelVisibility(EntityUid uid, WiresPanelComponent component, bool visible)
+    {
+        component.Visible = visible;
+        UpdateAppearance(uid, component);
+        Dirty(uid, component);
+    }
+
     public void SetWiresPanelSecurity(EntityUid uid, WiresPanelSecurityComponent component, WiresPanelSecurityEvent args)
     {
         component.Examine = args.Examine;

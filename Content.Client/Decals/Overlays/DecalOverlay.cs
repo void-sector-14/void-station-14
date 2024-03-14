@@ -3,7 +3,6 @@ using Robust.Client.GameObjects;
 using Robust.Client.Graphics;
 using Robust.Shared.Enums;
 using Robust.Shared.Map;
-using Robust.Shared.Map.Enumerators;
 using Robust.Shared.Prototypes;
 
 namespace Content.Client.Decals.Overlays
@@ -15,8 +14,6 @@ namespace Content.Client.Decals.Overlays
         private readonly IPrototypeManager _prototypeManager;
 
         private readonly Dictionary<string, (Texture Texture, bool SnapCardinals)> _cachedTextures = new(64);
-
-        private readonly List<(uint Id, Decal Decal)> _decals = new();
 
         public DecalOverlay(
             SpriteSystem sprites,
@@ -33,10 +30,10 @@ namespace Content.Client.Decals.Overlays
             if (args.MapId == MapId.Nullspace)
                 return;
 
-            var owner = Grid.Owner;
+            var grid = Grid;
 
-            if (!_entManager.TryGetComponent(owner, out DecalGridComponent? decalGrid) ||
-                !_entManager.TryGetComponent(owner, out TransformComponent? xform))
+            if (!_entManager.TryGetComponent(grid, out DecalGridComponent? decalGrid) ||
+                !_entManager.TryGetComponent(grid, out TransformComponent? xform))
             {
                 return;
             }
@@ -49,68 +46,46 @@ namespace Content.Client.Decals.Overlays
             var xformSystem = _entManager.System<TransformSystem>();
             var eyeAngle = args.Viewport.Eye?.Rotation ?? Angle.Zero;
 
-            var gridAABB = xformSystem.GetInvWorldMatrix(xform).TransformBox(args.WorldBounds.Enlarged(1f));
-            var chunkEnumerator = new ChunkIndicesEnumerator(gridAABB, SharedDecalSystem.ChunkSize);
-            _decals.Clear();
+            var zIndexDictionary = decalGrid.DecalRenderIndex;
 
-            while (chunkEnumerator.MoveNext(out var index))
-            {
-                if (!decalGrid.ChunkCollection.ChunkCollection.TryGetValue(index.Value, out var chunk))
-                    continue;
-
-                foreach (var (id, decal) in chunk.Decals)
-                {
-                    if (!gridAABB.Contains(decal.Coordinates))
-                        continue;
-
-                    _decals.Add((id, decal));
-                }
-            }
-
-            if (_decals.Count == 0)
+            if (zIndexDictionary.Count == 0)
                 return;
 
-            _decals.Sort((x, y) =>
-            {
-                var zComp = x.Decal.ZIndex.CompareTo(y.Decal.ZIndex);
-
-                if (zComp != 0)
-                    return zComp;
-
-                return x.Id.CompareTo(y.Id);
-            });
-
             var (_, worldRot, worldMatrix) = xformSystem.GetWorldPositionRotationMatrix(xform);
+
             handle.SetTransform(worldMatrix);
 
-            foreach (var (_, decal) in _decals)
+            foreach (var decals in zIndexDictionary.Values)
             {
-                if (!_cachedTextures.TryGetValue(decal.Id, out var cache))
+                foreach (var decal in decals.Values)
                 {
-                    // Nothing to cache someone messed up
-                    if (!_prototypeManager.TryIndex<DecalPrototype>(decal.Id, out var decalProto))
+                    if (!_cachedTextures.TryGetValue(decal.Id, out var cache))
                     {
-                        continue;
+                        // Nothing to cache someone messed up
+                        if (!_prototypeManager.TryIndex<DecalPrototype>(decal.Id, out var decalProto))
+                        {
+                            continue;
+                        }
+
+                        cache = (_sprites.Frame0(decalProto.Sprite), decalProto.SnapCardinals);
+                        _cachedTextures[decal.Id] = cache;
                     }
 
-                    cache = (_sprites.Frame0(decalProto.Sprite), decalProto.SnapCardinals);
-                    _cachedTextures[decal.Id] = cache;
+                    var cardinal = Angle.Zero;
+
+                    if (cache.SnapCardinals)
+                    {
+                        var worldAngle = eyeAngle + worldRot;
+                        cardinal = worldAngle.GetCardinalDir().ToAngle();
+                    }
+
+                    var angle = decal.Angle - cardinal;
+
+                    if (angle.Equals(Angle.Zero))
+                        handle.DrawTexture(cache.Texture, decal.Coordinates, decal.Color);
+                    else
+                        handle.DrawTexture(cache.Texture, decal.Coordinates, angle, decal.Color);
                 }
-
-                var cardinal = Angle.Zero;
-
-                if (cache.SnapCardinals)
-                {
-                    var worldAngle = eyeAngle + worldRot;
-                    cardinal = worldAngle.GetCardinalDir().ToAngle();
-                }
-
-                var angle = decal.Angle - cardinal;
-
-                if (angle.Equals(Angle.Zero))
-                    handle.DrawTexture(cache.Texture, decal.Coordinates, decal.Color);
-                else
-                    handle.DrawTexture(cache.Texture, decal.Coordinates, angle, decal.Color);
             }
 
             handle.SetTransform(Matrix3.Identity);

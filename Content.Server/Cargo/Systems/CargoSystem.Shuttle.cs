@@ -173,16 +173,13 @@ public sealed partial class CargoSystem
     /// </summary>
     private int GetCargoSpace(EntityUid gridUid)
     {
-        var space = GetCargoPallets(gridUid, BuySellType.Buy).Count;
+        var space = GetCargoPallets(gridUid).Count;
         return space;
     }
 
-    /// GetCargoPallets(gridUid, BuySellType.Sell) to return only Sell pads
-    /// GetCargoPallets(gridUid, BuySellType.Buy) to return only Buy pads
-    private List<(EntityUid Entity, CargoPalletComponent Component, TransformComponent PalletXform)> GetCargoPallets(EntityUid gridUid, BuySellType requestType = BuySellType.All)
+    private List<(EntityUid Entity, CargoPalletComponent Component, TransformComponent PalletXform)> GetCargoPallets(EntityUid gridUid)
     {
         _pads.Clear();
-
         var query = AllEntityQuery<CargoPalletComponent, TransformComponent>();
 
         while (query.MoveNext(out var uid, out var comp, out var compXform))
@@ -193,25 +190,17 @@ public sealed partial class CargoSystem
                 continue;
             }
 
-            if ((requestType & comp.PalletType) == 0)
-            {
-                continue;
-            }
-
             _pads.Add((uid, comp, compXform));
-
         }
 
         return _pads;
     }
 
-    private List<(EntityUid Entity, CargoPalletComponent Component, TransformComponent Transform)>
+    private IEnumerable<(EntityUid Entity, CargoPalletComponent Component, TransformComponent Transform)>
         GetFreeCargoPallets(EntityUid gridUid,
             List<(EntityUid Entity, CargoPalletComponent Component, TransformComponent Transform)> pallets)
     {
         _setEnts.Clear();
-
-        List<(EntityUid Entity, CargoPalletComponent Component, TransformComponent Transform)> outList = new();
 
         foreach (var pallet in pallets)
         {
@@ -220,10 +209,8 @@ public sealed partial class CargoSystem
             if (_lookup.AnyLocalEntitiesIntersecting(gridUid, aabb, LookupFlags.Dynamic))
                 continue;
 
-            outList.Add(pallet);
+            yield return pallet;
         }
-
-        return outList;
     }
 
     #endregion
@@ -259,7 +246,7 @@ public sealed partial class CargoSystem
         amount = 0;
         toSell = new HashSet<EntityUid>();
 
-        foreach (var (palletUid, _, _) in GetCargoPallets(gridUid, BuySellType.Sell))
+        foreach (var (palletUid, _, _) in GetCargoPallets(gridUid))
         {
             // Containers should already get the sell price of their children so can skip those.
             _setEnts.Clear();

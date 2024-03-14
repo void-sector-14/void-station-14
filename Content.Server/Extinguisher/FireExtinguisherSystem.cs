@@ -93,7 +93,7 @@ public sealed class FireExtinguisherSystem : EntitySystem
 
     private void OnGetInteractionVerbs(Entity<FireExtinguisherComponent> entity, ref GetVerbsEvent<InteractionVerb> args)
     {
-        if (!args.CanAccess || !args.CanInteract)
+        if (!args.CanInteract)
             return;
 
         var user = args.User;
