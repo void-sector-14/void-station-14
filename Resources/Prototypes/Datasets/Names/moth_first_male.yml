@@ -1,50 +1,107 @@
 - type: dataset
-  id: names_moth_first_male
+  id: names_moth_first_female
   values:
-  - Agrius # Agrius
-  - Atlas # Attacus atlas
-  - Attacus # Attacus
-  - Caesar # Attacus caesar
-  - Hercules # Coscinocera hercules
-  - Rannoch # Itame brunneata, "Rannoch Looper"
-  - Socrates # Acosmeryx socrates
-  - Solus # Saturniidae solus
+  - Атропос # Acherontia atropos
+  - Бетулария # Biston betularia
+  - Дафна # Daphnis
+  - Евдриас # Eudryas
+  - Ирис # Salassa iris
+  - Лахезис # Acherontia lachesis
+  - Лиманзия # Lymantria
+  - Луна # Actias luna
+  - Мима # Mimas
+  - Мэйпл # Dryocampa rubicunda, "Rosy Maple"
+  - Нефела # Nephele
+  - Рози # Dryocampa rubicunda
+  - Скарлет # Cosmosoma myrodora, "Scarlet-bodied wasp moth"
+  - Стикс # Acherontia styx
+  - Эврипта # Eurypteryx
 
-  # Other languages
-  - Ash # Hebrew עש "moth"
-  - Azar # Persian "fire"
-  - Kaiser # German "emperor" descendant of the Latin caesar
-  - Rex # Latin "king"
-  - Rajas # Sanskrit "darkness" or "dust"
-  - Skoros # Greek "clothes moth"
+  # Другие языки
+  - Авелейна # Галицкий «мотылёк» (avelaíña)
+  - Менодора # Греческий «лунный дар»
+  - Моли # Румынский "мотылёк"
+  - Полилла # Испанский "мотылёк"
+  - Фалена # Итальянская «зимняя моль»
 
-  # Myth and legend
-  - Bladud # legendary king of the Britons who crafted wings and died in his attempt at flight
-  - Daedalus # father of Icarus
-  - Erebus # Greek primordial deity of darkness
-  - Icarus # the classic
-  - Jatayu # Hindu figure, similar to Icarus
-  - Koho # Japanese reading of 夸父（こほ）
-  - Kuafu # Chinese giant 夸父, similar to Icarus
-  - Lucifer # more commonly-known fall-from-heaven figure
-  - Merlin # Arthurian wizard
-  - Phaethon # another Greek figure, similar to Icarus
-  - Wolford # rendering of Bladud from the Welsh blaidd "wolf" + iudd "lord"
+  # Мифы и легенды
+  - Аврора # Римская богиня утренней зари
+  - Алфея # Греческий мифологический персонаж
+  - Гелла # Греческий мифологический персонаж
+  - Нюкта # Греческая богиня ночи
+  - Селена # Греческая богиня луны
 
-  # Fun names
-  - Ace
-  - Altair
-  - Dusty
-  - Gambit
-  - Hawk
-  - Mothew
-  - Timothy
+  # Забавные имена
+  - Ангел
+  - Либерти
+  - Сэнди
 
-  # Common names, filler
-  - Asher
-  - Isaac
-  - Roman
-  - Samuel
-  - Sebastian
-  - Silas
-  - Simon
+  # Общие имена, наполнитель
+  - Беатрикс
+  - Дейзи
+  - Доу
+  - Зои
+  - Люси
+  - Руби
+  - Сара
+  - Сиенна
+  - Уиллоу
+  - Элизабет
+
+  # XENOU
+  - Унесённая Сиянием
+
+  # Профессии
+  - Помощник
+  - Поэтесса
+  - Рыцарь
+  - Строительница
+  - Строительница Врат
+  - Ткач
+
+  # Кьер-Иза
+  - Лам-Ниа
+  - Лам-Ниала
+  - Лам-Унниа
+  - Лам-Эни
+  - Лам-Энрэ
+  - Ниа
+  - Ниала
+  - Унниа
+  - Эни
+  - Энрэ
+
+  # Забавные
+  - Искорка
+  - Ма
+  - Маланиса
+  - Нексит
+  - Пинки
+  - Радуга
+  - Рарити
+  - Флаттершай
+  - Шеннон
+  - Эвелина
+  - Эпплджек
+
+  # SHENNON
+  - Аркрайт
+  - Бард
+  - Блуждающая во снах
+  - Директриса
+  - Звездочет
+  - Изучающая
+  - Искательница
+  - Исследовательница
+  - Лучница
+  - Наблюдающая
+  - Парящая сквозь звёзды
+  - Пекарь
+  - Послушница
+  - Проповедница
+  - Служанка
+  - Смотрящая
+  - Стражница
+  - Студентка
+  - Ученица
+  - Целительница

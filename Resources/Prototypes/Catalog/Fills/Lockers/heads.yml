@@ -132,7 +132,9 @@
   - type: StorageFill
     contents:
       - id: ClothingOuterHardsuitEngineeringWhite
-      - id: ClothingMaskBreath
+      - id: ClothingMaskGasAtmos
+      - id: OxygenTankFilled
+      - id: NitrogenTankFilled
       - id: ClothingEyesGlassesMeson
       - id: ClothingBeltChiefEngineerFilled
       - id: ClothingShoesBootsMagAdv
@@ -167,6 +169,7 @@
       - id: AccessConfigurator
       - id: RCD
       - id: RCDAmmo
+      - id: ClothingMaskGasAtmos
 
 - type: entity
   id: LockerChiefMedicalOfficerFilledHardsuit

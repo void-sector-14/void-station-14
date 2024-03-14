@@ -1,27 +1,27 @@
 <Document>
-  # Traitors
+	# Предатели
 
-  - A Traitor is an antagonist employed by the Syndicate. They have access to various Syndicate tools and weapons through their [color=#a4885c]Uplink[/color].
-  - Traitors can use codewords to identify themselves to one another in order to cooperate.
-  - In a Traitor round, any player can be a Traitor aside from department heads, the captain, or any security officers.
-  - Traitors should focus primarily on completing their objectives successfully by the end of the round.
+	- Предатель - это антагонист, нанятый Синдикатом. У них есть доступ к различным инструментам и оружию Синдиката через их [color=#a4885c]Аплинк[/color].
+	- Предатели могут использовать кодовые слова, чтобы идентифицировать себя друг с другом для сотрудничества.
+	- В раунде предателей, предателем может быть любой игрок, кроме руководителей отделов, капитана или любых офицеров службы безопасности.
+	- Предатели должны сосредоточиться в первую очередь на успешном выполнении своих задач к концу раунда.
 
-  ## Uplink
-  <Box>
+	## Аплинк
+	<Box>
     <GuideEntityEmbed Entity="BaseUplinkRadio40TC" Caption="Uplink"/>
   </Box>
-  - The [color=#a4885c]Uplink[/color] is the most important tool as a Traitor, as it can purchase tools and weapons with [color=#a4885c]telecrystals[/color](TC).
+  -[color=#a4885c] Аплинк [/color] является наиболее важным инструментом для предателя, поскольку он может приобретать инструменты и оружие с помощью [color=#a4885c]телекристаллов[/color](ТК).
   <Box>
     <GuideEntityEmbed Entity="Telecrystal" Caption="Telecrystals"/>
   </Box>
-  - [color=#a4885c]Telecrystals[/color] are given at the start to give traitors an edge on the station. Other traitors can trade their [color=#a4885c]telecrystals[/color] to each other exceeding the normal given amount.
-  - Using your [color=#a4885c]PDA[/color] and setting the ringtone as your uplink code gives you a variety of options to use at your disposal against the station and its crew.
-  <Box>
+	- [color=#a4885c]Телекристаллы[/color] даются в начале, чтобы дать предателям преимущество на станции.
+	- Использование вашего [color=#a4885c]КПК[/color] и установка мелодии звонка в качестве кода восходящей линии связи дает вам множество возможностей для использования в вашем распоряжении против станции и ее экипажа.
+	<Box>
   <GuideEntityEmbed Entity="PassengerPDA" Caption="PDA"/>
   </Box>
-  Make sure to relock your [color=#a4885c]PDA[/color] to prevent anyone else from seeing it!
-  - Various gear include:
-  <Box>
+	Обязательно повторно заблокируйте свой [color=#a4885c]КПК[/color], чтобы никто другой его не увидел!
+	- Различное снаряжение включает:
+	<Box>
     <GuideEntityEmbed Entity="WeaponPistolViper" Caption="Guns"/>
     <GuideEntityEmbed Entity="FireAxe" State="icon" Caption="Melee"/>
     <GuideEntityEmbed Entity="C4" Caption=" Explosives"/>
@@ -29,56 +29,56 @@
     <GuideEntityEmbed Entity="ClothingBackpackDuffelSyndicate" Caption="Bundles"/>
   </Box>
 
-  ## Objectives
+	## Задания
 
-  - When becoming a Traitor, you will have a list of objectives, ranging from escape alive, stealing something, and killing someone. Using the [color=#a4885c]Uplink[/color] will help you with most of these tasks.
+	- Когда вы становитесь предателем, у вас будет список целей, начиная от побега живым, кражи чего-либо и убийства кого-либо. Использование [color=#a4885c]Аплинка[/color] поможет вам с большинством из этих задач.
 
-  ## List of Possible Tasks
+	## Список возможных заданий
 
-  - Kill or maroon a randomly selected non-traitor.
-  - Kill or maroon a randomly selected traitor.
-  - Kill or maroon a randomly selected department head.
-  - Keep a randomly selected traitor alive.
-  - Escape on the evacuation shuttle alive and uncuffed.
-  - Help a randomly selected traitor finish 2/3 of their objectives.
-  - Die a glorious death.
-  - Steal the Captain's [color=#a4885c]ID Card[/color].
-  <Box>
+	- Убить или не дать покинуть станцию случайно выбранному не предателю.
+	- Убить или не дать покинуть станцию случайно выбранному предателю.
+	- Убить или не дать покинуть станцию случайно выбранному главе.
+	- Помочь выжить случайно выбранному предателю.
+	- Сбежать на эвакуационном шаттле живым и свободным.
+	- Помогите случайно выбранному предателю выполнить 2/3 поставленных задач.
+	- Умрите славной смертью.
+	- Украдите ID карту капитана [color=#a4885c]ID Card[/color].
+	<Box>
     <GuideEntityEmbed Entity="CaptainIDCard" Caption="Captain's ID Card"/>
   </Box>
-  - Steal the Captain's [color=#a4885c]Antique Laser Pistol[/color].
-  <Box>
+	- Украсть у капитана [color=#a4885c]Антикварный лазерный пистолет[/color].
+	<Box>
     <GuideEntityEmbed Entity="WeaponAntiqueLaser" Caption="Captain's Antique Laser Pistol"/>
   </Box>
-  - Steal the Captain's [color=#a4885c]Jetpack[/color].
+  - Украсть капитанский [color=#a4885c]Джетпак[/color].
   <Box>
     <GuideEntityEmbed Entity="JetpackCaptainFilled" Caption="Captain's Jetpack"/>
   </Box>
-  - Steal the Chief Medical Officer's [color=#a4885c]Hypospray[/color].
+  - Украсть [color=#a4885c]Гипоспрей[/color] главврача.
   <Box>
     <GuideEntityEmbed Entity="Hypospray" Caption="CMO's Hypospray"/>
   </Box>
-  - Steal the Research Director's [color=#a4885c]Hardsuit[/color].
+  - Украсть [color=#a4885c]Скафандр[/color] научного руководителя.
   <Box>
     <GuideEntityEmbed Entity="ClothingOuterHardsuitRd" Caption="RD's Hardsuit"/>
   </Box>
-  - Steal the Research Director's [color=#a4885c]Hand Teleporter[/color].
+  - Украсть [color=#a4885c]Ручной телепорт[/color] научного руководителя.
   <Box>
     <GuideEntityEmbed Entity="HandTeleporter" Caption="Hand Teleporter"/>
   </Box>
-  - Steal the Head of Security's [color=#a4885c]Secret Documents[/color].
+  - Украсть[color=#a4885c]Черезвычайные приказы по безопастности[/color] у главы службы безопастности.
   <Box>
     <GuideEntityEmbed Entity="BookSecretDocuments" Caption="Secret Documents"/>
   </Box>
-  - Steal the Chief Engineer's [color=#a4885c]Advanced Magboots[/color].
+  - Украсть [color=#a4885c]Продвинутые магнитные ботинки[/color] старшего инженера.
   <Box>
     <GuideEntityEmbed Entity="ClothingShoesBootsMagAdv" Caption="Advanced Magboots"/>
   </Box>
-  - Steal the [color=#a4885c]Nuke Disk[/color].
+  - Украсть [color=#a4885c]Диск ядерной авторизации[/color].
   <Box>
     <GuideEntityEmbed Entity="NukeDisk" Caption="Nuke Disk"/>
   </Box>
-  - Steal [color=#a4885c]Corgi Meat[/color].
+  - Украсть [color=#a4885c]Первосортное мясо корги[/color].
   <Box>
   <GuideEntityEmbed Entity="MobCorgiIan" Caption="Corgi"/>
   <GuideEntityEmbed Entity="FoodMeatCorgi" Caption="Corgi Meat"/>

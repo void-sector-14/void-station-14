@@ -1,0 +1,16 @@
+cargo-product-category-Armory = Арсенал
+cargo-product-category-Atmospherics = Атмос
+cargo-product-category-Hydroponics = Гидропоника
+cargo-product-category-Emergency = Наборы для ЧС
+cargo-product-category-Engineering = Инженерия
+cargo-product-category-Food = Еда
+cargo-product-category-Fun = Развлечения
+cargo-product-category-Livestock = Животноводство
+cargo-product-category-Materials = Материалы
+cargo-product-category-Medical = Медицинское
+cargo-product-category-Science = Научное
+cargo-product-category-Security = Безопасность
+cargo-product-category-Service = Сервис
+cargo-product-category-Shuttle = Шаттл
+cargo-product-category-Cargo = Поставки
+cargo-product-category-Circuitboards = Микросхемы

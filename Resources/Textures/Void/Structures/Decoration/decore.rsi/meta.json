@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "size": {
+    "x": 96,
+    "y": 112
+  },
+  "states": [
+    {
+      "name": "decoration"
+    },
+    {
+      "name": "decoration2"
+    }
+  ]
+}

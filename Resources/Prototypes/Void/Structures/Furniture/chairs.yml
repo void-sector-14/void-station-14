@@ -1,0 +1,228 @@
+#big brench
+
+- type: entity
+  name: большая скамейка
+  suffix: левая часть
+  id: SteelBigBenchLeft
+  parent: SeatBase
+  description: Большая и удобная скамейка.
+  components:
+  - type: Transform
+    anchored: true
+  - type: Physics
+    bodyType: Static
+  - type: Anchorable
+  - type: Rotatable
+  - type: Sprite
+    sprite: Void/Structures/Furniture/bigbrench.rsi
+    state: left
+ 
+- type: entity
+  name: большая скамейка
+  suffix: правая часть
+  id: SteelBigBenchRight
+  parent: SeatBase
+  description: Большая и удобная скамейка.
+  components:
+  - type: Transform
+    anchored: true
+  - type: Physics
+    bodyType: Static
+  - type: Anchorable
+  - type: Rotatable
+  - type: Sprite
+    sprite: Void/Structures/Furniture/bigbrench.rsi
+    state: right
+
+- type: entity
+  name: большая скамейка
+  suffix: середина
+  id: SteelBigBenchMiddle
+  parent: SeatBase
+  description: Большая и удобная скамейка.
+  components:
+  - type: Transform
+    anchored: true
+  - type: Physics
+    bodyType: Static
+  - type: Anchorable
+  - type: Rotatable
+  - type: Sprite
+    sprite: Void/Structures/Furniture/bigbrench.rsi
+    state: middle
+
+# sofa
+
+- type: entity
+  name: большой диван
+  suffix: левая часть
+  id: SofaLeft
+  parent: SeatBase
+  description: Диван подойдет всем, кому надоело сидеть на железном неудобном стуле.
+  components:
+  - type: Transform
+    anchored: true
+  - type: Physics
+    bodyType: Static
+  - type: Anchorable
+  - type: Rotatable
+  - type: Sprite
+    sprite: Void/Structures/Furniture/sofa.rsi
+    state: left
+ 
+- type: entity
+  name: большой диван
+  suffix: правая часть
+  id: SofaRight
+  parent: SeatBase
+  description: Диван подойдет всем, кому надоело сидеть на железном неудобном стуле.
+  components:
+  - type: Transform
+    anchored: true
+  - type: Physics
+    bodyType: Static
+  - type: Anchorable
+  - type: Rotatable
+  - type: Sprite
+    sprite: Void/Structures/Furniture/sofa.rsi
+    state: right
+
+- type: entity
+  name: большой диван
+  suffix: середина
+  id: SofaMiddle
+  parent: SeatBase
+  description: Диван подойдет всем, кому надоело сидеть на железном неудобном стуле.
+  components:
+  - type: Transform
+    anchored: true
+  - type: Physics
+    bodyType: Static
+  - type: Anchorable
+  - type: Rotatable
+  - type: Sprite
+    sprite: Void/Structures/Furniture/sofa.rsi
+    state: middle    
+
+- type: entity
+  name: большой диван
+  suffix: угол
+  id: SofaCorner
+  parent: SeatBase
+  description: Диван подойдет всем, кому надоело сидеть на железном неудобном стуле.
+  components:
+  - type: Transform
+    anchored: true
+  - type: Physics
+    bodyType: Static
+  - type: Anchorable
+  - type: Rotatable
+  - type: Sprite
+    sprite: Void/Structures/Furniture/sofa.rsi
+    state: corner    
+   
+# church
+
+- type: entity
+  name: церковная скамейка
+  suffix: левая часть
+  id: ChurchBenchLeft
+  parent: SeatBase
+  description: Скамейка из тёмного дерева, покрытая лаком для сохранения текстуры.
+  components:
+  - type: Transform
+    anchored: true
+  - type: Physics
+    bodyType: Static
+  - type: Anchorable
+  - type: Rotatable
+  - type: Sprite
+    sprite: Void/Structures/Furniture/church.rsi
+    state: left
+ 
+- type: entity
+  name: церковная скамейка
+  suffix: правая часть
+  id: ChurchBenchRight
+  parent: SeatBase
+  description: Скамейка из тёмного дерева, покрытая лаком для сохранения текстуры.
+  components:
+  - type: Transform
+    anchored: true
+  - type: Physics
+    bodyType: Static
+  - type: Anchorable
+  - type: Rotatable
+  - type: Sprite
+    sprite: Void/Structures/Furniture/church.rsi
+    state: right
+
+- type: entity
+  name: церковная скамейка
+  suffix: середина
+  id: ChurchBenchMiddle
+  parent: SeatBase
+  description: Скамейка из тёмного дерева, покрытая лаком для сохранения текстуры.
+  components:
+  - type: Transform
+    anchored: true
+  - type: Physics
+    bodyType: Static
+  - type: Anchorable
+  - type: Rotatable
+  - type: Sprite
+    sprite: Void/Structures/Furniture/church.rsi
+    state: middle   
+
+# bar
+
+- type: entity
+  name: барная скамейка
+  suffix: левая часть
+  id: BarBenchLeft
+  parent: SeatBase
+  description: Скамейка из тёмного дерева, покрытая лаком для сохранения текстуры.
+  components:
+  - type: Transform
+    anchored: true
+  - type: Physics
+    bodyType: Static
+  - type: Anchorable
+  - type: Rotatable
+  - type: Sprite
+    sprite: Void/Structures/Furniture/bar.rsi
+    state: left
+ 
+- type: entity
+  name: барная скамейка
+  suffix: правая часть
+  id: BarBenchRight
+  parent: SeatBase
+  description: Скамейка из тёмного дерева, покрытая лаком для сохранения текстуры.
+  components:
+  - type: Transform
+    anchored: true
+  - type: Physics
+    bodyType: Static
+  - type: Anchorable
+  - type: Rotatable
+  - type: Sprite
+    sprite: Void/Structures/Furniture/bar.rsi
+    state: right
+
+- type: entity
+  name: барная скамейка
+  suffix: середина
+  id: BarBenchMiddle
+  parent: SeatBase
+  description: Скамейка из тёмного дерева, покрытая лаком для сохранения текстуры.
+  components:
+  - type: Transform
+    anchored: true
+  - type: Physics
+    bodyType: Static
+  - type: Anchorable
+  - type: Rotatable
+  - type: Sprite
+    sprite: Void/Structures/Furniture/bar.rsi
+    state: middle   

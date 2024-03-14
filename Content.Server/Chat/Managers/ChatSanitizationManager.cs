@@ -33,19 +33,13 @@ public sealed class ChatSanitizationManager : IChatSanitizationManager
         { ":D", "chatsan-smiles-widely" },
         { "D:", "chatsan-frowns-deeply" },
         { ":O", "chatsan-surprised" },
+        { ":О", "chatsan-surprised" }, // cyrillic
         { ":3", "chatsan-smiles" }, //nope
         { ":S", "chatsan-uncertain" },
         { ":>", "chatsan-grins" },
         { ":<", "chatsan-pouts" },
         { "xD", "chatsan-laughs" },
-        { ":'(", "chatsan-cries" },
-        { ":'[", "chatsan-cries" },
-        { "='(", "chatsan-cries" },
-        { "='[", "chatsan-cries" },
-        { ")':", "chatsan-cries" },
-        { "]':", "chatsan-cries" },
-        { ")'=", "chatsan-cries" },
-        { "]'=", "chatsan-cries" },
+        { "xд", "chatsan-laughs" }, // cyrillic
         { ";-;", "chatsan-cries" },
         { ";_;", "chatsan-cries" },
         { "qwq", "chatsan-cries" },
@@ -59,12 +53,14 @@ public sealed class ChatSanitizationManager : IChatSanitizationManager
         { ":b", "chatsan-stick-out-tongue" },
         { "0-0", "chatsan-wide-eyed" },
         { "o-o", "chatsan-wide-eyed" },
+        { "о-о", "chatsan-wide-eyed" }, // cyrillic
         { "o.o", "chatsan-wide-eyed" },
+        { "о.о", "chatsan-wide-eyed" }, // cyrillic
         { "._.", "chatsan-surprised" },
         { ".-.", "chatsan-confused" },
         { "-_-", "chatsan-unimpressed" },
-        { "smh", "chatsan-unimpressed" },
         { "o/", "chatsan-waves" },
+        { "о/", "chatsan-waves" }, // cyrillic
         { "^^/", "chatsan-waves" },
         { ":/", "chatsan-uncertain" },
         { ":\\", "chatsan-uncertain" },
@@ -76,23 +72,11 @@ public sealed class ChatSanitizationManager : IChatSanitizationManager
         { "lel.", "chatsan-laughs" },
         { "kek", "chatsan-laughs" },
         { "kek.", "chatsan-laughs" },
-        { "rofl", "chatsan-laughs" },
+        { "кек", "chatsan-laughs" }, // cyrillyc
         { "o7", "chatsan-salutes" },
+        { "о7", "chatsan-salutes" }, // cyrillic
         { ";_;7", "chatsan-tearfully-salutes"},
         { "idk", "chatsan-shrugs" },
-        { "idk.", "chatsan-shrugs" },
-        { ";)", "chatsan-winks" },
-        { ";]", "chatsan-winks" },
-        { "(;", "chatsan-winks" },
-        { "[;", "chatsan-winks" },
-        { ":')", "chatsan-tearfully-smiles" },
-        { ":']", "chatsan-tearfully-smiles" },
-        { "=')", "chatsan-tearfully-smiles" },
-        { "=']", "chatsan-tearfully-smiles" },
-        { "(':", "chatsan-tearfully-smiles" },
-        { "[':", "chatsan-tearfully-smiles" },
-        { "('=", "chatsan-tearfully-smiles" },
-        { "['=", "chatsan-tearfully-smiles" },
     };
 
     private bool _doSanitize;

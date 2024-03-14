@@ -137,7 +137,9 @@
   - type: StationEvent
     startAnnouncement: station-event-gas-leak-start-announcement
     startAudio:
-      path: /Audio/Announcements/attention.ogg
+      path: /Audio/Announcements/gasleak_start.ogg
+    endAudio:
+      path: /Audio/Announcements/gasleak_end.ogg
     endAnnouncement: station-event-gas-leak-end-announcement
     earliestStart: 10
     minimumPlayers: 5
@@ -170,9 +172,9 @@
     startAnnouncement: station-event-meteor-swarm-start-announcement
     endAnnouncement: station-event-meteor-swarm-end-announcement
     startAudio:
-      path: /Audio/Announcements/meteors.ogg
-      params:
-        volume: -4
+      path: /Audio/Announcements/meteors_start.ogg
+    endAudio:
+      path: /Audio/Announcements/meteors_end.ogg
     duration: null #ending is handled by MeteorSwarmRule
     startDelay: 30
   - type: MeteorSwarmRule
@@ -185,7 +187,7 @@
   - type: StationEvent
     startAnnouncement: station-event-vent-creatures-start-announcement
     startAudio:
-      path: /Audio/Announcements/attention.ogg
+      path: /Audio/Announcements/aliens.ogg
     startDelay: 10
     earliestStart: 30
     minimumPlayers: 35
@@ -211,7 +213,7 @@
   - type: StationEvent
     startAnnouncement: station-event-vent-creatures-start-announcement
     startAudio:
-      path: /Audio/Announcements/attention.ogg
+      path: /Audio/Announcements/aliens.ogg
     startDelay: 10
     weight: 5
     duration: 50
@@ -233,8 +235,6 @@
     endAnnouncement: station-event-power-grid-check-end-announcement
     startAudio:
       path: /Audio/Announcements/power_off.ogg
-      params:
-       volume: -4
     startDelay: 24
     duration: 60
     maxDuration: 120
@@ -249,7 +249,7 @@
     weight: 10
     duration: 1
     startAudio:
-      path: /Audio/Announcements/attention.ogg
+      path: /Audio/Announcements/sentience.ogg
   - type: RandomSentienceRule
 
 - type: entity
@@ -262,7 +262,7 @@
     startAnnouncement: station-event-solar-flare-start-announcement
     endAnnouncement: station-event-solar-flare-end-announcement
     startAudio:
-      path: /Audio/Announcements/attention.ogg
+      path: /Audio/Announcements/comms_blackout.ogg
     duration: 120
     maxDuration: 240
   - type: SolarFlareRule
@@ -277,7 +277,7 @@
     - Security
     - Service
     - Supply
-    extraCount: 2
+    extraCount: 4
     lightBreakChancePerSecond: 0.0003
     doorToggleChancePerSecond: 0.001
 
@@ -302,7 +302,7 @@
   - type: StationEvent
     startAnnouncement: station-event-vent-clog-start-announcement
     startAudio:
-      path: /Audio/Announcements/attention.ogg
+      path: /Audio/Announcements/ventclog.ogg
     earliestStart: 15
     minimumPlayers: 15
     weight: 5
@@ -318,7 +318,7 @@
   - type: StationEvent
     startAnnouncement: station-event-vent-creatures-start-announcement
     startAudio:
-      path: /Audio/Announcements/attention.ogg
+      path: /Audio/Announcements/aliens.ogg
     startDelay: 10
     earliestStart: 15
     minimumPlayers: 15
@@ -341,7 +341,7 @@
   - type: StationEvent
     startAnnouncement: station-event-vent-creatures-start-announcement
     startAudio:
-      path: /Audio/Announcements/attention.ogg
+      path: /Audio/Announcements/aliens.ogg
     startDelay: 10
     earliestStart: 20
     minimumPlayers: 15
@@ -364,7 +364,7 @@
   - type: StationEvent
     startAnnouncement: station-event-vent-creatures-start-announcement
     startAudio:
-      path: /Audio/Announcements/attention.ogg
+      path: /Audio/Announcements/aliens.ogg
     startDelay: 10
     earliestStart: 20
     minimumPlayers: 15
@@ -387,7 +387,7 @@
     startDelay: 10
     earliestStart: 20
     minimumPlayers: 15
-    weight: 1
+    weight: 0
     duration: 60
   - type: VentCrittersRule
     entries:
@@ -461,6 +461,11 @@
   id: IonStorm
   components:
   - type: StationEvent
+    startAnnouncement: station-event-ion-storm-start-announcement
+    startAudio:
+      path: /Audio/Announcements/ion_storm.ogg
+      params:
+        volume: 3
     weight: 10
     earliestStart: 20
     reoccurrenceDelay: 20

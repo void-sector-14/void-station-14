@@ -43,7 +43,7 @@
       announcement: alert-level-delta-announcement
       selectable: false
       sound:
-        path: /Audio/Misc/delta.ogg
+        path: /Audio/Misc/delta_alt.ogg
         params:
           volume: -3
       disableSelection: true

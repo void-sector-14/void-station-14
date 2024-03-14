@@ -1,0 +1,69 @@
+- type: entity
+  name: белый гусь
+  parent: SimpleMobBase
+  id: MobGooseWhite
+  description: Я гусь и я докалебусь!
+  components:
+  - type: Sprite
+    drawdepth: Mobs
+    layers:
+    - map: [ "enum.DamageStateVisualLayers.Base" ]
+      state: goose
+      sprite: Void/Mobs/Animals/goosewhite.rsi
+  - type: Appearance
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeCircle
+          radius: 0.35
+        density: 25
+        mask:
+        - MobMask
+        layer:
+        - MobLayer
+  - type: DamageStateVisuals
+    states:
+      Alive:
+        Base: goose
+      Critical:
+        Base: dead
+      Dead:
+        Base: dead
+  - type: Butcherable
+    spawned:
+    - id: FoodMeatDuck
+      amount: 2
+  - type: InteractionPopup
+    successChance: 0.1
+    interactSuccessString: petting-success-goose
+    interactFailureString: petting-failure-goose
+    interactSuccessSound:
+      path: /Audio/Void/Animals/goose_honk2.ogg
+  - type: Bloodstream
+    bloodMaxVolume: 100
+  - type: Puller
+    needsHands: false
+  - type: Vocal
+    sounds:
+      Male: Goose
+      Female: Goose
+      Unsexed: Goose
+    screamId: GooseHonk
+    screamAction: GooseHonk
+  - type: FootstepModifier
+    footstepSoundCollection:
+      collection: BarestepHard
+  - type: GhostRole
+    makeSentient: true
+    allowSpeech: true
+    allowMovement: true
+    name: Белый гусь
+    description: >
+      Бесите экипаж, воруйте вещи, станьте злом этой станции!
+      Но будте осторожны, и не выбесите экипаж слишком сильно, вы не бессмертны.
+  - type: GhostTakeoverAvailable
+  - type: Tag
+    tags:
+    - DoorBumpOpener
+    - FootstepSound

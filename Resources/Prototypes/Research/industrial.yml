@@ -147,6 +147,7 @@
   - ThrusterMachineCircuitboard
   - GyroscopeMachineCircuitboard
   - MiniGravityGeneratorCircuitboard
+  - FanTinyElectronics
 
 - type: technology
   id: AdvancedAtmospherics

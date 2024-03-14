@@ -1,0 +1,44 @@
+- type: entity
+  save: false
+  name: Urist McKatunian
+  parent: BaseMobSpeciesOrganic
+  id: BaseMobKatunian
+  abstract: true
+  components:
+  - type: HumanoidAppearance
+    species: Katunian
+  - type: Hunger
+  - type: Thirst
+  - type: Icon
+    sprite: Void/Mobs/Species/Katunian/parts.rsi
+    state: full
+  - type: Body
+    prototype: Katunian
+    requiredLegs: 2
+  - type: Damageable
+    damageContainer: Biological
+    damageModifierSet: Scale
+  - type: MeleeWeapon
+    hidden: true
+    soundHit:
+      path: /Audio/Weapons/pierce.ogg
+    angle: 30
+    animation: WeaponArcPunch
+    damage:
+      types:
+        Piercing: 5
+  - type: MobThresholds
+    thresholds:
+      0: Alive
+      110: Critical
+      200: Dead
+
+- type: entity
+  parent: BaseSpeciesDummy
+  id: MobKatunianDummy
+  noSpawn: true
+  name: Urist McKatunian
+  description: A dummy katuniann meant to be used in character setup.
+  components:
+  - type: HumanoidAppearance
+    species: Katunian

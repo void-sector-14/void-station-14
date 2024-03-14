@@ -1,0 +1,24 @@
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitLibrarianNew
+  name: Костюм библиотекаря
+  description: Элегантный костюм идеально подойдет для ценителя книг
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Uniforms/Jumpsuit/librarian.rsi
+  - type: Clothing
+    sprite: Void/Clothing/Uniforms/Jumpsuit/librarian.rsi
+
+- type: entity
+  parent: ClothingUniformSkirtBase
+  id: ClothingUniformJumpskirtLibrarianNew
+  name: Костюм с юбкой библиотекаря
+  description: Элегантный костюм идеально подойдет для ценителя книг
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Uniforms/Jumpskirt/librarian.rsi
+  - type: Clothing
+    sprite: Void/Clothing/Uniforms/Jumpskirt/librarian.rsi
+
+
+

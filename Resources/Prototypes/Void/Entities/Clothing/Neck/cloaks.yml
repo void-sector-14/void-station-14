@@ -1,0 +1,17 @@
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckCloakCentCom
+  name: Фирменный плащ Центкома
+  description: Дорогой плащ, который вам не по корману
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Neck/Cloaks/centcomcloakformal.rsi
+
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckCloakCowboyPoncho
+  name: Пончо
+  description: Пока еще дырки от пуль на нем не появлялись
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Neck/Cloaks/poncho.rsi

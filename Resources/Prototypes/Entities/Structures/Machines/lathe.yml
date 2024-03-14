@@ -457,6 +457,7 @@
       - ArtifactCrusherMachineCircuitboard
       - TelecomServerCircuitboard
       - MassMediaCircuitboard
+      - FanTinyElectronics
   - type: MaterialStorage
     whitelist:
       tags:

@@ -1,29 +1,27 @@
 ﻿<Document>
-  # Portable Generators
+    # Портативные генераторы
 
-  Need power? No engine running? The "P.A.C.M.A.N." line of portable generators has you covered.
+    Требуется питание? Генератор не работает? Линейка портативных генераторов "P.A.C.M.A.N." вас устроит.
 
-  <Box>
+	<Box>
     <GuideEntityEmbed Entity="PortableGeneratorJrPacman" Caption="J.R.P.A.C.M.A.N." />
     <GuideEntityEmbed Entity="PortableGeneratorPacman" Caption="P.A.C.M.A.N." />
     <GuideEntityEmbed Entity="PortableGeneratorSuperPacman" Caption="S.U.P.E.R.P.A.C.M.A.N." />
   </Box>
 
-  # The Junior
+  # Младший
 
   <Box>
     <GuideEntityEmbed Entity="PortableGeneratorJrPacman" Caption="J.R.P.A.C.M.A.N." />
     <GuideEntityEmbed Entity="WeldingFuelTank" />
   </Box>
 
-  The J.R.P.A.C.M.A.N. can be found across the station in maintenance areas, and is ideal for crew to set up themselves whenever there are power issues.
-  Setup is incredibly easy: wrench it down above an [color=green]LV[/color] power cable, give it some welding fuel, and start it up.
+	J.R.P.A.C.M.A.N. можно найти по всей станции в зонах технического обслуживания, и он идеально подходит для самостоятельной настройки экипажем при возникновении проблем с питанием.
+	Настройка невероятно проста: закрепите его над кабелем питания [color=green]НВ[/color], залейте в него немного сварочного топлива и запустите.
 
-  Welding fuel should be plentiful to find around the station. In a pinch, you can even transfer some from the big tanks with a soda can. Just remember to empty the soda can first, I don't think it likes soda as fuel.
+	# Большие шишки
 
-  # The Big Ones
-
-  <Box>
+	<Box>
     <GuideEntityEmbed Entity="PortableGeneratorPacman" Caption="P.A.C.M.A.N." />
     <GuideEntityEmbed Entity="SheetPlasma" />
   </Box>
@@ -33,10 +31,10 @@
     <GuideEntityEmbed Entity="SheetUranium" />
   </Box>
 
-  The (S.U.P.E.R.)P.A.C.M.A.N. is intended for usage by engineering for advanced power scenarios. Bootstrapping the engine, powering departments, and so on.
+	(S.U.P.E.R.)P.A.C.M.A.N. предназначен для использования инженерами в сложных энергетических сценариях. Загрузка генератора, энергоснабжающих подразделений и так далее.
 
-  The S.U.P.E.R.P.A.C.M.A.N. boasts larger power output and longer runtime at maximum output, but scales down to lower outputs less efficiently.
+	S.U.P.E.R.P.A.C.M.A.N. может похвастаться большей выходной мощностью и более длительным временем работы при максимальной мощности, но менее эффективно масштабируется до более низких значений.
 
-  They connect directly to [color=yellow]MV[/color] or [color=orange]HV[/color] power cables, able to switch between them for flexibility.
+	Они подключаются непосредственно к силовым кабелям [color=yellow]СВ[/color] или [color=orange]ВВ[/color] с возможностью гибкого переключения между ними.
 
 </Document>

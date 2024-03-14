@@ -72,6 +72,7 @@ namespace Content.Client.Preferences.UI
         private OptionButton _sexButton => CSexButton;
         private OptionButton _genderButton => CPronounsButton;
         private Slider _skinColor => CSkin;
+        private Slider _skinColorKatunin => CSkinKatunian;
         private OptionButton _clothingButton => CClothingButton;
         private OptionButton _backpackButton => CBackpackButton;
         private OptionButton _spawnPriorityButton => CSpawnPriorityButton;
@@ -206,6 +207,11 @@ namespace Content.Client.Preferences.UI
 
             _rgbSkinColorContainer.AddChild(_rgbSkinColorSelector = new ColorSelectorSliders());
             _rgbSkinColorSelector.OnColorChanged += _ =>
+            {
+                OnSkinColorOnValueChanged();
+            };
+
+            _skinColorKatunin.OnValueChanged += _ =>
             {
                 OnSkinColorOnValueChanged();
             };
@@ -696,11 +702,9 @@ namespace Content.Client.Preferences.UI
             {
                 case HumanoidSkinColor.HumanToned:
                 {
-                    if (!_skinColor.Visible)
-                    {
-                        _skinColor.Visible = true;
-                        _rgbSkinColorContainer.Visible = false;
-                    }
+                    _skinColor.Visible = true;
+                    _skinColorKatunin.Visible = false;
+                    _rgbSkinColorContainer.Visible = false;
 
                     var color = SkinColor.HumanSkinTone((int) _skinColor.Value);
 
@@ -710,11 +714,9 @@ namespace Content.Client.Preferences.UI
                 }
                 case HumanoidSkinColor.Hues:
                 {
-                    if (!_rgbSkinColorContainer.Visible)
-                    {
-                        _skinColor.Visible = false;
-                        _rgbSkinColorContainer.Visible = true;
-                    }
+                    _skinColor.Visible = false;
+                    _skinColorKatunin.Visible = false;
+                    _rgbSkinColorContainer.Visible = true;
 
                     CMarkings.CurrentSkinColor = _rgbSkinColorSelector.Color;
                     Profile = Profile.WithCharacterAppearance(Profile.Appearance.WithSkinColor(_rgbSkinColorSelector.Color));
@@ -722,13 +724,23 @@ namespace Content.Client.Preferences.UI
                 }
                 case HumanoidSkinColor.TintedHues:
                 {
-                    if (!_rgbSkinColorContainer.Visible)
-                    {
-                        _skinColor.Visible = false;
-                        _rgbSkinColorContainer.Visible = true;
-                    }
+                    _skinColor.Visible = false;
+                    _skinColorKatunin.Visible = false;
+                    _rgbSkinColorContainer.Visible = true;
 
                     var color = SkinColor.TintedHues(_rgbSkinColorSelector.Color);
+
+                    CMarkings.CurrentSkinColor = color;
+                    Profile = Profile.WithCharacterAppearance(Profile.Appearance.WithSkinColor(color));
+                    break;
+                }
+                case HumanoidSkinColor.KatunianToned:
+                {
+                    _skinColor.Visible = false;
+                    _skinColorKatunin.Visible = true;
+                    _rgbSkinColorContainer.Visible = false;
+
+                    var color = SkinColor.KatunianSkinTone((int) _skinColorKatunin.Value);
 
                     CMarkings.CurrentSkinColor = color;
                     Profile = Profile.WithCharacterAppearance(Profile.Appearance.WithSkinColor(color));
@@ -928,11 +940,9 @@ namespace Content.Client.Preferences.UI
             {
                 case HumanoidSkinColor.HumanToned:
                 {
-                    if (!_skinColor.Visible)
-                    {
-                        _skinColor.Visible = true;
-                        _rgbSkinColorContainer.Visible = false;
-                    }
+                    _skinColor.Visible = true;
+                    _skinColorKatunin.Visible = false;
+                    _rgbSkinColorContainer.Visible = false;
 
                     _skinColor.Value = SkinColor.HumanSkinToneFromColor(Profile.Appearance.SkinColor);
 
@@ -940,11 +950,9 @@ namespace Content.Client.Preferences.UI
                 }
                 case HumanoidSkinColor.Hues:
                 {
-                    if (!_rgbSkinColorContainer.Visible)
-                    {
-                        _skinColor.Visible = false;
-                        _rgbSkinColorContainer.Visible = true;
-                    }
+                    _skinColor.Visible = false;
+                    _skinColorKatunin.Visible = false;
+                    _rgbSkinColorContainer.Visible = true;
 
                     // set the RGB values to the direct values otherwise
                     _rgbSkinColorSelector.Color = Profile.Appearance.SkinColor;
@@ -952,14 +960,21 @@ namespace Content.Client.Preferences.UI
                 }
                 case HumanoidSkinColor.TintedHues:
                 {
-                    if (!_rgbSkinColorContainer.Visible)
-                    {
-                        _skinColor.Visible = false;
-                        _rgbSkinColorContainer.Visible = true;
-                    }
+                    _skinColor.Visible = false;
+                    _skinColorKatunin.Visible = false;
+                    _rgbSkinColorContainer.Visible = true;
 
                     // set the RGB values to the direct values otherwise
                     _rgbSkinColorSelector.Color = Profile.Appearance.SkinColor;
+                    break;
+                }
+                case HumanoidSkinColor.KatunianToned:
+                {
+                    _skinColor.Visible = false;
+                    _skinColorKatunin.Visible = true;
+                    _rgbSkinColorContainer.Visible = false;
+
+                    _skinColorKatunin.Value = SkinColor.KatunianSkinFromColor(Profile.Appearance.SkinColor);
                     break;
                 }
             }

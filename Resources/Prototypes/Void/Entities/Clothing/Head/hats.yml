@@ -1,0 +1,32 @@
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatcentcap
+  name: Фирменная шапка Центкома
+  description: Хорошо быть Императором
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Head/Hats/centcap.rsi
+  - type: Clothing
+    sprite: Void/Clothing/Head/Hats/centcap.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatBeretCent
+  name: Фирменный берет Центкома
+  description: Хорошо быть Императором
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Head/Hats/beret_cent.rsi
+  - type: Clothing
+    sprite: Void/Clothing/Head/Hats/beret_cent.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatCowboy
+  name: ковбойская шляпа
+  description: Эта шляпа является обязательной для каждого ковбоя
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Head/Misc/cowboy.rsi
+  - type: Clothing
+    sprite: Void/Clothing/Head/Misc/cowboy.rsi
