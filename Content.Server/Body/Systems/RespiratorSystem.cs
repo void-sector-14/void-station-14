@@ -219,6 +219,16 @@ public sealed class RespiratorSystem : EntitySystem
         if (component.AccumulatedFrametime >= component.CycleDelay)
             component.AccumulatedFrametime = component.CycleDelay;
     }
+
+    /// <summary>
+    /// Used mostly to prevent doafter conflicts on entities with a metric fuckton of doafters.
+    /// </summary>
+    public bool IsReceivingCPR(EntityUid uid, RespiratorComponent? component = null)
+    {
+        if (!Resolve(uid, ref component, false))
+            return false;
+        return component.IsReceivingCPR;
+    }
 }
 
 public sealed class InhaleLocationEvent : EntityEventArgs
