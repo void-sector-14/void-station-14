@@ -39,3 +39,14 @@
     sprite: Void/Clothing/OuterClothing/Coats/vergilcoat.rsi
   - type: Clothing
     sprite: Void/Clothing/OuterClothing/Coats/vergilcoat.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: VoidClothingUniformVergilJelet
+  name: Жилетка из драконей кожи
+  description: Очень дорогое удовольствие
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Uniforms/jelette.rsi
+  - type: Clothing
+    sprite: Void/Clothing/Uniforms/jelette.rsi
