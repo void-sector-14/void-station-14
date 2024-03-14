@@ -22,8 +22,8 @@ ent-SpawnPointSalvageSpecialist = утилизатор
     .desc = { ent-SpawnPointJobBase.desc }
     .suffix = { ent-SpawnPointJobBase.suffix }
 
-ent-SpawnPointAssistant = ассистент
-    .desc = { ent-SpawnPointJobBase.desc }
+ent-SpawnPointPassenger = passenger
+    .desc = { "" }
     .suffix = { ent-SpawnPointJobBase.suffix }
 
 ent-SpawnPointTechnicalAssistant = технический ассистент
@@ -106,10 +106,6 @@ ent-SpawnPointChiefEngineer = старший инженер
     .desc = { ent-SpawnPointJobBase.desc }
     .suffix = { ent-SpawnPointJobBase.suffix }
 
-ent-SpawnPointSeniorEngineer = seniorengineer
-    .desc = { ent-SpawnPointJobBase.desc }
-    .suffix = { ent-SpawnPointJobBase.suffix }
-
 ent-SpawnPointStationEngineer = инженер
     .desc = { ent-SpawnPointJobBase.desc }
     .suffix = { ent-SpawnPointJobBase.suffix }
@@ -119,10 +115,6 @@ ent-SpawnPointAtmos = атмосферный техник
     .suffix = { ent-SpawnPointJobBase.suffix }
 
 ent-SpawnPointChiefMedicalOfficer = главный врач
-    .desc = { ent-SpawnPointJobBase.desc }
-    .suffix = { ent-SpawnPointJobBase.suffix }
-
-ent-SpawnPointSeniorPhysician = seniorphysician
     .desc = { ent-SpawnPointJobBase.desc }
     .suffix = { ent-SpawnPointJobBase.suffix }
 
@@ -142,10 +134,6 @@ ent-SpawnPointResearchDirector = научный руководитель
     .desc = { ent-SpawnPointJobBase.desc }
     .suffix = { ent-SpawnPointJobBase.suffix }
 
-ent-SpawnPointSeniorResearcher = seniorresearcher
-    .desc = { ent-SpawnPointJobBase.desc }
-    .suffix = { ent-SpawnPointJobBase.suffix }
-
 ent-SpawnPointScientist = учёный
     .desc = { ent-SpawnPointJobBase.desc }
     .suffix = { ent-SpawnPointJobBase.suffix }
@@ -155,10 +143,6 @@ ent-SpawnPointHeadOfSecurity = глава службы безопасности
     .suffix = { ent-SpawnPointJobBase.suffix }
 
 ent-SpawnPointWarden = смотритель
-    .desc = { ent-SpawnPointJobBase.desc }
-    .suffix = { ent-SpawnPointJobBase.suffix }
-
-ent-SpawnPointSeniorOfficer = seniorofficer
     .desc = { ent-SpawnPointJobBase.desc }
     .suffix = { ent-SpawnPointJobBase.suffix }
 

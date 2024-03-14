@@ -193,3 +193,7 @@ ent-ToyOwlman = фигурка совы
 ent-ToySkeleton = фигурка скелета
     .desc = Буу, испугал!
     .suffix = { ent-BaseFigurine.suffix }
+
+ent-ToyFigurineThief = thief character figure
+    .desc = Hiding in the shadows...
+    .suffix = { "" }

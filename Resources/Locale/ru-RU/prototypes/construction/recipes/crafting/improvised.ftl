@@ -28,6 +28,9 @@ con-hairflower = цветок для волос
 con-flowercrown = цветочная корона
     .desc = Венец из свежих и ароматных цветов.
 
+con-flowerwreath = { ent-ClothingNeckFlowerWreath }
+    .desc = { ent-ClothingNeckFlowerWreath.desc }
+
 con-rag = тряпка
     .desc = Влажная тряпка для очистки пола. Это лучше, чем скользить весь день.
 
@@ -40,11 +43,8 @@ con-riflestock = ружейное ложе
 con-improvisedexplosive = { ent-ImprovisedExplosive }
     .desc = { ent-ImprovisedExplosive.desc }
 
-con-PotatoAIChip = { ent-PotatoAIChip }
-    .desc = { ent-PotatoAIChip.desc }
+con-CottonWovenCloth = ткань
+    .desc = Сырьё
 
-con-PowerCellPotato = { ent-PowerCellPotato }
-    .desc = { ent-PowerCellPotato.desc }
-
-con-PotatoAI = { ent-PotatoAI }
-    .desc = { ent-PotatoAI.desc }
+con-strawHat = { ent-ClothingHeadHatStrawHat }
+    .desc = { ent-ClothingHeadHatStrawHat.desc }

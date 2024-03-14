@@ -14,6 +14,10 @@ ent-ChargedLightning = заряженная молния
     .desc = { ent-BaseLightning.desc }
     .suffix = { ent-BaseLightning.suffix }
 
+ent-Spark = lightning
+    .desc = { "" }
+    .suffix = { "" }
+
 ent-SuperchargedLightning = суперзаряженная молния
     .desc = { ent-ChargedLightning.desc }
     .suffix = { ent-ChargedLightning.suffix }

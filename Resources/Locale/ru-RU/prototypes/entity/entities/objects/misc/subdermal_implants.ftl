@@ -34,6 +34,10 @@ ent-EmpImplant = имплант ЭМИ
     .desc = Этот имплант создаёт электромагнитный импульс при активации.
     .suffix = { ent-BaseSubdermalImplant.suffix }
 
+ent-ScramImplant = scram implant
+    .desc = This implant randomly teleports the user within a large radius when activated.
+    .suffix = { "" }
+
 ent-DnaScramblerImplant = имплант Миксер ДНК
     .desc = Этот имплант позволяет пользователю один раз произвольно изменить свою внешность и имя.
     .suffix = { ent-BaseSubdermalImplant.suffix }
@@ -44,8 +48,12 @@ ent-MicroBombImplant = имплант Микробомба
 
 ent-MacroBombImplant = имплант Макробомба
     .desc = Этот имплант создаёт большой взрыв при смерти пользователя после запрограммированного обратного отсчета.
+    .suffix = { "" }
+
 ent-DeathAcidifierImplant = имплант Посмертный растворитель
     .desc = Этот имплант растворяет носителя и всё снаряжение при его смерти.
+    .suffix = { "" }
+
 ent-DeathRattleImplant = имплант Предсмертный хрип
     .desc = Этот имплант сообщит в радиоканал Синдиката, если пользователь окажется в критическом состоянии или умрёт.
     .suffix = { ent-BaseSubdermalImplant.suffix }

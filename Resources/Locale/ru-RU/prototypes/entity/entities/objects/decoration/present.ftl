@@ -13,15 +13,19 @@ ent-PresentRandomUnsafe = { ent-PresentBase }
 ent-PresentRandomInsane = { ent-PresentBase }
     .desc = { ent-PresentBase.desc }
     .suffix = Заполненный, Любая сущность
+
 ent-PresentRandom = { ent-PresentBase }
     .desc = { ent-PresentBase.desc }
     .suffix = Заполненный, Безопасный
+
 ent-PresentRandomAsh = { ent-PresentBase }
+    .desc = { ent-PresentBase.desc }
     .suffix = Заполненный, Пепел
-    .desc = { ent-PresentBase.desc }
+
 ent-PresentRandomCash = { ent-PresentBase }
-    .suffix = Заполненный, Деньги
     .desc = { ent-PresentBase.desc }
+    .suffix = Заполненный, Деньги
+
 ent-PresentTrash = обёрточная бумага
     .desc = Аккуратно сложенная, заклеенная и завязанная бантиком. Затем торжественно разорванная на части и выброшенная.
     .suffix = { ent-BaseItem.suffix }

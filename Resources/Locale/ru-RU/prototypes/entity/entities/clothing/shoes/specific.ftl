@@ -4,8 +4,12 @@ ent-ClothingShoesChef = поварские ботинки
 
 ent-ClothingShoesClown = клоунские туфли
     .desc = Стандартные клоунские туфли. Чертовски огромные!
+    .suffix = { "" }
+
 ent-ClothingShoesClownBanana = банановые клоунские туфли
     .desc = Когда юмор и обувь выходят на новый уровень абсурда.
+    .suffix = { "" }
+
 ent-ClothingShoesBling = блестящие клоунские туфли
     .desc = Изготовлены из очищенного бананиума и украшены мякотью свежей банановой кожуры. Они обеспечивают яркое появление.
     .suffix = { ent-ClothingShoesBaseButcherable.suffix }
@@ -48,5 +52,8 @@ ent-ClothingShoesCluwne = клувеньские туфли
 
 ent-ClothingShoesClownLarge = большие клоунские туфли
     .desc = Когда вам нужно выделиться в комнате, полной клоунов!
+    .suffix = { "" }
+
 ent-ClothingShoesSkates = роликовые коньки
     .desc = Надевай свои ролики!
+    .suffix = { "" }

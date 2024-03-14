@@ -7,21 +7,5 @@ con-LogicGate = { ent-LogicGate }
 con-EdgeDetector = { ent-EdgeDetector }
     .desc = Детектор границ для сигналов.
 
-con-BlueLight = { ent-LightTubeCrystalBlue }
-    .desc = { ent-LightTubeCrystalBlue.desc }
-
-con-CyanLight = { ent-LightTubeCrystalCyan }
-    .desc = { ent-LightTubeCrystalCyan.desc }
-
-con-GreenLight = { ent-LightTubeCrystalGreen }
-    .desc = { ent-LightTubeCrystalGreen.desc }
-
-con-OrangeLight = { ent-LightTubeCrystalOrange }
-    .desc = { ent-LightTubeCrystalOrange.desc }
-
-con-PinkLight = { ent-LightTubeCrystalPink }
-    .desc = { ent-LightTubeCrystalPink.desc }
-
-con-RedLight = { ent-LightTubeCrystalRed }
-    .desc = { ent-LightTubeCrystalRed.desc }
-
+con-PowerSensor = { ent-PowerSensor }
+    .desc = Генерирует сигналы в ответ на изменение напряжения в сети. Может циклически переключаться между напряжениями кабеля.

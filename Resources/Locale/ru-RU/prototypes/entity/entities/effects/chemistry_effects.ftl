@@ -1,8 +1,16 @@
+ent-BaseFoam = BaseFoam
+    .desc = { "" }
+    .suffix = { "" }
+
 ent-Smoke = дым
     .desc = { "" }
     .suffix = { "" }
 
 ent-Foam = пена
+    .desc = { "" }
+    .suffix = { "" }
+
+ent-MetalFoam = metal foam
     .desc = { "" }
     .suffix = { "" }
 

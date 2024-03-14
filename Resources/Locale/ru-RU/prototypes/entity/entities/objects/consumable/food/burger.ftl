@@ -129,5 +129,7 @@ ent-FoodBurgerTofu = тофу бургер
 ent-FoodBurgerXeno = ксенобургер
     .desc = Пахнет едко. На вкус как ересь.
     .suffix = { ent-FoodBurgerBase.suffix }
+
 ent-FoodBurgerMothRoach = таракамольбургер
     .desc = Последней лампой, которую она видела, была лампочка в микроволновке.
+    .suffix = { "" }

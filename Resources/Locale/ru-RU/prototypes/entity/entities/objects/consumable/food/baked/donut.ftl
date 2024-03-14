@@ -40,8 +40,12 @@ ent-FoodDonutCaramel = карамельный пончик
 
 ent-FoodDonutChocolate = шоколадный пончик
     .desc = Отлично сочетается со стаканом теплого молока.
+    .suffix = { "" }
+
 ent-FoodDonutBlumpkin = блорбо пончик
     .desc = Отлично сочетается с кружкой БЛОРБО.
+    .suffix = { "" }
+
 ent-FoodDonutBungo = бунго пончик
     .desc = Отлично сочетается с закаточной банкой "Восторга хиппи".
     .suffix = { ent-FoodDonutBase.suffix }
@@ -78,13 +82,13 @@ ent-FoodDonutJellyChocolate = шоколадный желейный пончик
     .desc = Отлично сочетается со стаканом теплого молока.
     .suffix = { ent-FoodDonutBase.suffix }
 
-ent-FoodDonutJellyBlumpkin = синетыквенный желейный пончик
-    .desc = Отлично сочетается с кружкой успокаивающего напитка из синетыквы.
-    .suffix = { ent-FoodDonutBase.suffix }
+ent-FoodDonutJellyBlumpkin = желейный блорбо пончик
+    .desc = Отлично сочетается с кружкой БЛОРБО.
+    .suffix = { "" }
 
-ent-FoodDonutJellyBungo = бунго желейный пончик
-    .desc = Отлично сочетается с закаточной банкой "Восторга хиппи".
-    .suffix = { ent-FoodDonutBase.suffix }
+ent-FoodDonutJellyBungo = желейный бунго пончик
+    .desc = { "" }
+    .suffix = { "" }
 
 ent-FoodDonutJelly = матча желейный пончик
     .desc = L-теанин в этом пончике расслабляет, но не вызывает эйфории. Отлично сочетается с чашечкой чая.
@@ -99,9 +103,5 @@ ent-FoodDonutJellySlugcat = слизнекотовый желейный понч
     .suffix = { ent-FoodDonutBase.suffix }
 
 ent-FoodDonutPoison = { ent-FoodDonutPink }
-    .desc = { ent-FoodDonutPink.desc }
-    .suffix = Яд
     .desc = Отлично сочетается со стаканом теплого молока.
-ent-FoodDonutJellyBlumpkin = желейный блорбо пончик
-    .desc = Отлично сочетается с кружкой БЛОРБО.
-ent-FoodDonutJellyBungo = желейный бунго пончик
+    .suffix = Яд

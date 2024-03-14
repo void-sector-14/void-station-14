@@ -1,3 +1,7 @@
+ent-RandomHumanoidSpawnerDeathSquad = Death Squad Agent
+    .desc = { "" }
+    .suffix = ERTRole, Death Squad
+
 ent-RandomHumanoidSpawnerERTLeader = ОБР лидер
     .desc = { "" }
     .suffix = { "" }
@@ -5,9 +9,11 @@ ent-RandomHumanoidSpawnerERTLeader = ОБР лидер
 ent-RandomHumanoidSpawnerERTLeaderEVA = ОБР лидер
     .desc = { ent-RandomHumanoidSpawnerERTLeader.desc }
     .suffix = EVA
+
 ent-RandomHumanoidSpawnerERTLeaderEVALecter = { ent-RandomHumanoidSpawnerERTLeaderEVA }
-    .suffix = Роль ОБР, Лектер, EVA
     .desc = { ent-RandomHumanoidSpawnerERTLeaderEVA.desc }
+    .suffix = Роль ОБР, Лектер, EVA
+
 ent-RandomHumanoidSpawnerERTJanitor = ОБР уборщик
     .desc = { ent-RandomHumanoidSpawnerERTLeader.desc }
     .suffix = { ent-RandomHumanoidSpawnerERTLeader.suffix }
@@ -31,6 +37,10 @@ ent-RandomHumanoidSpawnerERTSecurity = ОБР офицер безопаснос�
 ent-RandomHumanoidSpawnerERTSecurityEVA = ОБР офицер безопасности
     .desc = { ent-RandomHumanoidSpawnerERTSecurity.desc }
     .suffix = EVA
+
+ent-RandomHumanoidSpawnerERTSecurityEVALecter = { ent-RandomHumanoidSpawnerERTSecurityEVA }
+    .desc = { "" }
+    .suffix = ERTRole, Lecter, EVA
 
 ent-RandomHumanoidSpawnerERTMedical = ОБР медик
     .desc = { ent-RandomHumanoidSpawnerERTLeader.desc }

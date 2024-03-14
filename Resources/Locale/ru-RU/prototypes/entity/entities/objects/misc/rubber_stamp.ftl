@@ -1,49 +1,71 @@
 ent-RubberStampBase = универсальная печать
     .desc = Печать из резины, для проставления печатей на важных документах.
+    .suffix = { "" }
+
 ent-RubberStampBaseAlt = альтернативная печать
     .desc = { ent-RubberStampBase.desc }
+    .suffix = { "" }
+
 ent-RubberStampCaptain = печать капитана
-    .suffix = НЕ МАППИТЬ
     .desc = { ent-RubberStampBase.desc }
+    .suffix = НЕ МАППИТЬ
+
 ent-RubberStampCentcom = печать Центком
-    .suffix = НЕ МАППИТЬ
     .desc = { ent-RubberStampBase.desc }
+    .suffix = НЕ МАППИТЬ
+
 ent-RubberStampChaplain = печать священника
-    .suffix = НЕ МАППИТЬ
     .desc = { ent-RubberStampBase.desc }
+    .suffix = НЕ МАППИТЬ
+
 ent-RubberStampClown = печать клоуна
-    .suffix = НЕ МАППИТЬ
     .desc = { ent-RubberStampBase.desc }
+    .suffix = НЕ МАППИТЬ
+
 ent-RubberStampCE = печать старшего инженера
-    .suffix = НЕ МАППИТЬ
     .desc = { ent-RubberStampBase.desc }
+    .suffix = НЕ МАППИТЬ
+
 ent-RubberStampCMO = печать главврача
-    .suffix = НЕ МАППИТЬ
     .desc = { ent-RubberStampBase.desc }
+    .suffix = НЕ МАППИТЬ
+
 ent-RubberStampHop = печать главы персонала
-    .suffix = НЕ МАППИТЬ
     .desc = { ent-RubberStampBase.desc }
+    .suffix = НЕ МАППИТЬ
+
 ent-RubberStampHos = печать главы службы безопасности
-    .suffix = НЕ МАППИТЬ
     .desc = { ent-RubberStampBase.desc }
+    .suffix = НЕ МАППИТЬ
+
 ent-RubberStampMime = печать мима
-    .suffix = НЕ МАППИТЬ
     .desc = { ent-RubberStampBase.desc }
+    .suffix = НЕ МАППИТЬ
+
 ent-RubberStampQm = печать квартирмейстера
-    .suffix = НЕ МАППИТЬ
     .desc = { ent-RubberStampBase.desc }
+    .suffix = НЕ МАППИТЬ
+
 ent-RubberStampRd = печать научного руководителя
-    .suffix = НЕ МАППИТЬ
     .desc = { ent-RubberStampBase.desc }
+    .suffix = НЕ МАППИТЬ
+
 ent-RubberStampTrader = печать торговца
     .desc = { ent-RubberStampBase.desc }
+    .suffix = { "" }
+
 ent-RubberStampSyndicate = печать Синдиката
-    .suffix = НЕ МАППИТЬ
     .desc = { ent-RubberStampBase.desc }
+    .suffix = НЕ МАППИТЬ
+
 ent-RubberStampWarden = печать смотрителя
-    .suffix = НЕ МАППИТЬ
     .desc = { ent-RubberStampBase.desc }
+    .suffix = НЕ МАППИТЬ
+
 ent-RubberStampApproved = печать ОДОБРЕНО
     .desc = { ent-RubberStampBaseAlt.desc }
+    .suffix = { "" }
+
 ent-RubberStampDenied = печать ОТКАЗАНО
     .desc = { ent-RubberStampBaseAlt.desc }
+    .suffix = { "" }

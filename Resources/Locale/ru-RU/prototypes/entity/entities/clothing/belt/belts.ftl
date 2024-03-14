@@ -16,20 +16,32 @@ ent-ClothingBeltJanitor = пояс уборщика
 
 ent-ClothingBeltMedical = пояс медика
     .desc = Может вмещать различное медицинское снаряжение.
+    .suffix = { "" }
+
 ent-ClothingBeltMedicalEMT = пояс парамедика
     .desc = Идеален для хранения различного снаряжения для экстренной медицинской помощи.
+    .suffix = { "" }
+
 ent-ClothingBeltPlant = пояс ботаника
     .desc = Пояс, используемый для хранения основных принадлежностей для гидропоники. На удивление, не зелёный.
+    .suffix = { "" }
+
 ent-ClothingBeltChef = пояс повара
     .desc = Пояс для хранения кухонных ножей и быстрого доступа к приправам.
+    .suffix = { "" }
+
 ent-ClothingBeltSecurity = пояс охраны
     .desc = Может вмещать различное снаряжение службы безопасности, такое как наручники и вспышки.
     .suffix = { ent-ClothingBeltStorageBase.suffix }
 
 ent-ClothingBeltSheath = сабельные ножны
     .desc = Украшенные ножны, предназначенные для хранения офицерского клинка.
+    .suffix = { "" }
+
 ent-ClothingBeltBandolier = патронташ
     .desc = Патронташ для хранения ружейных патронов.
+    .suffix = { "" }
+
 ent-ClothingBeltChampion = пояс чемпиона
     .desc = Доказывает всем, что вы сильнейший!
     .suffix = { ent-ClothingBeltBase.suffix }

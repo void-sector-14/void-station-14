@@ -1,86 +1,119 @@
 ent-AirlockFreezer = { ent-Airlock }
+    .desc = { ent-Airlock.desc }
     .suffix = Холодильник
-    .desc = { ent-Airlock.desc }
+
 ent-AirlockEngineering = { ent-Airlock }
+    .desc = { ent-Airlock.desc }
     .suffix = Инженерный
-    .desc = { ent-Airlock.desc }
+
 ent-AirlockAtmospherics = { ent-AirlockEngineering }
-    .suffix = Атмосферный
     .desc = { ent-AirlockEngineering.desc }
+    .suffix = Атмосферный
+
 ent-AirlockCargo = { ent-Airlock }
+    .desc = { ent-Airlock.desc }
     .suffix = Снабжение
-    .desc = { ent-Airlock.desc }
+
 ent-AirlockMedical = { ent-Airlock }
+    .desc = { ent-Airlock.desc }
     .suffix = Медицинский
-    .desc = { ent-Airlock.desc }
+
 ent-AirlockVirology = { ent-AirlockMedical }
+    .desc = { ent-AirlockMedical.desc }
     .suffix = Вирусология
-    .desc = { ent-AirlockMedical.desc }
+
 ent-AirlockChemistry = { ent-AirlockMedical }
-    .suffix = Химия
     .desc = { ent-AirlockMedical.desc }
+    .suffix = Химия
+
 ent-AirlockScience = { ent-Airlock }
+    .desc = { ent-Airlock.desc }
     .suffix = Научный
-    .desc = { ent-Airlock.desc }
+
 ent-AirlockCommand = { ent-Airlock }
+    .desc = { ent-Airlock.desc }
     .suffix = Командование
-    .desc = { ent-Airlock.desc }
+
 ent-AirlockSecurity = { ent-Airlock }
-    .suffix = Служба Безопасности
     .desc = { ent-Airlock.desc }
+    .suffix = Служба Безопасности
+
 ent-AirlockMaint = Техобслуживание
     .desc = { ent-Airlock.desc }
+    .suffix = { "" }
+
 ent-AirlockSyndicate = { ent-AirlockSecurity }
-    .suffix = Синдикат
     .desc = { ent-AirlockSecurity.desc }
+    .suffix = Синдикат
+
 ent-AirlockMining = { ent-AirlockCargo }
-    .suffix = Шахтёры (Утилизаторы)
     .desc = { ent-AirlockCargo.desc }
+    .suffix = Шахтёры (Утилизаторы)
+
 ent-AirlockCentralCommand = { ent-AirlockCommand }
-    .suffix = Центральное командование
     .desc = { ent-AirlockCommand.desc }
+    .suffix = Центральное командование
+
 ent-AirlockHatch = герметичный люк
     .desc = { ent-Airlock.desc }
+    .suffix = { "" }
+
 ent-AirlockHatchMaintenance = герметичный люк техобслуживания
     .desc = { ent-Airlock.desc }
+    .suffix = { "" }
+
 ent-AirlockGlass = стеклянный шлюз
     .desc = { ent-Airlock.desc }
+    .suffix = { "" }
+
 ent-AirlockEngineeringGlass = { ent-AirlockGlass }
+    .desc = { ent-AirlockGlass.desc }
     .suffix = Инженерный
-    .desc = { ent-AirlockGlass.desc }
+
 ent-AirlockMaintGlass = { ent-AirlockGlass }
+    .desc = { ent-AirlockGlass.desc }
     .suffix = Техобслуживание
-    .desc = { ent-AirlockGlass.desc }
+
 ent-AirlockAtmosphericsGlass = { ent-AirlockEngineeringGlass }
-    .suffix = Атмосферный
     .desc = { ent-AirlockEngineeringGlass.desc }
+    .suffix = Атмосферный
+
 ent-AirlockCargoGlass = { ent-AirlockGlass }
+    .desc = { ent-AirlockGlass.desc }
     .suffix = Снабжение
-    .desc = { ent-AirlockGlass.desc }
+
 ent-AirlockMedicalGlass = { ent-AirlockGlass }
+    .desc = { ent-AirlockGlass.desc }
     .suffix = Медицинский
-    .desc = { ent-AirlockGlass.desc }
+
 ent-AirlockChemistryGlass = { ent-AirlockMedicalGlass }
+    .desc = { ent-AirlockMedicalGlass.desc }
     .suffix = Химия
-    .desc = { ent-AirlockMedicalGlass.desc }
+
 ent-AirlockVirologyGlass = { ent-AirlockMedicalGlass }
-    .suffix = Вирусология
     .desc = { ent-AirlockMedicalGlass.desc }
+    .suffix = Вирусология
+
 ent-AirlockScienceGlass = { ent-AirlockGlass }
+    .desc = { ent-AirlockGlass.desc }
     .suffix = Научный
-    .desc = { ent-AirlockGlass.desc }
+
 ent-AirlockCommandGlass = { ent-AirlockGlass }
+    .desc = { ent-AirlockGlass.desc }
     .suffix = Командование
-    .desc = { ent-AirlockGlass.desc }
+
 ent-AirlockSecurityGlass = { ent-AirlockGlass }
-    .suffix = Служба Безопасности
     .desc = { ent-AirlockGlass.desc }
+    .suffix = Служба Безопасности
+
 ent-AirlockSyndicateGlass = { ent-AirlockSecurityGlass }
-    .suffix = Синдикат
     .desc = { ent-AirlockSecurityGlass.desc }
+    .suffix = Синдикат
+
 ent-AirlockMiningGlass = { ent-AirlockCargoGlass }
-    .suffix = Шахтёры (Утилизаторы)
     .desc = { ent-AirlockCargoGlass.desc }
+    .suffix = Шахтёры (Утилизаторы)
+
 ent-AirlockCentralCommandGlass = { ent-AirlockCommandGlass }
-    .suffix = Центральное командование
     .desc = { ent-AirlockCommandGlass.desc }
+    .suffix = Центральное командование

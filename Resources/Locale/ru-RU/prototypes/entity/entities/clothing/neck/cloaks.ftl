@@ -1,3 +1,7 @@
+ent-ClothingNeckCloakCentcom = central commander's cloak
+    .desc = A pompous and elite green cloak with a nice gold trim, tailored specifically to the Central Commander. It's so heavy, the gold trim might be real.
+    .suffix = { "" }
+
 ent-ClothingNeckCloakCap = плащ капитана
     .desc = Помпезный и удобный синий плащ с красивой золотой окантовкой, хотя и не самый ценный предмет вашего снаряжения, но очень красивый.
     .suffix = { ent-ClothingNeckBase.suffix }
@@ -60,21 +64,40 @@ ent-ClothingNeckCloakPirateCap = плащ капитана пиратов
 
 ent-ClothingNeckCloakMoth = плащ моли
     .desc = Плащ в виде крыльев моли - необычный и оригинальный элемент гардероба, способный привлечь внимание окружающих. Он изготовлен из тонкой ткани, имитирующей крылья моли, с мягкими и пушистыми краями. Плащ застегивается на шее с помощью липучки и имеет капюшон в виде головы моли.
+    .suffix = { "" }
+
 ent-ClothingNeckCloakVoid = плащ пустоты
     .desc = Плащ тьмы. Для тех, кто перешёл на тёмную сторону силы.
+    .suffix = { "" }
+
 ent-ClothingNeckCloakAce = плащ пилота
     .desc = Плащ, вручаемый лучшим космическим асам Nanotrasen.
+    .suffix = { "" }
+
 ent-ClothingNeckCloakAro = плащ вервольфа
     .desc = Этот плащ позволяет окружающим понять, что вы - одинокий волк.
+    .suffix = { "" }
+
 ent-ClothingNeckCloakBi = ядовитый плащ
     .desc = Пурпурный цвет - явный признак того, что вы ядовиты.
+    .suffix = { "" }
+
 ent-ClothingNeckCloakIntersex = плащ циклопа
     .desc = Круг на этом плаще представляет собой глаз циклопа.
+    .suffix = { "" }
+
 ent-ClothingNeckCloakLesbian = плащ поэта
     .desc = Этот плащ принадлежал древнему поэту, вы забыли, какому именно.
+    .suffix = { "" }
+
 ent-ClothingNeckCloakGay = плащ сетевого маркетинга
     .desc = Этот плащ пользуется большим спросом в маркетинговых офисах Nanotrasen.
+    .suffix = { "" }
+
 ent-ClothingNeckCloakEnby = плащ кладоискателя
     .desc = Этот плащ принадлежал жадному искателю сокровищ.
+    .suffix = { "" }
+
 ent-ClothingNeckCloakPan = поварской плащ
     .desc = Предназначен для ношения вместе со сковородой.
+    .suffix = { "" }

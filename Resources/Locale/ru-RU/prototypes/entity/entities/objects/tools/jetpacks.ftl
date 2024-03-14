@@ -1,42 +1,59 @@
 ent-JetpackEffect = { "" }
     .desc = { "" }
+    .suffix = { "" }
+
 ent-BaseJetpack = джетпак
     .desc = Это реактивный ранец - джетпак.
+    .suffix = { "" }
+
 ent-ActionToggleJetpack = Переключить джетпак
     .desc = Переключить джетпак, позволяющий с лёгкостью передвигаться вне станции.
+    .suffix = { "" }
+
 ent-JetpackBlue = джетпак
-    .suffix = Пустой
     .desc = { ent-BaseJetpack.desc }
+    .suffix = Пустой
+
 ent-JetpackBlueFilled = джетпак
-    .suffix = Полный
     .desc = { ent-JetpackBlue.desc }
+    .suffix = Полный
+
 ent-JetpackBlack = джетпак
-    .suffix = Пустой
     .desc = { ent-BaseJetpack.desc }
+    .suffix = Пустой
+
 ent-JetpackBlackFilled = джетпак
-    .suffix = Полный
     .desc = { ent-JetpackBlack.desc }
+    .suffix = Полный
+
 ent-JetpackCaptain = джетпак капитана
-    .suffix = Пустой
     .desc = { ent-BaseJetpack.desc }
+    .suffix = Пустой
+
 ent-JetpackCaptainFilled = джетпак капитана
-    .suffix = Полный
     .desc = { ent-JetpackCaptain.desc }
+    .suffix = Полный
+
 ent-JetpackMini = мини джетпак
-    .suffix = Пустой
     .desc = { ent-BaseJetpack.desc }
+    .suffix = Пустой
+
 ent-JetpackMiniFilled = мини джетпак
-    .suffix = Полный
     .desc = { ent-JetpackMini.desc }
+    .suffix = Полный
+
 ent-JetpackSecurity = джетпак охраны
-    .suffix = Пустой
     .desc = { ent-BaseJetpack.desc }
+    .suffix = Пустой
+
 ent-JetpackSecurityFilled = джетпак охраны
-    .suffix = Полный
     .desc = { ent-JetpackSecurity.desc }
-ent-JetpackVoid = пустотный джетпак
-    .suffix = Пустой
-    .desc = { ent-BaseJetpack.desc }
-ent-JetpackVoidFilled = пустотный джетпак
     .suffix = Полный
+
+ent-JetpackVoid = пустотный джетпак
+    .desc = { ent-BaseJetpack.desc }
+    .suffix = Пустой
+
+ent-JetpackVoidFilled = пустотный джетпак
     .desc = { ent-JetpackVoid.desc }
+    .suffix = Полный

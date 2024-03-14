@@ -1,5 +1,7 @@
 ent-ShuttleWindow = окно шаттла
     .desc = { ent-Window.desc }
+    .suffix = { "" }
+
 ent-ShuttleWindowDiagonal = { ent-ShuttleWindow }
-    .suffix = Диагональ
     .desc = { ent-ShuttleWindow.desc }
+    .suffix = Диагональ

@@ -26,6 +26,10 @@ ent-FoodPieBananaCream = кремовый банановый пирог
     .desc = Прямо как дома, на планете клоунов! ХОНК!
     .suffix = { ent-FoodPieBase.suffix }
 
+ent-FoodPieBananaCreamSlice = slice of banana cream pie
+    .desc = Just like back home, on clown planet! HONK!
+    .suffix = { "" }
+
 ent-FoodPieClafoutis = ягодный клафути
     .desc = Черных птиц нет, это хороший знак.
     .suffix = { ent-FoodPieBase.suffix }
@@ -66,6 +70,14 @@ ent-FoodPieFrostySlice = кусок морозного пирога
     .desc = { ent-FoodPieSliceBase.desc }
     .suffix = { ent-FoodPieSliceBase.suffix }
 
+ent-FoodTartMime = мимский тарт
+    .desc = "      "
+    .suffix = { ent-FoodPieBase.suffix }
+
+ent-FoodTartMimeSlice = slice of mime tart
+    .desc = { ent-FoodPieSliceBase.desc }
+    .suffix = { "" }
+
 ent-FoodPieAmanita = пирог из мухоморов
     .desc = Сладкий и вкусный ядовитый пирог.
     .suffix = { ent-FoodPieBase.suffix }
@@ -76,10 +88,6 @@ ent-FoodPiePlump = пирог из толстошлемника
 
 ent-FoodTartGrape = виноградный тарт
     .desc = Вкусный десерт, который напомнит вам о вине.
-    .suffix = { ent-FoodPieBase.suffix }
-
-ent-FoodTartMime = мимский тарт
-    .desc = "      "
     .suffix = { ent-FoodPieBase.suffix }
 
 ent-FoodTartGapple = тарт из золотых яблок с крошкой

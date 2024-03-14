@@ -32,5 +32,8 @@ ent-FoodMeatRatdoubleKebab = двойной крысиный шашлык
 
 ent-FoodMeatFiestaKebab = праздничный шашлык
     .desc = Где-то в мире всегда есть вечеринка на круизном лайнере, верно?
+    .suffix = { "" }
+
 ent-FoodMeatSnakeKebab = змеиный шашлык
     .desc = Змеиное мясо на палочке. Немного жестковато.
+    .suffix = { "" }

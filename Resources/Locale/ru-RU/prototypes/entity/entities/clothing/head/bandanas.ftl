@@ -1,3 +1,7 @@
+ent-ClothingHeadBandBase = { ent-BaseFoldable }
+    .desc = { "" }
+    .suffix = { "" }
+
 ent-ClothingHeadBandBlack = чёрная бандана
     .desc = Чёрная бандана, чтобы выглядеть круто.
     .suffix = { ent-ClothingHeadBaseButcherable.suffix }
