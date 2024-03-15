@@ -26,7 +26,7 @@ ent-MobSpiderSpaceSalvage = { ent-MobSpiderSpace }
     .desc = { ent-MobSpiderSpace.desc }
     .suffix = Salvage Ruleset. Обломок
 
-ent-MobCobraSpace = космическаая кобра
+ent-MobCobraSpace = космическая кобра
     .desc = Змея в космосе! Незаметно подползёт пока вы меняете колесо пробитое в космосе!
     .suffix = { ent-MobSpaceBasic.suffix }
 
