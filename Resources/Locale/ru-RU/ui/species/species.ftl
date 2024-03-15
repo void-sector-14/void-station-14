@@ -12,3 +12,4 @@ species-name-katunian = Катунианец
 species-name-skeleton = Скелет
 species-name-vox = Вокс
 species-name-tajaran = Таяран
+species-name-demon = Тифлинг
