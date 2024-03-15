@@ -1,4 +1,4 @@
-﻿- type: vendingMachineInventory
+- type: vendingMachineInventory
   id: HappyHonkDispenserInventory
   startingInventory:
     HappyHonk: 10

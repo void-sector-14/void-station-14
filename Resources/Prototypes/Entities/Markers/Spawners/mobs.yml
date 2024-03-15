@@ -537,6 +537,7 @@
   - type: ConditionalSpawner
     prototypes:
       - MobSlimesPet
+      - MobPenPen
 
 - type: entity
   name: Pun Pun Spawner

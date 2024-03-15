@@ -25,3 +25,45 @@
   - type: Tag
     tags:
       - SpreaderIgnore
+  - type: Construction
+    graph: FanTiny
+    node: fantiny
+  - type: ContainerFill
+    containers:
+      board: [ FanTinyElectronics ]
+  - type: ContainerContainer
+    containers:
+      board: !type:Container
+
+- type: entity
+  noSpawn: true
+  id: AtmosDeviceFanTinyFrame
+  name: каркас маленького вентилятора
+  description: Строительный каркас для маленького вентилятора.
+  placement:
+    mode: SnapgridCenter
+  components:
+  - type: Clickable
+  - type: InteractionOutline
+  - type: Physics
+    canCollide: false
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+            bounds: "-0.5,-0.5,0.5,0.5"
+  - type: Transform
+    anchored: true
+  - type: Sprite
+    sprite: Structures/Piping/Atmospherics/tinyfan.rsi
+    state: frame
+  - type: Construction
+    graph: FanTiny
+    node: frame
+  - type: Tag
+    tags:
+      - SpreaderIgnore
+  - type: Anchorable
+  - type: Item
+    size: 15
