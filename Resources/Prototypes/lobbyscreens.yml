@@ -55,5 +55,9 @@
   background: /Textures/LobbyScreens/wallpaper-8.png
 
 - type: lobbyBackground
+  id: Wallpaper-9
+  background: /Textures/LobbyScreens/wallpaper-9.png
+
+- type: lobbyBackground
   id: BSA
   background: /Textures/LobbyScreens/BSA.png
