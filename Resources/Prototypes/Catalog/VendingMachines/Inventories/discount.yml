@@ -1,4 +1,4 @@
-- type: vendingMachineInventory
+﻿- type: vendingMachineInventory
   id: DiscountDansInventory
   startingInventory:
     FoodSnackCheesie: 3

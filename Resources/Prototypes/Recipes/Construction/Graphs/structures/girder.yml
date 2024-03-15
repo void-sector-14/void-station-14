@@ -1,4 +1,4 @@
-- type: constructionGraph
+﻿- type: constructionGraph
   id: Girder
   start: start
   graph:
@@ -502,6 +502,14 @@
       entity: WallSolidRust
       edges:
         - to: wall
+          steps:
+            - tool: Welding
+              doAfter: 5
+
+    - node: reinforcedWallRust
+      entity: WallReinforcedRust
+      edges:
+        - to: reinforcedWall
           steps:
             - tool: Welding
               doAfter: 5

@@ -1,4 +1,4 @@
-# The progenitor. This should only container the most basic components possible.
+﻿# The progenitor. This should only container the most basic components possible.
 # Only put things on here if every mob *must* have it. This includes ghosts.
 - type: entity
   save: false
@@ -207,7 +207,7 @@
   - type: Bloodstream
     bloodlossDamage:
       types:
-        Bloodloss: 1
+        Bloodloss: 0.5
     bloodlossHealDamage:
       types:
         Bloodloss: -1

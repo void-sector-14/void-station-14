@@ -5,7 +5,11 @@
   playTimeTracker: JobSecurityCadet
   requirements:
     - !type:OverallPlaytimeRequirement
-      time: 5400 #1,5 hr
+      time: 36000 #10 hrs
+    - !type:DepartmentTimeRequirement
+      department: Security
+      time: 54000 #15 hrs
+      inverted: true # stop playing intern if you're good at security!
   startingGear: SecurityCadetGear
   icon: "JobIconSecurityCadet"
   supervisors: job-supervisors-security
@@ -14,6 +18,9 @@
   - Security
   - Brig
   - Maintenance
+  - Service
+  - External
+  - Cryogenics
   special:
   - !type:AddImplantSpecial
     implants: [ MindShieldImplant ]
@@ -27,6 +34,7 @@
     outerClothing: ClothingOuterArmorBasic
     id: SecurityCadetPDA
     ears: ClothingHeadsetSecurity
+    belt: ClothingBeltSecurityFilled
     pocket1: WeaponPistolMk58Nonlethal
     pocket2: BookSecurity
   innerClothingSkirt: ClothingUniformJumpskirtColorRed

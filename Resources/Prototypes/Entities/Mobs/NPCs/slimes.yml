@@ -1,4 +1,4 @@
-- type: entity
+﻿- type: entity
   name: basic slime
   id: MobAdultSlimes
   parent: [ SimpleMobBase, MobCombat ]
@@ -64,7 +64,7 @@
     bloodlossDamage:
       types:
         Bloodloss:
-          1
+          0.5
     bloodlossHealDamage:
       types:
         Bloodloss:

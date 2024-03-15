@@ -214,8 +214,8 @@
 - type: entity
   parent: BasePowerCell
   id: PowerCellMicroreactor
-  name: микрореакторная батарея
-  description: Стандартизированный перезаряжаемый микрореактор. Предназначен для устройств с низким энергопотреблением, он медленно заряжается сам по себе.
+  name: microreactor power cell
+  description: A rechargeable standardized microreactor cell. Has lower capacity but slowly recharges by itself.
   suffix: Full
   components:
   - type: Sprite

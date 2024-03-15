@@ -1,4 +1,4 @@
-# Board item (given to players)
+﻿# Board item (given to players)
 - type: entity
   parent: BaseBoardEntity
   id: BaseBattlemap
