@@ -1,18 +1,23 @@
-ent-CrystalGreen = кристалл
-    .desc = Блестящий зеленый кристалл.
-    .suffix = Зелёный
-ent-CrystalPink = { ent-CrystalGreen }
-    .desc = { ent-CrystalGreen.desc }
-    .suffix = Розовый
-ent-CrystalGrey = { ent-CrystalGreen }
-    .desc = { ent-CrystalGreen.desc }
-    .suffix = Красный
-ent-CrystalOrange = { ent-CrystalGreen }
-    .desc = { ent-CrystalGreen.desc }
-    .suffix = Оранжевый
-ent-CrystalBlue = { ent-CrystalGreen }
-    .desc = { ent-CrystalGreen.desc }
-    .suffix = Синий
-ent-CrystalCyan = { ent-CrystalGreen }
-    .desc = { ent-CrystalGreen.desc }
-    .suffix = Голубой
+ent-CrystalGreen = зелёный кристал
+    .desc = Блестящий зелёный кристалл.
+    .suffix = { ent-BaseStructure.suffix }
+
+ent-CrystalPink = розовый кристалл
+    .desc = Блестящий розовый кристалл.
+    .suffix = { ent-CrystalGreen.suffix }
+
+ent-CrystalGrey = серый кристалл
+    .desc = Блестящий серый кристалл.
+    .suffix = { ent-CrystalGreen.suffix }
+
+ent-CrystalOrange = оранжевый кристалл
+    .desc = Блестящий оранжевый кристалл.
+    .suffix = { ent-CrystalGreen.suffix }
+
+ent-CrystalBlue = синий кристалл
+    .desc = Блестящий синий кристалл.
+    .suffix = { ent-CrystalGreen.suffix }
+
+ent-CrystalCyan = голубой кристалл
+    .desc = Блестящий голубой кристалл.
+    .suffix = { ent-CrystalGreen.suffix }

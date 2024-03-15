@@ -1,23 +1,31 @@
+ent-BaseAnimalOrganUnGibbable = { ent-BaseItem }
+    .desc = { "" }
+    .suffix = { "" }
+
 ent-BaseAnimalOrgan = { ent-BaseItem }
     .desc = { ent-BaseItem.desc }
     .suffix = { "" }
 
 ent-OrganAnimalLungs = лёгкие
     .desc = { ent-BaseAnimalOrgan.desc }
-    .suffix = { ent-BaseAnimalOrgan.suffix }
+    .suffix = { "" }
 
 ent-OrganAnimalStomach = желудок
     .desc = { ent-BaseAnimalOrgan.desc }
-    .suffix = { ent-BaseAnimalOrgan.suffix }
+    .suffix = { "" }
+
+ent-OrganMouseStomach = stomach
+    .desc = { "" }
+    .suffix = { "" }
 
 ent-OrganAnimalLiver = печень
     .desc = { ent-BaseAnimalOrgan.desc }
-    .suffix = { ent-BaseAnimalOrgan.suffix }
+    .suffix = { "" }
 
 ent-OrganAnimalHeart = сердце
     .desc = { ent-BaseAnimalOrgan.desc }
-    .suffix = { ent-BaseAnimalOrgan.suffix }
+    .suffix = { "" }
 
 ent-OrganAnimalKidneys = почки
     .desc = { ent-BaseAnimalOrgan.desc }
-    .suffix = { ent-BaseAnimalOrgan.suffix }
+    .suffix = { "" }

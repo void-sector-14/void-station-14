@@ -20,9 +20,16 @@ ent-ClothingShoesTourist = туристическая обувь
 
 ent-ClothingShoesDameDane = туфли якудзы
     .desc = В конце концов...
+    .suffix = { "" }
+
 ent-ClothingShoesSnakeskinBoots = сапоги из змеиной кожи
     .desc = Сапоги из первоклассной змеиной кожи - все вокруг будут вам завидовать.
+    .suffix = { "" }
+
 ent-ClothingShoesBootsSpeed = скороходы
     .desc = Высокотехнологичные ботинки, сотканные из квантовых волокон, способные преобразовывать электричество в чистую скорость!
+    .suffix = { "" }
+
 ent-ActionToggleSpeedBoots = Переключить скороходы
     .desc = Включает или выключает скороходы.
+    .suffix = { "" }

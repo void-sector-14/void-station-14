@@ -17,9 +17,10 @@ ent-ActionOpenStorageImplant = Открыть имплант Хранилище
 ent-ActionActivateMicroBomb = Активировать имплант Микробомба
     .desc = Активирует вживлённую микробомбу, полностью уничтожая вас и ваше снаряжение.
     .suffix = { "" }
-    
+
 ent-ActionActivateDeathAcidifier = Активировать имплант Посмертный растворитель
     .desc = Активирует вживлённый запас кислоты, полностью растворяя вас и ваше снаряжение.
+    .suffix = { "" }
 
 ent-ActionActivateFreedomImplant = Активировать имплант Свобода
     .desc = Освобождает вас от наручников и других ограничителей.
@@ -31,6 +32,10 @@ ent-ActionOpenUplinkImplant = Открыть аплинк
 
 ent-ActionActivateEmpImplant = Активировать ЭМИ
     .desc = Вызывает небольшой ЭМИ-импульс вокруг вас.
+    .suffix = { "" }
+
+ent-ActionActivateScramImplant = SCRAM!
+    .desc = Randomly teleports you within a large distance.
     .suffix = { "" }
 
 ent-ActionActivateDnaScramblerImplant = Перемешать ДНК
@@ -83,4 +88,20 @@ ent-ActionWake = Проснуться
 
 ent-ActionActivateHonkImplant = { action-name-honk }
     .desc = { action-desc-honk }
+    .suffix = { "" }
+
+ent-ActionFireStarter = Ignite
+    .desc = Ignites enemies in a radius around you.
+    .suffix = { "" }
+
+ent-ActionToggleEyes = Open/Close eyes
+    .desc = Close your eyes to protect your peepers, or open your eyes to enjoy the pretty lights.
+    .suffix = { "" }
+
+ent-ActionToggleWagging = action-name-toggle-wagging
+    .desc = action-description-toggle-wagging
+    .suffix = { "" }
+
+ent-GooseHonk = Кря!
+    .desc = Кря-кря!
     .suffix = { "" }

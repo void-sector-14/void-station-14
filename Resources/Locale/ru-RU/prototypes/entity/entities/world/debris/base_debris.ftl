@@ -1,2 +1,3 @@
 ent-BaseDebris = { "" }
     .desc = { "" }
+    .suffix = { "" }

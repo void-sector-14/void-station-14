@@ -1,64 +1,87 @@
 ent-BaseAnomalyCore = ядро аномалии
     .desc = Ядро уничтоженного непостижимого объекта.
+    .suffix = { "" }
+
 ent-AnomalyCorePyroclastic = { ent-BaseAnomalyCore }
+    .desc = { ent-BaseAnomalyCore.desc }
     .suffix = Пирокластика
-    .desc = { ent-BaseAnomalyCore.desc }
+
 ent-AnomalyCoreGravity = { ent-BaseAnomalyCore }
+    .desc = { ent-BaseAnomalyCore.desc }
     .suffix = Гравитация
-    .desc = { ent-BaseAnomalyCore.desc }
+
 ent-AnomalyCoreIce = { ent-BaseAnomalyCore }
+    .desc = { ent-BaseAnomalyCore.desc }
     .suffix = Лёд
-    .desc = { ent-BaseAnomalyCore.desc }
+
 ent-AnomalyCoreFlesh = { ent-BaseAnomalyCore }
+    .desc = { ent-BaseAnomalyCore.desc }
     .suffix = Плоть
-    .desc = { ent-BaseAnomalyCore.desc }
+
 ent-AnomalyCoreRock = { ent-BaseAnomalyCore }
+    .desc = { ent-BaseAnomalyCore.desc }
     .suffix = Камень
-    .desc = { ent-BaseAnomalyCore.desc }
+
 ent-AnomalyCoreLiquid = { ent-BaseAnomalyCore }
+    .desc = { ent-BaseAnomalyCore.desc }
     .suffix = Жидкость
-    .desc = { ent-BaseAnomalyCore.desc }
+
 ent-AnomalyCoreBluespace = { ent-BaseAnomalyCore }
+    .desc = { ent-BaseAnomalyCore.desc }
     .suffix = Блюспейс
-    .desc = { ent-BaseAnomalyCore.desc }
+
 ent-AnomalyCoreElectricity = { ent-BaseAnomalyCore }
+    .desc = { ent-BaseAnomalyCore.desc }
     .suffix = Электричество
-    .desc = { ent-BaseAnomalyCore.desc }
+
 ent-AnomalyCoreFlora = { ent-BaseAnomalyCore }
+    .desc = { ent-BaseAnomalyCore.desc }
     .suffix = Флора
-    .desc = { ent-BaseAnomalyCore.desc }
+
 ent-AnomalyCoreShadow = { ent-BaseAnomalyCore }
-    .suffix = Тень
     .desc = { ent-BaseAnomalyCore.desc }
+    .suffix = Тень
+
 ent-BaseAnomalyInertCore = { ent-BaseAnomalyCore }
     .desc = { ent-BaseAnomalyCore.desc }
+    .suffix = { "" }
+
 ent-AnomalyCorePyroclasticInert = { ent-BaseAnomalyInertCore }
+    .desc = { ent-BaseAnomalyInertCore.desc }
     .suffix = Пирокластика, Инертный
-    .desc = { ent-BaseAnomalyInertCore.desc }
+
 ent-AnomalyCoreGravityInert = { ent-BaseAnomalyInertCore }
+    .desc = { ent-BaseAnomalyInertCore.desc }
     .suffix = Гравитация, Инертный
-    .desc = { ent-BaseAnomalyInertCore.desc }
+
 ent-AnomalyCoreIceInert = { ent-BaseAnomalyInertCore }
+    .desc = { ent-BaseAnomalyInertCore.desc }
     .suffix = Лёд, Инертный
-    .desc = { ent-BaseAnomalyInertCore.desc }
+
 ent-AnomalyCoreFleshInert = { ent-BaseAnomalyInertCore }
+    .desc = { ent-BaseAnomalyInertCore.desc }
     .suffix = Плоть, Инертный
-    .desc = { ent-BaseAnomalyInertCore.desc }
+
 ent-AnomalyCoreRockInert = { ent-BaseAnomalyInertCore }
+    .desc = { ent-BaseAnomalyInertCore.desc }
     .suffix = Камень, Инертный
-    .desc = { ent-BaseAnomalyInertCore.desc }
+
 ent-AnomalyCoreLiquidInert = { ent-BaseAnomalyInertCore }
+    .desc = { ent-BaseAnomalyInertCore.desc }
     .suffix = Жидкость, Инертный
-    .desc = { ent-BaseAnomalyInertCore.desc }
+
 ent-AnomalyCoreBluespaceInert = { ent-BaseAnomalyInertCore }
+    .desc = { ent-BaseAnomalyInertCore.desc }
     .suffix = Блюспейс, Инертный
-    .desc = { ent-BaseAnomalyInertCore.desc }
+
 ent-AnomalyCoreElectricityInert = { ent-BaseAnomalyInertCore }
+    .desc = { ent-BaseAnomalyInertCore.desc }
     .suffix = Электричество, Инертный
-    .desc = { ent-BaseAnomalyInertCore.desc }
+
 ent-AnomalyCoreFloraInert = { ent-BaseAnomalyInertCore }
+    .desc = { ent-BaseAnomalyInertCore.desc }
     .suffix = Флора, Инертный
-    .desc = { ent-BaseAnomalyInertCore.desc }
+
 ent-AnomalyCoreShadowInert = { ent-BaseAnomalyInertCore }
-    .suffix = Тень, Инертный
     .desc = { ent-BaseAnomalyInertCore.desc }
+    .suffix = Тень, Инертный

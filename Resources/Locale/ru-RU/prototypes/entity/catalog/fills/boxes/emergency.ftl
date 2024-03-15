@@ -10,10 +10,6 @@ ent-BoxSurvivalSecurity = { ent-BoxSurvival }
     .desc = { ent-BoxSurvival.desc }
     .suffix = СБ
 
-ent-BoxSurvivalBrigmedic = { ent-BoxSurvival }
-    .desc = { ent-BoxSurvival.desc }
-    .suffix = Бригмедик
-
 ent-BoxSurvivalMedical = { ent-BoxSurvival }
     .desc = { ent-BoxSurvival.desc }
     .suffix = Медицинский

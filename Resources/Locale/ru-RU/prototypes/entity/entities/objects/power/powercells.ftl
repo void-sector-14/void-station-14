@@ -42,22 +42,38 @@ ent-PowerCellMicroreactor = маленькая микрореакторная б
     .desc = Стандартизированный перезаряжаемый микрореактор. Предназначен для устройств с низким энергопотреблением, он медленно заряжается сам по себе.
     .suffix = Полный
 
+ent-PowerCellMicroreactorPrinted = { ent-PowerCellMicroreactor }
+    .desc = { ent-PowerCellMicroreactor.desc }
+    .suffix = Empty
+
 ent-PowerCellAntiqueProto = прототип древней батареи
     .desc = Маленький самозаряжающийся элемент питания. Использовался в старых разработках лазерного оружия.
+    .suffix = { "" }
+
 ent-BasePowerCage = { ent-BasePowerCell }
     .desc = { ent-BasePowerCell.desc }
+    .suffix = { "" }
+
 ent-PowerCageSmall = энергоячейка малой ёмкости
     .desc = Перезаряжаемая энергетическая ячейка для больших устройств. Это самая дешёвая разновидность, которую вы можете найти.
+    .suffix = { "" }
+
 ent-PowerCageMedium = энергоячейка средней ёмкости
     .desc = Перезаряжаемая энергетическая ячейка для больших устройств. Золотой стандарт ёмкости и стоимости.
+    .suffix = { "" }
+
 ent-PowerCageHigh = энергоячейка высокой ёмкости
     .desc = Перезаряжаемая энергетическая ячейка для больших устройств. Увеличенная ёмкость для увеличенного уровня мощности.
+    .suffix = { "" }
+
 ent-PowerCageSmallEmpty = { ent-PowerCageSmall }
-    .suffix = Пустой
     .desc = { ent-PowerCageSmall.desc }
+    .suffix = Пустой
+
 ent-PowerCageMediumEmpty = { ent-PowerCageMedium }
-    .suffix = Пустой
     .desc = { ent-PowerCageMedium.desc }
-ent-PowerCageHighEmpty = { ent-PowerCageHigh }
     .suffix = Пустой
+
+ent-PowerCageHighEmpty = { ent-PowerCageHigh }
     .desc = { ent-PowerCageHigh.desc }
+    .suffix = Пустой

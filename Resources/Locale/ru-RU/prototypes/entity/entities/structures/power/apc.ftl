@@ -1,19 +1,27 @@
 ent-BaseAPC = ЛКП
     .desc = Терминал управления локальными электрическими системами.
+    .suffix = { "" }
+
 ent-APCFrame = каркас ЛКП
     .desc = Терминал управления локальными электрическими системами, без электроники.
+    .suffix = { "" }
+
 ent-APCConstructed = { ent-BaseAPC }
+    .desc = { ent-BaseAPC.desc }
     .suffix = Открыт
-    .desc = { ent-BaseAPC.desc }
+
 ent-APCBasic = { ent-BaseAPC }
+    .desc = { ent-BaseAPC.desc }
     .suffix = Базовый, 50кВт
-    .desc = { ent-BaseAPC.desc }
+
 ent-APCHighCapacity = { ent-BaseAPC }
+    .desc = { ent-BaseAPC.desc }
     .suffix = Высокая ёмкость, 100кВт
-    .desc = { ent-BaseAPC.desc }
+
 ent-APCSuperCapacity = { ent-BaseAPC }
+    .desc = { ent-BaseAPC.desc }
     .suffix = Супер ёмкость, 150кВт
-    .desc = { ent-BaseAPC.desc }
+
 ent-APCHyperCapacity = { ent-BaseAPC }
-    .suffix = Гипер ёмкость, 200кВт
     .desc = { ent-BaseAPC.desc }
+    .suffix = Гипер ёмкость, 200кВт

@@ -20,9 +20,16 @@ ent-BorgChassisMedical = киборг-доктор
 
 ent-BorgChassisService = киборг-официант
     .desc = { ent-BaseBorgChassisNT.desc }
+    .suffix = { "" }
+
 ent-BorgChassisSyndicateAssault = штурмовой киборг Синдиката
     .desc = Машина для убийств с доступом к различным смертоносным модулям.
+    .suffix = { "" }
+
 ent-BorgChassisSyndicateMedical = медицинский киборг Синдиката
     .desc = Боевой медицинский киборг. Имеет ограниченный наступательный потенциал, но с лихвой компенсирует его своими вспомогательными возможностями.
+    .suffix = { "" }
+
 ent-BorgChassisSyndicateSaboteur = саботажный киборг Синдиката
     .desc = Изящный инженерный киборг, оснащенный модулями скрытности. Проектор-хамелеон позволяет ему маскироваться под киборга Nanotrasen.
+    .suffix = { "" }

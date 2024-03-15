@@ -24,5 +24,8 @@ ent-CrateRestraints = ящик наручников
 
 ent-CrateSecurityBiosuit = ящик биозащитных костюмов СБ
     .desc = Содержит 2 костюма биологической защиты, чтобы никакая зараза не отвлекала вас от исполнения своего долга. Чтобы открыть, необходим уровень доступа Служба безопасности.
+    .suffix = { "" }
+
 ent-CrateSecurityTrackingMindshieldImplants = ящик имплантеров
     .desc = { ent-CrateSecgear.desc }
+    .suffix = { "" }

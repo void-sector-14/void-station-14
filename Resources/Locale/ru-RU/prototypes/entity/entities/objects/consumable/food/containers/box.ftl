@@ -37,13 +37,14 @@ ent-FoodBoxDonkpocketTeriyaki = коробка донк-покетов со вк
 ent-FoodBoxDonkpocketPizza = коробка донк-покетов со вкусом пиццы
     .desc = { ent-FoodBoxDonkpocket.desc }
     .suffix = { ent-FoodBoxDonkpocket.suffix }
+
 ent-FoodBoxDonkpocketStonk = коробка ограниченной серии стонк-покетов
     .desc = { ent-FoodBoxDonkpocket.desc }
+    .suffix = { "" }
+
 ent-FoodBoxDonkpocketCarp = коробка карп-покетов
     .desc = { ent-FoodBoxDonkpocket.desc }
-ent-FoodBoxDonkpocketGondola = коробка донк-покетов со вкусом гондолы
-    .desc = { ent-FoodBoxDonkpocket.desc }
-    .suffix = { ent-FoodBoxDonkpocket.suffix }
+    .suffix = { "" }
 
 ent-FoodBoxDonkpocketBerry = коробка донк-покетов со вкусом ягод
     .desc = { ent-FoodBoxDonkpocket.desc }
@@ -68,9 +69,11 @@ ent-HappyHonkMime = { ent-HappyHonk }
 ent-HappyHonkNukie = обед Нюка Робаст
     .desc = Подозрительный обед с потенциально взрывоопасным сюрпризом.
     .suffix = Игрушка Опасный
+
 ent-HappyHonkNukieSnacks = коробка закусок Синдиката
-    .suffix = Игрушка Опасный, Снэки
     .desc = { ent-HappyHonkNukie.desc }
+    .suffix = Игрушка Опасный, Снэки
+
 ent-HappyHonkCluwne = обед Жалкий Клувень
     .desc = Ничего хорошего из этого не выйдет.
     .suffix = { ent-HappyHonk.suffix }

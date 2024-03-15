@@ -22,13 +22,9 @@ ent-ClothingBeltMedicalFilled = { ent-ClothingBeltMedical }
     .desc = { ent-ClothingBeltMedical.desc }
     .suffix = Заполненный
 
-ent-ClothingBeltParamedicFilled = { ent-ClothingBeltMedical }
-    .desc = { ent-ClothingBeltMedical.desc }
 ent-ClothingBeltMedicalEMTFilled = { ent-ClothingBeltMedicalEMT }
-    .suffix = Заполненный, Парамедик
     .desc = { ent-ClothingBeltMedicalEMT.desc }
-ent-ClothingBeltPlantFilled = { ent-ClothingBeltPlant }
-    .suffix = Заполненный
+    .suffix = Заполненный, Парамедик
 
 ent-ClothingBeltPlantFilled = { ent-ClothingBeltPlant }
     .desc = { ent-ClothingBeltPlant.desc }
@@ -53,3 +49,7 @@ ent-ClothingBeltWandFilled = { ent-ClothingBeltWand }
 ent-ClothingBeltHolsterFilled = { ent-ClothingBeltHolster }
     .desc = { ent-ClothingBeltHolster.desc }
     .suffix = Заполненный
+
+ent-ClothingBeltChefFilled = { ent-ClothingBeltChef }
+    .desc = { ent-ClothingBeltChef.desc }
+    .suffix = Filled

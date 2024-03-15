@@ -240,9 +240,19 @@
   name: combat gloves
   description: These tactical gloves are fireproof and shock resistant.
   components:
+  - type: Sprite
+    sprite: Clothing/Hands/Gloves/combat.rsi
+  - type: Clothing
+    sprite: Clothing/Hands/Gloves/combat.rsi
   - type: Insulated
   - type: Fiber
     fiberMaterial: fibers-insulative
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.95
+        Slash: 0.95
+        Piercing: 0.95
 
 # can't parent combat gloves since they are butcherable
 - type: entity

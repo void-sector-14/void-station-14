@@ -32,12 +32,20 @@ ent-CrateServicePersonnel = ящик для найма персонала
 
 ent-CrateServiceBooks = ящик книг
     .desc = Содержит 10 пустых книг случайного вида.
+    .suffix = { "" }
+
 ent-CrateServiceGuidebooks = ящик руководств
     .desc = Содержит руководства.
+    .suffix = { "" }
+
 ent-CrateServiceSodaDispenser = ящик пополнения раздатчика безалкоголя
     .desc = Содержит пополнение раздатчика безалкоголя.
+    .suffix = { "" }
+
 ent-CrateServiceBoozeDispenser = ящик пополнения раздатчика алкоголя
     .desc = Содержит пополнение раздатчика алкоголя.
+    .suffix = { "" }
+
 ent-CrateServiceBox = ящик коробок
     .desc = Содержит 6 пустых универсальных коробок.
     .suffix = { "" }
@@ -48,5 +56,8 @@ ent-CrateJanitorBiosuit = ящик биозащитных костюмов уб�
 
 ent-CrateTrashCartFilled = { ent-CrateTrashCart }
     .desc = { ent-CrateTrashCart.desc }
+    .suffix = { "" }
+
 ent-CrateJanitorExplosive = { ent-ClosetJanitorBomb }
     .desc = { ent-ClosetJanitorBomb.desc }
+    .suffix = { "" }

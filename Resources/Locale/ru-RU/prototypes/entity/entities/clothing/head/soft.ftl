@@ -1,3 +1,11 @@
+ent-ClothingHeadHeadHatBaseFlippable = { ent-BaseFoldable }
+    .desc = { "" }
+    .suffix = { "" }
+
+ent-ClothingHeadHeadHatBaseFlipped = { ent-ClothingHeadHeadHatBaseFlippable }
+    .desc = { "" }
+    .suffix = flipped
+
 ent-ClothingHeadHatBluesoft = синяя кепка
     .desc = Бейсболка безвкусного синего цвета.
     .suffix = { ent-ClothingHeadBaseButcherable.suffix }
@@ -37,6 +45,14 @@ ent-ClothingHeadHatGreensoft = зелёная кепка
 ent-ClothingHeadHatGreensoftFlipped = перевёрнутая зелёная кепка
     .desc = Бейсболка безвкусного зелёного цвета. Перевёрнутая.
     .suffix = { ent-ClothingHeadBaseButcherable.suffix }
+
+ent-ClothingHeadHatBlacksoft = черная кепка
+    .desc = Это бейсболка безвкусного черного цвета.
+    .suffix = { "" }
+
+ent-ClothingHeadHatBlacksoftFlipped = черная кепка
+    .desc = { ent-ClothingHeadHatBlacksoft.desc }
+    .suffix = { ent-ClothingHeadHeadHatBaseFlipped.suffix }
 
 ent-ClothingHeadHatGreysoft = серая кепка
     .desc = Бейсболка безвкусного серого цвета.

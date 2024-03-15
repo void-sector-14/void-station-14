@@ -30,6 +30,14 @@ ent-SpaceCash10000 = { ent-SpaceCash }
     .desc = { ent-SpaceCash.desc }
     .suffix = 10000
 
+ent-SpaceCash20000 = { ent-SpaceCash }
+    .desc = { ent-SpaceCash.desc }
+    .suffix = 20000
+
+ent-SpaceCash30000 = { ent-SpaceCash }
+    .desc = { ent-SpaceCash.desc }
+    .suffix = 30000
+
 ent-SpaceCash1000000 = кредитов
     .desc = { ent-SpaceCash.desc }
     .suffix = 1000000

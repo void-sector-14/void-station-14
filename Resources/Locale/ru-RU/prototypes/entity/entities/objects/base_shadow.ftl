@@ -1,2 +1,3 @@
 ent-BaseShadow = { "" }
     .desc = { "" }
+    .suffix = { "" }

@@ -1,72 +1,99 @@
 ent-AlwaysPoweredWallLight = светильник
     .desc = Всегда работающий светильник.
     .suffix = Всегда запитанный
+
 ent-PoweredlightEmpty = светильник
-    .desc = Осветительный прибор. Потребляет энергию и излучает свет, если оснащен лампой-трубкой.
-    .suffix = Пустой
+    .desc = Осветительный прибор. Потребляет энергию и излучает свет, если оснащен лампочкой-трубкой.
+    .suffix = Пустой, Запитанный
+
 ent-Poweredlight = { ent-PoweredlightEmpty }
-    .desc = Осветительный прибор. Потребляет энергию и излучает свет, если оснащен лампой-трубкой.
+    .desc = Осветительный прибор. Потребляет энергию и излучает свет, если оснащен лампочкой-трубкой.
+    .suffix = Запитанный
+
 ent-PoweredlightLED = { ent-Poweredlight }
-    .desc = Осветительный прибор. Потребляет энергию и излучает свет, если оснащен лампой-трубкой.
-    .suffix = LED, Светодиод
+    .desc = Осветительный прибор. Потребляет энергию и излучает свет, если оснащен лампочкой-трубкой.
+    .suffix = Запитанный, LED, Светодиод
+
 ent-AlwaysPoweredLightLED = { ent-AlwaysPoweredWallLight }
+    .desc = { ent-AlwaysPoweredWallLight.desc }
     .suffix = Всегда запитанный, LED, Светодиод
-    .desc = { ent-AlwaysPoweredWallLight.desc }
+
 ent-PoweredlightExterior = { ent-Poweredlight }
-    .desc = Осветительный прибор. Потребляет энергию и излучает свет, если оснащен лампой-трубкой.
-    .suffix = Синий
+    .desc = Осветительный прибор. Потребляет энергию и излучает свет, если оснащен лампочкой-трубкой.
+    .suffix = Запитанный, Синий
+
 ent-AlwaysPoweredLightExterior = { ent-AlwaysPoweredWallLight }
+    .desc = { ent-AlwaysPoweredWallLight.desc }
     .suffix = Всегда запитанный, Синий
-    .desc = { ent-AlwaysPoweredWallLight.desc }
+
 ent-PoweredlightSodium = { ent-Poweredlight }
-    .desc = Осветительный прибор. Потребляет энергию и излучает свет, если оснащен лампой-трубкой.
-    .suffix = Оранжевый, Натриевый
+    .desc = Осветительный прибор. Потребляет энергию и излучает свет, если оснащен лампочкой-трубкой.
+    .suffix = Запитанный, Оранжевый, Натриевый
+
 ent-AlwaysPoweredLightSodium = { ent-AlwaysPoweredWallLight }
-    .suffix = Всегда запитанный, Оранжевый, Натриевый
     .desc = { ent-AlwaysPoweredWallLight.desc }
+    .suffix = Всегда запитанный, Оранжевый, Натриевый
+
 ent-SmallLight = маленький светильник
-    .desc = Всегда работающий светильник.
-    .suffix = Всегда запитанный
+    .desc = Обесточенный светильник.
+    .suffix = Обесточенный
+
 ent-PoweredSmallLightEmpty = маленький светильник
     .desc = Осветительный прибор. Потребляет энергию и излучает свет, если оснащен лампой накаливания.
-    .suffix = Пустой
+    .suffix = Пустой, Запитанный
+
 ent-PoweredSmallLight = { ent-PoweredSmallLightEmpty }
     .desc = { ent-PoweredSmallLightEmpty.desc }
+    .suffix = Запитанный
+
 ent-EmergencyLight = аварийная лампа
-    .desc = Маленькая лампочка с внутренним аккумулятором, которая включается, как только перестает получать питание извне. Технология Nanotrasen позволяет ей адаптировать свой цвет для оповещения экипажа об обстановке на станции.
+    .desc = Маленькая красная лампочка с внутренним аккумулятором, которая включается, как только перестает получать питание извне.
+    .suffix = { "" }
+
 ent-PoweredlightCyan = { ent-Poweredlight }
+    .desc = { ent-Poweredlight.desc }
     .suffix = Голубой
-    .desc = { ent-Poweredlight.desc }
+
 ent-AlwaysPoweredlightCyan = { ent-AlwaysPoweredWallLight }
+    .desc = { ent-AlwaysPoweredWallLight.desc }
     .suffix = Всегда запитанный, Голубой
-    .desc = { ent-AlwaysPoweredWallLight.desc }
+
 ent-PoweredlightBlue = { ent-Poweredlight }
+    .desc = { ent-Poweredlight.desc }
     .suffix = Синий
-    .desc = { ent-Poweredlight.desc }
+
 ent-AlwaysPoweredlightBlue = { ent-AlwaysPoweredWallLight }
+    .desc = { ent-AlwaysPoweredWallLight.desc }
     .suffix = Всегда запитанный, Синий
-    .desc = { ent-AlwaysPoweredWallLight.desc }
+
 ent-PoweredlightPink = { ent-Poweredlight }
+    .desc = { ent-Poweredlight.desc }
     .suffix = Розовый
-    .desc = { ent-Poweredlight.desc }
+
 ent-AlwaysPoweredlightPink = { ent-AlwaysPoweredWallLight }
+    .desc = { ent-AlwaysPoweredWallLight.desc }
     .suffix = Всегда запитанный, Розовый
-    .desc = { ent-AlwaysPoweredWallLight.desc }
+
 ent-PoweredlightOrange = { ent-Poweredlight }
+    .desc = { ent-Poweredlight.desc }
     .suffix = Оранжевый
-    .desc = { ent-Poweredlight.desc }
+
 ent-AlwaysPoweredlightOrange = { ent-AlwaysPoweredWallLight }
+    .desc = { ent-AlwaysPoweredWallLight.desc }
     .suffix = Всегда запитанный, Оранжевый
-    .desc = { ent-AlwaysPoweredWallLight.desc }
+
 ent-PoweredlightRed = { ent-Poweredlight }
+    .desc = { ent-Poweredlight.desc }
     .suffix = Красный
-    .desc = { ent-Poweredlight.desc }
+
 ent-AlwaysPoweredlightRed = { ent-AlwaysPoweredWallLight }
+    .desc = { ent-AlwaysPoweredWallLight.desc }
     .suffix = Всегда запитанный, Красный
-    .desc = { ent-AlwaysPoweredWallLight.desc }
+
 ent-PoweredlightGreen = { ent-Poweredlight }
-    .suffix = Зелёный
     .desc = { ent-Poweredlight.desc }
+    .suffix = Зелёный
+
 ent-AlwaysPoweredlightGreen = { ent-AlwaysPoweredWallLight }
-    .suffix = Всегда запитанный, Зелёный
     .desc = { ent-AlwaysPoweredWallLight.desc }
+    .suffix = Всегда запитанный, Зелёный

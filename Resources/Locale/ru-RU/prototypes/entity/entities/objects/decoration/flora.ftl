@@ -28,18 +28,32 @@ ent-FloraRockSolid02 = валун
 
 ent-FloraRockSolid03 = валун
     .desc = { ent-BaseRock.desc }
+    .suffix = { "" }
+
 ent-FloraStalagmite1 = сталагмит
     .desc = Каменный шип природного происхождения.
+    .suffix = { "" }
+
 ent-FloraStalagmite2 = { ent-FloraStalagmite1 }
     .desc = { ent-FloraStalagmite1.desc }
+    .suffix = { "" }
+
 ent-FloraStalagmite3 = { ent-FloraStalagmite1 }
     .desc = { ent-FloraStalagmite1.desc }
+    .suffix = { "" }
+
 ent-FloraStalagmite4 = { ent-FloraStalagmite1 }
     .desc = { ent-FloraStalagmite1.desc }
+    .suffix = { "" }
+
 ent-FloraStalagmite5 = { ent-FloraStalagmite1 }
     .desc = { ent-FloraStalagmite1.desc }
+    .suffix = { "" }
+
 ent-FloraStalagmite6 = { ent-FloraStalagmite1 }
     .desc = { ent-FloraStalagmite1.desc }
+    .suffix = { "" }
+
 ent-FloraTree01 = дерево
     .desc = { ent-BaseTree.desc }
     .suffix = { ent-BaseTree.suffix }
@@ -138,15 +152,28 @@ ent-FloraTreeChristmas02 = рождественская ель
 
 ent-FloraTreeStumpConifer = пень
     .desc = { ent-BaseTreeConifer.desc }
+    .suffix = { "" }
+
 ent-ShadowTree01 = тёмное дерево
     .desc = Листья шепчутся о тебе.
+    .suffix = { "" }
+
 ent-ShadowTree02 = { ent-ShadowTree01 }
     .desc = { ent-ShadowTree01.desc }
+    .suffix = { "" }
+
 ent-ShadowTree03 = { ent-ShadowTree01 }
     .desc = { ent-ShadowTree01.desc }
+    .suffix = { "" }
+
 ent-ShadowTree04 = { ent-ShadowTree01 }
     .desc = { ent-ShadowTree01.desc }
+    .suffix = { "" }
+
 ent-ShadowTree05 = { ent-ShadowTree01 }
     .desc = { ent-ShadowTree01.desc }
+    .suffix = { "" }
+
 ent-ShadowTree06 = { ent-ShadowTree01 }
     .desc = { ent-ShadowTree01.desc }
+    .suffix = { "" }

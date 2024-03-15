@@ -1,4 +1,4 @@
-﻿- type: entity
+- type: entity
   id: BaseAsteroidDebris
   parent: BaseDebris
   name: Asteroid Debris

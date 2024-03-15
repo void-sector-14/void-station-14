@@ -1,4 +1,4 @@
-﻿- type: entity
+- type: entity
   id: HospitalCurtains
   parent: BaseStructure
   name: curtains

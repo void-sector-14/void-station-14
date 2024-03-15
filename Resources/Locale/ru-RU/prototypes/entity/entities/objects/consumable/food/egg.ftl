@@ -9,5 +9,7 @@ ent-Eggshells = скорлупа
 ent-FoodEgg = яйцо
     .desc = { ent-FoodEggBase.desc }
     .suffix = { ent-FoodEggBase.suffix }
+
 ent-FoodEggBoiled = варёное яйцо
     .desc = Вкусное варёное яйцо.
+    .suffix = { "" }

@@ -1,2 +1,3 @@
 ent-EffectRCDConstruction = { "" }
     .desc = { "" }
+    .suffix = { "" }

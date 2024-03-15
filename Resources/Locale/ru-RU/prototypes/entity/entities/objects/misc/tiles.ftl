@@ -60,14 +60,24 @@ ent-FloorTileItemRockVault = каменная плитка хранилища
 
 ent-FloorTileItemBlue = голубая плитка
     .desc = { ent-FloorTileItemBase.desc }
+    .suffix = { "" }
+
 ent-FloorTileItemLime = лаймовая плитка
     .desc = { ent-FloorTileItemBase.desc }
+    .suffix = { "" }
+
 ent-FloorTileItemMining = шахтёрская плитка
     .desc = { ent-FloorTileItemBase.desc }
+    .suffix = { "" }
+
 ent-FloorTileItemMiningDark = тёмная шахтёрская плитка
     .desc = { ent-FloorTileItemBase.desc }
+    .suffix = { "" }
+
 ent-FloorTileItemMiningLight = светлая шахтёрская плитка
     .desc = { ent-FloorTileItemBase.desc }
+    .suffix = { "" }
+
 ent-FloorTileItemFreezer = плитка морозильника
     .desc = { ent-FloorTileItemBase.desc }
     .suffix = { ent-FloorTileItemBase.suffix }
@@ -162,10 +172,16 @@ ent-FloorTileItemShuttlePurple = фиолетовый пол шаттла
 
 ent-FloorTileItemShuttleRed = красный пол шаттла
     .desc = { ent-FloorTileItemBase.desc }
+    .suffix = { "" }
+
 ent-FloorTileItemShuttleGrey = серый пол шаттла
     .desc = { ent-FloorTileItemBase.desc }
+    .suffix = { "" }
+
 ent-FloorTileItemShuttleBlack = чёрный пол шаттла
     .desc = { ent-FloorTileItemBase.desc }
+    .suffix = { "" }
+
 ent-FloorTileItemGold = золотая плитка
     .desc = { ent-FloorTileItemBase.desc }
     .suffix = { ent-FloorTileItemBase.suffix }
@@ -180,12 +196,16 @@ ent-FloorTileItemGCircuit = плитка зелёных микросхем
 
 ent-FloorTileItemBCircuit = плитка голубых микросхем
     .desc = { ent-FloorTileItemBase.desc }
+    .suffix = { "" }
+
 ent-FloorTileItemGCircuit4 = { ent-FloorTileItemGCircuit }
-    .suffix = 4
     .desc = { ent-FloorTileItemGCircuit.desc }
-ent-FloorTileItemBCircuit4 = { ent-FloorTileItemBCircuit }
     .suffix = 4
+
+ent-FloorTileItemBCircuit4 = { ent-FloorTileItemBCircuit }
     .desc = { ent-FloorTileItemBCircuit.desc }
+    .suffix = 4
+
 ent-FloorTileItemGrass = плитка травы
     .desc = { ent-FloorTileItemBase.desc }
     .suffix = { ent-FloorTileItemBase.suffix }
@@ -216,7 +236,16 @@ ent-FloorTileItemGratingMaint = решётчатый технический по
 
 ent-FloorTileItemWeb = паутинный пол
     .desc = { ent-FloorTileItemBase.desc }
+    .suffix = { "" }
+
 ent-FloorTileItemAstroGrass = астро-трава
     .desc = Искусственная трава, отлично прячущая провода, поставляется с реалистичными НаноТравинками!
+    .suffix = { "" }
+
 ent-FloorTileItemAstroIce = астро-лёд
     .desc = Искусственный лёд, такой же скользкий, как настоящий, и при этом легко снимается!
+    .suffix = { "" }
+
+ent-FloorTileItemWoodLarge = ламинат
+    .desc = { ent-FloorTileItemBase.desc }
+    .suffix = { "" }

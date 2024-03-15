@@ -57,3 +57,11 @@ ent-BananiumOre = бананиумовая руда
 ent-BananiumOre1 = { ent-BananiumOre }
     .desc = { ent-BananiumOre.desc }
     .suffix = Один
+
+ent-Coal = уголь
+    .desc = { ent-OreBase.desc }
+    .suffix = Full
+
+ent-Coal1 = { ent-Coal }
+    .desc = { ent-Coal.desc }
+    .suffix = Single

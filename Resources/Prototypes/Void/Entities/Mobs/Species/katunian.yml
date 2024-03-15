@@ -15,6 +15,11 @@
   - type: Body
     prototype: Katunian
     requiredLegs: 2
+  - type: Vocal
+    sounds:
+      Male: MaleHuman
+      Female: FemaleHuman
+      Unsexed: FemaleHuman
   - type: Damageable
     damageContainer: Biological
     damageModifierSet: Scale

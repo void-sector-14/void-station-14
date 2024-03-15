@@ -42,18 +42,6 @@ ent-ReagentContainerSugarSmall = пачка сахара
     .desc = Пачка вкусного космического сахара.
     .suffix = { ent-ReagentContainerBase.suffix }
 
-ent-ReagentContainerMilk = молоко
-    .desc = Это молоко. Белая и питательная вкуснятина!
-    .suffix = { ent-ReagentContainerBase.suffix }
-
-ent-ReagentContainerMilkSoy = соевое молоко
-    .desc = Это соевое молоко. Белая и питательная вкуснятина!
-    .suffix = { ent-ReagentContainerBase.suffix }
-
-ent-ReagentContainerMilkOat = овсяное молоко
-    .desc = Это овсяное молоко. Бежевая и питательная вкуснятина!
-    .suffix = { ent-ReagentContainerBase.suffix }
-
 ent-ReagentContainerOliveoil = оливковое масло
     .desc = Оливковое масло. Из космических оливок, предположительно.
     .suffix = { ent-ReagentContainerBase.suffix }
@@ -82,15 +70,18 @@ ent-FoodDoughCornmealSlice = кусок кукурузного теста
     .desc = Кусок кукурузного теста.
     .suffix = { ent-FoodBakingBase.suffix }
 
-ent-FoodDoughBun = булочка
-    .desc = Основа любого уважающего себя бургера.
-    .suffix = { ent-FoodBakingBase.suffix }
 ent-FoodDoughTortilla = тесто тортильи
     .desc = Большой кусок теста тортильи.
+    .suffix = { "" }
+
 ent-FoodDoughTortillaSlice = кусок теста тортильи
     .desc = Кусок теста тортильи.
+    .suffix = { "" }
+
 ent-FoodDoughTortillaFlat = плоское тесто тортильи
     .desc = Расплющенный кусок теста тортильи. Приготовьте его, чтобы получить лепёшку тако.
+    .suffix = { "" }
+
 ent-FoodDoughPastryBaseRaw = сырая основа для выпечки
     .desc = Перед использованием необходимо приготовить.
     .suffix = { ent-FoodBakingBase.suffix }

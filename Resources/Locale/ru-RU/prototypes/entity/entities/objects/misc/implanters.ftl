@@ -4,9 +4,12 @@ ent-BaseImplanter = имплантер
 
 ent-Implanter = { ent-BaseImplanter }
     .desc = Одноразовый шприц, специально предназначенный для введения и извлечения подкожных имплантов.
+    .suffix = { "" }
+
 ent-ImplanterAdmeme = { ent-Implanter }
-    .suffix = Адмемы
     .desc = { ent-Implanter.desc }
+    .suffix = Адмемы
+
 ent-BaseImplantOnlyImplanter = { ent-Implanter }
     .desc = Одноразовый шприц, специально предназначенный для введения подкожных имплантов.
     .suffix = { ent-Implanter.suffix }
@@ -46,9 +49,11 @@ ent-UplinkImplanter = { ent-Implanter }
 ent-EmpImplanter = { ent-Implanter }
     .desc = { ent-BaseImplantOnlyImplanter.desc }
     .suffix = ЭМИ
+
 ent-ScramImplanter = { ent-Implanter }
     .desc = { ent-BaseImplantOnlyImplanterSyndi.desc }
     .suffix = Побег
+
 ent-DnaScramblerImplanter = { ent-Implanter }
     .desc = { ent-BaseImplantOnlyImplanter.desc }
     .suffix = Миксер ДНК
@@ -64,12 +69,10 @@ ent-MacroBombImplanter = { ent-Implanter }
 ent-DeathRattleImplanter = { ent-Implanter }
     .desc = { ent-BaseImplantOnlyImplanter.desc }
     .suffix = Предсмертный хрип
+
 ent-DeathAcidifierImplanter = { ent-Implanter }
     .desc = { ent-BaseImplantOnlyImplanter.desc }
     .suffix = Посмертный растворитель
-ent-MindShieldImplanter = { ent-Implanter }
-    .desc = { ent-BaseImplantOnlyImplanter.desc }
-    .suffix = Щит разума
 
 ent-MindShieldImplanter = имплантер защиты разума
     .desc = { ent-BaseImplantOnlyImplanter.desc }

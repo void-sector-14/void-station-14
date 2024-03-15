@@ -31,6 +31,15 @@ con-ChairRitual = { ent-ChairRitual }
 con-ChairFolding = { ent-ChairFolding }
     .desc = Удобный для переноски стул.
 
+con-ChairSteelBench = { ent-SteelBench }
+    .desc = { ent-SteelBench.desc }
+
+con-RedComfBench = красная удобная скамейка
+    .desc = Скамейка с очень удобной спинкой.
+
+con-BlueComfBench = синяя удобная скамейка
+    .desc = Скамейка с очень удобной спинкой.
+
 con-Table = { ent-Table }
     .desc = { ent-Table.desc }
 
@@ -70,6 +79,9 @@ con-MedicalBed = { ent-MedicalBed }
 con-DogBed = { ent-DogBed }
     .desc = Удобная лежанка для собак. Вы даже можете пристегнуть своего питомца в случае, отключения гравитации.
 
+con-Dresser = { ent-Dresser }
+    .desc = { ent-Dresser.desc }
+
 con-Rack = { ent-Rack }
     .desc = Стойка для хранения вещей.
 
@@ -81,27 +93,3 @@ con-Curtains = шторы
 
 con-Bookshelf = { ent-Bookshelf }
     .desc = В основном заполненный книгами.
-
-con-ChairSteelBench = { ent-SteelBench }
-    .desc = { ent-SteelBench.desc }
-
-con-ChestDrawer = { ent-filingCabinetDrawer }
-    .desc = { ent-filingCabinetDrawer.desc }
-
-con-ClosetSteel = { ent-ClosetSteelBase }
-    .desc = { ent-ClosetSteelBase.desc }
-
-con-Dresser = { ent-Dresser }
-    .desc = { ent-Dresser.desc }
-
-con-FilingCabinet = картотечный шкаф
-    .desc = Шкаф для хранения документов.
-
-con-TallCabinet = высокий шкаф
-    .desc = Шкаф для хранения документов.
-
-con-RedComfBench = красная удобная скамейка
-    .desc = Скамейка с очень удобной спинкой.
-
-con-BlueComfBench = синяя удобная скамейка
-    .desc = Скамейка с очень удобной спинкой.
