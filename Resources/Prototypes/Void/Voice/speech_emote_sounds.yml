@@ -29,8 +29,6 @@
       collection: FelinidGrowls
     Purr:
       collection: FelinidPurrs
-    DefaultDeathgasp:
-      collection: Deathgasp
     Gasp:
       collection: Gasp
     CritGasp:
@@ -67,8 +65,6 @@
       collection: FelinidGrowls
     Purr:
       collection: FelinidPurrs
-    DefaultDeathgasp:
-      collection: Deathgasp
     Gasp:
       collection: Gasp
     CritGasp:

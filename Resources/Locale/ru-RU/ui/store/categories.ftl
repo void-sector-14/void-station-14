@@ -10,7 +10,11 @@ store-category-tools = Инструменты
 store-category-utility = Утилиты
 store-category-implants = Импланты
 store-category-job = Работа
-store-category-armor = Броня
+store-category-wearables = Броня
 store-category-pointless = Безделушки
+store-category-chemicals = Химикаты
+store-category-deception = Обманки
+store-category-allies = Союзники
+store-category-disruption = Саботаж
 # Revenant
 store-category-abilities = Способности
