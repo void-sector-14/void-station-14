@@ -202,12 +202,11 @@
   - type: SolutionContainerManager
     solutions:
       drink:
-        maxVol: 300
         reagents:
         - ReagentId: Cognac
-          Quantity: 300
+          Quantity: 100
   - type: Label
-    currentLabel: Коньяк
+    currentLabel: cognac
   - type: Sprite
     sprite: Objects/Consumable/Drinks/cognacbottle.rsi
   - type: Sealable
@@ -221,12 +220,11 @@
   - type: SolutionContainerManager
     solutions:
       drink:
-        maxVol: 300
         reagents:
         - ReagentId: Cola
-          Quantity: 300
+          Quantity: 100
   - type: Label
-    currentLabel: Кола
+    currentLabel: cola
   - type: Sprite
     sprite: Objects/Consumable/Drinks/colabottle.rsi
   - type: Sealable
@@ -260,12 +258,11 @@
   - type: SolutionContainerManager
     solutions:
       drink:
-        maxVol: 300
         reagents:
         - ReagentId: Gin
-          Quantity: 300
+          Quantity: 100
   - type: Label
-    currentLabel: Джин
+    currentLabel: gin
   - type: Sprite
     sprite: Objects/Consumable/Drinks/ginbottle.rsi
   - type: Sealable
@@ -295,12 +292,11 @@
   - type: SolutionContainerManager
     solutions:
       drink:
-        maxVol: 300
         reagents:
         - ReagentId: CoffeeLiqueur
-          Quantity: 300
+          Quantity: 100
   - type: Label
-    currentLabel: Кофейный Ликёр
+    currentLabel: coffee liqueur
   - type: Sprite
     sprite: Objects/Consumable/Drinks/coffeeliqueurbottle.rsi
   - type: Sealable
@@ -369,12 +365,11 @@
   - type: SolutionContainerManager
     solutions:
       drink:
-        maxVol: 300
         reagents:
         - ReagentId: Rum
-          Quantity: 300
+          Quantity: 100
   - type: Label
-    currentLabel: Ром
+    currentLabel: rum
   - type: Sprite
     sprite: Objects/Consumable/Drinks/rumbottle.rsi
   - type: Sealable
@@ -388,13 +383,12 @@
   - type: SolutionContainerManager
     solutions:
       drink:
-        maxVol: 300
         reagents:
         - ReagentId: SpaceMountainWind
-          Quantity: 300
+          Quantity: 100
   - type: Drink
   - type: Label
-    currentLabel: Космический маунтин винд
+    currentLabel: space mountain wind
   - type: Sprite
     sprite: Objects/Consumable/Drinks/space_mountain_wind_bottle.rsi
   - type: Sealable
@@ -408,13 +402,12 @@
   - type: SolutionContainerManager
     solutions:
       drink:
-        maxVol: 300
         reagents:
         - ReagentId: SpaceUp
-          Quantity: 300
+          Quantity: 100
   - type: Drink
   - type: Label
-    currentLabel: Спейс-ап
+    currentLabel: space-up
   - type: Sprite
     sprite: Objects/Consumable/Drinks/space-up_bottle.rsi
   - type: Sealable
@@ -428,12 +421,11 @@
   - type: SolutionContainerManager
     solutions:
       drink:
-        maxVol: 300
         reagents:
         - ReagentId: Tequila
-          Quantity: 300
+          Quantity: 100
   - type: Label
-    currentLabel: Текила
+    currentLabel: tequila
   - type: Sprite
     sprite: Objects/Consumable/Drinks/tequillabottle.rsi
   - type: Sealable
@@ -447,12 +439,11 @@
   - type: SolutionContainerManager
     solutions:
       drink:
-        maxVol: 300
         reagents:
         - ReagentId: Vermouth
-          Quantity: 300
+          Quantity: 100
   - type: Label
-    currentLabel: Вермут
+    currentLabel: vermouth
   - type: Sprite
     sprite: Objects/Consumable/Drinks/vermouthbottle.rsi
   - type: Sealable
@@ -466,12 +457,11 @@
   - type: SolutionContainerManager
     solutions:
       drink:
-        maxVol: 300
         reagents:
         - ReagentId: Vodka
-          Quantity: 300
+          Quantity: 100
   - type: Label
-    currentLabel: Водка
+    currentLabel: vodka
   - type: Sprite
     sprite: Objects/Consumable/Drinks/vodkabottle.rsi
   - type: Sealable
@@ -485,12 +475,11 @@
   - type: SolutionContainerManager
     solutions:
       drink:
-        maxVol: 300
         reagents:
         - ReagentId: Whiskey
-          Quantity: 300
+          Quantity: 100
   - type: Label
-    currentLabel: Виски
+    currentLabel: whiskey
   - type: Sprite
     sprite: Objects/Consumable/Drinks/whiskeybottle.rsi
   - type: Sealable
@@ -504,12 +493,11 @@
   - type: SolutionContainerManager
     solutions:
       drink:
-        maxVol: 300
         reagents:
         - ReagentId: Wine
-          Quantity: 300
+          Quantity: 100
   - type: Label
-    currentLabel: Вино
+    currentLabel: wine
   - type: Sprite
     sprite: Objects/Consumable/Drinks/winebottle.rsi
   - type: Sealable
@@ -545,12 +533,12 @@
   - type: SolutionContainerManager
     solutions:
       drink:
-        maxVol: 300
+        maxVol: 150
         reagents:
         - ReagentId: Beer
-          Quantity: 300
+          Quantity: 150
   - type: Label
-    currentLabel: Пиво
+    currentLabel: beer
   - type: Sprite
     sprite: Objects/Consumable/Drinks/beer.rsi
   - type: Openable
@@ -586,12 +574,12 @@
   - type: SolutionContainerManager
     solutions:
       drink:
-        maxVol: 300
+        maxVol: 150
         reagents:
         - ReagentId: Ale
-          Quantity: 300
+          Quantity: 150
   - type: Label
-    currentLabel: Эль
+    currentLabel: ale
   - type: Sprite
     sprite: Objects/Consumable/Drinks/alebottle.rsi
   - type: Openable
@@ -638,12 +626,12 @@
   - type: SolutionContainerManager
     solutions:
       drink:
-        maxVol: 300
+        maxVol: 150
         reagents:
         - ReagentId: SodaWater
-          Quantity: 300
+          Quantity: 150
   - type: Label
-    currentLabel: Содовая
+    currentLabel: soda water
 
 - type: entity
   parent: DrinkWaterBottleFull
@@ -654,12 +642,12 @@
   - type: SolutionContainerManager
     solutions:
       drink:
-        maxVol: 300
+        maxVol: 150
         reagents:
         - ReagentId: TonicWater
-          Quantity: 300
+          Quantity: 150
   - type: Label
-    currentLabel: Тоник
+    currentLabel: tonic water
 
 # Cartons, TODO: this needs to be moved elsewhere eventually, since cartons shouldnt smash into glass shards
 
@@ -672,13 +660,13 @@
   - type: SolutionContainerManager
     solutions:
       drink:
-        maxVol: 300
+        maxVol: 150
         reagents:
         - ReagentId: JuiceLime
-          Quantity: 300
+          Quantity: 150
   - type: Drink
   - type: Label
-    currentLabel: Сок лайма
+    currentLabel: lime juice
   - type: Sprite
     sprite: Objects/Consumable/Drinks/limejuice.rsi
 
@@ -691,13 +679,13 @@
   - type: SolutionContainerManager
     solutions:
       drink:
-        maxVol: 300
+        maxVol: 150
         reagents:
         - ReagentId: JuiceOrange
-          Quantity: 300
+          Quantity: 150
   - type: Drink
   - type: Label
-    currentLabel: Апельсиновый сок
+    currentLabel: orange juice
   - type: Sprite
     sprite: Objects/Consumable/Drinks/orangejuice.rsi
 
@@ -710,13 +698,13 @@
   - type: SolutionContainerManager
     solutions:
       drink:
-        maxVol: 300
+        maxVol: 150
         reagents:
         - ReagentId: Cream
-          Quantity: 300
+          Quantity: 150
   - type: Drink
   - type: Label
-    currentLabel: Сливки
+    currentLabel: cream
   - type: Sprite
     sprite: Objects/Consumable/Drinks/cream.rsi
 
@@ -737,8 +725,6 @@
         - ReagentId: Sugar
           Quantity: 300
   - type: Drink
-  - type: Label
-    currentLabel: Сахар
 
 - type: entity
   parent: DrinkBottlePlasticBaseFull
@@ -755,7 +741,7 @@
           Quantity: 300
   - type: Drink
   - type: Label
-    currentLabel: Лемон-Лайм
+    currentLabel: lemon-lime
 
 - type: entity
   parent: DrinkBottlePlasticBaseFull
@@ -766,13 +752,13 @@
   - type: SolutionContainerManager
     solutions:
       drink:
-        maxVol: 300
+        maxVol: 150
         reagents:
         - ReagentId: Mead
-          Quantity: 300
+          Quantity: 150
   - type: Drink
   - type: Label
-    currentLabel: Мёд
+    currentLabel: mead
 
 - type: entity
   parent: DrinkBottlePlasticBaseFull
@@ -789,7 +775,7 @@
           Quantity: 300
   - type: Drink
   - type: Label
-    currentLabel: Лёд
+    currentLabel: ice
 
 - type: entity
   parent: DrinkBottlePlasticBaseFull
@@ -806,7 +792,7 @@
           Quantity: 300
   - type: Drink
   - type: Label
-    currentLabel: Кофе
+    currentLabel: coffee
 
 - type: entity
   parent: DrinkBottlePlasticBaseFull
@@ -823,7 +809,7 @@
           Quantity: 300
   - type: Drink
   - type: Label
-    currentLabel: Чай
+    currentLabel: tea
 
 - type: entity
   parent: DrinkBottlePlasticBaseFull
@@ -840,7 +826,7 @@
           Quantity: 300
   - type: Drink
   - type: Label
-    currentLabel: Зелёный чай
+    currentLabel: green tea
 
 - type: entity
   parent: DrinkBottlePlasticBaseFull
@@ -872,7 +858,7 @@
           Quantity: 300
   - type: Drink
   - type: Label
-    currentLabel: Доктор Грибб
+    currentLabel: dr gibb
 
 - type: entity
   parent: DrinkBottlePlasticBaseFull
@@ -889,7 +875,7 @@
           Quantity: 300
   - type: Drink
   - type: Label
-    currentLabel: Рутбир
+    currentLabel: root beer
 
 - type: entity
   parent: DrinkBottlePlasticBaseFull
@@ -906,7 +892,7 @@
           Quantity: 300
   - type: Drink
   - type: Label
-    currentLabel: Арбузный сок
+    currentLabel: watermelon juice
 
 - type: entity
   parent: DrinkBottlePlasticBaseFull
@@ -923,7 +909,7 @@
           Quantity: 100
   - type: Drink
   - type: Label
-    currentLabel: Редбулл
+    currentLabel: red bool
 
 - type: entity
   parent: DrinkBottlePlasticBaseFull
@@ -934,5 +920,5 @@
   - type: SolutionContainerManager
     solutions:
       drink:
-        maxVol: 300
+        maxVol: 150
   - type: Drink

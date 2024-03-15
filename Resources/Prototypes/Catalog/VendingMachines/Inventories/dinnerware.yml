@@ -1,4 +1,4 @@
-- type: vendingMachineInventory
+﻿- type: vendingMachineInventory
   id: DinnerwareInventory
   startingInventory:
     ButchCleaver: 1

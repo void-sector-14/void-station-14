@@ -1,4 +1,4 @@
-- type: vendingMachineInventory
+﻿- type: vendingMachineInventory
   id: SalvageEquipmentInventory
   startingInventory:
     Crowbar: 2

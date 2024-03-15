@@ -1,4 +1,4 @@
-- type: entity
+﻿- type: entity
   id: CrateArtifactContainer
   parent: BaseStructureDynamic
   name: artifact container
@@ -34,7 +34,7 @@
             radius: 0.45
           density: 50
           mask:
-          - MachineMask
+          - SmallMobMask #this is so they can go under plastic flaps
           layer:
           - MachineLayer
     - type: Icon

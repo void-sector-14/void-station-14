@@ -1,4 +1,4 @@
-- type: entity
+﻿- type: entity
   name: flashlight
   parent: BaseItem
   id: FlashlightLantern
@@ -107,6 +107,7 @@
         visible: false
         map: [ "light" ]
   - type: MeleeWeapon
+    wideAnimationRotation: 90
     damage:
       types:
         Blunt: 10

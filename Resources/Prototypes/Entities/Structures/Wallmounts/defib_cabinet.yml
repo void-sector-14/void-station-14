@@ -1,10 +1,10 @@
-- type: entity
+﻿- type: entity
   id: DefibrillatorCabinet
   name: defibrillator cabinet
   description: A small wall mounted cabinet designed to hold a defibrillator.
   components:
     - type: WallMount
-      arc: 90
+      arc: 175
     - type: Transform
       anchored: true
     - type: Clickable

@@ -1,4 +1,4 @@
-- type: entity
+﻿- type: entity
   id: AutolatheMachineCircuitboard
   parent: BaseMachineCircuitboard
   name: autolathe machine board
@@ -28,7 +28,7 @@
       Igniter:
         Amount: 1
         DefaultPrototype: Igniter
-        ExamineName: Воспламенитель
+        ExamineName: Igniter
 
 - type: entity
   id: ProtolatheMachineCircuitboard
@@ -45,7 +45,7 @@
         GlassBeaker:
           Amount: 2
           DefaultPrototype: Beaker
-          ExamineName: Мензурка
+          ExamineName: Glass Beaker
 
 - type: entity
   parent: BaseMachineCircuitboard
@@ -61,11 +61,11 @@
       GlassBeaker:
         Amount: 2
         DefaultPrototype: Beaker
-        ExamineName: Мензурка
+        ExamineName: Glass Beaker
       Igniter:
         Amount: 1
         DefaultPrototype: Igniter
-        ExamineName: Воспламенитель
+        ExamineName: Igniter
 
 - type: entity
   id: BiofabricatorMachineCircuitboard
@@ -97,7 +97,7 @@
         GlassBeaker:
           Amount: 2
           DefaultPrototype: Beaker
-          ExamineName: Мензурка
+          ExamineName: Glass Beaker
 
 - type: entity
   id: AmmoTechFabCircuitboard
@@ -130,7 +130,7 @@
         GlassBeaker:
           Amount: 2
           DefaultPrototype: Beaker
-          ExamineName: Мензурка
+          ExamineName: Glass Beaker
     - type: StealTarget
       stealGroup: MedicalTechFabCircuitboard
 
@@ -150,7 +150,7 @@
       GlassBeaker:
         Amount: 2
         DefaultPrototype: Beaker
-        ExamineName: Мензурка
+        ExamineName: Glass Beaker
 
 - type: entity
   id: ExosuitFabricatorMachineCircuitboard
@@ -213,7 +213,7 @@
         GlassBeaker:
           Amount: 1
           DefaultPrototype: Beaker
-          ExamineName: Мензурка
+          ExamineName: Glass Beaker
 
 - type: entity
   id: DiagnoserMachineCircuitboard
@@ -230,12 +230,12 @@
       GlassBeaker:
         Amount: 1
         DefaultPrototype: Beaker
-        ExamineName: Мензурка
+        ExamineName: Glass Beaker
     componentRequirements:
       DiseaseSwab:
         Amount: 1
         DefaultPrototype: DiseaseSwab
-        ExamineName: Стерильная палочка
+        ExamineName: Swab
 
 - type: entity
   id: ArtifactAnalyzerMachineCircuitboard
@@ -451,7 +451,7 @@
   id: PortableScrubberMachineCircuitBoard
   parent: BaseMachineCircuitboard
   name: portable scrubber machine board
-  description: A PCB for a portable scrubber.
+  description: A machine printed circuit board for a portable scrubber.
   components:
   - type: Sprite
     state: engineering
@@ -463,6 +463,22 @@
     materialRequirements:
       Cable: 5
       Glass: 2
+
+- type: entity
+  id: SpaceHeaterMachineCircuitBoard
+  parent: BaseMachineCircuitboard
+  name: space heater machine board
+  description: A machine printed circuit board for a space heater.
+  components:
+  - type: Sprite
+    state: engineering
+  - type: MachineBoard
+    prototype: SpaceHeater
+    requirements:
+      MatterBin: 1
+      Capacitor: 2
+    materialRequirements:
+      Cable: 5
 
 - type: entity
   id: CloningPodMachineCircuitboard
@@ -542,7 +558,7 @@
         GlassBeaker:
           Amount: 2
           DefaultPrototype: Beaker
-          ExamineName: Мензурка
+          ExamineName: Glass Beaker
 
 - type: entity
   id: ChemDispenserMachineCircuitboard
@@ -563,7 +579,7 @@
         GlassBeaker:
           Amount: 2
           DefaultPrototype: Beaker
-          ExamineName: Мензурка
+          ExamineName: Glass Beaker
 
 - type: entity
   id: BiomassReclaimerMachineCircuitboard
@@ -580,7 +596,7 @@
         Knife:
           Amount: 2
           DefaultPrototype: KitchenKnife
-          ExamineName: Нож
+          ExamineName: Knife
       materialRequirements:
         Steel: 5
 
@@ -602,7 +618,7 @@
         GlassBeaker:
           Amount: 2
           DefaultPrototype: Beaker
-          ExamineName: Мензурка
+          ExamineName: Glass Beaker
 
 - type: entity
   id: SeedExtractorMachineCircuitboard
@@ -785,23 +801,23 @@
        KeyedInstrument:
           Amount: 1
           DefaultPrototype: SynthesizerInstrument
-          ExamineName: Клавишный инструмент
+          ExamineName: Keyed Instrument
        StringInstrument:
           Amount: 1
           DefaultPrototype: AcousticGuitarInstrument
-          ExamineName: Струнный инструмент
+          ExamineName: String Instrument
        PercussionInstrument:
           Amount: 1
           DefaultPrototype: GlockenspielInstrument
-          ExamineName: Ударный инструмент
+          ExamineName: Percussion Instrument
        BrassInstrument:
           Amount: 1
           DefaultPrototype: TrumpetInstrument
-          ExamineName: Духовой инструмент
+          ExamineName: Brass Instrument
        WoodwindInstrument:
           Amount: 1
           DefaultPrototype: SaxophoneInstrument
-          ExamineName: Деревянный духовой инструмент
+          ExamineName: Woodwind Instrument
 
 - type: entity
   id: PortableGeneratorPacmanMachineCircuitboard
@@ -906,7 +922,7 @@
         GlassBeaker:
           Amount: 1
           DefaultPrototype: Beaker
-          ExamineName: Мензурка
+          ExamineName: Glass Beaker
 
 - type: entity
   id: HotplateMachineCircuitboard
@@ -1067,7 +1083,7 @@
         Utensil:
           Amount: 1
           DefaultPrototype: ForkPlastic
-          ExamineName: Посуда
+          ExamineName: Utensil
 
 - type: entity
   parent: BaseMachineCircuitboard
@@ -1175,7 +1191,7 @@
           GlassBeaker:
             Amount: 1
             DefaultPrototype: Beaker
-            ExamineName: Мензурка
+            ExamineName: Glass Beaker
 
 - type: entity
   id: CargoTelepadMachineCircuitboard
@@ -1208,7 +1224,7 @@
           GlassBeaker:
             Amount: 1
             DefaultPrototype: Beaker
-            ExamineName: Мензурка
+            ExamineName: Glass Beaker
 
 - type: entity
   id: TelecomServerCircuitboard
@@ -1338,3 +1354,4 @@
     materialRequirements:
       Steel: 5
       CableHV: 2
+      

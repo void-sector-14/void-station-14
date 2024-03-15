@@ -1,4 +1,4 @@
-- type: entity
+﻿- type: entity
   id: BarberScissors
   name: barber scissors
   description: is able to reshape the hairstyle of any crew cut to your liking.
@@ -16,7 +16,7 @@
     - key: enum.MagicMirrorUiKey.Key
       type: MagicMirrorBoundUserInterface
   - type: MeleeWeapon
-    wideAnimationRotation: -90
+    wideAnimationRotation: -135
     attackRate: 1
     damage:
       types:

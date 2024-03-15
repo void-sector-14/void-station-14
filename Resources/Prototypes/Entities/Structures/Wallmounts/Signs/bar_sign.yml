@@ -1,4 +1,4 @@
-- type: entity
+﻿- type: entity
   id: BaseBarSign
   parent: BaseStructure
   name: bar sign

@@ -1,4 +1,4 @@
-- type: entity
+﻿- type: entity
   save: false
   parent: [ BaseSimpleMob, MobCombat ]
   id: BaseMobArgocyte
@@ -23,7 +23,7 @@
     bloodlossDamage:
       types:
         Bloodloss:
-          1
+          0.5
     bloodlossHealDamage:
       types:
         Bloodloss:

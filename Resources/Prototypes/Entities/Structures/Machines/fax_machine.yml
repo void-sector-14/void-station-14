@@ -1,4 +1,4 @@
-- type: entity
+﻿- type: entity
   parent: BaseMachinePowered
   id: FaxMachineBase
   name: long range fax machine
@@ -78,7 +78,6 @@
   - type: FaxMachine
     name: "Central Command"
     notifyAdmins: true
-    receiveStationGoal: true
 
 - type: entity
   parent: FaxMachineBase
@@ -106,6 +105,5 @@
     - type: FaxMachine
       name: "Captain's Office"
       receiveNukeCodes: true
-      receiveStationGoal: true
     - type: StealTarget
       stealGroup: FaxMachineCaptain

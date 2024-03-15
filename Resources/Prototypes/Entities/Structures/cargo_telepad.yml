@@ -1,4 +1,4 @@
-- type: entity
+﻿- type: entity
   id: CargoTelepad
   parent: [ BaseMachinePowered, ConstructibleMachine ]
   name: cargo telepad
