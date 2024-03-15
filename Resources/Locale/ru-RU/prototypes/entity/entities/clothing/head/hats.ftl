@@ -5,8 +5,11 @@ ent-ClothingHeadHatBeaverHat = бобровая шапка
 ent-ClothingHeadHatBeret = берет
     .desc = Берет, любимый головной убор творцов.
     .suffix = { ent-ClothingHeadBase.suffix }
+
 ent-ClothingHeadHatBeretFrench = французский берет
     .desc = Французский берет, "Vive la France".
+    .suffix = { "" }
+
 ent-ClothingHeadHatBeretSecurity = берет офицера
     .desc = Стильный вариант одежды для сотрудников службы безопасности.
     .suffix = { "" }
@@ -21,16 +24,24 @@ ent-ClothingHeadHatBeretRND = берет учёного
 
 ent-ClothingHeadHatBeretEngineering = берет инженера
     .desc = Берет с эмблемой инженерного отдела. Для инженеров, которые предпочитают стиль безопасности.
+    .suffix = { "" }
+
 ent-ClothingHeadHatBeretQM = берет квартирмейстера
     .desc = Берет с эмблемой отдела снабжения. Для квартирмейстеров, склонных к стилю.
+    .suffix = { "" }
+
 ent-ClothingHeadHatBeretHoS = берет главы службы безопасности
     .desc = Черный берет с вышитой командирской эмблемой. Для офицеров, которые предпочитают стиль безопасности.
     .suffix = { ent-ClothingHeadBase.suffix }
 
 ent-ClothingHeadHatBeretWarden = берет смотрителя
     .desc = Фирменный голубой берет с эмблемой смотрителя. Для офицеров, которые предпочитают стиль безопасности.
+    .suffix = { "" }
+
 ent-ClothingHeadHatBeretSeniorPhysician = берет ведущего врача
     .desc = Специалисты, одетые в цвета и врачей и химиков, являются гордостью этого отдела!
+    .suffix = { "" }
+
 ent-ClothingHeadHatBeretBrigmedic = берет бригмедика
     .desc = Белый берет, похож на кремовый пирог на голове.
     .suffix = { ent-ClothingHeadBase.suffix }
@@ -239,35 +250,70 @@ ent-ClothingHeadHatCapcap = фуражка капитана
     .desc = Большая, стильная капитанская фуражка.
     .suffix = { ent-ClothingHeadBase.suffix }
 
+ent-ClothingHeadHatCentcomcap = CentCom cap
+    .desc = An extravagant, fancy Central Commander cap.
+    .suffix = { "" }
+
 ent-ClothingHeadHatGladiator = шлем гладиатора
     .desc = Защищает голову от суровых пепельных ветров и игрушечных копий.
+    .suffix = { "" }
+
 ent-ClothingHeadHatPartyRed = красный праздничный колпак
     .desc = Радость, распространите!
+    .suffix = { "" }
+
 ent-ClothingHeadHatPartyYellow = жёлтый праздничный колпак
     .desc = { ent-ClothingHeadHatPartyRed.desc }
+    .suffix = { "" }
+
 ent-ClothingHeadHatPartyGreen = зелёный праздничный колпак
     .desc = { ent-ClothingHeadHatPartyRed.desc }
+    .suffix = { "" }
+
 ent-ClothingHeadHatPartyBlue = синий праздничный колпак
     .desc = { ent-ClothingHeadHatPartyRed.desc }
+    .suffix = { "" }
+
 ent-ClothingHeadHatPartyWaterCup = праздничный стаканчик для воды
     .desc = Не такой полный, как хотелось бы...
+    .suffix = { "" }
+
 ent-ClothingHeadHatGreyFlatcap = серая плоская кепка
     .desc = В моде как у рабочего класса, так и у стариков навроде Дженкинса.
+    .suffix = { "" }
+
 ent-ClothingHeadHatBrownFlatcap = коричневая плоская кепка
     .desc = Тупой клоун! Ты выставил меня в плохом свете!
+    .suffix = { "" }
+
 ent-ClothingHeadHatCowboyBrown = коричневая ковбойская шляпа
     .desc = Эта шляпа слишком тесна для нас двоих.
+    .suffix = { "" }
+
 ent-ClothingHeadHatCowboyBlack = чёрная ковбойская шляпа
     .desc = { ent-ClothingHeadHatCowboyBrown.desc }
+    .suffix = { "" }
+
 ent-ClothingHeadHatCowboyGrey = серая ковбойская шляпа
     .desc = { ent-ClothingHeadHatCowboyBrown.desc }
+    .suffix = { "" }
+
 ent-ClothingHeadHatCowboyRed = красная ковбойская шляпа
     .desc = { ent-ClothingHeadHatCowboyBrown.desc }
+    .suffix = { "" }
+
 ent-ClothingHeadHatCowboyWhite = белая ковбойская шляпа
     .desc = { ent-ClothingHeadHatCowboyBrown.desc }
+    .suffix = { "" }
+
 ent-ClothingHeadHatCowboyBountyHunter = ковбойская шляпа охотника за головами
     .desc = { ent-ClothingHeadHatCowboyBrown.desc }
+    .suffix = { "" }
+
 ent-ClothingHeadHatStrawHat = соломенная шляпа
     .desc = Модная шляпа для жарких деньков! Не рекомендуется носить около источников огня.
+    .suffix = { "" }
+
 ent-ClothingHeadHatBeretMedic = берет врача
     .desc = Белый берет, призывающий вас к чистоте.
+    .suffix = { "" }

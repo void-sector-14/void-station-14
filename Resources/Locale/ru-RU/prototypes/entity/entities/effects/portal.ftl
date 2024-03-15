@@ -8,11 +8,20 @@ ent-PortalRed = { ent-BasePortal }
 
 ent-PortalBlue = { ent-BasePortal }
     .desc = { ent-BasePortal.desc }
+    .suffix = { "" }
+
 ent-PortalArtifact = { ent-BasePortal }
     .desc = { ent-BasePortal.desc }
+    .suffix = { "" }
+
 ent-PortalGatewayBlue = { ent-BasePortal }
     .desc = { ent-BasePortal.desc }
+    .suffix = { "" }
+
 ent-PortalGatewayOrange = { ent-BasePortal }
     .desc = { ent-BasePortal.desc }
+    .suffix = { "" }
+
 ent-ShadowPortal = теневой разлом
     .desc = Выглядит нестабильно.
+    .suffix = { "" }

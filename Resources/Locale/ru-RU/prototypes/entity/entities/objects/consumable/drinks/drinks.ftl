@@ -102,6 +102,10 @@ ent-DrinkCarrotJuice = морковный сок
     .desc = Как морковь, но не хрустит.
     .suffix = { ent-DrinkGlassBase.suffix }
 
+ent-DrinkChocolateGlass = горячий шоколад
+    .desc = Горячий напиток, состоящий из растопленного шоколада и подогретого молока.
+    .suffix = { ent-DrinkGlassBase.suffix }
+
 ent-DrinkCoffee = кофе
     .desc = Не уроните, иначе повсюду будут обжигающая жидкость и осколки стекла.
     .suffix = { ent-DrinkGlassBase.suffix }
@@ -166,9 +170,9 @@ ent-DrinkGinTonicglass = джин-тоник
     .desc = Мягкий, но все же отличный коктейль. Пейте, как истинный англичанин.
     .suffix = { ent-DrinkGlassBase.suffix }
 
-ent-DrinkGoldschlagerGlass = бокал гольдшлягера
-    .desc = 50-градусное доказательство того, что девочки-подростки будут пить все, в чём есть золото.
-    .suffix = { ent-DrinkGlassBase.suffix }
+ent-DrinkGildlagerGlass = { ent-DrinkGlass }
+    .desc = { ent-DrinkGlass.desc }
+    .suffix = gildlager
 
 ent-DrinkGrapeJuice = виноградный сок
     .desc = Это виногрррад!
@@ -426,6 +430,10 @@ ent-DrinkTequilaSunriseGlass = бокал текилы санрайз
     .desc = Ну класс, теперь вы испытываете ностальгию по восходам солнца на Терре...
     .suffix = { ent-DrinkGlassBase.suffix }
 
+ent-DrinkTheMartinez = бокал Мартинес
+    .desc = Легенда среди киберпанков. Вспоминается по напитку, забывается по пьяни.
+    .suffix = { ent-DrinkGlassBase.suffix }
+
 ent-DrinkThreeMileIslandGlass = бокал три-майл-айленд
     .desc = Стакан этого напитка может предотвратить расплавление ядерного реактора.
     .suffix = { ent-DrinkGlassBase.suffix }
@@ -510,6 +518,6 @@ ent-DrinkHellRamen = чашка адского рамэна
     .desc = Просто добавьте 10 мл кипятка! Супер острый вкус.
     .suffix = { ent-DrinkRamen.suffix }
 
-ent-DrinkTheMartinez = бокал Мартинес
-    .desc = Легенда среди киберпанков. Вспоминается по напитку, забывается по пьяни.
-    .suffix = { ent-DrinkGlassBase.suffix }
+ent-DrinkBloodGlass = { ent-DrinkGlass }
+    .desc = { ent-DrinkGlass.desc }
+    .suffix = blood

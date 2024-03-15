@@ -1,10 +1,15 @@
 ent-BaseLightStructure = { ent-BaseStructure }
     .desc = { ent-BaseStructure.desc }
+    .suffix = { "" }
+
 ent-LightPostSmall = фонарный столб
-    .desc = Всегда работающий светильник.
-    .suffix = Всегда запитанный
+    .desc = Обесточенный осветительный прибор.
+    .suffix = Обесточенный
+
 ent-PoweredLightPostSmallEmpty = фонарный столб
-    .desc = Осветительный прибор.
-    .suffix = Пустой
+    .desc = Маленький осветительный прибор.
+    .suffix = Пустой, Запитанный
+
 ent-PoweredLightPostSmall = фонарный столб
-    .desc = Осветительный прибор. Потребляет энергию и излучает свет, если оснащен лампой-трубкой.
+    .desc = Осветительный прибор. Потребляет энергию и излучает свет, если оснащен лампочкой-трубкой.
+    .suffix = Запитанный

@@ -102,10 +102,6 @@ ent-FoodSaladWatermelonFruitBowl = фруктовый арбузный боул
     .desc = Единственный салат, в котором можно съесть миску.
     .suffix = { ent-FoodMealBase.suffix }
 
-ent-FoodMealTaco = тако
-    .desc = Попробуйте кусочек!
-    .suffix = { ent-FoodMealBase.suffix }
-
 ent-FoodMealCornInButter = кукуруза в масле
     .desc = Масляное.
     .suffix = { "" }

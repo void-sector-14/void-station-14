@@ -7,8 +7,9 @@ ent-BriefcaseSyndieSniperBundleFilled = коричневый чемодан
     .suffix = Заполненный, Христов
 
 ent-BriefcaseSyndieLobbyingBundleFilled = коричневый чемодан
+    .desc = { ent-BriefcaseSyndie.desc }
     .suffix = Синдикат, Кредиты
-    .desc = { ent-BriefcaseSyndie.desc }
+
 ent-BriefcaseThiefBribingBundleFilled = коричневый чемодан
-    .suffix = Вор, Кредиты
     .desc = { ent-BriefcaseSyndie.desc }
+    .suffix = Вор, Кредиты

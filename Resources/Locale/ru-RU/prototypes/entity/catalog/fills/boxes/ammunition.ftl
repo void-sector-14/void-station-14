@@ -94,42 +94,6 @@ ent-BoxMagazineShotgunIncendiary = коробка барабанов (.50 заж
     .desc = Полная коробка барабанов с патронами .50 зажигательные.
     .suffix = { ent-BoxMagazine.suffix }
 
-ent-BaseAmmoProvider = { ent-BaseItem }
-    .desc = { ent-BaseItem.desc }
-    .suffix = { "" }
-
-ent-AmmoProviderShotgunShell = { ent-BaseAmmoProvider }
-    .desc = { ent-BaseAmmoProvider.desc }
-    .suffix = { ent-BaseAmmoProvider.suffix }
-
-ent-BoxBeanbag = раздатчик ружейных патронов (травматических)
-    .desc = Полная коробка травматических ружейных патронов.
-    .suffix = { ent-AmmoProviderShotgunShell.suffix }
-
-ent-BoxLethalshot = раздатчик ружейных патронов (летальных)
-    .desc = Полная коробка летальных ружейных патронов.
-    .suffix = { ent-AmmoProviderShotgunShell.suffix }
-
-ent-BoxShotgunSlug = раздатчик ружейных патронов (пули)
-    .desc = Полная коробка пулевых ружейных патронов
-    .suffix = { ent-AmmoProviderShotgunShell.suffix }
-
-ent-BoxShotgunFlare = раздатчик ружейных патронов (фальшфейеры)
-    .desc = Полная коробка ружейных патронов-фальшфейеров.
-    .suffix = { ent-AmmoProviderShotgunShell.suffix }
-
-ent-BoxShotgunIncendiary = раздатчик ружейных патронов (зажигательные)
-    .desc = Полная коробка зажигательных ружейных патронов.
-    .suffix = { ent-AmmoProviderShotgunShell.suffix }
-
-ent-BoxShotgunPractice = раздатчик ружейных патронов (учебные)
-    .desc = Полная коробка учебных ружейных патронов.
-    .suffix = { ent-AmmoProviderShotgunShell.suffix }
-
-ent-BoxShellTranquilizer = раздатчик ружейных патронов (транквилизаторы)
-    .desc = Полная коробка ружейных патронов-транквилизаторов.
-    .suffix = { ent-AmmoProviderShotgunShell.suffix }
-
 ent-BoxMagazineRifle = коробка магазинов с .20 винтовочными
     .desc = Полная коробка магазинов с патронами калибра .20 винтовочный.
     .suffix = { ent-BoxMagazine.suffix }

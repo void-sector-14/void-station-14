@@ -17,8 +17,11 @@ ent-OatBushel = сноп овса
 ent-Sugarcane = сахарный тростник
     .desc = Болезненно-сладкий.
     .suffix = { ent-ProduceBase.suffix }
+
 ent-FoodLaughinPeaPod = стручок смешного горошка
     .desc = Любимое растение клоуна.
+    .suffix = { "" }
+
 ent-Log = бревно
     .desc = Такое заметишь и в своём глазу.
     .suffix = { ent-ProduceBase.suffix }
@@ -46,8 +49,11 @@ ent-FoodMimana = мимана
 ent-TrashBananaPeel = банановая кожура
     .desc = { ent-BaseItem.desc }
     .suffix = { ent-BaseItem.suffix }
+
 ent-TrashBakedBananaPeel = печёная банановая кожура
     .desc = { ent-TrashBananaPeel.desc }
+    .suffix = { "" }
+
 ent-TrashMimanaPeel = корочка мимана
     .desc = { "" }
     .suffix = { "" }
@@ -70,8 +76,11 @@ ent-FoodGarlic = чеснок
 
 ent-FoodLemon = лимон
     .desc = Когда жизнь дает вам лимоны, будьте благодарны, что это не лаймы.
+    .suffix = { "" }
+
 ent-FoodLemoon = лилун
     .desc = Люди говорят, что Луна сделана из сыра, но на самом деле Луна сделана из молока и лавра!
+    .suffix = { "" }
 
 ent-FoodLime = лайм
     .desc = Лечит космическую цингу, позволяет вести себя как космический пират.
@@ -163,8 +172,12 @@ ent-FoodAloe = алоэ
 
 ent-FoodPoppy = мак
     .desc = Цветок, экстракты которого часто используются в производстве лекарств.
+    .suffix = { "" }
+
 ent-FoodLily = лилия
     .desc = Прекрасный оранжевый цветок.
+    .suffix = { "" }
+
 ent-FoodLingzhi = линчжи
     .desc = Сильнодействующий лекарственный гриб. Не переборщите.
     .suffix = { ent-FoodProduceBase.suffix }
@@ -196,8 +209,11 @@ ent-RiceBushel = сноп риса
 ent-FoodSoybeans = соевые бобы
     .desc = Для тех, кто не выносит вида старого доброго мяса.
     .suffix = { ent-ProduceBase.suffix }
+
 ent-FoodSpacemansTrumpet = космонавтская труба
     .desc = Яркий цветок, слабо пахнущий свежескошенной травой. Кажется, что после прикосновения к нему на коже остаётся пятно, однако большинство других поверхностей не подвержены этому явлению.
+    .suffix = { "" }
+
 ent-FoodKoibean = бобы кои
     .desc = Эти бобы кажутся немного подозрительными.
     .suffix = { "" }
@@ -212,15 +228,28 @@ ent-FoodWatermelonSlice = ломтик арбуза
 
 ent-FoodGrape = виноград
     .desc = Пища императоров, жителей космической Франции (обычно в виде вина) и занятых мамочек. Когда-нибудь его можно будет использовать в производстве вина для бармена, если оно вдруг закончится.
+    .suffix = { "" }
+
 ent-FoodBerries = ягоды
     .desc = Горсть ягод различных видов.
+    .suffix = { "" }
+
 ent-FoodBungo = плод бунго
     .desc = Скромный плод бунго.
+    .suffix = { "" }
+
 ent-FoodBungoPit = косточка бунго
     .desc = { ent-FoodInjectableBase.desc }
+    .suffix = { "" }
+
 ent-FoodPeaPod = стручок гороха
     .desc = Любимое лакомство уток!
+    .suffix = { "" }
+
 ent-FoodPumpkin = тыква
     .desc = Большой, оранжевый... ягода. Серьёзно.
+    .suffix = { "" }
+
 ent-CottonBol = хлопковый шарик
     .desc = Любимая закуска ниан, такая же пушистая, как и они.
+    .suffix = { "" }

@@ -18,6 +18,10 @@ ent-ClothingOuterHardsuitSalvage = скафандр шахтёра
     .desc = Специальный костюм, защищающий от опасной среды с низким давлением. Имеет усиленное покрытие на случай встречи с дикой фауной.
     .suffix = { ent-ClothingOuterHardsuitBase.suffix }
 
+ent-ClothingOuterHardsuitMaxim = ультимативный скафандр утилизатора
+    .desc = Огонь. Жара. Эти штуки выковывают великое оружие, они также выковывают великих спасателей.
+    .suffix = { "" }
+
 ent-ClothingOuterHardsuitSecurity = скафандр службы безопасности
     .desc = Специальный костюм, защищающий от опасной среды с низким давлением. Имеет дополнительный слой брони.
     .suffix = { ent-ClothingOuterHardsuitBase.suffix }
@@ -58,8 +62,8 @@ ent-ClothingOuterHardsuitSyndie = кроваво-красный скафандр
     .desc = Тяжелобронированный и мобильный скафандр, предназначенный для специальных операций.
     .suffix = { ent-ClothingOuterHardsuitBase.suffix }
 
-ent-ClothingOuterHardsuitMedic = кроваво-красный медицинский скафандр
-    .desc = Тяжелобронированный и маневренный усовершенствованный скафандр, специально разработанный для полевых операций.
+ent-ClothingOuterHardsuitSyndieMedic = blood-red medic hardsuit
+    .desc = A heavily armored and agile advanced hardsuit specifically designed for field medic operations.
     .suffix = { "" }
 
 ent-ClothingOuterHardsuitSyndieElite = скафандр элиты синдиката
@@ -120,7 +124,12 @@ ent-ClothingOuterHardsuitCBURN = экзокостюм отряда РХБЗЗ
 
 ent-ClothingOuterHardsuitClown = скафандр клоуна
     .desc = Самодельный клоунский скафандр.
+    .suffix = { "" }
+
 ent-ClothingOuterHardsuitMime = скафандр мима
     .desc = Самодельный мимский скафандр.
+    .suffix = { "" }
+
 ent-ClothingOuterHardsuitSanta = скафандр Санты
     .desc = Весёлый, праздничный скафандр, который защищает весёлого дарителя подарков во время полётов на космосанях. Предоставляет некоторую защиту от ударов астероидов.
+    .suffix = { "" }

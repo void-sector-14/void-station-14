@@ -20,6 +20,7 @@ ent-ClothingEyesGlasses = очки
 
 ent-ClothingEyesGlassesJensen = очки Дженсена
     .desc = Пара складных очков жёлтого оттенка. Вы никогда не просили о них.
+    .suffix = { "" }
 
 ent-ClothingEyesGlassesJamjar = очки умника
     .desc = Так же известны как Защитники Девственности.

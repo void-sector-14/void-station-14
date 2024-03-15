@@ -1,4 +1,4 @@
-﻿- type: entity
+- type: entity
   id: WeaponWaterGunBase
   abstract: true
   parent: BaseItem

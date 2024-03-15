@@ -1,0 +1,22 @@
+{
+  "name": "czeshuika-tools",
+  "version": "1.0.0",
+  "description": "Вспомогательные инструменты",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node out",
+    "build-start": "tsc && node out"
+  },
+  "private": true,
+  "dependencies": {
+    "winston": "3.10.0",
+    "yaml": "2.3.2",
+    "ts-node-dev": "2.0.0",
+    "@fluent/syntax": "0.19.0"
+  },
+  "devDependencies": {
+    "@types/node": "20.6.0",
+    "typescript": "5.2.2"
+  }
+}

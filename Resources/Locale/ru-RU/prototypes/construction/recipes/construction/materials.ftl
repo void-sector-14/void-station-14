@@ -18,6 +18,3 @@ con-SheetUGlass = урановое стекло
 
 con-SheetRUGlass = армированное урановое стекло
     .desc = Лист уранового стекла.
-
-con-CottonWovenCloth = ткань
-    .desc = Сырьё

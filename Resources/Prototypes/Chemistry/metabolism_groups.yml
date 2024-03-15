@@ -1,4 +1,4 @@
-﻿# Default human metabolism groups.
+# Default human metabolism groups.
 - type: metabolismGroup
   id: Poison
 

@@ -2,31 +2,34 @@ ent-OxygenTankFilled = { ent-OxygenTank }
     .desc = { ent-OxygenTank.desc }
     .suffix = Заполненный
 
-ent-YellowOxygenTankFilled = { ent-YellowOxygenTank }
-    .desc = { ent-YellowOxygenTank.desc }
-    .suffix = Заполненный
-
 ent-EmergencyOxygenTankFilled = { ent-EmergencyOxygenTank }
     .desc = { ent-EmergencyOxygenTank.desc }
     .suffix = Заполненный
+
 ent-EmergencyNitrogenTankFilled = { ent-EmergencyNitrogenTank }
-    .suffix = Заполненный
     .desc = { ent-EmergencyNitrogenTank.desc }
+    .suffix = Filled
+
 ent-ExtendedEmergencyOxygenTankFilled = { ent-ExtendedEmergencyOxygenTank }
     .desc = { ent-ExtendedEmergencyOxygenTank.desc }
     .suffix = Заполненный
+
 ent-ExtendedEmergencyNitrogenTankFilled = { ent-ExtendedEmergencyNitrogenTank }
-    .suffix = Заполненный
     .desc = { ent-ExtendedEmergencyNitrogenTank.desc }
+    .suffix = Filled
+
 ent-DoubleEmergencyOxygenTankFilled = { ent-DoubleEmergencyOxygenTank }
     .desc = { ent-DoubleEmergencyOxygenTank.desc }
     .suffix = Заполненный
+
 ent-DoubleEmergencyNitrogenTankFilled = { ent-DoubleEmergencyNitrogenTank }
-    .suffix = Заполненный
     .desc = { ent-DoubleEmergencyNitrogenTank.desc }
+    .suffix = Filled
+
 ent-EmergencyFunnyOxygenTankFilled = { ent-EmergencyFunnyOxygenTank }
-    .suffix = Заполненный
     .desc = { ent-EmergencyFunnyOxygenTank.desc }
+    .suffix = Заполненный
+
 ent-AirTankFilled = { ent-AirTank }
     .desc = { ent-AirTank.desc }
     .suffix = Заполненный
