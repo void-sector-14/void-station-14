@@ -1,33 +1,61 @@
 #Эта хуйня изобретена спардой блять Code by Wisdom
-#- type: entity
-#  name: Ямато
-#  parent: BaseItem
-#  id: Yamato
-#  description: Клинок способный разрезать само пространство.
-#   components:
-#  - type: Sharp
-#  - type: Sprite
-#    sprite: Добавлю когда не будет лень
-#    state: icon
-#  - type: MeleeWeapon
-#    wideAnimationRotation: -135
-#    attackRate: 2
-#    damage:
-#      types:
-#        Slash: 30
-#    soundHit:
-#        path: /Audio/Weapons/bladeslice.ogg
-#  - type: Reflect
-#    enabled: true
-#    reflectProb: .9
-#    spread: 180
-#  - type: Item
-#    size: Normal
-#    sprite: Когда будет не лень, когда будут спрайты
-#  - type: Tag
-#    tags:
-#    - Yamato
-#  - type: DisarmMalus
+- type: entity
+  name: Ямато
+  parent: BaseItem
+  id: Yamato
+  description: Древний фамильный клинок. Его лезвие столь остро, что кажется способно разрезать само пространство.
+  components:
+  - type: Sharp
+  - type: Tag
+    tags:
+    - Katana
+  - type: Sprite
+    sprite: Void/yamato.rsi
+    state: icon
+  - type: MeleeWeapon
+    wideAnimationRotation: -135
+    attackRate: 1.5
+    damage:
+      types:
+        Slash: 40
+    soundHit:
+        path: /Audio/Weapons/bladeslice.ogg
+  - type: Reflect
+    enabled: true
+    reflectProb: .9
+    spread: 90
+  - type: Item
+    size: Normal
+    sprite: Void/yamato.rsi
+  - type: DisarmMalus
+
+- type: entity
+  parent: [ClothingBeltBase, ClothingSlotBase]
+  id: ClothingBeltSheathYamato
+  name: Ножны Ямато
+  description: Исскустные древние ножны, для столь же древнего клинка
+  components:
+  - type: Sprite
+    sprite: Void/sheathyamato.rsi
+    state: sheath
+  - type: Clothing
+    sprite: Void/sheathyamato.rsi
+  - type: ItemSlots
+    slots:
+      item:
+        name: Yamato
+        insertVerbText: sheath-insert-verb
+        ejectVerbText: sheath-eject-verb
+        whitelist:
+          tags:
+          - Katana
+  - type: ItemMapper
+    mapLayers:
+      sheath-sabre:
+        whitelist:
+          tags:
+          - Katana
+  - type: Appearance
 
 - type: entity
   parent: ClothingOuterStorageBase
