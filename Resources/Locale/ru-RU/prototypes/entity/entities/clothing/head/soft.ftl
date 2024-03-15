@@ -46,11 +46,11 @@ ent-ClothingHeadHatGreensoftFlipped = перевёрнутая зелёная к
     .desc = Бейсболка безвкусного зелёного цвета. Перевёрнутая.
     .suffix = { ent-ClothingHeadBaseButcherable.suffix }
 
-ent-ClothingHeadHatBlacksoft = black cap
-    .desc = It's a baseball hat in a tasteless black colour.
+ent-ClothingHeadHatBlacksoft = черная кепка
+    .desc = Это бейсболка безвкусного черного цвета.
     .suffix = { "" }
 
-ent-ClothingHeadHatBlacksoftFlipped = black cap
+ent-ClothingHeadHatBlacksoftFlipped = черная кепка
     .desc = { ent-ClothingHeadHatBlacksoft.desc }
     .suffix = { ent-ClothingHeadHeadHatBaseFlipped.suffix }
 

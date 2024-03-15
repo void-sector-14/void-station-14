@@ -110,7 +110,7 @@ ent-PottedPlant26 = { ent-PottedPlantBase }
     .desc = Мне показалось, или оно подмигнуло?
     .suffix = { "" }
 
-ent-PottedPlant27 = plastic potted plant
+ent-PottedPlant27 = пластиковое растение
     .desc = Искусственное, дешёвое на вид, пластиковое деревце. Идеально подходит тем, кто убивает все растения, которых касаются.
     .suffix = { "" }
 

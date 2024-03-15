@@ -250,8 +250,8 @@ ent-ClothingHeadHatCapcap = фуражка капитана
     .desc = Большая, стильная капитанская фуражка.
     .suffix = { ent-ClothingHeadBase.suffix }
 
-ent-ClothingHeadHatCentcomcap = CentCom cap
-    .desc = An extravagant, fancy Central Commander cap.
+ent-ClothingHeadHatCentcomcap = Фуражка центком
+    .desc = Экстравагантная, причудливая фуражка центрального командования.
     .suffix = { "" }
 
 ent-ClothingHeadHatGladiator = шлем гладиатора

@@ -246,6 +246,6 @@ ent-FloorTileItemAstroIce = астро-лёд
     .desc = Искусственный лёд, такой же скользкий, как настоящий, и при этом легко снимается!
     .suffix = { "" }
 
-ent-FloorTileItemWoodLarge = large wood floor
+ent-FloorTileItemWoodLarge = ламинат
     .desc = { ent-FloorTileItemBase.desc }
     .suffix = { "" }

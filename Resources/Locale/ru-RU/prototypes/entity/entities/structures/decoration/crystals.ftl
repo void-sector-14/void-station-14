@@ -1,5 +1,5 @@
-ent-CrystalGreen = { ent-CrystalGreenSmall }
-    .desc = { ent-CrystalGreenSmall.desc }
+ent-CrystalGreen = зелёный кристал
+    .desc = Блестящий зелёный кристалл.
     .suffix = { ent-BaseStructure.suffix }
 
 ent-CrystalPink = розовый кристалл

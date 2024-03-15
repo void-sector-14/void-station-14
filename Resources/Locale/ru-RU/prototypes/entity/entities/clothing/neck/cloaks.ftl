@@ -1,5 +1,5 @@
-ent-ClothingNeckCloakCentcom = central commander's cloak
-    .desc = A pompous and elite green cloak with a nice gold trim, tailored specifically to the Central Commander. It's so heavy, the gold trim might be real.
+ent-ClothingNeckCloakCentcom = плащ центком
+    .desc = Помпезный и элитный зеленый плащ с красивой золотой отделкой, сшитый специально для ЦентКома. Он такой тяжелый, что золотая отделка может быть настоящей.
     .suffix = { "" }
 
 ent-ClothingNeckCloakCap = плащ капитана

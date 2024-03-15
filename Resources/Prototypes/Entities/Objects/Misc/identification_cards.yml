@@ -785,7 +785,7 @@
   - type: Item
     heldPrefix: blue
   - type: IdCard
-    jobTitle: Centcom Quarantine Officer
+    jobTitle: Офицер РХБЗЗ
 
 - type: entity
   parent: IDCardStandard

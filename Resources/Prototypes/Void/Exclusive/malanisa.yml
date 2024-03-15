@@ -7,6 +7,7 @@
   id: ClothingMaskGasDuskfort
   name: Металлическая маска
   description: Металличесекая маска с удобной подложкой
+  suffix: Вещи Маланисы
   components:
   - type: BreathMask
   - type: IngestionBlocker
@@ -28,6 +29,7 @@
   id: ClothingOuterCoatDuskfort
   name: Пальто из драконьей кожи
   description: Пальто из редкого материала
+  suffix: Вещи Маланисы
   components:
   - type: Sprite
     sprite: Void/Clothing/OuterClothing/Coats/duskcoat.rsi
@@ -46,6 +48,7 @@
   id: ClothingShoesBootsCombatDusk
   name: Ботинки из драконьей кожи
   description: Пара сапог из редкого материала
+  suffix: Вещи Маланисы
   components:
   - type: Sprite
     sprite: Void/Clothing/Shoes/Boots/duskboot.rsi
@@ -61,6 +64,7 @@
   id: ClothingUniformJumpskirtDusk
   name: Зелёная майка с шортами
   description: Кто-то додумался порезать джинсы в шорты
+  suffix: Вещи Маланисы
   components:
   - type: Sprite
     sprite: Void/Clothing/Uniforms/Jumpskirt/dusksuit.rsi
