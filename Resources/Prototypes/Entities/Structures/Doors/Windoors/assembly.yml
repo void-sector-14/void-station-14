@@ -1,4 +1,4 @@
-﻿- type: entity
+- type: entity
   id: WindoorAssembly
   name: windoor assembly
   description: It opens, it closes, and you can see through it!

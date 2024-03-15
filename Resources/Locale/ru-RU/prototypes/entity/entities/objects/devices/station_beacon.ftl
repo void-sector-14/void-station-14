@@ -1,200 +1,267 @@
 ent-DefaultStationBeacon = станционный маяк
     .desc = Небольшое устройство, передающее информацию на карты станций. Может быть сконфигурировано.
     .suffix = Общий
+
 ent-DefaultStationBeaconUnanchored = { ent-DefaultStationBeacon }
-    .suffix = Общий, Незакреплён
     .desc = { ent-DefaultStationBeacon.desc }
+    .suffix = Общий, Незакреплён
+
 ent-StationBeaconPart = каркас станционного маяка
     .desc = Сборная конструкция, используемая для создания станционного маяка.
+    .suffix = { "" }
+
 ent-DefaultStationBeaconCommand = { ent-DefaultStationBeacon }
+    .desc = { ent-DefaultStationBeacon.desc }
     .suffix = Командование
-    .desc = { ent-DefaultStationBeacon.desc }
+
 ent-DefaultStationBeaconBridge = { ent-DefaultStationBeaconCommand }
+    .desc = { ent-DefaultStationBeaconCommand.desc }
     .suffix = Мостик
-    .desc = { ent-DefaultStationBeaconCommand.desc }
+
 ent-DefaultStationBeaconVault = { ent-DefaultStationBeaconCommand }
+    .desc = { ent-DefaultStationBeaconCommand.desc }
     .suffix = Хранилище
-    .desc = { ent-DefaultStationBeaconCommand.desc }
+
 ent-DefaultStationBeaconCaptainsQuarters = { ent-DefaultStationBeaconCommand }
+    .desc = { ent-DefaultStationBeaconCommand.desc }
     .suffix = Каюта капитана
-    .desc = { ent-DefaultStationBeaconCommand.desc }
+
 ent-DefaultStationBeaconHOPOffice = { ent-DefaultStationBeaconCommand }
-    .suffix = Офис ГП
     .desc = { ent-DefaultStationBeaconCommand.desc }
+    .suffix = Офис ГП
+
 ent-DefaultStationBeaconSecurity = { ent-DefaultStationBeacon }
+    .desc = { ent-DefaultStationBeacon.desc }
     .suffix = Отдел СБ
-    .desc = { ent-DefaultStationBeacon.desc }
+
 ent-DefaultStationBeaconBrig = { ent-DefaultStationBeaconSecurity }
+    .desc = { ent-DefaultStationBeaconSecurity.desc }
     .suffix = Бриг
-    .desc = { ent-DefaultStationBeaconSecurity.desc }
+
 ent-DefaultStationBeaconWardensOffice = { ent-DefaultStationBeaconSecurity }
+    .desc = { ent-DefaultStationBeaconSecurity.desc }
     .suffix = Офис смотрителя
-    .desc = { ent-DefaultStationBeaconSecurity.desc }
+
 ent-DefaultStationBeaconHOSRoom = { ent-DefaultStationBeaconSecurity }
+    .desc = { ent-DefaultStationBeaconSecurity.desc }
     .suffix = Комната ГСБ
-    .desc = { ent-DefaultStationBeaconSecurity.desc }
+
 ent-DefaultStationBeaconArmory = { ent-DefaultStationBeaconSecurity }
+    .desc = { ent-DefaultStationBeaconSecurity.desc }
     .suffix = Оружейная
-    .desc = { ent-DefaultStationBeaconSecurity.desc }
+
 ent-DefaultStationBeaconPermaBrig = { ent-DefaultStationBeaconSecurity }
+    .desc = { ent-DefaultStationBeaconSecurity.desc }
     .suffix = Пермабриг
-    .desc = { ent-DefaultStationBeaconSecurity.desc }
+
 ent-DefaultStationBeaconDetectiveRoom = { ent-DefaultStationBeaconSecurity }
+    .desc = { ent-DefaultStationBeaconSecurity.desc }
     .suffix = Комната детектива
-    .desc = { ent-DefaultStationBeaconSecurity.desc }
+
 ent-DefaultStationBeaconCourtroom = { ent-DefaultStationBeaconSecurity }
+    .desc = { ent-DefaultStationBeaconSecurity.desc }
     .suffix = Зал суда
-    .desc = { ent-DefaultStationBeaconSecurity.desc }
+
 ent-DefaultStationBeaconLawOffice = { ent-DefaultStationBeaconSecurity }
+    .desc = { ent-DefaultStationBeaconSecurity.desc }
     .suffix = Офис АВД
-    .desc = { ent-DefaultStationBeaconSecurity.desc }
+
 ent-DefaultStationBeaconSecurityCheckpoint = { ent-DefaultStationBeaconSecurity }
-    .suffix = КПП СБ
     .desc = { ent-DefaultStationBeaconSecurity.desc }
+    .suffix = КПП СБ
+
 ent-DefaultStationBeaconMedical = { ent-DefaultStationBeacon }
+    .desc = { ent-DefaultStationBeacon.desc }
     .suffix = Медицинский отдел
-    .desc = { ent-DefaultStationBeacon.desc }
+
 ent-DefaultStationBeaconMedbay = { ent-DefaultStationBeaconMedical }
+    .desc = { ent-DefaultStationBeaconMedical.desc }
     .suffix = Медбей
-    .desc = { ent-DefaultStationBeaconMedical.desc }
+
 ent-DefaultStationBeaconChemistry = { ent-DefaultStationBeaconMedical }
+    .desc = { ent-DefaultStationBeaconMedical.desc }
     .suffix = Химия
-    .desc = { ent-DefaultStationBeaconMedical.desc }
+
 ent-DefaultStationBeaconCryonics = { ent-DefaultStationBeaconMedical }
+    .desc = { ent-DefaultStationBeaconMedical.desc }
     .suffix = Крионика
-    .desc = { ent-DefaultStationBeaconMedical.desc }
+
 ent-DefaultStationBeaconCMORoom = { ent-DefaultStationBeaconMedical }
+    .desc = { ent-DefaultStationBeaconMedical.desc }
     .suffix = Комната ГВ
-    .desc = { ent-DefaultStationBeaconMedical.desc }
+
 ent-DefaultStationBeaconMorgue = { ent-DefaultStationBeaconMedical }
+    .desc = { ent-DefaultStationBeaconMedical.desc }
     .suffix = Морг
-    .desc = { ent-DefaultStationBeaconMedical.desc }
+
 ent-DefaultStationBeaconSurgery = { ent-DefaultStationBeaconMedical }
-    .suffix = Операционная
     .desc = { ent-DefaultStationBeaconMedical.desc }
+    .suffix = Операционная
+
 ent-DefaultStationBeaconScience = { ent-DefaultStationBeacon }
+    .desc = { ent-DefaultStationBeacon.desc }
     .suffix = Научный отдел
-    .desc = { ent-DefaultStationBeacon.desc }
+
 ent-DefaultStationBeaconRND = { ent-DefaultStationBeaconScience }
+    .desc = { ent-DefaultStationBeaconScience.desc }
     .suffix = РНД
-    .desc = { ent-DefaultStationBeaconScience.desc }
+
 ent-DefaultStationBeaconServerRoom = { ent-DefaultStationBeaconScience }
+    .desc = { ent-DefaultStationBeaconScience.desc }
     .suffix = Сервер исследований
-    .desc = { ent-DefaultStationBeaconScience.desc }
+
 ent-DefaultStationBeaconRDRoom = { ent-DefaultStationBeaconScience }
+    .desc = { ent-DefaultStationBeaconScience.desc }
     .suffix = Комната НР
-    .desc = { ent-DefaultStationBeaconScience.desc }
+
 ent-DefaultStationBeaconRobotics = { ent-DefaultStationBeaconScience }
+    .desc = { ent-DefaultStationBeaconScience.desc }
     .suffix = Робототехника
-    .desc = { ent-DefaultStationBeaconScience.desc }
+
 ent-DefaultStationBeaconArtifactLab = { ent-DefaultStationBeaconScience }
+    .desc = { ent-DefaultStationBeaconScience.desc }
     .suffix = Артефактная
-    .desc = { ent-DefaultStationBeaconScience.desc }
+
 ent-DefaultStationBeaconAnomalyGenerator = { ent-DefaultStationBeaconScience }
-    .suffix = Генератор аномалий
     .desc = { ent-DefaultStationBeaconScience.desc }
+    .suffix = Генератор аномалий
+
 ent-DefaultStationBeaconSupply = { ent-DefaultStationBeacon }
+    .desc = { ent-DefaultStationBeacon.desc }
     .suffix = Снабжение
-    .desc = { ent-DefaultStationBeacon.desc }
+
 ent-DefaultStationBeaconCargoReception = { ent-DefaultStationBeaconSupply }
+    .desc = { ent-DefaultStationBeaconSupply.desc }
     .suffix = Снабжение, приёмная
-    .desc = { ent-DefaultStationBeaconSupply.desc }
+
 ent-DefaultStationBeaconCargoBay = { ent-DefaultStationBeaconSupply }
+    .desc = { ent-DefaultStationBeaconSupply.desc }
     .suffix = Снабжение, док
-    .desc = { ent-DefaultStationBeaconSupply.desc }
+
 ent-DefaultStationBeaconQMRoom = { ent-DefaultStationBeaconSupply }
+    .desc = { ent-DefaultStationBeaconSupply.desc }
     .suffix = Комната КМ
-    .desc = { ent-DefaultStationBeaconSupply.desc }
+
 ent-DefaultStationBeaconSalvage = { ent-DefaultStationBeaconSupply }
-    .suffix = Утилизаторская
     .desc = { ent-DefaultStationBeaconSupply.desc }
+    .suffix = Утилизаторская
+
 ent-DefaultStationBeaconEngineering = { ent-DefaultStationBeacon }
+    .desc = { ent-DefaultStationBeacon.desc }
     .suffix = Инженерный отдел
-    .desc = { ent-DefaultStationBeacon.desc }
+
 ent-DefaultStationBeaconCERoom = { ent-DefaultStationBeaconEngineering }
+    .desc = { ent-DefaultStationBeaconEngineering.desc }
     .suffix = Комната СИ
-    .desc = { ent-DefaultStationBeaconEngineering.desc }
+
 ent-DefaultStationBeaconAME = { ent-DefaultStationBeaconEngineering }
+    .desc = { ent-DefaultStationBeaconEngineering.desc }
     .suffix = ДАМ
-    .desc = { ent-DefaultStationBeaconEngineering.desc }
+
 ent-DefaultStationBeaconSolars = { ent-DefaultStationBeaconEngineering }
+    .desc = { ent-DefaultStationBeaconEngineering.desc }
     .suffix = Солнечные панели
-    .desc = { ent-DefaultStationBeaconEngineering.desc }
+
 ent-DefaultStationBeaconGravGen = { ent-DefaultStationBeaconEngineering }
+    .desc = { ent-DefaultStationBeaconEngineering.desc }
     .suffix = Генератор гравитации
-    .desc = { ent-DefaultStationBeaconEngineering.desc }
+
 ent-DefaultStationBeaconSingularity = { ent-DefaultStationBeaconEngineering }
+    .desc = { ent-DefaultStationBeaconEngineering.desc }
     .suffix = Контроль УЧ
-    .desc = { ent-DefaultStationBeaconEngineering.desc }
+
 ent-DefaultStationBeaconPowerBank = { ent-DefaultStationBeaconEngineering }
+    .desc = { ent-DefaultStationBeaconEngineering.desc }
     .suffix = Энергетический резерв СМЭС
-    .desc = { ent-DefaultStationBeaconEngineering.desc }
+
 ent-DefaultStationBeaconTelecoms = { ent-DefaultStationBeaconEngineering }
+    .desc = { ent-DefaultStationBeaconEngineering.desc }
     .suffix = Телекоммуникации
-    .desc = { ent-DefaultStationBeaconEngineering.desc }
+
 ent-DefaultStationBeaconAtmospherics = { ent-DefaultStationBeaconEngineering }
+    .desc = { ent-DefaultStationBeaconEngineering.desc }
     .suffix = Атмосферный отсек
-    .desc = { ent-DefaultStationBeaconEngineering.desc }
+
 ent-DefaultStationBeaconTEG = { ent-DefaultStationBeaconEngineering }
+    .desc = { ent-DefaultStationBeaconEngineering.desc }
     .suffix = ТЭГ
-    .desc = { ent-DefaultStationBeaconEngineering.desc }
+
 ent-DefaultStationBeaconTechVault = { ent-DefaultStationBeaconEngineering }
-    .suffix = Технологическое хранилище
     .desc = { ent-DefaultStationBeaconEngineering.desc }
+    .suffix = Технологическое хранилище
+
 ent-DefaultStationBeaconService = { ent-DefaultStationBeacon }
+    .desc = { ent-DefaultStationBeacon.desc }
     .suffix = Сервис
-    .desc = { ent-DefaultStationBeacon.desc }
+
 ent-DefaultStationBeaconKitchen = { ent-DefaultStationBeaconService }
+    .desc = { ent-DefaultStationBeaconService.desc }
     .suffix = Кухня
-    .desc = { ent-DefaultStationBeaconService.desc }
+
 ent-DefaultStationBeaconBar = { ent-DefaultStationBeaconService }
+    .desc = { ent-DefaultStationBeaconService.desc }
     .suffix = Бар
-    .desc = { ent-DefaultStationBeaconService.desc }
+
 ent-DefaultStationBeaconBotany = { ent-DefaultStationBeaconService }
+    .desc = { ent-DefaultStationBeaconService.desc }
     .suffix = Гидропоника
-    .desc = { ent-DefaultStationBeaconService.desc }
+
 ent-DefaultStationBeaconJanitorsCloset = { ent-DefaultStationBeaconService }
-    .suffix = Коморка уборщика
     .desc = { ent-DefaultStationBeaconService.desc }
+    .suffix = Коморка уборщика
+
 ent-DefaultStationBeaconAI = { ent-DefaultStationBeacon }
+    .desc = { ent-DefaultStationBeacon.desc }
     .suffix = ИИ
-    .desc = { ent-DefaultStationBeacon.desc }
+
 ent-DefaultStationBeaconAISatellite = { ent-DefaultStationBeaconAI }
+    .desc = { ent-DefaultStationBeaconAI.desc }
     .suffix = Спутник ИИ
-    .desc = { ent-DefaultStationBeaconAI.desc }
+
 ent-DefaultStationBeaconAICore = { ent-DefaultStationBeaconAI }
-    .suffix = Ядро ИИ
     .desc = { ent-DefaultStationBeaconAI.desc }
+    .suffix = Ядро ИИ
+
 ent-DefaultStationBeaconArrivals = { ent-DefaultStationBeacon }
+    .desc = { ent-DefaultStationBeacon.desc }
     .suffix = Прибытие
-    .desc = { ent-DefaultStationBeacon.desc }
+
 ent-DefaultStationBeaconEvac = { ent-DefaultStationBeacon }
+    .desc = { ent-DefaultStationBeacon.desc }
     .suffix = Эвакуация
-    .desc = { ent-DefaultStationBeacon.desc }
+
 ent-DefaultStationBeaconEVAStorage = { ent-DefaultStationBeacon }
+    .desc = { ent-DefaultStationBeacon.desc }
     .suffix = Хранилище EVA
-    .desc = { ent-DefaultStationBeacon.desc }
+
 ent-DefaultStationBeaconChapel = { ent-DefaultStationBeacon }
+    .desc = { ent-DefaultStationBeacon.desc }
     .suffix = Церковь
-    .desc = { ent-DefaultStationBeacon.desc }
+
 ent-DefaultStationBeaconLibrary = { ent-DefaultStationBeacon }
+    .desc = { ent-DefaultStationBeacon.desc }
     .suffix = Библиотека
-    .desc = { ent-DefaultStationBeacon.desc }
+
 ent-DefaultStationBeaconTheater = { ent-DefaultStationBeacon }
+    .desc = { ent-DefaultStationBeacon.desc }
     .suffix = Театр
-    .desc = { ent-DefaultStationBeacon.desc }
+
 ent-DefaultStationBeaconDorms = { ent-DefaultStationBeacon }
+    .desc = { ent-DefaultStationBeacon.desc }
     .suffix = Жилые помещения
-    .desc = { ent-DefaultStationBeacon.desc }
+
 ent-DefaultStationBeaconToolRoom = { ent-DefaultStationBeacon }
+    .desc = { ent-DefaultStationBeacon.desc }
     .suffix = Хранилище инструментов
-    .desc = { ent-DefaultStationBeacon.desc }
+
 ent-DefaultStationBeaconDisposals = { ent-DefaultStationBeacon }
+    .desc = { ent-DefaultStationBeacon.desc }
     .suffix = Мусоросброс
-    .desc = { ent-DefaultStationBeacon.desc }
+
 ent-DefaultStationBeaconCryosleep = { ent-DefaultStationBeacon }
+    .desc = { ent-DefaultStationBeacon.desc }
     .suffix = Криосон
-    .desc = { ent-DefaultStationBeacon.desc }
+
 ent-DefaultStationBeaconEscapePod = { ent-DefaultStationBeacon }
-    .suffix = Спасательная капсула
     .desc = { ent-DefaultStationBeacon.desc }
+    .suffix = Спасательная капсула

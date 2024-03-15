@@ -16,11 +16,11 @@ ent-FoodBreadVolcanicSlice = вулканический ломтик
 
 ent-FoodBreadBanana = бананово-ореховый хлеб
     .desc = Райское и сытное угощение.
-    .suffix = { ent-FoodBreadBase.suffix }
+    .suffix = { "" }
 
 ent-FoodBreadBananaSlice = ломтик бананово-орехового хлеба
     .desc = Кусочек вкусного бананового хлеба.
-    .suffix = { ent-FoodBreadSliceBase.suffix }
+    .suffix = { "" }
 
 ent-FoodBreadCorn = кукурузный хлеб
     .desc = Домашний кукурузный хлеб в стиле кантри, с привкусом стрельбы и ковбойского иии-ха.
@@ -61,11 +61,6 @@ ent-FoodBreadPlain = хлеб
 ent-FoodBreadPlainSlice = ломтик хлеба
     .desc = Кусочек дома.
     .suffix = { ent-FoodBreadSliceBase.suffix }
-
-ent-FoodBreadBanana = бананово-ореховый хлеб
-    .desc = Райское и сытное угощение.
-ent-FoodBreadBananaSlice = ломтик бананово-орехового хлеба
-    .desc = Кусочек вкусного бананового хлеба.
 
 ent-FoodBreadSausage = сосисочный хлеб
     .desc = Не стоит слишком сильно задумываться о нём.
@@ -129,5 +124,8 @@ ent-FoodBreadMoldySlice = заплесневелый кусок хлеба
 
 ent-FoodBreadTwoSlice = два ломтика
     .desc = Классика.
+    .suffix = { "" }
+
 ent-MobBreadDog = хлебака
     .desc = Это хлеб. Это собака. Это... хлебака?
+    .suffix = { "" }

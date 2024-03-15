@@ -1,7 +1,11 @@
 ent-AmeController = контроллер ДАМ
     .desc = Это контроллер для двигателя антиматерии.
+    .suffix = { "" }
+
 ent-AmeControllerUnanchored = { ent-AmeController }
-    .suffix = Не закреплено
     .desc = { ent-AmeController.desc }
+    .suffix = Не закреплено
+
 ent-AmeShielding = экранирование ДАМ
     .desc = Впускает антиматерию и выпускает материю.
+    .suffix = { "" }

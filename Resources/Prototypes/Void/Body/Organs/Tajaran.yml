@@ -1,4 +1,4 @@
-﻿- type: entity
+- type: entity
   id: OrganTajaranStomach
   parent: OrganAnimalStomach
   noSpawn: true

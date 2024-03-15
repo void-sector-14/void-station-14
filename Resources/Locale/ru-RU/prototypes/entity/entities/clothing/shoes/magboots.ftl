@@ -4,8 +4,12 @@ ent-ClothingShoesBootsMag = магнитные сапоги
 
 ent-ClothingShoesBootsMagAdv = продвинутые магнитные сапоги
     .desc = Новейшие магнитные ботинки, которые не замедляют движения своего владельца.
+    .suffix = { "" }
+
 ent-ClothingShoesBootsMagSci = { ent-ClothingShoesBootsMag }
     .desc = { ent-ClothingShoesBootsMag.desc }
+    .suffix = { "" }
+
 ent-ClothingShoesBootsMagBlinding = магнитные сапоги ослепляющей скорости
     .desc = Они будут отлично смотреться на ловкаче вроде вас.
     .suffix = { ent-ClothingShoesBootsMag.suffix }
@@ -24,8 +28,12 @@ ent-ActionToggleMagboots = { ent-ActionBaseToggleMagboots }
 
 ent-ActionToggleMagbootsAdvanced = { ent-ActionBaseToggleMagboots }
     .desc = { ent-ActionBaseToggleMagboots.desc }
+    .suffix = { "" }
+
 ent-ActionToggleMagbootsSci = { ent-ActionBaseToggleMagboots }
     .desc = { ent-ActionBaseToggleMagboots.desc }
+    .suffix = { "" }
+
 ent-ActionToggleMagbootsSyndie = { ent-ActionBaseToggleMagboots }
     .desc = { ent-ActionBaseToggleMagboots.desc }
     .suffix = { ent-ActionBaseToggleMagboots.suffix }

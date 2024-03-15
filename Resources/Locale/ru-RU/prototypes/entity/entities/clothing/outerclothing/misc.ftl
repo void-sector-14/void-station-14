@@ -96,5 +96,8 @@ ent-ClothingOuterFlannelBlue = синяя фланелевая куртка
 
 ent-ClothingOuterFlannelGreen = зелёная фланелевая куртка
     .desc = Старомодная зелёная фланелевая куртка для космической осени.
+    .suffix = { "" }
+
 ent-ClothingOuterRedRacoon = костюм рыжего енота
     .desc = Пушистый костюм рыжего енота!
+    .suffix = { "" }

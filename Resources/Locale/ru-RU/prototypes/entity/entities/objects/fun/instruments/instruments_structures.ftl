@@ -1,9 +1,9 @@
-ent-PianoInstrument = рояль
+ent-PianoInstrument = фортепиано
     .desc = При необходимости поднять на девятый этаж зовите карго.
     .suffix = { "" }
 
 ent-UprightPianoInstrument = пианино
-    .desc = Я сказал пьянино!
+    .desc = Я сказал пьянино.
     .suffix = { "" }
 
 ent-VibraphoneInstrument = вибрафон
@@ -39,7 +39,7 @@ ent-ContrabassInstrument = контрабас
     .suffix = { ent-BasePlaceableInstrument.suffix }
 
 ent-MinimoogInstrument = минимуг
-    .desc = Минимуг это как космическое фортепиано, только ещё более космическое!
+    .desc = Это минимуг, как космическое фортепиано, но ещё более космическое!
     .suffix = { "" }
 
 ent-TomDrumsInstrument = том-том
@@ -47,5 +47,5 @@ ent-TomDrumsInstrument = том-том
     .suffix = { ent-BasePlaceableInstrumentRotatable.suffix }
 
 ent-DawInstrument = цифровая звуковая рабочая станция
-    .desc = Передовые музыкальные технологии прямиком из 90-х.
+    .desc = Передовые музыкальные технологии прямо из 90-х.
     .suffix = { "" }

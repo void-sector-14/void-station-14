@@ -1,6 +1,9 @@
 alerts-LowOxygen = alerts-low-oxygen-name
     .desc = alerts-low-oxygen-desc
 
+alerts-LowNitrogen = alerts-low-nitrogen-name
+    .desc = alerts-low-nitrogen-desc
+
 alerts-Toxins = alerts-high-toxin-name
     .desc = alerts-high-toxin-desc
 
@@ -45,6 +48,12 @@ alerts-HumanHealth = alerts-health-name
 
 alerts-BorgHealth = alerts-health-name
     .desc = alerts-health-desc
+
+alerts-BorgCrit = alerts-crit-name
+    .desc = alerts-crit-desc
+
+alerts-BorgDead = alerts-dead-name
+    .desc = alerts-dead-desc
 
 alerts-BorgBattery = alerts-battery-name
     .desc = alerts-battery-desc

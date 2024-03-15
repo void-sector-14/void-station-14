@@ -17,3 +17,7 @@ ent-PartRodMetal1 = металлический стержень
 ent-PartRodMetalLingering0 = { ent-PartRodMetal }
     .desc = { ent-PartRodMetal.desc }
     .suffix = Lingering(Борги), 0
+
+ent-FloorTileItemSteelLingering0 = { ent-FloorTileItemSteel }
+    .desc = { ent-FloorTileItemSteel.desc }
+    .suffix = Lingering, 0

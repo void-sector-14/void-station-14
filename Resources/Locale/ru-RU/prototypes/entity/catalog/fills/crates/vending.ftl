@@ -60,8 +60,12 @@ ent-CrateVendingMachineRestockSecTechFilled = ящик пополнения СБ
 
 ent-CrateVendingMachineRestockSeedsFilled = ящик пополнения МегаРаздатчик Семян
     .desc = Содержит набор пополнения торгомата МегаРаздатчик Семян.
+    .suffix = { "" }
+
 ent-CrateVendingMachineRestockSmokesFilled = ящик пополнения ShadyCigs Делюкс
     .desc = Содержит два набора пополнения торгоматов ShadyCigs Делюкс.
+    .suffix = { "" }
+
 ent-CrateVendingMachineRestockVendomatFilled = ящик пополнения Вендомат
     .desc = Содержит набор пополнения торгомата Вендомат.
     .suffix = { "" }
@@ -72,18 +76,12 @@ ent-CrateVendingMachineRestockRoboticsFilled = ящик пополнения Р�
 
 ent-CrateVendingMachineRestockTankDispenserFilled = ящик пополнения газовых баллонов
     .desc = Содержит набор пополнения атмосферного или инженерного раздатчика газовых баллонов.
-ent-CrateVendingMachineRestockGetmoreChocolateCorpFilled = ящик пополнения Getmore Chocolate Corp
-    .desc = Содержит набор пополнения торгомата Getmore Chocolate Corp.
-ent-CrateVendingMachineRestockChangFilled = ящик пополнения Chang
-    .desc = Содержит набор пополнения торгомата Mr. Chang.
-ent-CrateVendingMachineRestockDiscountDansFilled = ящик пополнения Discount Dans
-    .desc = Содержит набор пополнения торгомата Discount Dan.
-ent-CrateVendingMachineRestockDonutFilled = ящик пополнения Donut
-    .desc = Содержит набор пополнения торгомата Monkin' Donuts.
+    .suffix = { "" }
+
 ent-CrateVendingMachineRestockHappyHonkFilled = ящик пополнения Хэппи Хонк
     .desc = Содержит набор пополнения торгомата Хэппи Хонк.
-ent-CrateVendingMachineRestockChemVendFilled = ящик пополнения ХимкоМат
-    .desc = Содержит набор пополнения торгомата ХимкоМат.
+    .suffix = { "" }
+
 ent-CrateVendingMachineRestockGetmoreChocolateCorpFilled = ящик пополнения Гетмор Шоколад
     .desc = Содержит набор пополнения торгомата Гетмор Шоколад Корп.
     .suffix = { "" }

@@ -24,8 +24,12 @@ ent-CrateNPCDuck = ящик уток
 
 ent-CrateNPCCorgi = ящик корги
     .desc = Ящик, содержащий одного корги.
+    .suffix = { "" }
+
 ent-CrateNPCPuppyCorgi = ящик с щенком корги
     .desc = Ящик, содержащий одного щенка корги.
+    .suffix = { "" }
+
 ent-CrateNPCCow = ящик с коровой
     .desc = Ящик, содержащий одну корову.
     .suffix = { "" }
@@ -44,8 +48,12 @@ ent-CrateNPCGorilla = ящик с гориллой
 
 ent-CrateNPCMonkeyCube = ящик обезьяньих кубиков
     .desc = Ящик, содержащий коробку обезьяньих кубиков.
+    .suffix = { "" }
+
 ent-CrateNPCKoboldCube = ящик кобольдовых кубик
     .desc = Ящик, содержащий коробку кобольдовых кубиков.
+    .suffix = { "" }
+
 ent-CrateNPCMouse = ящик мышей
     .desc = Ящик, содержащий пять мышей.
     .suffix = { "" }
@@ -80,5 +88,8 @@ ent-CrateNPCLizard = ящик с ящерицей
 
 ent-CrateNPCKangaroo = ящик с кенгуру
     .desc = Ящик, содержащий одного кенгуру.
+    .suffix = { "" }
+
 ent-CrateNPCMothroach = ящик таракамолей
     .desc = Ящик, содержащий шесть таракамолей.
+    .suffix = { "" }

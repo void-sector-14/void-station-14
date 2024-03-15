@@ -1,18 +1,23 @@
 ent-Stairs = ступеньки
     .desc = Величайшее изобретение после гранатомётов.
     .suffix = Стальной
+
 ent-StairStage = { ent-Stairs }
+    .desc = { ent-Stairs.desc }
     .suffix = Стальной, Одна ступень
-    .desc = { ent-Stairs.desc }
+
 ent-StairWhite = { ent-Stairs }
+    .desc = { ent-Stairs.desc }
     .suffix = Белый
-    .desc = { ent-Stairs.desc }
+
 ent-StairStageWhite = { ent-Stairs }
+    .desc = { ent-Stairs.desc }
     .suffix = Белый, Одна ступень
-    .desc = { ent-Stairs.desc }
+
 ent-StairDark = { ent-Stairs }
+    .desc = { ent-Stairs.desc }
     .suffix = Тёмный
-    .desc = { ent-Stairs.desc }
+
 ent-StairStageDark = { ent-Stairs }
-    .suffix = Тёмный, Одна ступень
     .desc = { ent-Stairs.desc }
+    .suffix = Тёмный, Одна ступень

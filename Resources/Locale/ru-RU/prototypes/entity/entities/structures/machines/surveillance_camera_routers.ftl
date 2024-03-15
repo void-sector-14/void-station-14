@@ -1,37 +1,51 @@
 ent-SurveillanceCameraRouterBase = маршрутизатор камер
     .desc = Маршрутизатор для камер наблюдения. Он маршрутизирует. Возможно.
+    .suffix = { "" }
+
 ent-SurveillanceCameraRouterConstructed = { ent-SurveillanceCameraRouterBase }
+    .desc = { ent-SurveillanceCameraRouterBase.desc }
     .suffix = Построенный
-    .desc = { ent-SurveillanceCameraRouterBase.desc }
+
 ent-SurveillanceCameraRouterEngineering = { ent-SurveillanceCameraRouterBase }
+    .desc = { ent-SurveillanceCameraRouterBase.desc }
     .suffix = Инжненерный
-    .desc = { ent-SurveillanceCameraRouterBase.desc }
+
 ent-SurveillanceCameraRouterSecurity = { ent-SurveillanceCameraRouterBase }
+    .desc = { ent-SurveillanceCameraRouterBase.desc }
     .suffix = Охранный
-    .desc = { ent-SurveillanceCameraRouterBase.desc }
+
 ent-SurveillanceCameraRouterScience = { ent-SurveillanceCameraRouterBase }
+    .desc = { ent-SurveillanceCameraRouterBase.desc }
     .suffix = Научный
-    .desc = { ent-SurveillanceCameraRouterBase.desc }
+
 ent-SurveillanceCameraRouterSupply = { ent-SurveillanceCameraRouterBase }
+    .desc = { ent-SurveillanceCameraRouterBase.desc }
     .suffix = Карго, Снабжение
-    .desc = { ent-SurveillanceCameraRouterBase.desc }
+
 ent-SurveillanceCameraRouterCommand = { ent-SurveillanceCameraRouterBase }
+    .desc = { ent-SurveillanceCameraRouterBase.desc }
     .suffix = Командный
-    .desc = { ent-SurveillanceCameraRouterBase.desc }
+
 ent-SurveillanceCameraRouterService = { ent-SurveillanceCameraRouterBase }
+    .desc = { ent-SurveillanceCameraRouterBase.desc }
     .suffix = Сервисный
-    .desc = { ent-SurveillanceCameraRouterBase.desc }
+
 ent-SurveillanceCameraRouterMedical = { ent-SurveillanceCameraRouterBase }
+    .desc = { ent-SurveillanceCameraRouterBase.desc }
     .suffix = Медицинский
-    .desc = { ent-SurveillanceCameraRouterBase.desc }
+
 ent-SurveillanceCameraRouterGeneral = { ent-SurveillanceCameraRouterBase }
-    .suffix = Общий
     .desc = { ent-SurveillanceCameraRouterBase.desc }
+    .suffix = Общий
+
 ent-SurveillanceCameraWirelessRouterBase = маршрутизатор беспроводных камер
     .desc = Маршрутизатор для беспроводных камер наблюдения. Он маршрутизирует. Возможно.
+    .suffix = { "" }
+
 ent-SurveillanceCameraWirelessRouterConstructed = { ent-SurveillanceCameraWirelessRouterBase }
+    .desc = { ent-SurveillanceCameraWirelessRouterBase.desc }
     .suffix = Построенный
-    .desc = { ent-SurveillanceCameraWirelessRouterBase.desc }
+
 ent-SurveillanceCameraWirelessRouterEntertainment = { ent-SurveillanceCameraWirelessRouterBase }
-    .suffix = Развлекательный
     .desc = { ent-SurveillanceCameraWirelessRouterBase.desc }
+    .suffix = Развлекательный
