@@ -57,9 +57,6 @@
         - proto: ProtolatheMachineCircuitboard
         - proto: RandomArtifactSpawner
           cost: 2
-        - proto: MobRandomSyndicateCorpse
-          cost: 5
-          prob: 0.5
         - proto: RandomCargoCorpseSpawner
           cost: 2
           prob: 0.5
