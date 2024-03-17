@@ -690,6 +690,9 @@
   id: Katana
 
 - type: Tag
+  id: Yamato
+
+- type: Tag
   id: Kangaroo
 
 - type: Tag
