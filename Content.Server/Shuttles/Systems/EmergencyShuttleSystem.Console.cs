@@ -58,6 +58,11 @@ public sealed partial class EmergencyShuttleSystem
     public float TransitTime { get; private set; }
 
     /// <summary>
+    /// Количество секунд продолжения раунда после стыковки шаттла на ЦентКоме.
+    /// </summary>
+    public float AfterArrival { get; private set; }
+
+    /// <summary>
     /// <see cref="CCVars.EmergencyShuttleAuthorizeTime"/>
     /// </summary>
     private float _authorizeTime;

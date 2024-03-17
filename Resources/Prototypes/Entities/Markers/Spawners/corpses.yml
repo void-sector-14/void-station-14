@@ -101,3 +101,16 @@
   - type: ConditionalSpawner
     prototypes:
       - MobRandomCommandCorpse
+
+- type: entity
+  name: неопознаный труп синдиката спавнер
+  id: SalvageSyndicateCorpseSpawner
+  parent: MarkerBase
+  components:
+  - type: Sprite
+    sprite: Markers/jobs.rsi
+    layers:
+      - state: green
+  - type: ConditionalSpawner
+    prototypes:
+      - MobRandomSyndicateCorpse

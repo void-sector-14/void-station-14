@@ -1432,6 +1432,12 @@ namespace Content.Shared.CCVar
             CVarDef.Create("shuttle.emergency_transit_time_max", 180f, CVar.SERVERONLY);
 
         /// <summary>
+        /// Количество секунд продолжения раунда после стыковки шаттла на ЦентКоме.
+        /// </summary>
+        public static readonly CVarDef<float> GameAfterArrivalCentComTime =
+            CVarDef.Create("game.after_arrival_centcom_time", 300f, CVar.SERVERONLY);
+
+        /// <summary>
         /// Whether the emergency shuttle is enabled or should the round just end.
         /// </summary>
         public static readonly CVarDef<bool> EmergencyShuttleEnabled =

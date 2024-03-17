@@ -1,0 +1,11 @@
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckMantleKorvin
+  name: мантия корвина
+  description: Пошитая на заказ мантия,с брошью в виде розы из чистого серебра.
+  suffix: Недоработанно
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Neck/korvinmantle.rsi
+  - type: Clothing
+    sprite: Void/Clothing/Neck/korvinmantle.rsi
