@@ -110,7 +110,7 @@
   - type: ZombieRule
 
 - type: entity
-  id: Thief
+  id: ThiefChance
   parent: BaseGameRule
   noSpawn: true
   components:
