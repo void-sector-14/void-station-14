@@ -134,6 +134,14 @@ public sealed partial class EmergencyShuttleSystem
         AfterArrival = obj;
     }
 
+    private void ShutdownEmergencyConsole()
+    {
+        _configManager.UnsubValueChanged(CCVars.EmergencyShuttleAuthorizeTime, SetAuthorizeTime);
+        _configManager.UnsubValueChanged(CCVars.EmergencyShuttleMinTransitTime, SetMinTransitTime);
+        _configManager.UnsubValueChanged(CCVars.EmergencyShuttleMaxTransitTime, SetMaxTransitTime);
+        _configManager.UnsubValueChanged(CCVars.GameAfterArrivalCentComTime, SetAfterArrival);
+    }
+
     private void OnEmergencyStartup(EntityUid uid, EmergencyShuttleConsoleComponent component, ComponentStartup args)
     {
         UpdateConsoleState(uid, component);
