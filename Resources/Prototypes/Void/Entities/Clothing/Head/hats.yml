@@ -30,3 +30,14 @@
     sprite: Void/Clothing/Head/Misc/cowboy.rsi
   - type: Clothing
     sprite: Void/Clothing/Head/Misc/cowboy.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadOldFedora
+  name: старая федора
+  description: выглядит старой и помятой
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Head/Hats/oldfedora.rsi
+  - type: Clothing
+    sprite: Void/Clothing/Head/Hats/oldfedora.rsi
