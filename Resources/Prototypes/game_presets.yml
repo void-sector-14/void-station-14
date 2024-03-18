@@ -32,7 +32,7 @@
   rules:
   - BasicStationEventScheduler
   - BasicRoundstartVariation
-  - Thief
+  - ThiefChance
 
 - type: gamePreset
   id: Greenshift
