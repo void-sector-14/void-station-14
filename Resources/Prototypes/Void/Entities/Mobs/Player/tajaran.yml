@@ -16,12 +16,6 @@
       context: "human"
     - type: MobMover
     - type: InputMover
-    - type: Vocal
-      wilhelm: "/Audio/Voice/Felinid/cat_wilhelm.ogg"
-      sounds:
-        Male: MaleFelinid
-        Female: FemaleFelinid
-        Unsexed: MaleFelinid
     - type: Alerts
     - type: Eye
     - type: CameraRecoil
