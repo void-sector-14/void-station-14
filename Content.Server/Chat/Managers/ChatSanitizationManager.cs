@@ -13,7 +13,6 @@ public sealed class ChatSanitizationManager : IChatSanitizationManager
     {
         // I could've done this with regex, but felt it wasn't the right idea.
 		{ "хд", "chatsan-laughs" },
-        { "о-о", "chatsan-wide-eyed" }, // cyrillic о
         { "о.о", "chatsan-wide-eyed" }, // cyrillic о
         { "0_о", "chatsan-wide-eyed" }, // cyrillic о
         { "о/", "chatsan-waves" }, // cyrillic о
@@ -85,14 +84,11 @@ public sealed class ChatSanitizationManager : IChatSanitizationManager
         { ":b", "chatsan-stick-out-tongue" },
         { "0-0", "chatsan-wide-eyed" },
         { "o-o", "chatsan-wide-eyed" },
-        { "о-о", "chatsan-wide-eyed" }, // cyrillic
         { "o.o", "chatsan-wide-eyed" },
-        { "о.о", "chatsan-wide-eyed" }, // cyrillic
         { "._.", "chatsan-surprised" },
         { ".-.", "chatsan-confused" },
         { "-_-", "chatsan-unimpressed" },
         { "o/", "chatsan-waves" },
-        { "о/", "chatsan-waves" }, // cyrillic
         { "^^/", "chatsan-waves" },
         { ":/", "chatsan-uncertain" },
         { ":\\", "chatsan-uncertain" },
@@ -104,9 +100,7 @@ public sealed class ChatSanitizationManager : IChatSanitizationManager
         { "lel.", "chatsan-laughs" },
         { "kek", "chatsan-laughs" },
         { "kek.", "chatsan-laughs" },
-        { "кек", "chatsan-laughs" }, // cyrillyc
         { "o7", "chatsan-salutes" },
-        { "о7", "chatsan-salutes" }, // cyrillic
         { ";_;7", "chatsan-tearfully-salutes"},
         { "idk", "chatsan-shrugs" },
         { "idk.", "chatsan-shrugs" },
