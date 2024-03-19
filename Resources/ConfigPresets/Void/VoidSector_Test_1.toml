@@ -82,8 +82,5 @@ flavor_text = true
 [zombie]
 min_players = 10
 
-[traitor]
-min_players = 3
-
 [pirates]
 min_players = 15
