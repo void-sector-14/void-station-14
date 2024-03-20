@@ -189,3 +189,21 @@
   canBuildInImpassable: false
   conditions:
   - !type:TileNotBlocked
+
+- type: construction
+  name: окно шаттла
+  id: ShuttleWindowDiagonal
+  graph: WindowDiagonal
+  startNode: start
+  targetNode: shuttleWindowDiagonal
+  category: construction-category-structures
+  canBuildInImpassable: true
+  description: Очень прочное, чтобы противостоять давлению БСС или выдерживать повреждения от боеприпасов.
+  conditions:
+    - !type:EmptyOrWindowValidInTile
+    - !type:NoWindowsInTile
+  icon:
+    sprite: Structures/Windows/shuttle_window_diagonal.rsi
+    state: state1
+  objectType: Structure
+  placementMode: SnapgridCenter
