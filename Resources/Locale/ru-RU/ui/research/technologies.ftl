@@ -22,14 +22,6 @@ research-technology-advanced-tools = Продвинутые инструмент
 research-technology-super-powercells = Супербатареи
 research-technology-bluespace-storage = Блюспейс-хранилище
 research-technology-portable-fission = Портативный распад
-research-technology-biochemical-stasis = Биохимический стазис
-research-technology-mechanized-treatment = Механизированная подготовка
-research-technology-virology = Вирусология
-research-technology-cryogenics = Криогеника
-research-technology-chemical-dispensary = Химический раздатчик
-research-technology-crew-monitoring = Мониторинг экипажа
-research-technology-bluespace-chemistry = Блюспейс-химия
-research-technology-cloning = Клонирование
 
 research-technology-salvage-weapons = Утилизаторское оружие
 research-technology-draconic-munitions = Драконьи боеприпасы
@@ -76,3 +68,12 @@ research-technology-advanced-spray = Продвинутые спреи
 research-technology-quantum-fiber-weaving = Плетение квантового волокна
 research-technology-bluespace-cargo-transport = Блюспейс-транспортировка грузов
 research-technology-advanced-lighting = Продвинутое освещение
+
+research-technology-surgical-tools = Хирургические инструменты
+research-technology-biochemical-stasis = Биохимический стазис
+research-technology-mechanized-treatment = Механизированная подготовка
+research-technology-virology = Вирусология
+research-technology-cryogenics = Криогеника
+research-technology-crew-monitoring = Мониторинг экипажа
+research-technology-bluespace-chemistry = Блюспейс-химия
+research-technology-cloning = Клонирование

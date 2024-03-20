@@ -1,3 +1,3 @@
-ent-MobTajaran = Таяр
+ent-MobTajaran = Урист МакТаяран
     .desc = { "" }
     .suffix = { "" }

@@ -73,6 +73,9 @@ con-ReinforcedPlasmaWindow = армированное плазменное ок�
 con-ShuttleWindow = { ent-ShuttleWindow }
     .desc = { ent-ShuttleWindow.desc }
 
+con-ShuttleWindowDiagonal = { ent-ShuttleWindowDiagonal }
+    .desc = { ent-ShuttleWindowDiagonal.desc }
+
 con-PlasmaWindowDiagonal = { ent-PlasmaWindowDiagonal }
     .desc = { ent-PlasmaWindow.desc }
 
