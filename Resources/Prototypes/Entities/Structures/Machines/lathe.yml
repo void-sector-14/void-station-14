@@ -830,11 +830,6 @@
       - MedkitRadiation
       - MedkitCombat
       - Scalpel
-      - Retractor
-      - Cautery
-      - Drill
-      - Saw
-      - Hemostat
       - ClothingEyesGlassesChemical
     dynamicRecipes:
       - ChemicalPayload
@@ -842,6 +837,12 @@
       - BluespaceBeaker
       - SyringeBluespace
       - SyringeCryostasis
+      - HandheldCrewMonitor
+      - Retractor
+      - Cautery
+      - Drill
+      - Saw
+      - Hemostat
   - type: Machine
     board: MedicalTechFabCircuitboard
   - type: StealTarget
