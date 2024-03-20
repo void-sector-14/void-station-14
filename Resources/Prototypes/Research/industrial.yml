@@ -104,6 +104,21 @@
   - RipleyPeripheralsElectronics
   - MechEquipmentGrabber
 
+
+- type: technology
+  id: CompactPower
+  name: research-technology-compact-power
+  icon:
+    sprite: Structures/Power/Generation/wallmount_generator.rsi
+    state: panel
+  discipline: Industrial
+  tier: 1
+  cost: 7500
+  recipeUnlocks:
+  - WallmountSubstationElectronics
+  - WallmountGeneratorElectronics
+  - WallmountGeneratorAPUElectronics
+
 # Tier 2
 
 - type: technology
