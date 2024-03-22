@@ -1,27 +1,11 @@
 - type: salvageDifficulty
   id: Moderate
-  lootBudget: 35
-  mobBudget: 45
-  modifierBudget: 3
+  lootBudget: 30
+  mobBudget: 25
+  modifierBudget: 2
   color: "#52B4E996"
-  recommendedPlayers: 3
+  recommendedPlayers: 2
 
-  # ебал визов в жопу, ну заготовка под их приколы, можно варьировать юзается только модерате
-- type: salvageDifficulty
-  id: Hard
-  lootBudget: 45
-  mobBudget: 50
-  modifierBudget: 5
-  color: "#EFB34196"
-  recommendedPlayers: 3
-
-- type: salvageDifficulty
-  id: Hell's Bloodshed
-  lootBudget: 50
-  mobBudget: 100
-  modifierBudget: 10
-  color: "#8B0000"
-  recommendedPlayers: 4
     #9FED5896
     #EFB34196
     #DE3A3A96
