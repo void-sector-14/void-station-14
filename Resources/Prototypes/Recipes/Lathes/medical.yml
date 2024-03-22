@@ -71,14 +71,6 @@
     Plastic: 25
 
 - type: latheRecipe
-  id: Tourniquet
-  result: Tourniquet
-  completetime: 1
-  materials:
-    Cloth: 100
-    Plastic: 25
-
-- type: latheRecipe
   id: Gauze
   result: Gauze1
   completetime: 1
