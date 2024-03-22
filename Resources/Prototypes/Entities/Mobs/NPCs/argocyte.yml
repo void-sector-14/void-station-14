@@ -419,3 +419,41 @@
       types:
         Blunt: 75
         Structural: 50
+
+- type: entity
+  parent: BaseMobArgocyte
+  id: MobArgocyteLeviathingSalvage
+  name: leviathing
+  components:
+  - type: Sprite
+    sprite: Mobs/Aliens/Argocyte/argocyte_large.rsi
+    layers:
+      - state: leviathing
+        map: ["enum.DamageStateVisualLayers.Base"]
+  - type: DamageStateVisuals
+    states:
+      Alive:
+        Base: leviathing
+      Dead:
+        Base: leviathing_dead
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          # Circles, cuz rotation of rectangles looks very bad
+          !type:PhysShapeCircle
+          radius: 0.75
+        density: 300
+        mask:
+        - MobMask
+        layer:
+        - MobLayer
+  - type: MobThresholds
+    thresholds:
+      0: Alive
+      500: Dead
+  - type: MeleeWeapon
+    damage:
+      types:
+        Blunt: 30
+        Structural: 50
