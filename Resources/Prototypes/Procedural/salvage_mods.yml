@@ -33,12 +33,14 @@
   id: Daylight
   desc: День
   color: "#D8B059"
+  cost: 1
   biomes:
     - Grasslands
 
 - type: salvageLightMod
   id: Lavalight
   desc: День
+  cost: 1
   color: "#A34931"
   biomes:
     - Lava
@@ -46,6 +48,7 @@
 - type: salvageLightMod
   id: Evening
   desc: Вечер
+  cost: 1
   color: "#2b3143"
 
 - type: salvageLightMod
