@@ -11,7 +11,7 @@
   id: Hard
   lootBudget: 45
   mobBudget: 50
-  modifierBudget: 4
+  modifierBudget: 5
   color: "#EFB34196"
   recommendedPlayers: 3
 
@@ -19,7 +19,7 @@
   id: Hell's Bloodshed
   lootBudget: 50
   mobBudget: 100
-  modifierBudget: 5
+  modifierBudget: 10
   color: "#8B0000"
   recommendedPlayers: 4
     #9FED5896
