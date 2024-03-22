@@ -58,7 +58,7 @@
 
 - type: salvageTemperatureMod
   id: Hot
-  cost: 0
+  cost: 1
   temperature: 323.15 # 50C
   biomes:
     - Caves
@@ -69,8 +69,8 @@
 - type: salvageTemperatureMod
   id: Burning
   desc: Высокая Температура
-  cost: 1
-  temperature: 399.15
+  cost: 2
+  temperature: 423.15 # 200C
   biomes:
     - Caves
     #- LowDesert
@@ -79,14 +79,14 @@
 - type: salvageTemperatureMod
   id: Melting
   desc: Адская Жара
-  cost: 2
+  cost: 4
   temperature: 1273.15 # 1000C hot hot hot
   biomes:
     - Lava
 
 - type: salvageTemperatureMod
   id: Cold
-  cost: 0
+  cost: 1
   temperature: 275.15 # 2C
   biomes:
     - Caves
@@ -97,7 +97,7 @@
 - type: salvageTemperatureMod
   id: Tundra
   desc: Низкая Температура
-  cost: 1
+  cost: 2
   temperature: 263.15 # -40C
   biomes:
     - Caves
@@ -106,7 +106,7 @@
 - type: salvageTemperatureMod
   id: Frozen
   desc: Экстремальный Холод
-  cost: 2
+  cost: 4
   temperature: 123.15 # -150C
   biomes:
     - Snow
@@ -150,7 +150,7 @@
 
 - type: salvageAirMod
   id: Poisoned
-  cost: 1
+  cost: 2
   desc: Опасная Атмосфера
   gases:
     - 21.824779 # oxygen
@@ -165,7 +165,7 @@
 
 - type: salvageAirMod
   id: Poison
-  cost: 1
+  cost: 3
   desc: Токсичная Атмосфера
   gases:
     - 21.824779 # oxygen
@@ -178,7 +178,7 @@
 
 - type: salvageAirMod
   id: Plasma
-  cost: 1
+  cost: 4
   desc: Токсичная Атмосфера
   gases:
     - 0
@@ -191,7 +191,7 @@
 
 - type: salvageAirMod
   id: Burnable
-  cost: 10
+  cost: 5
   desc: Огнеопасная Атмосфера
   gases:
     - 21.824779 # oxygen
