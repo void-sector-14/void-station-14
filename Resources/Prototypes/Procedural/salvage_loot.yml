@@ -107,24 +107,24 @@
           prob: 0.1
           cost: 2
         - proto: ClothingOuterHardsuitMaxim
-          cost: 15
+          cost: 10
           prob: 0.5
         - proto: ClothingBeltSheathkatanaFilled
           cost: 5
-          prob: 0.5
+          prob: 0.6
         - proto: MedkitAdvancedFilled
           cost: 3
         - proto: MedkitCombatFilled
           cost: 5
         - proto: Claymore
           cost: 5
-          prob: 0.5
+          prob: 0.3
         - proto: ClothingBeltQuiver
           cost: 5
-          prob: 0.5
+          prob: 0.6
         - proto: WeaponMakeshiftLaser
           cost: 5
-          prob: 0.5
+          prob: 0.4
         - proto: ClothingOuterHardsuitQuartermaster
           cost: 15
           prob: 0.3
