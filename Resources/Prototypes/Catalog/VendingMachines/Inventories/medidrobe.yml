@@ -1,7 +1,6 @@
 - type: vendingMachineInventory
   id: MediDrobeInventory
   startingInventory:
-    BookMedicalReferenceBook: 1
     ClothingBackpackDuffelMedical: 4
     ClothingBackpackMedical: 4
     ClothingBackpackSatchelMedical: 4

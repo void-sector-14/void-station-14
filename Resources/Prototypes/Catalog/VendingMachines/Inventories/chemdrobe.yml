@@ -1,7 +1,6 @@
 - type: vendingMachineInventory
   id: ChemDrobeInventory
   startingInventory:
-    BookChemicalCompendium: 1
     ClothingUniformJumpsuitChemistry: 2
     ClothingUniformJumpskirtChemistry: 2
     ClothingOuterCoatLabChem: 2
