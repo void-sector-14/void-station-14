@@ -1,6 +1,7 @@
 - type: vendingMachineInventory
   id: SecTechInventory
   startingInventory:
+    BookSecurity: 2
     SecurityWhistle: 5
     Handcuffs: 8
     GrenadeFlashBang: 4
