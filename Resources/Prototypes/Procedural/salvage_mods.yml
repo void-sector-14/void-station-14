@@ -14,10 +14,12 @@
 
 - type: salvageBiomeMod
   id: Snow
+  cost: 1
   biome: Snow
 
 - type: salvageBiomeMod
   id: Lava
+  cost: 2
   biome: Lava
 
 #- type: salvageBiomeMod
@@ -31,12 +33,14 @@
   id: Daylight
   desc: День
   color: "#D8B059"
+  cost: 1
   biomes:
     - Grasslands
 
 - type: salvageLightMod
   id: Lavalight
   desc: День
+  cost: 1
   color: "#A34931"
   biomes:
     - Lava
@@ -44,11 +48,13 @@
 - type: salvageLightMod
   id: Evening
   desc: Вечер
+  cost: 1
   color: "#2b3143"
 
 - type: salvageLightMod
   id: Night
   desc: Ночь
+  cost: 1
   color: null
 
 # Temperatures
