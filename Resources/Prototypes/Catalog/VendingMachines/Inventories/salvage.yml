@@ -1,12 +1,10 @@
 - type: vendingMachineInventory
   id: SalvageEquipmentInventory
   startingInventory:
-    BookHowToRockAndStone: 1
     ClothingBeltSalvageWebbing: 2
     Crowbar: 2
     Pickaxe: 4
     OreBag: 4
-    Tourniquet: 5
     Flare: 4
     FlashlightLantern: 2
     Floodlight: 2
