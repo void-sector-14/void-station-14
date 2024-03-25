@@ -34,7 +34,7 @@ ent-BoxMesonScanners = коробка инженерных очков
     .desc = Коробка запасных инженерных очков.
     .suffix = { ent-BoxCardboard.suffix }
 
-ent-BoxMRE = И.Р.П.
+ent-BoxMRE = ИРП
     .desc = Коробка старых военных пайков. Они, на удивление, не испортились.
     .suffix = { ent-BoxCardboard.suffix }
 
