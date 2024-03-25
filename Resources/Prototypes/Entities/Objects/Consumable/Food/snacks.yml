@@ -393,6 +393,9 @@
         reagents:
         - ReagentId: Nutriment
           Quantity: 25
+  - type: Tag
+    tags:
+      - Meat
 
 - type: entity
   id: FoodSnackMREBrownie
