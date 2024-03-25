@@ -255,3 +255,23 @@
   - сипит
   - зашипел
   - зашипела
+
+- type: emote
+  id: Mew
+  category: Vocal
+  chatMessages: [ мяукает ]
+  chatTriggers:
+  - мяу
+  - мяукнул
+  - мяукнула
+  - мяукает
+
+- type: emote
+  id: Purr
+  category: Vocal
+  chatMessages: [ мурчит ]
+  chatTriggers:
+  - мур
+  - мурр
+  - мурчит
+  - мурлыкает
