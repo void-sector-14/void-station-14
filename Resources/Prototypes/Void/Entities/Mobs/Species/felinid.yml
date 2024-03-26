@@ -104,6 +104,8 @@
   #MEOW LESS OK THX
   - type: Emoting
     chatEmoteCooldown: 5.0
+  - type: SleepEmitSound
+    snore: /Audio/Voice/Felinid/cat_purr1.ogg
 
 - type: entity
   save: false
