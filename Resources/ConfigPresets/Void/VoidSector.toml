@@ -56,6 +56,7 @@ easy_mode = false
 [vote]
 timermap = 30
 map_enabled = true
+restart_not_allowed_when_admin_online = true
 
 [shuttle]
 arrivals_returns = true
