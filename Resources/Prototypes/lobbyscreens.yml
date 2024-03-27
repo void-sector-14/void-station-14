@@ -23,6 +23,10 @@
   background: /Textures/LobbyScreens/blueprint.webp
 
 - type: lobbyBackground
+  id: Behonker
+  background: /Textures/LobbyScreens/behonker.webp
+
+- type: lobbyBackground
   id: Wallpaper-1
   background: /Textures/LobbyScreens/wallpaper-1.png
 
