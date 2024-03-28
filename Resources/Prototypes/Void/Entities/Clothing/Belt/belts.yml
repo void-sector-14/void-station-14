@@ -1,0 +1,27 @@
+- type: entity
+  parent: [ClothingBeltBase, ClothingSlotBase]
+  id: ClothingBeltSheathkatana
+  name: сая
+  description: специальные ножны для катаны из крепкого материала
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Belt/sheathkatana.rsi
+    state: sheath
+  - type: Clothing
+    sprite: Void/Clothing/Belt/sheathkatana.rsi
+  - type: ItemSlots
+    slots:
+      item:
+        name: Katana
+        insertVerbText: sheath-insert-verb
+        ejectVerbText: sheath-eject-verb
+        whitelist:
+          tags:
+          - Katana
+  - type: ItemMapper
+    mapLayers:
+      sheath-sabre:
+        whitelist:
+          tags:
+          - Katana
+  - type: Appearance

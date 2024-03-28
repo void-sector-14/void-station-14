@@ -1,49 +1,95 @@
 - type: dataset
-  id: names_moth_first_female
+  id: names_moth_first_male
   values:
-  - Atropos # Acherontia atropos
-  - Betularia # Biston betularia
-  - Daphne # Daphnis
-  - Eurypta # Eurypteryx
-  - Eudryas # Eudryas
-  - Iris # Salassa iris
-  - Lachesis # Acherontia lachesis
-  - Luna # Actias luna
-  - Lymanzia # Lymantria
-  - Maple # Dryocampa rubicunda, "Rosy Maple"
-  - Mima # Mimas
-  - Nephele # Nephele
-  - Rosie # Dryocampa rubicunda
-  - Scarlet # Cosmosoma myrodora, "Scarlet-bodied wasp moth"
-  - Styx # Acherontia styx
+  - Агрий # Agrius
+  - Атлас # Attacus atlas
+  - Аттакус # Attacus
+  - Геракл # Coscinocera hercules
+  - Раннох # Itame brunneata, "Rannoch Looper"
+  - Сократ # Acosmeryx socrates
+  - Солус # Saturniidae solus
+  - Цезарь # Attacus caesar
 
-  # Other languages
-  - Avelaina # Galician "moth" (avelaíña)
-  - Falena # Italian "winter moth"
-  - Menodora # Greek "moon gift"
-  - Molie # Romanian "moth"
-  - Polilla # Spanish "moth"
+  # Другие языки
+  - Азар # персидский "огонь"
+  - Аш # Иврит עש "мотылек"
+  - Кайзер # Немецкий «император», потомок латинского цезаря.
+  - Раджас # Санскрит «тьма» или «пыль».
+  - Рекс # Латинское «король».
+  - Скорос # Греческая «платяная моль».
 
-  # Myth and legend
-  - Althea # Greek mythological figure
-  - Aurora # Roman goddess of the dawn
-  - Helle # Greek mythological figure
-  - Selene # Greek goddess of the moon
-  - Nyx # Greek goddess of the night
+  # Мифы и легенды
+  - Бладуд # легендарный король бриттов, создавший крылья и погибший при попытке полета
+  - Вулфорд # перевод слова Бладуд от валлийского blaidd «волк» + iudd «господин».
+  - Дедал # отец Икара
+  - Джатаю # Индуистская фигура, похожая на Икара
+  - Икар # классический
+  - Кохо # японское прочтение 夸父（こほ）
+  - Куа-фу # Китайский гигант 夸父, похож на Икара
+  - Люцифер # более известная фигура падения с небес
+  - Мерлин # Артуровский волшебник
+  - Фаэтон # еще одна греческая фигура, похожая на Икара
+  - Эреб # Древнегреческое божество тьмы
 
-  # Fun names
-  - Angel
-  - Sandy
-  - Liberty
+  # Забавные имена
+  - Альтаир
+  - Гамбит
+  - Пыляка
+  - Туз
+  - Ястреб
 
-  # Common names, filler
-  - Beatrix
-  - Daisy
-  - Dawn
-  - Elizabeth
-  - Lucy
-  - Ruby
-  - Sarah
-  - Sienna
-  - Willow
-  - Zoey
+  # Общие имена, наполнитель
+  - Айзек
+  - Ашер
+  - Рома
+  - Сайлас
+  - Саймон
+  - Самуэль
+  - Себастьян
+
+  # XENOU
+  - Унесённый Сиянием
+
+  # Профессии
+  - Помощница
+  - Поэт
+  - Рыцарь
+  - Строитель
+  - Строитель Врат
+  - Ткачиха
+
+  # Кьер-Иза
+  - Лам-Ниан
+  - Лам-Унниан
+  - Лам-Энин
+  - Лам-Энрэй
+  - Лам-Энрэйла
+  - Ниан
+  - Унниан
+  - Энин
+  - Энрэй
+  - Энрэйла
+
+  # SHENNON
+  - Аркрайт
+  - Бард
+  - Блуждающий во снах
+  - Директор
+  - Звездочет
+  - Изучающий
+  - Искатель
+  - Исследователь
+  - Кузнец на службе
+  - Лучник
+  - Наблюдающий
+  - Парящий сквозь звезды
+  - Пекарь
+  - Послушник
+  - Проводник
+  - Проповедник
+  - Слуга
+  - Сморящий
+  - Страж
+  - Студент
+  - Ученик
+  - Целитель

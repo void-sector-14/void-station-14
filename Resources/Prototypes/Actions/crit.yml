@@ -1,4 +1,4 @@
-﻿# Actions added to mobs in crit.
+# Actions added to mobs in crit.
 - type: entity
   id: ActionCritSuccumb
   name: Succumb

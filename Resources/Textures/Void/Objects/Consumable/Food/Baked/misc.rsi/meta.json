@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "pancakesCMilk1"
+    },
+    {
+      "name": "mint"
+    },
+    {
+      "name": "pancakesCMilk2"
+    },
+    {
+      "name": "plate-small"
+    },
+    {
+      "name": "pancakesCMilk3"
+    }
+  ]
+}

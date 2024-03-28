@@ -1,0 +1,11 @@
+ent-ClothingBeltBase = { ent-Clothing }
+    .desc = { ent-Clothing.desc }
+    .suffix = { ent-Clothing.suffix }
+
+ent-ClothingBeltStorageBase = { ent-ClothingBeltBase }
+    .desc = { ent-ClothingBeltBase.desc }
+    .suffix = { "" }
+
+ent-ClothingBeltAmmoProviderBase = { ent-ClothingBeltBase }
+    .desc = { ent-ClothingBeltBase.desc }
+    .suffix = { "" }

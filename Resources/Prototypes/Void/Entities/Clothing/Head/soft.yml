@@ -1,0 +1,10 @@
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatStorekeeper
+  name: кепка кладовщика
+  description: Отличная кепка. Твоя кепка.
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Head/Soft/storekeeper.rsi
+  - type: Clothing
+    sprite: Void/Clothing/Head/Soft/storekeeper.rsi

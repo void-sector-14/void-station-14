@@ -1,6 +1,7 @@
-﻿- type: vendingMachineInventory
+- type: vendingMachineInventory
   id: SalvageEquipmentInventory
   startingInventory:
+    ClothingBeltSalvageWebbing: 2
     Crowbar: 2
     Pickaxe: 4
     OreBag: 4
@@ -10,6 +11,7 @@
     HandheldGPSBasic: 2
     RadioHandheld: 2
     WeaponProtoKineticAccelerator: 4
+    SurvivalKnife: 4
     SeismicCharge: 2
     FultonBeacon: 1
     Fulton: 2

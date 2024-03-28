@@ -1,28 +1,28 @@
 <Document>
-## Starting Out
-This is not an extensive list of recipes, these listings are to showcase the basics.
+	## Начало
+	Это не все существующие рецепты, этот список предназначен для демонстрации основ.
 
-Mixes are done in a Beaker, foods are cooked in a Microwave. Cook times will be listed.
+	Продукты смешиваются в мензурке, блюдо готовится в микроволновой печи. Время приготовления обычно указывается в рецепте.
 
-WARNING: This is not an automatically generated list, things here may become outdated. The wiki has much more than is listed here.
+	внимание: Это не автоматически сгенерированный список, все перечисленное здесь может устареть. В Вики гораздо больше информации, чем указано здесь.
 
-## The Basics: Mixing
+	## Основы: Замешивание
 
-- Dough = 15 Flour, 10 Water
-- Cornmeal Dough = 1 Egg (6u), 10 Milk, 15 Cornmeal
-- Tortila Dough = 15 Cornmeal, 10 Water
-- Tofu = 5 Enzyme (Catalyst), 30 Soy Milk
-- Pie Dough = 2 Eggs (12u), 15 Flour, 5 Table Salt
-- Cake Batter = 2 Eggs(12u), 15 flour, 5 Sugar
-- Vegan Cake Batter = 15 Soy Milk, 15 Flour, 5 Sugar
-- Butter = 30 Milk, 5 Table Salt (Catalyst)
-- Cheese Wheel = 5 Enzyme (Catalyst), 40 Milk
-- Chèvre Log = 5 Enzyme (Catalyst), 10 Goat Milk
-- Meatball = 1 Egg (6u), 5 Flour, 5 Uncooked Animal Proteins
-- Chocolate = 6 Cocoa Powder, 2 Milk, 2 Sugar
-- Uncooked Animal Protein: Grind Raw Meat
+	- Тесто = 15 муки, 10 воды
+	- Кукурузное тесто = 1 яйцо (6 штук), 10 молока, 15 кукурузной муки
+	- Тесто для тортилы = 15 кукурузной муки, 10 воды
+	- Тофу = 5 универсальных ферментов (катализаторов), 30 соевого молока
+	- Тесто для пирога = 2 яйца (12 штук), 15 муки, 5 столовых ложек соли
+	- Тесто для торта = 2 яйца (12 штук), 15 муки, 5 сахара
+	- Тесто для веганского торта = 15 соевого молока, 15 муки, 5 сахара
+	- Сливочное масло = 30 г молока, 5 г поваренной соли (катализатор)
+	- Головка сыра = 5 г универсального фермента (катализатор), 40 г молока
+	- Сырное бревно = 5 г фермента (катализатор), 10 г козьего молока
+	- Фрикадельки = 1 яйцо (6 штук), 5 муки, 5 необжаренных животных белков
+	- Шоколад = 6 какао-порошков, 2 молока, 2 сахара
+	- Необжаренные животные белки: измельчить сырое мясо
 
-<Box>
+	<Box>
 <GuideEntityEmbed Entity="FoodDough"/>
 <GuideEntityEmbed Entity="FoodDoughCornmeal"/>
 <GuideEntityEmbed Entity="FoodTofu"/>
@@ -40,33 +40,33 @@ WARNING: This is not an automatically generated list, things here may become out
 <GuideEntityEmbed Entity="FoodSnackChocolateBar"/>
 </Box>
 
-## Secondary Products
+	## Второстепенные продукты
 
-- Dough Slice: Cut Dough
-- Bun: Microwave Dough Slice for 5 Seconds
-- Cutlet: Slice Raw Meat
-- Cheese Wedge: Slice Cheese Wheel
-- Flat Dough: Use a rolling pin or a round object (fire extinguisher, soda can, bottle) on Dough.
-- Tortilla Dough Slice: cut Tortilla Dough
-- Flat Tortilla Dough: Use a rolling pin or a round object (fire extinguisher, soda can, bottle) on Tortilla Dough Slice
-- Taco Shell: Microwave Flat Tortilla Dough for 5 Seconds
+	- Кусочек теста: нарезать тесто
+	- Булочка: положить в микроволновку кусочек теста на 5 секунд
+	- Сырая котлета: нарезать сырое мясо
+	- Сырный ломтик: нарезать головку сыра
+	- Плоское тесто: раскатайте тесто скалкой либо другим крыглым объектом (огнетушитель, жестяная банка, бутылка).
+	- Ломтик теста для тортильи: нарежьте тесто для тортильи
+	- Плоское тесто для тортильи: Используйте скалку или круглый предмет (огнетушитель, банку из-под содовой, бутылку) на ломтик теста для тортильи
+	- Форма для тако: Разогрейте тесто для тортильи в микроволновой печи в течение 5 секунд
 
-## Food Examples
+	## Примеры блюд
 
-- Bread: Microwave Dough for 10 Seconds
-- Plain Burger: Microwave 1 Bun and 1 Raw Meat for 10 Seconds
-- Tomato Soup: 10u Water, 1 Bowl, and 2 Tomatoes for 10 Seconds
-- Citrus Salad: 1 Bowl, 1 Lemon, 1 Lime, 1 Orange for 5 Seconds
-- Margherita Pizza: Microwave 1 Flat Dough, 1 Cheese Wedge, and 4 Tomatoes for 30 Seconds
-- Cake: 1 Cake Batter for 15 Seconds
-- Apple Pie: 1 Pie Dough, 3 Apples, and 1 Pie Tin for 15 Seconds
-- Beef Taco: Microwave 1 Taco Shell, 1 Raw Meat Cutlet, 1 Cheese Wedge for 10 Seconds
-- Cuban Carp : Microwave 1 Dough, 1 Cheese Wedge, 1 Chili, 1 Carp Meat for 15 Seconds
-- Banana Cream Pie : Microwave 1 Pie Dough, 3 Bananas, and 1 Pie Tin for 15 Seconds
-- Carrot Fries : Microwave 1 Carrot, 15u Salt for 15 Seconds
-- Pancake : Microwave 5u Flour, 5u Milk, 1 Egg (6u) for 5 Seconds
+	- Хлеб: положить в микроволновку тесто на 10 секунд
+	- Бургер: положить в микроволновку 1 булочку и 1 сырое мясо на 10 секунд
+	- Томатный суп: 10 ед. воды, 1 пустая миска и 2 помидора на 10 секунд
+	- Цитрусовый салат: 1 пустая миска, 1 лемон, 1 лайм, 1 апельсин на 5 секунд
+	- Маргарита: положить в микроволновку 1 плоское тесто, 1 сырный ломтик и 4 помидора на 30 секунд
+	- Торт: 1 тесто для торта в микроволновку на 15 секунд
+	- Яблочный пирог: 1 тесто для пирога, 3 яблока и 1 формочку для пирога на 15 секунд
+	- Тако с говядиной: Разогрейте в микроволновой печи 1 форму для тако, 1 котлету из сырого мяса, 1 ломтик сыра в течение 10 секунд
+	- Карп по-кубински: Разогрейте в микроволновой печи 1 тесто, 1 ломтик сыра, 1 Чили, 1 мясо карпа в течение 15 секунд
+	- Пирог с банановым кремом: Разогрейте в микроволновой печи 1 тесто для пирога, 3 банана и 1 форму для пирога в течение 15 секунд
+	- Картофель фри с морковью: Разогрейте в микроволновой печи 1 морковь, 15 г соли в течение 15 секунд
+	- Блинчики: Разогрейте в микроволновке 5 г муки, 5 г молока, 1 яйцо (6 г) в течение 5 секунд
 
-<Box>
+	<Box>
 <GuideEntityEmbed Entity="FoodBreadPlain"/>
 <GuideEntityEmbed Entity="FoodBurgerPlain"/>
 <GuideEntityEmbed Entity="FoodSoupTomato"/>

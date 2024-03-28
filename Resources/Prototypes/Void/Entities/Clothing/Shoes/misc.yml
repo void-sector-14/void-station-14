@@ -1,0 +1,70 @@
+- type: entity
+  parent: ClothingShoesBaseButcherable
+  id: ClothingShoesBlackDress
+  name: Чёрные туфли
+  description: Вечерный шик.
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Shoes/Misc/blackdressshoes.rsi
+  - type: Clothing
+    sprite: Void/Clothing/Shoes/Misc/blackdressshoes.rsi
+
+- type: entity
+  parent: ClothingShoesBaseButcherable
+  id: ClothingShoesRedDress
+  name: Красные туфли
+  description: Вечерный шик.
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Shoes/Misc/redshoes.rsi
+  - type: Clothing
+    sprite: Void/Clothing/Shoes/Misc/redshoes.rsi
+
+- type: entity
+  parent: ClothingShoesBaseButcherable
+  id: ClothingShoesRichDress
+  name: Дорогие туфли
+  description: Вы этом вы чувствуете себя богаче.
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Shoes/Misc/richshoes.rsi
+  - type: Clothing
+    sprite: Void/Clothing/Shoes/Misc/richshoes.rsi
+
+- type: entity
+  parent: ClothingShoesBaseButcherable
+  id: ClothingShoesStarDress
+  name: Звёздные туфли
+  description: Они сияют!
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Shoes/Misc/starshoes.rsi
+  - type: Clothing
+    sprite: Void/Clothing/Shoes/Misc/starshoes.rsi
+    clothingVisuals:
+      shoes:
+      - state: equipped-FEET
+      - state: equipped-FEET_unsh
+        shader: unshaded
+
+- type: entity
+  parent: ClothingShoesBaseButcherable
+  id: ClothingShoesBootsSilkDress
+  name: Шёлковые туфли
+  description: Украшенные жемчугом туфли
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Shoes/Misc/silkdressshoes.rsi
+  - type: Clothing
+    sprite: Void/Clothing/Shoes/Misc/silkdressshoes.rsi
+
+- type: entity
+  parent: ClothingShoesBaseButcherable
+  id: ClothingShoesBootsPinkDress
+  name: Розовые туфли
+  description: Украшены милыми бантиками
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Shoes/Misc/pinkdressshoes.rsi
+  - type: Clothing
+    sprite: Void/Clothing/Shoes/Misc/pinkdressshoes.rsi

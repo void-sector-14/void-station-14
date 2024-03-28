@@ -15,6 +15,12 @@
     ClothingHeadBandSkull: 2
     ClothingHeadHatGreyFlatcap: 3
     ClothingHeadHatBrownFlatcap: 3
+    ClothingOuterClothingSweaterBlue: 2
+    ClothingOuterClothingSweaterGreen: 2
+    ClothingOuterClothingSweaterGrey: 2
+    ClothingOuterClothingSweaterPink: 2
+    ClothingOuterClothingSweaterPurple: 2
+    ClothingOuterClothingSweaterYellow: 2
     ClothingUniformJumpsuitColorGrey: 8
     ClothingUniformJumpskirtColorGrey: 8
     ClothingUniformJumpsuitColorWhite: 3
@@ -54,6 +60,37 @@
     ClothingUniformJumpsuitCasualRed: 2
     ClothingUniformJumpskirtCasualRed: 2
     # DO NOT ADD MORE, USE UNIFORM DYING
+    VoidClothingUniformTurleneckBlack: 5
+    VoidClothingUniformTurleneckBlackWomen: 5
+    VoidClothingUniformTurleneckBlue: 5
+    VoidClothingUniformTurleneckBlueBlack: 2
+    VoidClothingUniformTurleneckBlueWomen: 5
+    VoidClothingUniformTurleneckGolub: 5
+    VoidClothingUniformTurleneckGolubBlack: 2
+    VoidClothingUniformTurleneckGolubWomen: 5
+    VoidClothingUniformTurleneckGreen: 5
+    VoidClothingUniformTurleneckGreenBlack: 2
+    VoidClothingUniformTurleneckGreenWomen: 5
+    VoidClothingUniformTurleneckOrange: 5
+    VoidClothingUniformTurleneckOrangeBlack: 2
+    VoidClothingUniformTurleneckOrangeWomen: 5
+    VoidClothingUniformTurleneckPurpur: 5
+    VoidClothingUniformTurleneckPurpurBlack: 2
+    VoidClothingUniformTurleneckPurpurWomen: 5
+    VoidClothingUniformTurleneckRed: 5
+    VoidClothingUniformTurleneckRedBlack : 2
+    VoidClothingUniformTurleneckRedWomen: 5
+    VoidClothingUniformTurleneckSalat: 5
+    VoidClothingUniformTurleneckSalatBlack: 2
+    VoidClothingUniformTurleneckSalatWomen: 5
+    VoidClothingUniformTurleneckWhite: 5
+    VoidClothingUniformTurleneckWhiteBlack: 2
+    VoidClothingUniformTurleneckWhiteWomen: 5
+    VoidClothingUniformTurleneckBlackSleeveless: 2
+    VoidClothingUniformTurleneckBlackWomenSleeveless: 2
+    VoidClothingUniformTurleneckWhiteSleeveless: 2
+    VoidClothingUniformTurleneckWhiteBlackSleeveless: 2
+    VoidClothingUniformTurleneckWhiteWomenSleeveless: 2
     ClothingShoesColorBlack: 8
     ClothingShoesColorBrown: 4
     ClothingShoesColorWhite: 3
@@ -87,10 +124,15 @@
     ClothingHandsGlovesColorGreen: 2
     ClothingHandsGlovesColorOrange: 2
     ClothingHandsGlovesColorPurple: 2
+    ClothingOuterClothingBlackCoatDragon: 1
+    ClothingOuterClothingBlackJacket: 3
+    ClothingOuterClothingBlackJacketSkull: 1
+    ClothingOuterCoatBomberBlack: 3
     ClothingEyesGlassesCheapSunglasses: 3
     # DO NOT ADD MORE, USE UNIFORM DYING
   contrabandInventory:
     ClothingMaskNeckGaiter: 2
     ClothingUniformJumpsuitTacticool: 1
     ClothingUniformJumpskirtTacticool: 1
+    VoidClothingUniformTurleneckTactick: 1
   # DO NOT ADD MORE, USE UNIFORM DYING

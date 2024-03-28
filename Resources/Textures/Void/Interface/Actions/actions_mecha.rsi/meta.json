@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "mech_eject"
+    },
+    {
+      "name": "mech_ivanov_cooldown"
+    },
+    {
+      "name": "mech_savannah_cooldown"
+    },
+    {
+      "name": "mech_view_stats"
+    }
+  ]
+}

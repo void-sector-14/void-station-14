@@ -1,0 +1,3 @@
+ent-EffectRCDConstruction = { "" }
+    .desc = { "" }
+    .suffix = { "" }

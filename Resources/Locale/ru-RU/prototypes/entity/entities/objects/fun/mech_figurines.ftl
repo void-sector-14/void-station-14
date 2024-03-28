@@ -1,0 +1,51 @@
+ent-BaseFigurineMech = фигурка
+    .desc = Небольшая миниатюрка.
+    .suffix = { ent-BaseItem.suffix }
+
+ent-ToyRipley = игрушечный рипли
+    .desc = Фигурка Мини-Мех! 'Меха номер 1/12' написано на обороте.
+    .suffix = { ent-BaseFigurineMech.suffix }
+
+ent-ToyFireRipley = пожарный рипли
+    .desc = Фигурка Мини-Мех! 'Меха номер 2/12' написано на обороте.
+    .suffix = { ent-BaseFigurineMech.suffix }
+
+ent-ToyDeathRipley = игрушечный смерть-рипли
+    .desc = Фигурка Мини-Мех! 'Меха номер 3/12' написано на обороте.
+    .suffix = { ent-BaseFigurineMech.suffix }
+
+ent-ToyGygax = игрушечный гайгэкс
+    .desc = Фигурка Мини-Мех! 'Меха номер 4/12' написано на обороте.
+    .suffix = { ent-BaseFigurineMech.suffix }
+
+ent-ToyDurand = игрушечный дюранд
+    .desc = Фигурка Мини-Мех! 'Меха номер 5/12' написано на обороте.
+    .suffix = { ent-BaseFigurineMech.suffix }
+
+ent-ToyHonk = игрушечный х.о.н.к.
+    .desc = Фигурка Мини-Мех!'Меха номер 6/12' написано на обороте.
+    .suffix = { ent-BaseFigurineMech.suffix }
+
+ent-ToyMarauder = игрушечный мародёр
+    .desc = Фигурка Мини-Мех! 'Меха номер 7/12' написано на обороте.
+    .suffix = { ent-BaseFigurineMech.suffix }
+
+ent-ToySeraph = игрушечный серафим
+    .desc = Фигурка Мини-Мех! 'Меха номер 8/12' написано на обороте.
+    .suffix = { ent-BaseFigurineMech.suffix }
+
+ent-ToyMauler = игрушечный маулер
+    .desc = Фигурка Мини-Мех! 'Меха номер 9/12' написано на обороте.
+    .suffix = { ent-BaseFigurineMech.suffix }
+
+ent-ToyOdysseus = игрушечный одиссей
+    .desc = Фигурка Мини-Мех! 'Меха номер 10/12' написано на обороте.
+    .suffix = { ent-BaseFigurineMech.suffix }
+
+ent-ToyPhazon = игрушечный фазон
+    .desc = Фигурка Мини-Мех! 'Меха номер 11/12' написано на обороте.
+    .suffix = { ent-BaseFigurineMech.suffix }
+
+ent-ToyReticence = игрушечный молчун
+    .desc = Фигурка Мини-Мех! 'Меха номер 12/12' написано на обороте.
+    .suffix = { ent-BaseFigurineMech.suffix }

@@ -28,8 +28,8 @@ namespace Content.Server.GameTicking.Commands
 
             var gameMap = IoCManager.Resolve<IGameMapManager>();
             var name = args[0];
+            gameMap.SelectMap(name);
 
-            _configurationManager.SetCVar(CCVars.GameMap, name);
             shell.WriteLine(Loc.GetString("forcemap-command-success", ("map", name)));
         }
 

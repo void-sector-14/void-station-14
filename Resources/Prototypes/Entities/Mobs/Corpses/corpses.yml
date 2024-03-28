@@ -15,6 +15,7 @@
       - ChefGear
       - ChaplainGear
       - PassengerGear
+      - 
 
 - type: entity
   parent: SalvageHumanCorpse
@@ -86,3 +87,16 @@
     - CMOGear
     - ChiefEngineerGear
     - QuartermasterGear
+
+- type: entity
+  parent: SalvageHumanCorpse
+  id: MobRandomSyndicateCorpse
+  name: неопознаный труп синдиката
+  suffix: Dead, Syndicate
+  components:
+  - type: Loadout
+    prototypes:
+    - SyndicateFootsoldierGearESword
+    - SyndicateFootsoldierGearPistol
+    - SyndicateFootsoldierGearKnife
+    - SyndicateOperativeGearNoUplink
