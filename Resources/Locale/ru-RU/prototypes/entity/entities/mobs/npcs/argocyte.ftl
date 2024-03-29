@@ -49,3 +49,7 @@ ent-MobArgocyteFounder = прародитель
 ent-MobArgocyteLeviathing = левиазверь
     .desc = { ent-BaseMobArgocyte.desc }
     .suffix = { ent-BaseMobArgocyte.suffix }
+
+ent-MobArgocyteLeviathingSalvage = leviathing
+    .desc = { ent-BaseMobArgocyte.desc }
+    .suffix = { ent-BaseMobArgocyte.suffix }

@@ -7,6 +7,9 @@ con-Stool = { ent-Stool }
 con-StoolBar = { ent-StoolBar }
     .desc = { con-Chair.desc }
 
+con-ChairBrass = brass chair
+    .desc = You sit in this. Either by will or force.
+
 con-ChairOfficeLight = { ent-ChairOfficeLight }
     .desc = { con-Chair.desc }
 
@@ -34,6 +37,9 @@ con-ChairFolding = { ent-ChairFolding }
 con-ChairSteelBench = { ent-SteelBench }
     .desc = { ent-SteelBench.desc }
 
+con-ChairWoodBench = wooden bench
+    .desc = Did you get a splinter? Well, at least it’s eco friendly.
+
 con-RedComfBench = красная удобная скамейка
     .desc = Скамейка с очень удобной спинкой.
 
@@ -55,11 +61,41 @@ con-TableReinforcedGlass = { ent-TableReinforcedGlass }
 con-TablePlasmaGlass = { ent-TablePlasmaGlass }
     .desc = { ent-TablePlasmaGlass.desc }
 
+con-TableBrass = brass table
+    .desc = A shiny, corrosion resistant brass table. Steampunk!
+
 con-TableWood = { ent-TableWood }
     .desc = { ent-TableWood.desc }
 
 con-TableCarpet = { ent-TableCarpet }
     .desc = Квадратный кусок дерева, стоящий на четырех ножках, покрытых тканью. (Чего вы ожидали?)
+
+con-TableFancyBlack = fancy black table
+    .desc = A table covered with a beautiful cloth.
+
+con-TableFancyBlue = fancy blue table
+    .desc = A table covered with a beautiful cloth.
+
+con-TableFancyCyan = fancy cyan table
+    .desc = A table covered with a beautiful cloth.
+
+con-TableFancyGreen = fancy green table
+    .desc = A table covered with a beautiful cloth.
+
+con-TableFancyOrange = fancy orange table
+    .desc = A table covered with a beautiful cloth.
+
+con-TableFancyPurple = fancy purple table
+    .desc = A table covered with a beautiful cloth.
+
+con-TableFancyPink = fancy pink table
+    .desc = A table covered with a beautiful cloth.
+
+con-TableFancyRed = fancy red table
+    .desc = A table covered with a beautiful cloth.
+
+con-TableFancyWhite = fancy white table
+    .desc = A table covered with a beautiful cloth.
 
 con-TableCounterMetal = { ent-TableCounterMetal }
     .desc = Отличное место чтобы пропустить стаканчик.
@@ -90,6 +126,33 @@ con-MeatSpike = мясницкий крюк
 
 con-Curtains = шторы
     .desc = Содержит менее 1% ртути.
+
+con-CurtainsBlack = black curtains
+    .desc = Hides what others shouldn't see.
+
+con-CurtainsBlue = blue curtains
+    .desc = Hides what others shouldn't see.
+
+con-CurtainsCyan = cyan curtains
+    .desc = Hides what others shouldn't see.
+
+con-CurtainsGreen = green curtains
+    .desc = Hides what others shouldn't see.
+
+con-CurtainsOrange = orange curtains
+    .desc = Hides what others shouldn't see.
+
+con-CurtainsPink = pink curtains
+    .desc = Hides what others shouldn't see.
+
+con-CurtainsPurple = purple curtains
+    .desc = Hides what others shouldn't see.
+
+con-CurtainsRed = red curtains
+    .desc = Hides what others shouldn't see.
+
+con-CurtainsWhite = white curtains
+    .desc = Hides what others shouldn't see.
 
 con-Bookshelf = { ent-Bookshelf }
     .desc = В основном заполненный книгами.

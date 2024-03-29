@@ -65,3 +65,11 @@ ent-Coal = уголь
 ent-Coal1 = { ent-Coal }
     .desc = { ent-Coal.desc }
     .suffix = Single
+
+ent-SaltOre = salt
+    .desc = { ent-OreBase.desc }
+    .suffix = Full
+
+ent-Salt1 = { ent-SaltOre }
+    .desc = { ent-SaltOre.desc }
+    .suffix = Single

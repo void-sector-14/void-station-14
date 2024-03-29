@@ -93,3 +93,7 @@ ent-ClothingBackpackDuffelSyndicateOperativeMedic = вещмешок опера�
 ent-ClothingBackpackDuffelSyndicateMedicalBundleFilled = набор медикаментов
     .desc = Все, что нужно для возвращения в строй ваших товарищей: главным образом, боевая аптечка, дефибриллятор и три боевых медипена.
     .suffix = { "" }
+
+ent-ClothingBackpackDuffelSyndicateDecoyKitFilled = decoy bundle
+    .desc = Contains distractions, both auditory and visual. Smell coming soon.
+    .suffix = { "" }

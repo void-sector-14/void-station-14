@@ -14,6 +14,14 @@ ent-AirlockAssemblyCargoGlass = { ent-AirlockAssembly }
     .desc = { ent-AirlockAssembly.desc }
     .suffix = Снабжение, Стеклянный
 
+ent-PinionAirlockAssembly = airlock assembly
+    .desc = { ent-AirlockAssembly.desc }
+    .suffix = Pinion, Clockwork
+
+ent-PinionAirlockAssemblyGlass = { ent-PinionAirlockAssembly }
+    .desc = { ent-PinionAirlockAssembly.desc }
+    .suffix = Pinion, Clockwork, Glass
+
 ent-AirlockAssemblyCommand = { ent-AirlockAssembly }
     .desc = { ent-AirlockAssembly.desc }
     .suffix = Командный

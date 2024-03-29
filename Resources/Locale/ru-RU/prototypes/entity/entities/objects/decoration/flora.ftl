@@ -54,6 +54,30 @@ ent-FloraStalagmite6 = { ent-FloraStalagmite1 }
     .desc = { ent-FloraStalagmite1.desc }
     .suffix = { "" }
 
+ent-FloraGreyStalagmite1 = { ent-FloraStalagmite1 }
+    .desc = { ent-FloraStalagmite1.desc }
+    .suffix = { "" }
+
+ent-FloraGreyStalagmite2 = { ent-FloraGreyStalagmite1 }
+    .desc = { ent-FloraGreyStalagmite1.desc }
+    .suffix = { "" }
+
+ent-FloraGreyStalagmite3 = { ent-FloraGreyStalagmite1 }
+    .desc = { ent-FloraGreyStalagmite1.desc }
+    .suffix = { "" }
+
+ent-FloraGreyStalagmite4 = { ent-FloraGreyStalagmite1 }
+    .desc = { ent-FloraGreyStalagmite1.desc }
+    .suffix = { "" }
+
+ent-FloraGreyStalagmite5 = { ent-FloraGreyStalagmite1 }
+    .desc = { ent-FloraGreyStalagmite1.desc }
+    .suffix = { "" }
+
+ent-FloraGreyStalagmite6 = { ent-FloraGreyStalagmite1 }
+    .desc = { ent-FloraGreyStalagmite1.desc }
+    .suffix = { "" }
+
 ent-FloraTree01 = дерево
     .desc = { ent-BaseTree.desc }
     .suffix = { ent-BaseTree.suffix }
@@ -176,4 +200,28 @@ ent-ShadowTree05 = { ent-ShadowTree01 }
 
 ent-ShadowTree06 = { ent-ShadowTree01 }
     .desc = { ent-ShadowTree01.desc }
+    .suffix = { "" }
+
+ent-LightTree01 = glowing tree
+    .desc = a marvelous tree filled with strange energy.
+    .suffix = { "" }
+
+ent-LightTree02 = { ent-LightTree01 }
+    .desc = { ent-LightTree01.desc }
+    .suffix = { "" }
+
+ent-LightTree03 = { ent-LightTree01 }
+    .desc = { ent-LightTree01.desc }
+    .suffix = { "" }
+
+ent-LightTree04 = { ent-LightTree01 }
+    .desc = { ent-LightTree01.desc }
+    .suffix = { "" }
+
+ent-LightTree05 = { ent-LightTree01 }
+    .desc = { ent-LightTree01.desc }
+    .suffix = { "" }
+
+ent-LightTree06 = { ent-LightTree01 }
+    .desc = { ent-LightTree01.desc }
     .suffix = { "" }

@@ -122,6 +122,10 @@ ent-ClothingMaskNeckGaiter = шейный гетр
     .desc = Стильный гетр, способный защитить от космического ветра?...
     .suffix = { ent-ClothingMaskBase.suffix }
 
+ent-ClothingMaskNeckGaiterRed = red neck gaiter
+    .desc = { ent-ClothingMaskNeckGaiter.desc }
+    .suffix = { "" }
+
 ent-ClothingMaskSexyClown = сексуальная маска клоуна
     .desc = Некоторые шаловливые клоуны уверены, что именно так выглядит Хонкоматерь.
     .suffix = { ent-ClothingMaskClownBase.suffix }

@@ -30,3 +30,6 @@ con-AirlockExternal = { ent-AirlockExternal }
 
 con-AirlockExternalGlass = { ent-AirlockExternal }
     .desc = { ent-AirlockExternal.desc }
+
+con-ShuttleWindowDiagonal = { ent-ShuttleWindowDiagonal }
+    .desc = { ent-ShuttleWindowDiagonal.desc }

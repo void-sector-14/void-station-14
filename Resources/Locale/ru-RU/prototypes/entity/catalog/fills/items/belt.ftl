@@ -34,6 +34,10 @@ ent-ClothingBeltSheathFilled = { ent-ClothingBeltSheath }
     .desc = { ent-ClothingBeltSheath.desc }
     .suffix = Заполненный
 
+ent-ClothingBeltSheathkatanaFilled = { ent-ClothingBeltSheathkatana }
+    .desc = { ent-ClothingBeltSheathkatana.desc }
+    .suffix = Filled
+
 ent-ClothingBeltMilitaryWebbingGrenadeFilled = разгрузочный жилет гренадёра
     .desc = { ent-ClothingBeltMilitaryWebbing.desc }
     .suffix = Заполненный

@@ -94,6 +94,10 @@ ent-ClothingBackpackERTClown = рюкзак клоуна ОБР
     .desc = Вместительный рюкзак с множеством карманов, который носят клоуны отряда быстрого реагирования.
     .suffix = { ent-ClothingBackpackERTLeader.suffix }
 
+ent-ClothingBackpackSyndicate = syndicate backpack
+    .desc = { ent-ClothingBackpack.desc }
+    .suffix = { "" }
+
 ent-ClothingBackpackHolding = блюспейс рюкзак
     .desc = Рюкзак, открывающийся в локальный карман блюспейса.
     .suffix = { ent-ClothingBackpack.suffix }

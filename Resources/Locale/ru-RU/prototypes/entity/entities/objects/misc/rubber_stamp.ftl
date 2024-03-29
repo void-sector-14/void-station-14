@@ -18,6 +18,10 @@ ent-RubberStampChaplain = печать священника
     .desc = { ent-RubberStampBase.desc }
     .suffix = НЕ МАППИТЬ
 
+ent-RubberStampLawyer = lawyer's rubber stamp
+    .desc = { ent-RubberStampBase.desc }
+    .suffix = DO NOT MAP
+
 ent-RubberStampClown = печать клоуна
     .desc = { ent-RubberStampBase.desc }
     .suffix = НЕ МАППИТЬ
@@ -69,3 +73,7 @@ ent-RubberStampApproved = печать ОДОБРЕНО
 ent-RubberStampDenied = печать ОТКАЗАНО
     .desc = { ent-RubberStampBaseAlt.desc }
     .suffix = { "" }
+
+ent-RubberStampDetective = detective's rubber stamp
+    .desc = { ent-RubberStampBase.desc }
+    .suffix = DO NOT MAP

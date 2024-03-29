@@ -22,6 +22,14 @@ ent-KukriKnife = нож-кукри
     .desc = У профессионалов есть правила. Будь вежлив. Работай эффективно. Убивай каждого встречного.
     .suffix = { "" }
 
+ent-BladedFlatcapGrey = grey flatcap
+    .desc = Fashionable for both the working class and old man Jenkins. It has glass shards hidden in the brim.
+    .suffix = Bladed
+
+ent-BladedFlatcapBrown = brown flatcap
+    .desc = Stupid clown! You made me look bad! It has glass shards hidden in the brim.
+    .suffix = { ent-BladedFlatcapGrey.suffix }
+
 ent-Shiv = заточка
     .desc = Грубое оружие, сделанное из куска ткани и осколка стекла.
     .suffix = { "" }
@@ -36,4 +44,8 @@ ent-PlasmaShiv = плазменая заточка
 
 ent-UraniumShiv = урановая заточка
     .desc = Грубое оружие, сделанное из куска ткани и осколка уранового стекла. Нарушает Женевскую конвенцию!
+    .suffix = { "" }
+
+ent-ThrowingKnife = throwing knife
+    .desc = This bloodred knife is very aerodynamic and easy to throw, but good luck trying to fight someone hand-to-hand.
     .suffix = { "" }

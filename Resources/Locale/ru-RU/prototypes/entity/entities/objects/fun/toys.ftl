@@ -78,6 +78,18 @@ ent-PlushieCarp = плюшевый карп
     .desc = Очаровательная мягкая игрушка, напоминающая ужасающего космического карпа.
     .suffix = { ent-BasePlushie.suffix }
 
+ent-PlushieMagicarp = magicarp plushie
+    .desc = An adorable stuffed toy resembling the exceedingly rare magicarp.
+    .suffix = { "" }
+
+ent-PlushieRainbowCarp = rainbow carp plushie
+    .desc = An adorable stuffed toy resembling the legendary rainbow carp.
+    .suffix = { "" }
+
+ent-PlushieHolocarp = holocarp plushie
+    .desc = A holographic stuffed toy resembling science's nemesis - the holocarp.
+    .suffix = { "" }
+
 ent-PlushieSlime = плюшевый слайм
     .desc = Очаровательная мягкая игрушка, напоминающая слайма. По сути, это мяч для футбэга.
     .suffix = { ent-BasePlushie.suffix }
@@ -173,6 +185,10 @@ ent-BeachBall = пляжный мяч
 ent-BalloonSyn = воздушный шарик синдиката
     .desc = Вручается смелейшим из смелейших, пережившим аттракцион "Атомный смерч" в Синдиленде.
     .suffix = { ent-BaseItem.suffix }
+
+ent-BalloonNT = nanotrasen balloon
+    .desc = Specially designed to inflict maximum psychological damage to Syndicate operatives.
+    .suffix = { "" }
 
 ent-BalloonCorgi = воздушный шарик корги
     .desc = То же, что и владеть настоящей собакой - только гораздо более летучей.

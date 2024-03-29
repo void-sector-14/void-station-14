@@ -18,6 +18,10 @@ ent-CrateMaterialWood = ящик дерева
     .desc = Куча деревянных досок.
     .suffix = { "" }
 
+ent-CrateMaterialBrass = brass crate
+    .desc = 90 sheets of brass.
+    .suffix = { "" }
+
 ent-CrateMaterialPlasteel = ящик пластали
     .desc = 90 единиц пластали.
     .suffix = { "" }

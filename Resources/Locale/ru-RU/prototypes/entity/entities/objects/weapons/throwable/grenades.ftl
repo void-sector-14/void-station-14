@@ -46,6 +46,18 @@ ent-SmokeGrenade = дымовая граната
     .desc = Граната тактического применения, при использовании выпускающая большое и продолжительное облако дыма.
     .suffix = { "" }
 
+ent-CleanerGrenade = cleanade
+    .desc = Special grenade for janitors, releasing large cloud of space cleaner foam
+    .suffix = { "" }
+
 ent-TearGasGrenade = слезоточивая граната
     .desc = Граната со слезоточивым газом для борьбы с беспорядками. Вызывает раздражение, боль и заставляет вас выплакать глаза.
+    .suffix = { "" }
+
+ent-GrenadeDummy = trick grenade
+    .desc = All the grenade without any of the boom.
+    .suffix = { "" }
+
+ent-SyndieTrickyBomb = syndicate trickybomb
+    .desc = A syndicate-manufactured explosive used to make an excellent distraction.
     .suffix = { "" }

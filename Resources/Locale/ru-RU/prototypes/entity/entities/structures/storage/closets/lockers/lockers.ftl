@@ -2,6 +2,10 @@ ent-LockerBooze = шкафчик со спиртным
     .desc = Здесь бармен хранит алкоголь.
     .suffix = { "" }
 
+ent-LockerSteel = secure closet
+    .desc = { ent-LockerBaseSecure.desc }
+    .suffix = { "" }
+
 ent-LockerQuarterMaster = шкаф квартирмейстера
     .desc = { ent-LockerBaseSecure.desc }
     .suffix = { "" }

@@ -105,3 +105,7 @@ ent-ClothingOuterCoatLabSeniorPhysician = лабораторный халат в
 ent-ClothingOuterCoatSpaceAsshole = куртка космического мудака
     .desc = And there he was...
     .suffix = { "" }
+
+ent-ClothingOuterCoatExpensive = expensive coat
+    .desc = Very fluffy pink coat, made out of very expensive fur (clearly).
+    .suffix = { "" }

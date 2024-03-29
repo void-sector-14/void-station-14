@@ -34,8 +34,20 @@ ent-RandomTraitorProgressObjective = { ent-BaseHelpProgressObjective }
     .desc = Раскрывать себя или нет — решайте сами. Нам нужно, чтобы он преуспел.
     .suffix = { "" }
 
+ent-BaseCMOStealObjective = { ent-BaseTraitorStealObjective }
+    .desc = { "" }
+    .suffix = { "" }
+
 ent-CMOHyposprayStealObjective = { ent-BaseTraitorStealObjective }
     .desc = { ent-BaseTraitorStealObjective.desc }
+    .suffix = { "" }
+
+ent-CMOCrewMonitorStealObjective = { ent-BaseCMOStealObjective }
+    .desc = { "" }
+    .suffix = { "" }
+
+ent-BaseRDStealObjective = { ent-BaseTraitorStealObjective }
+    .desc = { "" }
     .suffix = { "" }
 
 ent-RDHardsuitStealObjective = { ent-BaseTraitorStealObjective }

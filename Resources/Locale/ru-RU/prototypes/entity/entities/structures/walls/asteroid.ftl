@@ -62,6 +62,10 @@ ent-IronRock = железный камень
     .desc = Каменистый астероид.
     .suffix = Низкое содержание руды
 
+ent-AsteroidRockSalt = { ent-AsteroidRock }
+    .desc = An ore vein rich with salt.
+    .suffix = Salt
+
 ent-IronRockMining = железный камень
     .desc = Астероид.
     .suffix = Высокое содержание руды
@@ -106,6 +110,10 @@ ent-WallRockArtifactFragment = { ent-WallRock }
     .desc = Каменная стена. Что это торчит из неё?
     .suffix = Фрагмент артефакта
 
+ent-WallRockSalt = { ent-WallRock }
+    .desc = An ore vein rich with salt.
+    .suffix = Salt
+
 ent-WallRockBasalt = базальт
     .desc = { ent-WallRock.desc }
     .suffix = { "" }
@@ -145,6 +153,10 @@ ent-WallRockBasaltBananium = { ent-WallRockBasalt }
 ent-WallRockBasaltArtifactFragment = { ent-WallRockBasalt }
     .desc = Каменная стена. Что это торчит из неё?
     .suffix = Фрагмент артефакта
+
+ent-WallRockBasaltSalt = { ent-WallRockBasalt }
+    .desc = An ore vein rich with salt.
+    .suffix = Salt
 
 ent-WallRockSnow = сугроб
     .desc = { ent-WallRock.desc }
@@ -186,6 +198,10 @@ ent-WallRockSnowArtifactFragment = { ent-WallRockSnow }
     .desc = Каменная стена. Что это торчит из неё?
     .suffix = Фрагмент артефакта
 
+ent-WallRockSnowSalt = { ent-WallRockSnow }
+    .desc = An ore vein rich with salt.
+    .suffix = Salt
+
 ent-WallRockSand = песчаник
     .desc = { ent-WallRock.desc }
     .suffix = { "" }
@@ -225,6 +241,10 @@ ent-WallRockSandBananium = { ent-WallRockSand }
 ent-WallRockSandArtifactFragment = { ent-WallRockSand }
     .desc = Каменная стена. Что это торчит из неё?
     .suffix = Фрагмент артефакта
+
+ent-WallRockSandSalt = { ent-WallRockSand }
+    .desc = An ore vein rich with salt.
+    .suffix = Salt
 
 ent-WallRockChromite = хромит
     .desc = { ent-WallRock.desc }
@@ -266,6 +286,10 @@ ent-WallRockChromiteArtifactFragment = { ent-WallRockChromite }
     .desc = Каменная стена. Что это торчит из неё?
     .suffix = Фрагмент артефакта
 
+ent-WallRockChromiteSalt = { ent-WallRockChromite }
+    .desc = An ore vein rich with salt.
+    .suffix = Salt
+
 ent-WallRockAndesite = андезит
     .desc = { ent-WallRock.desc }
     .suffix = { "" }
@@ -305,3 +329,7 @@ ent-WallRockAndesiteBananium = { ent-WallRockAndesite }
 ent-WallRockAndesiteArtifactFragment = { ent-WallRockAndesite }
     .desc = Каменная стена. Что это торчит из неё?
     .suffix = Фрагмент артефакта
+
+ent-WallRockAndesiteSalt = { ent-WallRockAndesite }
+    .desc = An ore vein rich with salt.
+    .suffix = Salt

@@ -1,3 +1,7 @@
+ent-BaseSuicideAction = BaseSuicideAction
+    .desc = { "" }
+    .suffix = { "" }
+
 ent-ActionScream = Крикнуть
     .desc = AAAAAAAAAAAAAAAAAAAAAAAAA
     .suffix = { "" }

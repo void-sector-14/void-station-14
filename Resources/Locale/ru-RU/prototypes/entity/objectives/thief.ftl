@@ -46,10 +46,6 @@ ent-IDCardsStealCollectionObjective = { ent-BaseThiefStealCollectionObjective }
     .desc = { ent-BaseThiefStealCollectionObjective.desc }
     .suffix = { "" }
 
-ent-CannabisStealCollectionObjective = { ent-BaseThiefStealCollectionObjective }
-    .desc = { ent-BaseThiefStealCollectionObjective.desc }
-    .suffix = { "" }
-
 ent-LAMPStealCollectionObjective = { ent-BaseThiefStealCollectionObjective }
     .desc = { ent-BaseThiefStealCollectionObjective.desc }
     .suffix = { "" }
@@ -174,19 +170,7 @@ ent-RenaultStealObjective = { ent-BaseThiefStealAnimalObjective }
     .desc = { ent-BaseThiefStealAnimalObjective.desc }
     .suffix = { "" }
 
-ent-HamletStealObjective = { ent-BaseThiefStealAnimalObjective }
-    .desc = { ent-BaseThiefStealAnimalObjective.desc }
-    .suffix = { "" }
-
 ent-ShivaStealObjective = { ent-BaseThiefStealAnimalObjective }
-    .desc = { ent-BaseThiefStealAnimalObjective.desc }
-    .suffix = { "" }
-
-ent-SmileStealObjective = { ent-BaseThiefStealAnimalObjective }
-    .desc = { ent-BaseThiefStealAnimalObjective.desc }
-    .suffix = { "" }
-
-ent-PunPunStealObjective = { ent-BaseThiefStealAnimalObjective }
     .desc = { ent-BaseThiefStealAnimalObjective.desc }
     .suffix = { "" }
 

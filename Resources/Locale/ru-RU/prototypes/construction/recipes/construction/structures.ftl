@@ -4,11 +4,17 @@ con-Girder = каркас
 con-ReinforcedGirder = укреплённый каркас
     .desc = Большой каркас из металла и пластали.
 
+con-ClockworkGirder = wall gear
+    .desc = A large gear with mounting brackets for additional plating.
+
 con-Wall = стена
     .desc = Удерживает воздух внутри, а ассистентов снаружи.
 
 con-ReinforcedWall = армированная стена
     .desc = Удерживает воздух внутри, а ассистентов снаружи.
+
+con-WallClock = clock wall
+    .desc = Keeps the air in and the greytide out.
 
 con-WoodWall = деревянная стена
     .desc = Удерживает воздух внутри, а ассистентов снаружи.
@@ -46,8 +52,14 @@ con-MeatWall = мясная стена
 con-Grille = решётка
     .desc = Хлипкий каркас из железных прутьев.
 
+con-ClockGrille = clockwork grille
+    .desc = A flimsy framework of iron rods assembled in traditional ratvarian fashion.
+
 con-GrilleDiagonal = { ent-GrilleDiagonal }
     .desc = { ent-Grille.desc }
+
+con-ClockworkGrilleDiagonal = diagonal clockwork grille
+    .desc = A flimsy framework of iron rods assembled in traditional ratvarian fashion.
 
 con-Window = окно
     .desc = Чистое.
@@ -64,6 +76,12 @@ con-ReinforcedWindowDiagonal = { ent-ReinforcedWindowDiagonal }
 con-TintedWindow = тонированное окно
     .desc = Не чистое, но прочное.
 
+con-ClockworkWindow = clockwork window
+    .desc = Clear and tough, with a golden tint.
+
+con-ClockworkWindowDiagonal = diagonal clockwork window
+    .desc = Clear and tough, with a golden tint.
+
 con-PlasmaWindow = плазменное окно
     .desc = Прозрачный и еще более жесткий, с фиолетовым оттенком.
 
@@ -72,9 +90,6 @@ con-ReinforcedPlasmaWindow = армированное плазменное ок�
 
 con-ShuttleWindow = { ent-ShuttleWindow }
     .desc = { ent-ShuttleWindow.desc }
-
-con-ShuttleWindowDiagonal = { ent-ShuttleWindowDiagonal }
-    .desc = { ent-ShuttleWindowDiagonal.desc }
 
 con-PlasmaWindowDiagonal = { ent-PlasmaWindowDiagonal }
     .desc = { ent-PlasmaWindow.desc }
@@ -87,6 +102,9 @@ con-WindowDirectional = направленное окно
 
 con-WindowReinforcedDirectional = направленное армированное окно
     .desc = Чистое и прочное.
+
+con-WindowClockworkDirectional = directional clockwork window
+    .desc = Clear and tough, with a golden tint.
 
 con-PlasmaWindowDirectional = направленное плазменное окно
     .desc = Чистое, прочное, с фиолетовым оттенком.
@@ -160,11 +178,47 @@ con-FenceMetalEnd = коненая сетка-рабица
 con-FenceMetalGate = ворота сетки-рабицы
     .desc = Простой способ пройти через сетчатый забор.
 
+con-FenceWood = wooden high fence
+    .desc = Part of a wooden fence meant to cordon off areas.
+
+con-FenceWoodEnd = wooden high fence end
+    .desc = Part of a wooden fence meant to cordon off areas.
+
+con-FenceWoodCorner = wooden high fence corner
+    .desc = Part of a wooden fence meant to cordon off areas.
+
+con-FenceWoodTJunction = wooden high fence t-junction
+    .desc = Part of a wooden fence meant to cordon off areas.
+
+con-FenceWoodGate = wooden high fence gate
+    .desc = Part of a wooden fence meant to cordon off areas.
+
+con-FenceWoodSmall = wooden small fence
+    .desc = Part of a wooden fence meant to cordon off areas.
+
+con-FenceWoodEndSmall = wooden small fence end
+    .desc = Part of a wooden fence meant to cordon off areas.
+
+con-FenceWoodCornerSmall = wooden small fence corner
+    .desc = Part of a wooden fence meant to cordon off areas.
+
+con-FenceWoodTJunctionSmall = wooden small fence t-junction
+    .desc = Part of a wooden fence meant to cordon off areas.
+
+con-FenceWoodGateSmall = wooden small fence gate
+    .desc = Part of a wooden fence meant to cordon off areas.
+
 con-Airlock = шлюз
     .desc = Он открывается, он закрывается, и он может вас раздавить.
 
 con-AirlockGlass = стеклянный шлюз
     .desc = Он открывается, он закрывается, и он может вас раздавить.
+
+con-PinionAirlock = pinion airlock
+    .desc = It opens, it closes, and maybe crushes you.
+
+con-PinionAirlockGlass = glass pinion airlock
+    .desc = It opens, it closes, and maybe crushes you.
 
 con-AirlockShuttle = стыковочный шлюз
     .desc = Он открывается, он закрывается, и он может вас раздавить. Необходимо для соединения двух космических аппаратов вместе.
@@ -177,6 +231,9 @@ con-Windoor = раздвижное окно
 
 con-SecureWindoor = армированное раздвижное окно
     .desc = Оно открывается и закрывается. Вы можете видеть сквозь него!
+
+con-ClockworkWindoor = clockwork windoor
+    .desc = It opens, it closes, and you can see through it! This one looks tough.
 
 con-LightTubeFixture = настенный светильник
     .desc = Настенный светильник. Используйте световые трубки.
