@@ -321,6 +321,7 @@ namespace Content.Server.Administration.Systems
 
             // If no admins are online, set embed color to red. Otherwise green
             var color = GetNonAfkAdmins().Count > 0 ? 0x41F097 : 0xFF0000;
+            var content = GetNonAfkAdmins().Count > 0 ? null : "@here";
 
             // Limit server name to 1500 characters, in case someone tries to be a little funny
             var serverName = _serverName[..Math.Min(_serverName.Length, 1500)];
@@ -339,6 +340,7 @@ namespace Content.Server.Administration.Systems
             {
                 Username = username,
                 AvatarUrl = string.IsNullOrWhiteSpace(_avatarUrl) ? null : _avatarUrl,
+                Content = content,
                 Embeds = new List<WebhookEmbed>
                 {
                     new()
@@ -506,7 +508,7 @@ namespace Content.Server.Administration.Systems
             if (admin)
                 stringbuilder.Append(":outbox_tray:");
             else if (noReceivers)
-                stringbuilder.Append("@here");
+                stringbuilder.Append(":sos:");
             else
                 stringbuilder.Append(":inbox_tray:");
 
