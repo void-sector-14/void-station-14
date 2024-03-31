@@ -46,7 +46,7 @@ shuttle-console-docked = Пристыкованные объекты
 shuttle-console-view = Посмотреть
 shuttle-console-undock = Отстыковать
 shuttle-console-dock = Стыковать
-shuttle-console-docks-label = Стыковочные порты
+shuttle-console-docks-label = Стыковочные шлюзы
 
 shuttle-console-undock-fail = Отстыковка не удалась
 shuttle-console-dock-fail = Стыковка не удалась
