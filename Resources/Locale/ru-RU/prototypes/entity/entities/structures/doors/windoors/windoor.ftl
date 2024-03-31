@@ -6,24 +6,24 @@ ent-WindoorSecure = армированное раздвижное окно
     .desc = Это и прочное окно, и раздвижная дверь. Вот это да!
     .suffix = { "" }
 
-ent-WindoorClockwork = clockwork windoor
-    .desc = It's a sturdy window and a sliding door. Wow!
+ent-WindoorClockwork = заводное раздвижное окно
+    .desc = Это и прочное окно, и раздвижная дверь. Вот это да!
     .suffix = { "" }
 
-ent-WindoorPlasma = Plasma Windoor
-    .desc = It's a pink window *and* a sliding door. Amazing!
+ent-WindoorPlasma = плазменное раздвижное окно
+    .desc = Это розовое окно *и* раздвижная дверь. Удивительно!
     .suffix = { "" }
 
-ent-WindoorSecurePlasma = Secure Plasma Windoor
-    .desc = It's a sturdy purple window *and* a sliding door. Spectacular!
+ent-WindoorSecurePlasma = армированное плазменное раздвижное окно
+    .desc = Это прочное фиолетовое окно *и* раздвижная дверь. Зрелищно!
     .suffix = { "" }
 
-ent-WindoorUranium = Uranium Windoor
-    .desc = It's a window and a sliding door. Huh? Oh, and it's green!
+ent-WindoorUranium = урановое раздвижное окно
+    .desc = Это окно и раздвижная дверь. Хм? Ох, и оно зеленое!
     .suffix = { "" }
 
-ent-WindoorSecureUranium = Secure Uranium Windoor
-    .desc = It's a sturdy window and a sliding door. It's so neon green, it might even taste like limes!
+ent-WindoorSecureUranium = армированное урановое раздвижное окно
+    .desc = Это прочное окно и раздвижная дверь. Оно такое неоново-зеленое, что на вкус может даже напоминать лайм!
     .suffix = { "" }
 
 ent-WindoorBarLocked = { ent-Windoor }
@@ -52,7 +52,7 @@ ent-WindoorJanitorLocked = { ent-Windoor }
 
 ent-PlasmaWindoorJanitorLocked = { ent-WindoorPlasma }
     .desc = { ent-WindoorPlasma.desc }
-    .suffix = Janitor, Locked, Plasma
+    .suffix = Уборщик, Закрыт, Плазма
 
 ent-WindoorKitchenLocked = { ent-Windoor }
     .desc = { ent-Windoor.desc }
@@ -100,19 +100,19 @@ ent-WindoorSecureChemistryLocked = { ent-WindoorSecure }
 
 ent-PlasmaWindoorSecureChemistryLocked = { ent-WindoorSecurePlasma }
     .desc = { ent-WindoorSecurePlasma.desc }
-    .suffix = Chemistry, Locked, Plasma
+    .suffix = Химия, Закрыт, Плазма
 
 ent-WindoorSecureCentralCommandLocked = { ent-WindoorSecure }
     .desc = { ent-WindoorSecure.desc }
-    .suffix = Центральное командование, Закрыт
+    .suffix = ЦентКом, Закрыт
 
 ent-PlasmaWindoorSecureCentralCommandLocked = { ent-WindoorSecurePlasma }
     .desc = { ent-WindoorSecurePlasma.desc }
-    .suffix = Central Command, Locked, Plasma
+    .suffix = ЦентКом, Закрыт, Плазма
 
 ent-UraniumWindoorSecureCentralCommandLocked = { ent-WindoorSecureUranium }
     .desc = { ent-WindoorSecureUranium.desc }
-    .suffix = Central Command, Locked, Uranium
+    .suffix = ЦентКом, Закрыт, Урановый
 
 ent-WindoorSecureCommandLocked = { ent-WindoorSecure }
     .desc = { ent-WindoorSecure.desc }
@@ -128,11 +128,11 @@ ent-WindoorSecureEngineeringLocked = { ent-WindoorSecure }
 
 ent-PlasmaWindoorSecureEngineeringLocked = { ent-WindoorSecurePlasma }
     .desc = { ent-WindoorSecurePlasma.desc }
-    .suffix = Engineering, Locked, Plasma
+    .suffix =Инженерный, Закрыт, Пазма
 
 ent-UraniumWindoorSecureEngineeringLocked = { ent-WindoorSecureUranium }
     .desc = { ent-WindoorSecureUranium.desc }
-    .suffix = Engineering, Locked, Uranium
+    .suffix =Инженерный, Закрыт, Uranium
 
 ent-WindoorSecureExternalLocked = { ent-WindoorSecure }
     .desc = { ent-WindoorSecure.desc }
@@ -144,7 +144,7 @@ ent-WindoorSecureJanitorLocked = { ent-WindoorSecure }
 
 ent-PlasmaWindoorSecureJanitorLocked = { ent-WindoorSecurePlasma }
     .desc = { ent-WindoorSecurePlasma.desc }
-    .suffix = Janitor, Locked, Plasma
+    .suffix = Уборщик, Закрыт, Пазма
 
 ent-WindoorSecureKitchenLocked = { ent-WindoorSecure }
     .desc = { ent-WindoorSecure.desc }
@@ -172,7 +172,7 @@ ent-WindoorSecureScienceLocked = { ent-WindoorSecure }
 
 ent-PlasmaWindoorSecureScienceLocked = { ent-WindoorSecurePlasma }
     .desc = { ent-WindoorSecurePlasma.desc }
-    .suffix = Science, Locked, Plasma
+    .suffix = Science, Закрыт, Пазма
 
 ent-WindoorSecureServiceLocked = { ent-WindoorSecure }
     .desc = { ent-WindoorSecure.desc }

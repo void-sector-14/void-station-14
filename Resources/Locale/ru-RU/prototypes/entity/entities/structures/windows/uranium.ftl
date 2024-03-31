@@ -2,8 +2,8 @@ ent-UraniumWindow = урановое окно
     .desc = { ent-Window.desc }
     .suffix = { "" }
 
-ent-UraniumWindowDirectional = directional uranium window
-    .desc = Don't smudge up the glass down there.
+ent-UraniumWindowDirectional = направленное урановое окно
+    .desc = Смотри не заляпай
     .suffix = { "" }
 
 ent-UraniumWindowDiagonal = { ent-UraniumWindow }

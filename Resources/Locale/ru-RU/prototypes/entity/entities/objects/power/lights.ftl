@@ -10,8 +10,8 @@ ent-LightBulb = лампа накаливания
     .desc = Обычная лампочка.
     .suffix = { "" }
 
-ent-LedLightBulb = led light bulb
-    .desc = A power efficient light bulb.
+ent-LedLightBulb = светодиодная лампочка
+    .desc = Энергоэффективная лампочка.
     .suffix = { "" }
 
 ent-LightBulbOld = старая лампа накаливания

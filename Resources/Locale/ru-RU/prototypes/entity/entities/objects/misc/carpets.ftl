@@ -32,8 +32,8 @@ ent-FloorCarpetItemPink = розовый ковёр
 
 ent-FloorCarpetItemCyan = { ent-FloorCarpetItemRed }
     .desc = { ent-FloorCarpetItemRed.desc }
-    .suffix = Cyan
+    .suffix = голубой
 
 ent-FloorCarpetItemWhite = { ent-FloorCarpetItemRed }
     .desc = { ent-FloorCarpetItemRed.desc }
-    .suffix = White
+    .suffix = белый

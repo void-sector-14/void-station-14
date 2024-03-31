@@ -94,6 +94,6 @@ ent-ClothingBackpackDuffelSyndicateMedicalBundleFilled = набор медика
     .desc = Все, что нужно для возвращения в строй ваших товарищей: главным образом, боевая аптечка, дефибриллятор и три боевых медипена.
     .suffix = { "" }
 
-ent-ClothingBackpackDuffelSyndicateDecoyKitFilled = decoy bundle
-    .desc = Contains distractions, both auditory and visual. Smell coming soon.
+ent-ClothingBackpackDuffelSyndicateDecoyKitFilled = набор обманок
+    .desc = Содержит отвлекающие факторы, как слуховые, так и визуальные. Скоро появится запах.
     .suffix = { "" }

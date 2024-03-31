@@ -42,8 +42,8 @@ ent-SignDirectionalEvac = знак "эвакуация"
     .desc = Указатель в сторону эвакуации.
     .suffix = { "" }
 
-ent-SignDirectionalExam = exam sign
-    .desc = A direction sign, pointing out which way the examination room(s) are.
+ent-SignDirectionalExam = знак "смотровая"
+    .desc = Указатель в сторону смотровой или смотровых.
     .suffix = { "" }
 
 ent-SignDirectionalFood = знак "еда"
@@ -62,8 +62,8 @@ ent-SignDirectionalHydro = знак "гидро"
     .desc = Указатель в сторону отдела гидропоники.
     .suffix = { "" }
 
-ent-SignDirectionalIcu = icu sign
-    .desc = A direction sign, pointing out which way the ICU is.
+ent-SignDirectionalIcu = знак "реанимация"
+    .desc = Указатель в сторону отделения реанимации.
     .suffix = { "" }
 
 ent-SignDirectionalJanitor = знак "уборщик"
@@ -106,8 +106,8 @@ ent-SignAi = знак "ИИ"
     .desc = { ent-BaseSign.desc }
     .suffix = { "" }
 
-ent-SignArcade = arcade sign
-    .desc = A sign indicating the arcade.
+ent-SignArcade = знак "аркада"
+    .desc = Указатель в сторону комнаты с аркадами.
     .suffix = { "" }
 
 ent-SignArmory = знак "оружейная"
@@ -138,8 +138,8 @@ ent-SignBar = знак "бар"
     .desc = Знак, указывающий на бар.
     .suffix = { "" }
 
-ent-SignBarbershop = barbershop sign
-    .desc = A sign indicating the barbershop.
+ent-SignBarbershop = знак "парикмахерская"
+    .desc = Знак указывающий на парикмахерскую.
     .suffix = { "" }
 
 ent-SignBio = знак "био лаб"
@@ -262,8 +262,8 @@ ent-SignJanitor = знак "уборщик"
     .desc = Знак, указывающий на каморку уборщика.
     .suffix = { "" }
 
-ent-SignLaundromat = laundromat sign
-    .desc = A sign indicating the laundromat.
+ent-SignLaundromat = знак "прачечная"
+    .desc = Знак, указывающий на прачечную.
     .suffix = { "" }
 
 ent-SignLawyer = знак "адвокат"
@@ -290,8 +290,8 @@ ent-SignMorgue = знак "морг"
     .desc = Знак, указывающий на морг.
     .suffix = { "" }
 
-ent-SignNews = news sign
-    .desc = A sign indicating where the Reporter works.
+ent-SignNews = знак "новости"
+    .desc = Знак, указывающий на место работы репортёра.
     .suffix = { "" }
 
 ent-SignNosmoking = знак "не курить"
@@ -306,8 +306,8 @@ ent-SignPsychology = знак "психолог"
     .desc = Знак, указывающий на офис психолога.
     .suffix = { "" }
 
-ent-SignReception = reception sign
-    .desc = A sign indicating the reception.
+ent-SignReception = знак "ресепшен"
+    .desc = Знак, указывающий на ресепшен.
     .suffix = { "" }
 
 ent-SignRND = знак "РнД"
@@ -318,8 +318,8 @@ ent-SignRobo = знак "робототехника"
     .desc = Знак, указывающий на отдел робототехники.
     .suffix = { "" }
 
-ent-SignSalvage = salvage sign
-    .desc = A sign indicating the salvage area.
+ent-SignSalvage = знак "утилизация"
+    .desc = Знак, указывающий на зону утилизации.
     .suffix = { "" }
 
 ent-SignScience = знак "наука"

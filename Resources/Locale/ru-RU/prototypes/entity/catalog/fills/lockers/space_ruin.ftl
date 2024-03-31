@@ -4,8 +4,8 @@ ent-LockerOldAISat = шкаф
 
 ent-LockerSyndicateShipGearBasic = { ent-LockerSyndicate }
     .desc = { ent-LockerSyndicate.desc }
-    .suffix = Basic ship gear, Random
+    .suffix = Basic ship gear, Случайный
 
 ent-LockerSyndicateShipGearBasicChameleonKit = { ent-LockerSyndicateShipGearBasic }
     .desc = { ent-LockerSyndicateShipGearBasic.desc }
-    .suffix = Basic ship gear, Random, Chameleon Kit
+    .suffix = Basic ship gear, Случайный, Chameleon Kit

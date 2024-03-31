@@ -1,13 +1,13 @@
-ent-PaintBase = spray paint
-    .desc = A tin of spray paint.
+ent-PaintBase = балончик с краской
+    .desc = Баночка с аэрозольной краской.
     .suffix = { "" }
 
-ent-FunnyPaint = funny paint
-    .desc = A tin of funny paint, manufactured by Honk! Co.
+ent-FunnyPaint = забавная краска
+    .desc =Банка забавной краски производства Honk! Ко.
     .suffix = { "" }
 
-ent-FunnyPaintYellow = funny paint
-    .desc = A tin of funny paint, manufactured by Honk! Co.
+ent-FunnyPaintYellow = забавная краска
+    .desc =Банка забавной краски производства Honk! Ко.
     .suffix = { "" }
 
 ent-DeathPaint = { ent-PaintBase }
@@ -20,28 +20,28 @@ ent-DeathPaintTwo = { ent-PaintBase }
 
 ent-SprayPaintBlue = { ent-PaintBase }
     .desc = { ent-PaintBase.desc }
-    .suffix = Blue
+    .suffix = Синий
 
 ent-SprayPaintRed = { ent-PaintBase }
     .desc = { ent-PaintBase.desc }
-    .suffix = Red
+    .suffix = Красный
 
 ent-SprayPaintGreen = { ent-PaintBase }
     .desc = { ent-PaintBase.desc }
-    .suffix = Green
+    .suffix = Зеленый
 
 ent-SprayPaintBlack = { ent-PaintBase }
     .desc = { ent-PaintBase.desc }
-    .suffix = Black
+    .suffix = Черный
 
 ent-SprayPaintOrange = { ent-PaintBase }
     .desc = { ent-PaintBase.desc }
-    .suffix = Orange
+    .suffix = Оранжевый
 
 ent-SprayPaintPurple = { ent-PaintBase }
     .desc = { ent-PaintBase.desc }
-    .suffix = Purple
+    .suffix = Фиолетовый
 
 ent-SprayPaintWhite = { ent-PaintBase }
     .desc = { ent-PaintBase.desc }
-    .suffix = White
+    .suffix = Белый

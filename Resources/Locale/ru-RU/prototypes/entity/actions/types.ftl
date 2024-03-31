@@ -38,8 +38,8 @@ ent-ActionActivateEmpImplant = Активировать ЭМИ
     .desc = Вызывает небольшой ЭМИ-импульс вокруг вас.
     .suffix = { "" }
 
-ent-ActionActivateScramImplant = SCRAM!
-    .desc = Randomly teleports you within a large distance.
+ent-ActionActivateScramImplant = Свалить!
+    .desc = Случайным образом телепортирует вас на большое расстояние.
     .suffix = { "" }
 
 ent-ActionActivateDnaScramblerImplant = Перемешать ДНК
@@ -94,12 +94,12 @@ ent-ActionActivateHonkImplant = { action-name-honk }
     .desc = { action-desc-honk }
     .suffix = { "" }
 
-ent-ActionFireStarter = Ignite
-    .desc = Ignites enemies in a radius around you.
+ent-ActionFireStarter = Поджечь
+    .desc = Поджигает врагов в радиусе вокруг вас.
     .suffix = { "" }
 
 ent-ActionToggleEyes = Open/Close eyes
-    .desc = Close your eyes to protect your peepers, or open your eyes to enjoy the pretty lights.
+    .desc = Закройте глаза, чтобы защитить их, или откройте глаза, чтобы насладиться красивыми огнями.
     .suffix = { "" }
 
 ent-ActionToggleWagging = action-name-toggle-wagging

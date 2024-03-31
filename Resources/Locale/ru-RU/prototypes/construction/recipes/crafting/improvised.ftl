@@ -43,8 +43,8 @@ con-ShellShotgunImprovised = improvised shotgun shell
 con-riflestock = ружейное ложе
     .desc = Ложе, вырезанное из дерева, необходимое для самодельного огнестрельного оружия.
 
-con-firebomb = fire bomb
-    .desc = A weak, improvised incendiary device.
+con-firebomb = зажигательная бомба
+    .desc = Слабое импровизированное зажигательное устройство.
 
 con-CottonWovenCloth = ткань
     .desc = Сырьё
@@ -52,5 +52,5 @@ con-CottonWovenCloth = ткань
 con-strawHat = { ent-ClothingHeadHatStrawHat }
     .desc = { ent-ClothingHeadHatStrawHat.desc }
 
-con-pipebomb = pipe bomb
-    .desc = An improvised explosive made from pipes and wire.
+con-pipebomb = самодельная бомба
+    .desc = Самодельное взрывчатое устройство, сделанное из труб и проволоки.

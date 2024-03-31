@@ -1,11 +1,11 @@
-ent-HandHeldMassScanner = handheld mass scanner
-    .desc = A hand-held mass scanner.
+ent-HandHeldMassScanner = ручной сканер масс
+    .desc = Ручной сканер масс.
     .suffix = { "" }
 
 ent-HandHeldMassScannerEmpty = { ent-HandHeldMassScanner }
     .desc = { ent-HandHeldMassScanner.desc }
-    .suffix = Empty
+    .suffix = Пустой
 
 ent-HandHeldMassScannerBorg = { ent-HandHeldMassScanner }
     .desc = { ent-HandHeldMassScanner.desc }
-    .suffix = Borg
+    .suffix = Борг

@@ -1,8 +1,8 @@
-con-BladedFlatcapGrey = grey bladed flatcap
-    .desc = An inconspicuous hat with glass shards sewn into the brim.
+con-BladedFlatcapGrey = серая плоская кепка с лезвиями
+    .desc = Неприметная шляпа с вшитыми в поля осколками стекла.
 
-con-BladedFlatcapBrown = brown bladed flatcap
-    .desc = An inconspicuous hat with glass shards sewn into the brim.
+con-BladedFlatcapBrown = коричневая плоская кепка с лезвиями
+    .desc = Неприметная шляпа с вшитыми в поля осколками стекла.
 
 con-Shiv = стеклянная заточка
     .desc = Осколок стекла, обернутый куском ткани.

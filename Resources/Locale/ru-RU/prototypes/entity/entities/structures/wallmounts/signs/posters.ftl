@@ -246,8 +246,8 @@ ent-PosterContrabandWaffleCorp = Waffle Corp: Отличные винтовки,
     .desc = Старая реклама винтовок от Waffle Corp. 'Пушки лучше, цены ниже!'
     .suffix = { "" }
 
-ent-PosterContrabandMissingSpacepen = Missing Spacepen
-    .desc = This poster depicts something you will never find.
+ent-PosterContrabandMissingSpacepen = Пропавший Космонавт
+    .desc = На этом плакате изображено то, что вы никогда не найдете.
     .suffix = { "" }
 
 ent-PosterLegitHereForYourSafety = Здесь для вашей безопасности

@@ -1,3 +1,3 @@
-ent-BaseClockworkWindoor = clockwork windoor
+ent-BaseClockworkWindoor = заводное раздвижное окно
     .desc = { "" }
     .suffix = { "" }

@@ -6,22 +6,22 @@ ent-WindoorAssemblySecure = каркас армированного раздви
     .desc = Оно открывается, он закрывается, и вы можете смотреть сквозь него! Оно выглядит крепким.
     .suffix = { "" }
 
-ent-WindoorAssemblyClockwork = clockwork windoor assembly
-    .desc = It opens, it closes, and you can see through it! This one looks tough.
+ent-WindoorAssemblyClockwork = каркас заводного раздвижного окна
+    .desc = Он открывается, закрывается, и вы можете видеть сквозь него! Оно выглядит жестко.
     .suffix = { "" }
 
-ent-WindoorAssemblyPlasma = Plasma windoor assembly
-    .desc = It opens, it closes, and you can see through it! This one looks purp-, no, pink. Wait...
+ent-WindoorAssemblyPlasma = каркас плазменного раздвижного окна
+    .desc = Он открывается, закрывается, и вы можете видеть сквозь него! Оно выглядит пурпурным, нет, розовым. Стоп...
     .suffix = { "" }
 
-ent-WindoorAssemblySecurePlasma = Secure Plasma windoor assembly
-    .desc = It opens, it closes, and you can see through it! This one looks strong and pin-, no, purple. Hold on...
+ent-WindoorAssemblySecurePlasma = каркас армированного плазменного раздвижного окна
+    .desc = Он открывается, закрывается, и вы можете видеть сквозь него! Оно выглядит крепким и роз-, нет, фиолетовым. Подожди...
     .suffix = { "" }
 
-ent-WindoorAssemblyUranium = Uranium windoor assembly
-    .desc = It opens, it closes, and you can see through it! This one looks sickly green...
+ent-WindoorAssemblyUranium = каркас уранового раздвижного окна
+    .desc = Он открывается, закрывается, и вы можете видеть сквозь него! Оно выглядит болезненно-зеленым...
     .suffix = { "" }
 
-ent-WindoorAssemblySecureUranium = Secure Uranium windoor assembly
-    .desc = It opens, it closes, and you can see through it! This one looks strong and radioactive-lime-green!
+ent-WindoorAssemblySecureUranium = каркас армированного уранового раздвижного окна
+    .desc = Он открывается, закрывается, и вы можете видеть сквозь него! Оно выглядит крепким и радиоактивно-лаймово-зеленым!
     .suffix = { "" }

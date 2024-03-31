@@ -106,8 +106,8 @@ ent-PortableScrubberMachineCircuitBoard = переносной скруббер 
     .desc = Переносной скруббер, коротко - ПСК.
     .suffix = { ent-BaseMachineCircuitboard.suffix }
 
-ent-SpaceHeaterMachineCircuitBoard = space heater machine board
-    .desc = A machine printed circuit board for a space heater.
+ent-SpaceHeaterMachineCircuitBoard = обогреватель (машинная плата)
+    .desc = Машинная плата для обогревателя.
     .suffix = { ent-BaseMachineCircuitboard.suffix }
 
 ent-CloningPodMachineCircuitboard = капсула клонирования (машинная плата)

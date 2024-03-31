@@ -106,6 +106,6 @@ ent-MaterialBones1 = { ent-MaterialBones }
     .desc = { ent-MaterialBones.desc }
     .suffix = 1
 
-ent-MaterialGunpowder = gunpowder
-    .desc = An explosive compound.
+ent-MaterialGunpowder = порох
+    .desc = Взрывчатое соединение.
     .suffix = { "" }

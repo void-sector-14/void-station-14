@@ -24,8 +24,8 @@ ent-StairStageDark = { ent-Stairs }
 
 ent-StairWood = { ent-Stairs }
     .desc = { ent-Stairs.desc }
-    .suffix = Wood
+    .suffix = Дерево
 
 ent-StairStageWood = { ent-Stairs }
     .desc = { ent-Stairs.desc }
-    .suffix = Wood, stage
+    .suffix = Дерево, Одна ступень

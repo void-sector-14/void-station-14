@@ -106,6 +106,6 @@ ent-ClothingOuterCoatSpaceAsshole = куртка космического муд
     .desc = And there he was...
     .suffix = { "" }
 
-ent-ClothingOuterCoatExpensive = expensive coat
-    .desc = Very fluffy pink coat, made out of very expensive fur (clearly).
+ent-ClothingOuterCoatExpensive = дорогая шуба
+    .desc = Очень пушистая розовая шубка, сделанная из очень дорогого меха.
     .suffix = { "" }

@@ -1,7 +1,7 @@
-ent-CrateEngineeringThruster = thruster crate
-    .desc = Contains a thruster flatpack.
+ent-CrateEngineeringThruster = ящик с двигателем
+    .desc = Содержит упакованный двигатель.
     .suffix = { "" }
 
-ent-CrateEngineeringGyroscope = gyroscope crate
-    .desc = Contains a gyroscope flatpack.
+ent-CrateEngineeringGyroscope = ящик с гироскопом
+    .desc = Содержит упакованный гироскоп.
     .suffix = { "" }

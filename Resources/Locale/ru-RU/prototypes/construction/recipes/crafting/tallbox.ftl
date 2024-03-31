@@ -1,8 +1,8 @@
 con-ClosetSteel = { ent-ClosetSteelBase }
     .desc = { ent-ClosetSteelBase.desc }
 
-con-ClosetSteelSecure = secure closet
-    .desc = A tall steel box that can be locked.
+con-ClosetSteelSecure = защищенный шкаф
+    .desc = Высокий стальной ящик, который можно запереть.
 
-con-ClosetWall = wall closet
-    .desc = A standard-issue Nanotrasen storage unit, now on walls.
+con-ClosetWall = настенный шкаф
+    .desc = Стандартное хранилище Nanotrasen, теперь на стене.

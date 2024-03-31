@@ -1,5 +1,5 @@
-ent-BaseCurtains = curtains
-    .desc = Hides what others shouldn't see.
+ent-BaseCurtains = шторы
+    .desc = Прячут то, что другим видеть не стоит.
     .suffix = { "" }
 
 ent-HospitalCurtains = шторы

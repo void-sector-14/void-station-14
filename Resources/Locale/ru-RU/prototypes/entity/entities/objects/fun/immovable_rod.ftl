@@ -14,30 +14,30 @@ ent-ImmovableRodKeepTilesStill = { ent-ImmovableRodKeepTiles }
     .desc = { ent-ImmovableRodKeepTiles.desc }
     .suffix = Оставляет пол, Неподвижный
 
-ent-ImmovableRodMop = immovable mop
-    .desc = Hurled like a javelin, with the power of a thousand furious janitors.
+ent-ImmovableRodMop = неподвижная швабра
+    .desc = Брошенный, как копье, с силой тысячи разъяренных уборщиков.
     .suffix = { ent-ImmovableRodKeepTilesStill.suffix }
 
-ent-ImmovableRodShark = immovable shark
-    .desc = SHARK TORNADO!
+ent-ImmovableRodShark = неподвижная акула
+    .desc = АКУЛЬЕ ТОРНАДО!
     .suffix = { ent-ImmovableRodKeepTilesStill.suffix }
 
-ent-ImmovableRodClown = immovable clown
-    .desc = Ejected from the neighbouring station one solar system over. HONK!
+ent-ImmovableRodClown = неподвижный клоун
+    .desc = Выброшен с соседней станции. ХОНК!
     .suffix = { ent-ImmovableRodKeepTilesStill.suffix }
 
-ent-ImmovableRodBanana = immovable banana
-    .desc = At least you won't slip on it.
+ent-ImmovableRodBanana = неподвижный банан
+    .desc = По крайней мере, вы не поскользнетесь на нем.
     .suffix = { ent-ImmovableRodKeepTilesStill.suffix }
 
-ent-ImmovableRodHammer = immovable hammer
-    .desc = Bwoink.
+ent-ImmovableRodHammer = неподвижный молот
+    .desc = Бьоньк!
     .suffix = { ent-ImmovableRodKeepTilesStill.suffix }
 
-ent-ImmovableRodThrongler = immovable throngler
-    .desc = If you catch it, you can keep it.
+ent-ImmovableRodThrongler = неподвижный душитель
+    .desc = Если поймаешь, то сможешь оставить.
     .suffix = { ent-ImmovableRodKeepTilesStill.suffix }
 
-ent-ImmovableRodGibstick = immovable gibstick
-    .desc = What did you expect?
+ent-ImmovableRodGibstick = неподвижная гиб-палка
+    .desc = Что ты ожидал?
     .suffix = { ent-ImmovableRodKeepTilesStill.suffix }

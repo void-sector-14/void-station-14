@@ -2,22 +2,22 @@ ent-BaseDecoy = { ent-BaseFoldable }
     .desc = { "" }
     .suffix = { "" }
 
-ent-BalloonOperative = operative balloon
-    .desc = Upon closer inspection, this Syndicate operative is actually a balloon.
+ent-BalloonOperative = оперативник воздушный шарик
+    .desc = При ближайшем рассмотрении этот оперативник Синдиката на самом деле представляет собой воздушный шар.
     .suffix = { "" }
 
-ent-BalloonAgent = agent balloon
-    .desc = Upon closer inspection, this Syndicate agent is actually a balloon.
+ent-BalloonAgent = агент воздушный шарик
+    .desc = При ближайшем рассмотрении этот агент Синдиката на самом деле представляет собой воздушный шар.
     .suffix = { "" }
 
-ent-BalloonElite = elite operative balloon
-    .desc = Upon closer inspection, this Syndicate elite operative is actually a balloon.
+ent-BalloonElite =  элитный оперативник воздушный шарик
+    .desc = При ближайшем рассмотрении этот элитный оперативник Синдиката на самом деле представляет собой воздушный шар.
     .suffix = { "" }
 
-ent-BalloonJuggernaut = juggernaut balloon
-    .desc = Upon closer inspection, this Syndicate juggernaut is actually a balloon.
+ent-BalloonJuggernaut = джагернаут воздушный шарик
+    .desc = При ближайшем рассмотрении этот джагернаут Синдиката на самом деле представляет собой воздушный шар.
     .suffix = { "" }
 
-ent-BalloonCommander = commander balloon
-    .desc = Upon closer inspection, this Syndicate commander is actually a balloon.
+ent-BalloonCommander = командир воздушный шарик
+    .desc = При ближайшем рассмотрении этот командир Синдиката на самом деле представляет собой воздушный шар.
     .suffix = { "" }

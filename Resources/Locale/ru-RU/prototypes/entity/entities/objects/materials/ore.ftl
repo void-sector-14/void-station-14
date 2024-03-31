@@ -60,16 +60,16 @@ ent-BananiumOre1 = { ent-BananiumOre }
 
 ent-Coal = уголь
     .desc = { ent-OreBase.desc }
-    .suffix = Full
+    .suffix = Полный
 
 ent-Coal1 = { ent-Coal }
     .desc = { ent-Coal.desc }
-    .suffix = Single
+    .suffix = Один
 
-ent-SaltOre = salt
+ent-SaltOre = соль
     .desc = { ent-OreBase.desc }
-    .suffix = Full
+    .suffix = Полный
 
 ent-Salt1 = { ent-SaltOre }
     .desc = { ent-SaltOre.desc }
-    .suffix = Single
+    .suffix = Один

@@ -4,8 +4,8 @@ con-MetalRod = металлический стержень
 con-SheetRGlass = армированное стекло
     .desc = Лист армированного стекла.
 
-con-SheetClockworkGlass = clockwork glass
-    .desc = A brass-reinforced sheet of glass.
+con-SheetClockworkGlass = заводное стекло
+    .desc = Лист стекла, армированный латунью.
 
 con-SheetPGlass = плазменное стекло
     .desc = Лист полупрозрачной плазмы.
@@ -13,11 +13,11 @@ con-SheetPGlass = плазменное стекло
 con-SheetRPGlass = армированное плазменное стекло
     .desc = Лист армированной полупрозрачной плазмы.
 
-con-SheetRPGlass0 = reinforced plasma glass
-    .desc = A reinforced sheet of translucent plasma.
+con-SheetRPGlass0 = армированное плазменное стекло
+    .desc = Лист армированной полупрозрачной плазмы.
 
-con-SheetRPGlass1 = reinforced plasma glass
-    .desc = A reinforced sheet of translucent plasma.
+con-SheetRPGlass1 = армированное плазменное стекло
+    .desc = Лист армированной полупрозрачной плазмы.
 
 con-MaterialDurathread = дюраткань
     .desc = Высококачественная нить, используемая для изготовления прочной одежды.
@@ -28,8 +28,8 @@ con-SheetUGlass = урановое стекло
 con-SheetRUGlass = армированное урановое стекло
     .desc = Лист уранового стекла.
 
-con-SheetRUGlass0 = reinforced uranium glass
-    .desc = A reinforced sheet of uranium glass.
+con-SheetRUGlass0 = армированное урановое стекло
+    .desc = Лист уранового стекла.
 
-con-SheetRUGlass1 = reinforced uranium glass
-    .desc = A reinforced sheet of uranium glass.
+con-SheetRUGlass1 = армированное урановое стекло
+    .desc = Лист уранового стекла.

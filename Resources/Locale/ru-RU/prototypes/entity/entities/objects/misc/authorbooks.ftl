@@ -118,6 +118,6 @@ ent-BookInspiration = Поиск вдохновения - путешествие
     .desc = Книга в новом состоянии, на обложке изображена безмятежная лесная сцена с водопадом и красочными полевыми цветами. Название книги "Поиск вдохновения - путешествие писателя по лесу" и имя автора крупно указаны внизу.
     .suffix = { ent-BookBase.suffix }
 
-ent-BookJanitorTale = the tales of a tired janitor
-    .desc = A clean looking book, smelling vaguely of soap and bleach.
+ent-BookJanitorTale = сказание об уставшем уборщике
+    .desc = Чистая на вид книга, слегка пахнущая мылом и отбеливателем.
     .suffix = { "" }

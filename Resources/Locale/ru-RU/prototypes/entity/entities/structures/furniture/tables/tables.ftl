@@ -30,8 +30,8 @@ ent-TablePlasmaGlass = стол из плазменного стекла
     .desc = Квадратный лист плазмы, стоящий на четырех металлических ножках. Красивый!
     .suffix = { "" }
 
-ent-TableBrass = brass table
-    .desc = A shiny, corrosion resistant brass table. Steampunk!
+ent-TableBrass = латунный стол
+    .desc = Блестящий, устойчивый к коррозии латунный стол. Стимпанк!
     .suffix = { "" }
 
 ent-TableWood = деревянный стол

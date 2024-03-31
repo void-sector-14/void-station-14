@@ -46,11 +46,11 @@ ent-FloorTileItemLino = линолеум
     .desc = { ent-FloorTileItemBase.desc }
     .suffix = { ent-FloorTileItemBase.suffix }
 
-ent-FloorTileItemBrassFilled = filled brass plate
+ent-FloorTileItemBrassFilled = заполненная латунная пластина
     .desc = { ent-FloorTileItemBase.desc }
     .suffix = { "" }
 
-ent-FloorTileItemBrassReebe = smooth brass plate
+ent-FloorTileItemBrassReebe = гладкая латунная пластина
     .desc = { ent-FloorTileItemBase.desc }
     .suffix = { "" }
 
@@ -250,20 +250,20 @@ ent-FloorTileItemAstroGrass = астро-трава
     .desc = Искусственная трава, отлично прячущая провода, поставляется с реалистичными НаноТравинками!
     .suffix = { "" }
 
-ent-FloorTileItemMowedAstroGrass = mowed astro-grass
-    .desc = Fake grass that covers up wires and even comes with realistic NanoTrimmings!
+ent-FloorTileItemMowedAstroGrass = скошенная астро-трава
+    .desc = Искусственная трава, которая закрывает провода, и даже поставляется с реалистичными НаноТравинками!
     .suffix = { "" }
 
-ent-FloorTileItemJungleAstroGrass = jungle astro-grass
-    .desc = Fake grass that covers up wires and even comes with realistic NanoTrimmings!
+ent-FloorTileItemJungleAstroGrass = джунглевая астро-трава
+    .desc = Искусственная трава, которая закрывает провода, и даже поставляется с реалистичными НаноТравинками!
     .suffix = { "" }
 
 ent-FloorTileItemAstroIce = астро-лёд
     .desc = Искусственный лёд, такой же скользкий, как настоящий, и при этом легко снимается!
     .suffix = { "" }
 
-ent-FloorTileItemAstroSnow = astro-snow
-    .desc = Fake snow that's as fluffy as the real thing, while being easily removable!
+ent-FloorTileItemAstroSnow = астро-снег
+    .desc = Искусственный снег такой же пушистый, как настоящий, но при этом его легко убрать!
     .suffix = { "" }
 
 ent-FloorTileItemWoodLarge = ламинат

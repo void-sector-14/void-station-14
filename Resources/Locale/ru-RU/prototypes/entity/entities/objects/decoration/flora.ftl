@@ -202,8 +202,8 @@ ent-ShadowTree06 = { ent-ShadowTree01 }
     .desc = { ent-ShadowTree01.desc }
     .suffix = { "" }
 
-ent-LightTree01 = glowing tree
-    .desc = a marvelous tree filled with strange energy.
+ent-LightTree01 = светящееся дерево
+    .desc = Чудесное дерево, наполненное странной энергией.
     .suffix = { "" }
 
 ent-LightTree02 = { ent-LightTree01 }

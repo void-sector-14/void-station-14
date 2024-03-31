@@ -18,17 +18,17 @@ ent-SheetSteelLingering0 = { ent-SheetSteel }
     .desc = { ent-SheetSteel.desc }
     .suffix = Lingering(Борги), 0
 
-ent-SheetBrass = brass
-    .desc = A sheet of brass, primarily used by clockwork enthusiasts and the remnants of Ratvarian cults.
-    .suffix = Full
+ent-SheetBrass = латунь
+    .desc = Лист латуни, в основном используемый энтузиастами часового дела и остатками ратварианских культов.
+    .suffix = Полный
 
-ent-SheetBrass10 = brass
+ent-SheetBrass10 = латунь
     .desc = { ent-SheetBrass.desc }
     .suffix = 10
 
-ent-SheetBrass1 = brass
+ent-SheetBrass1 = латунь
     .desc = { ent-SheetBrass.desc }
-    .suffix = Single
+    .suffix = Один
 
 ent-SheetPlasteel = пласталь
     .desc = { ent-SheetMetalBase.desc }

@@ -4,11 +4,11 @@ con-TileSteel = стальная плитка
 con-TileWood = деревянный пол
     .desc = Четыре куска деревянного настила станции.
 
-con-TileBrassFilled = filled brass plate
-    .desc = Four pieces of brass station flooring, only compatible with brass plating.
+con-TileBrassFilled = заполненная латунная пластина
+    .desc = Четыре куска латунного напольного покрытия станции, совместимого только с латунным покрытием.
 
-con-TileBrassReebe = smooth brass plate
-    .desc = Four pieces of smooth brass station flooring, only compatible with brass plating.
+con-TileBrassReebe = гладкая латунная пластина
+    .desc = Четыре куска гладкого латунного пола станции, совместимого только с латунным покрытием.
 
 con-TileWhite = белая плитка
     .desc = Четыре белые плитки станции.

@@ -56,4 +56,4 @@ ent-ClothingBeltHolsterFilled = { ent-ClothingBeltHolster }
 
 ent-ClothingBeltChefFilled = { ent-ClothingBeltChef }
     .desc = { ent-ClothingBeltChef.desc }
-    .suffix = Filled
+    .suffix = Заполненный

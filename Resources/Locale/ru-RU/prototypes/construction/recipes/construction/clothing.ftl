@@ -22,5 +22,5 @@ con-BananaClownShoes = { ent-ClothingShoesClownBanana }
 con-ClothingEyesHudMedSec = { ent-ClothingEyesHudMedSec }
     .desc = { ent-ClothingEyesHudMedSec.desc }
 
-con-ClothingShoeSlippersDuck = ducky slippers
-    .desc = Comfy, yet haunted by the ghosts of ducks you fed bread to as a child.
+con-ClothingShoeSlippersDuck = утиные шлепки
+    .desc = Уютно, но их преследуют призраки уток, которых вы кормили хлебом в детстве.

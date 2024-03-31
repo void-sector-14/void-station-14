@@ -1,5 +1,5 @@
-ent-MobRatvarBase = Ratvar
-    .desc = Your mind aches as it fails to understand the complex mechanics of what is before you.
+ent-MobRatvarBase = Ратвар
+    .desc = Ваш разум болит, поскольку он не может понять сложную механику того, что находится перед вами.
     .suffix = { "" }
 
 ent-MobRatvarSpawn = { ent-MobRatvarBase }

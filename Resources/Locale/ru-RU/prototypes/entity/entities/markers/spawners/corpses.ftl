@@ -30,6 +30,6 @@ ent-RandomCommandCorpseSpawner = спавнер случайный команд�
     .desc = { ent-SalvageHumanCorpseSpawner.desc }
     .suffix = { ent-SalvageHumanCorpseSpawner.suffix }
 
-ent-SalvageSyndicateCorpseSpawner = неопознаный труп синдиката спавнер
+ent-SalvageSyndicateCorpseSpawner = спавнер труп синдиката
     .desc = { "" }
     .suffix = { "" }

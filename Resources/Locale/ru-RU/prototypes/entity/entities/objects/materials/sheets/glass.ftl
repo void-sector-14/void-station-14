@@ -58,10 +58,10 @@ ent-SheetRUGlass1 = урановое армированное стекло
     .desc = { ent-SheetRUGlass.desc }
     .suffix = Один
 
-ent-SheetClockworkGlass = clockwork glass
-    .desc = A sheet of brass-hardened glass, primarily used by clockwork enthusiasts and remnants of Ratvarian cults.
-    .suffix = Full
+ent-SheetClockworkGlass = заводное стекло
+    .desc = Лист закаленного латуннью стекла, в основном используемый энтузиастами часового дела и остатками ратварианских культов.
+    .suffix = Полный
 
-ent-SheetClockworkGlass1 = clockwork glass
+ent-SheetClockworkGlass1 = заводное стекло
     .desc = { ent-SheetClockworkGlass.desc }
-    .suffix = Single
+    .suffix = Один

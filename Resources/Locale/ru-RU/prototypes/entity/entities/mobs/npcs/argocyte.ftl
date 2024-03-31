@@ -50,6 +50,6 @@ ent-MobArgocyteLeviathing = левиазверь
     .desc = { ent-BaseMobArgocyte.desc }
     .suffix = { ent-BaseMobArgocyte.suffix }
 
-ent-MobArgocyteLeviathingSalvage = leviathing
+ent-MobArgocyteLeviathingSalvage = левиазверь
     .desc = { ent-BaseMobArgocyte.desc }
     .suffix = { ent-BaseMobArgocyte.suffix }

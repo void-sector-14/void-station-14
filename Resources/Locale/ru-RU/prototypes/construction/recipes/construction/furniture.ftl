@@ -7,8 +7,8 @@ con-Stool = { ent-Stool }
 con-StoolBar = { ent-StoolBar }
     .desc = { con-Chair.desc }
 
-con-ChairBrass = brass chair
-    .desc = You sit in this. Either by will or force.
+con-ChairBrass = латунный стул
+    .desc = Ты сидишь в этом. Либо по своей воле, либо насильственно.
 
 con-ChairOfficeLight = { ent-ChairOfficeLight }
     .desc = { con-Chair.desc }
@@ -37,8 +37,8 @@ con-ChairFolding = { ent-ChairFolding }
 con-ChairSteelBench = { ent-SteelBench }
     .desc = { ent-SteelBench.desc }
 
-con-ChairWoodBench = wooden bench
-    .desc = Did you get a splinter? Well, at least it’s eco friendly.
+con-ChairWoodBench = деревянная скамейка
+    .desc = Вы получили занозу? Ну, по крайней мере, это экологично.
 
 con-RedComfBench = красная удобная скамейка
     .desc = Скамейка с очень удобной спинкой.
@@ -61,8 +61,8 @@ con-TableReinforcedGlass = { ent-TableReinforcedGlass }
 con-TablePlasmaGlass = { ent-TablePlasmaGlass }
     .desc = { ent-TablePlasmaGlass.desc }
 
-con-TableBrass = brass table
-    .desc = A shiny, corrosion resistant brass table. Steampunk!
+con-TableBrass = латунный стол
+    .desc = Блестящий, устойчивый к коррозии латунный стол. Стимпанк!
 
 con-TableWood = { ent-TableWood }
     .desc = { ent-TableWood.desc }
@@ -70,32 +70,32 @@ con-TableWood = { ent-TableWood }
 con-TableCarpet = { ent-TableCarpet }
     .desc = Квадратный кусок дерева, стоящий на четырех ножках, покрытых тканью. (Чего вы ожидали?)
 
-con-TableFancyBlack = fancy black table
-    .desc = A table covered with a beautiful cloth.
+con-TableFancyBlack = красивый черный стол
+    .desc = Стол, накрытый красивой скатертью.
 
-con-TableFancyBlue = fancy blue table
-    .desc = A table covered with a beautiful cloth.
+con-TableFancyBlue = красивый синий стол
+    .desc = Стол, накрытый красивой скатертью.
 
-con-TableFancyCyan = fancy cyan table
-    .desc = A table covered with a beautiful cloth.
+con-TableFancyCyan = красивый голубой стол
+    .desc = Стол, накрытый красивой скатертью.
 
-con-TableFancyGreen = fancy green table
-    .desc = A table covered with a beautiful cloth.
+con-TableFancyGreen = красивый зеленый стол
+    .desc = Стол, накрытый красивой скатертью.
 
-con-TableFancyOrange = fancy orange table
-    .desc = A table covered with a beautiful cloth.
+con-TableFancyOrange = красивый оранжевый стол
+    .desc = Стол, накрытый красивой скатертью.
 
-con-TableFancyPurple = fancy purple table
-    .desc = A table covered with a beautiful cloth.
+con-TableFancyPurple = красивый фиолетовый стол
+    .desc = Стол, накрытый красивой скатертью.
 
-con-TableFancyPink = fancy pink table
-    .desc = A table covered with a beautiful cloth.
+con-TableFancyPink = красивый розовый стол
+    .desc = Стол, накрытый красивой скатертью.
 
-con-TableFancyRed = fancy red table
-    .desc = A table covered with a beautiful cloth.
+con-TableFancyRed = красивый красный стол
+    .desc = Стол, накрытый красивой скатертью.
 
-con-TableFancyWhite = fancy white table
-    .desc = A table covered with a beautiful cloth.
+con-TableFancyWhite = красивый белый стол
+    .desc = Стол, накрытый красивой скатертью.
 
 con-TableCounterMetal = { ent-TableCounterMetal }
     .desc = Отличное место чтобы пропустить стаканчик.
@@ -127,32 +127,32 @@ con-MeatSpike = мясницкий крюк
 con-Curtains = шторы
     .desc = Содержит менее 1% ртути.
 
-con-CurtainsBlack = black curtains
-    .desc = Hides what others shouldn't see.
+con-CurtainsBlack = черные шторы
+    .desc = Прячут то, что другим видеть не стоит.
 
-con-CurtainsBlue = blue curtains
-    .desc = Hides what others shouldn't see.
+con-CurtainsBlue = синие шторы
+    .desc = Прячут то, что другим видеть не стоит.
 
-con-CurtainsCyan = cyan curtains
-    .desc = Hides what others shouldn't see.
+con-CurtainsCyan = голубые шторы
+    .desc = Прячут то, что другим видеть не стоит.
 
-con-CurtainsGreen = green curtains
-    .desc = Hides what others shouldn't see.
+con-CurtainsGreen = зеленые шторы
+    .desc = Прячут то, что другим видеть не стоит.
 
-con-CurtainsOrange = orange curtains
-    .desc = Hides what others shouldn't see.
+con-CurtainsOrange = оранжевые шторы
+    .desc = Прячут то, что другим видеть не стоит.
 
-con-CurtainsPink = pink curtains
-    .desc = Hides what others shouldn't see.
+con-CurtainsPink = розовые шторы
+    .desc = Прячут то, что другим видеть не стоит.
 
-con-CurtainsPurple = purple curtains
-    .desc = Hides what others shouldn't see.
+con-CurtainsPurple = фиолетовые шторы
+    .desc = Прячут то, что другим видеть не стоит.
 
-con-CurtainsRed = red curtains
-    .desc = Hides what others shouldn't see.
+con-CurtainsRed = красные шторы
+    .desc = Прячут то, что другим видеть не стоит.
 
-con-CurtainsWhite = white curtains
-    .desc = Hides what others shouldn't see.
+con-CurtainsWhite = white шторы
+    .desc = Прячут то, что другим видеть не стоит.
 
 con-Bookshelf = { ent-Bookshelf }
     .desc = В основном заполненный книгами.

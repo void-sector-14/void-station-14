@@ -2,8 +2,8 @@ ent-NotekeeperCartridge = картридж Заметки
     .desc = Программа для хранения заметок
     .suffix = { ent-BaseItem.suffix }
 
-ent-NewsReaderCartridge = news cartridge
-    .desc = A program for reading news
+ent-NewsReaderCartridge = картридж Новости
+    .desc = Программа для чтения новостей.
     .suffix = { "" }
 
 ent-CrewManifestCartridge = картридж Манифест экипажа
