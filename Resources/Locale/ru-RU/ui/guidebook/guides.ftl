@@ -52,6 +52,8 @@ guide-entry-security = Безопасность станции
 guide-entry-forensics = Криминалистика
 guide-entry-defusal = Обезвреживание крупной бомбы
 guide-entry-criminal-records = Криминальные записи
+guide-entry-species = Расы
+
 guide-entry-antagonists = Антагонисты
 guide-entry-nuclear-operatives = Ядерные оперативники
 guide-entry-traitors = Предатели
@@ -59,5 +61,6 @@ guide-entry-zombies = Зомби
 guide-entry-revolutionaries = Революционеры
 guide-entry-minor-antagonists = Малые антагонисты
 guide-entry-space-ninja = Космический ниндзя
+
 guide-entry-writing = Разметка письма
 guide-entry-glossary = Словарь терминов
