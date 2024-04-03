@@ -252,7 +252,7 @@ public sealed partial class ChatSystem : SharedChatSystem
                 SendEntityEmote(source, message, range, nameOverride, hideLog: hideLog, ignoreActionBlocker: ignoreActionBlocker);
                 break;
             case InGameICChatType.ERP:
-                SendEntityEmote(source, message, range, nameOverride, hideLog: hideLog, ignoreActionBlocker: ignoreActionBlocker);
+                SendEntityERP(source, message, range, nameOverride, hideLog: hideLog, ignoreActionBlocker: ignoreActionBlocker);
                 break;
         }
     }
@@ -563,6 +563,40 @@ public sealed partial class ChatSystem : SharedChatSystem
                 _adminLogger.Add(LogType.Chat, LogImpact.Low, $"Emote from {ToPrettyString(source):user} as {name}: {action}");
             else
                 _adminLogger.Add(LogType.Chat, LogImpact.Low, $"Emote from {ToPrettyString(source):user}: {action}");
+    }
+
+    private void SendEntityERP(
+        EntityUid source,
+        string action,
+        ChatTransmitRange range,
+        string? nameOverride,
+        bool hideLog = false,
+        bool checkEmote = true,
+        bool ignoreActionBlocker = false,
+        NetUserId? author = null
+        )
+    {
+        if (!_actionBlocker.CanEmote(source) && !ignoreActionBlocker)
+            return;
+
+        // get the entity's apparent name (if no override provided).
+        var ent = Identity.Entity(source, EntityManager);
+        string name = FormattedMessage.EscapeText(nameOverride ?? Name(ent));
+
+        // Emotes use Identity.Name, since it doesn't actually involve your voice at all.
+        var wrappedMessage = Loc.GetString("chat-manager-entity-erp-wrap-message",
+            ("entityName", name),
+            ("entity", ent),
+            ("message", FormattedMessage.RemoveMarkup(action)));
+
+        if (checkEmote)
+            TryEmoteChatInput(source, action);
+        SendInVoiceRange(ChatChannel.ERP, action, wrappedMessage, source, range, author);
+        if (!hideLog)
+            if (name != Name(source))
+                _adminLogger.Add(LogType.Chat, LogImpact.Low, $"ERP emote from {ToPrettyString(source):user} as {name}: {action}");
+            else
+                _adminLogger.Add(LogType.Chat, LogImpact.Low, $"ERP emote from {ToPrettyString(source):user}: {action}");
     }
 
     // ReSharper disable once InconsistentNaming
