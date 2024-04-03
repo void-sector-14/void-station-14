@@ -87,3 +87,8 @@ chat-speech-verb-cluwne-3 = смеётся
 chat-speech-verb-electricity-1 = трещит
 chat-speech-verb-electricity-2 = гудит
 chat-speech-verb-electricity-3 = скрипит
+# WIP
+chat-speech-verb-name-parrot = Parrot
+chat-speech-verb-parrot-1 = squawks
+chat-speech-verb-parrot-2 = tweets
+chat-speech-verb-parrot-3 = chirps
