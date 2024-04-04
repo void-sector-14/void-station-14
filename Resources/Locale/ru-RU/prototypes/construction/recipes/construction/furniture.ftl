@@ -151,7 +151,7 @@ con-CurtainsPurple = фиолетовые шторы
 con-CurtainsRed = красные шторы
     .desc = Прячут то, что другим видеть не стоит.
 
-con-CurtainsWhite = white шторы
+con-CurtainsWhite = белые шторы
     .desc = Прячут то, что другим видеть не стоит.
 
 con-Bookshelf = { ent-Bookshelf }

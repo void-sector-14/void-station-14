@@ -37,8 +37,8 @@ con-rag = тряпка
 con-improvisedshotgun = самопал
     .desc = Дерьмовый однозарядный дробовик, сделанный из утилизированных и изготовленных вручную частей оружия. Боеприпасы не включены.
 
-con-ShellShotgunImprovised = improvised shotgun shell
-    .desc = A homemade shotgun shell that shoots painful glass shrapnel. The spread is so wide that it couldn't hit the broad side of a Barn
+con-ShellShotgunImprovised = импровизированный патрон для дробовика
+    .desc = Самодельный патрон для дробовика, стреляющий болезненными стеклянными осколками. Распространение настолько велико, что не может поразить стену сарая.
 
 con-riflestock = ружейное ложе
     .desc = Ложе, вырезанное из дерева, необходимое для самодельного огнестрельного оружия.

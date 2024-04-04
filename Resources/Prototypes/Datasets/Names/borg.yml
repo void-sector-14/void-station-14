@@ -2,40 +2,35 @@
 - type: dataset
   id: names_borg
   values:
-  - Bob
-  - Joe
-  - Beep
-  - Beep II
-  - Boombox
-  - Tour Guide-otron
-  - Taffy
-  - Boop
-  - Boop II
-  - Buzz
-  - Buzz II
-  - Toaster
-  - Head of Robots
-  - EVA 1
-  - Mr. Robist
-  - Junk
+  - Атлас
+  - Пибоди
+  - Бип
+  - Бип II
+  - Бумбокс
+  - Керфус
+  - Таффи
+  - Буп
+  - Буп II
+  - Тостер
+  - Картошка
+  - ЕВА 1
+  - Мр. Робист
+  - Джанк
   - R2-PO
   - C-3-D2
-  - Robby
-  - Robobot
-  - Fixer
-  - Sonny
-  - Autobot
-  - Whitley
-  - Keller
-  - Xenos
-  - Echo
-  - Vector
-  - B-0-RG
-  - Megabyte
-  - Butt-Bot
-  - Deceptiborg
-  - Le Borgue
-  - Beepers
-  - Cute-Bot
-  - Makeshifter
-  - Twin
+  - Робби
+  - Робобот
+  - Фиксик
+  - Сони
+  - Автоборг
+  - Уизли
+  - Келлер
+  - Эхо
+  - Векстор
+  - Б-0-РГ
+  - Мегабит
+  - Десептиборг
+  - Ле Борг
+  - Бипер
+  - Нябот
+  - Твин
