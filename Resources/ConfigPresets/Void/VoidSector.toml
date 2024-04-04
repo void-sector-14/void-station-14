@@ -15,7 +15,7 @@ pg_username = "{{ ss14setup_db_user }}"
 pg_password = "{{ ss14setup_db_passwd }}"
 
 [game]
-hostname = "[RU][HRP] 🌌 VoidSector 🌌"
+hostname = "[18+][RU][MRP] 🌌 VoidSector 🌌"
 desc = "Далекие пустоты космоса, миллионы световых лет без единой души. Сможешь ли ты выжить в Пустоте?"
 soft_max_players = 60
 lobbyduration = 180
@@ -23,7 +23,7 @@ fallbackpreset = "Extended"
 
 [hub]
 advertise = true
-tags = "lang:ru,region:eu_e,rp:high"
+tags = "lang:ru,region:eu_e,rp:med,18+"
 server_url = "ss14://37.27.103.62:1212"
 
 [server]
@@ -59,6 +59,7 @@ map_enabled = true
 restart_not_allowed_when_admin_online = true
 
 [shuttle]
+arrivals_planet = false
 arrivals_returns = true
 emergency_early_launch_allowed = true
 emergency_dock_time = 300.0

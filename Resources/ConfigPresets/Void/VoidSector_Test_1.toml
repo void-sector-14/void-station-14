@@ -34,9 +34,6 @@ message_wait_time = 1
 new_player_threshold = 180
 afk_time = 180.0
 
-[infolinks]
-discord = "https://discord.gg/Tc5RNEWVWS"
-
 [accessibility]
 reduced_motion = true
 
@@ -53,6 +50,7 @@ easy_mode = false
 timermap = 30
 
 [shuttle]
+arrivals_planet = false
 arrivals_returns = true
 emergency_early_launch_allowed = true
 emergency_dock_time = 300.0
