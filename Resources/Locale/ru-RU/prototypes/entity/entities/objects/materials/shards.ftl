@@ -17,3 +17,7 @@ ent-ShardGlassPlasma = осколок плазменного стекла
 ent-ShardGlassUranium = осколок уранового стекла
     .desc = Небольшой кусок уранового стекла.
     .suffix = { ent-ShardBase.suffix }
+
+ent-ShardGlassClockwork = осколок заводного стекла
+    .desc = Небольшой кусок стекла, инкрустированного латунью.
+    .suffix = { "" }

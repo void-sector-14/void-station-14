@@ -86,6 +86,10 @@ ent-CrateWeaponSecure = защищённый оружейный ящик
     .desc = { ent-CrateBaseSecure.desc }
     .suffix = { "" }
 
+ent-CrateContrabandStorageSecure = ящик для хранения контрабанды
+    .desc = Запираемый ящик с доступом оружейной для хранения контрабанды, конфискованной у подозреваемых или заключенных.
+    .suffix = Armory, Secure
+
 ent-CrateCommandSecure = ящик командования
     .desc = { ent-CrateBaseSecure.desc }
     .suffix = { "" }

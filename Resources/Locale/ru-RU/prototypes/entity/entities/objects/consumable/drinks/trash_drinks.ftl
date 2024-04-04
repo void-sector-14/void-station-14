@@ -2,8 +2,16 @@ ent-DrinkBottleBaseEmpty = base empty bottle
     .desc = Это пустая бутылка.
     .suffix = { "" }
 
+ent-DrinkBottleBaseSmallEmpty = base empty bottle
+    .desc = { ent-DrinkBottleBaseEmpty.desc }
+    .suffix = { "" }
+
 ent-DrinkCartonBaseEmpty = base empty carton
     .desc = An empty carton.
+    .suffix = { "" }
+
+ent-DrinkCartonBaseLargeEmpty = base empty bottle
+    .desc = { ent-DrinkCartonBaseEmpty.desc }
     .suffix = { "" }
 
 ent-DrinkBottleAbsinthe = бутылка от Джейлбрейк Верте

@@ -2,6 +2,10 @@ ent-DrinkCartonBaseFull = { ent-DrinkBase }
     .desc = { ent-DrinkBase.desc }
     .suffix = { "" }
 
+ent-DrinkCartonBaseLargeFull = { ent-DrinkCartonBaseFull }
+    .desc = { "" }
+    .suffix = { "" }
+
 ent-DrinkCartonVisualsOpenable = { "" }
     .desc = { "" }
     .suffix = { "" }

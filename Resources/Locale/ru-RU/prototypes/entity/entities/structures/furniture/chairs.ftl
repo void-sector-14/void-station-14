@@ -2,6 +2,22 @@ ent-SeatBase = стул
     .desc = Вы сидите в нём. Либо по вашей воле, либо по принуждению.
     .suffix = { "" }
 
+ent-UnanchoredChairBase = chair
+    .desc = { ent-SeatBase.desc }
+    .suffix = { "" }
+
+ent-ChairBase = chair
+    .desc = { ent-UnanchoredChairBase.desc }
+    .suffix = { "" }
+
+ent-OfficeChairBase = chair
+    .desc = { ent-UnanchoredChairBase.desc }
+    .suffix = { "" }
+
+ent-StoolBase = stool
+    .desc = { ent-OfficeChairBase.desc }
+    .suffix = { "" }
+
 ent-Chair = стул
     .desc = { ent-SeatBase.desc }
     .suffix = { "" }
@@ -16,6 +32,10 @@ ent-Stool = табурет
 
 ent-StoolBar = барный стул
     .desc = { ent-SeatBase.desc }
+    .suffix = { "" }
+
+ent-ChairBrass = brass chair
+    .desc = { ent-StoolBase.desc }
     .suffix = { "" }
 
 ent-ChairOfficeLight = белое офисное кресло
@@ -64,4 +84,8 @@ ent-ChairFoldingSpawnFolded = { ent-ChairFolding }
 
 ent-SteelBench = стальная скамейка
     .desc = Длинная скамья, созданная для метро. Реально стандартный дизайн.
+    .suffix = { "" }
+
+ent-WoodenBench = wooden bench
+    .desc = Did you get a splinter? Well, at least it’s eco friendly.
     .suffix = { "" }

@@ -15,6 +15,7 @@ public static class ChatChannelExtensions
             ChatChannel.AdminAlert => Color.Red,
             ChatChannel.AdminChat => Color.HotPink,
             ChatChannel.Whisper => Color.DarkGray,
+            ChatChannel.ERP => Color.LightPink,
             _ => Color.LightGray
         };
     }

@@ -1,6 +1,7 @@
 # Markers
 - type: entity
   id: SalvageShuttleMarker
+  name: Salvage shuttle marker
   parent: FTLPoint
 
 # Biome mods -> at least 1 required
@@ -224,9 +225,7 @@
   id: Experiment
   proto: Experiment
   biomes:
-    - Caves
     #- LowDesert
-    - Snow
     - Grasslands
 
 - type: salvageDungeonMod
@@ -234,3 +233,21 @@
   proto: LavaBrig
   biomes:
     - Lava
+
+- type: salvageDungeonMod
+  id: Mineshaft
+  proto: Mineshaft
+  biomes:
+    - Caves
+
+- type: salvageDungeonMod
+  id: SnowyLabs
+  proto: SnowyLabs
+  biomes:
+    - Snow
+    
+- type: salvageDungeonMod
+  id: Haunted
+  proto: Haunted
+  biomes:
+    - Caves

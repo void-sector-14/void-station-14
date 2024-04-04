@@ -30,6 +30,10 @@ ent-ClothingEyesGlassesOutlawGlasses = очки негодяя
     .desc = Обязательны для каждого уважающего себя агента под прикрытием.
     .suffix = { ent-ClothingEyesBase.suffix }
 
+ent-ClothingEyesGlassesCheapSunglasses = дешевые солнцезащитные очки
+    .desc = Пара черных солнцезащитных очков. Плохо блокирует свет, скорее аксессуар, чем что-то полезное.
+    .suffix = { "" }
+
 ent-ClothingEyesGlassesSunglasses = солнцезащитные очки
     .desc = Подходят как для СБ, так и для карго.
     .suffix = { ent-ClothingEyesBase.suffix }

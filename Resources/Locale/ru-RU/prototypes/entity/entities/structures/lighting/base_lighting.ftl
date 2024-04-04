@@ -42,6 +42,10 @@ ent-PoweredSmallLightEmpty = маленький светильник
     .desc = Осветительный прибор. Потребляет энергию и излучает свет, если оснащен лампой накаливания.
     .suffix = Пустой, Запитанный
 
+ent-PoweredLEDSmallLight = { ent-PoweredSmallLightEmpty }
+    .desc = { ent-PoweredSmallLightEmpty.desc }
+    .suffix = LED
+
 ent-PoweredSmallLight = { ent-PoweredSmallLightEmpty }
     .desc = { ent-PoweredSmallLightEmpty.desc }
     .suffix = Запитанный

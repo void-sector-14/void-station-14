@@ -9,3 +9,7 @@ ent-ClothingHeadHatBeretCent = Фирменный берет Центкома
 ent-ClothingHeadHatCowboy = ковбойская шляпа
     .desc = Эта шляпа является обязательной для каждого ковбоя
     .suffix = { ent-ClothingHeadBase.suffix }
+
+ent-ClothingHeadOldFedora = старая федора
+    .desc = выглядит старой и помятой
+    .suffix = { "" }

@@ -37,14 +37,20 @@ con-rag = тряпка
 con-improvisedshotgun = самопал
     .desc = Дерьмовый однозарядный дробовик, сделанный из утилизированных и изготовленных вручную частей оружия. Боеприпасы не включены.
 
+con-ShellShotgunImprovised = improvised shotgun shell
+    .desc = A homemade shotgun shell that shoots painful glass shrapnel. The spread is so wide that it couldn't hit the broad side of a Barn
+
 con-riflestock = ружейное ложе
     .desc = Ложе, вырезанное из дерева, необходимое для самодельного огнестрельного оружия.
 
-con-improvisedexplosive = { ent-ImprovisedExplosive }
-    .desc = { ent-ImprovisedExplosive.desc }
+con-firebomb = зажигательная бомба
+    .desc = Слабое импровизированное зажигательное устройство.
 
 con-CottonWovenCloth = ткань
     .desc = Сырьё
 
 con-strawHat = { ent-ClothingHeadHatStrawHat }
     .desc = { ent-ClothingHeadHatStrawHat.desc }
+
+con-pipebomb = самодельная бомба
+    .desc = Самодельное взрывчатое устройство, сделанное из труб и проволоки.

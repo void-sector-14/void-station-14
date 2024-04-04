@@ -34,9 +34,6 @@ message_wait_time = 1
 new_player_threshold = 180
 afk_time = 180.0
 
-[infolinks]
-discord = "https://discord.gg/Tc5RNEWVWS"
-
 [accessibility]
 reduced_motion = true
 
@@ -53,6 +50,7 @@ easy_mode = false
 timermap = 30
 
 [shuttle]
+arrivals_planet = false
 arrivals_returns = true
 emergency_early_launch_allowed = true
 emergency_dock_time = 300.0
@@ -84,3 +82,9 @@ min_players = 10
 
 [pirates]
 min_players = 15
+
+################################################################################
+##### Discord ##################################################################
+
+[discord]
+ahelp_webhook = "https://discord.com/api/webhooks/1212438781932871700/BsbGL4rRv1Z7Pka-tRxubqcvFUroNVzxD7XaIGmVNs1gWJWrQzJ423wP3ObI9yi-0LIt"

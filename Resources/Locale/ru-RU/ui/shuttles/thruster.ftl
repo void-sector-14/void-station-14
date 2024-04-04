@@ -4,3 +4,7 @@ thruster-comp-nozzle-direction = Сопло направлено на [color=yel
 thruster-comp-nozzle-exposed = Сопло [color=green]расправлено[/color] в космос.
 thruster-comp-nozzle-not-exposed = Сопло [color=red]не расправлено[/color] в космос.
 thruster-comp-upgrade-thrust = сила тяги
+direction-north = север
+direction-south = юг
+direction-east = восток
+direction-west = запад

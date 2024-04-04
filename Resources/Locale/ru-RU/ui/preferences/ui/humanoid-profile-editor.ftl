@@ -29,6 +29,7 @@ humanoid-profile-editor-preference-jumpskirt = Юбка-комбинезон
 humanoid-profile-editor-preference-backpack = Рюкзак
 humanoid-profile-editor-preference-satchel = Сумка
 humanoid-profile-editor-preference-duffelbag = Вещмешок
+humanoid-profile-editor-guidebook-button-tooltip = Нажмите для информации
 # Spawn priority
 humanoid-profile-editor-preference-spawn-priority-none = Нет
 humanoid-profile-editor-preference-spawn-priority-arrivals = Зал прибытия

@@ -42,6 +42,10 @@ ent-Syringe = { ent-BaseSyringe }
     .desc = { ent-BaseSyringe.desc }
     .suffix = { "" }
 
+ent-PrefilledSyringe = { ent-BaseSyringe }
+    .desc = { ent-BaseSyringe.desc }
+    .suffix = { "" }
+
 ent-SyringeBluespace = блюспейс-шприц
     .desc = Инъекции с использованием передовой блюспейс-технологии.
     .suffix = { "" }

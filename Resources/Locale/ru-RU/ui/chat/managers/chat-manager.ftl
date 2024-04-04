@@ -24,6 +24,7 @@ chat-manager-entity-say-bold-wrap-message = [BubbleHeader][bold][Name]{ $entityN
 chat-manager-entity-whisper-wrap-message = [font size=11][italic][BubbleHeader][Name]{ $entityName }[/Name][/BubbleHeader] шепчет,"[BubbleContent]{ $message }[/BubbleContent]"[/italic][/font]
 chat-manager-entity-whisper-unknown-wrap-message = [font size=11][italic][BubbleHeader]Кто-то[/BubbleHeader] шепчет, "[BubbleContent]{ $message }[/BubbleContent]"[/italic][/font]
 chat-manager-entity-me-wrap-message = [italic]{ $entityName } { $message }[/italic]
+chat-manager-entity-erp-wrap-message = [italic]{ $entityName } { $message }[/italic]
 chat-manager-entity-looc-wrap-message = LOOC: [bold]{ $entityName }:[/bold] { $message }
 chat-manager-send-ooc-wrap-message = OOC: [bold]{ $playerName }:[/bold] { $message }
 chat-manager-send-dead-chat-wrap-message = { $deadChannelName }: [bold][BubbleHeader]{ $playerName }[/BubbleHeader]:[/bold] [BubbleContent]{ $message }[/BubbleContent]
@@ -86,3 +87,7 @@ chat-speech-verb-cluwne-3 = смеётся
 chat-speech-verb-electricity-1 = трещит
 chat-speech-verb-electricity-2 = гудит
 chat-speech-verb-electricity-3 = скрипит
+chat-speech-verb-name-parrot = Попугай
+chat-speech-verb-parrot-1 = кричит
+chat-speech-verb-parrot-2 = трещит
+chat-speech-verb-parrot-3 = щебечет
