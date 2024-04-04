@@ -62,6 +62,7 @@ public sealed partial class ChatSystem : SharedChatSystem
     public const int WhisperClearRange = 2; // how far whisper goes while still being understandable, in world units
     public const int WhisperMuffledRange = 5; // how far whisper goes at all, in world units
     public const string DefaultAnnouncementSound = "/Audio/Announcements/announce.ogg";
+    public const int ERPRange = 3; // how far ERP goes in world units
 
     private bool _loocEnabled = true;
     private bool _deadLoocEnabled;
@@ -591,7 +592,7 @@ public sealed partial class ChatSystem : SharedChatSystem
 
         if (checkEmote)
             TryEmoteChatInput(source, action);
-        SendInVoiceRange(ChatChannel.ERP, action, wrappedMessage, source, range, author);
+        SendERPRange(ChatChannel.ERP, action, wrappedMessage, source, range, author);
         if (!hideLog)
             if (name != Name(source))
                 _adminLogger.Add(LogType.Chat, LogImpact.Low, $"ERP emote from {ToPrettyString(source):user} as {name}: {action}");
@@ -702,6 +703,23 @@ public sealed partial class ChatSystem : SharedChatSystem
     private void SendInVoiceRange(ChatChannel channel, string message, string wrappedMessage, EntityUid source, ChatTransmitRange range, NetUserId? author = null)
     {
         foreach (var (session, data) in GetRecipients(source, VoiceRange))
+        {
+            var entRange = MessageRangeCheck(session, data, range);
+            if (entRange == MessageRangeCheckResult.Disallowed)
+                continue;
+            var entHideChat = entRange == MessageRangeCheckResult.HideChat;
+            _chatManager.ChatMessageToOne(channel, message, wrappedMessage, source, entHideChat, session.Channel, author: author);
+        }
+
+        _replay.RecordServerMessage(new ChatMessage(channel, message, wrappedMessage, GetNetEntity(source), null, MessageRangeHideChatForReplay(range)));
+    }
+
+    /// <summary>
+    ///     Sends a ERP message to the given players in range of the source entity.
+    /// </summary>
+    private void SendERPRange(ChatChannel channel, string message, string wrappedMessage, EntityUid source, ChatTransmitRange range, NetUserId? author = null)
+    {
+        foreach (var (session, data) in GetRecipients(source, ERPRange))
         {
             var entRange = MessageRangeCheck(session, data, range);
             if (entRange == MessageRangeCheckResult.Disallowed)
