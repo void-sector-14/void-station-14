@@ -27,11 +27,7 @@
   text: station-goal-cyborgs
 
 - type: stationGoal
-  id: StationGoalExpeditions
-  text: station-goal-expeditions
-
-- type: stationGoal
-  id: StationGoalContaintment
+  id: StationGoalContainment
   text: station-goal-containment
 
 - type: stationGoal
