@@ -50,8 +50,8 @@ ent-TableWeb = паутинный стол
     .desc = Очень гладкий и удивительно прочный.
     .suffix = { "" }
 
-ent-TableFancyBase = fancy table
-    .desc = Expensive and rich.
+ent-TableFancyBase = красивый стол
+    .desc = Дорого богато.
     .suffix = { "" }
 
 ent-TableFancyBlue = { ent-TableFancyBase }
