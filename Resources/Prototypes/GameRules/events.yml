@@ -4,7 +4,7 @@
   noSpawn: true
   components:
   - type: StationEvent
-    weight: 10
+    weight: 0 # 10
     startDelay: 30
     duration: 35
   - type: AnomalySpawnRule
@@ -487,10 +487,6 @@
   components:
   - type: StationEvent
     startAnnouncement: station-event-ion-storm-start-announcement
-    startAudio:
-      path: /Audio/Announcements/ion_storm.ogg
-      params:
-        volume: 3
     weight: 10
     reoccurrenceDelay: 20
     duration: 1

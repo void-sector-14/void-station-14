@@ -54,6 +54,93 @@
     - Flashlight
 
 - type: entity
+  parent: [BaseItem, BaseFoldable]
+  id: AriralDecoy
+  abstract: true
+  components:
+  - type: Rotatable
+  - type: Sprite
+    sprite: Objects/Tools/Decoys/operative_decoy.rsi
+    layers:
+    - state: oballoon
+      map: ["unfoldedLayer"]
+    - state: folded
+      map: ["foldedLayer"]
+      visible: false
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 100
+      behaviors:
+        - !type:DoActsBehavior
+          acts: [ "Destruction" ]
+        - !type:PlaySoundBehavior
+          sound:
+            path: /Audio/Effects/pop_high.ogg
+  - type: Appearance
+  - type: Item
+    size: Normal
+  - type: Damageable
+    damageContainer: Inorganic
+  - type: Foldable
+    folded: true
+  - type: Tag
+    tags:
+    - Balloon
+
+- type: entity
+  parent: [BaseItem, BaseFoldable]
+  id: AriralAnomalyDecoy
+  abstract: true
+  components:
+  - type: Rotatable
+  - type: Sprite
+    sprite: Objects/Tools/Decoys/operative_decoy.rsi
+    layers:
+    - state: oballoon
+      map: ["unfoldedLayer"]
+    - state: folded
+      map: ["foldedLayer"]
+      visible: false
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 100
+      behaviors:
+        - !type:DoActsBehavior
+          acts: [ "Destruction" ]
+        - !type:PlaySoundBehavior
+          sound:
+            path: /Audio/Effects/pop_high.ogg
+  - type: Appearance
+  - type: Item
+    size: Normal
+  - type: Damageable
+    damageContainer: Inorganic
+  - type: ToggleableLightVisuals
+  - type: Foldable
+    folded: true
+  - type: PowerCellSlot
+    cellSlotId: cell_slot
+  - type: ItemSlots
+    slots:
+      cell_slot:
+        name: power-cell-slot-component-slot-name-default
+        startingItem: PowerCellHigh
+  - type: ContainerContainer
+    containers:
+      cell_slot: !type:ContainerSlot
+  - type: Tag
+    tags:
+    - Balloon
+    - Flashlight
+
+
+
+
+- type: entity
   parent: BaseDecoy
   id: BalloonOperative
   name: operative balloon
@@ -167,3 +254,57 @@
     offset: 0, -1
     color: green
     netsync: false
+
+- type: entity
+  parent: AriralDecoy
+  id: BalloonCE
+  name: надувной старший инженер
+  description: Шарик в виде Старшего Инженера, похоже вас разыграли!
+  components:
+  - type: Sprite
+    sprite: Void\Objects\Tools\Decoys\CE.rsi
+    layers:
+    - state: aballoon
+      map: ["unfoldedLayer"]
+    - state: folded
+      map: ["foldedLayer"]
+      visible: false
+
+- type: entity
+  parent: AriralDecoy
+  id: BalloonRD
+  name: надувной научный руководитель
+  description: Шарик в виде Научного руководителя, похоже вас разыграли!
+  components:
+  - type: Sprite
+    sprite: Void\Objects\Tools\Decoys\RD.rsi
+    layers:
+    - state: aballoon
+      map: ["unfoldedLayer"]
+    - state: folded
+      map: ["foldedLayer"]
+      visible: false
+
+- type: entity
+  parent: AriralAnomalyDecoy
+  id: BalloonAnomaly
+  name: надувная аномалия
+  description: Шарик в виде анамалии, похоже вас разыграли!
+  components:
+  - type: HandheldLight
+    addPrefix: false
+  - type: Sprite
+    sprite: Void\Objects\Tools\Decoys\Anomaly.rsi
+    layers:
+    - state: aballoon
+      map: ["unfoldedLayer"]
+    - state: folded
+      map: ["foldedLayer"]
+      visible: false
+  - type: PointLight
+    radius: 2.0
+    energy: 5.0
+    color: "#ffffaa"
+    castShadows: false
+    netsync: false
+

@@ -12,7 +12,7 @@ sqlite_dbpath = "build.sqlite"
 
 [game]
 desc = "VoidSector Build"
-hostname = "Пустотный Строительный"
+hostname = "Пустотная Стройка"
 soft_max_players = 60
 lobbyenabled = false
 fallbackpreset = "Sandbox"

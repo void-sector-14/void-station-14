@@ -211,6 +211,12 @@
             - material: Cloth
               amount: 1
               doAfter: 1
+
+        - to: TableCleenka
+          steps:
+            - material: Durathread
+              amount: 1
+              doAfter: 1
               
         - to: TableFancyBlack
           steps: 
@@ -295,7 +301,19 @@
           steps:
             - tool: Prying
               doAfter: 1
-              
+               
+    - node: TableCleenka
+      entity: TableCleenka
+      edges:
+        - to: TableWood
+          completed:
+            - !type:SpawnPrototype
+              prototype: MaterialDurathread1
+              amount: 1
+          steps:
+            - tool: Prying
+              doAfter: 1
+                 
     - node: TableFancyBlack
       entity: TableFancyBlack
       edges:
