@@ -4,7 +4,7 @@
   noSpawn: true
   components:
   - type: StationEvent
-    weight: 10
+    weight: 0 # 10
     startDelay: 30
     duration: 35
   - type: AnomalySpawnRule
