@@ -1,0 +1,35 @@
+- type: tile
+  id: FloorDebug1
+  name: Debug Floor
+  sprite: /Textures/Void/Tiles/debug.png
+  baseTurf: Plating
+  isSubfloor: false
+  deconstructTools: [ Prying ]
+  footstepSounds:
+    collection: FootstepFloor
+  itemDrop: FloorTileItemSteel
+  heatCapacity: 10000
+
+- type: tile
+  parent: FloorDebug1
+  id: FloorDebug2
+
+- type: tile
+  parent: FloorDebug1
+  id: FloorDebug3
+
+- type: tile
+  parent: FloorDebug1
+  id: FloorDebug4
+
+- type: tile
+  parent: FloorDebug1
+  id: FloorDebug5
+
+- type: tile
+  parent: FloorDebug1
+  id: FloorDebug6
+
+- type: tile
+  parent: FloorDebug1
+  id: FloorDebug7
