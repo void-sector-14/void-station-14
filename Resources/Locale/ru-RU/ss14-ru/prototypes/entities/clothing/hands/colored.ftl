@@ -25,5 +25,5 @@ ent-ClothingHandsGlovesColorYellow = изолированные перчатки
 ent-ClothingHandsGlovesColorYellowBudget = дешевые изолированные перчатки
     .desc = Всего лишь дешевая подделка заветных перчаток - не может быть, чтобы это плохо кончилось.
 ent-ClothingHandsGlovesConducting = { ent-ClothingHandsGlovesColorYellow }
-    .suffix = Conducting
+    .suffix = Проводящие
     .desc = { ent-ClothingHandsGlovesColorYellow.desc }
