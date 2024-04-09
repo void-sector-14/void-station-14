@@ -6,9 +6,9 @@
   description: Given to crewmates for exemplary bravery in the face of danger.
   components:
   - type: Sprite
-    sprite: Clothing/Neck/Medals/bronzeheart.rsi
+    sprite: Void/Clothing/Neck/Medals/bronzeheart.rsi
   - type: Clothing
-    sprite: Clothing/Neck/Medals/bronzeheart.rsi
+    sprite: Void/Clothing/Neck/Medals/bronzeheart.rsi
 
 - type: entity
   parent: ClothingNeckBase
@@ -17,9 +17,9 @@
   description: Given to crewmates who display excellent crewmanship.
   components:
   - type: Sprite
-    sprite: Clothing/Neck/Medals/gold.rsi
+    sprite: Void/Clothing/Neck/Medals/gold.rsi
   - type: Clothing
-    sprite: Clothing/Neck/Medals/gold.rsi
+    sprite: Void/Clothing/Neck/Medals/gold.rsi
   - type: StealTarget
     stealGroup: ClothingNeckGoldmedal
 
@@ -30,9 +30,9 @@
   description: Given for the best work in the cargo department.
   components:
   - type: Sprite
-    sprite: Clothing/Neck/Medals/cargomedal.rsi
+    sprite: Void/Clothing/Neck/Medals/cargomedal.rsi
   - type: Clothing
-    sprite: Clothing/Neck/Medals/cargomedal.rsi
+    sprite: Void/Clothing/Neck/Medals/cargomedal.rsi
 
 - type: entity
   parent: ClothingNeckBase
@@ -41,9 +41,9 @@
   description: Given for the best work in the engineering department.
   components:
   - type: Sprite
-    sprite: Clothing/Neck/Medals/engineermedal.rsi
+    sprite: Void/Clothing/Neck/Medals/engineermedal.rsi
   - type: Clothing
-    sprite: Clothing/Neck/Medals/engineermedal.rsi
+    sprite: Void/Clothing/Neck/Medals/engineermedal.rsi
 
 - type: entity
   parent: ClothingNeckBase
@@ -52,9 +52,9 @@
   description: Given for the best work in the medical department.
   components:
   - type: Sprite
-    sprite: Clothing/Neck/Medals/medicalmedal.rsi
+    sprite: Void/Clothing/Neck/Medals/medicalmedal.rsi
   - type: Clothing
-    sprite: Clothing/Neck/Medals/medicalmedal.rsi
+    sprite: Void/Clothing/Neck/Medals/medicalmedal.rsi
 
 - type: entity
   parent: ClothingNeckBase
@@ -63,9 +63,9 @@
   description: Given for the best work in the science department.
   components:
   - type: Sprite
-    sprite: Clothing/Neck/Medals/sciencemedal.rsi
+    sprite: Void/Clothing/Neck/Medals/sciencemedal.rsi
   - type: Clothing
-    sprite: Clothing/Neck/Medals/sciencemedal.rsi
+    sprite: Void/Clothing/Neck/Medals/sciencemedal.rsi
 
 - type: entity
   parent: ClothingNeckBase
@@ -74,9 +74,9 @@
   description: Given for the best work in the security department.
   components:
   - type: Sprite
-    sprite: Clothing/Neck/Medals/securitymedal.rsi
+    sprite: Void/Clothing/Neck/Medals/securitymedal.rsi
   - type: Clothing
-    sprite: Clothing/Neck/Medals/securitymedal.rsi
+    sprite: Void/Clothing/Neck/Medals/securitymedal.rsi
 
 - type: entity
   parent: ClothingNeckBase
@@ -85,8 +85,8 @@
   description: Given for the best joke in the universe. HONK!
   components:
   - type: Sprite
-    sprite: Clothing/Neck/Medals/clownmedal.rsi
+    sprite: Void/Clothing/Neck/Medals/clownmedal.rsi
   - type: Clothing
-    sprite: Clothing/Neck/Medals/clownmedal.rsi
+    sprite: Void/Clothing/Neck/Medals/clownmedal.rsi
   - type: StealTarget
     stealGroup: ClothingNeckClownmedal
