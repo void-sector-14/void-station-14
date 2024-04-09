@@ -20,7 +20,7 @@ ent-MobCarpRainbow = радужный карп
 
 ent-MobCarpSalvage = { ent-MobCarp }
     .desc = { ent-MobCarp.desc }
-    .suffix = Подземелье
+    .suffix = Обломки
 
 ent-MobCarpDragon = космический карп
     .desc = { ent-MobCarp.desc }
@@ -36,4 +36,4 @@ ent-MobShark = карпоакула
 
 ent-MobSharkSalvage = { ent-MobShark }
     .desc = { ent-MobShark.desc }
-    .suffix = Подземелье
+    .suffix = Обломки
