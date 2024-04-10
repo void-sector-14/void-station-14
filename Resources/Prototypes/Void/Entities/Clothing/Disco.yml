@@ -52,9 +52,9 @@
   description: Галстук украшен броским узором. Он пугающе яркий. Почему-то вам кажется, что было бы неправильно когда-либо его снимать. Теперь он ваш друг. Вы предадите его, если смените на какой-нибудь скучный шарф.
   components:
     - type: Sprite
-      sprite: Void\Clothing\Neck\disco.rsi
+      sprite: Void/Clothing/Neck/disco.rsi
     - type: Clothing
-      sprite: Void\Clothing\Neck\disco.rsi
+      sprite: Void/Clothing/Neck/disco.rsi
 
 - type: entity
   parent: ClothingOuterStorageBase
