@@ -29,3 +29,9 @@ trait-accentless-desc = You don't have the accent that your species would usuall
 
 trait-socialanxiety-name = Social Anxiety
 trait-socialanxiety-desc = You are anxious when you speak and stutter.
+
+trait-southern-name = Southern Drawl
+trait-southern-desc = You have a different way of speakin'.
+
+trait-snoring-name = Snoring
+trait-snoring-desc = You will snore while sleeping.
