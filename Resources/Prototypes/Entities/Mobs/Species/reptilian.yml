@@ -6,7 +6,7 @@
   abstract: true
   components:
   - type: Sprite
-    scale: 1.05, 1.05
+    scale: 1.1, 1.1
   - type: HumanoidAppearance
     species: Reptilian
   - type: Hunger
