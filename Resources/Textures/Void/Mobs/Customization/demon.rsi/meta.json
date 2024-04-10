@@ -7,6 +7,10 @@
         "y": 32
     },
     "states": [
+	    {
+            "name": "ariral",
+            "directions": 4
+        },
         {
             "name": "cow_ears",
             "directions": 4

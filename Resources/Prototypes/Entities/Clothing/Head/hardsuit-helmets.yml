@@ -706,7 +706,7 @@
 
 #Deathsquad Hardsuit
 - type: entity
-  parent: ClothingHeadHardsuitBase
+  parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitDeathsquad
   name: deathsquad hardsuit helmet
   description: A robust helmet for special operations.
@@ -728,6 +728,8 @@
         Heat: 0.80
         Radiation: 0.80
         Caustic: 0.95
+  - type: PointLight
+    color: "#7ad4dd"
 
 #MISC. HARDSUITS
 #Clown Hardsuit

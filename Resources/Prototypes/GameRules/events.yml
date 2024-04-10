@@ -1,13 +1,13 @@
-- type: entity
-  id: AnomalySpawn
-  parent: BaseGameRule
-  noSpawn: true
-  components:
-  - type: StationEvent
-    weight: 0 # 10
-    startDelay: 30
-    duration: 35
-  - type: AnomalySpawnRule
+#- type: entity
+#  id: AnomalySpawn
+#  parent: BaseGameRule
+#  noSpawn: true
+#  components:
+#  - type: StationEvent
+#    weight: 10
+#    startDelay: 30
+#    duration: 35
+#  - type: AnomalySpawnRule
 
 - type: entity
   id: BluespaceArtifact
@@ -375,24 +375,24 @@
     - id: MobGiantSpiderAngry
       prob: 0.05
 
-- type: entity
-  id: SpiderClownSpawn
-  parent: BaseGameRule
-  noSpawn: true
-  components:
-  - type: StationEvent
-    startAnnouncement: station-event-vent-creatures-start-announcement
-    startAudio:
-      path: /Audio/Announcements/attention.ogg
-    startDelay: 10
-    earliestStart: 20
-    minimumPlayers: 15
-    weight: 0
-    duration: 60
-  - type: VentCrittersRule
-    entries:
-    - id: MobClownSpider
-      prob: 0.05
+#- type: entity
+#  id: SpiderClownSpawn
+#  parent: BaseGameRule
+#  noSpawn: true
+#  components:
+#  - type: StationEvent
+#    startAnnouncement: station-event-vent-creatures-start-announcement
+#    startAudio:
+#      path: /Audio/Announcements/attention.ogg
+#    startDelay: 10
+#    earliestStart: 20
+#    minimumPlayers: 15
+#    weight: 0
+#    duration: 60
+#  - type: VentCrittersRule
+#    entries:
+#    - id: MobClownSpider
+#      prob: 0.05
 
 - type: entity
   id: ZombieOutbreak

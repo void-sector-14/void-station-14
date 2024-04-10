@@ -36,6 +36,15 @@
     state: cow_ears
 
 - type: marking
+  id: Ariral
+  bodyPart: HeadSide
+  markingCategory: HeadSide
+  speciesRestriction: [DemonSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/demon.rsi
+    state: ariral
+
+- type: marking
   id: DemonEars
   bodyPart: HeadSide
   markingCategory: HeadSide

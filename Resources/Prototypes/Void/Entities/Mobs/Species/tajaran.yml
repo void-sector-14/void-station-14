@@ -62,6 +62,9 @@
       200: Dead
   - type: SleepEmitSound
     snore: /Audio/Voice/Felinid/cat_purr1.ogg
+  - type: SizeAttributeWhitelist
+    tall: true
+    tallscale: 1
 
 - type: entity
   save: false

@@ -2,6 +2,7 @@ marking-DemomTail1 = острый конец, хвост
 marking-DemomTailLong = длинный и пушистый, хвост
 marking-DemomTailUp = длинный и пушистый, хвост (приподнят)
 marking-DemonCowEars = коровьи ушки, уши
+marking-Ariral = арирал
 marking-DemonEars = демонические ушки, уши
 marking-DemonCowHorns = коровьи рожки, рога
 marking-DemonHornsDeer = оленьи рожки, рога

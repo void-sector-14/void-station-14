@@ -262,7 +262,7 @@
   description: Шарик в виде Старшего Инженера, похоже вас разыграли!
   components:
   - type: Sprite
-    sprite: Void\Objects\Tools\Decoys\CE.rsi
+    sprite: Void/Objects/Tools/Decoys/CE.rsi
     layers:
     - state: aballoon
       map: ["unfoldedLayer"]
@@ -277,7 +277,7 @@
   description: Шарик в виде Научного руководителя, похоже вас разыграли!
   components:
   - type: Sprite
-    sprite: Void\Objects\Tools\Decoys\RD.rsi
+    sprite: Void/Objects/Tools/Decoys/RD.rsi
     layers:
     - state: aballoon
       map: ["unfoldedLayer"]
@@ -294,7 +294,7 @@
   - type: HandheldLight
     addPrefix: false
   - type: Sprite
-    sprite: Void\Objects\Tools\Decoys\Anomaly.rsi
+    sprite: Void/Objects/Tools/Decoys/Anomaly.rsi
     layers:
     - state: aballoon
       map: ["unfoldedLayer"]
