@@ -1,0 +1,27 @@
+- type: trait
+  id: Tall
+  name: Высокий
+  description: Вы созданы, чтобы пронзить небеса!
+  whitelist:
+    components:
+      - SizeAttributeWhitelist
+  blacklist:
+    components:
+      - SizeAttribute
+  components:
+    - type: SizeAttribute
+      tall: true
+
+- type: trait
+  id: Short
+  name: Низкий
+  description: Вай, занижен как приора.
+  whitelist:
+    components:
+      - SizeAttributeWhitelist
+  blacklist:
+    components:
+      - SizeAttribute
+  components:
+    - type: SizeAttribute
+      short: true
