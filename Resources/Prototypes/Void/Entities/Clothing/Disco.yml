@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingUniformBase
-  id: ClothingUniformJumpsuitSuperstarCop
-  name: superstar cop uniform
-  description: Flare cut trousers and a dirty shirt that might have been classy before someone took a piss in the armpits. It's the dress of a superstar.
+  id: ClothingUniformDiscoDetective
+  name: униформа суперзвездного полицейского
+  description: Расклешенные брюки и грязная рубашка, которая, возможно, была стильной, пока кто-то не помочился в подмышки. Это одежда суперзвезды.
   components:
     - type: Sprite
       sprite: Void/Clothing/Uniforms/Jumpsuit/disco.rsi
@@ -11,9 +11,9 @@
 
 - type: entity
   parent: ClothingUniformBase
-  id: ClothingUniformJumpsuitAerostatic
-  name: aerostatic suit
-  description: A crisp and well-pressed suit; professional, comfortable and curiously authoritative.
+  id: ClothingUniformAerostatic
+  name: аэростатический костюм
+  description: Строгий и хорошо отглаженный костюм; профессиональный, удобный и удивительно властный.
   components:
     - type: Sprite
       sprite: Void/Clothing/Uniforms/Jumpsuit/kim.rsi
@@ -22,20 +22,20 @@
 
 - type: entity
   parent: ClothingEyesBase
-  id: ClothingEyesBinoclardLenses
-  name: binoclard lenses
-  description: Shows you know how to sew a lapel and center a back vent.
+  id: ClothingEyesAerostatic
+  name: очки бинокли
+  description: Показывает, что вы знаете, как пришить лацкан и отцентрировать вырез сзади.
   components:
     - type: Sprite
-      sprite: Void/Clothing/Eyes/Glasses/kim.rsi
+      sprite: Void/Clothing/Glasses/kim.rsi
     - type: Clothing
-      sprite: Void/Clothing/Eyes/Glasses/kim.rsi
+      sprite: Void/Clothing/Glasses/kim.rsi
 
 - type: entity
   parent: ClothingHandsBase
-  id: ClothingHandsGlovesAerostatic
-  name: aerostatic gloves
-  description: Breathable red gloves for expert handling of a pen and notebook.
+  id: ClothingHandsAerostatic
+  name: аэростатические перчатки
+  description: Дышащие красные перчатки для умелого обращения с ручкой и блокнотом.
   components:
     - type: Sprite
       sprite: Void/Clothing/Hands/Gloves/kim.rsi
@@ -47,20 +47,20 @@
 
 - type: entity
   parent: ClothingNeckBase
-  id: ClothingNeckHorrific
-  name: horrific necktie
-  description: The necktie is adorned with a garish pattern. It's disturbingly vivid. Somehow you feel as if it would be wrong to ever take it off. It's your friend now. You will betray it if you change it for some boring scarf.
+  id: ClothingNeckDiscoDetective
+  name: кошмарный галстук
+  description: Галстук украшен броским узором. Он пугающе яркий. Почему-то вам кажется, что было бы неправильно когда-либо его снимать. Теперь он ваш друг. Вы предадите его, если смените на какой-нибудь скучный шарф.
   components:
     - type: Sprite
-      sprite: Void/Clothing/Neck/Ties/disco.rsi
+      sprite: Void\Clothing\Neck\disco.rsi
     - type: Clothing
-      sprite: Void/Clothing/Neck/Ties/disco.rsi
+      sprite: Void\Clothing\Neck\disco.rsi
 
 - type: entity
-  parent: ClothingOuterBase
-  id: ClothingOuterAerostaticBomberJacket
-  name: aerostatic bomber jacket
-  description: A jacket once worn by the revolutionary air brigades during the Antecentennial Revolution. There are quite a few pockets on the inside, mostly for storing notebooks and compasses.
+  parent: ClothingOuterStorageBase
+  id: ClothingOuterAerostatic
+  name: аэростатическая куртка-бомбер
+  description: Куртка, которую когда-то носили революционные воздушные бригады во время революции, предшествовавшей столетию назад. Внутри есть несколько карманов, в основном для хранения блокнотов и компасов.
   components:
     - type: Sprite
       sprite: Void/Clothing/OuterClothing/Coats/kim.rsi
@@ -68,10 +68,10 @@
       sprite: Void/Clothing/OuterClothing/Coats/kim.rsi
 
 - type: entity
-  parent: ClothingOuterBase
+  parent: ClothingOuterStorageBase
   id: ClothingOuterDiscoAssBlazer
-  name: disco ass blazer
-  description: Looks like someone skinned this blazer off some long extinct disco-animal. It has an enigmatic white rectangle on the back and the right sleeve.
+  name: чумовой диско блейзер
+  description: Этот блейзер выглядит так, словно кто-то снял кожу с какого-то давно вымершего диско-персонажа. На спине и правом рукаве у него загадочный белый прямоугольник.
   components:
     - type: Sprite
       sprite: Void/Clothing/OuterClothing/Coats/disco.rsi
@@ -80,9 +80,9 @@
 
 - type: entity
   parent: ClothingShoesBase
-  id: ClothingShoesGreenLizardskin
-  name: green lizardskin shoes
-  description: They may have lost some of their lustre over the years, but these green lizardskin shoes fit you perfectly.
+  id: ClothingShoesDiscoDetective
+  name: туфли из зеленой ящерицы
+  description: Возможно, с годами они немного утратили свой блеск, но эти зеленые туфли из кожи ящерицы идеально тебе подходят.
   components:
     - type: Sprite
       sprite: Void/Clothing/Shoes/Misc/disco.rsi
@@ -92,8 +92,8 @@
 - type: entity
   parent: ClothingShoesBase
   id: ClothingShoesAerostatic
-  name: aerostatic boots
-  description: A crisp, clean set of boots for working long hours on the beat.
+  name: аэростатические ботинки
+  description: Хрустящие, чистые ботинки для многочасовой работы в движении.
   components:
     - type: Sprite
       sprite: Void/Clothing/Shoes/Misc/kim.rsi
