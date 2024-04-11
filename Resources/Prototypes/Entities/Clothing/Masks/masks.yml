@@ -336,7 +336,6 @@
   - type: Tag
     tags:
     - WhitelistChameleon
-    - HidesHair
     - HidesNose
 
 - type: entity
@@ -363,7 +362,6 @@
   - type: Tag
     tags:
     - WhitelistChameleon
-    - HidesHair
     - HidesNose
 
 - type: entity
