@@ -1,4 +1,4 @@
-ent-ClothingNeckCloakCentCom = Фирменный плащ Центкома
+ent-ClothingNeckCloakCentCom = фирменный плащ Центкома
     .desc = Дорогой плащ, который вам не по корману
     .suffix = { ent-ClothingNeckBase.suffix }
 
