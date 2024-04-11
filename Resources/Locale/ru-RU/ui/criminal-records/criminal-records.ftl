@@ -10,7 +10,12 @@ criminal-records-console-status = Статус
 criminal-records-status-none = Нет
 criminal-records-status-wanted = Разыскивается
 criminal-records-status-detained = Под арестом
+criminal-records-status-suspected = Подозревается
+criminal-records-status-discharged = Освобожден
+criminal-records-status-paroled = Освобожден по УДО
+
 criminal-records-console-wanted-reason = [color=gray]Причина розыска[/color]
+criminal-records-console-suspected-reason = [color=gray]Причина подозрения[/color]
 criminal-records-console-reason = Причина
 criminal-records-console-reason-placeholder = Пример: { $placeholder }
 
@@ -21,14 +26,19 @@ criminal-records-history-placeholder = Впишите сюда преступл�
 criminal-records-no-history = У этого сотрудника безупречный послужной список.
 criminal-records-add-history = Добавить
 criminal-records-delete-history = Удалить
+
 criminal-records-permission-denied = Отказано в доступе
 
 ## Security channel notifications
 
 criminal-records-console-wanted = { $name } разыскивается по решению { $officer }, причина: { $reason }.
+criminal-records-console-suspected = { $name } теперь подозревается { $officer }, причина: { $reason }
+criminal-records-console-not-suspected = { $name } больше не подозревается.
 criminal-records-console-detained = { $name } арестовали, арестовал: { $officer }.
 criminal-records-console-released = { $name } отпустили, отпустил: { $officer }.
 criminal-records-console-not-wanted = { $name } больше не разыскивается.
+criminal-records-console-paroled = { $name } освободили по УДО, освободил: { $officer }.
+criminal-records-console-not-parole = { $name } больше не является освобождённым по УДО.
 criminal-records-console-unknown-officer = <неизвестный офицер>
 
 ## Filters
@@ -39,6 +49,5 @@ criminal-records-prints-filter = Отпечатки пальцев
 criminal-records-dna-filter = ДНК
 
 ## Arrest auto history lines
-
 criminal-records-console-auto-history = АРЕСТОВАН: { $reason }
 criminal-records-console-unspecified-reason = <причина не указана>
