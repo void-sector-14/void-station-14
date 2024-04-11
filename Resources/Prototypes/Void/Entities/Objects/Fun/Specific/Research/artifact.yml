@@ -6,7 +6,7 @@
   suffix: Unpowered
   components:
   - type: Sprite
-    sprite: Void/Objects/Specific/Research/anomalylocator.rsi
+    sprite: Void/Objects/Specific/Research/artifactlocator.rsi
     layers:
       - state: icon
       - state: screen
