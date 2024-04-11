@@ -28,7 +28,7 @@
       color: "#9f9f00"
   - type: Access
     groups:
-    - Command
+    - AllAccess
 
 - type: entity
   parent: DoorRemoteDefault
@@ -178,3 +178,5 @@
     - AllAccess
     tags:
     - CentralCommand
+    - SyndicateAgent
+    - NuclearOperative

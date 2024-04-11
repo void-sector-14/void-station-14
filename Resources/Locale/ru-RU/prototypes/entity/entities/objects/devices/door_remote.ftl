@@ -2,7 +2,7 @@ ent-DoorRemoteDefault = пульт от шлюзов
     .desc = Гаджет, который может открывать и закрывать шлюзы дистанционно.
     .suffix = { ent-BaseItem.suffix }
 
-ent-DoorRemoteCommand = пульт от шлюзов командования
+ent-DoorRemoteCommand = капитанский пульт от шлюзов
     .desc = { ent-DoorRemoteDefault.desc }
     .suffix = { ent-DoorRemoteDefault.suffix }
 

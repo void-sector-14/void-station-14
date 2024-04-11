@@ -1,9 +1,8 @@
-#TODO игроки не имеют доступа к предмету
 - type: entity
   parent: DoorRemoteDefault
   id: DoorRemoteCentcom
   name: пульт от дверей ЦентКома
-  description: Гаджет, который может открывать и закрывать любые двери дистанционно
+  description: Гаджет, который может открывать и закрывать любые двери дистанционно.
   components:
   - type: Sprite
     sprite: Void/Objects/Devices/door_remote_centcom.rsi
@@ -12,3 +11,5 @@
   - type: Access
     groups:
     - AllAccess
+    tags:
+    - CentralCommand
