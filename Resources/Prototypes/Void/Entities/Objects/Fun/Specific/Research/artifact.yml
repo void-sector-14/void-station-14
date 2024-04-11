@@ -2,11 +2,11 @@
   id: ArtifactLocatorUnpowered
   parent: BaseItem
   name: локатор артефактов
-  description: Устройство для поиска артефактов нарушивших ОУС. Вы уверен что он не улетел на транзитную станцию?
+  description: Устройство для поиска артефактов нарушивших ОУС. Вы уверены что он не улетел на транзитную станцию?
   suffix: Unpowered
   components:
   - type: Sprite
-    sprite: Objects/Specific/Research/anomalylocator.rsi
+    sprite: Void/Objects/Specific/Research/anomalylocator.rsi
     layers:
       - state: icon
       - state: screen
