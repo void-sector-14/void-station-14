@@ -40,10 +40,12 @@
   tier: 1
   cost: 5000
   recipeUnlocks:
+  - ArtifactLocator
   - NodeScanner
   - BorgModuleArtifact
   - AnalysisComputerCircuitboard
-  - ArtifactAnalyzerMachineCircuitboard
+  - ArtifactAnalyzerMachineCircuitboard 
+
 
 - type: technology
   id: AlternativeResearch
