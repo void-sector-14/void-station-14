@@ -23,7 +23,6 @@ namespace Content.Server.Database
         public NoteSeverity Severity { get; set; }
         public NetUserId? BanningAdmin { get; }
         public ServerUnbanDef? Unban { get; }
-        public string? BanningAdminName { get; }
 
         public ServerBanDef(
             int? id,
@@ -61,6 +60,7 @@ namespace Content.Server.Database
             PlaytimeAtNote = playtimeAtNote;
             Reason = reason;
             Severity = severity;
+            BanningAdmin = banningAdmin;
             Unban = unban;
         }
 
@@ -83,10 +83,9 @@ namespace Content.Server.Database
 
             return $"""
                    {loc.GetString("ban-banned-1")}
-                   {loc.GetString("ban-banned-2") + BanningAdminName}
-                   {loc.GetString("ban-banned-3", ("reason", Reason))}
+                   {loc.GetString("ban-banned-2", ("reason", Reason))}
                    {expires}
-                   {loc.GetString("ban-banned-4")}
+                   {loc.GetString("ban-banned-3")}
                    """;
         }
     }
