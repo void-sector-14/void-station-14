@@ -141,6 +141,7 @@
   - type: Access
     groups:
     - Engineering
+    - Maintenance
 
 - type: entity
   parent: DoorRemoteDefault
@@ -155,10 +156,10 @@
           color: "#ff9900"
         - state: door_remotescreencolour
           color: "#e02020"
-
     - type: Access
       groups:
         - FireFight
+        - Maintenance
 
 - type: entity
   parent: DoorRemoteDefault
