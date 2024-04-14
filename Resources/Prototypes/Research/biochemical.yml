@@ -33,6 +33,20 @@
 # Tier 2
 
 - type: technology
+  id: AdvancedSurgicalTools
+  name: Продвинутые хирургические инструменты
+  icon:
+    sprite: Objects/Specific/Medical/Surgery/saw.rsi
+    state: electric
+  discipline: Biochemical
+  tier: 2
+  cost: 5000
+  recipeUnlocks:
+  - ScalpelAdvanced
+  - ScalpelLaser
+  - SawElectric
+
+- type: technology
   id: BiochemicalStasis
   name: research-technology-biochemical-stasis
   icon:
