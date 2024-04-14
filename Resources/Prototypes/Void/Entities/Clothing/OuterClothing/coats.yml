@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingOuterClothingBlackCoatDragon
-  name: Чёрное пальто из драконьей кожи
-  description: Ни один дракон не пострадал в процессе производства такой роскоши, что не скажешь об остальных
+  name: чёрное пальто из драконьей кожи
+  description: Ни один дракон не пострадал в процессе производства такой роскоши, что не скажешь об остальных.
   components:
   - type: Sprite
     sprite: Void/Clothing/OuterClothing/Coats/black_coat.rsi
@@ -13,8 +13,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingOuterClothingBlackJacket
-  name: Чёрная куртка
-  description: Стильно, модно, молодежно
+  name: чёрная куртка
+  description: Стильно, модно, молодежно.
   components:
   - type: Sprite
     sprite: Void/Clothing/OuterClothing/Coats/black_jacket.rsi
@@ -25,8 +25,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingOuterClothingBlackJacketSkull
-  name: Чёрная куртка с черепом
-  description: Для крутых перцев
+  name: чёрная куртка с черепом
+  description: Для крутых перцев.
   components:
   - type: Sprite
     sprite: Void/Clothing/OuterClothing/Coats/black_jacket_skull.rsi
@@ -37,13 +37,13 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingOuterCoatBomberBlack
-  name: Чёрная куртка-бомбер
+  name: чёрная куртка-бомбер
   description: Толстая, поношенная кожаная куртка-бомбер периода Второй мировой войны.
   components:
   - type: Sprite
     sprite: Void/Clothing/OuterClothing/Coats/blackbomber.rsi
   - type: Clothing
     slots: [ outerClothing ]
-    sprite: Void/Clothing/OuterClothing/Coats/blackbomber.rsi  
+    sprite: Void/Clothing/OuterClothing/Coats/blackbomber.rsi
 
 
