@@ -46,4 +46,15 @@
     slots: [ outerClothing ]
     sprite: Void/Clothing/OuterClothing/Coats/blackbomber.rsi
 
-
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingOuterClothingDenRezo
+  name: инженерный бомбер Дэна
+  description: Крепкая кожаная куртка снабжённая системой инженерных датчиков. Помогает при работе в команде.
+  suffix: VoidPersonal
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/OuterClothing/Coats/den_rezo.rsi
+  - type: Clothing
+    slots: [ outerClothing ]
+    sprite: Void/Clothing/OuterClothing/Coats/den_rezo.rsi
