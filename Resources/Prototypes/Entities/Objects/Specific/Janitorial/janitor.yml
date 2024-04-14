@@ -559,6 +559,9 @@
             - !type:PlaySoundBehavior
               sound:
                 collection: MetalBreak
+    - type: Construction
+      graph: floordrain
+      node: floordrain
 
 - type: entity
   name: plunger

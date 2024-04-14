@@ -58,6 +58,9 @@
   - type: ContainerContainer
     containers:
       ItemCabinet: !type:ContainerSlot
+  - type: Construction
+    graph: fireaxecabinet
+    node: fireaxecabinet
   placement:
     mode: SnapgridCenter
 
