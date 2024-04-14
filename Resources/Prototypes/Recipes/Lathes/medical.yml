@@ -48,6 +48,35 @@
     Steel: 200
 
 - type: latheRecipe
+  id: ScalpelAdvanced
+  result: ScalpelAdvanced
+  category: Tools
+  completetime: 3
+  materials:
+    Steel: 200
+    Silver: 250
+
+- type: latheRecipe
+  id: ScalpelLaser
+  result: ScalpelLaser
+  category: Tools
+  completetime: 3
+  materials:
+    Steel: 200
+    Glass: 100
+    Plasma: 150
+
+- type: latheRecipe
+  id: SawElectric
+  result: SawElectric
+  category: Tools
+  completetime: 5
+  materials:
+    Steel: 600
+    Silver: 100
+    Gold: 100
+
+- type: latheRecipe
   id: BodyBag
   result: BodyBag_Folded
   completetime: 2

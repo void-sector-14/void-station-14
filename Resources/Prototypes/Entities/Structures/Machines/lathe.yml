@@ -261,14 +261,8 @@
       - AnomalyScanner
       - AnomalyLocator
       - AnomalyLocatorWide
-      - Scalpel
-      - Retractor
-      - Cautery
-      - Drill
       - WeaponParticleDecelerator
       - HoloprojectorField
-      - Saw
-      - Hemostat
       - CryostasisBeaker
       - SyringeCryostasis
       - Syringe
@@ -309,6 +303,8 @@
       - ClothingBackpackSatchelHolding
       - ClothingBackpackDuffelHolding
       - WelderExperimental
+      - WelderIndustrialAdvanced
+      - WelderIndustrial
       - JawsOfLife
       - FauxTileAstroGrass
       - FauxTileMowedAstroGrass
@@ -492,6 +488,7 @@
     - BorgModuleConstruction
     - BorgModuleService
     - BorgModuleTreatment
+    - BorgModuleDiagnosis
     - BorgModuleCleaning
     - CyborgEndoskeleton
     - LeftArmBorg
@@ -838,6 +835,9 @@
       - Drill
       - Saw
       - Hemostat
+      - ScalpelAdvanced
+      - ScalpelLaser
+      - SawElectric
   - type: Machine
     board: MedicalTechFabCircuitboard
   - type: StealTarget
