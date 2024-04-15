@@ -78,7 +78,7 @@
 
 - type: latheRecipe
   id: BodyBag
-  result: BodyBag_Folded
+  result: BodyBagFolded
   completetime: 2
   materials:
     Plastic: 300

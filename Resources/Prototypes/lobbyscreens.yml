@@ -61,3 +61,7 @@
 - type: lobbyBackground
   id: BSA
   background: /Textures/LobbyScreens/BSA.png
+
+- type: lobbyBackground
+  id: TerminalStation
+  background: /Textures/LobbyScreens/terminalstation.webp
