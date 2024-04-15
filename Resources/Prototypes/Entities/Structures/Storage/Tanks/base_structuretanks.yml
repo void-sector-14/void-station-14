@@ -1,4 +1,4 @@
-﻿- type: entity
+- type: entity
   id: StorageTank
   parent: BaseStructureDynamic
   name: storage tank

@@ -57,6 +57,9 @@
         - proto: ProtolatheMachineCircuitboard
         - proto: RandomArtifactSpawner
           cost: 2
+        - proto: MobRandomSyndicateCorpse
+          cost: 5
+          prob: 0.5
         - proto: RandomCargoCorpseSpawner
           cost: 2
           prob: 0.5
@@ -105,6 +108,31 @@
         - proto: WeaponTeslaGun
           prob: 0.1
           cost: 2
+        - proto: ClothingOuterHardsuitMaxim
+          cost: 15
+          prob: 0.5
+        - proto: ClothingBeltSheathkatanaFilled
+          cost: 5
+          prob: 0.5
+        - proto: MedkitAdvancedFilled
+          cost: 3
+        - proto: MedkitCombatFilled
+          cost: 5
+        - proto: Claymore
+          cost: 5
+          prob: 0.5
+        - proto: ClothingBeltQuiver
+          cost: 5
+          prob: 0.5
+        - proto: WeaponMakeshiftLaser
+          cost: 5
+          prob: 0.5
+        - proto: ClothingOuterHardsuitQuartermaster
+          cost: 15
+          prob: 0.3
+
+
+
 
 # Mob loot table
 

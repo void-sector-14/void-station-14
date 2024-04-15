@@ -1,4 +1,4 @@
-﻿- type: entity
+- type: entity
   id: Airlock
   parent: BaseStructure
   name: airlock
@@ -66,6 +66,7 @@
   - type: Weldable
     time: 3
   - type: Airlock
+    openUnlitVisible: true
   - type: NavMapDoor
   - type: DoorBolt
   - type: Appearance

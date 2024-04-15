@@ -58,9 +58,18 @@ namespace Content.Shared.Humanoid
             }
         }
 
-        public string GetLastName(SpeciesPrototype speciesProto)
+        public string GetLastName(SpeciesPrototype speciesProto, Gender? gender = null)
         {
-            return _random.Pick(_prototypeManager.Index<DatasetPrototype>(speciesProto.LastNames).Values);
+            var nameCollections = gender switch
+            {
+                Gender.Male => speciesProto.MaleLastNames,
+                Gender.Female => speciesProto.FemaleLastNames,
+                _ => _random.Prob(0.5f)
+                    ? speciesProto.MaleLastNames
+                    : speciesProto.FemaleLastNames
+            };
+
+            return _random.Pick(_prototypeManager.Index<DatasetPrototype>(nameCollections).Values);
         }
     }
 }

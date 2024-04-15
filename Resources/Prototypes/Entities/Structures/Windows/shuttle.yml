@@ -71,6 +71,9 @@
     mode: Diagonal
     key: windows
     base: state
+  - type: Construction
+    graph: WindowDiagonal
+    node: shuttleWindowDiagonal
   - type: Icon
     sprite: Structures/Windows/shuttle_window_diagonal.rsi
     state: state0

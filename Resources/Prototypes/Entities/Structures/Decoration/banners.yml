@@ -44,7 +44,7 @@
   description: A banner displaying the colors of the cargo department. Not. Cargonia.
   components:
   - type: Sprite
-    sprite: Structures/Decoration/banner.rsi
+    sprite: Void/Structures/Decoration/banner.rsi
     state: banner_cargo
 
 - type: entity
@@ -54,7 +54,7 @@
   description: A banner displaying the colors of the engineering department. Scrungularty.
   components:
   - type: Sprite
-    sprite: Structures/Decoration/banner.rsi
+    sprite: Void/Structures/Decoration/banner.rsi
     state: banner_engineering
 
 - type: entity
@@ -104,7 +104,7 @@
   description: A banner displaying the colors of the shitcurity department. Security, my bad.
   components:
   - type: Sprite
-    sprite: Structures/Decoration/banner.rsi
+    sprite: Void/Structures/Decoration/banner.rsi
     state: banner_security
 
 - type: entity

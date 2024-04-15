@@ -255,14 +255,8 @@
       - AnomalyScanner
       - AnomalyLocator
       - AnomalyLocatorWide
-      - Scalpel
-      - Retractor
-      - Cautery
-      - Drill
       - WeaponParticleDecelerator
       - HoloprojectorField
-      - Saw
-      - Hemostat
       - CryostasisBeaker
       - SyringeCryostasis
       - Syringe
@@ -290,6 +284,7 @@
       - ClothingShoesBootsMagSci
       - ClothingShoesBootsSpeed
       - NodeScanner
+      - ArtifactLocator
       - HolofanProjector
       - BluespaceBeaker
       - SyringeBluespace
@@ -302,6 +297,8 @@
       - ClothingBackpackSatchelHolding
       - ClothingBackpackDuffelHolding
       - WelderExperimental
+      - WelderIndustrialAdvanced
+      - WelderIndustrial
       - JawsOfLife
       - FauxTileAstroGrass
       - FauxTileMowedAstroGrass
@@ -445,6 +442,7 @@
       - ArtifactCrusherMachineCircuitboard
       - TelecomServerCircuitboard
       - MassMediaCircuitboard
+      - FanTinyElectronics
       - ReagentGrinderIndustrialMachineCircuitboard
   - type: MaterialStorage
     whitelist:
@@ -485,6 +483,7 @@
     - BorgModuleConstruction
     - BorgModuleService
     - BorgModuleTreatment
+    - BorgModuleDiagnosis
     - BorgModuleCleaning
     - CyborgEndoskeleton
     - LeftArmBorg
@@ -817,11 +816,6 @@
       - MedkitRadiation
       - MedkitCombat
       - Scalpel
-      - Retractor
-      - Cautery
-      - Drill
-      - Saw
-      - Hemostat
       - ClothingEyesGlassesChemical
     dynamicRecipes:
       - ChemicalPayload
@@ -829,6 +823,15 @@
       - BluespaceBeaker
       - SyringeBluespace
       - SyringeCryostasis
+      - HandheldCrewMonitor
+      - Retractor
+      - Cautery
+      - Drill
+      - Saw
+      - Hemostat
+      - ScalpelAdvanced
+      - ScalpelLaser
+      - SawElectric
   - type: Machine
     board: MedicalTechFabCircuitboard
   - type: StealTarget

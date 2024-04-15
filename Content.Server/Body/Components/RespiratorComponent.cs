@@ -69,6 +69,8 @@ namespace Content.Server.Body.Components
 
         [ViewVariables]
         public RespiratorStatus Status = RespiratorStatus.Inhaling;
+
+        public bool IsReceivingCPR = false;
     }
 }
 

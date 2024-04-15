@@ -506,7 +506,7 @@ namespace Content.Server.Administration.Systems
             if (admin)
                 stringbuilder.Append(":outbox_tray:");
             else if (noReceivers)
-                stringbuilder.Append(":sos:");
+                stringbuilder.Append("@here");
             else
                 stringbuilder.Append(":inbox_tray:");
 

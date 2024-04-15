@@ -1,0 +1,384 @@
+#Tactick
+- type: entity
+  parent: ClothingUniformBase
+  id: VoidClothingUniformTurleneckTactick
+  name: тактическая водолазка синдиката
+  description: Специальная форма, только для крутых оперативников. Оснащена кевларовыми вставками, что обеспечивают дополнительную защиту в случае передряги.
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Uniforms/Turleneck/turleneck_tactick.rsi
+  - type: Clothing
+    sprite: Void/Clothing/Uniforms/Turleneck/turleneck_tactick.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.85
+        Slash: 0.95
+        Piercing: 0.85
+#Mercenary
+- type: entity
+  parent: ClothingUniformBase
+  id: VoidClothingUniformTurleneckAmerc
+  name: водолазка наёмника
+  description: Только для самых крутых операторов, для самых сложных тактических операций.
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Uniforms/Turleneck/turleneck_amerc.rsi
+  - type: Clothing
+    sprite: Void/Clothing/Uniforms/Turleneck/turleneck_amerc.rsi
+#Black
+- type: entity
+  parent: ClothingUniformBase
+  id: VoidClothingUniformTurleneckBlack
+  name: черная водолазка
+  description: Простая черная водолазка.
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Uniforms/Turleneck/turleneck_black.rsi
+  - type: Clothing
+    sprite: Void/Clothing/Uniforms/Turleneck/turleneck_black.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: VoidClothingUniformTurleneckBlackWomen
+  name: черная водолазка с юбкой
+  description: Простая черная водолазка с юбкой.
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Uniforms/Turleneck/turleneck_black_women.rsi
+  - type: Clothing
+    sprite: Void/Clothing/Uniforms/Turleneck/turleneck_black_women.rsi
+#BlueПростая черная водолазка
+- type: entity
+  parent: ClothingUniformBase
+  id: VoidClothingUniformTurleneckBlue
+  name: синяя водолазка
+  description: Простая синяя водолазка
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Uniforms/Turleneck/turleneck_blue.rsi
+  - type: Clothing
+    sprite: Void/Clothing/Uniforms/Turleneck/turleneck_blue.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: VoidClothingUniformTurleneckBlueBlack
+  name: синяя водолазка
+  description: Простая синяя водолазка, в комплекте с чёрными штанами.
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Uniforms/Turleneck/turleneck_blueblack.rsi
+  - type: Clothing
+    sprite: Void/Clothing/Uniforms/Turleneck/turleneck_blueblack.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: VoidClothingUniformTurleneckBlueWomen
+  name: синяя водолазка с юбкой
+  description: Простая синяя водолазка с юбкой.
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Uniforms/Turleneck/turleneck_blue_women.rsi
+  - type: Clothing
+    sprite: Void/Clothing/Uniforms/Turleneck/turleneck_blue_women.rsi
+#golub
+- type: entity
+  parent: ClothingUniformBase
+  id: VoidClothingUniformTurleneckGolub
+  name: голубая водолазка
+  description: Простая голубая водолазка
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Uniforms/Turleneck/turleneck_golub.rsi
+  - type: Clothing
+    sprite: Void/Clothing/Uniforms/Turleneck/turleneck_golub.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: VoidClothingUniformTurleneckGolubBlack
+  name: голубая водолазка с юбкой
+  description: Простая голубая водолазка
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Uniforms/Turleneck/turleneck_golubblack.rsi
+  - type: Clothing
+    sprite: Void/Clothing/Uniforms/Turleneck/turleneck_golubblack.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: VoidClothingUniformTurleneckGolubWomen
+  name: голубая водолазка с юбкой
+  description: Простая голубая водолазка с юбкой
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Uniforms/Turleneck/turleneck_golub_women.rsi
+  - type: Clothing
+    sprite: Void/Clothing/Uniforms/Turleneck/turleneck_golub_women.rsi
+
+#Green
+
+- type: entity
+  parent: ClothingUniformBase
+  id: VoidClothingUniformTurleneckGreen
+  name: зелёная водолазка
+  description: Простая зелёная водолазка
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Uniforms/Turleneck/turleneck_green.rsi
+  - type: Clothing
+    sprite: Void/Clothing/Uniforms/Turleneck/turleneck_green.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: VoidClothingUniformTurleneckGreenBlack
+  name: зелёная водолазка
+  description: Простая зелёная водолазка
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Uniforms/Turleneck/turleneck_greenblack.rsi
+  - type: Clothing
+    sprite: Void/Clothing/Uniforms/Turleneck/turleneck_greenblack.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: VoidClothingUniformTurleneckGreenWomen
+  name: зелёная водолазка с юбкой
+  description: Простая зелёная водолазка с юбкой
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Uniforms/Turleneck/turleneck_green_women.rsi
+  - type: Clothing
+    sprite: Void/Clothing/Uniforms/Turleneck/turleneck_green_women.rsi
+
+#Orange
+
+- type: entity
+  parent: ClothingUniformBase
+  id: VoidClothingUniformTurleneckOrange
+  name: оранжевая водолазка
+  description: Простая оранжевая водолазка
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Uniforms/Turleneck/turleneck_orange.rsi
+  - type: Clothing
+    sprite: Void/Clothing/Uniforms/Turleneck/turleneck_orange.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: VoidClothingUniformTurleneckOrangeBlack
+  name: оранжевая водолазка
+  description: Простая оранжевая водолазка
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Uniforms/Turleneck/turleneck_orangeblack.rsi
+  - type: Clothing
+    sprite: Void/Clothing/Uniforms/Turleneck/turleneck_orangeblack.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: VoidClothingUniformTurleneckOrangeWomen
+  name: оранжевая водолазка с юбкой
+  description: Простая оранжевая водолазка с юбкой
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Uniforms/Turleneck/turleneck_orange_women.rsi
+  - type: Clothing
+    sprite: Void/Clothing/Uniforms/Turleneck/turleneck_orange_women.rsi
+
+#Purpur
+
+- type: entity
+  parent: ClothingUniformBase
+  id: VoidClothingUniformTurleneckPurpur
+  name: пурпурная водолазка
+  description: Простая пурпурная водолазка
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Uniforms/Turleneck/turleneck_purpur.rsi
+  - type: Clothing
+    sprite: Void/Clothing/Uniforms/Turleneck/turleneck_purpur.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: VoidClothingUniformTurleneckPurpurBlack
+  name: пурпурная водолазка
+  description: Простая пурпурная водолазка
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Uniforms/Turleneck/turleneck_purpurblack.rsi
+  - type: Clothing
+    sprite: Void/Clothing/Uniforms/Turleneck/turleneck_purpurblack.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: VoidClothingUniformTurleneckPurpurWomen
+  name: пурпурная водолазка с юбкой
+  description: Простая пурпурная водолазка с юбкой
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Uniforms/Turleneck/turleneck_purpur_women.rsi
+  - type: Clothing
+    sprite: Void/Clothing/Uniforms/Turleneck/turleneck_purpur_women.rsi
+
+#Red
+
+- type: entity
+  parent: ClothingUniformBase
+  id: VoidClothingUniformTurleneckRed
+  name: красная водолазка
+  description: Простая красная водолазка
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Uniforms/Turleneck/turleneck_red.rsi
+  - type: Clothing
+    sprite: Void/Clothing/Uniforms/Turleneck/turleneck_red.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: VoidClothingUniformTurleneckRedBlack
+  name: красная водолазка
+  description: Простая красная водолазка
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Uniforms/Turleneck/turleneck_redblack.rsi
+  - type: Clothing
+    sprite: Void/Clothing/Uniforms/Turleneck/turleneck_redblack.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: VoidClothingUniformTurleneckRedWomen
+  name: красная водолазка с юбкой
+  description: Простая красная водолазка с юбкой
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Uniforms/Turleneck/turleneck_red_women.rsi
+  - type: Clothing
+    sprite: Void/Clothing/Uniforms/Turleneck/turleneck_red_women.rsi
+
+#Salat
+
+- type: entity
+  parent: ClothingUniformBase
+  id: VoidClothingUniformTurleneckSalat
+  name: желтая водолазка
+  description: Простая желтая водолазка
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Uniforms/Turleneck/turleneck_salat.rsi
+  - type: Clothing
+    sprite: Void/Clothing/Uniforms/Turleneck/turleneck_salat.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: VoidClothingUniformTurleneckSalatBlack
+  name: желтая водолазка
+  description: Простая желтая водолазка
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Uniforms/Turleneck/turleneck_salatblack.rsi
+  - type: Clothing
+    sprite: Void/Clothing/Uniforms/Turleneck/turleneck_salatblack.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: VoidClothingUniformTurleneckSalatWomen
+  name: желтая водолазка с юбкой
+  description: Простая желтая водолазка с юбкой
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Uniforms/Turleneck/turleneck_salat_women.rsi
+  - type: Clothing
+    sprite: Void/Clothing/Uniforms/Turleneck/turleneck_salat_women.rsi
+
+#White
+
+- type: entity
+  parent: ClothingUniformBase
+  id: VoidClothingUniformTurleneckWhite
+  name: белая водолазка
+  description: Простая белая водолазка
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Uniforms/Turleneck/turleneck_white.rsi
+  - type: Clothing
+    sprite: Void/Clothing/Uniforms/Turleneck/turleneck_white.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: VoidClothingUniformTurleneckWhiteBlack
+  name: белая водолазка
+  description: Простая белая водолазка
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Uniforms/Turleneck/turleneck_whiteblack.rsi
+  - type: Clothing
+    sprite: Void/Clothing/Uniforms/Turleneck/turleneck_whiteblack.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: VoidClothingUniformTurleneckWhiteWomen
+  name: белая водолазка
+  description: Простая белая водолазка
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Uniforms/Turleneck/turleneck_white_women.rsi
+  - type: Clothing
+    sprite: Void/Clothing/Uniforms/Turleneck/turleneck_white_women.rsi
+
+#sleeveless
+
+- type: entity
+  parent: ClothingUniformBase
+  id: VoidClothingUniformTurleneckBlackSleeveless
+  name: чёрная безрукавка
+  description: Простая черная безрукавка
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Uniforms/Turleneck/turleneck_blacksleeveless.rsi
+  - type: Clothing
+    sprite: Void/Clothing/Uniforms/Turleneck/turleneck_blacksleeveless.rsi
+
+
+- type: entity
+  parent: ClothingUniformBase
+  id: VoidClothingUniformTurleneckBlackWomenSleeveless
+  name: черная безрукавка с юбкой
+  description: Простая черная безрукавка с юбкой
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Uniforms/Turleneck/turleneck_black_womensleeveless.rsi
+  - type: Clothing
+    sprite: Void/Clothing/Uniforms/Turleneck/turleneck_black_womensleeveless.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: VoidClothingUniformTurleneckWhiteSleeveless
+  name: белая безрукавка
+  description: Простая белая безрукавка
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Uniforms/Turleneck/turleneck_whitesleeveless.rsi
+  - type: Clothing
+    sprite: Void/Clothing/Uniforms/Turleneck/turleneck_whitesleeveless.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: VoidClothingUniformTurleneckWhiteBlackSleeveless
+  name: белая безрукавка
+  description: Простая белая безрукавка
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Uniforms/Turleneck/turleneck_whiteblacksleeveless.rsi
+  - type: Clothing
+    sprite: Void/Clothing/Uniforms/Turleneck/turleneck_whiteblacksleeveless.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: VoidClothingUniformTurleneckWhiteWomenSleeveless
+  name: белая безрукавка с юбкой
+  description: Простая белая безрукавка с юбкой
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Uniforms/Turleneck/turleneck_white_womensleeveless.rsi
+  - type: Clothing
+    sprite: Void/Clothing/Uniforms/Turleneck/turleneck_white_womensleeveless.rsi

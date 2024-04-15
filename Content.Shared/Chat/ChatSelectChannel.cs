@@ -51,6 +51,11 @@
         /// </summary>
         Admin = ChatChannel.AdminChat,
 
+        /// <summary>
+        ///     ERP chat
+        /// </summary>
+        ERP = ChatChannel.ERP,
+
         Console = ChatChannel.Unspecified
     }
 }

@@ -1,4 +1,4 @@
-﻿- type: entity
+- type: entity
   id: ResearchAndDevelopmentServer
   parent: [ BaseMachinePowered, ConstructibleMachine ]
   name: R&D server
@@ -18,6 +18,7 @@
     - Arsenal
     - Experimental
     - CivilianServices
+    - Biochemical
   - type: ApcPowerReceiver
     powerLoad: 200
   - type: ExtensionCableReceiver

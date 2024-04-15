@@ -159,8 +159,8 @@
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: ClothingOuterHardsuitMaxim
-  name: salvager maxim hardsuit
-  description: Fire. Heat. These things forge great weapons, they also forge great salvagers.
+  name: ультимативный скафандр утилизатора
+  description: Огонь. Жара. Эти штуки выковывают великое оружие, они также выковывают великих спасателей.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/maxim.rsi

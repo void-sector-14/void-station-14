@@ -22,7 +22,8 @@ namespace Content.Client.Chat.UI
             Emote,
             Say,
             Whisper,
-            Looc
+            Looc,
+            ERP
         }
 
         /// <summary>
@@ -73,6 +74,9 @@ namespace Content.Client.Chat.UI
 
                 case SpeechType.Looc:
                     return new TextSpeechBubble(message, senderEntity, "emoteBox", Color.FromHex("#48d1cc"));
+
+                case SpeechType.ERP:
+                    return new TextSpeechBubble(message, senderEntity, "emoteBox", Color.FromHex("#ffB6c1"));
 
                 default:
                     throw new ArgumentOutOfRangeException();

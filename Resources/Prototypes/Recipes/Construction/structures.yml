@@ -795,22 +795,8 @@
   conditions:
     - !type:TileNotBlocked
 
-- type: construction
-  name: Thin firelock
-  id: FirelockEdge
-  graph: Firelock
-  startNode: start
-  targetNode: FirelockEdge
-  category: construction-category-structures
-  description: This is a firelock - it locks an area when a fire alarm in the area is triggered. Don't get squished!
-  icon:
-    sprite: Structures/Doors/edge_door_hazard.rsi
-    state: closed
-  placementMode: SnapgridCenter
-  objectType: Structure
-  canBuildInImpassable: false
-  conditions:
-    - !type:TileNotBlocked
+
+# Move 'FirelockEdge' to Void
 
 - type: construction
   name: shutter
@@ -1503,7 +1489,7 @@
   placementMode: SnapgridCenter
   canBuildInImpassable: false
   icon:
-    sprite: Structures/conveyor.rsi
+    sprite: Structures/conveyor_old.rsi
     state: conveyor_stopped_cw
   conditions:
     - !type:TileNotBlocked

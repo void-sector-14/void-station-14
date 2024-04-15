@@ -97,6 +97,10 @@ public sealed partial class ConstructionPrototype : IPrototype
 
     public IReadOnlyList<IConstructionCondition> Conditions => _conditions;
     public IReadOnlyList<SpriteSpecifier> Layers => _layers ?? new List<SpriteSpecifier> { Icon };
+    /// <summary>
+    /// Произведена ли локализация <see cref="Name"/> и <see cref="Description"/> для этого прототипа
+    /// </summary>
+    public bool Localized = false;
 }
 
 public enum ConstructionType

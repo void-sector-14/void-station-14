@@ -62,6 +62,7 @@ public sealed partial class ChatSystem : SharedChatSystem
     public const int WhisperClearRange = 2; // how far whisper goes while still being understandable, in world units
     public const int WhisperMuffledRange = 5; // how far whisper goes at all, in world units
     public const string DefaultAnnouncementSound = "/Audio/Announcements/announce.ogg";
+    public const int ERPRange = 3; // how far ERP goes in world units
 
     private bool _loocEnabled = true;
     private bool _deadLoocEnabled;
@@ -211,7 +212,7 @@ public sealed partial class ChatSystem : SharedChatSystem
             message = message[1..];
         }
 
-        bool shouldCapitalize = (desiredType != InGameICChatType.Emote);
+        bool shouldCapitalize = (desiredType != InGameICChatType.Emote) && (desiredType != InGameICChatType.ERP);
         bool shouldPunctuate = _configurationManager.GetCVar(CCVars.ChatPunctuation);
         // Capitalizing the word I only happens in English, so we check language here
         bool shouldCapitalizeTheWordI = (!CultureInfo.CurrentCulture.IsNeutralCulture && CultureInfo.CurrentCulture.Parent.Name == "en")
@@ -250,6 +251,9 @@ public sealed partial class ChatSystem : SharedChatSystem
                 break;
             case InGameICChatType.Emote:
                 SendEntityEmote(source, message, range, nameOverride, hideLog: hideLog, ignoreActionBlocker: ignoreActionBlocker);
+                break;
+            case InGameICChatType.ERP:
+                SendEntityERP(source, message, range, nameOverride, hideLog: hideLog, ignoreActionBlocker: ignoreActionBlocker);
                 break;
         }
     }
@@ -308,7 +312,7 @@ public sealed partial class ChatSystem : SharedChatSystem
     /// <param name="colorOverride">Optional color for the announcement message</param>
     public void DispatchGlobalAnnouncement(
         string message,
-        string sender = "Central Command",
+        string sender = "Центральное Командование",
         bool playSound = true,
         SoundSpecifier? announcementSound = null,
         Color? colorOverride = null
@@ -334,7 +338,7 @@ public sealed partial class ChatSystem : SharedChatSystem
     public void DispatchStationAnnouncement(
         EntityUid source,
         string message,
-        string sender = "Central Command",
+        string sender = "Центральное Командование",
         bool playDefaultSound = true,
         SoundSpecifier? announcementSound = null,
         Color? colorOverride = null)
@@ -562,6 +566,40 @@ public sealed partial class ChatSystem : SharedChatSystem
                 _adminLogger.Add(LogType.Chat, LogImpact.Low, $"Emote from {ToPrettyString(source):user}: {action}");
     }
 
+    private void SendEntityERP(
+        EntityUid source,
+        string action,
+        ChatTransmitRange range,
+        string? nameOverride,
+        bool hideLog = false,
+        bool checkEmote = true,
+        bool ignoreActionBlocker = false,
+        NetUserId? author = null
+        )
+    {
+        if (!_actionBlocker.CanEmote(source) && !ignoreActionBlocker)
+            return;
+
+        // get the entity's apparent name (if no override provided).
+        var ent = Identity.Entity(source, EntityManager);
+        string name = FormattedMessage.EscapeText(nameOverride ?? Name(ent));
+
+        // Emotes use Identity.Name, since it doesn't actually involve your voice at all.
+        var wrappedMessage = Loc.GetString("chat-manager-entity-erp-wrap-message",
+            ("entityName", name),
+            ("entity", ent),
+            ("message", FormattedMessage.RemoveMarkup(action)));
+
+        if (checkEmote)
+            TryEmoteChatInput(source, action);
+        SendERPRange(ChatChannel.ERP, action, wrappedMessage, source, range, author);
+        if (!hideLog)
+            if (name != Name(source))
+                _adminLogger.Add(LogType.Chat, LogImpact.Low, $"ERP emote from {ToPrettyString(source):user} as {name}: {action}");
+            else
+                _adminLogger.Add(LogType.Chat, LogImpact.Low, $"ERP emote from {ToPrettyString(source):user}: {action}");
+    }
+
     // ReSharper disable once InconsistentNaming
     private void SendLOOC(EntityUid source, ICommonSession player, string message, bool hideChat)
     {
@@ -665,6 +703,23 @@ public sealed partial class ChatSystem : SharedChatSystem
     private void SendInVoiceRange(ChatChannel channel, string message, string wrappedMessage, EntityUid source, ChatTransmitRange range, NetUserId? author = null)
     {
         foreach (var (session, data) in GetRecipients(source, VoiceRange))
+        {
+            var entRange = MessageRangeCheck(session, data, range);
+            if (entRange == MessageRangeCheckResult.Disallowed)
+                continue;
+            var entHideChat = entRange == MessageRangeCheckResult.HideChat;
+            _chatManager.ChatMessageToOne(channel, message, wrappedMessage, source, entHideChat, session.Channel, author: author);
+        }
+
+        _replay.RecordServerMessage(new ChatMessage(channel, message, wrappedMessage, GetNetEntity(source), null, MessageRangeHideChatForReplay(range)));
+    }
+
+    /// <summary>
+    ///     Sends a ERP message to the given players in range of the source entity.
+    /// </summary>
+    private void SendERPRange(ChatChannel channel, string message, string wrappedMessage, EntityUid source, ChatTransmitRange range, NetUserId? author = null)
+    {
+        foreach (var (session, data) in GetRecipients(source, ERPRange))
         {
             var entRange = MessageRangeCheck(session, data, range);
             if (entRange == MessageRangeCheckResult.Disallowed)
@@ -940,7 +995,8 @@ public enum InGameICChatType : byte
 {
     Speak,
     Emote,
-    Whisper
+    Whisper,
+    ERP
 }
 
 /// <summary>

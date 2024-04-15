@@ -405,3 +405,9 @@
     path: /Audio/Animals/parrot_raught.ogg
     params:
       variation: 0.125
+
+- type: emoteSounds
+  id: Goose
+  sounds:
+    GooseHonk:
+      path: /Audio/Void/Animals/goose_honk2.ogg

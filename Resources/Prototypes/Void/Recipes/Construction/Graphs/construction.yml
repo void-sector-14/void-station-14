@@ -1,0 +1,111 @@
+- type: constructionGraph
+  id: extinguishercabinet
+  start: start
+  graph:
+    - node: start
+      edges:
+        - to: extinguishercabinet
+          steps:
+            - material: Steel
+              amount: 5
+              doAfter: 5
+    - node: extinguishercabinet
+      entity: ExtinguisherCabinet
+      edges:
+        - to: start
+          completed:
+            - !type:SpawnPrototype
+              prototype: SheetSteel1
+              amount: 5
+          steps:
+            - tool: Screwing
+              doAfter: 1
+
+- type: constructionGraph
+  id: defibrillatorcabinet
+  start: start
+  graph:
+    - node: start
+      edges:
+        - to: defibrillatorcabinet
+          steps:
+            - material: Steel
+              amount: 5
+              doAfter: 5
+    - node: defibrillatorcabinet
+      entity: DefibrillatorCabinet
+      edges:
+        - to: start
+          completed:
+            - !type:SpawnPrototype
+              prototype: SheetSteel1
+              amount: 5
+          steps:
+            - tool: Screwing
+              doAfter: 1
+
+- type: constructionGraph
+  id: emergencylight
+  start: start
+  graph:
+    - node: start
+      edges:
+        - to: emergencylight
+          steps:
+            - material: Steel
+              amount: 1
+            - material: Cable
+              amount: 1
+            - tag: PowerCellSmall
+              name: Power Cell Small
+              icon:
+                sprite: Objects/Power/power_cells.rsi
+                state: small
+              doAfter: 5
+    - node: emergencylight
+      entity: EmergencyLight
+
+- type: constructionGraph
+  id: fireaxecabinet
+  start: start
+  graph:
+    - node: start
+      edges:
+        - to: fireaxecabinet
+          steps:
+            - material: Steel
+              amount: 5
+              doAfter: 5
+    - node: fireaxecabinet
+      entity: FireAxeCabinet
+      edges:
+        - to: start
+          completed:
+            - !type:SpawnPrototype
+              prototype: SheetSteel1
+              amount: 5
+          steps:
+            - tool: Screwing
+              doAfter: 1
+
+- type: constructionGraph
+  id: floordrain
+  start: start
+  graph:
+  - node: start
+    edges:
+    - to: floordrain
+      steps:
+      - material: Steel
+        amount: 15
+      - material: MetalRod
+        amount: 5
+      - tag: Pipe
+        icon:
+          sprite: Structures/Piping/Atmospherics/pipe.rsi
+          state: pipeStraight
+        name: труба
+        doAfter: 10
+  - node: floordrain
+    entity: FloorDrain
+

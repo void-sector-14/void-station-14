@@ -1,0 +1,37 @@
+- type: entity
+  id: OrganDemonHeart
+  parent: OrganHumanHeart
+  name: demon heart
+  components:
+  - type: Metabolizer
+    metabolizerTypes: [Demon]
+
+- type: entity
+  id: OrganDemonLiver
+  parent: OrganHumanLiver
+  name: demon liver
+  components:
+  - type: Metabolizer
+    metabolizerTypes: [Demon]
+
+- type: entity
+  id: OrganDemonStomach
+  parent: OrganHumanStomach
+  name: желудок тифлинга
+  components:
+  - type: Sprite
+    state: stomach
+  - type: Organ
+  - type: SolutionContainerManager
+    solutions:
+      stomach:
+        maxVol: 75
+      food:
+        maxVol: 5
+        reagents:
+        - ReagentId: UncookedAnimalProteins
+          Quantity: 5
+  - type: Stomach
+  - type: Metabolizer
+    maxReagents: 5
+    metabolizerTypes: [Demon]

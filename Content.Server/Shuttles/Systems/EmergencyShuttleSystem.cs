@@ -310,6 +310,7 @@ public sealed partial class EmergencyShuttleSystem : EntitySystem
         }
         else
         {
+            //Voomra: возсожно потребуется повторное внедрение локализации
             var location = FormattedMessage.RemoveMarkup(_navMap.GetNearestBeaconString((stationShuttle.EmergencyShuttle.Value, xform)));
             _chatSystem.DispatchStationAnnouncement(stationUid, Loc.GetString("emergency-shuttle-nearby", ("direction", location)), playDefaultSound: false);
 

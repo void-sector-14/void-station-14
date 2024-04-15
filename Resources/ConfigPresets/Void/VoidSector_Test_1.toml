@@ -1,0 +1,87 @@
+################################################################################
+##### General ##################################################################
+
+[net]
+port = 1213
+bindto = "0.0.0.0"
+log_late_msg = false
+
+[database]
+engine = "sqlite"
+sqlite_dbpath = "database.sqlite"
+
+[game]
+desc = "VoidSector Test 1"
+hostname = "Пустотный Полигон"
+soft_max_players = 60
+lobbyduration = 180
+fallbackpreset = "Extended"
+
+[hub]
+advertise = false
+
+[server]
+rules_file = "RP_Rules.txt"
+rules_header = "ui-rules-header-rp"
+
+[console]
+login_host_user = "Makot"
+
+[admin]
+see_own_notes = true
+note_fresh_days = 0
+message_wait_time = 1
+new_player_threshold = 180
+afk_time = 180.0
+
+################################################################################
+##### In Game ##################################################################
+
+[atmos]
+space_wind = true
+
+[biomass]
+easy_mode = false
+
+[vote]
+timermap = 30
+
+[shuttle]
+arrivals_planet = false
+arrivals_returns = true
+emergency_early_launch_allowed = true
+emergency_dock_time = 300.0
+emergency_authorize_time = 30.0
+recall_turning_point = 0.1
+auto_call_time = 120
+auto_call_extension_time = 60
+
+[rules]
+time = 0.0
+
+[tips]
+enabled = false
+
+[ooc]
+enable_during_round = true
+
+[looc]
+enabled_crit = true
+
+[ic]
+flavor_text = true
+
+################################################################################
+##### Events ###################################################################
+
+[zombie]
+min_players = 10
+
+[pirates]
+min_players = 15
+
+################################################################################
+##### Discord ##################################################################
+
+[discord]
+ahelp_webhook = "https://discord.com/api/webhooks/1212438781932871700/BsbGL4rRv1Z7Pka-tRxubqcvFUroNVzxD7XaIGmVNs1gWJWrQzJ423wP3ObI9yi-0LIt"

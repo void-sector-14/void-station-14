@@ -227,6 +227,17 @@ public sealed class RespiratorSystem : EntitySystem
         ent.Comp.MaxSaturation /= args.Multiplier;
         ent.Comp.MinSaturation /= args.Multiplier;
     }
+
+    /// <summary>
+    /// Used mostly to prevent doafter conflicts on entities with a metric fuckton of doafters.
+    /// </summary>
+    public bool IsReceivingCPR(EntityUid uid, RespiratorComponent? component = null)
+    {
+        if (!Resolve(uid, ref component, false))
+            return false;
+
+        return component.IsReceivingCPR;
+    }
 }
 
 [ByRefEvent]

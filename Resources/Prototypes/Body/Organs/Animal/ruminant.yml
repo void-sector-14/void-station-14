@@ -1,4 +1,4 @@
-﻿- type: entity
+- type: entity
   id: OrganAnimalRuminantStomach
   parent: OrganAnimalStomach
   name: ruminant stomach

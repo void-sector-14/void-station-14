@@ -79,7 +79,8 @@ public sealed class ChatUIController : UIController
         {SharedChatSystem.EmotesAltPrefix, ChatSelectChannel.Emotes},
         {SharedChatSystem.AdminPrefix, ChatSelectChannel.Admin},
         {SharedChatSystem.RadioCommonPrefix, ChatSelectChannel.Radio},
-        {SharedChatSystem.DeadPrefix, ChatSelectChannel.Dead}
+        {SharedChatSystem.DeadPrefix, ChatSelectChannel.Dead},
+        {SharedChatSystem.ERPPrefix, ChatSelectChannel.ERP}
     };
 
     public static readonly Dictionary<ChatSelectChannel, char> ChannelPrefixes = new()
@@ -92,7 +93,8 @@ public sealed class ChatUIController : UIController
         {ChatSelectChannel.Emotes, SharedChatSystem.EmotesPrefix},
         {ChatSelectChannel.Admin, SharedChatSystem.AdminPrefix},
         {ChatSelectChannel.Radio, SharedChatSystem.RadioCommonPrefix},
-        {ChatSelectChannel.Dead, SharedChatSystem.DeadPrefix}
+        {ChatSelectChannel.Dead, SharedChatSystem.DeadPrefix},
+        {ChatSelectChannel.ERP, SharedChatSystem.ERPPrefix},
     };
 
     /// <summary>
@@ -526,6 +528,7 @@ public sealed class ChatUIController : UIController
             FilterableChannels |= ChatChannel.Radio;
             FilterableChannels |= ChatChannel.Emotes;
             FilterableChannels |= ChatChannel.Notifications;
+            FilterableChannels |= ChatChannel.ERP;
 
             // Can only send local / radio / emote when attached to a non-ghost entity.
             // TODO: this logic is iffy (checking if controlling something that's NOT a ghost), is there a better way to check this?
@@ -535,6 +538,7 @@ public sealed class ChatUIController : UIController
                 CanSendChannels |= ChatSelectChannel.Whisper;
                 CanSendChannels |= ChatSelectChannel.Radio;
                 CanSendChannels |= ChatSelectChannel.Emotes;
+                CanSendChannels |= ChatSelectChannel.ERP;
             }
         }
 
@@ -812,7 +816,7 @@ public sealed class ChatUIController : UIController
     public void ProcessChatMessage(ChatMessage msg, bool speechBubble = true)
     {
         // color the name unless it's something like "the old man"
-        if ((msg.Channel == ChatChannel.Local || msg.Channel == ChatChannel.Whisper) && _chatNameColorsEnabled)
+        if ((msg.Channel == ChatChannel.Local || msg.Channel == ChatChannel.Whisper || msg.Channel == ChatChannel.ERP) && _chatNameColorsEnabled)
         {
             var grammar = _ent.GetComponentOrNull<GrammarComponent>(_ent.GetEntity(msg.SenderEntity));
             if (grammar != null && grammar.ProperNoun == true)
@@ -849,6 +853,10 @@ public sealed class ChatUIController : UIController
 
             case ChatChannel.Whisper:
                 AddSpeechBubble(msg, SpeechBubble.SpeechType.Whisper);
+                break;
+
+            case ChatChannel.ERP:
+                AddSpeechBubble(msg, SpeechBubble.SpeechType.ERP);
                 break;
 
             case ChatChannel.Dead:

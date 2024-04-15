@@ -1,4 +1,4 @@
-﻿- type: constructionGraph
+- type: constructionGraph
   id: ConveyorGraph
   start: start
   graph:
@@ -8,7 +8,7 @@
           steps:
             - tag: ConveyorAssembly
               icon:
-                sprite: Structures/conveyor.rsi
+                sprite: Structures/conveyor_old.rsi
                 state: conveyor_loose
               name: conveyor belt assembly
               doAfter: 2

@@ -1,0 +1,112 @@
+#Эта хуйня изобретена спардой блять Code by Wisdom
+- type: entity
+  name: Ямато
+  parent: BaseItem
+  id: Yamato
+  description: Древний фамильный клинок. Его лезвие столь остро, что кажется способно разрезать само пространство.
+  suffix: Вишдом
+  components:
+  - type: Sharp
+  - type: Tag
+    tags:
+    - Yamato
+  - type: Sprite
+    sprite: Void/yamato.rsi
+    state: icon
+  - type: MeleeWeapon
+    wideAnimationRotation: -135
+    attackRate: 1.5
+    damage:
+      types:
+        Slash: 30
+    soundHit:
+        path: /Audio/Weapons/bladeslice.ogg
+  - type: DashAbility
+  - type: LimitedCharges
+    maxCharges: 5
+    charges: 5
+  - type: AutoRecharge
+    rechargeDuration: 15
+  - type: Reflect
+    enabled: true
+    reflectProb: 0.95
+    spread: 300
+  - type: Item
+    size: Normal
+    sprite: Void/yamato.rsi
+  - type: DisarmMalus
+
+- type: entity
+  parent: [ClothingBeltBase, ClothingSlotBase]
+  id: ClothingBeltSheathYamato
+  name: Ножны Ямато
+  description: Исскустные древние ножны, для столь же древнего клинка
+  suffix: Вишдом
+  components:
+  - type: Sprite
+    sprite: Void/sheathyamato.rsi
+    state: sheath
+  - type: Clothing
+    sprite: Void/sheathyamato.rsi
+  - type: ItemSlots
+    slots:
+      item:
+        name: Yamato
+        insertVerbText: sheath-insert-verb
+        ejectVerbText: sheath-eject-verb
+        whitelist:
+          tags:
+          - Yamato
+  - type: ItemMapper
+    mapLayers:
+      sheath-sabre:
+        whitelist:
+          tags:
+          - Yamato
+  - type: Appearance
+  
+- type: entity
+  id: ClothingBeltSheathYamatoFilled
+  parent: ClothingBeltSheathYamato
+  suffix: Filled
+  components:
+  - type: ContainerFill
+    containers:
+      item:
+      - Yamato
+
+- type: entity
+  parent: ClothingOuterStorageBase
+  id: ClothingOuterCoatVerfilfort
+  name: Старое фамильное пальто
+  description: длинный чёрный плащ с серебряными пуговицами и серебряным вышитым узором, похожим на змею. "Голова" змеи лежит на левом плече, а её "хвост" проходит вдоль воротника, через правое плечо и спускается вдоль пуговиц до нижнего края плаща.
+  suffix: Вишдом
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/OuterClothing/Coats/vergilcoat.rsi
+  - type: Clothing
+    sprite: Void/Clothing/OuterClothing/Coats/vergilcoat.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.85
+        Slash: 0.85
+        Piercing: 0.85
+
+- type: entity
+  parent: ClothingUniformBase
+  id: VoidClothingUniformVergilJelet
+  name: Желетка из драконей кожи
+  description: Очень дорогое удовольствие
+  suffix: Вишдом
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Uniforms/jelette.rsi
+  - type: Clothing
+    sprite: Void/Clothing/Uniforms/jelette.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.95
+        Slash: 0.95
+        Piercing: 0.95
