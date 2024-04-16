@@ -46,8 +46,8 @@ ent-DrinkGinBottleFull = джин Гриффитер
     .desc = Бутылка высококачественного джина, производимого на космической станции Нью-Лондон.
     .suffix = { ent-DrinkBottleBaseFull.suffix }
 
-ent-DrinkGildlagerBottleFull = gildlager bottle
-    .desc = 100 proof cinnamon schnapps, made for alcoholic teen girls on spring break.
+ent-DrinkGildlagerBottleFull = Гильдлагер
+    .desc = Стопроцентный шнапс с корицей, приготовленных для девочек-алкоголичек на весенних каникулах.
     .suffix = { "" }
 
 ent-DrinkCoffeeLiqueurBottleFull = бутылка кофейного ликёра
