@@ -162,6 +162,10 @@ ent-SpawnPointERTLeader = лидер ОБР
     .desc = { ent-SpawnPointJobBase.desc }
     .suffix = { ent-SpawnPointJobBase.suffix }
 
+ent-SpawnPointERTChaplain = ERTchaplain
+    .desc = { "" }
+    .suffix = { ent-SpawnPointJobBase.suffix }
+
 ent-SpawnPointERTEngineer = инженер ОБР
     .desc = { ent-SpawnPointJobBase.desc }
     .suffix = { ent-SpawnPointJobBase.suffix }

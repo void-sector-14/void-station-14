@@ -5,3 +5,7 @@ ent-ClothingHandsBase = { ent-Clothing }
 ent-ClothingHandsButcherable = { ent-ClothingHandsBase }
     .desc = { ent-ClothingHandsBase.desc }
     .suffix = { "" }
+
+ent-ClothingHandsGlovesSyntheticBase = { ent-ClothingHandsBase }
+    .desc = { "" }
+    .suffix = { "" }

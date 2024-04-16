@@ -14,6 +14,14 @@ ent-RandomHumanoidSpawnerERTLeaderEVALecter = { ent-RandomHumanoidSpawnerERTLead
     .desc = { ent-RandomHumanoidSpawnerERTLeaderEVA.desc }
     .suffix = Роль ОБР, Лектер, EVA
 
+ent-RandomHumanoidSpawnerERTChaplain = ERT chaplain
+    .desc = { "" }
+    .suffix = ERTRole, Basic
+
+ent-RandomHumanoidSpawnerERTChaplainEVA = ERT chaplain
+    .desc = { "" }
+    .suffix = ERTRole, Enviro EVA
+
 ent-RandomHumanoidSpawnerERTJanitor = ОБР уборщик
     .desc = { ent-RandomHumanoidSpawnerERTLeader.desc }
     .suffix = { ent-RandomHumanoidSpawnerERTLeader.suffix }

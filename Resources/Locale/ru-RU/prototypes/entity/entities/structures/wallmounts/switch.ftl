@@ -61,6 +61,7 @@ ent-LockableButtonCommand = { ent-LockableButton }
 ent-LockableButtonCryogenics = { ent-LockableButton }
     .desc = { ent-LockableButton.desc }
     .suffix = Криогенетика
+
 ent-LockableButtonSecurity = { ent-LockableButton }
     .desc = { ent-LockableButton.desc }
     .suffix = СБ

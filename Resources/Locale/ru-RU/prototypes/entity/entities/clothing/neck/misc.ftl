@@ -17,7 +17,3 @@ ent-ClothingNeckLawyerbadge = значок адвоката
 ent-ActionStethoscope = { stethoscope-verb }
     .desc = { "" }
     .suffix = { "" }
-
-ent-ClothingNeckFlowerWreath = цветочный венок
-    .desc = Венок из разноцветных цветов.
-    .suffix = { "" }

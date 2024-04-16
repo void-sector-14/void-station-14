@@ -38,6 +38,10 @@ ent-DrinkSpaceUpCan = банка спейс-ап
     .desc = На вкус как пробоина в корпусе у вас во рту.
     .suffix = { ent-DrinkCanBaseFull.suffix }
 
+ent-DrinkSolDryCan = sol dry
+    .desc = Sweet ginger soda from outer space!
+    .suffix = { "" }
+
 ent-DrinkStarkistCan = банка старкист
     .desc = Вкус жидкой звезды. И, немного тунца...?
     .suffix = { ent-DrinkCanBaseFull.suffix }

@@ -94,6 +94,14 @@ ent-AnomalousParticleOmegaStrong = омега-частицы
     .desc = { ent-AnomalousParticleDelta.desc }
     .suffix = { "" }
 
+ent-AnomalousParticleSigma = sigma particles
+    .desc = { ent-AnomalousParticleDelta.desc }
+    .suffix = { "" }
+
+ent-AnomalousParticleSigmaStrong = sigma particles
+    .desc = { ent-AnomalousParticleSigma.desc }
+    .suffix = { "" }
+
 ent-BulletRocket = ракета
     .desc = { ent-BaseBulletTrigger.desc }
     .suffix = { "" }

@@ -22,10 +22,6 @@ ent-BoxNitrileGloves = коробка нитриловых перчаток
     .desc = Содержит стерильные нитриловые перчатки. Лучше латексных.
     .suffix = { ent-BoxCardboard.suffix }
 
-ent-BoxMouthSwab = коробка стерильных палочек
-    .desc = { ent-BoxCardboard.desc }
-    .suffix = { ent-BoxCardboard.suffix }
-
 ent-BoxBodyBag = коробка мешков для тел
     .desc = Содержит мешки для тел.
     .suffix = { "" }

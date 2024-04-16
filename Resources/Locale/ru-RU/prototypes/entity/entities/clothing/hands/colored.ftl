@@ -1,17 +1,9 @@
-ent-ClothingHandsGlovesSyntheticBase = { ent-ClothingHandsBase }
-    .desc = { "" }
-    .suffix = { "" }
-
 ent-ClothingHandsGlovesColorPurple = фиолетовые перчатки
     .desc = Обычные фиолетовые перчатки, которые не спасут вас от поджаривания.
     .suffix = { ent-ClothingHandsBase.suffix }
 
 ent-ClothingHandsGlovesColorRed = красные перчатки
     .desc = Обычные красные перчатки, которые не спасут вас от поджаривания.
-    .suffix = { ent-ClothingHandsBase.suffix }
-
-ent-ClothingHandsGlovesColorBlack = чёрные перчатки
-    .desc = Обычные чёрные перчатки, которые не спасут вас от поджаривания.
     .suffix = { ent-ClothingHandsBase.suffix }
 
 ent-ClothingHandsGlovesColorBlue = синие перчатки
@@ -40,6 +32,10 @@ ent-ClothingHandsGlovesColorOrange = оранжевые перчатки
 
 ent-ClothingHandsGlovesColorWhite = белые перчатки
     .desc = Эти перчатки выглядят роскошно.
+    .suffix = { ent-ClothingHandsBase.suffix }
+
+ent-ClothingHandsGlovesColorBlack = чёрные перчатки
+    .desc = Обычные чёрные перчатки, которые не спасут вас от поджаривания.
     .suffix = { ent-ClothingHandsBase.suffix }
 
 ent-ClothingHandsGlovesColorYellow = изолированные перчатки

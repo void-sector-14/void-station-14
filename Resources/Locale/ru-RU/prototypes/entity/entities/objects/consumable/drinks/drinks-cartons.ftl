@@ -22,6 +22,10 @@ ent-DrinkJuiceTomatoCarton = томатный сок
     .desc = Ну, по крайней мере, это ВЫГЛЯДИТ как томатный сок. При всей этой красноте ничего не скажешь.
     .suffix = { ent-DrinkBottleBaseFull.suffix }
 
+ent-DrinkCoconutWaterCarton = coconut water
+    .desc = It's the inside of the coconut that counts.
+    .suffix = { ent-DrinkBottlePlasticBaseFull.suffix }
+
 ent-DrinkCreamCarton = молочные сливки
     .desc = Это сливки. Сделаны из молока. Что еще, по-твоему, ты там найдешь?
     .suffix = { ent-DrinkBottleBaseFull.suffix }

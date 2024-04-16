@@ -5,3 +5,7 @@ ent-BaseStructure = { "" }
 ent-BaseStructureDynamic = { ent-BaseStructure }
     .desc = { ent-BaseStructure.desc }
     .suffix = { "" }
+
+ent-StructureWheeled = StructureWheeled
+    .desc = { "" }
+    .suffix = { "" }
