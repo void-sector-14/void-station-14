@@ -11,9 +11,18 @@
               doAfter: 5
     - node: extinguishercabinet
       entity: ExtinguisherCabinet
+      edges:
+        - to: start
+          completed:
+            - !type:SpawnPrototype
+              prototype: SheetSteel1
+              amount: 5
+          steps:
+            - tool: Screwing
+              doAfter: 1
 
 - type: constructionGraph
-  id: defibrillatorcabinet 
+  id: defibrillatorcabinet
   start: start
   graph:
     - node: start
@@ -25,9 +34,18 @@
               doAfter: 5
     - node: defibrillatorcabinet
       entity: DefibrillatorCabinet
+      edges:
+        - to: start
+          completed:
+            - !type:SpawnPrototype
+              prototype: SheetSteel1
+              amount: 5
+          steps:
+            - tool: Screwing
+              doAfter: 1
 
 - type: constructionGraph
-  id: emergencylight 
+  id: emergencylight
   start: start
   graph:
     - node: start
@@ -59,49 +77,16 @@
               amount: 5
               doAfter: 5
     - node: fireaxecabinet
-      entity: FireAxeCabinet    
-
-- type: constructionGraph 
-  id: filingcabinetdrawer
-  start: start
-  graph:
-    - node: start
+      entity: FireAxeCabinet
       edges:
-        - to: filingcabinetdrawer
-          steps:
-            - material: Steel
+        - to: start
+          completed:
+            - !type:SpawnPrototype
+              prototype: SheetSteel1
               amount: 5
-              doAfter: 5
-    - node: filingcabinetdrawer
-      entity: filingCabinetDrawer
-
-- type: constructionGraph 
-  id: filingcabinettall
-  start: start
-  graph:
-    - node: start
-      edges:
-        - to: filingcabinettall
           steps:
-            - material: Steel
-              amount: 5
-              doAfter: 5
-    - node: filingcabinettall
-      entity: filingCabinetTall
-
-- type: constructionGraph 
-  id: filingcabinet
-  start: start
-  graph:
-    - node: start
-      edges:
-        - to: filingcabinet
-          steps:
-            - material: Steel
-              amount: 5
-              doAfter: 5
-    - node: filingcabinet
-      entity: filingCabinet
+            - tool: Screwing
+              doAfter: 1
 
 - type: constructionGraph
   id: floordrain
@@ -112,20 +97,15 @@
     - to: floordrain
       steps:
       - material: Steel
-        amount: 5
+        amount: 15
       - material: MetalRod
-        amount: 5  
+        amount: 5
       - tag: Pipe
         icon:
-          sprite: Structures/Piping/Atmospherics/pipe.rsi 
+          sprite: Structures/Piping/Atmospherics/pipe.rsi
           state: pipeStraight
-        name: труба        
-      - tag: MopBucket 
-        icon:
-          sprite: Objects/Specific/Janitorial/janitorial.rsi
-          state: mopbucket
-        name: ведро для швабры
+        name: труба
         doAfter: 10
   - node: floordrain
-    entity: FloorDrain          
-      
+    entity: FloorDrain
+

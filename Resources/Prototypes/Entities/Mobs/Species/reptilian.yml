@@ -5,6 +5,8 @@
   id: BaseMobReptilian
   abstract: true
   components:
+  - type: Sprite
+    scale: 1.1, 1.1
   - type: HumanoidAppearance
     species: Reptilian
   - type: Hunger
@@ -58,6 +60,9 @@
       types:
         Heat : 1.5 #per second, scales with temperature & other constants
   - type: Wagging
+  - type: SizeAttributeWhitelist
+    short: true
+    shortscale: 1
 
 - type: entity
   parent: BaseSpeciesDummy

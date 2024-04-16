@@ -1,7 +1,3 @@
-ent-AnomalySpawn = { ent-BaseGameRule }
-    .desc = { ent-BaseGameRule.desc }
-    .suffix = { "" }
-
 ent-BluespaceArtifact = { ent-BaseGameRule }
     .desc = { ent-BaseGameRule.desc }
     .suffix = { "" }
@@ -91,10 +87,6 @@ ent-SlimesSpawn = { ent-BaseGameRule }
     .suffix = { "" }
 
 ent-SpiderSpawn = { ent-BaseGameRule }
-    .desc = { ent-BaseGameRule.desc }
-    .suffix = { "" }
-
-ent-SpiderClownSpawn = { ent-BaseGameRule }
     .desc = { ent-BaseGameRule.desc }
     .suffix = { "" }
 

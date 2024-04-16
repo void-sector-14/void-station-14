@@ -33,17 +33,17 @@
       weightlessModifier: 1.2
     - type: CanMoveInAir
     - type: Sprite
-      sprite: Objects/Tanks/Jetpacks/blue.rsi
+      sprite: Void/Objects/Tanks/Jetpacks/blue.rsi
       state: icon
     - type: Item
-      sprite: Objects/Tanks/Jetpacks/blue.rsi
+      sprite: Void/Objects/Tanks/Jetpacks/blue.rsi
       size: Huge
     - type: UserInterface
       interfaces:
         - key: enum.SharedGasTankUiKey.Key
           type: GasTankBoundUserInterface
     - type: Clothing
-      sprite: Objects/Tanks/Jetpacks/blue.rsi
+      sprite: Void/Objects/Tanks/Jetpacks/blue.rsi
       quickEquip: false
       slots:
         - Back
@@ -66,10 +66,10 @@
   components:
   - type: InstantAction
     icon:
-      sprite: Objects/Tanks/Jetpacks/blue.rsi
+      sprite: Void/Objects/Tanks/Jetpacks/blue.rsi
       state: icon
     iconOn:
-      sprite: Objects/Tanks/Jetpacks/blue.rsi
+      sprite: Void/Objects/Tanks/Jetpacks/blue.rsi
       state: icon-on
     useDelay: 1.0
     event: !type:ToggleJetpackEvent
@@ -82,9 +82,9 @@
   suffix: Empty
   components:
   - type: Sprite
-    sprite: Objects/Tanks/Jetpacks/blue.rsi
+    sprite: Void/Objects/Tanks/Jetpacks/blue.rsi
   - type: Clothing
-    sprite: Objects/Tanks/Jetpacks/blue.rsi
+    sprite: Void/Objects/Tanks/Jetpacks/blue.rsi
     slots:
       - Back
 
@@ -113,11 +113,11 @@
   suffix: Empty
   components:
   - type: Item
-    sprite: Objects/Tanks/Jetpacks/black.rsi
+    sprite: Void/Objects/Tanks/Jetpacks/black.rsi
   - type: Sprite
-    sprite: Objects/Tanks/Jetpacks/black.rsi
+    sprite: Void/Objects/Tanks/Jetpacks/black.rsi
   - type: Clothing
-    sprite: Objects/Tanks/Jetpacks/black.rsi
+    sprite: Void/Objects/Tanks/Jetpacks/black.rsi
     slots:
       - Back
 
@@ -146,14 +146,14 @@
   suffix: Empty
   components:
   - type: Sprite
-    sprite: Objects/Tanks/Jetpacks/captain.rsi
+    sprite: Void/Objects/Tanks/Jetpacks/captain.rsi
   - type: Clothing
-    sprite: Objects/Tanks/Jetpacks/captain.rsi
+    sprite: Void/Objects/Tanks/Jetpacks/captain.rsi
     slots:
       - Back
       - SuitStorage
   - type: Item
-    sprite: Objects/Tanks/Jetpacks/captain.rsi
+    sprite: Void/Objects/Tanks/Jetpacks/captain.rsi
     size: Normal
   - type: Tag
     tags:
@@ -186,11 +186,11 @@
   suffix: Empty
   components:
     - type: Item
-      sprite: Objects/Tanks/Jetpacks/mini.rsi
+      sprite: Void/Objects/Tanks/Jetpacks/mini.rsi
     - type: Sprite
-      sprite: Objects/Tanks/Jetpacks/mini.rsi
+      sprite: Void/Objects/Tanks/Jetpacks/mini.rsi
     - type: Clothing
-      sprite: Objects/Tanks/Jetpacks/mini.rsi
+      sprite: Void/Objects/Tanks/Jetpacks/mini.rsi
       slots:
         - Back
         - suitStorage
@@ -225,11 +225,11 @@
   suffix: Empty
   components:
   - type: Item
-    sprite: Objects/Tanks/Jetpacks/security.rsi
+    sprite: Void/Objects/Tanks/Jetpacks/security.rsi
   - type: Sprite
-    sprite: Objects/Tanks/Jetpacks/security.rsi
+    sprite: Void/Objects/Tanks/Jetpacks/security.rsi
   - type: Clothing
-    sprite: Objects/Tanks/Jetpacks/security.rsi
+    sprite: Void/Objects/Tanks/Jetpacks/security.rsi
     slots:
       - Back
 
@@ -258,11 +258,11 @@
   suffix: Empty
   components:
   - type: Item
-    sprite: Objects/Tanks/Jetpacks/void.rsi
+    sprite: Void/Objects/Tanks/Jetpacks/void.rsi
   - type: Sprite
-    sprite: Objects/Tanks/Jetpacks/void.rsi
+    sprite: Void/Objects/Tanks/Jetpacks/void.rsi
   - type: Clothing
-    sprite: Objects/Tanks/Jetpacks/void.rsi
+    sprite: Void/Objects/Tanks/Jetpacks/void.rsi
     slots:
       - Back
       - suitStorage

@@ -1,13 +1,21 @@
 reagent-name-blood = кровь
 reagent-desc-blood = Я надеюсь, что это кетчуп.
+
 reagent-name-insect-blood = кровь насекомого
 reagent-desc-insect-blood = Окей, а это реально мерзко. Она выглядит почти... живой?
+
 reagent-name-slime = слизь
 reagent-desc-slime = Сначала вам показалось, что это градиент крови, но вы ошиблись.
+
+reagent-name-sap = живица
+reagent-desc-sap = Липкая, сладкая кровь деревьев.
+
 reagent-name-hemocyanin-blood = голубая кровь
 reagent-desc-hemocyanin-blood = Содержит медь, а не железо, что придаёт ей ярко выраженный голубой цвет.
+
 reagent-name-ammonia-blood = анаэробная кровь
 reagent-desc-ammonia-blood = Ничто другое во всей галактике не пахнет так отвратительно.
+
 reagent-name-zombie-blood = кровь зомби
 reagent-desc-zombie-blood = Не рекомендуется употреблять в пищу. Может быть использована для создания прививки от инфекции.
 
@@ -20,11 +28,14 @@ reagent-desc-fat = Независимо от того, как он был пол
 reagent-name-vomit = рвота
 reagent-desc-vomit = Вы можете увидеть в ней несколько кусков чьей-то последней еды.
 
+reagent-name-grey-matter = серое вещество
+reagent-desc-grey-matter = Сок мыслей, то, что вытекает из ушей.
+
 reagent-name-choco = горячий шоколад
-reagent-desc-choco = Горячий напиток из растопленного шоколада и подогретого молока
+reagent-desc-choco = Горячий напиток из растопленного шоколада и подогретого молока.
 
 reagent-name-charlotte = шарлотта
-reagent-desc-charlotte = Элегантный алкогольный вкус белизны
+reagent-desc-charlotte = Элегантный алкогольный вкус белизны.
 
 reagent-name-uolongtea = чай уолонг
-reagent-desc-uolongtea = Крайне подозрительный чай
+reagent-desc-uolongtea = Крайне подозрительный чай.

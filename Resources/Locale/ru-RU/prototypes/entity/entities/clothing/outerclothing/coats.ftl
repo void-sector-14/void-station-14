@@ -30,33 +30,65 @@ ent-ClothingOuterCoatLab = лабораторный халат
     .desc = Халат, защищающий от небольших разливов химикатов.
     .suffix = { ent-ClothingOuterStorageBase.suffix }
 
+ent-ClothingOuterCoatLabOpened = lab coat
+    .desc = { ent-ClothingOuterCoatLab.desc }
+    .suffix = { ent-ClothingOuterStorageFoldableBaseOpened.suffix }
+
 ent-ClothingOuterCoatLabChem = лабораторный халат химика
     .desc = Халат, защищающий от небольших разливов химикатов. Имеет оранжевые полосы на плечах.
     .suffix = { ent-ClothingOuterStorageBase.suffix }
+
+ent-ClothingOuterCoatLabChemOpened = chemist lab coat
+    .desc = { ent-ClothingOuterCoatLabChem.desc }
+    .suffix = { ent-ClothingOuterStorageFoldableBaseOpened.suffix }
 
 ent-ClothingOuterCoatLabViro = лабораторный халат вирусолога
     .desc = Халат, защищающий от бактерий и вирусов. Имеет зелёные полосы на плечах.
     .suffix = { ent-ClothingOuterStorageBase.suffix }
 
+ent-ClothingOuterCoatLabViroOpened = virologist lab coat
+    .desc = { ent-ClothingOuterCoatLabViro.desc }
+    .suffix = { ent-ClothingOuterStorageFoldableBaseOpened.suffix }
+
 ent-ClothingOuterCoatLabGene = лабораторный халат генетика
     .desc = Халат, защищающий от небольших разливов химикатов. Имеет синие полосы на плечах.
     .suffix = { ent-ClothingOuterStorageBase.suffix }
+
+ent-ClothingOuterCoatLabGeneOpened = geneticist lab coat
+    .desc = { ent-ClothingOuterCoatLabGene.desc }
+    .suffix = { ent-ClothingOuterStorageFoldableBaseOpened.suffix }
 
 ent-ClothingOuterCoatLabCmo = лабораторный халат главного врача
     .desc = Синее, чем стандартная модель.
     .suffix = { ent-ClothingOuterStorageBase.suffix }
 
+ent-ClothingOuterCoatLabCmoOpened = chief medical officer's lab coat
+    .desc = { ent-ClothingOuterCoatLabCmo.desc }
+    .suffix = { ent-ClothingOuterStorageFoldableBaseOpened.suffix }
+
 ent-ClothingOuterCoatRnd = лабораторный халат учёного
     .desc = Халат, защищающий от небольших разливов химикатов. Имеет фиолетовые полосы на плечах.
     .suffix = { ent-ClothingOuterStorageBase.suffix }
+
+ent-ClothingOuterCoatRndOpened = scientist lab coat
+    .desc = { ent-ClothingOuterCoatRnd.desc }
+    .suffix = { ent-ClothingOuterStorageFoldableBaseOpened.suffix }
 
 ent-ClothingOuterCoatRobo = лабораторный халат робототехника
     .desc = Больше похоже на эксцентричное пальто, чем на лабораторный халат. Помогает выдать пятна крови за эстетическую составляющую. Имеет красные полосы на плечах.
     .suffix = { "" }
 
+ent-ClothingOuterCoatRoboOpened = roboticist lab coat
+    .desc = { ent-ClothingOuterCoatRobo.desc }
+    .suffix = { ent-ClothingOuterStorageFoldableBaseOpened.suffix }
+
 ent-ClothingOuterCoatRD = лабораторный халат научрука
     .desc = Соткан по новейшим технологиям, этот халат обеспечивает защиту от радиации так же как и экспериментальный скафандр.
     .suffix = { "" }
+
+ent-ClothingOuterCoatRDOpened = research director lab coat
+    .desc = { ent-ClothingOuterCoatRD.desc }
+    .suffix = { ent-ClothingOuterStorageFoldableBaseOpened.suffix }
 
 ent-ClothingOuterCoatPirate = одежда пирата
     .desc = Яррр.

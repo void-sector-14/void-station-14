@@ -46,6 +46,10 @@ ent-DrinkAntifreeze = стакан антифриза
     .desc = Непревзойденная свежесть.
     .suffix = { ent-DrinkGlassBase.suffix }
 
+ent-DrinkArnoldPalmer = { ent-DrinkGlass }
+    .desc = { ent-DrinkGlass.desc }
+    .suffix = arnold palmer
+
 ent-DrinkAtomicBombGlass = бокал атомной бомбы
     .desc = Мы не сможем взять на себя ответственность за ваши действия после употребления.
     .suffix = { ent-DrinkGlassBase.suffix }
@@ -90,6 +94,10 @@ ent-DrinkBloodyMaryGlass = бокал кровавой Мэри
     .desc = Томатный сок, смешанный с водкой и капелькой лайма. На вкус как жидкое убийство.
     .suffix = { ent-DrinkGlassBase.suffix }
 
+ent-DrinkBlueHawaiianGlass = { ent-DrinkGlass }
+    .desc = { ent-DrinkGlass.desc }
+    .suffix = blue hawaiian
+
 ent-DrinkBooger = козявка
     .desc = Фууу...
     .suffix = { ent-DrinkGlassBase.suffix }
@@ -106,6 +114,14 @@ ent-DrinkChocolateGlass = горячий шоколад
     .desc = Горячий напиток, состоящий из растопленного шоколада и подогретого молока.
     .suffix = { ent-DrinkGlassBase.suffix }
 
+ent-DrinkCoconutRum = { ent-DrinkGlass }
+    .desc = { ent-DrinkGlass.desc }
+    .suffix = coconut rum
+
+ent-DrinkCoconutWaterGlass = { ent-DrinkGlass }
+    .desc = { ent-DrinkGlass.desc }
+    .suffix = coconut water
+
 ent-DrinkCoffee = кофе
     .desc = Не уроните, иначе повсюду будут обжигающая жидкость и осколки стекла.
     .suffix = { ent-DrinkGlassBase.suffix }
@@ -113,6 +129,10 @@ ent-DrinkCoffee = кофе
 ent-DrinkCognacGlass = бокал коньяка
     .desc = Черт возьми, вы чувствуете себя французским аристократом, просто держа это в руках.
     .suffix = { ent-DrinkGlassBase.suffix }
+
+ent-DrinkCosmopolitan = { ent-DrinkGlass }
+    .desc = { ent-DrinkGlass.desc }
+    .suffix = cosmopolitan
 
 ent-DrinkCream = сливки
     .desc = Фууу...
@@ -318,9 +338,17 @@ ent-DrinkOrangeJuice = апельсиновый сок
     .desc = Витамины! Ура!
     .suffix = { ent-DrinkGlassBase.suffix }
 
+ent-DrinkPainkillerGlass = { ent-DrinkGlass }
+    .desc = { ent-DrinkGlass.desc }
+    .suffix = painkiller
+
 ent-DrinkPatronGlass = бокал покровителя
     .desc = Пейте покровителя в баре вместе со всеми малокультурными дамами.
     .suffix = { ent-DrinkGlassBase.suffix }
+
+ent-DrinkPinaColadaGlass = { ent-DrinkGlass }
+    .desc = { ent-DrinkGlass.desc }
+    .suffix = piña colada
 
 ent-DrinkPoisonBerryJuice = ядовитый ягодный сок
     .desc = Выглядит как убийственный сок.
@@ -354,6 +382,10 @@ ent-DrinkRumGlass = стакан рома
     .desc = Теперь вы хотите вымолить пиратский костюм, не так ли?
     .suffix = { ent-DrinkGlassBase.suffix }
 
+ent-DrinkRoyRogersGlass = { ent-DrinkGlass }
+    .desc = { ent-DrinkGlass.desc }
+    .suffix = roy rogers
+
 ent-DrinkSakeGlass = бокал саке
     .desc = Вино из риса, а иначе саке!
     .suffix = { ent-DrinkGlassBase.suffix }
@@ -386,6 +418,10 @@ ent-DrinkGlassWhite = молоко
     .desc = Белая и питательная вкуснятина!
     .suffix = { ent-DrinkGlassBase.suffix }
 
+ent-DrinkShirleyTempleGlass = { ent-DrinkGlass }
+    .desc = { ent-DrinkGlass.desc }
+    .suffix = shirley temple
+
 ent-DrinkSilencerGlass = бокал глушителя
     .desc = Напиток из рая мимов.
     .suffix = { ent-DrinkGlassBase.suffix }
@@ -393,6 +429,10 @@ ent-DrinkSilencerGlass = бокал глушителя
 ent-DrinkSingulo = сингуло
     .desc = Блю-спейс напиток!
     .suffix = { ent-DrinkGlassBase.suffix }
+
+ent-DrinkSolDryGlass = { ent-DrinkGlass }
+    .desc = { ent-DrinkGlass.desc }
+    .suffix = sol dry
 
 ent-DrinkSnowWhite = белый снег
     .desc = Морозная свежесть.

@@ -124,7 +124,7 @@ namespace Content.Client.Cargo.UI
             {
                 var categoryItem = new CargoCategoryItem(
                     prototype.Category,
-                    Loc.GetString("cargo-category-" + prototype.Category)
+                    Loc.GetString(prototype.Category)
                 );
 
                 if (!_categoryList.Contains(categoryItem))

@@ -114,6 +114,10 @@ ent-ClothingBackpackERTJanitorFilled = { ent-ClothingBackpackERTJanitor }
     .desc = { ent-ClothingBackpackERTJanitor.desc }
     .suffix = { "" }
 
+ent-ClothingBackpackERTChaplainFilled = { ent-ClothingBackpackERTChaplain }
+    .desc = { ent-ClothingBackpackERTChaplain.desc }
+    .suffix = { "" }
+
 ent-ClothingBackpackDeathSquadFilled = рюкзак Эскадрона смерти
     .desc = Содержит набор самых опасных агентов Центкома.
     .suffix = { "" }

@@ -591,6 +591,21 @@
         Piercing: 0.9
         Heat: 0.9
 
+#ERT Chaplain Hardsuit
+- type: entity
+  parent: ClothingHeadHelmetHardsuitSyndie
+  id: ClothingHeadHelmetHardsuitERTChaplain
+  name: ERT chaplain hardsuit helmet
+  description: A special hardsuit helmet worn by members of an emergency response team.
+  components:
+  - type: BreathMask
+  - type: Sprite
+    sprite: Clothing/Head/Hardsuits/ERThelmets/ertchaplain.rsi
+  - type: Clothing
+    sprite: Clothing/Head/Hardsuits/ERThelmets/ertchaplain.rsi
+  - type: PointLight
+    color: "#ffffff"
+
 #ERT Engineer Hardsuit
 - type: entity
   parent: ClothingHeadHelmetHardsuitSyndie
@@ -706,7 +721,7 @@
 
 #Deathsquad Hardsuit
 - type: entity
-  parent: ClothingHeadHardsuitBase
+  parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitDeathsquad
   name: deathsquad hardsuit helmet
   description: A robust helmet for special operations.
@@ -728,6 +743,8 @@
         Heat: 0.80
         Radiation: 0.80
         Caustic: 0.95
+  - type: PointLight
+    color: "#7ad4dd"
 
 #MISC. HARDSUITS
 #Clown Hardsuit

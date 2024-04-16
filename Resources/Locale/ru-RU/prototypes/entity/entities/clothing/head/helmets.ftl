@@ -30,10 +30,6 @@ ent-ClothingHeadHelmetCult = шлем культа
     .desc = Крепкий, злобно выглядящий шлем культа.
     .suffix = { ent-ClothingHeadBase.suffix }
 
-ent-ClothingHeadHelmetScaf = шлем скафандра
-    .desc = Надежный, крепкий шлем.
-    .suffix = { ent-ClothingHeadBase.suffix }
-
 ent-ClothingHeadHelmetSpaceNinja = шлем космического ниндзя
     .desc = То, что может показаться простой черной одеждой, на самом деле является сложнейшим шлемом с нано-плетением. Стандартное снаряжение ниндзя.
     .suffix = { ent-ClothingHeadBase.suffix }

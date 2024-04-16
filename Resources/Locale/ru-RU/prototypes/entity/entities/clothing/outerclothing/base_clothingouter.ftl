@@ -10,6 +10,14 @@ ent-ClothingOuterStorageBase = { ent-ClothingOuterBase }
     .desc = { ent-ClothingOuterBase.desc }
     .suffix = { ent-ClothingOuterBase.suffix }
 
+ent-ClothingOuterStorageFoldableBase = { ent-BaseFoldable }
+    .desc = { "" }
+    .suffix = { "" }
+
+ent-ClothingOuterStorageFoldableBaseOpened = { ent-ClothingOuterStorageFoldableBase }
+    .desc = { "" }
+    .suffix = opened
+
 ent-ClothingOuterStorageToggleableBase = { ent-ClothingOuterStorageBase }
     .desc = { "" }
     .suffix = { "" }

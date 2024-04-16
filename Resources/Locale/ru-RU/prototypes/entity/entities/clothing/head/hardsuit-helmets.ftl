@@ -98,6 +98,10 @@ ent-ClothingHeadHelmetHardsuitERTLeader = шлем скафандра лидер
     .desc = Специальный защитный шлем, который носят члены отрядов быстрого реагирования.
     .suffix = { ent-ClothingHeadHelmetHardsuitSyndieCommander.suffix }
 
+ent-ClothingHeadHelmetHardsuitERTChaplain = ERT chaplain hardsuit helmet
+    .desc = A special hardsuit helmet worn by members of an emergency response team.
+    .suffix = { "" }
+
 ent-ClothingHeadHelmetHardsuitERTEngineer = шлем скафандра инженера ОБР
     .desc = { ent-ClothingHeadHelmetHardsuitERTLeader.desc }
     .suffix = { ent-ClothingHeadHelmetHardsuitSyndie.suffix }

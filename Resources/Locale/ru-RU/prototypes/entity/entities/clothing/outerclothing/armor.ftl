@@ -42,10 +42,6 @@ ent-ClothingOuterArmorMagusred = красные доспехи магуса
     .desc = Красный бронекостюм, обеспечивающий хорошую защиту.
     .suffix = { ent-ClothingOuterArmorHeavy.suffix }
 
-ent-ClothingOuterArmorScaf = боевая броня
-    .desc = Зеленый с коричневым тактический костюм для ведения боевых действий.
-    .suffix = { ent-ClothingOuterBaseLarge.suffix }
-
 ent-ClothingOuterArmorCaptainCarapace = панцирь капитана
     .desc = Бронированный нагрудник, обеспечивающий защиту и при этом обладающий мобильностью и гибкостью. Выдается только лучшим представителям станции.
     .suffix = { ent-ClothingOuterBaseLarge.suffix }

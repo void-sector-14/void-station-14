@@ -2,6 +2,10 @@ ent-BaseStation = { "" }
     .desc = { "" }
     .suffix = { "" }
 
+ent-BaseRandomStation = BaseRandomStation
+    .desc = { "" }
+    .suffix = { "" }
+
 ent-BaseStationCargo = { "" }
     .desc = { "" }
     .suffix = { "" }

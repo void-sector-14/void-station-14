@@ -1,8 +1,8 @@
-ent-ClothingHeadHatcentcap = Фирменная шапка Центкома
+ent-ClothingHeadHatcentcap = фирменная шапка Центкома
     .desc = Хорошо быть Императором
     .suffix = { ent-ClothingHeadBase.suffix }
 
-ent-ClothingHeadHatBeretCent = Фирменный берет Центкома
+ent-ClothingHeadHatBeretCent = фирменный берет Центкома
     .desc = Хорошо быть Императором
     .suffix = { ent-ClothingHeadBase.suffix }
 
