@@ -105,6 +105,7 @@
   loadouts:
   - GreyJumpsuit
   - GreyJumpskirt
+  - AncientJumpsuit
 
 - type: loadoutGroup
   id: PassengerFace
@@ -293,6 +294,15 @@
   loadouts:
   - JanitorJumpsuit
   - JanitorJumpskirt
+
+- type: loadoutGroup
+  id: JanitorGloves
+  name: loadout-group-janitor-gloves
+  minLimit: 0
+  loadouts:
+  - JanitorGlovesRubber
+  - JanitorGlovesOrange
+  - JanitorGlovesPurple
 
 - type: loadoutGroup
   id: JanitorOuterClothing
