@@ -284,7 +284,7 @@ public sealed partial class EmergencyShuttleSystem : EntitySystem
             if (TryComp<TransformComponent>(targetGrid.Value, out var targetXform))
             {
                 var angle = _dock.GetAngle(stationShuttle.EmergencyShuttle.Value, xform, targetGrid.Value, targetXform, xformQuery);
-                _chatSystem.DispatchStationAnnouncement(stationUid, Loc.GetString("emergency-shuttle-docked", ("time", $"{_consoleAccumulator:0}"), ("direction", angle.GetDir())), playDefaultSound: false);
+                _chatSystem.DispatchStationAnnouncement(stationUid, Loc.GetString("emergency-shuttle-docked", ("time", $"{_consoleAccumulator:0}"), ("direction", Loc.GetString($"direction-{angle.GetDir()}"))), playDefaultSound: false);
             }
 
             // shuttle timers
