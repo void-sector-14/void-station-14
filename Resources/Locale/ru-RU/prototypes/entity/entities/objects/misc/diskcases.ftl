@@ -1,3 +1,3 @@
-ent-DiskCase = diskcase
-    .desc = Case for storing a coordinates disk.
+ent-DiskCase = слипкейс
+    .desc = Чехол для хранения дисков с координатами.
     .suffix = { "" }

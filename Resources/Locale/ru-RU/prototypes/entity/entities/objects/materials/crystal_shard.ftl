@@ -26,6 +26,6 @@ ent-ShardCrystalRed = красный осколок кристалла
     .desc = { ent-ShardCrystalBase.desc }
     .suffix = { "" }
 
-ent-ShardCrystalRandom = random crystal shard
+ent-ShardCrystalRandom = случайный осколок кристалла
     .desc = { ent-ShardCrystalBase.desc }
     .suffix = { "" }

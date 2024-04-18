@@ -10,8 +10,8 @@ ent-ClosetEmergency = аварийный шкаф
     .desc = Это хранилище для аварийных дыхательных масок и баллонов с кислородом.
     .suffix = { "" }
 
-ent-ClosetEmergencyN2 = emergency nitrogen closet
-    .desc = It's full of life-saving equipment. Assuming, that is, that you breathe nitrogen.
+ent-ClosetEmergencyN2 = аварийный азотный шкаф
+    .desc = Там полно спасательного оборудования. Предположим, что вы дышите азотом.
     .suffix = { "" }
 
 ent-ClosetFire = противопожарный шкаф

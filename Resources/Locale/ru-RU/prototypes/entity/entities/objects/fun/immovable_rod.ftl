@@ -16,7 +16,7 @@ ent-ImmovableRodKeepTiles = { ent-ImmovableRod }
 
 ent-ImmovableRodWizard = { ent-ImmovableRod }
     .desc = { ent-ImmovableRod.desc }
-    .suffix = Wizard
+    .suffix = Маг
 
 ent-ImmovableRodKeepTilesStill = { ent-ImmovableRodKeepTiles }
     .desc = { ent-ImmovableRodKeepTiles.desc }

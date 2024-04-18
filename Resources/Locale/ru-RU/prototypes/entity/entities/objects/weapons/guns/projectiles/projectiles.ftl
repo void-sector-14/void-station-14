@@ -94,11 +94,11 @@ ent-AnomalousParticleOmegaStrong = омега-частицы
     .desc = { ent-AnomalousParticleDelta.desc }
     .suffix = { "" }
 
-ent-AnomalousParticleSigma = sigma particles
+ent-AnomalousParticleSigma = сигма-частицы
     .desc = { ent-AnomalousParticleDelta.desc }
     .suffix = { "" }
 
-ent-AnomalousParticleSigmaStrong = sigma particles
+ent-AnomalousParticleSigmaStrong = { AnomalousParticleSigma }
     .desc = { ent-AnomalousParticleSigma.desc }
     .suffix = { "" }
 

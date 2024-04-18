@@ -10,8 +10,8 @@ ent-ClothingHeadHatChickenhead = голова цыплёнка
     .desc = Это голова цыплёнка. Бок-бок-бок!
     .suffix = { ent-ClothingHeadBase.suffix }
 
-ent-ClothingHeadHatFlowerWreath = flower wreath
-    .desc = A wreath of colourful flowers. Can be worn both on head and neck.
+ent-ClothingHeadHatFlowerWreath = цветочный венок
+    .desc = Корона из свежих и душистых цветов. Может носится как на шее, так и на голове.
     .suffix = { "" }
 
 ent-ClothingHeadHatPumpkin = шляпа из тыквы

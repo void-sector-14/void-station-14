@@ -126,8 +126,8 @@ ent-DrinkTonicWaterBottleFull = бутылка тоника
     .desc = Как газированная вода, но, возможно, агрессивнее? И, зачастую, слаще.
     .suffix = { "" }
 
-ent-DrinkSakeBottleFull = small sake bottle
-    .desc = The regret of the next morning seems to be nipping on the bottle too.
+ent-DrinkSakeBottleFull = маленькая бутылочка саке
+    .desc = Сожаление о следующем утре, кажется, тоже притягивает бутылку.
     .suffix = { ent-DrinkBottleGlassBaseFull.suffix }
 
 ent-DrinkJuiceLimeCartonXL = лаймовый сок XL
@@ -158,8 +158,8 @@ ent-DrinkIceJug = кувшин льда
     .desc = Твёрдая вода. Очень круто.
     .suffix = { "" }
 
-ent-DrinkCoconutWaterJug = coconut water jug
-    .desc = It's on the inside of the coconut that counts.
+ent-DrinkCoconutWaterJug = кувшин кокосовой воды
+    .desc = Важно то, что находится внутри кокоса.
     .suffix = { ent-DrinkBottlePlasticBaseFull.suffix }
 
 ent-DrinkCoffeeJug = кувшин кофе

@@ -60,7 +60,7 @@ ent-BookRandom = { ent-BookBase }
 
 ent-BookRandomStory = { ent-BookRandom }
     .desc = { ent-BookRandom.desc }
-    .suffix = random visual, random story
+    .suffix = случайная обложка, случайная история
 
 ent-BookAtmosDistro = Руководство Ньютона по атмосу: Дистро
     .desc = Поля усеяны бесконечными неразборчивыми заметками. Большая часть текста испещрена рукописными вопросительными знаками.
