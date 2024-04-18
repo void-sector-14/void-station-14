@@ -97,8 +97,8 @@
   noSpawn: true
   components:
   - type: InstantAction
-    icon: Void/Interface/AdminActions/solar.png
-    iconOn: Void/Interface/AdminActions/solar.png
+    icon: Void/Interface/admin_actions.rsi/solar.png
+    iconOn: Void/Interface/admin_actions.rsi/solar.png
     keywords: [ "AI", "console", "interface" ]
     priority: -10
     event: !type:ToggleIntrinsicUIEvent { key: enum.SolarControlConsoleUiKey.Key }
@@ -110,8 +110,8 @@
   noSpawn: true
   components:
   - type: InstantAction
-    icon: Void/Interface/AdminActions/communications.png
-    iconOn: Void/Interface/AdminActions/communications.png
+    icon: Void/Interface/admin_actions.rsi/communications.png
+    iconOn: Void/Interface/admin_actions.rsi/communications.png
     keywords: [ "AI", "console", "interface" ]
     priority: -10
     event: !type:ToggleIntrinsicUIEvent { key: enum.CommunicationsConsoleUiKey.Key }
@@ -123,8 +123,8 @@
   noSpawn: true
   components:
   - type: InstantAction
-    icon: Void/Interface/AdminActions/radar.png
-    iconOn: Void/Interface/AdminActions/radar.png
+    icon: Void/Interface/admin_actions.rsi/radar.png
+    iconOn: Void/Interface/admin_actions.rsi/radar.png
     keywords: [ "AI", "console", "interface" ]
     priority: -10
     event: !type:ToggleIntrinsicUIEvent { key: enum.RadarConsoleUiKey.Key }
@@ -136,8 +136,8 @@
   noSpawn: true
   components:
   - type: InstantAction
-    icon: Void/Interface/AdminActions/cargo.png
-    iconOn: Void/Interface/AdminActions/cargo.png
+    icon: Void/Interface/admin_actions.rsi/cargo.png
+    iconOn: Void/Interface/admin_actions.rsi/cargo.png
     keywords: [ "AI", "console", "interface" ]
     priority: -10
     event: !type:ToggleIntrinsicUIEvent { key: enum.CargoConsoleUiKey.Orders }
@@ -149,8 +149,8 @@
   noSpawn: true
   components:
   - type: InstantAction
-    icon: Void/Interface/AdminActions/monitoring.png
-    iconOn: Void/Interface/AdminActions/monitoring.png
+    icon: Void/Interface/admin_actions.rsi/monitoring.png
+    iconOn: Void/Interface/admin_actions.rsi/monitoring.png
     keywords: [ "AI", "console", "interface" ]
     priority: -10
     event: !type:ToggleIntrinsicUIEvent { key: enum.CrewMonitoringUIKey.Key }
@@ -162,8 +162,8 @@
   noSpawn: true
   components:
   - type: InstantAction
-    icon: Void/Interface/AdminActions/records.png
-    iconOn: Void/Interface/AdminActions/records.png
+    icon: Void/Interface/admin_actions.rsi/records.png
+    iconOn: Void/Interface/admin_actions.rsi/records.png
     keywords: [ "AI", "console", "interface" ]
     priority: -10
     event: !type:ToggleIntrinsicUIEvent { key: enum.GeneralStationRecordConsoleKey.Key }
