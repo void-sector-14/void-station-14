@@ -61,5 +61,5 @@
               sound:
                 collection: MetalBreak
     - type: Construction
-      grath: floordrain
+      graph: floordrain
       node: floordrain
