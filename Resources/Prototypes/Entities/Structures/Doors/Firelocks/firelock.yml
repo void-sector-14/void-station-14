@@ -154,6 +154,9 @@
   parent: Firelock
   name: firelock
   components:
+    - type: ContainerContainer
+      containers:
+        board: !type:Container
     - type: Sprite
       sprite: Structures/Doors/edge_door_hazard.rsi
       snapCardinals: false

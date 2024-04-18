@@ -60,3 +60,6 @@
             - !type:PlaySoundBehavior
               sound:
                 collection: MetalBreak
+    - type: Construction
+      grath: floordrain
+      node: floordrain
