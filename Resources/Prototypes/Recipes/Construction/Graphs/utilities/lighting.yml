@@ -12,8 +12,8 @@
             - tag: CrystalCyan
               name: cyan crystal shard
               icon:
-                sprite: Objects/Materials/Shards/crystal.rsi
-                state: shard1
+                sprite: Void/Structures/Decoration/crystal.rsi
+                state: crystalshard_grey
                 color: #52ff39
               doAfter: 1
     - node: icon
@@ -33,8 +33,8 @@
             - tag: CrystalBlue
               name: blue crystal shard
               icon:
-                sprite: Objects/Materials/Shards/crystal.rsi
-                state: shard1
+                sprite: Void/Structures/Decoration/crystal.rsi
+                state: crystalshard_grey
               doAfter: 1
     - node: icon
       entity: LightTubeCrystalBlue
@@ -53,8 +53,8 @@
             - tag: CrystalPink
               name: pink crystal shard
               icon:
-                sprite: Objects/Materials/Shards/crystal.rsi
-                state: shard1
+                sprite: Void/Structures/Decoration/crystal.rsi
+                state: crystalshard_grey
               doAfter: 1
     - node: icon
       entity: LightTubeCrystalPink
@@ -73,8 +73,8 @@
             - tag: CrystalOrange
               name: orange crystal shard
               icon:
-                sprite: Objects/Materials/Shards/crystal.rsi
-                state: shard1
+                sprite: Void/Structures/Decoration/crystal.rsi
+                state: crystalshard_grey
               doAfter: 1
     - node: icon
       entity: LightTubeCrystalOrange
@@ -93,8 +93,8 @@
             - tag: CrystalRed
               name: red crystal shard
               icon:
-                sprite: Objects/Materials/Shards/crystal.rsi
-                state: shard1
+                sprite: Void/Structures/Decoration/crystal.rsi
+                state: crystalshard_grey
               doAfter: 1
     - node: icon
       entity: LightTubeCrystalRed
@@ -113,8 +113,8 @@
             - tag: CrystalGreen
               name: green crystal shard
               icon:
-                sprite: Objects/Materials/Shards/crystal.rsi
-                state: shard1
+                sprite: Void/Structures/Decoration/crystal.rsi
+                state: crystalshard_grey
               doAfter: 1
     - node: icon
       entity: LightTubeCrystalGreen

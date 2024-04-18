@@ -8,15 +8,9 @@
   - type: Sharp
   - type: Sprite
     layers:
-      - sprite: Objects/Materials/Shards/crystal.rsi
-        state: shard1
+      - sprite: Void/Structures/Decoration/crystal.rsi
+        state: crystalshard_grey
         map: [ "enum.DamageStateVisualLayers.Base" ]
-  - type: RandomSprite
-    available:
-      - enum.DamageStateVisualLayers.Base:
-          shard1: ""
-          shard2: ""
-          shard3: ""
   - type: SpaceGarbage
   - type: MeleeWeapon
     wideAnimationRotation: -22.5
