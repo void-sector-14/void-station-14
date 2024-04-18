@@ -244,7 +244,7 @@ con-LightSmallFixture = маленький настенный светильни
 con-LightGroundFixture = наземный световой столб
     .desc = Наземный светильник. Используйте электрические лампочки.
 
-con-LightStrobeFixture = { ent-LightStrobeFixture }
+con-LightStrobeFixture = { ent-PoweredStrobeLightEmpty }
     .desc = Настенный светильник. Используйте электрические лампочки.
 
 con-ConveyorBelt = конвейерная лента

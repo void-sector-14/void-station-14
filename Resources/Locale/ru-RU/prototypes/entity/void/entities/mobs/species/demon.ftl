@@ -1,7 +1,7 @@
-ent-BaseMobDemon = Urisst' Mzhand Demon
+ent-BaseMobDemon = Урист МакТифлинг
     .desc = { "" }
     .suffix = { "" }
 
-ent-MobDemonDummy = Urist McHands
+ent-MobDemonDummy = Урист МакТифлинг
     .desc = A dummy reptilian meant to be used in character setup.
     .suffix = { "" }

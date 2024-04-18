@@ -1,13 +1,13 @@
 ### UI
 
 rcd-component-examine-mode-details = Установлен в режиме { $mode }.
-rcd-component-examine-build-details = В настоящее время он настроен на постройку {MAKEPLURAL($name)}.
+rcd-component-examine-build-details = В настоящее время он настроен на постройку { $name }.
 
 ### Interaction Messages
 
 # Mode change
 rcd-component-change-mode = РСУ переключён в режим { $mode }.
-rcd-component-change-build-mode = Теперь РСУ готово к созданию {MAKEPLURAL($name)}.
+rcd-component-change-build-mode = Теперь РСУ готово к созданию { $name }.
 
 # Ammo count
 rcd-component-no-ammo-message = В РСУ закончились заряды!

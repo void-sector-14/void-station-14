@@ -1,3 +1,3 @@
-ent-MobDemon = Urisst' Mzhand Demon
+ent-MobDemon = Урист МакТифлинг
     .desc = { "" }
     .suffix = { "" }
