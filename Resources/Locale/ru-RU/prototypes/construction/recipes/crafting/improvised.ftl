@@ -28,8 +28,8 @@ con-hairflower = цветок для волос
 con-flowercrown = цветочная корона
     .desc = Венец из свежих и ароматных цветов.
 
-con-flowerwreath = { ent-ClothingNeckFlowerWreath }
-    .desc = { ent-ClothingNeckFlowerWreath.desc }
+con-flowerwreath = { ent-ClothingHeadHatFlowerWreath }
+    .desc = { ent-ClothingHeadHatFlowerWreath.desc }
 
 con-rag = тряпка
     .desc = Влажная тряпка для очистки пола. Это лучше, чем скользить весь день.
