@@ -1,7 +1,7 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckCloakCentCom
-  name: Фирменный плащ Центкома
+  name: фирменный плащ Центкома
   description: Дорогой плащ, который вам не по корману
   components:
   - type: Sprite

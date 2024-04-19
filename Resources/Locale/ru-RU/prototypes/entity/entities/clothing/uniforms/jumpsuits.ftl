@@ -206,74 +206,6 @@ ent-ClothingUniformJumpsuitWarden = униформа смотрителя
     .desc = Формальный костюм службы безопасности для офицеров в комплекте с пряжкой для ремня Nanotrasen.
     .suffix = { ent-ClothingUniformBase.suffix }
 
-ent-ClothingUniformJumpsuitColorGrey = серый комбинезон
-    .desc = Серый комбинезон, напоминающая вам о старых добрых временах.
-    .suffix = { ent-ClothingUniformBase.suffix }
-
-ent-ClothingUniformJumpsuitColorBlack = чёрный комбинезон
-    .desc = Обычный чёрный комбинезон без знаков различия.
-    .suffix = { ent-ClothingUniformBase.suffix }
-
-ent-ClothingUniformJumpsuitColorBlue = синий комбинезон
-    .desc = Обычный синий комбинезон без знаков различия.
-    .suffix = { ent-ClothingUniformBase.suffix }
-
-ent-ClothingUniformJumpsuitColorGreen = зелёный комбинезон
-    .desc = Обычный зелёный комбинезон без знаков различия.
-    .suffix = { ent-ClothingUniformBase.suffix }
-
-ent-ClothingUniformJumpsuitColorOrange = оранжевый комбинезон
-    .desc = Не носите его рядом с параноидальными сотрудниками службы безопасности.
-    .suffix = { ent-ClothingUniformBase.suffix }
-
-ent-ClothingUniformJumpsuitColorPink = розовый комбинезон
-    .desc = Просто глядя на это, вы чувствуете себя потрясающе.
-    .suffix = { ent-ClothingUniformBase.suffix }
-
-ent-ClothingUniformJumpsuitColorRed = красный комбинезон
-    .desc = Обычный красный комбинезон без знаков различия.
-    .suffix = { ent-ClothingUniformBase.suffix }
-
-ent-ClothingUniformJumpsuitColorWhite = белый комбинезон
-    .desc = Обычный белый комбинезон без знаков различия.
-    .suffix = { ent-ClothingUniformBase.suffix }
-
-ent-ClothingUniformJumpsuitColorYellow = жёлтый комбинезон
-    .desc = Обычный жёлтый комбинезон без знаков различия.
-    .suffix = { ent-ClothingUniformBase.suffix }
-
-ent-ClothingUniformJumpsuitColorDarkBlue = тёмно-синий комбинезон
-    .desc = Обычный тёмно-синий комбинезон без знаков различия.
-    .suffix = { ent-ClothingUniformBase.suffix }
-
-ent-ClothingUniformJumpsuitColorTeal = аквамариновый комбинезон
-    .desc = Обычный аквамариновый комбинезон без знаков различия.
-    .suffix = { ent-ClothingUniformBase.suffix }
-
-ent-ClothingUniformJumpsuitColorPurple = фиолетовый комбинезон
-    .desc = Обычный фиолетовый комбинезон без знаков различия.
-    .suffix = { ent-ClothingUniformBase.suffix }
-
-ent-ClothingUniformJumpsuitColorDarkGreen = тёмно-зелёный комбинезон
-    .desc = Обычный темно-зеленый комбинезон без знаков различия.
-    .suffix = { ent-ClothingUniformBase.suffix }
-
-ent-ClothingUniformJumpsuitColorLightBrown = светло-коричневый комбинезон
-    .desc = Обычный светло-коричневый комбинезон без знаков различия.
-    .suffix = { ent-ClothingUniformBase.suffix }
-
-ent-ClothingUniformJumpsuitColorBrown = коричневый комбинезон
-    .desc = Обычный коричневый комбинезон без знаков различия.
-    .suffix = { ent-ClothingUniformBase.suffix }
-
-ent-ClothingUniformJumpsuitColorMaroon = бордовый комбинезон
-    .desc = Обычный бордовый комбинезон без знаков различия.
-    .suffix = { ent-ClothingUniformBase.suffix }
-
-ent-ClothingUniformColorRainbow = радужный комбинезон
-    .desc = Разноцветный комбинезон!
-    .suffix = { ent-ClothingUniformBase.suffix }
-
 ent-ClothingUniformOveralls = комбинезон на лямках
     .desc = Отлично подходит для работы на открытом воздухе.
     .suffix = { ent-ClothingUniformBase.suffix }
@@ -386,6 +318,10 @@ ent-ClothingUniformJumpsuitMusician = костюм из карпокожи
     .desc = Роскошный костюм, сшитый только из лучших чешуек, идеально подходит для любого концерта в стиле лаунж!
     .suffix = { ent-ClothingUniformBase.suffix }
 
+ent-ClothingUniformJumpsuitERTChaplain = ERT chaplain uniform
+    .desc = A special suit made for Central Command's elite chaplain corps.
+    .suffix = { "" }
+
 ent-ClothingUniformJumpsuitERTEngineer = униформа инженера ОБР
     .desc = Специальный костюм, созданный для элитных инженеров Центкома.
     .suffix = { ent-ClothingUniformBase.suffix }
@@ -486,6 +422,6 @@ ent-ClothingUniformJumpsuitCasualRed = повседневный красный �
     .desc = Свободная потёртая красная рубашка с серыми штанами - идеальный вариант для тех, кто хочет расслабиться.
     .suffix = { "" }
 
-ent-ClothingUniformJumpsuitFamilyGuy = семейный наряд
+ent-ClothingUniformJumpsuitFamilyGuy = наряд Гриффина
     .desc = Напоминает о времени, когда вы сделали что-то смешное.
     .suffix = { "" }

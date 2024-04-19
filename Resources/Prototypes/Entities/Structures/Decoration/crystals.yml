@@ -6,7 +6,7 @@
   description: A crystaline solid.
   components:
     - type: Sprite
-      sprite: Structures/Decoration/crystal.rsi
+      sprite: Void/Structures/Decoration/crystal.rsi
       state: crystal_grey
       color: "#52ff39"
       noRot: true

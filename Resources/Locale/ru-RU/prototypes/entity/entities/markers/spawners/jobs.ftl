@@ -22,7 +22,7 @@ ent-SpawnPointSalvageSpecialist = утилизатор
     .desc = { ent-SpawnPointJobBase.desc }
     .suffix = { ent-SpawnPointJobBase.suffix }
 
-ent-SpawnPointPassenger = passenger
+ent-SpawnPointPassenger = пассажир
     .desc = { "" }
     .suffix = { ent-SpawnPointJobBase.suffix }
 
@@ -160,6 +160,10 @@ ent-SpawnPointBrigmedic = бригмедик
 
 ent-SpawnPointERTLeader = лидер ОБР
     .desc = { ent-SpawnPointJobBase.desc }
+    .suffix = { ent-SpawnPointJobBase.suffix }
+
+ent-SpawnPointERTChaplain = капеллан ОБР
+    .desc = { "" }
     .suffix = { ent-SpawnPointJobBase.suffix }
 
 ent-SpawnPointERTEngineer = инженер ОБР

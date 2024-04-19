@@ -18,7 +18,7 @@
   - type: StorageFill
     contents:
     - id: SpaceCash1000000
-      prob: 0.001
+      prob: 0.0001
       orGroup: Money
     - id: SpaceCash10000
       prob: 0.01
@@ -104,17 +104,8 @@
       prob: 0.001
       orGroup: Canister
     #weapons
-    - id: WeaponPulseCarbine
-      prob: 0.0001
-      orGroup: Weapons
     - id: WeaponRifleAk
       prob: 0.0001
-      orGroup: Weapons
-    - id: Throngler
-      prob: 0.0001
-      orGroup: Weapons
-    - id: WeaponLauncherPirateCannon
-      prob: 0.001
       orGroup: Weapons
     - id: WeaponPistolCHIMP
       prob: 0.001
@@ -127,9 +118,6 @@
       orGroup: Weapons
     - id: Sledgehammer
       prob: 0.001
-      orGroup: Weapons
-    - id: WeaponMeleeToolboxRobust
-      prob: 0.01
       orGroup: Weapons
     - id: ThrowingStar
       prob: 0.01
@@ -164,9 +152,6 @@
     #clothing
     - id: ClothingUniformJumpsuitFamilyGuy
       prob: 0.05
-      orGroup: Clothes
-    - id: ClothingOuterHardsuitCBURN
-      prob: 0.001
       orGroup: Clothes
     - id: ClothingOuterHardsuitBasic
       prob: 0.001
@@ -260,9 +245,6 @@
       prob: 0.01
       orGroup: Swag
     - id: ClothingEyesGlassesGarOrange
-      prob: 0.01
-      orGroup: Swag
-    - id: ClothingHeadHatChameleon
       prob: 0.01
       orGroup: Swag
     - id: ClothingBeltChampion

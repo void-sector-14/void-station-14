@@ -25,3 +25,7 @@ ent-BasicPuddleMessVariationPass = { ent-BaseVariationPass }
 ent-BloodbathPuddleMessVariationPass = { ent-BaseVariationPass }
     .desc = { ent-BaseVariationPass.desc }
     .suffix = { "" }
+
+ent-CutWireVariationPass = { ent-BaseVariationPass }
+    .desc = { "" }
+    .suffix = { "" }

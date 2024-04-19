@@ -31,6 +31,25 @@
     Steel: 400
 
 - type: latheRecipe
+  id: WelderIndustrial
+  result: WelderIndustrial
+  category: Tools
+  completetime: 2
+  materials:
+    Steel: 400
+    Plasma: 50
+
+- type: latheRecipe
+  id: WelderIndustrialAdvanced
+  result: WelderIndustrialAdvanced
+  category: Tools
+  completetime: 3
+  materials:
+    Steel: 500
+    Plasma: 200
+
+
+- type: latheRecipe
   id: Wrench
   result: Wrench
   category: Tools

@@ -58,13 +58,9 @@ ent-BookRandom = { ent-BookBase }
     .desc = { ent-BookBase.desc }
     .suffix = случайный
 
-ent-BookEscalation = Правила Роберта по эскалации
-    .desc = На книге имеются пятна крови. Похоже, что её больше использовали как оружие, чем как учебное пособие.
-    .suffix = { ent-BookBase.suffix }
-
-ent-BookEscalationSecurity = Правила Роберта по эскалации: Издание для СБ
-    .desc = На книге имеются пятна крови. Похоже, что её больше использовали как оружие, чем как учебное пособие.
-    .suffix = { ent-BookBase.suffix }
+ent-BookRandomStory = { ent-BookRandom }
+    .desc = { ent-BookRandom.desc }
+    .suffix = случайная обложка, случайная история
 
 ent-BookAtmosDistro = Руководство Ньютона по атмосу: Дистро
     .desc = Поля усеяны бесконечными неразборчивыми заметками. Большая часть текста испещрена рукописными вопросительными знаками.

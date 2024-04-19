@@ -10,7 +10,7 @@ ent-ClothingUniformRandomArmless = красочный костюм без рук
     .desc = { ent-ClothingUniformRandom.desc }
     .suffix = { ent-ClothingUniformRandom.suffix }
 
-ent-ClothingUniformRandomStandart = красочный костюм
+ent-ClothingUniformRandomStandard = красочный костюм
     .desc = { ent-ClothingUniformRandom.desc }
     .suffix = { ent-ClothingUniformRandom.suffix }
 

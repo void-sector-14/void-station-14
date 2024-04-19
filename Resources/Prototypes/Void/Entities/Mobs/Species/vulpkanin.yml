@@ -8,10 +8,6 @@
   - type: HumanoidAppearance
     species: VulpkaninPerson
   - type: Hunger
-    starvationDamage:
-      types:
-        Cold: 0.5
-        Bloodloss: 0.5
   - type: Thirst
   - type: Icon
     sprite: Void/Mobs/Species/Vulpkanin/parts.rsi

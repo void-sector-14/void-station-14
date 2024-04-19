@@ -128,11 +128,11 @@ ent-WindoorSecureEngineeringLocked = { ent-WindoorSecure }
 
 ent-PlasmaWindoorSecureEngineeringLocked = { ent-WindoorSecurePlasma }
     .desc = { ent-WindoorSecurePlasma.desc }
-    .suffix =Инженерный, Закрыт, Пазма
+    .suffix = Инженерный, Закрыт, Пазма
 
 ent-UraniumWindoorSecureEngineeringLocked = { ent-WindoorSecureUranium }
     .desc = { ent-WindoorSecureUranium.desc }
-    .suffix =Инженерный, Закрыт, Uranium
+    .suffix = Инженерный, Закрыт, Uranium
 
 ent-WindoorSecureExternalLocked = { ent-WindoorSecure }
     .desc = { ent-WindoorSecure.desc }

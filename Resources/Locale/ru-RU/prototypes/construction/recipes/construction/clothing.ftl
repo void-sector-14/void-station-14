@@ -24,3 +24,6 @@ con-ClothingEyesHudMedSec = { ent-ClothingEyesHudMedSec }
 
 con-ClothingShoeSlippersDuck = утиные шлепки
     .desc = Уютно, но их преследуют призраки уток, которых вы кормили хлебом в детстве.
+
+con-ClothingEyesGlassesSecurity = { ent-ClothingEyesGlassesSecurity }
+    .desc = Пара солнцезащитных очков со встроенным интерфейсом СБ.

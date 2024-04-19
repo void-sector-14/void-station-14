@@ -10,6 +10,10 @@ ent-CrateVendingMachineRestockClothesFilled = ящик пополнения од
     .desc = Содержит несколько наборов пополнения торгоматов, ОдеждоМата и ТеатроШкафа.
     .suffix = { "" }
 
+ent-CrateVendingMachineRestockAutoDrobeFilled = ящик поплнения ТеатроШкафа
+    .desc = Содержит набор поплнения ТеатроШкафа.
+    .suffix = { "" }
+
 ent-CrateVendingMachineRestockCondimentStationFilled = ящик пополнения Островка соусов
     .desc = { ent-CratePlastic.desc }
     .suffix = { "" }

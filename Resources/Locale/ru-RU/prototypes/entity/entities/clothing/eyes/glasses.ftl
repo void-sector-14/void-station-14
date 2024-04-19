@@ -39,7 +39,7 @@ ent-ClothingEyesGlassesSunglasses = солнцезащитные очки
     .suffix = { ent-ClothingEyesBase.suffix }
 
 ent-ClothingEyesGlassesSecurity = солнцезащитные очки охраны
-    .desc = Странная древняя технология помогает обеспечить простейшую защиту глаз. Улучшенное покрытие блокирует различные вспышки. Часто носятся бюджетниками службы безопасности.
+    .desc = Пара солнцезащитных очков со встроенным интерфейсом СБ.
     .suffix = { ent-ClothingEyesBase.suffix }
 
 ent-ClothingEyesGlassesMercenary = очки наёмника

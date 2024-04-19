@@ -62,10 +62,6 @@ ent-AirlockHatchMaintenance = герметичный люк техобслужи
     .desc = { ent-Airlock.desc }
     .suffix = { "" }
 
-ent-AirlockGlass = стеклянный шлюз
-    .desc = { ent-Airlock.desc }
-    .suffix = { "" }
-
 ent-AirlockEngineeringGlass = { ent-AirlockGlass }
     .desc = { ent-AirlockGlass.desc }
     .suffix = Инженерный

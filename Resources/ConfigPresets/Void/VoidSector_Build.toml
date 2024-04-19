@@ -36,9 +36,6 @@ message_wait_time = 1
 new_player_threshold = 180
 afk_time = 0.0
 
-[accessibility]
-reduced_motion = true
-
 [physics]
 grid_splitting = false
 

@@ -46,8 +46,8 @@ ent-DrinkGinBottleFull = джин Гриффитер
     .desc = Бутылка высококачественного джина, производимого на космической станции Нью-Лондон.
     .suffix = { ent-DrinkBottleBaseFull.suffix }
 
-ent-DrinkGildlagerBottleFull = gildlager bottle
-    .desc = 100 proof cinnamon schnapps, made for alcoholic teen girls on spring break.
+ent-DrinkGildlagerBottleFull = Гильдлагер
+    .desc = Стопроцентный шнапс с корицей, приготовленных для девочек-алкоголичек на весенних каникулах.
     .suffix = { "" }
 
 ent-DrinkCoffeeLiqueurBottleFull = бутылка кофейного ликёра
@@ -126,6 +126,10 @@ ent-DrinkTonicWaterBottleFull = бутылка тоника
     .desc = Как газированная вода, но, возможно, агрессивнее? И, зачастую, слаще.
     .suffix = { "" }
 
+ent-DrinkSakeBottleFull = маленькая бутылочка саке
+    .desc = Сожаление о следующем утре, кажется, тоже притягивает бутылку.
+    .suffix = { ent-DrinkBottleGlassBaseFull.suffix }
+
 ent-DrinkJuiceLimeCartonXL = лаймовый сок XL
     .desc = Кисло-сладкое удовольствие.
     .suffix = { "" }
@@ -153,6 +157,10 @@ ent-DrinkMeadJug = кувшин медовухи
 ent-DrinkIceJug = кувшин льда
     .desc = Твёрдая вода. Очень круто.
     .suffix = { "" }
+
+ent-DrinkCoconutWaterJug = кувшин кокосовой воды
+    .desc = Важно то, что находится внутри кокоса.
+    .suffix = { ent-DrinkBottlePlasticBaseFull.suffix }
 
 ent-DrinkCoffeeJug = кувшин кофе
     .desc = Пробуждающий сок, подогретый.

@@ -98,6 +98,10 @@ ent-ClothingOuterHardsuitERTLeader = скафандр лидера ОБР
     .desc = Защитный скафандр, используемый оперативниками отряда быстрого реагирования.
     .suffix = { ent-ClothingOuterHardsuitSyndieCommander.suffix }
 
+ent-ClothingOuterHardsuitERTChaplain = скафандр капеллана ОБР
+    .desc = Защитный скафандр, используемый капелланами отряда быстрого реагирования.
+    .suffix = { "" }
+
 ent-ClothingOuterHardsuitERTEngineer = скафандр инженера ОБР
     .desc = { ent-ClothingOuterHardsuitERTLeader.desc }
     .suffix = { ent-ClothingOuterHardsuitSyndie.suffix }

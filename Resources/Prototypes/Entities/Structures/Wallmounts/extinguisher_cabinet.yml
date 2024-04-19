@@ -57,6 +57,9 @@
                 collection: MetalGlassBreak
                 params:
                   volume: -4
+    - type: Construction
+      graph: extinguishercabinet
+      node: extinguishercabinet
   placement:
     mode: SnapgridCenter
 

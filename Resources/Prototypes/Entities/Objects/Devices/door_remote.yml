@@ -28,7 +28,7 @@
       color: "#9f9f00"
   - type: Access
     groups:
-    - Command
+    - AllAccess
 
 - type: entity
   parent: DoorRemoteDefault
@@ -141,6 +141,7 @@
   - type: Access
     groups:
     - Engineering
+    - Maintenance
 
 - type: entity
   parent: DoorRemoteDefault
@@ -155,10 +156,10 @@
           color: "#ff9900"
         - state: door_remotescreencolour
           color: "#e02020"
-
     - type: Access
       groups:
         - FireFight
+        - Maintenance
 
 - type: entity
   parent: DoorRemoteDefault
@@ -178,3 +179,5 @@
     - AllAccess
     tags:
     - CentralCommand
+    - SyndicateAgent
+    - NuclearOperative

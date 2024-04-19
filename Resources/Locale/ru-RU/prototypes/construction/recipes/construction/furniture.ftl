@@ -156,3 +156,6 @@ con-CurtainsWhite = белые шторы
 
 con-Bookshelf = { ent-Bookshelf }
     .desc = В основном заполненный книгами.
+
+con-NoticeBoard = { ent-NoticeBoard }
+    .desc = Деревянная доска объявлений, может хранить на себе бумагу.

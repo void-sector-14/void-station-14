@@ -1,5 +1,5 @@
 - type: entity
-  parent: Airlock
+  parent: AirlockRCDResistant
   id: AirlockExternal
   suffix: External
   description: It opens, it closes, it might crush you, and there might be only space behind it.
@@ -19,6 +19,9 @@
   - type: PaintableAirlock
     group: External
     department: null
+  - type: Construction
+    graph: AirlockExternal
+    node: airlock
 
 - type: entity
   parent: AirlockExternal
@@ -33,3 +36,24 @@
     sprite: Structures/Doors/Airlocks/Glass/external.rsi
   - type: PaintableAirlock
     group: ExternalGlass
+  - type: Construction
+    graph: AirlockExternal
+    node: airlockGlass
+
+- type: entity
+  id: AirlockExternalAssembly
+  parent: AirlockAssembly
+  name: каркас внешнего шлюза
+  suffix: External
+  description: Он пока не открывается, он пока не закрывается, и он пока не может вас раздавить.
+  components:
+  - type: Transform
+    anchored: true
+    noRot: false
+  - type: Rotatable
+  - type: Sprite
+    sprite: Structures/Doors/Airlocks/Standard/external.rsi
+    state: closed
+  - type: Construction
+    graph: AirlockExternal
+    node: assembly

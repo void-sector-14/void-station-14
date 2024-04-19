@@ -37,3 +37,11 @@ ent-ClothingNeckPansexualPin = { ent-ClothingNeckLGBTPin }
 ent-ClothingNeckTransPin = { ent-ClothingNeckLGBTPin }
     .desc = { ent-ClothingNeckLGBTPin.desc }
     .suffix = { ent-ClothingNeckPinBase.suffix }
+
+ent-ClothingNeckAutismPin = autism pin
+    .desc = be autism do crime
+    .suffix = { "" }
+
+ent-ClothingNeckGoldAutismPin = golden autism pin
+    .desc = be autism do warcrime
+    .suffix = { "" }

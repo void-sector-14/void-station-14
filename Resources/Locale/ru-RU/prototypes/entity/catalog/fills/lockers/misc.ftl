@@ -10,6 +10,10 @@ ent-ClosetWallEmergencyFilledRandom = { ent-ClosetWallEmergency }
     .desc = { ent-ClosetWallEmergency.desc }
     .suffix = Заполненный, Случайный
 
+ent-ClosetEmergencyN2FilledRandom = { ent-ClosetEmergencyN2 }
+    .desc = { ent-ClosetEmergencyN2.desc }
+    .suffix = Заполненный, Случайный
+
 ent-ClosetFireFilled = { ent-ClosetFire }
     .desc = { ent-ClosetFire.desc }
     .suffix = Заполненный
