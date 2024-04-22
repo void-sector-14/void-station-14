@@ -80,7 +80,7 @@ ent-LockableButtonBrig = { ent-LockableButton }
 
 ent-LockableButtonLawyer = { ent-LockableButton }
     .desc = { ent-LockableButton.desc }
-    .suffix = Адвокат
+    .suffix = Юрист
 
 ent-LockableButtonEngineering = { ent-LockableButton }
     .desc = { ent-LockableButton.desc }

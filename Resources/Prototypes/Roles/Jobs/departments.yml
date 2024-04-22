@@ -22,7 +22,7 @@
   - Clown
   - HeadOfPersonnel
   - Janitor
-  - Lawyer
+  # - Lawyer
   - Librarian
   - Mime
   - Musician
@@ -45,6 +45,7 @@
   - HeadOfSecurity
   - ResearchDirector
   - Quartermaster
+  - Magistrate
   primary: false
   weight: 100
 

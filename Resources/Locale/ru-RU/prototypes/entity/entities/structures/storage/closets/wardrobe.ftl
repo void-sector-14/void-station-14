@@ -62,7 +62,7 @@ ent-WardrobeChapel = гардероб священника
     .desc = Хранилище религиозной атрибутики, одобренной Nanotrasen.
     .suffix = { "" }
 
-ent-ClosetLegal = адвокатский шкаф
+ent-ClosetLegal = юридический шкаф
     .desc = Хранилище судебных принадлежностей и одежды.
     .suffix = { "" }
 

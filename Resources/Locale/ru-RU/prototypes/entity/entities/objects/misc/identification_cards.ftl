@@ -106,7 +106,7 @@ ent-LibrarianIDCard = ID карта библиотекаря
     .desc = { ent-IDCardStandard.desc }
     .suffix = { ent-IDCardStandard.suffix }
 
-ent-LawyerIDCard = ID карта адвоката
+ent-LawyerIDCard = ID карта юриста
     .desc = { ent-IDCardStandard.desc }
     .suffix = { ent-IDCardStandard.suffix }
 

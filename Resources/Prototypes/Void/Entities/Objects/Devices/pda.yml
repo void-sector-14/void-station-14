@@ -1,0 +1,39 @@
+- type: entity
+  abstract: true
+  parent: BasePDA
+  id: BaseVoidPDA
+  name: КПК
+  description: Купи продай купи.
+  components:
+    - type: Icon
+      sprite: Void/Objects/Devices/pda.rsi
+    - type: Sprite
+      sprite: Void/Objects/Devices/pda.rsi
+
+- type: entity
+  parent: BaseVoidPDA
+  id: IAAPDA
+  name: КПК АВД
+  description: Корпорация и прибыль — лучшие друзья.
+  components:
+    - type: Pda
+      id: IAAIDCard
+      state: pda-iaa
+    - type: PdaBorderColor
+      borderColor: "#4c4d4c"
+    - type: Icon
+      state: pda-iaa
+
+- type: entity
+  parent: BaseVoidPDA
+  id: MagistratePDA
+  name: КПК Магистрата
+  description: Я есть закон!
+  components:
+    - type: Pda
+      id: MagistrateIDCard
+      state: pda-magistrate
+    - type: PdaBorderColor
+      borderColor: "#ac3232"
+    - type: Icon
+      state: pda-magistrate

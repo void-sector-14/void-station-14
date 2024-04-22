@@ -183,7 +183,7 @@ ent-VendingMachineHydrobe = ГидроРоб
     .suffix = { "" }
 
 ent-VendingMachineLawDrobe = ЗаконШкаф
-    .desc = Протест! Этот шкаф обеспечивает верховенство закона... и адвоката одеждой...
+    .desc = Протест! Этот шкаф обеспечивает верховенство закона... и юриста одеждой...
     .suffix = { "" }
 
 ent-VendingMachineSecDrobe = ОхранШкаф
