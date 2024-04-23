@@ -9,8 +9,6 @@
   access:
   - Cargo
   - Maintenance
-  extendedAccess:
-  - Salvage
 
 - type: startingGear
   id: CargoTechGear
