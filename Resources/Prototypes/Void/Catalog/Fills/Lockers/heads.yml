@@ -1,0 +1,11 @@
+- type: entity
+  id: LockerBlueShieldFilled
+  suffix: Заполненный
+  parent: LockerBlueShield
+  components:
+  - type: StorageFill
+    contents:
+      - id: ClothingOuterHardsuitBlueshield
+      - id: MedkitCombatFilled
+      - id: MedkitAdvancedFilled
+      - id: PinpointerUniversal

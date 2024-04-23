@@ -18,3 +18,12 @@
       - id: BoxSurvival
       - id: RubberStampMagistrate
 
+- type: entity
+  noSpawn: true
+  parent: ClothingBackpackSatchelBlueshield
+  id: ClothingBackpackSatchelBlueshieldFilled
+  components:
+  - type: StorageFill
+    contents:
+      - id: BoxSurvivalSecurity
+      - id: Flash

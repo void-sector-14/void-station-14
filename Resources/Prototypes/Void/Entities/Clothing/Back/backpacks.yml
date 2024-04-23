@@ -1,0 +1,8 @@
+- type: entity
+  parent: ClothingBackpack
+  id: ClothingBackpackBlueshield
+  name: рюкзак офицера синего щита
+  description: Говорят он пуленепробиваемый.
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Back/Backpacks/blueshield.rsi

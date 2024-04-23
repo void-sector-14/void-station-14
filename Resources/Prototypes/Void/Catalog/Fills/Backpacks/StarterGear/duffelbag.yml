@@ -17,3 +17,13 @@
     contents:
       - id: BoxSurvival
       - id: RubberStampMagistrate
+
+- type: entity
+  noSpawn: true
+  parent: ClothingBackpackDuffelBlueshield
+  id: ClothingBackpackDuffelBlueshieldFilled
+  components:
+  - type: StorageFill
+    contents:
+      - id: BoxSurvivalSecurity
+      - id: Flash

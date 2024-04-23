@@ -15,9 +15,11 @@ JobTechnicalAssistant = { job-name-technical-assistant }
 # Командование
 job-name-captain = Капитан
 job-name-hop = Глава Персонала
+job-name-blueshieldofficer = Офицер Синего Щита
 #
 JobCaptain = { job-name-captain }
 JobHeadOfPersonnel = { job-name-hop }
+JobBlueShieldOfficer = { job-name-blueshieldofficer }
 
 
 # Медицинский отдел

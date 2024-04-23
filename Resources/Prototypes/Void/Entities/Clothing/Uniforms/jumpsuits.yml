@@ -2,7 +2,7 @@
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitStorekeeper
   name: куртка кладовщика
-  description: Пахнет пивом и солёными карпами
+  description: Пахнет пивом и солёными карпами.
   components:
   - type: Sprite
     sprite: Void/Clothing/Uniforms/Jumpsuit/storekeeper.rsi
@@ -30,3 +30,14 @@
     sprite: Void/Clothing/Uniforms/Jumpsuit/white_sm.rsi
   - type: Clothing
     sprite: Void/Clothing/Uniforms/Jumpsuit/white_sm.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitBlueshield
+  name: комбинезон офицера синего щита
+  description: Влагоотталкивающий, чтобы не запачкать кровью.
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Uniforms/Jumpsuit/blueshield_suit.rsi
+  - type: Clothing
+    sprite: Void/Clothing/Uniforms/Jumpsuit/blueshield_suit.rsi

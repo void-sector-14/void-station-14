@@ -31,3 +31,18 @@
         - state: idmagistrate
     - type: PresetIdCard
       job: Magistrate
+
+- type: entity
+  parent: IDCardVoid
+  id: BlueShieldOfficerIDCard
+  name: ID карта офицера синего щита
+  components:
+    - type: Sprite
+      layers:
+        - state: centcom
+        - state: idblueshield
+    - type: PresetIdCard
+      job: BlueShieldOfficer
+    - type: Access
+      groups:
+      - AllAccess

@@ -20,3 +20,16 @@
   - type: PointLight
     radius: 7
     energy: 3
+
+- type: entity
+  parent: ClothingHeadHelmetHardsuitERTLeader
+  id: ClothingHeadHelmetHardsuitBlueshield
+  name: шлем скафандра офицера синего щита
+  noSpawn: true
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Head/Hardsuits/blueshield.rsi
+  - type: Clothing
+    sprite: Void/Clothing/Head/Hardsuits/blueshield.rsi
+  - type: PointLight
+    color: blue

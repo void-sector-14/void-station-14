@@ -46,6 +46,7 @@
   - ResearchDirector
   - Quartermaster
   - Magistrate
+  - BlueShieldOfficer
   primary: false
   weight: 100
 

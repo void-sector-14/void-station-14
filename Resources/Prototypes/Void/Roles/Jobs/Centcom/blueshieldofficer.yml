@@ -1,0 +1,42 @@
+- type: job
+  id: BlueShieldOfficer
+  name: job-name-blueshieldofficer
+  description: job-description-blueshieldofficer
+  playTimeTracker: JobBlueShieldOfficer
+  requirements:
+    - !type:DepartmentTimeRequirement
+      department: Command
+      time: 36000 # 10 hrs
+    - !type:DepartmentTimeRequirement
+      department: Security
+      time: 54000 # 15 hrs
+    - !type:DepartmentTimeRequirement
+      department: Medical
+      time: 36000 # 10 hrs
+  startingGear: BlueShieldOfficerGear
+  icon: "JobIconBlueshield"
+  supervisors: job-supervisors-centcom
+  canBeAntag: false
+  accessGroups:
+  - AllAccess
+  special:
+  - !type:AddImplantSpecial
+    implants: [ TrackingImplant, MindShieldImplant ]
+
+- type: startingGear
+  id: BlueShieldOfficerGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitBlueshield
+    back: ClothingBackpackBlueshieldFilled
+    shoes: ClothingShoesBootsCombatFilled
+    head: ClothingHeadHatBeretBlueshield
+    eyes: ClothingEyesGlassesBlueShield
+    gloves: ClothingHandsGlovesCombat
+    outerClothing: ClothingOuterArmorBlueshield
+    id: BlueShieldOfficerPDA
+    ears: ClothingHeadsetCommand
+    pocket1: WeaponEnergyGunBlueShield
+    pocket2: HandheldCrewMonitor
+    belt: ClothingBeltSecurityFilled
+  satchel: ClothingBackpackSatchelBlueshieldFilled
+  duffelbag: ClothingBackpackDuffelBlueshieldFilled

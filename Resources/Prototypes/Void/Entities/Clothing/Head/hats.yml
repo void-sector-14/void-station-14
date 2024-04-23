@@ -41,3 +41,14 @@
     sprite: Void/Clothing/Head/Hats/oldfedora.rsi
   - type: Clothing
     sprite: Void/Clothing/Head/Hats/oldfedora.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatBeretBlueshield
+  name: берет офицера синего щита
+  description: Берет темно-синего цвета с эмблемой командования. Для офицеров, которые больше думают о безопасности других людей, чем о своей.
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Head/Hats/beret_blueshield.rsi
+  - type: Clothing
+    sprite: Void/Clothing/Head/Hats/beret_blueshield.rsi

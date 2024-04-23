@@ -36,3 +36,17 @@
     layers:
       - state: green
       - state: magistrate
+
+# Centcom
+
+- type: entity
+  id: SpawnPointBlueShield
+  parent: SpawnPointVoidJobBase
+  name: офицер синего щита
+  components:
+  - type: SpawnPoint
+    job_id: BlueShieldOfficer
+  - type: Sprite
+    layers:
+      - state: green
+      - state: blueshield
