@@ -141,6 +141,7 @@
   - type: Access
     groups:
     - Engineering
+    tags:
     - Maintenance
 
 - type: entity
@@ -159,6 +160,7 @@
     - type: Access
       groups:
         - FireFight
+      tags:
         - Maintenance
 
 - type: entity
