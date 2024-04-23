@@ -16,5 +16,5 @@
   parent: JobIcon
   id: JobIconBlueshield
   icon:
-    sprite: Textures/Void/Interface/Misc/job_icons.rsi
+    sprite: /Textures/Void/Interface/Misc/job_icons.rsi
     state: Blueshield
