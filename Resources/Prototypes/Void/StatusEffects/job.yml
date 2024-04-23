@@ -11,3 +11,10 @@
   icon:
     sprite: /Textures/Void/Interface/Misc/job_icons.rsi
     state: Magistrate
+
+- type: statusIcon
+  parent: JobIcon
+  id: JobIconBlueshield
+  icon:
+    sprite: Textures/Void/Interface/Misc/job_icons.rsi
+    state: Blueshield
