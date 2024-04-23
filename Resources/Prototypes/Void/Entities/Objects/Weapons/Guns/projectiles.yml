@@ -1,0 +1,17 @@
+- type: entity
+  name: энергоболт
+  id: BulletEnergyGunLaser
+  parent: BaseBullet
+  noSpawn: true
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Projectiles/projectiles_tg.rsi
+    layers:
+    - state: omnilaser_greyscale
+      shader: unshaded
+      color: red
+  - type: Projectile
+    impactEffect: BulletImpactEffectOrangeDisabler
+    damage:
+      types:
+        Heat: 20
