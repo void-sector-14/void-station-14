@@ -74,6 +74,12 @@
     },
     {
       "name": "pda-storekeeper"
+    },
+    {
+        "name": "pda-iaa"
+    },
+    {
+        "name": "pda-magistrate"
     }
   ]
 }

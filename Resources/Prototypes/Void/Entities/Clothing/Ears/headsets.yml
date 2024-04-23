@@ -10,9 +10,9 @@
           - EncryptionKeyCommon
           - EncryptionKeyLegal
     - type: Sprite
-      sprite: Void\Clothing\Ears\Headsets\legal.rsi
+      sprite: Void/Clothing/Ears/Headsets/legal.rsi
     - type: Clothing
-      sprite: Void\Clothing\Ears\Headsets\legal.rsi
+      sprite: Void/Clothing/Ears/Headsets/legal.rsi
 
 - type: entity
   parent: ClothingHeadsetLegal
