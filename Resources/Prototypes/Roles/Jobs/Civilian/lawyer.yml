@@ -9,11 +9,15 @@
   startingGear: LawyerGear
   icon: "JobIconLawyer"
   supervisors: job-supervisors-magistrate
+  canBeAntag: false
   access:
   - Service
   - Lawyer
-  # - Brig
+  - Brig
   - Maintenance
+  special:
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant ]
 
 - type: startingGear
   id: LawyerGear
