@@ -18,6 +18,7 @@
   - Lawyer
   - Brig
   - Maintenance
+  - Command
   special:
   - !type:AddImplantSpecial
     implants: [ MindShieldImplant ]
