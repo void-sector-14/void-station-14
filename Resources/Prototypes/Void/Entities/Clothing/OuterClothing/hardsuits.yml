@@ -31,7 +31,7 @@
   parent: ClothingOuterHardsuitERTLeader
   id: ClothingOuterHardsuitBlueshield
   name: скафандр офицера синего щита
-  description: A protective hardsuit worn by the leader of an emergency response team.
+  description: Стильный скафандр сделанный специально для спасения глав из открытого космоса.
   components:
   - type: Sprite
     sprite: Void/Clothing/OuterClothing/Hardsuits/blueshield.rsi
