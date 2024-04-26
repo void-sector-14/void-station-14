@@ -16,6 +16,7 @@ hostname = "Пустотный Полигон"
 soft_max_players = 60
 lobbyduration = 180
 fallbackpreset = "Extended"
+map_pool = "VoidMapPool"
 
 [hub]
 advertise = false
