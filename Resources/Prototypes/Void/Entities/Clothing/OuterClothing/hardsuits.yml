@@ -39,3 +39,6 @@
     sprite: Void/Clothing/OuterClothing/Hardsuits/blueshield.rsi
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitBlueshield
+  - type: ClothingSpeedModifier
+    walkModifier: 0.9
+    sprintModifier: 0.9
