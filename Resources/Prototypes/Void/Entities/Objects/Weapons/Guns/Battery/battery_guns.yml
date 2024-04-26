@@ -1,6 +1,6 @@
 - type: entity
   name: мультифазовый пистолет
-  suffix: DO NOT MAP
+  suffix: НЕ МАППИТЬ
   parent: BaseWeaponBatterySmall
   id: WeaponEnergyGunBlueShield
   description: Специально разработанный для офицеров синего щита мультифазовый пистолет. Может как оглушить, так и убить противника.
@@ -19,7 +19,7 @@
   - type: Clothing
     quickEquip: false
     slots:
-    - Back
+    - Belt
     - suitStorage
     sprite: Void/Objects/Weapons/Guns/Battery/blueshield_energygun.rsi
   - type: Gun
