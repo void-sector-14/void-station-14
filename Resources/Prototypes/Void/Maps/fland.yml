@@ -1,5 +1,5 @@
 - type: gameMap
-  id: Fland
+  id: VSFland
   mapName: 'Fland Installation'
   mapPath: /Maps_Void/fland.yml
   minPlayers: 70

@@ -1,5 +1,5 @@
 - type: gameMap
-  id: Core
+  id: VSCore
   mapName: 'Core'
   mapPath: /Maps_Void/core.yml
   minPlayers: 30

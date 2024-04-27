@@ -1,5 +1,5 @@
 - type: gameMap
-  id: Box
+  id: VSBox
   mapName: 'Box Station'
   mapPath: /Maps_Void/box.yml
   minPlayers: 50

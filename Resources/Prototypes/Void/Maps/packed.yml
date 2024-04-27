@@ -1,5 +1,5 @@
 - type: gameMap
-  id: Packed
+  id: VSPacked
   mapName: 'Packed'
   mapPath: /Maps_Void/packed.yml
   minPlayers: 5

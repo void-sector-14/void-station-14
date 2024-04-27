@@ -1,5 +1,5 @@
 - type: gameMap
-  id: Omega
+  id: VSOmega
   mapName: 'Omega'
   mapPath: /Maps_Void/omega.yml
   minPlayers: 0

@@ -1,5 +1,5 @@
 - type: gameMap
-  id: Marathon
+  id: VSMarathon
   mapName: 'Marathon Station'
   mapPath: /Maps_Void/marathon.yml
   minPlayers: 35

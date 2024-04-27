@@ -1,5 +1,5 @@
 - type: gameMap
-  id: Origin
+  id: VSOrigin
   mapName: 'Origin'
   mapPath: /Maps_Void/origin.yml
   minPlayers: 50
