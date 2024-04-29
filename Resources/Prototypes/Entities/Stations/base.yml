@@ -37,6 +37,7 @@
   abstract: true
   components:
     - type: StationArrivals
+      shuttlePath: /Maps_Void/Shuttles/arrivals.yml
 
 - type: entity
   id: BaseStationGateway
