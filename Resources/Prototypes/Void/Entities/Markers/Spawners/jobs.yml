@@ -1,0 +1,52 @@
+# Base
+
+- type: entity
+  id: SpawnPointVoidJobBase
+  parent: MarkerBase
+  abstract: true
+  suffix: Job Spawn
+  components:
+  - type: SpawnPoint
+    spawn_type: Job
+  - type: Sprite
+    sprite: Void/Markers/jobs.rsi
+
+# Legal
+
+- type: entity
+  id: SpawnPointIAA
+  parent: SpawnPointVoidJobBase
+  name: АВД
+  components:
+  - type: SpawnPoint
+    job_id: IAA
+  - type: Sprite
+    layers:
+      - state: green
+      - state: iaa
+
+- type: entity
+  id: SpawnPointMagistrate
+  parent: SpawnPointVoidJobBase
+  name: магистрат
+  components:
+  - type: SpawnPoint
+    job_id: Magistrate
+  - type: Sprite
+    layers:
+      - state: green
+      - state: magistrate
+
+# Centcom
+
+- type: entity
+  id: SpawnPointBlueShield
+  parent: SpawnPointVoidJobBase
+  name: офицер синего щита
+  components:
+  - type: SpawnPoint
+    job_id: BlueShieldOfficer
+  - type: Sprite
+    layers:
+      - state: green
+      - state: blueshield

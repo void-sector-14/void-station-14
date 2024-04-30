@@ -15,9 +15,11 @@ JobTechnicalAssistant = { job-name-technical-assistant }
 # Командование
 job-name-captain = Капитан
 job-name-hop = Глава Персонала
+job-name-blueshieldofficer = Офицер Синего Щита
 #
 JobCaptain = { job-name-captain }
 JobHeadOfPersonnel = { job-name-hop }
+JobBlueShieldOfficer = { job-name-blueshieldofficer }
 
 
 # Медицинский отдел
@@ -72,7 +74,6 @@ job-name-chaplain = Священник
 job-name-chef = Шеф-повар
 job-name-clown = Клоун
 job-name-janitor = Уборщик
-job-name-lawyer = Адвокат
 job-name-librarian = Библиотекарь
 job-name-mime = Мим
 job-name-musician = Музыкант
@@ -89,7 +90,6 @@ JobChaplain = { job-name-chaplain }
 JobChef = { job-name-chef }
 JobClown = { job-name-clown }
 JobJanitor = { job-name-janitor }
-JobLawyer = { job-name-lawyer }
 JobLibrarian = { job-name-librarian }
 JobMime = { job-name-mime }
 JobMusician = { job-name-musician }
@@ -132,3 +132,12 @@ JobERTJanitor = { job-name-ertjanitor }
 JobERTLeader = { job-name-ertleader }
 JobERTMedical = { job-name-ertmedic }
 JobERTSecurity = { job-name-ertsecurity }
+
+# Юрдеп
+job-name-lawyer = Юрист
+job-name-iaa = АВД
+job-name-magistrate = Магистрат
+#
+JobLawyer = { job-name-lawyer }
+JobIAA = { job-name-iaa }
+JobMagistrate = { job-name-magistrate }

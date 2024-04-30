@@ -1,0 +1,27 @@
+- type: entity
+  abstract: true
+  parent: BaseItem
+  id: EncryptionKeyVoid
+  name: encryption key
+  description: A small cypher chip for headsets.
+  components:
+  - type: EncryptionKey
+  - type: Item
+    sprite: Void/Objects/Devices/encryption_keys.rsi
+  - type: Sprite
+    sprite: Void/Objects/Devices/encryption_keys.rsi
+
+- type: entity
+  parent: EncryptionKeyVoid
+  id: EncryptionKeyLegal
+  name: юридический ключ шифрования
+  description: Ключ шифрования используемый юристами, самое время подслушать парочку секретов.
+  components:
+  - type: EncryptionKey
+    channels:
+    - Legal
+    defaultChannel: Legal
+  - type: Sprite
+    layers:
+    - state: crypt_silver
+    - state: legal_label

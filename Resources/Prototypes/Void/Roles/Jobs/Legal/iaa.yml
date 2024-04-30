@@ -1,0 +1,39 @@
+- type: job
+  id: IAA
+  name: job-name-iaa
+  description: job-description-iaa
+  playTimeTracker: JobIAA
+  requirements:
+    - !type:RoleTimeRequirement
+      role: JobLawyer
+      time: 21600 #6 hrs
+    - !type:OverallPlaytimeRequirement
+      time: 36000 # 10 hrs
+  startingGear: IAAGear
+  icon: "JobIconIAA"
+  supervisors: job-supervisors-magistrate
+  canBeAntag: false
+  access:
+  - Service
+  - Lawyer
+  - Brig
+  - Maintenance
+  special:
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant ]
+
+- type: startingGear
+  id: IAAGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitLawyerBlack  # TODO change jumpsuit to randomiser of the 4 variants # ignoring this since loadouts are gonna be out soon
+    back: ClothingBackpackIAAFilled
+    shoes: ClothingShoesBootsLaceup
+    eyes: ClothingEyesGlassesSunglasses
+    id: IAAPDA
+    ears: ClothingHeadsetLegal
+    # TODO add copy of space law
+  inhand:
+    - BriefcaseBrownFilled
+  innerClothingSkirt: ClothingUniformJumpskirtLawyerBlack
+  satchel: ClothingBackpackSatchelIAAFilled
+  duffelbag: ClothingBackpackDuffelIAAFilled

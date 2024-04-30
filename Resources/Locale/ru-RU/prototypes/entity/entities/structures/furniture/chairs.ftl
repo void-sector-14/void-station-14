@@ -34,7 +34,7 @@ ent-StoolBar = барный стул
     .desc = { ent-SeatBase.desc }
     .suffix = { "" }
 
-ent-ChairBrass = brass chair
+ent-ChairBrass = латунное кресло
     .desc = { ent-StoolBase.desc }
     .suffix = { "" }
 

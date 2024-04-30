@@ -26,3 +26,19 @@
     damageCoefficient: 0.3
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitQuartermaster
+
+- type: entity
+  parent: ClothingOuterHardsuitERTLeader
+  id: ClothingOuterHardsuitBlueshield
+  name: скафандр офицера синего щита
+  description: Стильный скафандр сделанный специально для спасения глав из открытого космоса.
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/OuterClothing/Hardsuits/blueshield.rsi
+  - type: Clothing
+    sprite: Void/Clothing/OuterClothing/Hardsuits/blueshield.rsi
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitBlueshield
+  - type: ClothingSpeedModifier
+    walkModifier: 0.9
+    sprintModifier: 0.9

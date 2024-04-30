@@ -1,0 +1,8 @@
+- type: department
+  id: Legal
+  description: department-Legal-description
+  color: "#F2B141"
+  roles:
+  - Magistrate
+  - IAA
+  - Lawyer

@@ -1,0 +1,8 @@
+- type: entity
+  parent: ClothingBackpackSatchel
+  id: ClothingBackpackSatchelBlueshield
+  name: сумка офицера синего щита
+  description: В нее удобно сбрасывать магазины.
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Back/Satchels/blueshield.rsi

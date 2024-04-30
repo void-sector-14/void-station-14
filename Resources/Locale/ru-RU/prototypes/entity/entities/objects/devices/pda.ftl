@@ -70,8 +70,8 @@ ent-LibrarianPDA = КПК библиотекаря
     .desc = Пахнет книгами.
     .suffix = { ent-BasePDA.suffix }
 
-ent-LawyerPDA = КПК адвоката
-    .desc = Для адвокатов, переманивающих сомнительных клиентов.
+ent-LawyerPDA = КПК юриста
+    .desc = Для юристов, ведущих сомнительные дела.
     .suffix = { ent-BasePDA.suffix }
 
 ent-JanitorPDA = КПК уборщика

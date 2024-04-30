@@ -1,0 +1,16 @@
+- type: gameMapPool
+  id: VoidMapPool
+  maps:
+  - VSAtlas
+  - VSBagel
+  - VSBox
+  - VSCluster
+  - VSCore
+  - VSFland
+  - VSMarathon
+  - VSMeta
+  - VSOmega
+  - VSOrigin
+  - VSSaltern
+  - VSPacked
+  - Kerberos

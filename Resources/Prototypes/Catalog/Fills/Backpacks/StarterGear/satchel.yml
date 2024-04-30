@@ -56,15 +56,6 @@
 
 - type: entity
   noSpawn: true
-  parent: ClothingBackpackSatchelBrigmedic
-  id: ClothingBackpackSatchelBrigmedicFilled
-  components:
-  - type: StorageFill
-    contents:
-      - id: Flash
-
-- type: entity
-  noSpawn: true
   parent: ClothingBackpackSatchelMedical
   id: ClothingBackpackSatchelMedicalFilled
   components:
@@ -214,7 +205,7 @@
       - id: BoxSurvival
       - id: Bible
       - id: RubberStampChaplain
-  
+
 - type: entity
   noSpawn: true
   parent: ClothingBackpackSatchel

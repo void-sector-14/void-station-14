@@ -21,3 +21,7 @@ ent-BoxHug = коробка обнимашек
 ent-BoxSurvivalSyndicate = { ent-BoxSurvivalEngineering }
     .desc = Коробка с базовым набором для выживания. Согласно этикетке, содержит более ёмкий баллон.
     .suffix = Синдикат
+
+ent-BoxSurvivalBrigmedic = { ent-BoxSurvival }
+    .desc = { ent-BoxSurvival.desc }
+    .suffix = Бригмедик

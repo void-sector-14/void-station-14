@@ -22,7 +22,7 @@
   - Clown
   - HeadOfPersonnel
   - Janitor
-  - Lawyer
+  # - Lawyer
   - Librarian
   - Mime
   - Musician
@@ -45,6 +45,8 @@
   - HeadOfSecurity
   - ResearchDirector
   - Quartermaster
+  - Magistrate
+  - BlueShieldOfficer
   primary: false
   weight: 100
 
@@ -81,6 +83,7 @@
   - SecurityOfficer
   - Detective
   - Warden
+  - Brigmedic
 
 - type: department
   id: Science

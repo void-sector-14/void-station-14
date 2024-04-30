@@ -5,6 +5,8 @@
   components:
   - type: Sprite
     state: icon
+  - type: Item
+    size: Tiny
   - type: Clothing
     slots: [gloves]
   - type: Tag
@@ -18,7 +20,7 @@
   description: Пока смерть не разлучит нас.
   components:
   - type: Sprite
-    sprite: Void/Clothing/Hands/Gloves/wedding_ring.rsi  
+    sprite: Void/Clothing/Hands/Gloves/wedding_ring.rsi
   - type: Clothing
-    sprite: Void/Clothing/Hands/Gloves/wedding_ring.rsi  
+    sprite: Void/Clothing/Hands/Gloves/wedding_ring.rsi
 

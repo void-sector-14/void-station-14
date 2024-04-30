@@ -1,0 +1,8 @@
+- type: entity
+  parent: ClothingBackpackDuffel
+  id: ClothingBackpackDuffelBlueshield
+  name: вещмешок офицера синего щита
+  description: Сюда можно спрятать труп.
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Back/Duffels/blueshield.rsi

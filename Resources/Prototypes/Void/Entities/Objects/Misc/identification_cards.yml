@@ -1,0 +1,48 @@
+- type: entity
+  parent: IDCardStandard
+  id: IDCardVoid
+  abstract: true
+  components:
+  - type: Sprite
+    sprite: Void/Objects/Misc/id_cards.rsi
+  - type: Clothing
+    sprite: Void/Objects/Misc/id_cards.rsi
+
+- type: entity
+  parent: IDCardVoid
+  id: IAAIDCard
+  name: ID карта АВД
+  components:
+    - type: Sprite
+      layers:
+        - state: centcom
+        - state: idiaa
+    - type: PresetIdCard
+      job: IAA
+
+- type: entity
+  parent: IDCardVoid
+  id: MagistrateIDCard
+  name: ID карта Магистрата
+  components:
+    - type: Sprite
+      layers:
+        - state: centcom
+        - state: idmagistrate
+    - type: PresetIdCard
+      job: Magistrate
+
+- type: entity
+  parent: IDCardVoid
+  id: BlueShieldOfficerIDCard
+  name: ID карта офицера синего щита
+  components:
+    - type: Sprite
+      layers:
+        - state: centcom
+        - state: idblueshield
+    - type: PresetIdCard
+      job: BlueShieldOfficer
+    - type: Access
+      groups:
+      - AllAccess

@@ -1,0 +1,28 @@
+- type: entity
+  parent: ClothingHeadset
+  id: ClothingHeadsetLegal
+  name: гарнитура юриста
+  description: Используется юристами для переговоров о ваших грязных секретах.
+  components:
+    - type: ContainerFill
+      containers:
+        key_slots:
+          - EncryptionKeyCommon
+          - EncryptionKeyLegal
+    - type: Sprite
+      sprite: Void/Clothing/Ears/Headsets/legal.rsi
+    - type: Clothing
+      sprite: Void/Clothing/Ears/Headsets/legal.rsi
+
+- type: entity
+  parent: ClothingHeadsetLegal
+  id: ClothingHeadsetMagistrate
+  name: гарнитура магистрата
+  description: Гарнитура для Магистрата, чтобы подслушивать линию защиты подозреваемых.
+  components:
+  - type: ContainerFill
+    containers:
+      key_slots:
+      - EncryptionKeyLegal
+      - EncryptionKeyCommand
+      - EncryptionKeyCommon

@@ -7,6 +7,15 @@
   "states": [
     {
       "name": "Storekeeper"
+    },
+    {
+        "name": "IAA"
+    },
+    {
+        "name": "Magistrate"
+    },
+    {
+        "name": "Blueshield"
     }
   ]
 }

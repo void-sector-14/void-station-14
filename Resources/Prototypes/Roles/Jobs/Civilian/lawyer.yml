@@ -3,29 +3,33 @@
   name: job-name-lawyer
   description: job-description-lawyer
   playTimeTracker: JobLawyer
-  requirements:
-    - !type:OverallPlaytimeRequirement
-      time: 36000 # 10 hrs
+  # requirements:
+  #   - !type:OverallPlaytimeRequirement
+  #     time: 3600 # 10 hrs
   startingGear: LawyerGear
   icon: "JobIconLawyer"
-  supervisors: job-supervisors-hop
+  supervisors: job-supervisors-magistrate
+  canBeAntag: false
   access:
   - Service
   - Lawyer
   - Brig
   - Maintenance
+  special:
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant ]
 
 - type: startingGear
   id: LawyerGear
   equipment:
-    jumpsuit: ClothingUniformJumpsuitLawyerBlack  # TODO change jumpsuit to randomiser of the 4 variants # ignoring this since loadouts are gonna be out soon
-    back: ClothingBackpackLawyerFilled 
+    jumpsuit: ClothingUniformJumpsuitLawyerBlue  # TODO change jumpsuit to randomiser of the 4 variants # ignoring this since loadouts are gonna be out soon
+    back: ClothingBackpackLawyerFilled
     shoes: ClothingShoesBootsLaceup
     id: LawyerPDA
-    ears: ClothingHeadsetSecurity
+    ears: ClothingHeadsetLegal
     # TODO add copy of space law
   inhand:
     - BriefcaseBrownFilled
-  innerClothingSkirt: ClothingUniformJumpskirtLawyerBlack
+  innerClothingSkirt: ClothingUniformJumpskirtLawyerBlue
   satchel: ClothingBackpackSatchelLawyerFilled
   duffelbag: ClothingBackpackDuffelLawyerFilled
