@@ -22,7 +22,7 @@ ent-ClothingBackpackSatchelMime = сумка мима
     .desc = Сумка, предназначенная для тихого и выразительного искусства мимики.
     .suffix = { ent-ClothingBackpackSatchel.suffix }
 
-ent-ClothingBackpackSatchelMedical = сумка медика
+ent-ClothingBackpackSatchelMedical = сумка врача
     .desc = Стерильная сумка, используемая в медицинских отсеках.
     .suffix = { ent-ClothingBackpackSatchel.suffix }
 

@@ -66,7 +66,7 @@ ent-ClothingHeadHelmetERTSecurity = шлем офицера безопаснос
     .desc = Атмосферный шлем, который носят офицеры безопасности отрядов быстрого реагирования Nanotrasen. Имеет красный фонарь.
     .suffix = { ent-ClothingHeadHelmetBasic.suffix }
 
-ent-ClothingHeadHelmetERTMedic = шлем медика ОБР
+ent-ClothingHeadHelmetERTMedic = шлем врача ОБР
     .desc = Атмосферный шлем, который носят медики отрядов быстрого реагирования Nanotrasen. Имеет белый фонарь.
     .suffix = { ent-ClothingHeadHelmetBasic.suffix }
 

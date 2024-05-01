@@ -106,7 +106,7 @@ ent-ClothingHeadHatHoodWinterJani = капюшон зимней куртки у�
     .desc = { ent-ClothingHeadHatHoodWinterBase.desc }
     .suffix = { ent-ClothingHeadHatHoodWinterBase.suffix }
 
-ent-ClothingHeadHatHoodWinterMed = капюшон зимней куртки медика
+ent-ClothingHeadHatHoodWinterMed = капюшон зимней куртки врача
     .desc = { ent-ClothingHeadHatHoodWinterBase.desc }
     .suffix = { ent-ClothingHeadHatHoodWinterBase.suffix }
 

@@ -123,7 +123,7 @@ job-name-centcomoff = Представитель Центкома
 job-name-ertengineer = Инженер ОБР
 job-name-ertjanitor = Уборщик ОБР
 job-name-ertleader = Лидер ОБР
-job-name-ertmedic = Медик ОБР
+job-name-ertmedic = Врач ОБР
 job-name-ertsecurity = Офицер безопасности ОБР
 #
 JobCentralCommandOfficial = { job-name-centcomoff }

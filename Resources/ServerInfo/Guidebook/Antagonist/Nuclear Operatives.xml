@@ -13,7 +13,7 @@
     <GuideEntityEmbed Entity="ClothingOuterHardsuitSyndieCommander" Caption="Скафандр командира"/>
   </Box>
 
-  - [color=#a4885c]Агент Ядерных Оперативников[/color] одет в кроваво-красный медицинский скафандр и может выступать в роли боевого медика во время миссии.
+  - [color=#a4885c]Агент Ядерных Оперативников[/color] одет в кроваво-красный медицинский скафандр и может выступать в роли боевого врача во время миссии.
   <Box>
     <GuideEntityEmbed Entity="ClothingOuterHardsuitSyndieMedic" Caption="Кроваво-красный медицинский скафандр"/>
   </Box>

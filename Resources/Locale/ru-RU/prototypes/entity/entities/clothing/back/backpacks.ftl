@@ -26,7 +26,7 @@ ent-ClothingBackpackAtmospherics = рюкзак атмос-инженера
     .desc = Рюкзак из огнестойких волокон. Пахнет плазмой.
     .suffix = { ent-ClothingBackpack.suffix }
 
-ent-ClothingBackpackMedical = рюкзак медика
+ent-ClothingBackpackMedical = рюкзак врача
     .desc = Это особый рюкзак, разработанный для работы в стерильных условиях.
     .suffix = { ent-ClothingBackpack.suffix }
 
@@ -78,7 +78,7 @@ ent-ClothingBackpackERTSecurity = рюкзак офицера безопасно
     .desc = Вместительный рюкзак с множеством карманов, который носят офицеры безопасности отряда быстрого реагирования.
     .suffix = { ent-ClothingBackpackERTLeader.suffix }
 
-ent-ClothingBackpackERTMedical = рюкзак медика ОБР
+ent-ClothingBackpackERTMedical = рюкзакврача ОБР
     .desc = Вместительный рюкзак с множеством карманов, который носят медики отряда быстрого реагирования.
     .suffix = { ent-ClothingBackpackERTLeader.suffix }
 

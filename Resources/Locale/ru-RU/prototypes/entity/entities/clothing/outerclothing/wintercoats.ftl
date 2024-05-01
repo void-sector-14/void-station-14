@@ -70,7 +70,7 @@ ent-ClothingOuterWinterJani = зимняя куртка уборщика
     .desc = { ent-ClothingOuterWinterCoatToggleable.desc }
     .suffix = { ent-ClothingOuterWinterCoatToggleable.suffix }
 
-ent-ClothingOuterWinterMed = зимняя куртка медика
+ent-ClothingOuterWinterMed = зимняя куртка врача
     .desc = { ent-ClothingOuterWinterCoatToggleable.desc }
     .suffix = { ent-ClothingOuterWinterCoatToggleable.suffix }
 

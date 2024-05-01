@@ -42,7 +42,7 @@ ent-EngineeringIDCard = ID карта инженера
     .desc = { ent-IDCardStandard.desc }
     .suffix = { ent-IDCardStandard.suffix }
 
-ent-MedicalIDCard = ID карта медика
+ent-MedicalIDCard = ID карта врача
     .desc = { ent-IDCardStandard.desc }
     .suffix = { ent-IDCardStandard.suffix }
 

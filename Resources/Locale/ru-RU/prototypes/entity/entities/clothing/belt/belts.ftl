@@ -14,7 +14,7 @@ ent-ClothingBeltJanitor = пояс уборщика
     .desc = Пояс, используемый для хранения основных уборочных принадлежностей.
     .suffix = { ent-ClothingBeltStorageBase.suffix }
 
-ent-ClothingBeltMedical = пояс медика
+ent-ClothingBeltMedical = пояс врача
     .desc = Может вмещать различное медицинское снаряжение.
     .suffix = { "" }
 
@@ -70,7 +70,7 @@ ent-ClothingBeltMilitaryWebbing = армейская РПС
     .desc = Ременно-поясная система тактических ремней, которую носят абордажные группы Синдиката.
     .suffix = { ent-ClothingBeltStorageBase.suffix }
 
-ent-ClothingBeltMilitaryWebbingMed = армейская РПС медика
+ent-ClothingBeltMilitaryWebbingMed = армейская РПСврача
     .desc = Ременно-поясная система тактических ремней, которую носят оперативники-медики Мародёров Горлекса.
     .suffix = { ent-ClothingBeltStorageBase.suffix }
 

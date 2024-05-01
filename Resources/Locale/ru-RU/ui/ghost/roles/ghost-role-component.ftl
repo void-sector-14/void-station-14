@@ -163,7 +163,7 @@ ghost-role-information-ert-engineer-description = Оказывайте соде�
 ghost-role-information-ert-security-name = ОБР Офицер безопасности
 ghost-role-information-ert-security-description = Оказывайте содействие в обеспечении безопасности для решения проблем станции.
 
-ghost-role-information-ert-medical-name = ОБР Медик
+ghost-role-information-ert-medical-name = ОБР Врач
 ghost-role-information-ert-medical-description = Оказывайте содействие в медицинской помощи для решения проблем станции.
 
 ghost-role-information-cburn-agent-name = РХБЗЗ Оперативник
