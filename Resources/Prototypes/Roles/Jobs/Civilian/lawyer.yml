@@ -5,7 +5,7 @@
   playTimeTracker: JobLawyer
   # requirements:
   #   - !type:OverallPlaytimeRequirement
-  #     time: 3600 # 10 hrs
+  #     time: 36000 # 10 hrs
   startingGear: LawyerGear
   icon: "JobIconLawyer"
   supervisors: job-supervisors-magistrate
