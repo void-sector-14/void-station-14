@@ -592,7 +592,7 @@ public sealed partial class ChatSystem : SharedChatSystem
 
         if (checkEmote)
             TryEmoteChatInput(source, action);
-        SendERPRange(ChatChannel.ERP, action, wrappedMessage, source, range, author);
+        SendERPRange(ChatChannel.ERP, action, wrappedMessage, source, ChatTransmitRange.GhostRangeLimit, author);
         if (!hideLog)
             if (name != Name(source))
                 _adminLogger.Add(LogType.Chat, LogImpact.Low, $"ERP emote from {ToPrettyString(source):user} as {name}: {action}");
