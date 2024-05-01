@@ -13,8 +13,8 @@ con-ClothingUniformJumpskirtWeb = { ent-ClothingUniformJumpskirtWeb }
 con-SilkWovenCloth = шелковая ткань
     .desc = На ощупь, как ни странно, совсем как ткань.
 
-con-WebShield = web shield
-    .desc = It's thick enough to handle a few blows, but probably not heat.
+con-WebShield = { ent-WebShield }
+    .desc = Он достаточно толстый, чтобы выдержать несколько ударов, но вряд ли переживет огонь.
 
-con-ClothingShoesBootsWinterWeb = web winter boots
-    .desc = Tightly woven web should protect against the cold
+con-ClothingShoesBootsWinterWeb = { ent-ClothingShoesBootsWinterWeb }
+    .desc = Плотно сплетенная паутина должна защитить от холода.
