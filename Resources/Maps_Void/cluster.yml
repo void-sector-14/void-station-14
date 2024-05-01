@@ -58385,7 +58385,7 @@ entities:
     - type: Transform
       pos: 32.5,-16.5
       parent: 2
-- proto: LockerBlueShield
+- proto: LockerBlueShieldFilled
   entities:
   - uid: 8783
     components:
