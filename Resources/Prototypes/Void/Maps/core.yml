@@ -54,6 +54,7 @@
             Warden: [ 1, 1 ]
             SecurityCadet: [ 1, 1 ]
             Detective: [ 1, 1 ]
+            Brigmedic: [ 1, 1 ]
             #supply
             CargoTechnician: [ 3, 3 ]
             Quartermaster: [ 1, 1 ]
