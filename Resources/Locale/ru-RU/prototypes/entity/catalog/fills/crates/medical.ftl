@@ -22,7 +22,7 @@ ent-CrateMedicalScrubs = ящик медицинских роб
     .desc = Врачебная одежда.
     .suffix = { "" }
 
-ent-CrateEmergencyBurnKit = аварийный набор лечения физических травм
+ent-CrateEmergencyBurnKit = аварийный набор лечения ожогов
     .desc = Ящик, содержащий набор для лечения физических травм.
     .suffix = { "" }
 

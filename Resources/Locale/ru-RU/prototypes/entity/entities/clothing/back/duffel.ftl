@@ -10,7 +10,7 @@ ent-ClothingBackpackDuffelAtmospherics = вещмешок атмос-инжен�
     .desc = Большой вещмешок из огнестойких волокон. Пахнет плазмой.
     .suffix = { ent-ClothingBackpackDuffel.suffix }
 
-ent-ClothingBackpackDuffelMedical = вещмешок медика
+ent-ClothingBackpackDuffelMedical = вещмешок врача
     .desc = Большой вещмешок для хранения дополнительных медицинских припасов.
     .suffix = { ent-ClothingBackpackDuffel.suffix }
 

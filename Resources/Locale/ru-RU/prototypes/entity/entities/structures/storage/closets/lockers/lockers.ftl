@@ -58,7 +58,7 @@ ent-LockerMedicine = шкаф для медикаментов
     .desc = Битком набит медицинскими штуками.
     .suffix = { "" }
 
-ent-LockerMedical = шкаф медика
+ent-LockerMedical = шкаф врача
     .desc = { ent-LockerBase.desc }
     .suffix = { "" }
 

@@ -106,7 +106,7 @@ ent-ClothingHeadHelmetHardsuitERTEngineer = шлем скафандра инже
     .desc = { ent-ClothingHeadHelmetHardsuitERTLeader.desc }
     .suffix = { ent-ClothingHeadHelmetHardsuitSyndie.suffix }
 
-ent-ClothingHeadHelmetHardsuitERTMedical = шлем скафандра медика ОБР
+ent-ClothingHeadHelmetHardsuitERTMedical = шлем скафандра врача ОБР
     .desc = { ent-ClothingHeadHelmetHardsuitERTLeader.desc }
     .suffix = { ent-ClothingHeadHelmetHardsuitSyndieElite.suffix }
 

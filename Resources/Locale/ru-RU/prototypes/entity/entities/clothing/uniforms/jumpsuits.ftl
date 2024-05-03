@@ -334,7 +334,7 @@ ent-ClothingUniformJumpsuitERTLeader = униформа лидера ОБР
     .desc = Специальный костюм, созданный для самой элиты Центкома.
     .suffix = { ent-ClothingUniformBase.suffix }
 
-ent-ClothingUniformJumpsuitERTMedic = униформа медика ОБР
+ent-ClothingUniformJumpsuitERTMedic = униформа врача ОБР
     .desc = Специальный костюм, созданный для элитных медиков Центкома.
     .suffix = { ent-ClothingUniformBase.suffix }
 

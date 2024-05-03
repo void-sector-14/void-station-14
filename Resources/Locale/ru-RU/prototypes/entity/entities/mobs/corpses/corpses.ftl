@@ -12,7 +12,7 @@ ent-MobRandomCargoCorpse = { ent-SalvageHumanCorpse }
 
 ent-MobRandomMedicCorpse = { ent-SalvageHumanCorpse }
     .desc = { ent-SalvageHumanCorpse.desc }
-    .suffix = Мёртвый, Медик
+    .suffix = Мёртвый, Врач
 
 ent-MobRandomScienceCorpse = { ent-SalvageHumanCorpse }
     .desc = { ent-SalvageHumanCorpse.desc }

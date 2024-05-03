@@ -170,7 +170,7 @@ ent-SpawnPointERTEngineer = инженер ОБР
     .desc = { ent-SpawnPointJobBase.desc }
     .suffix = { ent-SpawnPointJobBase.suffix }
 
-ent-SpawnPointERTMedical = медик ОБР
+ent-SpawnPointERTMedical = врач ОБР
     .desc = { ent-SpawnPointJobBase.desc }
     .suffix = { ent-SpawnPointJobBase.suffix }
 
