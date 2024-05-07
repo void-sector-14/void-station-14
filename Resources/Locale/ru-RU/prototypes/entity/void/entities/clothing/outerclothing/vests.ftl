@@ -1,7 +1,7 @@
-ent-ClothingOuterVestStorekeeper = желетка кладовщика
+ent-ClothingOuterVestStorekeeper = жилетка кладовщика
     .desc = Стильная и строгая.
     .suffix = { ent-ClothingOuterBase.suffix }
 
-ent-ClothingOuterVestKevlarCent = фирменный кевларовый желет Центкома
-    .desc = Фиг пробьёшь.
+ent-ClothingOuterVestKevlarCent = фирменный бронежилет Центкома
+    .desc = Стоит как три станции.
     .suffix = { ent-ClothingOuterBase.suffix }

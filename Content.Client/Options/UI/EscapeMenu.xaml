@@ -9,6 +9,7 @@
         <changelog:ChangelogButton Access="Public" Name="ChangelogButton"/>
         <ui:VoteCallMenuButton />
         <Button Access="Public" Name="OptionsButton" Text="{Loc 'ui-escape-options'}" />
+        <Button Access="Public" Name="DiscordButton" Text="{Loc 'ui-escape-discord'}" />
         <Button Access="Public" Name="RulesButton" Text="{Loc 'ui-escape-rules'}" />
         <Button Access="Public" Name="GuidebookButton" Text="{Loc 'ui-escape-guidebook'}" />
         <Button Access="Public" Name="WikiButton" Text="{Loc 'ui-escape-wiki'}" />
