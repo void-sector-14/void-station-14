@@ -1,5 +1,5 @@
 news-read-ui-next-text = След.
-news-read-ui-past-text = Пред.
+news-read-ui-prev-text = Пред.
 news-read-ui-default-title = Новости станции
 news-read-ui-notification-off = ̶♫̶
 news-read-ui-notification-on = ♫
