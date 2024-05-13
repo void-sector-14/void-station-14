@@ -3,7 +3,7 @@ ent-BaseEnergyBall = { "" }
     .suffix = { "" }
 
 ent-TeslaEnergyBall = шаровая молния
-    .desc = A giant ball of pure energy. The space around it is humming and melting.
+    .desc = Огромнй шар чистой энергии. Пространство вокруг гудит и искрит.
     .suffix = { "" }
 
 ent-TeslaMiniEnergyBall = маленькая шаровая молния

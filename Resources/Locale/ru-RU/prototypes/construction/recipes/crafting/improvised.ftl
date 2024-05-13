@@ -22,12 +22,6 @@ con-gauze = марля
 con-blindfold = повязка на глаза
     .desc = Лучше надейся, что все закроют глаза на то, что ты создаешь этот необычный предмет...
 
-con-hairflower = цветок для волос
-    .desc = Красный цветок для прекрасных леди.
-
-con-flowercrown = цветочная корона
-    .desc = Венец из свежих и ароматных цветов.
-
 con-flowerwreath = { ent-ClothingHeadHatFlowerWreath }
     .desc = { ent-ClothingHeadHatFlowerWreath.desc }
 

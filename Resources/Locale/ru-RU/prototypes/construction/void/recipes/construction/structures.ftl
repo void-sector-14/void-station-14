@@ -16,15 +16,6 @@ con-DefibrillatorCabinetRecipe = шкаф для дефибриллятора
 con-FireAxeCabinetRecipe = шкаф для пожарного топора
     .desc = Небольшая табличка гласит "Только для экстренных случаев" и содержит инструкцию по безопасной эксплуатации топора. Ага, конечно.
 
-con-filingCabinet = картотечный шкаф
-    .desc = Шкаф для хранения документов.
-
-con-filingCabinetTall = высокий шкаф
-    .desc = Шкаф для хранения документов.
-
-con-filingCabinetDrawer = комод
-    .desc = Маленький шкафчик для хранения предметов. Теперь на колёсиках!
-
 con-AirlockExternal = { ent-AirlockExternal }
     .desc = { ent-AirlockExternal.desc }
 

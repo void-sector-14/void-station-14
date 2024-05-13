@@ -1,11 +1,11 @@
-ent-OrganBloodsuckerStomach = stomach
+ent-OrganBloodsuckerStomach = желудок
     .desc = { "" }
     .suffix = { "" }
 
-ent-OrganBloodsuckerLiver = liver
+ent-OrganBloodsuckerLiver = печень
     .desc = { "" }
     .suffix = { "" }
 
-ent-OrganBloodsuckerHeart = heart
+ent-OrganBloodsuckerHeart = сердце
     .desc = { "" }
     .suffix = { "" }

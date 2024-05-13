@@ -454,6 +454,10 @@ ent-AirlockMaintResearchDirectorLocked = { ent-AirlockMaint }
     .desc = { ent-AirlockMaint.desc }
     .suffix = НаучныйРуководитель, Закрыт
 
+ent-AirlockMaintQuartermasterLocked = { ent-AirlockMaintCommandLocked }
+    .desc = { ent-AirlockMaintCommandLocked.desc }
+    .suffix = Квартирмейстер, Закрыт
+
 ent-AirlockMaintArmoryLocked = { ent-AirlockMaint }
     .desc = { ent-AirlockMaint.desc }
     .suffix = Оружейный, Закрыт

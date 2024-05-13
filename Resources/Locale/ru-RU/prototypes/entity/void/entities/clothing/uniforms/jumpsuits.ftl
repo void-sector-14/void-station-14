@@ -9,3 +9,7 @@ ent-ClothingUniformJumpsuitBlacksm = черный смокинг
 ent-ClothingUniformJumpsuitWhitesm = белый смокинг
     .desc = Красивый белый смокинг для важных мероприятий.
     .suffix = { ent-ClothingUniformBase.suffix }
+
+ent-ClothingUniformJumpsuitBlueshield = комбинезон офицера синего щита
+    .desc = Влагоотталкивающий, чтобы не запачкать кровью.
+    .suffix = { "" }

@@ -38,6 +38,10 @@ ent-ClothingBackpackHOPFilled = { ent-ClothingBackpack }
     .desc = { ent-ClothingBackpack.desc }
     .suffix = { "" }
 
+ent-ClothingBackpackHOPIanFilled = { ent-ClothingBackpackIan }
+    .desc = { ent-ClothingBackpackIan.desc }
+    .suffix = { "" }
+
 ent-ClothingBackpackCMOFilled = { ent-ClothingBackpackMedical }
     .desc = { ent-ClothingBackpackMedical.desc }
     .suffix = { "" }
