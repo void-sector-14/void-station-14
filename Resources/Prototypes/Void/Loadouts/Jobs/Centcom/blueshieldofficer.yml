@@ -9,7 +9,7 @@
 
 - type: loadout
   id: BlueshieldStachel
-  equipment: BlueshieldBackpack
+  equipment: BlueshieldStachel
 
 - type: startingGear
   id: BlueshieldSatchel
@@ -18,7 +18,7 @@
 
 - type: loadout
   id: BlueshieldDuffel
-  equipment: BlueshieldBackpack
+  equipment: BlueshieldDuffel
 
 - type: startingGear
   id: BlueshieldDuffel

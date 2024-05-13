@@ -9,7 +9,7 @@
 
 - type: loadout
   id: MagistrateStachel
-  equipment: MagistrateBackpack
+  equipment: MagistrateStachel
 
 - type: startingGear
   id: MagistrateSatchel
@@ -18,7 +18,7 @@
 
 - type: loadout
   id: MagistrateDuffel
-  equipment: MagistrateBackpack
+  equipment: MagistrateDuffel
 
 - type: startingGear
   id: MagistrateDuffel

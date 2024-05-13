@@ -9,7 +9,7 @@
 
 - type: loadout
   id: IAAStachel
-  equipment: IAABackpack
+  equipment: IAASatchel
 
 - type: startingGear
   id: IAASatchel
@@ -18,7 +18,7 @@
 
 - type: loadout
   id: IAADuffel
-  equipment: IAABackpack
+  equipment: IAADuffel
 
 - type: startingGear
   id: IAADuffel

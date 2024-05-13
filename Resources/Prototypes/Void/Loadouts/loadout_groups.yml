@@ -19,7 +19,7 @@
 # Legal
 - type: loadoutGroup
   id: IAABackpack
-  name: loadout-group-brigmedic-backpack
+  name: loadout-group-iaa-backpack
   loadouts:
   - IAABackpack
   - IAASatchel
@@ -27,7 +27,7 @@
 
 - type: loadoutGroup
   id: MagistrateBackpack
-  name: loadout-group-brigmedic-backpack
+  name: loadout-group-magistrate-backpack
   loadouts:
   - MagistrateBackpack
   - MagistrateSatchel

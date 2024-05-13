@@ -25,7 +25,6 @@
 - type: startingGear
   id: IAAGear
   equipment:
-    jumpsuit: ClothingUniformJumpsuitLawyerBlack  # TODO change jumpsuit to randomiser of the 4 variants # ignoring this since loadouts are gonna be out soon
     shoes: ClothingShoesBootsLaceup
     eyes: ClothingEyesGlassesSunglasses
     id: IAAPDA
@@ -33,4 +32,3 @@
     # TODO add copy of space law
   inhand:
     - BriefcaseBrownFilled
-  innerClothingSkirt: ClothingUniformJumpskirtLawyerBlack

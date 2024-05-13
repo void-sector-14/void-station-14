@@ -1,6 +1,6 @@
 # Centcom
 - type: roleLoadout
-  id: JobBlueshield
+  id: JobBlueShieldOfficer
   groups:
   - BlueshieldBackpack
   - Trinkets
