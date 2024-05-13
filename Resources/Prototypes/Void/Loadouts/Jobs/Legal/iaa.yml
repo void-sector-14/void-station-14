@@ -8,13 +8,13 @@
     back: ClothingBackpackIAAFilled
 
 - type: loadout
-  id: IAAStachel
+  id: IAASatchel
   equipment: IAASatchel
 
 - type: startingGear
   id: IAASatchel
   equipment:
-    back: ClothingBackpackStachelIAAFilled
+    back: ClothingBackpackSatchelIAAFilled
 
 - type: loadout
   id: IAADuffel

@@ -8,13 +8,13 @@
     back: ClothingBackpackMagistrateFilled
 
 - type: loadout
-  id: MagistrateStachel
-  equipment: MagistrateStachel
+  id: MagistrateSatchel
+  equipment: MagistrateSatchel
 
 - type: startingGear
   id: MagistrateSatchel
   equipment:
-    back: ClothingBackpackStachelMagistrateFilled
+    back: ClothingBackpackSatchelMagistrateFilled
 
 - type: loadout
   id: MagistrateDuffel
