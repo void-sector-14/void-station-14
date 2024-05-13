@@ -69,7 +69,7 @@
   groups:
   - LawyerNeck
   - LawyerJumpsuit
-  - CommonBackpack
+  - LawyerBackpack
   - Trinkets
 
 - type: roleLoadout
