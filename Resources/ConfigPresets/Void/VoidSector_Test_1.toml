@@ -71,6 +71,9 @@ enable_during_round = true
 [looc]
 enabled_crit = true
 
+[chat]
+max_announcement_length = 1024
+
 [ic]
 flavor_text = true
 
