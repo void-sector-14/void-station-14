@@ -14,7 +14,7 @@ ent-OrganAnimalStomach = желудок
     .desc = { ent-BaseAnimalOrgan.desc }
     .suffix = { "" }
 
-ent-OrganMouseStomach = stomach
+ent-OrganMouseStomach = желудок
     .desc = { "" }
     .suffix = { "" }
 

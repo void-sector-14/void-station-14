@@ -18,10 +18,6 @@ ent-ClothingBackpackSatchelSecurityFilledDetective = { ent-ClothingBackpackSatch
     .desc = { ent-ClothingBackpackSatchelSecurity.desc }
     .suffix = { "" }
 
-ent-ClothingBackpackSatchelBrigmedicFilled = { ent-ClothingBackpackSatchelBrigmedic }
-    .desc = { ent-ClothingBackpackSatchelBrigmedic.desc }
-    .suffix = { "" }
-
 ent-ClothingBackpackSatchelMedicalFilled = { ent-ClothingBackpackSatchelMedical }
     .desc = { ent-ClothingBackpackSatchelMedical.desc }
     .suffix = { "" }

@@ -81,6 +81,9 @@ enable_during_round = false
 [looc]
 enabled_crit = true
 
+[chat]
+max_announcement_length = 1024
+
 [ic]
 flavor_text = true
 
@@ -100,3 +103,5 @@ min_players = 15
 ahelp_webhook = "https://discord.com/api/webhooks/1212462166574112768/DHvqrMihrQHcvo5j8bp0tJhZ4U_728r4FWvTSTZsCwUu74UcG3lyL6g7QtmwaV0UiCoV"
 ahelp_avatar = "https://i.imgur.com/e9AMvev.png"
 ahelp_footer_icon = "https://i.imgur.com/e9AMvev.png"
+round_update_webhook = "https://discord.com/api/webhooks/1239615872306249768/9hsb7zbcWYvKOEffN5TFWdfNVfHtcFMGaNgmbOgbPaUtEY6FyBIhH11tivIjj8xrA9b5"
+round_end_role = "1239615123732299897"

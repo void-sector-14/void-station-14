@@ -321,3 +321,7 @@ ent-ShuttleGunKineticCircuitboard = PTK-800 "Дематериализатор м
 ent-ReagentGrinderIndustrialMachineCircuitboard = индустриальный измельчитель реагентов (машинная плата)
     .desc = { "" }
     .suffix = { ent-BaseMachineCircuitboard.suffix }
+
+ent-JukeboxCircuitBoard = музыкальный автомат (машинная плата)
+    .desc = Печатная плата для музыкального автомата.
+    .suffix = { ent-BaseMachineCircuitboard.suffix }

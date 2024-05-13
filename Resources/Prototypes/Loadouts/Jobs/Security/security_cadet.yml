@@ -1,0 +1,27 @@
+# Jumpsuit
+- type: loadout
+  id: GreyJumpsuitSec
+  equipment: GreyJumpsuitSec
+
+- type: startingGear
+  id: GreyJumpsuitSec
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitSecGrey
+
+- type: loadout
+  id: GreyJumpskirtSec
+  equipment: GreyJumpskirtSec
+
+- type: startingGear
+  id: GreyJumpskirtSec
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtSecGrey
+
+- type: loadout
+  id: BlueJumpsuit
+  equipment: BlueJumpsuit
+
+- type: startingGear
+  id: BlueJumpsuit
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitSecBlue

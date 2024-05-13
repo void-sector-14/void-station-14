@@ -444,6 +444,7 @@
       - MassMediaCircuitboard
       - FanTinyElectronics
       - ReagentGrinderIndustrialMachineCircuitboard
+      - JukeboxCircuitBoard
   - type: MaterialStorage
     whitelist:
       tags:

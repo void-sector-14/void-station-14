@@ -1,0 +1,34 @@
+# Centcom
+- type: loadoutGroup
+  id: BlueshieldBackpack
+  name: loadout-group-blueshield-backpack
+  loadouts:
+  - BlueshieldBackpack
+  - BlueshieldSatchel
+  - BlueshieldDuffel
+
+# Security
+- type: loadoutGroup
+  id: BrigmedicBackpack
+  name: loadout-group-brigmedic-backpack
+  loadouts:
+  - BrigmedicBackpack
+  - BrigmedicSatchel
+  - BrigmedicDuffel
+
+# Legal
+- type: loadoutGroup
+  id: IAABackpack
+  name: loadout-group-iaa-backpack
+  loadouts:
+  - IAABackpack
+  - IAASatchel
+  - IAADuffel
+
+- type: loadoutGroup
+  id: MagistrateBackpack
+  name: loadout-group-magistrate-backpack
+  loadouts:
+  - MagistrateBackpack
+  - MagistrateSatchel
+  - MagistrateDuffel

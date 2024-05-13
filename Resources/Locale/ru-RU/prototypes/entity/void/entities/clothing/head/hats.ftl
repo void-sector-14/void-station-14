@@ -13,3 +13,7 @@ ent-ClothingHeadHatCowboy = ковбойская шляпа
 ent-ClothingHeadOldFedora = старая федора
     .desc = выглядит старой и помятой
     .suffix = { "" }
+
+ent-ClothingHeadHatBeretBlueshield = берет офицера синего щита
+    .desc = Берет темно-синего цвета с эмблемой командования. Для офицеров, которые больше думают о безопасности других людей, чем о своей.
+    .suffix = { "" }

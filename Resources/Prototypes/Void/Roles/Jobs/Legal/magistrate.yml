@@ -26,8 +26,6 @@
 - type: startingGear
   id: MagistrateGear
   equipment:
-    jumpsuit: ClothingUniformJumpsuitLawyerRed  # TODO change jumpsuit to randomiser of the 4 variants # ignoring this since loadouts are gonna be out soon
-    back: ClothingBackpackMagistrateFilled
     shoes: ClothingShoesBootsLaceup
     eyes: ClothingEyesGlassesSunglasses
     id: MagistratePDA
@@ -35,6 +33,3 @@
     # TODO add copy of space law
   inhand:
     - BriefcaseBrownFilled
-  innerClothingSkirt: ClothingUniformJumpskirtLawyerRed
-  satchel: ClothingBackpackSatchelMagistrateFilled
-  duffelbag: ClothingBackpackDuffelMagistrateFilled

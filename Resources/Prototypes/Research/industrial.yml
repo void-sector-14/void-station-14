@@ -191,6 +191,19 @@
     - BorgModuleAdvancedTool
     - BorgModuleRCD
 
+- type: technology
+  id: AdvancedCompactPower
+  name: research-technology-compact-power
+  icon:
+    sprite: Structures/Power/substation.rsi
+    state: substation_wall
+  discipline: Industrial
+  tier: 2
+  cost: 10000
+  recipeUnlocks:
+    - WallmountGeneratorElectronics
+    - WallmountGeneratorAPUElectronics
+    - WallmountSubstationElectronics
 # Tier 3
 
 - type: technology
