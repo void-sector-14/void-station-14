@@ -47,7 +47,7 @@
   id: Laugh
   name: chat-emote-name-laugh
   category: Vocal
-  icon: Interface/Actions/scream.png
+  icon: Interface/Emotes/laugh.png
   whitelist:
     components:
     - Vocal
@@ -96,7 +96,7 @@
   id: Honk
   name: chat-emote-name-honk
   category: Vocal
-  icon: Interface/Actions/scream.png
+  icon: Interface/Emotes/honk.png
   whitelist:
     requireAll: true
     components:
@@ -133,7 +133,7 @@
   id: Sigh
   name: chat-emote-name-sigh
   category: Vocal
-  icon: Interface/Actions/scream.png
+  icon: Interface/Emotes/sigh.png
   whitelist:
     components:
     - Vocal
@@ -159,7 +159,7 @@
   id: Whistle
   name: chat-emote-name-whistle
   category: Vocal
-  icon: Interface/Actions/scream.png
+  icon: Interface/Emotes/whistle.png
   whitelist:
     components:
     - Vocal
@@ -191,7 +191,7 @@
   id: Crying
   name: chat-emote-name-crying
   category: Vocal
-  icon: Interface/Actions/scream.png
+  icon: Interface/Emotes/cry.png
   whitelist:
     components:
     - Vocal
@@ -232,7 +232,7 @@
   name: chat-emote-name-squish
   category: Vocal
   available: false
-  icon: Interface/Actions/scream.png
+  icon: Interface/Emotes/squish.png
   whitelist:
     components:
     - Vocal
@@ -265,7 +265,7 @@
   name: chat-emote-name-chitter
   category: Vocal
   available: false
-  icon: Interface/Actions/scream.png
+  icon: Interface/Emotes/chitter.png
   whitelist:
     components:
     - Vocal
@@ -295,6 +295,7 @@
   name: chat-emote-name-squeak
   category: Vocal
   available: false
+  icon: Interface/Emotes/squeak.png
   whitelist:
     components:
       - Vocal
@@ -321,7 +322,7 @@
   name: chat-emote-name-click
   category: Vocal
   available: false
-  icon: Interface/Actions/scream.png
+  icon: Interface/Emotes/click.png
   whitelist:
     components:
     - Vocal
@@ -348,7 +349,7 @@
   id: Clap
   name: chat-emote-name-clap
   category: Hands
-  icon: Interface/Actions/scream.png
+  icon: Interface/Emotes/clap.png
   whitelist:
     components:
     - Hands
@@ -381,7 +382,7 @@
   id: Snap
   name: chat-emote-name-snap
   category: Hands
-  icon: Interface/Actions/scream.png
+  icon: Interface/Emotes/snap.png
   whitelist:
     components:
     - Hands
@@ -420,7 +421,7 @@
   id: Salute
   name: chat-emote-name-salute
   category: Hands
-  icon: Interface/Actions/scream.png
+  icon: Interface/Emotes/salute.png
   whitelist:
     components:
     - Hands
@@ -454,7 +455,7 @@
 - type: emote
   id: DefaultDeathgasp
   name: chat-emote-name-deathgasp
-  icon: Interface/Actions/scream.png
+  icon: Interface/Emotes/deathgasp.png
   whitelist:
     components:
     - MobState
@@ -465,14 +466,14 @@
 - type: emote
   id: MonkeyDeathgasp
   name: chat-emote-name-deathgasp
-  icon: Interface/Actions/scream.png
+  icon: Interface/Emotes/deathgasp.png
   chatMessages: ["chat-emote-msg-deathgasp-monkey"]
 
 - type: emote
   id: Buzz
   name: chat-emote-name-buzz
   category: Vocal
-  icon: Interface/Actions/scream.png
+  icon: Interface/Emotes/buzz.png
   whitelist:
     requireAll: true
     components:
@@ -509,13 +510,14 @@
   id: Weh
   name: chat-emote-name-weh
   category: Vocal
+  icon: Interface/Emotes/weh.png
   chatMessages: [издаёт вех!]
 
 - type: emote
   id: Chirp
   name: chat-emote-name-chirp
   category: Vocal
-  icon: Interface/Actions/scream.png
+  icon: Interface/Emotes/chirp.png
   whitelist:
     requireAll: true
     components:
@@ -546,7 +548,7 @@
   id: Beep
   name: chat-emote-name-beep
   category: Vocal
-  icon: Interface/Actions/scream.png
+  icon: Interface/Emotes/beep.png
   whitelist:
     requireAll: true
     components:
@@ -574,7 +576,7 @@
   id: Chime
   name: chat-emote-name-chime
   category: Vocal
-  icon: Interface/Actions/scream.png
+  icon: Interface/Emotes/chime.png
   whitelist:
     requireAll: true
     components:
@@ -602,7 +604,7 @@
   id: Buzz-Two
   name: chat-emote-name-buzztwo
   category: Vocal
-  icon: Interface/Actions/scream.png
+  icon: Interface/Emotes/buzztwo.png
   whitelist:
     requireAll: true
     components:
@@ -663,7 +665,7 @@
   id: Ping
   name: chat-emote-name-ping
   category: Vocal
-  icon: Interface/Actions/scream.png
+  icon: Interface/Emotes/ping.png
   whitelist:
     requireAll: true
     components:
