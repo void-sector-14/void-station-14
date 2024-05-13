@@ -27,7 +27,6 @@
   id: MagistrateGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitLawyerRed  # TODO change jumpsuit to randomiser of the 4 variants # ignoring this since loadouts are gonna be out soon
-    back: ClothingBackpackMagistrateFilled
     shoes: ClothingShoesBootsLaceup
     eyes: ClothingEyesGlassesSunglasses
     id: MagistratePDA
@@ -36,5 +35,3 @@
   inhand:
     - BriefcaseBrownFilled
   innerClothingSkirt: ClothingUniformJumpskirtLawyerRed
-  satchel: ClothingBackpackSatchelMagistrateFilled
-  duffelbag: ClothingBackpackDuffelMagistrateFilled

@@ -1,0 +1,26 @@
+- type: loadout
+  id: BrigmedicBackpack
+  equipment: BrigmedicBackpack
+
+- type: startingGear
+  id: BrigmedicBackpack
+  equipment:
+    back: ClothingBackpackBrigmedicFilled
+
+- type: loadout
+  id: BrigmedicStachel
+  equipment: BrigmedicBackpack
+
+- type: startingGear
+  id: BrigmedicSatchel
+  equipment:
+    back: ClothingBackpackStachelBrigmedicFilled
+
+- type: loadout
+  id: BrigmedicDuffel
+  equipment: BrigmedicBackpack
+
+- type: startingGear
+  id: BrigmedicDuffel
+  equipment:
+    back: ClothingBackpackDuffelBrigmedicFilled

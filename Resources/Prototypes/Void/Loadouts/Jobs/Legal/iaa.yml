@@ -1,0 +1,26 @@
+- type: loadout
+  id: IAABackpack
+  equipment: IAABackpack
+
+- type: startingGear
+  id: IAABackpack
+  equipment:
+    back: ClothingBackpackIAAFilled
+
+- type: loadout
+  id: IAAStachel
+  equipment: IAABackpack
+
+- type: startingGear
+  id: IAASatchel
+  equipment:
+    back: ClothingBackpackStachelIAAFilled
+
+- type: loadout
+  id: IAADuffel
+  equipment: IAABackpack
+
+- type: startingGear
+  id: IAADuffel
+  equipment:
+    back: ClothingBackpackDuffelIAAFilled
