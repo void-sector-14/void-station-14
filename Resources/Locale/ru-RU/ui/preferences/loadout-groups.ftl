@@ -28,9 +28,6 @@ loadout-group-chef-mask = Шеф-повар, маска
 loadout-group-chef-jumpsuit = Шеф-повар, комбинезон
 loadout-group-chef-outerclothing = Шеф-повар, верхняя одежда
 loadout-group-librarian-jumpsuit = Библиотекарь, комбинезон
-loadout-group-lawyer-jumpsuit = Адвокат, комбинезон
-loadout-group-lawyer-neck = Адвокат, шея
-loadout-group-lawyer-backpack = Lawyer backpack
 loadout-group-chaplain-head = Священник, голова
 loadout-group-chaplain-mask = Священник, маска
 loadout-group-chaplain-jumpsuit = Священник, комбинезон
@@ -131,6 +128,7 @@ loadout-group-detective-jumpsuit = Детектив, комбинезон
 loadout-group-detective-backpack = Детектив, рюкзак
 loadout-group-detective-outerclothing = Детектив, верхняя одежда
 loadout-group-security-cadet-jumpsuit = Кадет СБ, комбинезон
+loadout-group-brigmedic = Бригмедик, рюкзак
 
 # Medical
 loadout-group-medical-gloves = Медицинский отдел, перчатки
@@ -161,3 +159,13 @@ loadout-group-paramedic-backpack = Парамедик, рюкзак
 loadout-group-reporter-jumpsuit = Репортёр, комбинезон
 loadout-group-boxer-jumpsuit = Боксёр, комбинезон
 loadout-group-boxer-gloves = Боксёр, перчатки
+
+# Legal
+loadout-group-lawyer-jumpsuit = Юрист, комбинезон
+loadout-group-lawyer-neck = Юрист, шея
+loadout-group-lawyer-backpack = Юрист, рюкзак
+loadout-group-iaa-backpack = АВД, рюкзак
+loadout-group-magistrate-backpack = Магистрат, рюкзак
+
+# Centcom
+loadout-group-blueshield-backpack = Синий Щит, рюкзак
