@@ -6,17 +6,6 @@
   maxLimit: 3
   loadouts:
   - PlushieLizard
-  - ClothingNeckLGBTPin
-  - ClothingNeckAromanticPin
-  - ClothingNeckAsexualPin
-  - ClothingNeckBisexualPin
-  - ClothingNeckIntersexPin
-  - ClothingNeckLesbianPin
-  - ClothingNeckNonBinaryPin
-  - ClothingNeckPansexualPin
-  - ClothingNeckTransPin
-  - ClothingNeckAutismPin
-  - ClothingNeckGoldAutismPin
 
 # Command
 - type: loadoutGroup
@@ -931,8 +920,9 @@
   id: SecurityCadetJumpsuit
   name: loadout-group-security-cadet-jumpsuit
   loadouts:
-  - RedJumpsuit
-  - RedJumpskirt
+  - GreyJumpsuit
+  - GreyJumpskirt
+  - BlueJumpsuit
 
 # Medical
 - type: loadoutGroup
