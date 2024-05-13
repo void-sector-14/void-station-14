@@ -85,3 +85,10 @@ min_players = 10
 
 [pirates]
 min_players = 15
+
+################################################################################
+##### Discord ##################################################################
+
+[discord]
+round_update_webhook = https://discord.com/api/webhooks/1212438781932871700/BsbGL4rRv1Z7Pka-tRxubqcvFUroNVzxD7XaIGmVNs1gWJWrQzJ423wP3ObI9yi-0LIt
+round_end_role = Главный разработчик
