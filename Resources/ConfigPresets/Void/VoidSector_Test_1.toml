@@ -90,5 +90,5 @@ min_players = 15
 ##### Discord ##################################################################
 
 [discord]
-round_update_webhook = "https://discord.com/api/webhooks/1212438781932871700/BsbGL4rRv1Z7Pka-tRxubqcvFUroNVzxD7XaIGmVNs1gWJWrQzJ423wP3ObI9yi-0LIt"
-round_end_role = "1210245685052575764"
+round_update_webhook = "https://discord.com/api/webhooks/1239615872306249768/9hsb7zbcWYvKOEffN5TFWdfNVfHtcFMGaNgmbOgbPaUtEY6FyBIhH11tivIjj8xrA9b5"
+round_end_role = "1239615123732299897"
