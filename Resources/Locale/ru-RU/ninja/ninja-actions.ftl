@@ -3,3 +3,4 @@ ninja-revealed = Вас раскрыли!
 ninja-suit-cooldown = Костюму нужно время, чтобы восстановиться после последней атаки.
 ninja-research-steal-fail = Ни одна новая исследовательская нода не была украдена...
 ninja-research-steal-success = Украдено { $count } новых нод из { $server }.
+ninja-criminal-records-hack-announcement = ERROR: Criminal records has detected a [REDACTED] error #*;"

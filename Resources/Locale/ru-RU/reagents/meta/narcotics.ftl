@@ -24,5 +24,7 @@ reagent-name-mute-toxin = токсин немоты
 reagent-desc-mute-toxin = Лишает Вас возможности разговаривать пока в организме.
 reagent-name-norepinephric-acid = норадреналинованая кислота
 reagent-desc-norepinephric-acid = Делает Вас не способным видеть во время метаболизма
+reagent-name-happiness = happiness
+reagent-desc-happiness = Fills you with ecstatic numbness and causes minor brain damage. Highly addictive. If overdosed causes sudden mood swings.
 reagent-name-tear-gas = слезоточивый газ
 reagent-desc-tear-gas = Химическое вещество, вызывающее слёзы и сильное раздражение, обычно используется для подавления массовых беспорядков.

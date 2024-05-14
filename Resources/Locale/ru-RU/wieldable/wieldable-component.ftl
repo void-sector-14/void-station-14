@@ -15,3 +15,4 @@ wieldable-component-not-enough-free-hands =
     }.
 wieldable-component-not-in-hands = { CAPITALIZE($item) } не в Ваших руках!
 wieldable-component-requires = { CAPITALIZE(THE($item)) } должен быть взят в руки!
+gunwieldbonus-component-examine = This weapon has improved accuracy when wielded.

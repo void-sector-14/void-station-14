@@ -10,3 +10,5 @@ ent-NinjaSurviveObjective = Выжить
     .desc = Вы были бы не очень хорошим ниндзя, если бы умерли, не так ли?
 ent-TerrorObjective = Вызвать угрозу
     .desc = Используйте свои перчатки на коммуникационной консоли, чтобы навести очередную угрозу на станцию.
+ent-MassArrestObjective = Set everyone to wanted
+    .desc = Use your gloves to hack a criminal records console, setting the entire station to be wanted!

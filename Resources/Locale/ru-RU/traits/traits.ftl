@@ -1,5 +1,7 @@
 trait-blindness-name = Слепота
 trait-blindness-desc = Вы слепы и не можете видеть дальше нескольких метров перед собой.
+trait-poor-vision-name = Short-sighted
+trait-poor-vision-desc = Your eyes are not what they once were, you have difficulty seeing things far away without corrective glasses.
 trait-narcolepsy-name = Нарколепсия
 trait-narcolepsy-desc = Вас одолевают приступы сонливости
 trait-pacifist-name = Пацифист
@@ -23,5 +25,7 @@ trait-southern-name = Южный говор
 trait-southern-desc = У вас другая манера речи.
 trait-snoring-name = Храпение
 trait-snoring-desc = Вы будете храпеть во время сна.
+trait-liar-name = Pathological liar
+trait-liar-desc = You can hardly bring yourself to tell the truth. Sometimes you lie anyway.
 trait-socialanxiety-name = Социофобия
 trait-socialanxiety-desc = Вы волнуетесь, когда говорите, и заикаетесь.

@@ -76,3 +76,5 @@ ent-BorgModuleEsword = модуль энергетического меча ки
     .desc = Модуль, в который входит сдвоенный энергетический меч.
 ent-BorgModuleL6C = Модуль L6C ROW киборга
     .desc = Модуль, в который входит L6C.
+ent-BorgModuleMartyr = martyr cyborg module
+    .desc = A module that comes with an explosive you probably don't want to handle yourself.

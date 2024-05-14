@@ -24,6 +24,7 @@ verb-categories-set-sensor = Датчики
 verb-categories-timer = Установить задержку
 verb-categories-lever = Рычаг
 verb-categories-select-type = Выбрать Тип
+verb-categories-power-level = Power Level
 verb-categories-fax = Установить назначение
 verb-common-toggle-light = Переключить свет
 verb-common-close = Закрыть
