@@ -23,7 +23,8 @@ admin-notes-hide = Скрыть
 admin-notes-delete-confirm = Вы уверены?
 admin-notes-edited = Последняя правка от { $author } в { $date }
 admin-notes-unbanned = Разбанен { $admin } в { $date }
-admin-notes-message-desc = [color=white]Вы получили { $count ->
+admin-notes-message-desc =
+    {"["}color=white]Вы получили { $count ->
         [1] новое сообщение от администрации
        *[other] новых сообщений от администрации
     } с момента последней игры на сервере.[/color]
