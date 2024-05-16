@@ -23,11 +23,10 @@ admin-notes-hide = Скрыть
 admin-notes-delete-confirm = Вы уверены?
 admin-notes-edited = Последняя правка от { $author } в { $date }
 admin-notes-unbanned = Разбанен { $admin } в { $date }
-admin-notes-message-desc =
-    [color=white]You have received { $count ->
-        [1] an administrative message
-       *[other] administrative messages
-    } since the last time you played on this server.[/color]
+admin-notes-message-desc = [color=white]Вы получили { $count ->
+        [1] новое сообщение от администрации
+       *[other] новых сообщений от администрации
+    } с момента последней игры на сервере.[/color]
 admin-notes-message-window-title = Внимание!
 admin-notes-message-admin = Новое сообщение от { $admin }, полученное { $date }
 admin-notes-message-wait = Кнопка "Принять" будет включена через { $time } секунд.

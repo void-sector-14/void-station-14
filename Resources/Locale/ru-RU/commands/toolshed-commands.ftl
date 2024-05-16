@@ -39,4 +39,4 @@ command-description-solution-adjreagent = Добавляет заданный р
 command-description-mind-get = Получает разум субъекта, если таковой имеется.
 command-description-mind-control = Передает управление объектом заданному игроку.
 command-description-addaccesslog = Добавляет журнал доступа к этой сущности. Обратите внимание, что при этом обходится стандартный лимит журнала и проверка паузы.
-command-description-stationevent-simulate = Simulates N number of rounds in which events will occur and prints the occurrences of every event after.
+command-description-stationevent-simulate = Моделирует N количество раундов, в которых будут происходить события, и выводит данные о наступлении каждого события.

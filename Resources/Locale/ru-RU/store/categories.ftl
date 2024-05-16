@@ -14,11 +14,11 @@ store-category-wearables = Одежда
 store-category-tools = Инструменты
 store-category-utility = Утилиты
 # Wizard
-store-caregory-spellbook-offensive = Offensive Spells
-store-caregory-spellbook-defensive = Defensive Spells
-store-caregory-spellbook-utility = Utility Spells
-store-caregory-spellbook-equipment = Wizard Equipment
-store-caregory-spellbook-events = Event Spells
+store-caregory-spellbook-offensive = Наступательные заклинания
+store-caregory-spellbook-defensive = Защитные заклинания
+store-caregory-spellbook-utility = Полезные заклинания
+store-caregory-spellbook-equipment = Снаряжение волшебника
+store-caregory-spellbook-events = Заклинания событий
 store-category-implants = Импланты
 store-category-job = Работа
 store-category-armor = Броня

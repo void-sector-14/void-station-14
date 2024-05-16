@@ -1,28 +1,28 @@
 # Spells
-spellbook-fireball-name = Fireball
-spellbook-fireball-desc = Get most crew exploding with rage when they see this fireball heading toward them!
-spellbook-blink-name = Blink
-spellbook-blink-desc = Don't blink or you'll miss yourself teleporting away.
-spellbook-force-wall-name = Force Wall
-spellbook-force-wall-desc = Make three walls of pure force that you can pass through, but other's can't.
-spellbook-polymoprh-spider-name = Spider Polymoprh
-spellbook-polymorph-spider-desc = Transforms you into a spider, man!
-spellbook-polymorph-rod-name = Rod Polymorph
-spellbook-polymorph-rod-desc = Change into an Immovable Rod with limited movement.
-spellbook-charge-name = Charge
-spellbook-charge-desc = Adds a charge back to your wand!
+spellbook-fireball-name = Огненный шар
+spellbook-fireball-desc = Пусть большинство членов экипажа взорвутся от ярости, когда увидят этот огненный шар, направляющийся к ним!
+spellbook-blink-name = Прыжок
+spellbook-blink-desc = Не моргайте, иначе вы не заметите, как телепортируетесь.
+spellbook-force-wall-name = Силовой барьер
+spellbook-force-wall-desc = Создайте три стены из чистой силы, через которые вы можете пройти, а другие - нет.
+spellbook-polymoprh-spider-name = Полиморф паука
+spellbook-polymorph-spider-desc = Превращает вас в паука!
+spellbook-polymorph-rod-name = Полиморф жезла
+spellbook-polymorph-rod-desc = Превращается в неподвижный жезл с ограниченным движением.
+spellbook-charge-name = Зарядка
+spellbook-charge-desc = Добавляет заряд вашей волшебной палочке!
 
 # Equipment
 
-spellbook-wand-polymorph-door-name = Wand of Entrance
-spellbook-wand-polymorph-door-description = For when you need a get-away route.
-spellbook-wand-polymorph-carp-name = Wand of Carp Polymorph
-spellbook-wand-polymorph-carp-description = For when you need a carp filet quick and the clown is looking juicy.
+spellbook-wand-polymorph-door-name = Палочка входа
+spellbook-wand-polymorph-door-description = На случай, когда нужен маршрут для побега.
+spellbook-wand-polymorph-carp-name = Палочка полиморфа карпа
+spellbook-wand-polymorph-carp-description = На случай, когда вам срочно нужно филе карпа, а клоун выглядит уж очень аппетитно.
 
 # Events
 
-spellbook-event-summon-ghosts-name = Summon Ghosts
-spellbook-event-summon-ghosts-description = Who ya gonna call?
+spellbook-event-summon-ghosts-name = Призвать призраков
+spellbook-event-summon-ghosts-description = Кому вы позвоните?
 # Upgrades
-spellbook-upgrade-fireball-name = Upgrade Fireball
-spellbook-upgrade-fireball-description = Upgrades Fireball to a maximum of level 3!
+spellbook-upgrade-fireball-name = Улучшение огненного шара
+spellbook-upgrade-fireball-description = Улучшает Огненный шар до максимального 3-го уровня!
