@@ -7,7 +7,7 @@ robotics-console-designation = [color=gray]Назначение:[/color]
 robotics-console-battery = [color=gray]Заряд батареи:[/color] [color={ $color }]{ $charge }[/color]%
 robotics-console-modules = [color=gray]Установленные модули:[/color] { $count }
 robotics-console-brain =
-    {"["}color=gray]Мозг установлен:[/color] [color={ $brain ->
+    { "[" }color=gray]Мозг установлен:[/color] [color={ $brain ->
         [true] green]Да
        *[false] red]Нет
     }[/color]
