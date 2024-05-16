@@ -7,11 +7,10 @@
 </Box>
 <Box>
 <GuideEntityEmbed Entity="BoozeDispenser"/>
-<GuideEntityEmbed Entity="soda_dispenser"/>
-</Box>
-<Box>
+<GuideEntityEmbed Entity="SodaDispenser"/>
 <GuideEntityEmbed Entity="VendingMachineBooze"/>
 </Box>
+
 <Box>
 Не забудьте о ёмкостях, в которых их можно подать!
 </Box>
