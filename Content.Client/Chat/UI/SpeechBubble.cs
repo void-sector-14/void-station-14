@@ -23,7 +23,6 @@ namespace Content.Client.Chat.UI
             Say,
             Whisper,
             Looc,
-            Do,
             ERP
         }
 
@@ -75,9 +74,6 @@ namespace Content.Client.Chat.UI
 
                 case SpeechType.Looc:
                     return new TextSpeechBubble(message, senderEntity, "emoteBox", Color.FromHex("#48d1cc"));
-
-                case SpeechType.Do:
-                    return new TextSpeechBubble(message, senderEntity, "emoteBox");
 
                 case SpeechType.ERP:
                     return new TextSpeechBubble(message, senderEntity, "emoteBox", Color.FromHex("#ffB6c1"));

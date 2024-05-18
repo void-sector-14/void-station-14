@@ -56,11 +56,6 @@
         /// </summary>
         ERP = ChatChannel.ERP,
 
-        /// <summary>
-        ///     Description chat
-        /// </summary>
-        Do = ChatChannel.Do,
-
         Console = ChatChannel.Unspecified
     }
 }

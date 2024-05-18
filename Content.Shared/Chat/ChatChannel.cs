@@ -91,14 +91,9 @@ namespace Content.Shared.Chat
         ERP = 1 << 15,
 
         /// <summary>
-        ///     Chat for description.
-        /// </summary>
-        Do = 1 << 15,
-
-        /// <summary>
         ///     Channels considered to be IC.
         /// </summary>
-        IC = Local | Whisper | Radio | Dead | Emotes | Damage | Visual | Notifications | ERP | Do,
+        IC = Local | Whisper | Radio | Dead | Emotes | Damage | Visual | Notifications | ERP,
 
         AdminRelated = Admin | AdminAlert | AdminChat,
     }

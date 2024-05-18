@@ -47,10 +47,6 @@ namespace Content.Client.Chat.Managers
                     _consoleHost.ExecuteCommand($"me \"{CommandParsing.Escape(str)}\"");
                     break;
 
-                case ChatSelectChannel.Do:
-                    _consoleHost.ExecuteCommand($"do \"{CommandParsing.Escape(str)}\"");
-                    break;
-
                 case ChatSelectChannel.ERP:
                     _consoleHost.ExecuteCommand($"erp \"{CommandParsing.Escape(str)}\"");
                     break;
