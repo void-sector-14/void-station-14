@@ -93,7 +93,7 @@ namespace Content.Shared.Chat
         /// <summary>
         ///     Chat for description.
         /// </summary>
-        Do = 1 << 16,
+        Do = 1 << 15,
 
         /// <summary>
         ///     Channels considered to be IC.
