@@ -23,6 +23,7 @@ public abstract class SharedChatSystem : EntitySystem
     public const char WhisperPrefix = ',';
     public const char DefaultChannelKey = 'h';
     public const char ERPPrefix = '-';
+    public const char DoPrefix = '@';
 
     [ValidatePrototypeId<RadioChannelPrototype>]
     public const string CommonChannel = "Common";

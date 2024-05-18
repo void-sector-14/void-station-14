@@ -24,6 +24,7 @@ chat-manager-entity-say-bold-wrap-message = [BubbleHeader][bold][Name]{ $entityN
 chat-manager-entity-whisper-wrap-message = [font size=11][italic][BubbleHeader][Name]{ $entityName }[/Name][/BubbleHeader] шепчет,"[BubbleContent]{ $message }[/BubbleContent]"[/italic][/font]
 chat-manager-entity-whisper-unknown-wrap-message = [font size=11][italic][BubbleHeader]Кто-то[/BubbleHeader] шепчет, "[BubbleContent]{ $message }[/BubbleContent]"[/italic][/font]
 chat-manager-entity-me-wrap-message = [italic]{ $entityName } { $message }[/italic]
+chat-manager-entity-do-wrap-message = ({ $entityName }) [italic]{ $message }[/italic]
 chat-manager-entity-erp-wrap-message = [italic]{ $entityName } { $message }[/italic]
 chat-manager-entity-looc-wrap-message = LOOC: [bold]{ $entityName }:[/bold] { $message }
 chat-manager-send-ooc-wrap-message = OOC: [bold]{ $playerName }:[/bold] { $message }
