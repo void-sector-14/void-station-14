@@ -68,6 +68,7 @@ ent-CentcomPDA = КПК Центком
     .desc = Светло-зелёный знак ходячей бюрократии.
 ent-AdminPDA = КПК админа
     .desc = Если вы не являетесь администратором, верните этот КПК ближайшему администратору.
+    .suffix = Admin
 ent-CentcomPDAFake = { ent-CentcomPDA }
     .suffix = Фальшивый
     .desc = { ent-CentcomPDA.desc }
