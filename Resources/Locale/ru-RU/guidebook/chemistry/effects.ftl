@@ -320,29 +320,29 @@ reagent-effect-guidebook-wash-cream-pie-reaction =
     } кремовый пирог с лица
 reagent-effect-guidebook-plant-attribute =
     { $chance ->
-        [1] Adjusts
-       *[other] adjust
-    } { $attribute } by [color={ $colorName }]{ $amount }[/color]
+        [1] Изменяет
+       *[other] изменить
+    } { $attribute } на [color={ $colorName }]{ $amount }[/color]
 reagent-effect-guidebook-plant-cryoxadone =
     { $chance ->
-        [1] Ages back
-       *[other] age back
-    } the plant, depending on the plant's age and time to grow
+        [1] Омолаживает
+       *[other] омолодить
+    } растение, в зависимости от его возраста и времени для роста
 reagent-effect-guidebook-plant-phalanximine =
     { $chance ->
-        [1] Makes
-       *[other] make
-    } a plant not viable due to mutation viable again
+        [1] Делает
+       *[other] сделать
+    } растение, нежизнеспособное из-за мутации, снова жизнеспособным
 reagent-effect-guidebook-plant-diethylamine =
     { $chance ->
-        [1] Increases
-       *[other] increase
-    } the plant's lifespan and/or base health with 10% chance for each.
+        [1] Увеличивает
+       *[other] увеличить
+    } продолжительность жизни растения и/или его базовое здоровье с шансом 10% для каждого (оба показателя имеют свой независимый шанс в 10%)
 reagent-effect-guidebook-plant-robust-harvest =
     { $chance ->
-        [1] Increases
-       *[other] increase
-    } the plant's potency by { $increase } up to a maximum of { $limit }. Causes the plant to lose its seeds once the potency reaches { $seedlesstreshold }. Trying to add potency over { $limit } may cause decrease in yield at a 10% chance.
+        [1] Увеличивает
+       *[other] увеличить
+    } потенцию растения на { $increase } до максимума { $limit }. Приводит к тому, что растение теряет свои семена, когда потенция достигает { $seedlesstreshold }. Попытка добавить потенцию свыше { $limit } может привести к снижению урожая с вероятностью 10%
 reagent-effect-guidebook-missing =
     { $chance ->
         [1] Вызывает

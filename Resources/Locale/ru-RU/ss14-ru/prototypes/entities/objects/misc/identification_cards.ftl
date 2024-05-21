@@ -125,4 +125,4 @@ ent-SeniorOfficerIDCard = ID карта офицера-инструктора
     .desc = { ent-IDCardStandard.desc }
 ent-UniversalIDCard = universal ID card
     .desc = An ID card that gives you access beyond your wildest dreams.
-    .suffix = Admin
+    .suffix = Админ
