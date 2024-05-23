@@ -5,6 +5,7 @@ using Robust.Client.UserInterface.Controls;
 using Robust.Client.UserInterface.XAML;
 using Robust.Shared.Timing;
 using Robust.Shared.Configuration;
+using Content.Shared.CCVar;
 using Content.Shared.Void.CCVar;
 
 namespace Content.Client.UserInterface.Systems.Ghost.Widgets;
@@ -48,9 +49,20 @@ public sealed partial class GhostGui : UIWidget
         Visible = false;
     }
 
-    public void Update(int? roles, bool? canReturnToBody)
+    public void UpdateRespawn(TimeSpan? todd)
+    {
+        if (todd != null)
+        {
+            _timeOfDeath = todd;
+            _minTimeToRespawn = _configurationManager.GetCVar(VoidCVars.RespawnTime);
+        }
+    }
+
+    public void Update(int? roles, bool? canReturnToBody, TimeSpan? timeOfDeath, float minTimeToRespawn)
     {
         ReturnToBodyButton.Disabled = !canReturnToBody ?? true;
+        _timeOfDeath = timeOfDeath;
+        _minTimeToRespawn = minTimeToRespawn;
 
         if (roles != null)
         {
@@ -66,6 +78,28 @@ public sealed partial class GhostGui : UIWidget
         }
 
         TargetWindow.Populate();
+    }
+
+    protected override void FrameUpdate(FrameEventArgs args)
+    {
+        if (_timeOfDeath is null)
+        {
+            GhostRespawnButton.Text = Loc.GetString("ghost-gui-respawn-button-denied", ("time", "disabled"));
+            GhostRespawnButton.Disabled = true;
+            return;
+        }
+
+        var delta = (_minTimeToRespawn - _gameTiming.CurTime.Subtract(_timeOfDeath.Value).TotalSeconds);
+        if (delta <= 0)
+        {
+            GhostRespawnButton.Text = Loc.GetString("ghost-gui-respawn-button-allowed");
+            GhostRespawnButton.Disabled = false;
+        }
+        else
+        {
+            GhostRespawnButton.Text = Loc.GetString("ghost-gui-respawn-button-denied", ("time", $"{delta:f1}"));
+            GhostRespawnButton.Disabled = true;
+        }
     }
 
     protected override void Dispose(bool disposing)
