@@ -65,3 +65,7 @@
 - type: lobbyBackground
   id: TerminalStation
   background: /Textures/LobbyScreens/terminalstation.webp
+
+- type: lobbyBackground
+  id: LinkoSalvage
+  background: /Textures/LobbyScreens/LinkoSalvage.png
