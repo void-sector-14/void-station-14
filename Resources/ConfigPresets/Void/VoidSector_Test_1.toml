@@ -42,6 +42,7 @@ discord = "https://discord.gg/Tc5RNEWVWS"
 
 [atmos]
 space_wind = true
+mmos_spacing_speed = 0.75
 
 [biomass]
 easy_mode = false
