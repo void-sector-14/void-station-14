@@ -42,7 +42,10 @@ discord = "https://discord.gg/Tc5RNEWVWS"
 
 [atmos]
 space_wind = true
-mmos_spacing_speed = 0.75
+monstermos_rip_tiles = true
+grid_impulse = true
+mmos_spacing_speed = 0.95
+mmos_max_wind = 1000f
 
 [biomass]
 easy_mode = false
