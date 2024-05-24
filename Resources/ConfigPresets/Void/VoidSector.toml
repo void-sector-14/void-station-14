@@ -15,7 +15,7 @@ pg_username = "{{ ss14setup_db_user }}"
 pg_password = "{{ ss14setup_db_passwd }}"
 
 [game]
-hostname = "[18+][RU][MRP] 🌌 VoidSector - Система возрождения! 🌌"
+hostname = "[18+][RU][MRP] 🌌 VoidSector - АВД, Магистрат, ОСЩ! 🌌"
 desc = "Далекие пустоты космоса, миллионы световых лет без единой души. Сможешь ли ты выжить в Пустоте?"
 soft_max_players = 60
 lobbyduration = 180
@@ -50,10 +50,6 @@ wiki = "http://voidsector.di9.ru/"
 
 [atmos]
 space_wind = true
-monstermos_rip_tiles = true
-grid_impulse = true
-mmos_spacing_speed = 0.95
-mmos_max_wind = 1000.0
 
 [biomass]
 easy_mode = false
@@ -109,12 +105,3 @@ ahelp_avatar = "https://i.imgur.com/e9AMvev.png"
 ahelp_footer_icon = "https://i.imgur.com/e9AMvev.png"
 round_update_webhook = "https://discord.com/api/webhooks/1239615872306249768/9hsb7zbcWYvKOEffN5TFWdfNVfHtcFMGaNgmbOgbPaUtEY6FyBIhH11tivIjj8xrA9b5"
 round_end_role = "1239615123732299897"
-
-################################################################################
-##### Metrics ##################################################################
-
-[metrics]
-enabled = true
-host = "127.0.0.1"
-port = 9001
-runtime = false

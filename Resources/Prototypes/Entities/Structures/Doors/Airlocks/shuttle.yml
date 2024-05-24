@@ -16,7 +16,7 @@
         mask:
           - FullTileMask
         layer:
-          - WallLayer
+          - AirlockLayer
       docking:
         shape:
           !type:PhysShapeCircle

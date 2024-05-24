@@ -1,143 +1,35 @@
 - type: jukebox
-  id: A.M.T.V.
-  name: КиШ - A.M.T.V.
+  id: FlipFlap
+  name: X-CEED - Flip Flap
   path:
-    path: /Audio/Void/Jukebox/A.M.T.V.ogg
+    path: /Audio/Jukebox/flip-flap.ogg
 
 - type: jukebox
-  id: Dagon
-  name: КиШ - Дагон
+  id: Tintin
+  name: Jeroen Tel - Tintin on the Moon
   path:
-    path: /Audio/Void/Jukebox/Dagon.ogg
+    path: /Audio/Jukebox/title3.ogg
 
 - type: jukebox
-  id: Rickroll
-  name: Рик Эстли - Never Gonna Give You Up
+  id: Thunderdome
+  name: MashedByMachines - Sector 11
   path:
-    path: /Audio/Void/Jukebox/Rick_Astley_-_Never_Gonna_Give_You_Up.ogg
+    path: /Audio/Jukebox/sector11.ogg
 
 - type: jukebox
-  id: PitNelzya
-  name: Аквариум - Все говорят, что пить нельзя
+  id: Constellations
+  name: Qwertyquerty - Constellations
   path:
-    path: /Audio/Void/Jukebox/Vse_govoryat_chto_pit_nelizya.ogg
+    path: /Audio/Jukebox/constellations.ogg
 
 - type: jukebox
-  id: Kak_na_vojjne
-  name: Агата Кристи - Как на войне
+  id: Drifting
+  name: Qwertyquerty - Drifting
   path:
-    path: /Audio/Void/Jukebox/Agata_Kristi_-_Kak_na_vojjne.ogg
+    path: /Audio/Jukebox/drifting.ogg
 
 - type: jukebox
-  id: ecstatic-vibrations-totally-transcendent
-  name: Sea Power - Ecstatic Vibrations, Totally Transcendent
+  id: starlight
+  name: Qwertyquerty - Starlight
   path:
-    path: /Audio/Void/Jukebox/british-sea-power-ecstatic-vibrations-totally-transcendent.ogg
-
-- type: jukebox
-  id: Electric_Light_Orchestra
-  name: Electric Light Orchestra - Mr Blue Sky
-  path:
-    path: /Audio/Void/Jukebox/Electric_Light_Orchestra_-_Mr_Blue_Sky.ogg
-
-- type: jukebox
-  id: I_Dont_Want_To_Set_The_World_On_Fire_Tribute
-  name: Fallout - I Don't Want To Set The World On Fire
-  path:
-    path: /Audio/Void/Jukebox/Fallout_-_I_Dont_Want_To_Set_The_World_On_Fire_Tribute.ogg
-
-- type: jukebox
-  id: My_Way
-  name: Frank Sinatra - My Way
-  path:
-    path: /Audio/Void/Jukebox/Frank_Sinatra_-_My_Way.ogg
-
-- type: jukebox
-  id: Mjortvye
-  name: Гражданская оборона - Мёртвые
-  path:
-    path: /Audio/Void/Jukebox/Grazhdanskaya_oborona_-_Mjortvye.ogg
-
-- type: jukebox
-  id: Gryaz
-  name: Ария - Грязь
-  path:
-    path: /Audio/Void/Jukebox/Gryaz - Arya.ogg
-
-- type: jukebox
-  id: Wrong_Number
-  name: Hotline Miami 2 - Wrong Number
-  path:
-    path: /Audio/Void/Jukebox/Hotline_Miami_2_Wrong_Number.ogg
-
-- type: jukebox
-  id: Techno_Madness
-  name: Jesse Allen - Techno Madness
-  path:
-    path: /Audio/Void/Jukebox/Jesse_Allen_-_Techno_Madness.ogg
-
-- type: jukebox
-  id: Kapital
-  name: Ляпис Трубецкой - Капитал
-  path:
-    path: /Audio/Void/Jukebox/Lyapis_Trubeckojj_-_Kapital.ogg
-
-- type: jukebox
-  id: Oda_K_radosti
-  name: Людвиг ван Бетховен - Ода к радости
-  path:
-    path: /Audio/Void/Jukebox/Lyudvig_van_Betkhoven_-_Oda_K_radosti.ogg
-
-- type: jukebox
-  id: Awakening
-  name: Space Rangers 2 - Awakening
-  path:
-    path: /Audio/Void/Jukebox/OST_Space_Rangers_2_-_Awakening.ogg
-
-- type: jukebox
-  id: Chrome_Shamans
-  name: P.T.Adamczyk - Chrome Shamans
-  path:
-    path: /Audio/Void/Jukebox/P.T._Adamczyk_-_Chrome_Shamans.ogg
-
-- type: jukebox
-  id: Pink-Floyd-Money
-  name: Pink Floyd - Money
-  path:
-    path: /Audio/Void/Jukebox/Pink-Floyd-Money.ogg
-
-- type: jukebox
-  id: Robots_Outro
-  name: PPK - Robots Outro
-  path:
-    path: /Audio/Void/Jukebox/PPK_-_Robots_Outro.ogg
-
-- type: jukebox
-  id: Dont_Stop_Me_Now
-  name: Queen - Don't Stop Me Now
-  path:
-    path: /Audio/Void/Jukebox/Queen_-_Dont_Stop_Me_Now.ogg
-
-- type: jukebox
-  id: Stuck_In_The_Middle_With_You
-  name: Stealers Wheel - Stuck In The Middle With You
-  path:
-    path: /Audio/Void/Jukebox/Stealers_Wheel_-_Stuck_In_The_Middle_With_You.ogg
-
-- type: jukebox
-  id: Paint_It_Black
-  name: The Rolling Stones - Paint It Black
-  path:
-    path: /Audio/Void/Jukebox/The_Rolling_Stones_-_Paint_It_Black.ogg
-
-- type: jukebox
-  id: Disbelief_Papyrus
-  name: Undertale - Disbelief Papyrus
-  path:
-    path: /Audio/Void/Jukebox/Undertale_-_Disbelief_Papyrus_Phase_1.ogg
-
-- type: jukebox
-  id: Trava_u_doma
-  name: Земляне - Трава у дома
-  path:
-    path: /Audio/Void/Jukebox/Zemlyane_-_Trava_u_doma.ogg
+    path: /Audio/Jukebox/starlight.ogg

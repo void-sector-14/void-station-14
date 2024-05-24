@@ -30,3 +30,12 @@ reagent-desc-vomit = Вы можете увидеть в ней нескольк
 
 reagent-name-grey-matter = серое вещество
 reagent-desc-grey-matter = Сок мыслей, то, что вытекает из ушей.
+
+reagent-name-choco = горячий шоколад
+reagent-desc-choco = Горячий напиток из растопленного шоколада и подогретого молока.
+
+reagent-name-charlotte = шарлотта
+reagent-desc-charlotte = Элегантный алкогольный вкус белизны.
+
+reagent-name-uolongtea = чай уолонг
+reagent-desc-uolongtea = Крайне подозрительный чай.

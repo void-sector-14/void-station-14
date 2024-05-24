@@ -10,7 +10,7 @@ ent-ClothingNeckBling = побрякушки
     .desc = Чертовски круто быть гангстером.
     .suffix = { ent-ClothingNeckBase.suffix }
 
-ent-ClothingNeckLawyerbadge = значок юридического отдела
+ent-ClothingNeckLawyerbadge = значок юридиеского отдела
     .desc = Значок, свидетельствующий что владелец является "законным" юрисконсультом, сдавшим экзамен НТ, необходимый для занятия юридической практикой.
     .suffix = { ent-ClothingNeckBase.suffix }
 
