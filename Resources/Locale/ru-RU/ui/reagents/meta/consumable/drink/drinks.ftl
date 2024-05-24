@@ -64,3 +64,5 @@ reagent-name-white-gilgamesh = белый Гильгамеш
 reagent-desc-white-gilgamesh = Тошнотворная смесь молока и пива. Вызывает ощущение одеревенелости.
 reagent-name-mopwata = швабода
 reagent-desc-mopwata = Грязная, застоявшаяся вода из-под швабры, швабровая вода.
+reagent-name-choco = горячий шоколад
+reagent-desc-choco = Горячий напиток из растопленного шоколада и подогретого молока.

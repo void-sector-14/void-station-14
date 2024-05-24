@@ -1,6 +1,6 @@
 ## UI
 ghost-respawn-rules-window-title = Правила возрождения
-ghost-respawn-rules-window-confirm-button = Я принимаю, возродите меня
+ghost-respawn-rules-window-confirm-button = Я принимаю, возродите меня.
 ghost-gui-respawn-button-denied = Возродиться ({$time}с)
 ghost-gui-respawn-button-allowed = Возродиться
 ghost-respawn-rules-window-rules = Возрождение следует строгому Правилу Новой Жизни:
