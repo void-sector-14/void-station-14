@@ -22,3 +22,5 @@ ent-GyroscopeFlatpack = плоскоблок гироскопа
     .desc = Плоскоблок, используемый для сборки гироскопа.
 ent-ThrusterFlatpack = плоскоблок ракетного двигателя
     .desc = Плоскоблок, используемый для сборки ракетного двигателя.
+ent-SpaceHeaterFlatpack = space heater flatpack
+    .desc = A flatpack used for constructing a space heater.
