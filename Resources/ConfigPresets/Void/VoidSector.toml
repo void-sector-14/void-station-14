@@ -50,6 +50,9 @@ wiki = "http://voidsector.di9.ru/"
 
 [atmos]
 space_wind = true
+monstermos_rip_tiles = true
+mmos_spacing_speed = 0.95
+mmos_max_wind = 1000.0
 
 [biomass]
 easy_mode = false
