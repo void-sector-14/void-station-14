@@ -62,7 +62,7 @@ ent-ClothingOuterHardsuitSyndie = кроваво-красный скафандр
     .desc = Тяжелобронированный и мобильный скафандр, предназначенный для специальных операций.
     .suffix = { ent-ClothingOuterHardsuitBase.suffix }
 
-ent-ClothingOuterHardsuitSyndieMedic = blood-red medic hardsuit
+ent-ClothingOuterHardsuitSyndieMedic = кроваво-красный скафандр медика
     .desc = A heavily armored and agile advanced hardsuit specifically designed for field medic operations.
     .suffix = { "" }
 
