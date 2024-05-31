@@ -1,8 +1,8 @@
-ent-OrganDemonHeart = demon heart
+ent-OrganDemonHeart = сердце тифлинга
     .desc = { ent-OrganHumanHeart.desc }
     .suffix = { "" }
 
-ent-OrganDemonLiver = demon liver
+ent-OrganDemonLiver = печень тифлинга
     .desc = { ent-OrganHumanLiver.desc }
     .suffix = { "" }
 
