@@ -194,6 +194,6 @@ ent-ToySkeleton = фигурка скелета
     .desc = Буу, испугал!
     .suffix = { ent-BaseFigurine.suffix }
 
-ent-ToyFigurineThief = thief character figure
-    .desc = Hiding in the shadows...
+ent-ToyFigurineThief = фигурка вора
+    .desc = Скрываетьсь в тени...
     .suffix = { "" }
