@@ -14,32 +14,32 @@ ent-ClothingEyesHudBeer = пивные очки
     .desc = Пара солнцезащитных очков, оснащенных сканером реагентов, а также дающих понимание вязкости жидкости во время движения.
     .suffix = { "" }
 
-ent-ClothingEyesHudFriedOnion = fried onion goggles
-    .desc = Filler
+ent-ClothingEyesHudFriedOnion = жареные луковые очки
+    .desc = Пара красивых очков на закуску к пиву.
     .suffix = { "" }
 
-ent-ClothingEyesHudOnionBeer = thungerst goggles
-    .desc = Filler
+ent-ClothingEyesHudOnionBeer = грозные пивные очки
+    .desc = Пара необычных очков с встроеным сканером.
     .suffix = { "" }
 
-ent-ClothingEyesHudMedOnion = medonion hud
-    .desc = Filler
+ent-ClothingEyesHudMedOnion = продвинутый мед визор
+    .desc = Продвинутый медицинский визор, ничего более.
     .suffix = { "" }
 
-ent-ClothingEyesHudMedOnionBeer = medthungerst hud
-    .desc = Filler
+ent-ClothingEyesHudMedOnionBeer = продвинутый мед визор плюс
+    .desc = Продвинутый медицинский визор со встроеным сканером реагентов.
     .suffix = { "" }
 
 ent-ClothingEyesHudMedSec = мед-охранный визор
     .desc = Окуляр с индикатором на стекле, напоминающий сочетание визора охраны с медицинским.
     .suffix = { "" }
 
-ent-ClothingEyesHudMultiversal = multiversal hud
-    .desc = Filler
+ent-ClothingEyesHudMultiversal = мульти визор
+    .desc = Професианальный визор с множеством полезных функций.
     .suffix = { "" }
 
-ent-ClothingEyesHudOmni = omni hud
-    .desc = Filler
+ent-ClothingEyesHudOmni = омни визор
+    .desc = В этом визоре есть буквально все.
     .suffix = { "" }
 
 ent-ClothingEyesHudSyndicate = синди-визор
