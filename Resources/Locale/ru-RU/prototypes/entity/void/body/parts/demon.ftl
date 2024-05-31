@@ -1,43 +1,43 @@
-ent-PartDemon = demon body part
+ent-PartDemon = части тела тифлинга
     .desc = { "" }
     .suffix = { "" }
 
-ent-TorsoDemon = demon torso
+ent-TorsoDemon = торс тифлинга
     .desc = { "" }
     .suffix = { "" }
 
-ent-HeadDemon = demon head
+ent-HeadDemon = голова тифлинга
     .desc = { "" }
     .suffix = { "" }
 
-ent-LeftArmDemon = left demon arm
+ent-LeftArmDemon = левая рука тифлинга
     .desc = { "" }
     .suffix = { "" }
 
-ent-RightArmDemon = right demon arm
+ent-RightArmDemon = правая рука тифлинга
     .desc = { "" }
     .suffix = { "" }
 
-ent-LeftHandDemon = left demon hand
+ent-LeftHandDemon = левая кисть тифлинга
     .desc = { "" }
     .suffix = { "" }
 
-ent-RightHandDemon = right demon hand
+ent-RightHandDemon = правая кисть тифлинга
     .desc = { "" }
     .suffix = { "" }
 
-ent-LeftLegDemon = left demon leg
+ent-LeftLegDemon = левая нога тифлинга
     .desc = { "" }
     .suffix = { "" }
 
-ent-RightLegDemon = right demon leg
+ent-RightLegDemon = правая нога тифлинга
     .desc = { "" }
     .suffix = { "" }
 
-ent-LeftFootDemon = left demon foot
+ent-LeftFootDemon = левая стопа тифлинга
     .desc = { "" }
     .suffix = { "" }
 
-ent-RightFootDemon = right demon foot
+ent-RightFootDemon = правая стопа тифлинга
     .desc = { "" }
     .suffix = { "" }
