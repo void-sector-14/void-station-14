@@ -10,6 +10,6 @@ ent-MagistratePDA = КПК Магистрата
     .desc = Я есть закон!
     .suffix = { "" }
 
-ent-BlueShieldOfficerPDA = BlueShield PDA
+ent-BlueShieldOfficerPDA = КПК ОСЩ
     .desc = Пахнет защитой.
     .suffix = { "" }
