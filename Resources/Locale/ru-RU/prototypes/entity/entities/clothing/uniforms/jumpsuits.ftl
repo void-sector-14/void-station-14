@@ -318,8 +318,8 @@ ent-ClothingUniformJumpsuitMusician = костюм из карпокожи
     .desc = Роскошный костюм, сшитый только из лучших чешуек, идеально подходит для любого концерта в стиле лаунж!
     .suffix = { ent-ClothingUniformBase.suffix }
 
-ent-ClothingUniformJumpsuitERTChaplain = ERT chaplain uniform
-    .desc = A special suit made for Central Command's elite chaplain corps.
+ent-ClothingUniformJumpsuitERTChaplain = униформа капеллана ОБР
+    .desc = Специальный костюм, созданный для элитного корпуса капелланов Центрального командования.
     .suffix = { "" }
 
 ent-ClothingUniformJumpsuitERTEngineer = униформа инженера ОБР
