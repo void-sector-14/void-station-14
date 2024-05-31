@@ -26,7 +26,7 @@ ent-FoodPieBananaCream = кремовый банановый пирог
     .desc = Прямо как дома, на планете клоунов! ХОНК!
     .suffix = { ent-FoodPieBase.suffix }
 
-ent-FoodPieBananaCreamSlice = slice of banana cream pie
+ent-FoodPieBananaCreamSlice = кусок кремово бананового пирога
     .desc = Just like back home, on clown planet! HONK!
     .suffix = { "" }
 
@@ -74,7 +74,7 @@ ent-FoodTartMime = мимский тарт
     .desc = "      "
     .suffix = { ent-FoodPieBase.suffix }
 
-ent-FoodTartMimeSlice = slice of mime tart
+ent-FoodTartMimeSlice = кусок мимского тарта
     .desc = { ent-FoodPieSliceBase.desc }
     .suffix = { "" }
 
