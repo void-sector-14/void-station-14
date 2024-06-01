@@ -21,4 +21,7 @@ forensic-scanner-verb-text = Сканировать
 forensic-scanner-verb-message = Выполняется криминалистическое сканирование
 forensic-pad-fingerprint-name = владелец отпечатков: { $entity }
 forensic-pad-gloves-name = источник волокон: { $entity }
+forensics-verb-text = Remove evidence
+forensics-verb-message = Remove fingerprints and DNA residues from the object!
 forensics-cleaning = Вы начинаете стирать следы с { $target }...
+forensics-cleaning-cannot-clean = There is nothing cleanable on { THE($target) }!
