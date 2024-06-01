@@ -1,34 +1,4 @@
 ﻿Entries:
-- author: deltanedas
-  changes:
-  - message: Holocarp and Magicarp plushies can now be found in maintenance.
-    type: Add
-  id: 6156
-  time: '2024-03-15T02:58:17.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/26081
-- author: TheShuEd
-  changes:
-  - message: Added random colored jumpsuits to the mixed wardrobes. Each costume is
-      randomly generated from parts painted in random colors, which gives a huge number
-      of combinations of the appearance of such costumes.
-    type: Add
-  id: 6157
-  time: '2024-03-15T07:37:12.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/25888
-- author: Nopey
-  changes:
-  - message: Dead players can no longer spin on a bar stool.
-    type: Fix
-  id: 6158
-  time: '2024-03-15T10:03:19.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/24308
-- author: Nairodian
-  changes:
-  - message: Added a new red neck gaiter to the AutoDrobe.
-    type: Add
-  id: 6159
-  time: '2024-03-15T10:11:40.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/25891
 - author: Tayrtahn
   changes:
   - message: Reflected tranquilizer rounds no longer inject the character who reflected
@@ -3854,3 +3824,32 @@
   id: 6655
   time: '2024-05-31T19:44:23.0000000+00:00'
   url: https://github.com/space-wizards/space-station-14/pull/28367
+- author: Vermidia
+  changes:
+  - message: Many more ghost roles have a random appearance, including ERT and shuttle
+      roles.
+    type: Tweak
+  id: 6656
+  time: '2024-06-01T04:51:07.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/27997
+- author: Cojoke-dot
+  changes:
+  - message: Medical Borgs now have medical huds
+    type: Add
+  id: 6657
+  time: '2024-06-01T04:54:24.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/28391
+- author: beck-thompson
+  changes:
+  - message: You can now remove evidence from containers using the verb menu.
+    type: Fix
+  id: 6658
+  time: '2024-06-01T04:58:07.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/28101
+- author: notafet
+  changes:
+  - message: Increase power output from Tesla coils.
+    type: Tweak
+  id: 6659
+  time: '2024-06-01T05:51:16.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/28424
