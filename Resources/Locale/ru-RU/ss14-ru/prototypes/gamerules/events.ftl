@@ -1,3 +1,9 @@
+ent-BaseStationEvent = { ent-BaseGameRule }
+    .desc = { ent-BaseGameRule.desc }
+ent-BaseStationEventShortDelay = { ent-BaseGameRule }
+    .desc = { ent-BaseGameRule.desc }
+ent-BaseStationEventLongDelay = { ent-BaseGameRule }
+    .desc = { ent-BaseGameRule.desc }
 ent-AnomalySpawn = { ent-BaseGameRule }
     .desc = { ent-BaseGameRule.desc }
 ent-BluespaceArtifact = { ent-BaseGameRule }
