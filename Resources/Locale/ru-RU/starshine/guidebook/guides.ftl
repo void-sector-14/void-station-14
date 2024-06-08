@@ -12,3 +12,5 @@ guide-entry-rules-starshine-9 = Правило 9
 guide-entry-rules-starshine-10 = Правило 10
 guide-entry-rules-starshine-11 = Правило 11
 guide-entry-rules-starshine-12 = Правило 12
+guide-entry-rules-corporate-law = Корпоративный закон
+guide-entry-rules-cl-crime-list = Список преступлений
