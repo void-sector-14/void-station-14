@@ -35,12 +35,14 @@ panic-bunker-account-denied = Этот сервер находится в реж
 panic-bunker-account-denied-reason = Этот сервер находится в режиме бункера паники, который часто включается в качестве меры предосторожности против набегаторов. Новые подключения учётных записей, не соответствующих определённым требованиям, временно не принимаются. Повторите попытку позже. Причина: "{ $reason }"
 panic-bunker-account-reason-account = Ваша учётная запись Space Station 14 слишком новая. Она должна быть старше { $minutes } минут
 panic-bunker-account-reason-overall =
-    Ваше общее игровое время на сервере должно быть больше { $hours } { $hours ->
-        [one] час
-        [few] часа
-       *[other] часов
+    Ваше общее игровое время на сервере должно быть больше { $minutes } { $minutes ->
+        [one] минуты
+       *[other] минут
     }.
-baby-jail-account-denied = This server is a newbie server, intended for new players and those who want to help them. New connections by accounts that are too old or are not on a whitelist are not accepted. Check out some other servers and see everything Space Station 14 has to offer. Have fun!
-baby-jail-account-denied-reason = This server is a newbie server, intended for new players and those who want to help them. New connections by accounts that are too old or are not on a whitelist are not accepted. Check out some other servers and see everything Space Station 14 has to offer. Have fun! Reason: "{ $reason }"
-baby-jail-account-reason-account = Your Space Station 14 account is too old. It must be younger than { $minutes } minutes
-baby-jail-account-reason-overall = Your overall playtime on the server must be younger than { $minutes } $minutes
+baby-jail-account-denied = Этот сервер - сервер для новичков, предназначенный для новых игроков и тех, кто хочет им помочь. Новые подключения слишком старых или не внесенных в белый список аккаунтов не принимаются. Загляните на другие серверы и посмотрите все, что может предложить Space Station 14. Веселитесь!
+baby-jail-account-denied-reason = Этот сервер - сервер для новичков, предназначенный для новых игроков и тех, кто хочет им помочь. Новые подключения слишком старых или не внесенных в белый список аккаунтов не принимаются. Загляните на другие серверы и посмотрите все, что может предложить Space Station 14. Веселитесь! Причина: "{ $reason }"
+baby-jail-account-reason-account = Ваша учетная запись Space Station 14 слишком старая. Она должен быть моложе { $minutes } минут
+baby-jail-account-reason-overall = Ваше общее игровое время на сервере должно быть меньше { $minutes } { $minutes ->
+        [one] минуты
+       *[other] минут
+    }.
