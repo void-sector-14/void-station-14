@@ -95,17 +95,3 @@
   name: guide-entry-rules-starshine-12
   priority: 13
   text: "/ServerInfo/Starshine/Guidebook/ServerRules/CoreRules/StarshineRule12ArrestResist.xml"
-
-- type: guideEntry
-  id: CorporateLaw
-  name: guide-entry-rules-corporate-law
-  priority: 1
-  text: "/ServerInfo/Starshine/Guidebook/ServerRules/CorporateLaw/CorporateLaw.xml"
-  children:
-  - CorporateLawCrimeList
-
-- type: guideEntry
-  id: CorporateLawCrimeList
-  name: guide-entry-rules-cl-crime-list
-  priority: 5
-  text: "/ServerInfo/Starshine/Guidebook/ServerRules/CorporateLaw/CLCrimeList.xml"
