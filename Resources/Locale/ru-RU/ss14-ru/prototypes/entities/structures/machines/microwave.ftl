@@ -1,4 +1,4 @@
 ent-KitchenMicrowave = микроволновка
     .desc = Это магия.
-ent-SyndicateMicrowave = donk co. microwave
-    .desc = So advanced, it can cook donk-pockets in a mere 2.5 seconds!
+ent-SyndicateMicrowave = микроволновка donk co.
+    .desc = Она настолько совершенна, что может приготовить донк-покеты всего за 2.5 секунды!
