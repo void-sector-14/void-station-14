@@ -15,5 +15,5 @@ ent-GrenadeShrapnel = шрапнелевая граната
     .desc = Выпускает смертоносную шрапнель, вызывающую сильное кровотечение.
 ent-SlipocalypseClusterSoap = кластерное мыло Скользкопокалипсис
     .desc = После приземления разбрасывает вокруг себя маленькие кусочки мыла Синдиката.
-ent-GrenadeFoamDart = foam dart grenade
-    .desc = Releases a bothersome spray of foam darts that cause severe welching.
+ent-GrenadeFoamDart = граната с поролоновыми дротиками
+    .desc = Выпускает рой надоедливых поролоновых дротиков, которые приводят к образованию серьёзных засосов.

@@ -24,5 +24,5 @@ ent-ClothingOuterSuitIan = костюм иана
 ent-ClothingOuterSuitCarp = костюм карпа
     .desc = Специальный костюм, который делает вас похожим на космического карпа.
 ent-ClothingOuterHardsuitCarp = { ent-ClothingOuterSuitCarp }
-    .suffix = Hardsuit, DO NOT MAP
+    .suffix = Скафандр, НЕ МАППИТЬ
     .desc = { ent-ClothingOuterSuitCarp.desc }
