@@ -9,5 +9,7 @@ ent-WetFloorSignMineExplosive = { ent-WetFloorSign }
     .suffix = Взрывоопасный
 ent-Plunger = вантуз
     .desc = Вантуз с красной пластиковой присоской и деревянной ручкой. Используется для прочистки дренажей.
+ent-GoldenPlunger = golden plunger
+    .desc = A plunger with a plastic suction cup coated in a thin layer of gold given as a token of appreciation for years of service. Still used to unclog drains.
 ent-RagItem = мокрая тряпка
     .desc = Для уборки грязи, Вы полагаете.
