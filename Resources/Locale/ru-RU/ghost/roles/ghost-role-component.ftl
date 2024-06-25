@@ -130,7 +130,6 @@ ghost-role-information-nukeop-rules = Вы являетесь оперативн
 ghost-role-information-loneop-name = Одинокий оперативник
 ghost-role-information-loneop-description = Вы - одинокий ядерный оперативник. Уничтожьте станцию.
 ghost-role-information-loneop-rules = Вы являетесь оперативником Синдиката, которому поручено уничтожить станцию. Как антагонист, вы можете делать всё необходимое для выполнения цели.
-ghost-role-information-taxibot-name = Таксибот
 ghost-role-information-syndie-assaultborg-name = Syndicate Assault Borg
 ghost-role-information-syndie-assaultborg-description = Nuclear operatives needs reinforcements. You, a cold silicon killing machine, will help them. More dakka!
 ghost-role-information-hellspawn-name = Адское отродье
