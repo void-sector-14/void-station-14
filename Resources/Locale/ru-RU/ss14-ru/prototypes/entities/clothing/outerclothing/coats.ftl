@@ -1,9 +1,9 @@
 ent-ClothingOuterCoatBomber = куртка-бомбер
     .desc = Толстая, поношенная кожаная куртка-бомбер периода Второй мировой войны.
 ent-ClothingOuterCoatDetective = тренч детектива
-    .desc = Прочный брезентовый плащ, разработка компании TX Fabrication Corp. Плащ устойчив к внешнему воздействию - идеально подходит для Вашей следующей автодефенестрации!
-ent-ClothingOuterCoatDetectiveLoadoutGrey = noir trenchcoat
-    .desc = Ah, your trusty coat. There's a few tears here and there, giving it a more timely look. Or at least, that's what you told yourself when you found out gettin' it repaired would set you back 200 speos.
+    .desc = Многофункциональный тренч XVIII века. Тот, кто носит его, означает серьёзный бизнес.
+ent-ClothingOuterCoatDetectiveLoadoutGrey = нуарный тренч
+    .desc = Ах, ваш надёжный тренч. Несколько дырок то тут, то там придают ему более современный вид. По крайней мере, так вы сказали себе, когда узнали, что починка обойдется вам в 200 космобаксов.
 ent-ClothingOuterCoatDetectiveLoadout = { ent-ClothingOuterCoatDetective }
     .desc = { ent-ClothingOuterCoatDetective.desc }
 ent-ClothingOuterCoatGentle = аккуратное пальто

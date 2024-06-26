@@ -1,4 +1,4 @@
-player-tab-player-count = Players: { $count }
+player-tab-player-count = Игроки: { $count }
 player-tab-username = Пользователь
 player-tab-character = Персонаж
 player-tab-job = Должность

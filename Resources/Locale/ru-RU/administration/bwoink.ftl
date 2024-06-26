@@ -8,4 +8,4 @@ bwoink-system-typing-indicator =
     }...
 admin-bwoink-play-sound = Бвоиньк?
 bwoink-title-none-selected = Не выбрано
-bwoink-system-rate-limited = System: you are sending messages too quickly.
+bwoink-system-rate-limited = Система: вы отправляете сообщения слишком быстро.
