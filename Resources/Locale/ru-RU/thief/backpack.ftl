@@ -1,9 +1,9 @@
 thief-backpack-window-title = Ящик воровских инструментов
 thief-backpack-window-description =
     Внутри находятся ваши инструменты, которые растворятся, когда вы будете готовы.
-    Выберите до {$maxCount} разных {$maxCount ->
+    Выберите до { $maxCount } разных { $maxCount ->
         [1] набора
-        *[other] наборов
+       *[other] наборов
     } из списка.
 thief-backpack-window-selected = Выбрано наборов: ({ $selectedCount }/{ $maxCount })
 thief-backpack-window-approve-button = Принять
