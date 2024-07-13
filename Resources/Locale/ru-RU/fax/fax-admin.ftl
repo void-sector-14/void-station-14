@@ -11,3 +11,5 @@ admin-fax-message-placeholder = Ваше сообщение здесь...
 admin-fax-stamp = Штамп:
 admin-fax-stamp-color = Цвет штампа:
 admin-fax-send = Отправить
+admin-fax-lock-page = Lock Page
+admin-fax-lock-page-tooltip = Lock the paper such that it cannot be edited even by things such as cybersun pens.
