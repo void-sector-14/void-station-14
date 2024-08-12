@@ -55,7 +55,6 @@
   description: An orange high voltage power cable.
   components:
   - type: Sprite
-    color: Orange
     sprite: Structures/Power/Cables/hv_cable.rsi
     state: hvcable_0
     drawdepth: ThickWire
