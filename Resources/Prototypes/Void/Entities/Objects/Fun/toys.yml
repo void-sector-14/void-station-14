@@ -233,3 +233,15 @@
   - type: MeleeWeapon
     soundHit:
       path: /Audio/Items/Toys/weh.ogg
+
+- type: entity
+  parent: BaseVoidPlushie
+  id: PlushieSullivan
+  name: Плюшевый Салливан
+  description: | 
+    Точно не военный преступник.
+    Ограниченная серия игрушек команды проекта "Void Sector".
+    Собери их всех!
+  components:
+  - type: Sprite
+    state: plushie_sullivan
