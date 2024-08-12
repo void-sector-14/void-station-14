@@ -203,7 +203,7 @@
   id: PlushieSullivan
   name: Плюшевый Салливан
   description: |
-    Точно не военный преступник.
+    Верный цепной пёс Nanotrasen. Пахнет дорогим мужским одеколоном.
     Ограниченная серия игрушек команды проекта "Void Sector".
     Собери их всех!
   components:
@@ -216,4 +216,4 @@
     sound:
       path: /Audio/Void/Items/Toys/dude_laugh.ogg
   - type: UseDelay
-    delay: 10.0
+    delay: 5.0
