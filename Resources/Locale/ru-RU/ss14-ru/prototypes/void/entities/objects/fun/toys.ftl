@@ -59,18 +59,6 @@ ent-PlushiePalastir = Плюшевый Паластир
             Собери их всех!
     .suffix = { ent-BaseVoidPlushie.suffix }
 
-ent-PlushieYen = Плюшевый Йен
-    .desc = Пахнет как страх и 500 ананасов. Спрятать в шкафу, в случае экстренной ситуации.
-            Ограниченная серия игрушек команды проекта "Void Sector".
-            Собери их всех!
-    .suffix = { ent-BasePlushie.suffix }
-
 ent-PlushiePinkBall = Розовый шарик
     .desc = Залипательно...
-    .suffix = { "" }
-
-ent-PlushieSharssee = Плюшевый Шарсси
-    .desc = Вам кажется что эта игрушка за вами следит.
-            Ограниченная серия игрушек команды проекта "Void Sector".
-            Собери их всех!
     .suffix = { "" }
