@@ -202,10 +202,18 @@
   parent: BaseVoidPlushie
   id: PlushieSullivan
   name: Плюшевый Салливан
-  description: | 
+  description: |
     Точно не военный преступник.
     Ограниченная серия игрушек команды проекта "Void Sector".
     Собери их всех!
   components:
   - type: Sprite
     state: plushie_sullivan
+  - type: EmitSoundOnUse
+    sound:
+      path: /Audio/Void/Items/Toys/dude_laugh.ogg
+  - type: EmitSoundOnActivate
+    sound:
+      path: /Audio/Void/Items/Toys/dude_laugh.ogg
+  - type: UseDelay
+    delay: 10.0
