@@ -81,7 +81,7 @@ public sealed partial class NoteEdit : FancyWindow
             {
                 PermanentCheckBox.Pressed = false;
                 UpdatePermanentCheckboxFields();
-                ExpiryLineEdit.Text = ExpiryTime.Value.ToLocalTime().ToString("yyyy-MM-dd HH:mm:ss");
+                ExpiryLineEdit.Text = ExpiryTime.Value.ToLocalTime().ToString("dd-MM-yyyy HH:mm:ss");
             }
         }
 
@@ -173,7 +173,7 @@ public sealed partial class NoteEdit : FancyWindow
         ExpiryLabel.Visible = !PermanentCheckBox.Pressed;
         ExpiryLineEdit.Visible = !PermanentCheckBox.Pressed;
 
-        ExpiryLineEdit.Text = !PermanentCheckBox.Pressed ? DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss") : string.Empty;
+        ExpiryLineEdit.Text = !PermanentCheckBox.Pressed ? DateTime.Now.ToString("dd-MM-yyyy HH:mm:ss") : string.Empty;
     }
 
     private void OnSecretPressed(BaseButton.ButtonEventArgs _)

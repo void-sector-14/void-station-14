@@ -39,7 +39,7 @@ cmd-replay-recording-stop-success = Stopped recording a replay.
 cmd-replay-recording-stop-not-recording = Not currently recording a replay.
 cmd-replay-recording-stats-desc = Displays information about the current replay recording.
 cmd-replay-recording-stats-help = Usage: replay_recording_stats
-cmd-replay-recording-stats-result = Duration: { $time } min, Ticks: { $ticks }, Size: { $size } mb, rate: { $rate } mb/min.
+cmd-replay-recording-stats-result = Duration: { $time } min, Ticks: { $ticks }, Size: { $size } MB, rate: { $rate } MB/min.
 # Time Control UI
 replay-time-box-scrubbing-label = Dynamic Scrubbing
 replay-time-box-replay-time-label = Recording Time: { $current } / { $end }  ({ $percentage }%)

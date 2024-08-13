@@ -68,11 +68,11 @@ public sealed partial class AdminNotesLine : BoxContainer
             SeverityRect.Texture = _sprites.Frame0(new SpriteSpecifier.Texture(new ResPath(iconPath)));
         }
 
-        TimeLabel.Text = Note.CreatedAt.ToLocalTime().ToString("yyyy-MM-dd HH:mm:ss");
-        ServerLabel.Text = Note.ServerName ?? "Unknown";
-        RoundLabel.Text = Note.Round == null ? "Unknown round" : "Round " + Note.Round;
+        TimeLabel.Text = Note.CreatedAt.ToLocalTime().ToString("dd-MM-yyyy HH:mm:ss");
+        ServerLabel.Text = Note.ServerName ?? "Неизвестно";
+        RoundLabel.Text = Note.Round == null ? "Неизвестный раунд" : "Раунд " + Note.Round;
         AdminLabel.Text = Note.CreatedByName;
-        PlaytimeLabel.Text = $"{Note.PlaytimeAtNote.TotalHours: 0.0}h";
+        PlaytimeLabel.Text = $"{Note.PlaytimeAtNote.TotalHours: 0.0}ч";
 
         if (Note.Secret)
         {
@@ -91,8 +91,8 @@ public sealed partial class AdminNotesLine : BoxContainer
             if (Note.ExpiryTime.Value > DateTime.UtcNow)
             {
                 ExpiresLabel.Text = Loc.GetString("admin-note-editor-expiry-label-params",
-                    ("date", Note.ExpiryTime.Value.ToLocalTime().ToString("yyyy-MM-dd HH:mm:ss")),
-                    ("expiresIn", (Note.ExpiryTime.Value - DateTime.UtcNow).ToString("d'd 'hh':'mm")));
+                    ("date", Note.ExpiryTime.Value.ToLocalTime().ToString("dd-MM-yyyy HH:mm:ss")),
+                    ("expiresIn", (Note.ExpiryTime.Value - DateTime.UtcNow).ToString("d'д 'hh':'mm")));
                 ExpiresLabel.Modulate = Color.FromHex("#86DC3D");
             }
             else
@@ -139,7 +139,7 @@ public sealed partial class AdminNotesLine : BoxContainer
 
     private string FormatRoleBanMessage()
     {
-        var banMessage = new StringBuilder($"{Loc.GetString("admin-notes-banned-from")} {string.Join(", ", Note.BannedRoles ?? new []{"unknown"})} ");
+        var banMessage = new StringBuilder($"{Loc.GetString("admin-notes-banned-from")} {string.Join(", ", Note.BannedRoles ?? new []{"неизвестно"})} ");
         return FormatBanMessageCommon(banMessage);
     }
 
@@ -151,7 +151,7 @@ public sealed partial class AdminNotesLine : BoxContainer
         }
         else
         {
-            sb.Append("for ");
+            sb.Append("на ");
             var banLength = Note.ExpiryTime.Value - Note.CreatedAt;
             if (banLength.Days > 0)
                 sb.Append(Loc.GetString("admin-notes-days", ("days", banLength.TotalDays.ToString(".00"))));
