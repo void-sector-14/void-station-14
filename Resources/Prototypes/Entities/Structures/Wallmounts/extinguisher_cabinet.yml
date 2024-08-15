@@ -57,8 +57,6 @@
     - type: Construction
       graph: extinguishercabinet
       node: extinguishercabinet
-  placement:
-    mode: SnapgridCenter
 
 - type: entity
   parent: ExtinguisherCabinet

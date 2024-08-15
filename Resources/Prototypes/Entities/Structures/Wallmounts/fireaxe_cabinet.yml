@@ -54,15 +54,12 @@
   - type: Lock
   - type: AccessReader
     access: [["Atmospherics"], ["Command"]]
-  - type: ItemSlots
   - type: ContainerContainer
     containers:
       ItemCabinet: !type:ContainerSlot
   - type: Construction
     graph: fireaxecabinet
     node: fireaxecabinet
-  placement:
-    mode: SnapgridCenter
 
 - type: entity
   parent: FireAxeCabinet

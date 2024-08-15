@@ -50,8 +50,6 @@ namespace Content.Shared.Localizations
              */
             var cultureEn = new CultureInfo("en-US");
 
-            _loc.LoadCulture(cultureEn);
-
             _loc.AddFunction(cultureEn, "MAKEPLURAL", FormatMakePlural);
             _loc.AddFunction(cultureEn, "MANY", FormatMany);
         }

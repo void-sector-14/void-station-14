@@ -10,20 +10,20 @@
   - type: Clothing
     sprite: Void/Clothing/Shoes/Boots/magboots-deathsquad.rsi
   - type: Magboots
-    toggleAction: ActionToggleMagbootsDeathSquad
+    # toggleAction: ActionToggleMagbootsDeathSquad
   - type: ClothingSpeedModifier
     walkModifier: 1
     sprintModifier: 1
     enabled: false
   - type: NoSlip
   - type: StaticPrice
-    price: 1000
+    price: 10000
 
-- type: entity
-  id: ActionToggleMagbootsDeathSquad
-  parent: ActionBaseToggleMagboots
-  noSpawn: true
-  components:
-  - type: InstantAction
-    icon: { sprite: Void/Clothing/Shoes/Boots/magboots-deathsquad.rsi, state: icon }
-    iconOn: Void/Clothing/Shoes/Boots/magboots-deathsquad.rsi/icon-on.png
+# - type: entity
+#   id: ActionToggleMagbootsDeathSquad
+#   parent: ActionBaseToggleMagboots
+#   noSpawn: true
+#   components:
+#   - type: InstantAction
+#     icon: { sprite: Void/Clothing/Shoes/Boots/magboots-deathsquad.rsi, state: icon }
+#     iconOn: Void/Clothing/Shoes/Boots/magboots-deathsquad.rsi/icon-on.png

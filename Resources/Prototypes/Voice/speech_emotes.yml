@@ -483,13 +483,16 @@
 
 - type: emote
   id: GooseHonk
+  name: Кря!
   category: Vocal
   chatMessages: [ крякает ]
   chatTriggers:
   - крякает
+  - кря
 
 - type: emote
   id: Hiss
+  name: Шипеть
   category: Vocal
   chatMessages: ["шипит!"]
   chatTriggers:
@@ -508,6 +511,7 @@
 
 - type: emote
   id: Mew
+  name: Мяукать
   category: Vocal
   chatMessages: [ мяукает ]
   chatTriggers:
@@ -518,6 +522,7 @@
 
 - type: emote
   id: Purr
+  name: Мурчать
   category: Vocal
   chatMessages: [ мурчит ]
   chatTriggers:
@@ -525,7 +530,6 @@
   - мурр
   - мурчит
   - мурлыкает
-
 
 - type: emote
   id: MonkeyDeathgasp

@@ -52,8 +52,6 @@
     - type: Construction
       graph: defibrillatorcabinet
       node: defibrillatorcabinet
-  placement:
-    mode: SnapgridCenter
 
 - type: entity
   parent: DefibrillatorCabinet
