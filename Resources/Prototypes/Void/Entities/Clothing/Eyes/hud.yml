@@ -1,5 +1,5 @@
 - type: entity
-  parent: ClothingEyesBase
+  parent: [ClothingEyesBase, ShowSecurityIcons]
   id: ClothingEyesGlassesBlueShield
   name: очки офицера синего щита
   description: Модные очки отдающие синевой.
@@ -11,4 +11,3 @@
   - type: FlashImmunity
   - type: EyeProtection
     protectionTime: 5
-  - type: ShowSecurityIcons
