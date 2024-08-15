@@ -1,0 +1,13 @@
+- type: entity
+  parent: [ClothingEyesBase, ShowSecurityIcons]
+  id: ClothingEyesGlassesBlueShield
+  name: очки офицера синего щита
+  description: Модные очки отдающие синевой.
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Eyes/Glasses/blueshieldglasses.rsi
+  - type: Clothing
+    sprite: Void/Clothing/Eyes/Glasses/blueshieldglasses.rsi
+  - type: FlashImmunity
+  - type: EyeProtection
+    protectionTime: 5

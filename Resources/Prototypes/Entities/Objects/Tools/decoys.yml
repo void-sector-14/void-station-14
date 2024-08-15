@@ -48,6 +48,15 @@
   - type: ContainerContainer
     containers:
       cell_slot: !type:ContainerSlot
+  - type: HandheldLight
+    addPrefix: false
+  - type: PointLight # Just like the real thing...
+    autoRot: true
+    radius: 1.5
+    energy: 2.3
+    offset: 0, -1
+    color: green
+    netsync: false
   - type: Tag
     tags:
     - Balloon
@@ -146,8 +155,6 @@
   name: operative balloon
   description: Upon closer inspection, this Syndicate operative is actually a balloon.
   components:
-  - type: HandheldLight
-    addPrefix: false
   - type: Sprite
     sprite: Objects/Tools/Decoys/operative_decoy.rsi
     layers:
@@ -156,13 +163,6 @@
     - state: folded
       map: ["foldedLayer"]
       visible: false
-  - type: PointLight # Just like the real thing...
-    autoRot: true
-    radius: 1.5
-    energy: 2.3
-    offset: 0, -1
-    color: green
-    netsync: false
 
 - type: entity
   parent: BaseDecoy
@@ -170,8 +170,6 @@
   name: agent balloon
   description: Upon closer inspection, this Syndicate agent is actually a balloon.
   components:
-  - type: HandheldLight
-    addPrefix: false
   - type: Sprite
     sprite: Objects/Tools/Decoys/agent_decoy.rsi
     layers:
@@ -180,12 +178,6 @@
     - state: folded
       map: ["foldedLayer"]
       visible: false
-  - type: PointLight
-    radius: 1.5
-    energy: 2.3
-    offset: 0, -1
-    color: green
-    netsync: false
 
 - type: entity
   parent: BaseDecoy
@@ -193,8 +185,6 @@
   name: elite operative balloon
   description: Upon closer inspection, this Syndicate elite operative is actually a balloon.
   components:
-  - type: HandheldLight
-    addPrefix: false
   - type: Sprite
     sprite: Objects/Tools/Decoys/elite_decoy.rsi
     layers:
@@ -204,11 +194,7 @@
       map: ["foldedLayer"]
       visible: false
   - type: PointLight
-    radius: 1.5
-    energy: 2.3
-    offset: 0, -1
     color: red
-    netsync: false
 
 - type: entity
   parent: BaseDecoy
@@ -216,8 +202,6 @@
   name: juggernaut balloon
   description: Upon closer inspection, this Syndicate juggernaut is actually a balloon.
   components:
-  - type: HandheldLight
-    addPrefix: false
   - type: Sprite
     sprite: Objects/Tools/Decoys/juggernaut_decoy.rsi
     layers:
@@ -226,11 +210,6 @@
     - state: folded
       map: ["foldedLayer"]
       visible: false
-  - type: PointLight # Inbuilt flashlight, I guess?
-    radius: 1.5
-    energy: 2.3
-    offset: 0, -1
-    netsync: false
 
 - type: entity
   parent: BaseDecoy
@@ -238,8 +217,6 @@
   name: commander balloon
   description: Upon closer inspection, this Syndicate commander is actually a balloon.
   components:
-  - type: HandheldLight
-    addPrefix: false
   - type: Sprite
     sprite: Objects/Tools/Decoys/commander_decoy.rsi
     layers:
@@ -248,12 +225,6 @@
     - state: folded
       map: ["foldedLayer"]
       visible: false
-  - type: PointLight
-    radius: 1.5
-    energy: 2.3
-    offset: 0, -1
-    color: green
-    netsync: false
 
 - type: entity
   parent: AriralDecoy

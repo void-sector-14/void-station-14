@@ -1,7 +1,7 @@
 - type: listing
   id: RevenantDefile
-  name: Осквернение
-  description: Оскверняет окружающую территорию, рвет полы, повреждает окна, открывает контейнеры и бросает предметы. Его использование делает вас уязвимым для атак на короткий период времени.
+  name: revenant-defile-name
+  description: revenant-defile-desc
   productAction: ActionRevenantDefile
   cost:
     StolenEssence: 10
@@ -13,8 +13,8 @@
 
 - type: listing
   id: RevenantOverloadLights
-  name: Перегрузка Светильников
-  description: Перегружает все близлежащие источники света, вызывая их пульсацию и испуская опасные молнии. Его использование делает вас уязвимым для атак на длительный период времени.
+  name: revenant-overload-name
+  description: revenant-overload-desc
   productAction: ActionRevenantOverloadLights
   cost:
     StolenEssence: 25
@@ -26,8 +26,8 @@
 
 #- type: listing
 #  id: RevenantBlight
-#  name: Blight
-#  description: Infects all nearby organisms with an infectious disease that causes toxic buildup and tiredness. Using it leaves you vulnerable to attacks for a medium period of time.
+#  name: revenant-blight-name
+#  description: revenant-blight-desc
 #  productAction: ActionRevenantBlight
 #  cost:
 #    StolenEssence: 75
@@ -39,8 +39,8 @@
 
 - type: listing
   id: RevenantMalfunction
-  name: Проклятье
-  description: Приводит к тому, что находящаяся поблизости электроника перестает работать должным образом. Его использование делает вас уязвимым для атак на длительный период времени.
+  name: revenant-malfunction-name
+  description: revenant-malfunction-desc
   productAction: ActionRevenantMalfunction
   cost:
     StolenEssence: 125

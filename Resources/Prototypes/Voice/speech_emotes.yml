@@ -1,270 +1,498 @@
 # vocal emotes
 - type: emote
   id: Scream
+  name: chat-emote-name-scream
   category: Vocal
-  chatMessages: [ кричит!, вопит!, орёт! ]
+  icon: Interface/Actions/scream.png
+  whitelist:
+    components:
+    - Vocal
+  blacklist:
+    components:
+    - BorgChassis
+  chatMessages: ["chat-emote-msg-scream"]
   chatTriggers:
-  - крик
-  - кричит
-  - кричит.
-  - кричит!
-  - ор
-  - орёт
-  - орёт.
-  - орёт!
-  - визг
-  - визжит
-  - визжит.
-  - визжит!
+    - scream
+    - screams
+    - screams.
+    - screams!
+    - screaming
+    - screamed
+    - shriek
+    - shrieks
+    - shrieks.
+    - shrieks!
+    - shrieking
+    - shrieked
+    - screech
+    - screeches
+    - screeches.
+    - screeches!
+    - screeching
+    - screeched
+    - yell
+    - yells
+    - yells.
+    - yells!
+    - yelled
+    - yelling
+    - крик
+    - кричит
+    - ор
+    - орёт
+    - визг
+    - визжит
 
 - type: emote
   id: Laugh
+  name: chat-emote-name-laugh
   category: Vocal
-  chatMessages: [ смеётся ]
+  icon: Interface/Emotes/laugh.png
+  whitelist:
+    components:
+    - Vocal
+  blacklist:
+    components:
+    - BorgChassis
+  chatMessages: ["chat-emote-msg-laugh"]
   chatTriggers:
-  - смех
-  - смеется
-  - смеется.
-  - смеется!
-  - смеётся
-  - смеётся.
-  - смеётся!
-  - хохот
-  - хохочет
-  - хохочет.
-  - хохочет!
-  - посмеялся
-  - хихикает
-  - хихи
-  - хаха
-  - XD
-  - ржёт
+    - laugh
+    - laughs
+    - laughs.
+    - laughs!
+    - laughing
+    - laughed
+    - chuckle
+    - chuckles
+    - chuckles.
+    - chuckles!
+    - chuckled
+    - chuckling
+    - giggle
+    - giggles
+    - giggles.
+    - giggles!
+    - giggling
+    - giggled
+    - chortle
+    - chortle.
+    - chortle!
+    - chortles
+    - chortles.
+    - chortles!
+    - chortling
+    - chortling.
+    - chortling!
+    - смех
+    - смеётся
+    - хохот
+    - хохочет
+    - хихикает
+    - хихикнул
+    - хихикнула
+    - ржёт
 
 - type: emote
   id: Honk
+  name: chat-emote-name-honk
   category: Vocal
-  chatMessages: [ хонк ]
+  icon: Interface/Emotes/honk.png
+  whitelist:
+    requireAll: true
+    components:
+    - Vocal
+    - BorgChassis
+  chatMessages: ["chat-emote-msg-honk"]
   chatTriggers:
-  - хонк
-  - хонк.
-  - хонк!
-  - honks
-  - honks.
-  - honks!
-  - honked
-  - honked.
-  - honked!
-  - honking
-  - honking.
-  - honking!
+    - honk
+    - honk.
+    - honk!
+    - honks
+    - honks.
+    - honks!
+    - honked
+    - honked.
+    - honked!
+    - honking
+    - honking.
+    - honking!
+    - хонк
+    - хонк.
+    - хонк!
+    - хонкает
+    - хонкает.
+    - хонкает!
+    - хонкнул
+    - хонкнул.
+    - хонкнул!
+    - хонкнула
+    - хонкнула.
+    - хонкнула!
 
 - type: emote
   id: Sigh
+  name: chat-emote-name-sigh
   category: Vocal
-  chatMessages: [ вздыхает ]
+  icon: Interface/Emotes/sigh.png
+  whitelist:
+    components:
+    - Vocal
+  blacklist:
+    components:
+    - BorgChassis
+  chatMessages: ["chat-emote-msg-sigh"]
   chatTriggers:
-  - вздох
-  - вздох.
-  - вздыхает
-  - вздыхает.
-  - вздохнул
-  - вздохнула
-  - вздохнул.
-  - вздохнула.
+    - sigh
+    - sighs
+    - sighed
+    - sigh.
+    - sighs.
+    - sighed.
+    - вздыхает
+    - вздыхает.
+    - вздохнул
+    - вздохнул.
+    - вздохнула
+    - вздохнула.
 
 - type: emote
   id: Whistle
+  name: chat-emote-name-whistle
   category: Vocal
-  chatMessages: [ свистит ]
+  icon: Interface/Emotes/whistle.png
+  whitelist:
+    components:
+    - Vocal
+  blacklist:
+    components:
+    - BorgChassis
+  chatMessages: ["chat-emote-msg-whistle"]
   chatTriggers:
-  - свист
-  - свист.
-  - свист!
-  - свистит
-  - свистит.
-  - свистит!
-  - свистнул
-  - свистнул.
-  - свистнул.
-  - свистнула
-  - свистнула.
-  - свистнула!
-  - присвистнул
-  - присвистнул.
-  - присвистнул!
-  - присвистнула
-  - присвистнула.
-  - присвистнула!
+    - whistle
+    - whistle.
+    - whistle!
+    - whistles
+    - whistles.
+    - whistles!
+    - whistleblowing
+    - whistleblowing.
+    - whistleblowing!
+    - свистит
+    - свистит.
+    - свистит!
+    - свистнул
+    - свистнул.
+    - свистнул!
+    - свистнула
+    - свистнула.
+    - свистнула!
 
 - type: emote
   id: Crying
+  name: chat-emote-name-crying
   category: Vocal
-  chatMessages: [ плачет ]
+  icon: Interface/Emotes/cry.png
+  whitelist:
+    components:
+    - Vocal
+  blacklist:
+    components:
+    - BorgChassis
+  chatMessages: ["chat-emote-msg-crying"]
   chatTriggers:
-  - плач
-  - плач.
-  - плач!
-  - плачет
-  - плачет.
-  - плачет!
-  - рыдает
-  - рыдает.
-  - рыдает!
-  - заплакал
-  - заплакал.
-  - заплакал!
-  - заплакала
-  - заплакала.
-  - заплакала!
-  - хныкает
-  - хныкает.
-  - хныкает!
-  - хнычет
-  - хнычет.
-  - хнычет!
+    - cry
+    - cry.
+    - cry!
+    - crying
+    - crying.
+    - crying!
+    - cries
+    - cries.
+    - cries!
+    - sob
+    - sob.
+    - sobs
+    - sobs.
+    - sobs!
+    - sobbing
+    - sobbing.
+    - sobbing!
+    - плачет
+    - плачет.
+    - плачет!
+    - рыдает
+    - рыдает.
+    - рыдает!
+    - всхлипывает
+    - всхлипывает.
+    - всхлипывает!
 
 - type: emote
   id: Squish
+  name: chat-emote-name-squish
   category: Vocal
-  chatMessages: [ хлюпает ]
+  available: false
+  icon: Interface/Emotes/squish.png
+  whitelist:
+    components:
+    - Vocal
+  blacklist:
+    components:
+    - BorgChassis
+  chatMessages: ["chat-emote-msg-squish"]
   chatTriggers:
-  - хлюп
-  - хлюп.
-  - хлюп!
-  - хлюпает
-  - хлюпает.
-  - хлюпает!
-  - хлюпнул
-  - хлюпнул.
-  - хлюпнул!
-  - хлюпнула
-  - хлюпнула.
-  - хлюпнула!
-  - хлюпнуло
-  - хлюпнуло.
-  - хлюпнуло!
-  - хлюпнули
-  - хлюпнули.
-  - хлюпнули!
+    - squish
+    - squish.
+    - squish!
+    - squishing
+    - squishing.
+    - squishing!
+    - squishes
+    - squishes.
+    - squishes!
+    - сжимается
+    - сжимается.
+    - сжимается!
+    - сжался
+    - сжался.
+    - сжался!
+    - сжалась
+    - сжалась.
+    - сжалась!
 
 - type: emote
   id: Chitter
+  name: chat-emote-name-chitter
   category: Vocal
-  chatMessages: [ жужжит ]
+  available: false
+  icon: Interface/Emotes/chitter.png
+  whitelist:
+    components:
+    - Vocal
+  blacklist:
+    components:
+    - BorgChassis
+  chatMessages: ["chat-emote-msg-chitter"]
   chatTriggers:
-  - жужжание
-  - жужжание.
-  - жужжание!
-  - жужжит
-  - жужжит.
-  - жужжит!
+   - chitter
+   - chitter.
+   - chitter!
+   - chitters
+   - chitters.
+   - chitters!
+   - chittered
+   - chittered.
+   - chittered!
+   - стрекочет
+   - стрекочет.
+   - стрекочет!
+   - чирикает
+   - чирикает.
+   - чирикает!
 
 - type: emote
   id: Squeak
+  name: chat-emote-name-squeak
   category: Vocal
-  chatMessages: [ пищит ]
+  available: false
+  icon: Interface/Emotes/squeak.png
+  whitelist:
+    components:
+      - Vocal
+  blacklist:
+    components:
+    - BorgChassis
+  chatMessages: ["chat-emote-msg-squeak"]
   chatTriggers:
-  - писк
-  - писк.
-  - писк!
-  - пищит
-  - пищит.
-  - пищит!
-  - пискнул
-  - пискнул.
-  - пискнул!
+   - squeak
+   - squeak.
+   - squeak!
+   - squeaks
+   - squeaks.
+   - squeaks!
+   - squeaked
+   - squeaked.
+   - squeaked!
+   - пищит
+   - пищит.
+   - пищит!
 
 - type: emote
   id: Click
+  name: chat-emote-name-click
   category: Vocal
-  chatMessages: [ click ]
+  available: false
+  icon: Interface/Emotes/click.png
+  whitelist:
+    components:
+    - Vocal
+  blacklist:
+    components:
+    - BorgChassis
+  chatMessages: ["chat-emote-msg-click"]
   chatTriggers:
-  - click
-  - click.
-  - click!
-  - clicks
-  - clicks.
-  - clicks!
+   - click
+   - click.
+   - click!
+   - clicks
+   - clicks.
+   - clicks!
+   - клац
+   - клац.
+   - клац!
+   - клацает
+   - клацает.
+   - клацает!
 
 # hand emotes
 - type: emote
   id: Clap
+  name: chat-emote-name-clap
   category: Hands
-  chatMessages: [ хлопает ]
+  icon: Interface/Emotes/clap.png
+  whitelist:
+    components:
+    - Hands
+  blacklist:
+    components:
+    - BorgChassis
+  chatMessages: ["chat-emote-msg-clap"]
   chatTriggers:
-  - хлопает
-  - хлопает.
-  - хлопает!
-  - хлопнул
-  - хлопнула
-  - хлопает в ладоши
-  - хлопает в ладоши.
-  - хлопает в ладоши!
-  - хлопнул в ладоши
-  - хлопнула в ладоши
-  - апплодирует
-  - апплодирует.
-  - апплодирует!
+    - clap
+    - claps
+    - claps.
+    - claps!
+    - clapping
+    - clapped
+    - хлопает
+    - хлопает.
+    - хлопает!
+    - хлопнул
+    - хлопнул.
+    - хлопнул!
+    - хлопнула
+    - хлопнула.
+    - хлопнула!
+    - хлопает в ладоши
+    - хлопнул в ладоши
+    - хлопнула в ладоши
+    - апплодирует
 
 - type: emote
   id: Snap
+  name: chat-emote-name-snap
   category: Hands
-  chatMessages: [ щелчок пальцами ]
+  icon: Interface/Emotes/snap.png
+  whitelist:
+    components:
+    - Hands
+  blacklist:
+    components:
+    - BorgChassis
+  chatMessages: ["chat-emote-msg-snap"] # snaps <{THEIR($ent)}> fingers?
   chatTriggers:
-  - щелкает
-  - щелкает.
-  - щелкает!
-  - щелкнул
-  - щелкнула
-  - щёлкает
-  - щёлкает.
-  - щёлкает!
-  - щёлкнул
-  - щёлкнула
-  - щелкает пальцами
-  - щелкает пальцами.
-  - щелкает пальцами!
-  - щелкнул пальцами
-  - щелкнула пальцами
-  - щёлкает пальцами
-  - щёлкает пальцами.
-  - щёлкает пальцами!
-  - щёлкнул пальцами
-  - щёлкнула пальцами
+    - snap
+    - snaps
+    - snapping
+    - snapped
+    - snap fingers
+    - snaps fingers
+    - snaps fingers.
+    - snaps fingers!
+    - snaps their fingers
+    - snaps their fingers.
+    - snaps their fingers!
+    - snapping fingers
+    - snapped fingers
+    - щелкает
+    - щелкнул
+    - щелкнула
+    - щёлкает
+    - щёлкнул
+    - щёлкнула
+    - щелкает пальцами
+    - щелкнул пальцами
+    - щелкнула пальцами
+    - щёлкает пальцами
+    - щёлкнул пальцами
+    - щёлкнула пальцами
 
 - type: emote
   id: Salute
+  name: chat-emote-name-salute
   category: Hands
-  chatMessages: [ салютует ]
+  icon: Interface/Emotes/salute.png
+  whitelist:
+    components:
+    - Hands
+  blacklist:
+    components:
+    - BorgChassis
+  chatMessages: ["chat-emote-msg-salute"]
   chatTriggers:
-  - салютует
-  - салютует.
-  - салютует!
-  - отдаёт честь
-  - отдаёт честь.
-  - отдаёт честь!
-  - отдал честь
-  - отдал честь.
-  - отдал честь!
-  - отдала честь
-  - отдала честь.
-  - отдала честь!
+    - salute
+    - salute.
+    - salute!
+    - salutes
+    - salutes.
+    - salutes!
+    - салютует
+    - салютует.
+    - салютует!
+    - отдает честь
+    - отдает честь.
+    - отдает честь!
+    - отдаёт честь
+    - отдаёт честь.
+    - отдаёт честь!
+    - отдал честь
+    - отдал честь.
+    - отдал честь!
+    - отдала честь
+    - отдала честь.
+    - отдала честь!
+
+- type: emote
+  id: Gasp
+  name: chat-emote-name-gasp
+  whitelist:
+    components:
+    - Respirator
+  chatMessages: ["chat-emote-msg-gasp"]
+  chatTriggers:
+   - gasp
+   - gasp.
+   - gasp!
+   - gasps
+   - gasps.
+   - gasps!
+   - gasped
+   - gasped.
+   - gasped!
 
 - type: emote
   id: DefaultDeathgasp
-  chatMessages: [ "emote-deathgasp" ]
+  name: chat-emote-name-deathgasp
+  icon: Interface/Emotes/deathgasp.png
+  whitelist:
+    components:
+    - MobState
+  chatMessages: ["chat-emote-msg-deathgasp"]
   chatTriggers:
   - умер
 
 - type: emote
   id: GooseHonk
+  name: Кря!
   category: Vocal
   chatMessages: [ крякает ]
   chatTriggers:
   - крякает
+  - кря
 
 - type: emote
   id: Hiss
+  name: Шипеть
   category: Vocal
   chatMessages: ["шипит!"]
   chatTriggers:
@@ -283,6 +511,7 @@
 
 - type: emote
   id: Mew
+  name: Мяукать
   category: Vocal
   chatMessages: [ мяукает ]
   chatTriggers:
@@ -293,6 +522,7 @@
 
 - type: emote
   id: Purr
+  name: Мурчать
   category: Vocal
   chatMessages: [ мурчит ]
   chatTriggers:
@@ -301,135 +531,228 @@
   - мурчит
   - мурлыкает
 
+- type: emote
+  id: MonkeyDeathgasp
+  name: chat-emote-name-deathgasp
+  icon: Interface/Emotes/deathgasp.png
+  chatMessages: ["chat-emote-msg-deathgasp-monkey"]
 
 - type: emote
   id: Buzz
+  name: chat-emote-name-buzz
   category: Vocal
-  chatMessages: [ buzz! ]
+  icon: Interface/Emotes/buzz.png
+  whitelist:
+    requireAll: true
+    components:
+    - BorgChassis
+    - Vocal
+  chatMessages: ["chat-emote-msg-buzz"]
   chatTriggers:
-  - buzzing
-  - buzzing!
-  - buzzing.
-  - buzz
-  - buzz.
-  - buzz!
-  - buzzed
-  - buzzed.
-  - buzzed!
-  - buzzes
-  - buzzes.
-  - buzzes!
+    - buzzing
+    - buzzing!
+    - buzzing.
+    - buzz
+    - buzz.
+    - buzz!
+    - buzzed
+    - buzzed.
+    - buzzed!
+    - buzzes
+    - buzzes.
+    - buzzes!
+    - жужж
+    - жужж.
+    - жужж!
+    - жужжит
+    - жужжит.
+    - жужжит!
+    - зажужжал
+    - зажужжал.
+    - зажужжал!
+    - зажужжала
+    - зажужжала.
+    - зажужжала!
 
 - type: emote
   id: Weh
+  name: chat-emote-name-weh
   category: Vocal
-  chatMessages: [ Wehs! ]
+  icon: Interface/Emotes/weh.png
+  chatMessages: [издаёт вех!]
 
 - type: emote
   id: Chirp
+  name: chat-emote-name-chirp
   category: Vocal
-  chatMessages: [ chirps! ]
+  icon: Interface/Emotes/chirp.png
+  whitelist:
+    requireAll: true
+    components:
+    - Nymph
+  chatMessages: ["chat-emote-msg-chirp"]
   chatTriggers:
-  - chirp
-  - chirp!
-  - chirp.
-  - chirps
-  - churps.
-  - chirps!
-  - chirped
-  - chirped.
-  - chirped!
-  - chirping
-  - chirping.
-  - chirping!
+    - chirp
+    - chirp!
+    - chirp.
+    - chirps
+    - churps.
+    - chirps!
+    - chirped
+    - chirped.
+    - chirped!
+    - chirping
+    - chirping.
+    - chirping!
+    - щебет
+    - щебет.
+    - щебет!
+    - щебечет
+    - щебечет.
+    - щебечет!
 
 # Machine Emotes
 - type: emote
   id: Beep
+  name: chat-emote-name-beep
   category: Vocal
-  chatMessages: [ beeps. ]
+  icon: Interface/Emotes/beep.png
+  whitelist:
+    requireAll: true
+    components:
+    - BorgChassis
+    - Vocal
+  chatMessages: ["chat-emote-msg-beep"]
   chatTriggers:
-  - beep
-  - beep!
-  - beep.
-  - beeps
-  - beeps.
-  - beeps!
-  - beeped
-  - beeped.
-  - beeped!
-  - beeping
-  - beeping.
-  - beeping!
+    - beep
+    - beep!
+    - beep.
+    - beeps
+    - beeps.
+    - beeps!
+    - beeped
+    - beeped.
+    - beeped!
+    - beeping
+    - beeping.
+    - beeping!
+    - бип
+    - бип.
+    - бип!
 
 - type: emote
   id: Chime
+  name: chat-emote-name-chime
   category: Vocal
-  chatMessages: [ chimes. ]
+  icon: Interface/Emotes/chime.png
+  whitelist:
+    requireAll: true
+    components:
+    - BorgChassis
+    - Vocal
+  chatMessages: ["chat-emote-msg-chime"]
   chatTriggers:
-  - chime
-  - chime.
-  - chime!
-  - chimes
-  - chimes.
-  - chimes!
-  - chimed
-  - chimed.
-  - chimed!
-  - chiming
-  - chiming,
-  - chiming!
+    - chime
+    - chime.
+    - chime!
+    - chimes
+    - chimes.
+    - chimes!
+    - chimed
+    - chimed.
+    - chimed!
+    - chiming
+    - chiming,
+    - chiming!
+    - дзынь
+    - дзынь.
+    - дзынь!
 
 - type: emote
   id: Buzz-Two
+  name: chat-emote-name-buzztwo
   category: Vocal
-  chatMessages: [ buzzesTwice. ]
+  icon: Interface/Emotes/buzztwo.png
+  whitelist:
+    requireAll: true
+    components:
+    - BorgChassis
+    - Vocal
+  chatMessages: ["chat-emote-msg-buzzestwo"]
   chatTriggers:
-  - buzztwice
-  - buzztwice.
-  - buzztwice!
-  - buzzstwice
-  - buzzstwice.
-  - buzzstwice!
-  - buzzestwice
-  - buzzestwice.
-  - buzzestwice!
-  - buzzingtwice
-  - buzzingtwice.
-  - buzzingtwice!
-  - buzzedtwice
-  - buzzedtwice.
-  - buzzedtwice!
-  - buzz twice
-  - buzz twice.
-  - buzz twice!
-  - buzzs twice
-  - buzzs twice.
-  - buzzs twice!
-  - buzzes twice
-  - buzzes twice.
-  - buzzes twice!
-  - buzzing twice
-  - buzzing twice.
-  - buzzing twice!
-  - buzzed twice
-  - buzzed twice.
-  - buzzed twice!
+    - buzztwice
+    - buzztwice.
+    - buzztwice!
+    - buzzstwice
+    - buzzstwice.
+    - buzzstwice!
+    - buzzestwice
+    - buzzestwice.
+    - buzzestwice!
+    - buzzingtwice
+    - buzzingtwice.
+    - buzzingtwice!
+    - buzzedtwice
+    - buzzedtwice.
+    - buzzedtwice!
+    - buzz twice
+    - buzz twice.
+    - buzz twice!
+    - buzzs twice
+    - buzzs twice.
+    - buzzs twice!
+    - buzzes twice
+    - buzzes twice.
+    - buzzes twice!
+    - buzzing twice
+    - buzzing twice.
+    - buzzing twice!
+    - buzzed twice
+    - buzzed twice.
+    - buzzed twice!
+    - бипбуп
+    - бипбуп.
+    - бипбуп!
+    - бип буп
+    - бип буп.
+    - бип буп!
+    - бип-буп
+    - бип-буп.
+    - бип-буп!
+    - бипбип
+    - бипбип.
+    - бипбип!
+    - бип бип
+    - бип бип.
+    - бип бип!
+    - бип-бип
+    - бип-бип.
+    - бип-бип!
 
 - type: emote
   id: Ping
+  name: chat-emote-name-ping
   category: Vocal
-  chatMessages: [ pings. ]
+  icon: Interface/Emotes/ping.png
+  whitelist:
+    requireAll: true
+    components:
+    - BorgChassis
+    - Vocal
+  chatMessages: ["chat-emote-msg-ping"]
   chatTriggers:
-  - ping
-  - ping.
-  - ping!
-  - pings
-  - pings.
-  - pings!
-  - pinged
-  - pinged.
-  - pinged!
-  - pinging
-  - pinging.
-  - pinging!
+    - ping
+    - ping.
+    - ping!
+    - pings
+    - pings.
+    - pings!
+    - pinged
+    - pinged.
+    - pinged!
+    - pinging
+    - pinging.
+    - pinging!
+    - пинг
+    - пинг.
+    - пинг!

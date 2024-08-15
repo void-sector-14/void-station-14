@@ -1,86 +1,90 @@
 <Document>
-	# Предатели
+  # Предатели
 
-	- Предатель - это антагонист, нанятый Синдикатом. У них есть доступ к различным инструментам и оружию Синдиката через их [color=#a4885c]Аплинк[/color].
-	- Предатели могут использовать кодовые слова, чтобы идентифицировать себя друг с другом для сотрудничества.
-	- В раунде предателей, предателем может быть любой игрок, кроме руководителей отделов, капитана или любых офицеров службы безопасности.
-	- Предатели должны сосредоточиться в первую очередь на успешном выполнении своих задач к концу раунда.
+  ВИСКИ. ЭХО. ВИСКИ. ЛИМА. АЛЬФА. ДЕЛЬТА.
 
-	## Аплинк
-	<Box>
-    <GuideEntityEmbed Entity="BaseUplinkRadio40TC" Caption="Uplink"/>
-  </Box>
-  -[color=#a4885c] Аплинк [/color] является наиболее важным инструментом для предателя, поскольку он может приобретать инструменты и оружие с помощью [color=#a4885c]телекристаллов[/color](ТК).
+  - Предатель - это антагонист, нанятый Синдикатом. Через [color=#a4885c]Аплинк[/color] они получают доступ к различным инструментам и оружию Синдиката.
+  - Предатели могут использовать кодовые слова, чтобы идентифицировать себя друг с другом для сотрудничества.
+  - В раунде Предателей любой игрок может стать предателем, кроме глав отделов, капитана и офицеров службы безопасности.
+  - Основное внимание предателей должно быть направлено на успешное выполнение своих задач к концу раунда.
+
+  ## Аплинк
   <Box>
-    <GuideEntityEmbed Entity="Telecrystal" Caption="Telecrystals"/>
+    <GuideEntityEmbed Entity="BaseUplinkRadio" Caption="Аплинк"/>
   </Box>
-	- [color=#a4885c]Телекристаллы[/color] даются в начале, чтобы дать предателям преимущество на станции.
-	- Использование вашего [color=#a4885c]КПК[/color] и установка мелодии звонка в качестве кода восходящей линии связи дает вам множество возможностей для использования в вашем распоряжении против станции и ее экипажа.
-	<Box>
-  <GuideEntityEmbed Entity="PassengerPDA" Caption="PDA"/>
+  - [color=#a4885c]Аплинк[/color] - самый важный инструмент для Предателя, поскольку с его помощью можно приобретать инструменты и оружие за [color=#a4885c]телекристаллы[/color] (ТК).
+  <Box>
+    <GuideEntityEmbed Entity="Telecrystal" Caption="Телекристаллы"/>
   </Box>
-	Обязательно повторно заблокируйте свой [color=#a4885c]КПК[/color], чтобы никто другой его не увидел!
-	- Различное снаряжение включает:
-	<Box>
-    <GuideEntityEmbed Entity="WeaponPistolViper" Caption="Guns"/>
-    <GuideEntityEmbed Entity="FireAxe" State="icon" Caption="Melee"/>
-    <GuideEntityEmbed Entity="C4" Caption=" Explosives"/>
-    <GuideEntityEmbed Entity="Syringe" Caption="Implants"/>
-    <GuideEntityEmbed Entity="ClothingBackpackDuffelSyndicate" Caption="Bundles"/>
+  - [color=#a4885c]Телекристаллы[/color] выдаются в самом начале, чтобы дать предателям преимущество на станции. Другие предатели могут обмениваться своими [color=#a4885c]телекристаллами[/color] друг с другом для увеличения стандартного выдаваемого их количества.
+  - Использование [color=#a4885c]КПК[/color] и установка рингтона для доступа к Аплинку даёт в ваше распоряжение множество возможностей для борьбы со станцией и ее экипажем.
+  <Box>
+  <GuideEntityEmbed Entity="PassengerPDA" Caption="КПК"/>
+  </Box>
+  Не забудьте заблокировать свой [color=#a4885c]КПК[/color], чтобы никто не смог увидеть, что у вас есть Аплинк!
+  - В Аплинк включены различные приспособления:
+  <Box>
+    <GuideEntityEmbed Entity="WeaponPistolCobra" Caption="Weaponry"/>
+    <GuideEntityEmbed Entity="MagazineBoxLightRifle" State="icon" Caption="Боеприпасы"/>
+    <GuideEntityEmbed Entity="C4" Caption="Explosives"/>
+    <GuideEntityEmbed Entity="ClothingOuterHardsuitSyndie" Caption="Wearables"/>
+    <GuideEntityEmbed Entity="Stimpack" Caption="Химикаты"/>
+  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="ChameleonProjector" Caption="Deception"/>
+    <GuideEntityEmbed Entity="Emag" Caption="Disruption"/>
+    <GuideEntityEmbed Entity="StorageImplanter" Caption="Импланты"/>
+    <GuideEntityEmbed Entity="MobMonkeySyndicateAgentNukeops" Caption="Allies"/>
+    <GuideEntityEmbed Entity="ClothingEyesGlassesOutlawGlasses" Caption="Безделушки"/>
   </Box>
 
-	## Задания
+  ## Цели
 
-	- Когда вы становитесь предателем, у вас будет список целей, начиная от побега живым, кражи чего-либо и убийства кого-либо. Использование [color=#a4885c]Аплинка[/color] поможет вам с большинством из этих задач.
+  - Став предателем, вы получите список целей, начиная от побега живым, кражи и заканчивая убийством. Использование [color=#a4885c]Аплинка[/color] поможет вам справиться с большинством из этих задач.
 
-	## Список возможных заданий
+  ## Список возможных целей
 
-	- Убить или не дать покинуть станцию случайно выбранному не предателю.
-	- Убить или не дать покинуть станцию случайно выбранному предателю.
-	- Убить или не дать покинуть станцию случайно выбранному главе.
-	- Помочь выжить случайно выбранному предателю.
-	- Сбежать на эвакуационном шаттле живым и свободным.
-	- Помогите случайно выбранному предателю выполнить 2/3 поставленных задач.
-	- Умрите славной смертью.
-	- Украдите ID карту капитана [color=#a4885c]ID Card[/color].
-	<Box>
-    <GuideEntityEmbed Entity="CaptainIDCard" Caption="Captain's ID Card"/>
-  </Box>
-	- Украсть у капитана [color=#a4885c]Антикварный лазерный пистолет[/color].
-	<Box>
-    <GuideEntityEmbed Entity="WeaponAntiqueLaser" Caption="Captain's Antique Laser Pistol"/>
-  </Box>
-  - Украсть капитанский [color=#a4885c]Джетпак[/color].
+  - Убить или не дать сбежать случайно выбранного не предателя.
+  - Убить или не дать сбежать случайно выбранного предателя.
+  - Убить или не дать сбежать случайно выбранную главу отдела.
+  - Убедитесь, что случайно выбранный предатель выживет.
+  - Сбежите на эвакуационном шаттле живым и свободным.
+  - Помогите случайно выбранному предателю выполнить пллвтгу его целей.
+  - Умереть славной смертью.
+  - Украсть [color=#a4885c]ID карту[/color] Капитана, [color=#a4885c]Антикварный лазерный пистолет[/color], [color=#a4885c]Джетпак[/color], или [color=#a4885c]Диск ядерной авторизации[/color].
   <Box>
-    <GuideEntityEmbed Entity="JetpackCaptainFilled" Caption="Captain's Jetpack"/>
+    <GuideEntityEmbed Entity="CaptainIDCard" Caption="ID Карта Капитана"/>
+    <GuideEntityEmbed Entity="WeaponAntiqueLaser" Caption="Антикварный Лазерный Пистолет Капитана"/>
   </Box>
-  - Украсть [color=#a4885c]Гипоспрей[/color] главврача.
   <Box>
-    <GuideEntityEmbed Entity="Hypospray" Caption="CMO's Hypospray"/>
+    <GuideEntityEmbed Entity="JetpackCaptainFilled" Caption="Джетпак Капитана"/>
+	<GuideEntityEmbed Entity="NukeDisk" Caption="Диск ядерной авторизации"/>
   </Box>
-  - Украсть [color=#a4885c]Скафандр[/color] научного руководителя.
+  - Украсть [color=#a4885c]Гипоспрей[/color] или [color=#a4885c]Портативный монитор экипажа[/color] Главного Врача.
   <Box>
-    <GuideEntityEmbed Entity="ClothingOuterHardsuitRd" Caption="RD's Hardsuit"/>
+    <GuideEntityEmbed Entity="Hypospray" Caption="Гипоспрей"/>
+	<GuideEntityEmbed Entity="HandheldCrewMonitorEmpty" Caption="Портативный монитор ГВ"/>
   </Box>
-  - Украсть [color=#a4885c]Ручной телепорт[/color] научного руководителя.
+  - Украсть [color=#a4885c]Скафандр[/color] или [color=#a4885c]Ручной телепортер[/color] Научного Руководителя.
   <Box>
-    <GuideEntityEmbed Entity="HandTeleporter" Caption="Hand Teleporter"/>
+    <GuideEntityEmbed Entity="ClothingOuterHardsuitRd" Caption="Скафандр НРа"/>
+    <GuideEntityEmbed Entity="HandTeleporter" Caption="Ручной Телепортер"/>
   </Box>
-  - Украсть[color=#a4885c]Черезвычайные приказы по безопастности[/color] у главы службы безопастности.
+  - Украсть [color=#a4885c]Секретные Документы[/color] Главы Службы Безопасности.
   <Box>
-    <GuideEntityEmbed Entity="BookSecretDocuments" Caption="Secret Documents"/>
+    <GuideEntityEmbed Entity="BookSecretDocuments" Caption="Секретные Документы"/>
   </Box>
-  - Украсть [color=#a4885c]Продвинутые магнитные ботинки[/color] старшего инженера.
+  - Украсть [color=#a4885c]Продвинутые Магнитные Сапоги[/color] Старшего Инженера.
   <Box>
-    <GuideEntityEmbed Entity="ClothingShoesBootsMagAdv" Caption="Advanced Magboots"/>
+    <GuideEntityEmbed Entity="ClothingShoesBootsMagAdv" Caption="Продвинутые Магнитные Сапоги"/>
   </Box>
-  - Украсть [color=#a4885c]Диск ядерной авторизации[/color].
+  - Украсть [color=#a4885c]Цифровой планшет заказов[/color] Квартирмейстера.
   <Box>
-    <GuideEntityEmbed Entity="NukeDisk" Caption="Nuke Disk"/>
+    <GuideEntityEmbed Entity="BoxFolderQmClipboard" Caption="Цифровой планшет заказов"/>
   </Box>
-  - Украсть [color=#a4885c]Первосортное мясо корги[/color].
+  - Украсть собаку Главы Персонала, [color=#a4885c]Мясо Корги[/color] Иана.
   <Box>
-  <GuideEntityEmbed Entity="MobCorgiIan" Caption="Corgi"/>
+  <GuideEntityEmbed Entity="MobCorgiIan" Caption="Ian the Corgi"/>
   <GuideEntityEmbed Entity="FoodMeatCorgi" Caption="Corgi Meat"/>
   </Box>
 

@@ -51,18 +51,6 @@
     Grenadine: 2
 
 - type: reaction
-  id: BahamaMama
-  reactants:
-    JuiceOrange:
-      amount: 1
-    JuicePineapple:
-      amount: 1
-    Rum:
-      amount: 1
-  products:
-    BahamaMama: 3
-
-- type: reaction
   id: DeadRum
   reactants:
     Vodka:

@@ -1,16 +1,16 @@
 <Document>
 	# Революция
 
-	- Революционеры это антагонисты, что спонсируются синдикатом для захвата контроля над станцией.
+  - Revolutionaries are antagonists who are sponsored by the Syndicate to take over the station.
 
-	## Глава Революции
+  ## Head Revolutionaries
 
-	<Box>
+<Box>
   <GuideEntityEmbed Entity="Flash" Caption="Flash"/>
   <GuideEntityEmbed Entity="ClothingEyesGlassesSunglasses" Caption="Sunglasses"/>
 </Box>
 
-	[color=#5e9cff]Главы Революции[/color] выбираются в начале смены, и им поручается захватить станцию, убив или отправив в ссылку весь командный состав. Главным революционерам будет предоставленна [color=#a4885c]вспышка[/color] и пара [color=#a4885c]солнцезащитных очков[/color] чтобы помочь им.
+  [color=#5e9cff]Head Revolutionaries[/color] are chosen at the start of the shift and are tasked with taking over the station by killing, exiling, or cuffing all of the Command staff. Head Revolutionaries will be given a [color=#a4885c]Flash[/color] and a pair of [color=#a4885c]Sunglasses[/color] to aid them.
 
 	## Вербовка
 
@@ -18,7 +18,7 @@
   <GuideEntityEmbed Entity="Flash" Caption="Flash"/>
 </Box>
 
-	Вы можете завербовать экипаж с помощью [color=#a4885c]вспышки[/color] в [color=#ff0000]боевом режиме[/color] атакуя с её помощью. Для вербовки можно использовать любую вспышку, но помните, что заряд вспышек ограничен.
+  You can convert crew members to [color=#ff0000]Revolutionaries[/color] by using a [color=#a4885c]Flash[/color] in [color=#ff0000]harm mode[/color] and attacking someone with it. Any flash can be used for conversion, but remember that flashes have limited charges.
 
 	<Box>
   <GuideEntityEmbed Entity="ClothingEyesGlassesSunglasses" Caption="Sunglasses"/>
@@ -26,29 +26,30 @@
   <GuideEntityEmbed Entity="ClothingHeadHatWelding" Caption="Welding Mask"/>
 </Box>
 
-	Однако [color=#a4885c]Солцезащитные очки[/color] и [color=#a4885c]Сварочные маски[/color] обеспечивают защиту от вспышки, и люди, носящие их, не смогут завербоватся.
+  However, gear providing flash protection such as [color=#a4885c]Sunglasses[/color] and [color=#a4885c]Welding Masks[/color] will also block your flashes, and crew wearing these will not be able to be converted.
 
 	<Box>
   <GuideEntityEmbed Entity="MindShieldImplanter" Caption="MindShield Implanter"/>
 </Box>
 
-	Пока нет защиты от вспышки, [color=#a4885c]имплант Защиты разума[/color] защищает от вербовки имплантированного человека. Предположительно что[color=#a4885c]Служба Безопастности[/color] И [color=#a4885c]Команнование[/color] уже имплантированны.
+  While not flash protection, a [color=#a4885c]MindShield Implant[/color] will prevent the implanted person from being converted into a revolutionary. Assume all of [color=#a4885c]Security[/color] and [color=#a4885c]Command[/color] are implanted already.
+  Additionally, a [color=#a4885c]MindShield Implanter[/color] used on a [color=#ff0000]Revolutionary[/color] will de-convert them and they will no longer be loyal to your cause. If a [color=#a4885c]MindShield Implanter[/color] is used on a [color=#5e9cff]Head Revolutionary[/color], it will be destroyed but this will reveal you so be careful!
 
 	## Революционеры
 
-	[color=#ff0000]Революционер[/color] это результат вербовки [color=#5e9cff]Главы революции[/color]. Революционеры являются подчиненными Главных революционеров и должны выполнять отданные ими приказы и ставить их благополучие превыше всего остального, потому что, если они умрут, вы проиграете.
-	Имейте в виду, что вы не можете завербовать экипаж, будучи обычным революционером, это может сделать только Глава революции.
+  A [color=#ff0000]Revolutionary[/color] is the result of being converted by a [color=#5e9cff]Head Revolutionary[/color]. Revolutionaries are underlings of the Head Revolutionaries and should follow orders given by them and prioritize their well-being over anything else because if the [color=#5e9cff]Head Revolutionaries[/color] die the Revolution will fail.
+  Keep in mind that you can't convert others as a regular revolutionary, only your boss can do that.
 
 	## Objectives
 
-	Вы должны устранить или сослать весь следующий командный состав на станции в произвольном порядке.
-	- Капитан
-	- Глава персонала
-	- Старший инженер
-	- Научный руководитель
-	- Квартирмейстер
-	- Глава службы безопасности
-	- Главный врач
+  You must eliminate, exile, or arrest all of the following Command staff on station in no particular order.
+  - Captain
+  - Head of Personnel
+  - Chief Engineer
+  - Research Director
+  - Quartermaster
+  - Head of Security
+  - Chief Medical Officer
 
-	Помните, ваша цель - захватить станцию, а не уничтожить ее, поэтому постарайтесь свести ущерб к минимуму, где это возможно. Viva la revolución!
+  Remember, your objective is to take over the station and not to destroy it so try to minimize damage where possible. Viva la revolución!
 </Document>

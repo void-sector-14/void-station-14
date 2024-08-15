@@ -15,7 +15,6 @@
       - ChefGear
       - ChaplainGear
       - PassengerGear
-      - 
 
 - type: entity
   parent: SalvageHumanCorpse

@@ -35,9 +35,9 @@
     tags:
     - Hardsuit
     - WhitelistChameleon
-  - type: StealthClothing
-    visibility: -1
-    toggleAction: ActionTogglePhaseCloak
+  # - type: StealthClothing
+  #   visibility: -1
+  #   toggleAction: ActionTogglePhaseCloak
 
 
 - type: entity
@@ -67,8 +67,6 @@
         Cold: 0.4
         Radiation: 0.1
         Caustic: 0.1
-  - type: ShowSyndicateIcons
-  - type: ShowSecurityIcons
   - type: FlashImmunity
   - type: EyeProtection
   - type: ShowHealthBars
