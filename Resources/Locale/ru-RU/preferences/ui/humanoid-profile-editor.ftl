@@ -52,3 +52,4 @@ humanoid-profile-editor-no-traits = Нет доступных черт
 humanoid-profile-editor-trait-count-hint = Доступные очки: [{ $current }/{ $max }]
 trait-category-disabilities = Инвалидности
 trait-category-speech = Черты речи
+trait-category-size = Рост
