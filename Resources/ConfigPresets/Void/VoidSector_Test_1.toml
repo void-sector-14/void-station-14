@@ -22,7 +22,7 @@ map_pool = "VoidMapPool"
 advertise = false
 
 [server]
-rules_file = "RP_Rules.txt"
+rules_file = "VoidRuleset"
 
 [console]
 login_host_user = "Makot"
