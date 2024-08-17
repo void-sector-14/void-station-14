@@ -18,6 +18,11 @@
     - Human
     - Moth
     - Reptilian
+    - VulpkaninPerson
+    - TajaranSpecies
+    - Katunian
+    - Felinid
+    - DemonSpecies
 
 - type: loadoutEffectGroup
   id: EffectSpeciesVox
