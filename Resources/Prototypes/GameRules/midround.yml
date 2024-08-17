@@ -26,8 +26,6 @@
       allowNonHumans: true
       multiAntagSetting: NotExclusive
       startingGear: ThiefGear
-      components:
-      - type: Pacified
       mindComponents:
       - type: ThiefRole
         prototype: Thief
