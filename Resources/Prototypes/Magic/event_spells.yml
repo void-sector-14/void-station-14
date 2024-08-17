@@ -1,4 +1,4 @@
-﻿- type: entity
+- type: entity
   id: ActionSummonGhosts
   name: Summon Ghosts
   description: Makes all current ghosts permanently invisible
