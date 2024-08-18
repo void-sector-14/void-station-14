@@ -25,3 +25,5 @@ ent-MobArgocyteFounder = founder
     .desc = { ent-BaseMobArgocyte.desc }
 ent-MobArgocyteLeviathing = leviathing
     .desc = { ent-BaseMobArgocyte.desc }
+ent-MobArgocyteLeviathingSalvage = leviathing
+    .desc = { ent-BaseMobArgocyte.desc }

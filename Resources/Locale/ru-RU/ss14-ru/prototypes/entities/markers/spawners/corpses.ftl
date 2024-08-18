@@ -14,3 +14,5 @@ ent-RandomSecurityCorpseSpawner = спавнер случайного трупа
     .desc = { ent-SalvageHumanCorpseSpawner.desc }
 ent-RandomCommandCorpseSpawner = спавнер случайного трупа Командный
     .desc = { ent-SalvageHumanCorpseSpawner.desc }
+ent-SalvageSyndicateCorpseSpawner = неопознаный труп синдиката спавнер
+    .desc = { ent-MarkerBase.desc }

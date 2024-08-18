@@ -1,0 +1,9 @@
+ent-ArtifactLocatorUnpowered = локатор артефактов
+    .desc = Устройство для поиска артефактов нарушивших ОУС. Вы уверены что он не улетел на транзитную станцию?
+    .suffix = Unpowered
+ent-ArtifactLocatorEmpty = { ent-ArtifactLocator }
+    .suffix = Empty
+    .desc = { ent-ArtifactLocator.desc }
+ent-ArtifactLocator = { ent-ArtifactLocatorUnpowered }
+    .suffix = Powered
+    .desc = { ent-ArtifactLocatorUnpowered.desc }

@@ -4,3 +4,6 @@ ent-AirlockExternal = { ent-Airlock }
 ent-AirlockExternalGlass = { ent-AirlockExternal }
     .suffix = Стеклянный, Внешний
     .desc = { ent-AirlockExternal.desc }
+ent-AirlockExternalAssembly = каркас внешнего шлюза
+    .desc = Он пока не открывается, он пока не закрывается, и он пока не может вас раздавить.
+    .suffix = Внешний

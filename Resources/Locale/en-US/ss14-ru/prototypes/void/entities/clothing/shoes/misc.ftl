@@ -1,0 +1,12 @@
+ent-ClothingShoesBlackDress = Чёрные туфли
+    .desc = Вечерный шик.
+ent-ClothingShoesRedDress = Красные туфли
+    .desc = Вечерный шик.
+ent-ClothingShoesRichDress = Дорогие туфли
+    .desc = Вы этом вы чувствуете себя богаче.
+ent-ClothingShoesStarDress = Звёздные туфли
+    .desc = Они сияют!
+ent-ClothingShoesBootsSilkDress = Шёлковые туфли
+    .desc = Украшенные жемчугом туфли
+ent-ClothingShoesBootsPinkDress = Розовые туфли
+    .desc = Украшены милыми бантиками

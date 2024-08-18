@@ -19,3 +19,6 @@ ent-MobRandomSecurityCorpse = { ent-SalvageHumanCorpse }
 ent-MobRandomCommandCorpse = { ent-SalvageHumanCorpse }
     .suffix = Dead, Command
     .desc = { ent-SalvageHumanCorpse.desc }
+ent-MobRandomSyndicateCorpse = неопознаный труп синдиката
+    .suffix = Dead, Syndicate
+    .desc = { ent-SalvageHumanCorpse.desc }
