@@ -83,4 +83,4 @@ flavor_text = true
 ##### Discord ##################################################################
 
 [discord]
-rich_main_icon_id = "VoidSector"
+rich_main_icon_id = "voidsector"
