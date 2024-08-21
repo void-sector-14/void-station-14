@@ -66,7 +66,7 @@ public sealed class CarryingSystem : EntitySystem
         SubscribeLocalEvent<BeingCarriedComponent, GettingInteractedWithAttemptEvent>(OnInteractedWith);
         SubscribeLocalEvent<BeingCarriedComponent, PullAttemptEvent>(OnPullAttempt);
         SubscribeLocalEvent<BeingCarriedComponent, StartClimbEvent>(OnStartClimb);
-        SubscribeLocalEvent<BeingCarriedComponent, BuckleChangeEvent>(OnBuckleChange);
+        SubscribeLocalEvent<BeingCarriedComponent, UnbuckledEvent>(OnBuckleChange);
         SubscribeLocalEvent<CarriableComponent, CarryDoAfterEvent>(OnDoAfter);
     }
 
@@ -126,12 +126,12 @@ public sealed class CarryingSystem : EntitySystem
         args.ItemUid = virtItem.BlockingEntity;
 
         var multiplier = _contests.MassContest(uid, virtItem.BlockingEntity);
-        args.ThrowStrength = 5f * multiplier;
+        args.ThrowSpeed = 5f * multiplier;
     }
 
     private void OnParentChanged(EntityUid uid, CarryingComponent component, ref EntParentChangedMessage args)
     {
-        if (Transform(uid).MapID != args.OldMapId)
+        if (args.OldMapId != args.Transform.MapUid)
             return;
 
         DropCarried(uid, component.Carried);
@@ -153,7 +153,7 @@ public sealed class CarryingSystem : EntitySystem
         var targetParent = Transform(args.Target.Value).ParentUid;
 
         if (args.Target.Value != component.Carrier && targetParent != component.Carrier && targetParent != uid)
-            args.Cancel();
+            args.Cancelled = true;
     }
 
     /// <summary>
@@ -185,7 +185,7 @@ public sealed class CarryingSystem : EntitySystem
         GettingInteractedWithAttemptEvent args)
     {
         if (args.Uid != component.Carrier)
-            args.Cancel();
+            args.Cancelled = true;
     }
 
     private void OnPullAttempt(EntityUid uid, BeingCarriedComponent component, PullAttemptEvent args)
@@ -198,7 +198,7 @@ public sealed class CarryingSystem : EntitySystem
         DropCarried(component.Carrier, uid);
     }
 
-    private void OnBuckleChange(EntityUid uid, BeingCarriedComponent component, ref BuckleChangeEvent args)
+    private void OnBuckleChange(EntityUid uid, BeingCarriedComponent component, ref UnbuckledEvent args)
     {
         DropCarried(component.Carrier, uid);
     }
