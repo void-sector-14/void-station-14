@@ -1,3 +1,5 @@
+using Content.Server.Czeshuika.Carrying;
+using Content.Server.Czeshuika.Carrying.Components;
 using Content.Server.Popups;
 using Content.Shared.Storage.Components;
 using Content.Shared.ActionBlocker;
@@ -19,6 +21,7 @@ public sealed class EscapeInventorySystem : EntitySystem
     [Dependency] private readonly SharedContainerSystem _containerSystem = default!;
     [Dependency] private readonly ActionBlockerSystem _actionBlockerSystem = default!;
     [Dependency] private readonly SharedHandsSystem _handsSystem = default!;
+    [Dependency] private readonly CarryingSystem _carryingSystem = default!;
 
     public override void Initialize()
     {
@@ -81,6 +84,12 @@ public sealed class EscapeInventorySystem : EntitySystem
 
         if (args.Handled || args.Cancelled)
             return;
+
+        if (TryComp<BeingCarriedComponent>(uid, out var carried))
+        {
+            _carryingSystem.DropCarried(carried.Carrier, uid);
+            return;
+        }
 
         _containerSystem.AttachParentToContainerOrGrid((uid, Transform(uid)));
         args.Handled = true;
