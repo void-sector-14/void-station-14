@@ -16,8 +16,8 @@
   - type: Appearance
   - type: GenericVisualizer
     visuals:
-      enum.ProximityBeeperVisuals.Enabled:
-        enum.PowerDeviceVisualLayers.Powered:
+      enum.ToggleVisuals.Toggled:
+        enum.ToggleVisuals.Layer:
           True: { visible: true }
           False: { visible: false }
   - type: ProximityBeeper
