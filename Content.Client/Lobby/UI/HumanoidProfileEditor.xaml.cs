@@ -90,6 +90,8 @@ namespace Content.Client.Lobby.UI
 
         private ColorSelectorSliders _rgbSkinColorSelector;
 
+        private Slider ColorKatunian => SkinKatunian;
+
         private bool _isDirty;
 
         [ValidatePrototypeId<GuideEntryPrototype>]
@@ -213,6 +215,11 @@ namespace Content.Client.Lobby.UI
 
             RgbSkinColorContainer.AddChild(_rgbSkinColorSelector = new ColorSelectorSliders());
             _rgbSkinColorSelector.OnColorChanged += _ =>
+            {
+                OnSkinColorOnValueChanged();
+            };
+
+            ColorKatunian.OnValueChanged += _ =>
             {
                 OnSkinColorOnValueChanged();
             };
@@ -1059,6 +1066,7 @@ namespace Content.Client.Lobby.UI
                     if (!Skin.Visible)
                     {
                         Skin.Visible = true;
+                        ColorKatunian.Visible = false;
                         RgbSkinColorContainer.Visible = false;
                     }
 
@@ -1073,6 +1081,7 @@ namespace Content.Client.Lobby.UI
                     if (!RgbSkinColorContainer.Visible)
                     {
                         Skin.Visible = false;
+                        ColorKatunian.Visible = false;
                         RgbSkinColorContainer.Visible = true;
                     }
 
@@ -1085,6 +1094,7 @@ namespace Content.Client.Lobby.UI
                     if (!RgbSkinColorContainer.Visible)
                     {
                         Skin.Visible = false;
+                        ColorKatunian.Visible = false;
                         RgbSkinColorContainer.Visible = true;
                     }
 
@@ -1099,10 +1109,26 @@ namespace Content.Client.Lobby.UI
                     if (!RgbSkinColorContainer.Visible)
                     {
                         Skin.Visible = false;
+                        ColorKatunian.Visible = false;
                         RgbSkinColorContainer.Visible = true;
                     }
 
                     var color = SkinColor.ClosestVoxColor(_rgbSkinColorSelector.Color);
+
+                    Markings.CurrentSkinColor = color;
+                    Profile = Profile.WithCharacterAppearance(Profile.Appearance.WithSkinColor(color));
+                    break;
+                }
+                case HumanoidSkinColor.KatunianToned:
+                {
+                    if (!ColorKatunian.Visible)
+                    {
+                        Skin.Visible = false;
+                        ColorKatunian.Visible = true;
+                        RgbSkinColorContainer.Visible = false;
+                    }
+
+                    var color = SkinColor.KatunianSkinTone((int) ColorKatunian.Value);
 
                     Markings.CurrentSkinColor = color;
                     Profile = Profile.WithCharacterAppearance(Profile.Appearance.WithSkinColor(color));
@@ -1281,6 +1307,7 @@ namespace Content.Client.Lobby.UI
                     if (!Skin.Visible)
                     {
                         Skin.Visible = true;
+                        ColorKatunian.Visible = false;
                         RgbSkinColorContainer.Visible = false;
                     }
 
@@ -1293,6 +1320,7 @@ namespace Content.Client.Lobby.UI
                     if (!RgbSkinColorContainer.Visible)
                     {
                         Skin.Visible = false;
+                        ColorKatunian.Visible = false;
                         RgbSkinColorContainer.Visible = true;
                     }
 
@@ -1305,6 +1333,7 @@ namespace Content.Client.Lobby.UI
                     if (!RgbSkinColorContainer.Visible)
                     {
                         Skin.Visible = false;
+                        ColorKatunian.Visible = false;
                         RgbSkinColorContainer.Visible = true;
                     }
 
@@ -1312,11 +1341,26 @@ namespace Content.Client.Lobby.UI
                     _rgbSkinColorSelector.Color = Profile.Appearance.SkinColor;
                     break;
                 }
+
+                case HumanoidSkinColor.KatunianToned:
+                {
+                    if (!ColorKatunian.Visible)
+                    {
+                        Skin.Visible = false;
+                        ColorKatunian.Visible = false;
+                        RgbSkinColorContainer.Visible = true;
+                    }
+
+                    ColorKatunian.Value = SkinColor.KatunianSkinFromColor(Profile.Appearance.SkinColor);
+                    break;
+                }
+
                 case HumanoidSkinColor.VoxFeathers:
                 {
                     if (!RgbSkinColorContainer.Visible)
                     {
                         Skin.Visible = false;
+                        ColorKatunian.Visible = false;
                         RgbSkinColorContainer.Visible = true;
                     }
 

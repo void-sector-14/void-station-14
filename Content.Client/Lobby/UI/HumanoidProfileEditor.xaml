@@ -94,6 +94,7 @@
                             <BoxContainer Margin="10" HorizontalExpand="True" Orientation="Vertical">
                                 <Label Text="{Loc 'humanoid-profile-editor-skin-color-label'}" />
                                 <Slider HorizontalExpand="True" Name="Skin" MinValue="0" MaxValue="100" Value="20" />
+                                <Slider HorizontalExpand="True" Name="SkinKatunian" Visible="False" MinValue="0" MaxValue="50" Value="0" />
                                 <BoxContainer Name="RgbSkinColorContainer" Visible="False" Orientation="Vertical" HorizontalExpand="True"></BoxContainer>
                             </BoxContainer>
                             <!-- Hair -->
