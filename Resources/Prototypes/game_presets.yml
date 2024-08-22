@@ -3,7 +3,7 @@
   alias:
     - survival
   name: survival-title
-  showInVote: true # secret
+  showInVote: false # secret
   description: survival-description
   rules:
     - RampingStationEventScheduler
@@ -14,7 +14,7 @@
   id: AllAtOnce
   name: all-at-once-title
   description: all-at-once-description
-  showInVote: false
+  showInVote: true
   rules:
     - Nukeops
     - Traitor
@@ -22,6 +22,7 @@
     - Zombie
     - RampingStationEventScheduler
     - GameRuleMeteorScheduler
+    - BasicRoundstartVariation
 
 - type: gamePreset
   id: Extended
