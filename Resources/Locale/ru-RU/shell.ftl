@@ -9,7 +9,7 @@ shell-invalid-command = Неверная команда.
 shell-invalid-command-specific = Неверная команда { $commandName }.
 shell-cannot-run-command-from-server = Вы не можете выполнить эту команду с сервера.
 shell-only-players-can-run-this-command = Только игроки могут выполнять эту команду.
-shell-must-be-attached-to-entity = Для выполнения этой команды Вы должны быть прикреплены к сущности.
+shell-must-be-attached-to-entity = Для выполнения этой команды вы должны быть прикреплены к сущности.
 
 ## Arguments
 
@@ -29,7 +29,7 @@ shell-argument-must-be-boolean = Аргумент должен быть boolean.
 shell-wrong-arguments-number = Неправильное количество аргументов.
 shell-need-between-arguments = Нужно от { $lower } до { $upper } аргументов!
 shell-need-minimum-arguments = Нужно не менее { $minimum } аргументов!
-shell-need-minimum-one-argument = Требуется хотя бы один аргумент!
+shell-need-minimum-one-argument = Нужен хотя бы один аргумент!
 shell-argument-uid = EntityUid
 
 ## Guards
@@ -48,7 +48,7 @@ shell-invalid-color-hex = Недопустимый HEX-цвет!
 shell-target-player-does-not-exist = Целевой игрок не существует!
 shell-target-entity-does-not-have-message = Целевая сущность не имеет { $missing }!
 shell-timespan-minutes-must-be-correct = { $span } не является допустимым промежутком времени в минутах.
-shell-argument-must-be-prototype = Аргумент { $index } должен быть { LOC($prototypeName) }!
+shell-argument-must-be-prototype = Аргумент { $index } должен быть ${ prototypeName }!
 shell-argument-number-must-be-between = Аргумент { $index } должен быть числом от { $lower } до { $upper }!
 shell-argument-station-id-invalid = Аргумент { $index } должен быть валидным station id!
 shell-argument-map-id-invalid = Аргумент { $index } должен быть валидным map id!

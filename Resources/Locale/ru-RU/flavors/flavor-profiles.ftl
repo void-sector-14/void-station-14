@@ -260,6 +260,8 @@ flavor-complex-irish-car-bomb = как шипучая пенка колы
 
 flavor-complex-white-gilgamesh = как слегка газированные сливки
 flavor-complex-antifreeze = как тепло
+flavor-complex-uolong = как чай, что может загорется
+### This is exactly what pilk tastes like. I'm not even joking. I might've been a little drunk though
 flavor-complex-pilk = как сладкое молоко
 
 # Medicine/chemical-specific flavors.
@@ -273,4 +275,4 @@ flavor-complex-bee = беспчеловечно
 flavor-complex-sax = как джаз
 flavor-complex-bottledlightning = как молния в бутылке
 flavor-complex-punishment = как наказание
-flavor-weh = как вех
+flavor-weh = как weh

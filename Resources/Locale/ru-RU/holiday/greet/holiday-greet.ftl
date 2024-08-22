@@ -4,6 +4,7 @@ holiday-greet = Счастливого { $holidayName }!
 
 ## Holiday Names
 
+holiday-name-birthday-void = дня рождения Войда
 holiday-name-new-year = Нового года
 holiday-name-mister-lizard = дня рождения Мистера Ящерки
 holiday-name-chinese-new-year = Китайского Нового года
@@ -69,7 +70,6 @@ holiday-name-festive-season = наступающего Нового года
 holiday-name-boxing-day = Дня подарков
 holiday-name-friday-thirteenth = Дня неприятностей
 holiday-name-national-coming-out-day = Национального дня каминг-аута
-holiday-name-pride-month = Pride Month
 
 ## Custom congrats
 

@@ -1,3 +1,4 @@
+verb-system-waiting-on-server-text = Ожидание сервера...
 verb-system-null-server-response = Сущность не в поле зрения. Вы не должны видеть этого.
 # if verbs have a range of targets (e.g., multiple ejectables) you can
 # usually just use Entity.Name. But it is a bit odd when targeting yourself
@@ -15,7 +16,7 @@ verb-categories-unbuckle = Отстегнуть
 verb-categories-rotate = Повернуть
 verb-categories-smite = Покарать
 verb-categories-tricks = Трюки
-verb-categories-transfer = Перемещаемое кол-во
+verb-categories-transfer = Установить значение перемещения
 verb-categories-split = Разделить
 verb-categories-instrument-style = Стиль инструмента
 verb-categories-channel-select = Каналы

@@ -6,9 +6,9 @@ store-category-ammo = Боеприпасы
 store-category-explosives = Взрывчатка
 store-category-chemicals = Химикаты
 store-category-deception = Обманки
-store-category-disruption = Прорыв
+store-category-disruption = Саботаж
 store-category-allies = Союзники
-store-category-wearables = Одежда
+store-category-wearables = Броня
 # Wizard
 store-caregory-spellbook-offensive = Наступательные заклинания
 store-caregory-spellbook-defensive = Защитные заклинания

@@ -3,7 +3,8 @@
 injector-draw-text = Набрать
 injector-inject-text = Ввести
 injector-invalid-injector-toggle-mode = Неверный режим
-injector-volume-label = Объём: [color=white]{ $currentVolume }/{ $totalVolume }[/color] | [color=white]{ $modeString }[/color]
+injector-volume-label = Объём: [color=white]{ $currentVolume }/{ $totalVolume }[/color]
+    Режим: [color=white]{ $modeString }[/color] ([color=white]{ $transferVolume }ед.[/color])
 
 ## Entity
 
@@ -23,6 +24,6 @@ injector-component-cannot-toggle-inject-message = Нечего вводить!
 ## mob-inject doafter messages
 
 injector-component-drawing-user = Вы начинаете набирать шприц.
-injector-component-injecting-user = Вы начинаете вводить содержимое шприца.
-injector-component-drawing-target = { CAPITALIZE($user) } начинает набирать шприц из вас!
-injector-component-injecting-target = { CAPITALIZE($user) } начинает вводить содержимое шприца в вас!
+injector-component-injecting-user = Вы начинаете вводить иглу.
+injector-component-drawing-target = {CAPITALIZE($user)} начинает набирать шприц из вас!
+injector-component-injecting-target = { CAPITALIZE($user) } пытается ввести вам иглу!

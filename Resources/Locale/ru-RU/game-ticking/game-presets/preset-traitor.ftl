@@ -9,8 +9,8 @@ objective-issuer-unknown = Неизвестно
 
 traitor-title = Предатели
 traitor-description = Среди нас есть предатели...
-traitor-not-enough-ready-players = Недостаточно игроков готовы к игре! Из { $minimumPlayers } необходимых игроков готовы { $readyPlayersCount }. Нельзя запустить пресет Предатели.
-traitor-no-one-ready = Нет готовых игроков! Нельзя запустить пресет Предатели.
+traitor-not-enough-ready-players = Недостаточно игроков готовы к игре! Из { $minimumPlayers } необходимых игроков готовы { $readyPlayersCount }. Не удалось начать режим Предателя.
+traitor-no-one-ready = Нет готовых игроков! Не удалось начать режим Предателя.
 
 ## TraitorDeathMatch
 
@@ -34,7 +34,7 @@ traitor-role-codewords =
     Кодовые слова можно использовать в обычном разговоре, чтобы незаметно идентифицировать себя для других агентов Синдиката.
     Прислушивайтесь к ним и храните их в тайне.
 traitor-role-uplink-code =
-    Установите рингтон Вашего КПК на { $code } чтобы заблокировать или разблокировать аплинк.
+    Установите рингтон вашего КПК на { $code } чтобы заблокировать или разблокировать аплинк.
     Не забудьте заблокировать его и сменить код, иначе кто угодно из экипажа станции сможет открыть аплинк!
 # don't need all the flavour text for character menu
 traitor-role-codewords-short =

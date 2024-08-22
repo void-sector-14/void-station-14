@@ -3,8 +3,8 @@ gun-fire-rate-examine = Скорострельность [color={ $color }]{ $fi
 gun-selector-verb = Изменить на { $mode }
 gun-selected-mode = Выбран { $mode }
 gun-disabled = Вы не можете использовать оружие!
-gun-clumsy = Оружие взрывается Вам в лицо!
-gun-set-fire-mode = Установлено на { $mode }
+gun-clumsy = Оружие взрывается вам в лицо!
+gun-set-fire-mode = Выбран режим { $mode }
 # SelectiveFire
 gun-SemiAuto = полуавто
 gun-Burst = очередь
@@ -13,14 +13,18 @@ gun-FullAuto = авто
 gun-ballistic-cycle = Перезарядка
 gun-ballistic-cycled = Перезаряжено
 gun-ballistic-cycled-empty = Разряжено
-gun-ballistic-transfer-invalid = { CAPITALIZE($ammoEntity) } не поместится в { $targetEntity }!
-gun-ballistic-transfer-empty = { CAPITALIZE($entity) } пустой.
+gun-ballistic-transfer-invalid = { CAPITALIZE($ammoEntity) } нельзя поместить в { $targetEntity }!
+gun-ballistic-transfer-empty = В { CAPITALIZE($entity) } пусто.
 gun-ballistic-transfer-target-full = { CAPITALIZE($entity) } уже полностью заряжен.
 # CartridgeAmmo
 gun-cartridge-spent = Он [color=red]израсходован[/color].
 gun-cartridge-unspent = Он [color=lime]не израсходован[/color].
 # BatteryAmmoProvider
-gun-battery-examine = Заряда хватит на [color={ $color }]{ $count }[/color] выстрелов.
+gun-battery-examine = Заряда хватит на [color={ $color }]{ $count }[/color] { $count ->
+        [one] выстрел
+        [few] выстрела
+       *[other] выстрелов
+    }.
 # CartridgeAmmoProvider
 gun-chamber-bolt-ammo = Затвор не закрыт
 gun-chamber-bolt = Затвор [color={ $color }]{ $bolt }[/color].
@@ -39,4 +43,4 @@ gun-revolver-full = Револьвер полностью заряжен
 gun-revolver-insert = Заряжен
 gun-revolver-spin = Вращать барабан
 gun-revolver-spun = Барабан вращается
-gun-speedloader-empty = Скоростной загрузчик пуст
+gun-speedloader-empty = Спидлоадер пуст

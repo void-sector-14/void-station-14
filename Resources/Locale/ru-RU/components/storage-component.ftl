@@ -1,8 +1,8 @@
 comp-storage-no-item-size = Нет
 comp-storage-cant-insert = Невозможно поместить.
-comp-storage-too-big = Слишком большой!
-comp-storage-insufficient-capacity = Нет места!
-comp-storage-invalid-container = Неправильный контейнер для этого предмета.
+comp-storage-too-big = Слишком большое!
+comp-storage-insufficient-capacity = Недостаточная вместимость.
+comp-storage-invalid-container = Это сюда не лезет!
 comp-storage-anchored-failure = Невозможно поместить закрепленный предмет.
 comp-storage-cant-drop = Вы не можете отпустить { $entity }!
 comp-storage-window-title = Предмет хранилище

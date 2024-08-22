@@ -13,7 +13,7 @@ barsign-prototype-description-harmbaton = Отличные обеды как д�
 ## The Singulo
 
 barsign-prototype-name-singulo = Сингуло
-barsign-prototype-description-singulo = Куда попадают люди, которые не любят, чтобы их звали по имени.
+barsign-prototype-description-singulo = Куда приходят люди, которые не любят, чтобы их звали по имени.
 
 ## The Drunk Carp
 
@@ -28,7 +28,7 @@ barsign-prototype-description-officer-beersky = Мужик, эти напитк�
 ## The Outer Spess
 
 barsign-prototype-name-outer-spess = Открытый космос
-barsign-prototype-description-outer-spess = На самом деле, этот бар расположен не в открытом космосе.
+barsign-prototype-description-outer-spess = На самом деле этот бар расположен не в открытом космосе.
 
 ## The Coderbus
 
@@ -37,7 +37,7 @@ barsign-prototype-description-coderbus = Очень противоречивый
 
 ## Robusta Cafe
 
-barsign-prototype-name-robusta-cafe = Кафе Робаста
+barsign-prototype-name-robusta-cafe = Кафе Робуста
 barsign-prototype-description-robusta-cafe = Неоспоримый обладатель рекорда "Самые смертоносные бои" уже 5 лет.
 
 ## Emergency Rum Party
@@ -53,7 +53,7 @@ barsign-prototype-description-combo-cafe = Известны по всей сис
 ## The Ale Nath
 
 barsign-prototype-name-ale-nath = Эль'натх
-barsign-prototype-description-ale-nath = По какой-то причине, притягивает таинственных незнакомцев в робах, шепчущих EI NATH.
+barsign-prototype-description-ale-nath = По какой-то причине притягивает таинственных незнакомцев в робах, шепчущих EI NATH.
 
 ## The Net
 
@@ -77,7 +77,7 @@ barsign-prototype-description-the-sun = Иронично яркий для та�
 
 ## The Birdcage
 
-barsign-prototype-name-the-birdcage = Клетка
+barsign-prototype-name-the-birdcage = Вольер
 barsign-prototype-description-the-birdcage = Ку-ку!
 
 ## Zocalo
@@ -98,7 +98,7 @@ barsign-prototype-description-wiggle-room = MoMMI маневрируют в та
 ## The Lightbulb
 
 barsign-prototype-name-the-lightbulb = Лампочка
-barsign-prototype-description-the-lightbulb = Кафе, популярное среди мотыльков и моффов. Однажды, его закрыли на неделю после того, как барменша использовала нафталин для обработки своей запасной униформы.
+barsign-prototype-description-the-lightbulb = Кафе, популярное среди ниан и моффов. Однажды его закрыли на неделю после того, как барменша использовала нафталин для обработки своей запасной униформы.
 
 ## The Loose Goose
 
@@ -108,21 +108,17 @@ barsign-prototype-description-goose = Пей до рвоты и/или нару�
 ## The Engine Change
 
 barsign-prototype-name-enginechange = Замена двигателя
-barsign-prototype-description-enginechange = Все ещё ожидаем.
+barsign-prototype-description-enginechange = Все еще ожидаем.
 
 ## 4 The Emprah
 
 barsign-prototype-name-emprah = За Империю
 barsign-prototype-description-emprah = Нравится и фанатикам, и еретикам, и завсегдатаям с дефектами мозга.
 
-## Spacebucks
-
-barsign-prototype-name-spacebucks = Космобаксы
-barsign-prototype-description-spacebucks = От них невозможно скрыться, даже в космосе.
-
 ## EmpBarSign
 
-barsign-prototype-description-empbarsign = Что-то явно пошло не так.
+
+barsign-prototype-description-empbarsign = Что-то пошло совсем не так.
 
 ## SignOff
 

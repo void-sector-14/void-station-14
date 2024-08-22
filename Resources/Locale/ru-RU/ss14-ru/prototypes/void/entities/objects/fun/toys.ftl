@@ -4,6 +4,8 @@ ent-BaseVoidPlushie = { ent-BasePlushie }
 
 ent-PlushieMayla = Плюшевая Маланиса
     .desc = Выпуск этой серии игрушек тесно связан с акцией по спасению катунианцев. Пахнет ванилью.
+            Ограниченная серия игрушек команды проекта "Void Sector".
+            Собери их всех!
     .suffix = { ent-BaseVoidPlushie.suffix }
 
 ent-PlushieVoomra = Плюшевый Вумра
@@ -13,15 +15,15 @@ ent-PlushieVoomra = Плюшевый Вумра
     .suffix = { ent-BaseVoidPlushie.suffix }
 
 ent-PlushieFrezon = Плюшевый Фрезон
-    .desc = Любимая игрушка главного по атмосу
+    .desc = Любимая игрушка главного по атмосу.
     .suffix = { ent-BaseVoidPlushie.suffix }
 
 ent-PlushieStv = Плюшевый Стив
-    .desc = Лучший друг утилизатора, которого унесло далеко в космос
+    .desc = Лучший друг утилизатора, которого унесло далеко в космос.
     .suffix = { ent-BaseVoidPlushie.suffix }
 
 ent-Toybug = Игрушечный космический клещ
-    .desc = Шутка, которая может довести до красного кода
+    .desc = Шутка, которая может довести до красного кода.
     .suffix = { ent-BaseVoidPlushie.suffix }
 
 ent-PlushieNeksit = Плюшевая Нексит

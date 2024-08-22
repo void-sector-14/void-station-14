@@ -1,5 +1,5 @@
-news-read-ui-next-text = ▶
-news-read-ui-prev-text = ◀
+news-read-ui-next-text = След.
+news-read-ui-prev-text = Пред.
 news-read-ui-next-tooltip = Далее
 news-read-ui-prev-tooltip = Назад
 news-read-ui-default-title = Новости станции

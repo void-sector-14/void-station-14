@@ -1,7 +1,6 @@
 # also used in MakeGhostRuleWindow and MakeGhostRoleCommand
 ghost-role-component-default-rules =
     Вы не помните ничего из своей предыдущей жизни, если администратор не сказал вам обратное.
-    Вы не помните ничего из своей предыдущей жизни и не помните ничего из того, что узнали, будучи призраком.
     Вам разрешается помнить знания об игре в целом, например, как готовить, как использовать предметы и т.д.
     Вам [color=red]НЕ[/color] разрешается помнить, имя, внешность и т.д. вашего предыдущего персонажа.
 ghost-role-information-nonantagonist-rules =
@@ -48,13 +47,17 @@ ghost-role-information-angry-slimes-description = Всё вокруг раздр
 ghost-role-information-angry-slimes-rules = Вы являетесь [color=red][bold]Командным Антагонистом[/bold][/color] вместе со всеми остальными злобными слаймами.
 ghost-role-information-smile-name = Слайм Смайл
 ghost-role-information-smile-description = Самое милое создание в мире. Улыбайся, Смайл!
-ghost-role-information-punpun-name = Пан Пан
-ghost-role-information-punpun-description = Почётный член обезьяньего общества, отвечающий за бар и помогающий барменам всем, чем только может.
+ghost-role-information-punpun-name = Пун Пун
+ghost-role-information-punpun-description = Почётный член общины обезьян, ответственный за бар, и помогающий барменам во всём, чем может.
+ghost-role-information-punpun-rules = Вы дрессированная обезьяна обученная основам барменского дела. Помогайте бармену или работайте вместо него. Ваш интелект находиться примерно на уровне девятилетнего ребенка.
+
 ghost-role-information-xeno-name = Ксено
 ghost-role-information-xeno-description = Вы Ксено. Скооперируйтесь со своим ульем, чтобы истребить всех членов экипажа!
 ghost-role-information-xeno-rules = Вы являетесь [color=red][bold]Командным Антагонистом[/bold][/color] со всеми остальными ксеносами.
 ghost-role-information-revenant-name = Ревенант
 ghost-role-information-revenant-description = Вы Ревенант. Используйте свои силы, чтобы собирать души и наводить страх на команду. С помощью собранной эссенции открывайте новые способности.
+ghost-role-information-revenant-rules = Вы – антагонист. Собирайте души, оскверняйте и сводите с ума экипаж.
+
 ghost-role-information-kangaroo-name = Кенгуру
 ghost-role-information-kangaroo-description = Вы кенгуру! Делайте всё, что делают кенгуру.
 ghost-role-information-monkey-name = Обезьяна
@@ -62,9 +65,12 @@ ghost-role-information-monkey-description = У-у-у а-а-а!
 ghost-role-information-kobold-name = Кобольд
 ghost-role-information-kobold-description = Будьте маленьким гремлином, которым и являетесь, кричите на членов экипажа и просите мяса!
 ghost-role-information-rat-king-name = Крысиный король
-ghost-role-information-rat-king-description = Вы - Крысиный король, ваши интересы - еда, еда и еще раз еда. Сотрудничайте со станцией или сражайтесь с ней ради еды. Я уже говорил, что вас интересует еда?
+ghost-role-information-rat-king-description = Вы Крысиный Король, собирайте еду, чтобы производить крыс-слуг, которые будут выполнять ваши приказы.
+ghost-role-information-rat-king-rules = Вы – антагонист. Нападайте и грабьте, приумножайте свою орду!
+
 ghost-role-information-rat-servant-name = Крысиный слуга
 ghost-role-information-rat-servant-description = Вы Крысиный слуга. Выполняйте приказы своего короля.
+ghost-role-information-rat-servant-rules = Вы – антагонист. Нападайте и грабьте, служите своему королю!
 ghost-role-information-sentient-carp-name = Разумный карп
 ghost-role-information-sentient-carp-description = Помогите дракону наводнить станцию карпами!
 ghost-role-information-willow-name = Кенгуру Уиллоу
@@ -101,13 +107,20 @@ ghost-role-information-skeleton-pirate-name = Скелет-пират
 ghost-role-information-skeleton-pirate-description = Устройте хаос и разграбьте станцию в поисках сокровищ.
 ghost-role-information-skeleton-biker-name = Скелет-байкер
 ghost-role-information-skeleton-biker-description = Колесите на своём прекрасном байке.
-ghost-role-information-closet-skeleton-name = Скелет из шкафа
-ghost-role-information-closet-skeleton-description = Вы, возможно, один из старейших сотрудников станции! Верните себе прежнюю работу или устройте хаос! Мир в ваших руках.
-ghost-role-information-Death-Squad-rules = Вы обязаны подчиняться приказам своего начальства, вы фактически являетесь его [color=#6495ed][bold]Фамильяром[/bold][/color].
+ghost-role-information-closet-skeleton-name = Скелет в шкафу
+ghost-role-information-closet-skeleton-description = Вы скелет проснувшийся в закрытом шкафу где-то посреди станции. Вы можете быть как Врачем так или например, Инженером. Помогайте станции или делайте что-то для себя. Вы вольны в вашей нежизни!
+ghost-role-information-closet-skeleton-rules =
+    Вы [color=red]НЕ[/color] антагонист!
+    Вы не помните ничего из своей предыдущей жизни, если администратор не сказал вам обратное.
+    Занимайтесь своими скелетными делами или работайте на станцию.
 ghost-role-information-remilia-name = Ремилия, фамильяр священника
 ghost-role-information-remilia-description = Следуйте и слушайтесь священника. Ешьте фрукты. Громко кричать людям в уши и списывать это на эхолокацию.
+ghost-role-information-remilia-rules = Вы разумная летучая мышь-фруктоед. Следуйте за священником. Не создавайте никаких проблем, если только священник не скажет вам об этом.
+
 ghost-role-information-cerberus-name = Цербер, злой фамильяр
 ghost-role-information-cerberus-description = Слушайте своего хозяина. Сейте хаос.
+ghost-role-information-cerberus-rules = Вы разумная, демоническая собака. Старайтесь помогать священнику и любому из верных ему прихожан. Как антагонист, в остальном вы вольны делать что угодно.
+
 ghost-role-information-ert-leader-name = ОБР Лидер
 ghost-role-information-ert-leader-description = Руководите командой специалистов для решения проблем станции.
 ghost-role-information-ert-janitor-name = ОБР Уборщик
@@ -118,12 +131,12 @@ ghost-role-information-ert-engineer-name = ОБР Инженер
 ghost-role-information-ert-engineer-description = Оказывайте содействие в инженерных работах для решения проблем станции.
 ghost-role-information-ert-security-name = ОБР Офицер безопасности
 ghost-role-information-ert-security-description = Оказывайте содействие в обеспечении безопасности для решения проблем станции.
-ghost-role-information-ert-medical-name = ОБР Медик
+ghost-role-information-ert-medical-name = ОБР Парамедик
 ghost-role-information-ert-medical-description = Оказывайте содействие в медицинской помощи для решения проблем станции.
 ghost-role-information-cburn-agent-name = РХБЗЗ Оперативник
 ghost-role-information-cburn-agent-description = Высококвалифицированный агент Центком, способный справиться с любыми угрозами.
 ghost-role-information-centcom-official-name = Представитель Центком
-ghost-role-information-centcom-official-description = Инспектируйте станцию, пишите служебные характеристики на руководителей, орудуйте факсом.
+ghost-role-information-centcom-official-description = Инспектируйте станцию, пишите служебные характеристики на руководителей, разжалуйте капитана.
 ghost-role-information-behonker-name = Бехонкер
 ghost-role-information-behonker-description = Вы - антагонист, несущий смерть и хонки всем, кто не следует за хонкоматерью.
 ghost-role-information-nukeop-rules = Вы являетесь [color=red][bold]Командным Антагонистом[/bold][/color] со всеми остальными ядерными оперативниками. Помощь от тайных агентов синдиката не гарантирована.

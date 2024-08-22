@@ -2,21 +2,21 @@ game-ticker-restart-round = Перезапуск раунда...
 game-ticker-start-round = Раунд начинается...
 game-ticker-start-round-cannot-start-game-mode-fallback = Не удалось запустить режим { $failedGameMode }! Запускаем { $fallbackMode }...
 game-ticker-start-round-cannot-start-game-mode-restart = Не удалось запустить режим { $failedGameMode }! Перезапуск раунда...
-game-ticker-start-round-invalid-map = Selected map { $map } is inelligible for gamemode { $mode }. Gamemode may not function as intended...
+game-ticker-start-round-invalid-map = Выбранная карта { $map } не подходит для игрового режима { $mode }. Игровой режим может не функционировать как задумано...
 game-ticker-unknown-role = Неизвестный
 game-ticker-delay-start = Начало раунда было отложено на { $seconds } секунд.
 game-ticker-pause-start = Начало раунда было приостановлено.
 game-ticker-pause-start-resumed = Отсчет начала раунда возобновлен.
-game-ticker-player-join-game-message = Добро пожаловать на Космическую Станцию 14! Если Вы играете впервые, обязательно нажмите ESC на клавиатуре и прочитайте правила игры, а также не бойтесь просить помощи в "Админ помощь".
+game-ticker-player-join-game-message = Добро пожаловать на Void Sector! Если вы играете впервые, обязательно нажмите ESC на клавиатуре и прочитайте правила игры, а также не бойтесь просить помощи в "Админ помощь".
 game-ticker-get-info-text =
-    Привет и добро пожаловать в [color=white]Space Station 14![/color]
+    Привет и добро пожаловать на проект [color=white]Void Sector![/color]
     Текущий раунд: [color=white]#{ $roundId }[/color]
     Текущее количество игроков: [color=white]{ $playerCount }[/color]
     Текущая карта: [color=white]{ $mapName }[/color]
     Текущий режим игры: [color=white]{ $gmTitle }[/color]
     >[color=yellow]{ $desc }[/color]
 game-ticker-get-info-preround-text =
-    Привет и добро пожаловать в [color=white]Space Station 14![/color]
+    Привет и добро пожаловать на проект [color=white]Void Sector![/color]
     Текущий раунд: [color=white]#{ $roundId }[/color]
     Текущее количество игроков: [color=white]{ $playerCount }[/color] ([color=white]{ $readyCount }[/color] { $readyCount ->
         [one] готов
@@ -28,10 +28,10 @@ game-ticker-get-info-preround-text =
 game-ticker-no-map-selected = [color=red]Карта не выбрана![/color]
 game-ticker-player-no-jobs-available-when-joining = При попытке присоединиться к игре ни одной роли не было доступно.
 # Displayed in chat to admins when a player joins
-player-join-message = Игрок { $name } присоединился.
-player-first-join-message = Игрок { $name } присоединился впервые.
+player-join-message = Игрок { $name } подключился.
+player-first-join-message = Игрок { $name } зашёл на сервер впервые!
 # Displayed in chat to admins when a player leaves
-player-leave-message = Игрок { $name } покинул сервер.
+player-leave-message = Игрок { $name } отключился.
 latejoin-arrival-announcement =
     { $character } ({ $job }) { $gender ->
         [male] прибыл
@@ -40,7 +40,8 @@ latejoin-arrival-announcement =
        *[neuter] прибыл
     } на станцию!
 latejoin-arrival-sender = Станции
-latejoin-arrivals-direction = Шаттл, который доставит вас на станцию скоро прибудет.
-latejoin-arrivals-direction-time = Шаттл, который доставит вас на станцию прибудет через { $time }.
-preset-not-enough-ready-players = Не удалось запустить пресет { $presetName }. Требуется { $minimumPlayers } игроков, но готовы только { $readyPlayersCount }.
-preset-no-one-ready = Не удалось запустить режим { $presetName }. Нет готовых игроков.
+latejoin-arrivals-direction = Вскоре прибудет шаттл, который доставит вас на станцию.
+latejoin-arrivals-direction-time = Шаттл, который доставит вас на станцию, прибудет через { $time }.
+
+preset-not-enough-ready-players = Невозможно начать {$presetName}. Нужно минимум {$minimumPlayers} для {$readyPlayersCount}.
+preset-no-one-ready = Невозможно начать {$presetName}. Ни один игрок не готов.

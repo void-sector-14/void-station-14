@@ -1,5 +1,5 @@
 ent-ReinforcementRadioSyndicate = радио подкрепления синдиката
-    .desc = Вызывает к Вам агента крайне сомнительного качества, мгновенно! Предоставляется только основное оборудование.
+    .desc = Вызывает к вам агента крайне сомнительного качества, мгновенно! Предоставляется только основное оборудование.
 ent-ReinforcementRadioSyndicateNukeops = { ent-ReinforcementRadioSyndicate }
     .suffix = Радио подкрепления ЯО, Ядерный Оперативник
     .desc = { ent-ReinforcementRadioSyndicate.desc }

@@ -1,9 +1,7 @@
-# Изначально этот перевод лежал в прототипах
-
 id-card-access-level-command = Командование
 id-card-access-level-captain = Капитан
 id-card-access-level-head-of-personnel = Глава персонала
-id-card-access-level-cryogenics = Криогенетика
+id-card-access-level-cryogenics = Криогеника
 
 id-card-access-level-head-of-security = Глава службы безопасности
 id-card-access-level-security = Служба безопасности
@@ -19,12 +17,12 @@ id-card-access-level-research-director = Научный руководитель
 id-card-access-level-research = Научный
 
 id-card-access-level-chief-medical-officer = Главный врач
-id-card-access-level-medical = Медицинский
+id-card-access-level-medical = Медотсек
 id-card-access-level-chemistry = Химия
 id-card-access-level-paramedic = Парамедик
 
 id-card-access-level-quartermaster = Квартирмейстер
-id-card-access-level-cargo = Карго
+id-card-access-level-cargo = Снабжение
 id-card-access-level-salvage = Утилизаторы
 
 id-card-access-level-bar = Бар
@@ -40,8 +38,6 @@ id-card-access-level-lawyer = Юридический
 id-card-access-level-maintenance = Техобслуживание
 
 id-card-access-level-external = Внешний
-
-id-card-access-level-nuclear-operative = Ядерные оперативники
+id-card-access-level-nuclear-operative = Ядерный оперативник
 id-card-access-level-syndicate-agent = Агент Синдиката
-
 id-card-access-level-central-command = Центральное Командование

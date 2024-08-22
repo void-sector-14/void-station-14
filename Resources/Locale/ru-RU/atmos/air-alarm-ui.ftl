@@ -11,13 +11,13 @@ air-alarm-ui-window-address-label = Адрес
 air-alarm-ui-window-device-count-label = Всего устройств
 air-alarm-ui-window-resync-devices-label = Ресинхр
 air-alarm-ui-window-mode-label = Режим
-air-alarm-ui-window-auto-mode-label = Режим Авто
+air-alarm-ui-window-auto-mode-label = Авто-режим
 air-alarm-ui-window-pressure = { $pressure } кПа
 air-alarm-ui-window-pressure-indicator = Давление: [color={ $color }]{ $pressure } кПа[/color]
-air-alarm-ui-window-temperature = { $tempC } °C ({ $temperature } K)
-air-alarm-ui-window-temperature-indicator = Температура: [color={ $color }]{ $tempC } C ({ $temperature } K)[/color]
+air-alarm-ui-window-temperature = { $tempC } °C ({ $temperature } К)
+air-alarm-ui-window-temperature-indicator = Температура: [color={ $color }]{ $tempC } °C ({ $temperature } К)[/color]
 air-alarm-ui-window-alarm-state = [color={ $color }]{ $state }[/color]
-air-alarm-ui-window-alarm-state-indicator = Состояние: [color={ $color }]{ $state }[/color]
+air-alarm-ui-window-alarm-state-indicator = Статус: [color={ $color }]{ $state }[/color]
 air-alarm-ui-window-tab-vents = Вентиляции
 air-alarm-ui-window-tab-scrubbers = Скрубберы
 air-alarm-ui-window-tab-sensors = Сенсоры
@@ -35,7 +35,7 @@ air-alarm-ui-mode-none = Нет
 ### General
 
 air-alarm-ui-widget-enable = Включено
-air-alarm-ui-widget-copy = Скопировать настройки на аналогичные устройства
+air-alarm-ui-widget-copy = Копировать настройки на похожие устройства
 air-alarm-ui-widget-copy-tooltip = Копирует настройки данного устройства на все устройства данной вкладки воздушной сигнализации.
 air-alarm-ui-widget-ignore = Игнорировать
 air-alarm-ui-atmos-net-device-label = Адрес: { $address }
@@ -56,11 +56,11 @@ air-alarm-ui-scrubber-wide-net-label = ШирокаяСеть
 ### Thresholds
 
 air-alarm-ui-sensor-gases = Газы
-air-alarm-ui-sensor-thresholds = Пороги
-air-alarm-ui-thresholds-pressure-title = Пороги (кПа)
-air-alarm-ui-thresholds-temperature-title = Пороги (K)
-air-alarm-ui-thresholds-gas-title = Пороги (%)
-air-alarm-ui-thresholds-upper-bound = Опасность выше
-air-alarm-ui-thresholds-lower-bound = Опасность ниже
-air-alarm-ui-thresholds-upper-warning-bound = Предупреждение выше
-air-alarm-ui-thresholds-lower-warning-bound = Предупреждение ниже
+air-alarm-ui-sensor-thresholds = Границы
+air-alarm-ui-thresholds-pressure-title = Границы (кПа)
+air-alarm-ui-thresholds-temperature-title = Границы (К)
+air-alarm-ui-thresholds-gas-title = Границы (%)
+air-alarm-ui-thresholds-upper-bound = Верхняя аварийная граница
+air-alarm-ui-thresholds-lower-bound = Нижняя аварийная граница
+air-alarm-ui-thresholds-upper-warning-bound = Верхняя тревожная граница
+air-alarm-ui-thresholds-lower-warning-bound = Нижняя тревожная граница

@@ -14,59 +14,60 @@ cmd-ban-hint-duration-2 = 1 день
 cmd-ban-hint-duration-3 = 3 дня
 cmd-ban-hint-duration-4 = 1 неделя
 cmd-ban-hint-duration-5 = 2 недели
-# ban panel
-cmd-banpanel-desc = Открывает панель бана
-cmd-banpanel-help = Использование: banpanel [никнейм или ID пользователя]
-cmd-banpanel-server = Это не может быть использовано в консоли сервера
-cmd-banpanel-player-err = Указанный игрок не найден
 cmd-ban-hint-duration-6 = 1 месяц
+
+# ban panel
+cmd-banpanel-desc = Открывает панель банов
+cmd-banpanel-help = Использование: banpanel [имя или пользовательский guid]
+cmd-banpanel-server = Это не может быть использовано из консоли сервера
+cmd-banpanel-player-err = Указанный игрок не найден
 # listbans
-cmd-banlist-desc = Выводит список активных блокировок игрока
-cmd-banlist-help = Использование: banlist <никнейм или ID пользователя>
-cmd-banlist-empty = Нет активных блокировок для { $user }
-cmd-banlistF-hint = <никнейм/ID пользователя>
-cmd-ban_exemption_update-desc = Установить исключение для типа бана для игрока.
+cmd-banlist-desc = Список активных банов пользователя.
+cmd-banlist-help = Использование: banlist <name or user ID>
+cmd-banlist-empty = Нет активных банов у пользователя { $user }
+cmd-banlistF-hint = <name/user ID>
+cmd-ban_exemption_update-desc = Установить исключение на типы банов игрока.
 cmd-ban_exemption_update-help =
     Использование: ban_exemption_update <игрок> <флаг> [<флаг> [...]]
     Укажите несколько флагов, чтобы дать игроку несколько флагов исключения из банов.
     Чтобы удалить все исключения, выполните эту команду, указав в качестве единственного флага "None".
-cmd-ban_exemption_update-nargs = Ожидалось минимум 2 аргумента
-cmd-ban_exemption_update-locate = Невозможно определить местонахождение игрока '{ $player }'.
+cmd-ban_exemption_update-nargs = Ожидалось хотя бы 2 аргумента
+cmd-ban_exemption_update-locate = Не удалось найти игрока '{ $player }'.
 cmd-ban_exemption_update-invalid-flag = Недопустимый флаг '{ $flag }'.
-cmd-ban_exemption_update-success = Обновлены флаги исключения бана для '{ $player }' ({ $uid }).
-cmd-ban_exemption_update-arg-player = <игрок>
-cmd-ban_exemption_update-arg-flag = <флаг>
+cmd-ban_exemption_update-success = Обновлены флаги исключений банов для '{ $player }' ({ $uid }).
+cmd-ban_exemption_update-arg-player = <player>
+cmd-ban_exemption_update-arg-flag = <flag>
 cmd-ban_exemption_get-desc = Показать исключения из банов для определённого игрока.
 cmd-ban_exemption_get-help = Использование: ban_exemption_get <игрок>
-cmd-ban_exemption_get-nargs = Ожидался всего 1 аргумент
-cmd-ban_exemption_get-none = Пользователь не имеет никаких исключений из банов.
-cmd-ban_exemption_get-show = Пользователь имеет следующие флаги исключения из банов: { $flags }.
+cmd-ban_exemption_get-nargs = Ожидался ровно 1 аргумент
+cmd-ban_exemption_get-none = Пользователь не имеет исключений от банов.
+cmd-ban_exemption_get-show = Пользователь исключён из банов со следующими флагами: { $flags }.
 # Ban panel
 ban-panel-title = Панель бана
 ban-panel-player = Игрок
 ban-panel-ip = IP
 ban-panel-hwid = HWID
 ban-panel-reason = Причина
-ban-panel-last-conn = Использовать IP и HWID с последнего подключения?
+ban-panel-last-conn = Использовать IP и HWID из последнего присоединения?
 ban-panel-submit = Забанить
 ban-panel-confirm = Вы уверены?
-ban-panel-tabs-basic = Основн инфо
+ban-panel-tabs-basic = Информация о бане
 ban-panel-tabs-reason = Причина
-ban-panel-tabs-players = Список игрков
-ban-panel-tabs-role = Инфо о запрете роли
-ban-panel-no-data = Для бана необходимо указать пользователя, IP или HWID.
-ban-panel-invalid-ip = Не удалось разобрать IP-адрес. Пожалуйста, попробуйте еще раз
+ban-panel-tabs-players = Список Игроков
+ban-panel-tabs-role = Информация блокировки роли
+ban-panel-no-data = Для блокировки вы должны указать пользователя, IP или HWID.создал полную блокировку
+ban-panel-invalid-ip = IP-адрес не удалось проанализировать. Пожалуйста, попробуйте еще раз.
 ban-panel-select = Выберите тип
-ban-panel-server = Бан
-ban-panel-role = Бан роли
-ban-panel-minutes = Минут
-ban-panel-hours = Часов
-ban-panel-days = Дней
-ban-panel-weeks = Недель
-ban-panel-months = Месяцев
-ban-panel-years = Лет
-ban-panel-permanent = Навсегда
-ban-panel-ip-hwid-tooltip = Оставьте пустым и установите флажок ниже, чтобы использовать данные с последнего подключения
+ban-panel-server = Полная блокировка
+ban-panel-role = Блокировка роли
+ban-panel-minutes = Минуты
+ban-panel-hours = Часы
+ban-panel-days = Дни
+ban-panel-weeks = Недели
+ban-panel-months = Месяца
+ban-panel-years = Года
+ban-panel-permanent = Перманентно
+ban-panel-ip-hwid-tooltip = Оставьте пустым и установите флажок ниже, чтобы использовать данные последнего подключения.
 ban-panel-severity = Тяжесть:
 # Ban string
 server-ban-string = { $admin } выдал бан { $severity } тяжести, который истекает { $expires } для [{ $name }, { $ip }, { $hwid }], по причине: { $reason }

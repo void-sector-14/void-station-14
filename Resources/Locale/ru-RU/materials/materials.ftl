@@ -1,8 +1,8 @@
 # Glass
 materials-glass = стекло
-materials-reinforced-glass = бронестекло
+materials-reinforced-glass = армированное стекло
 materials-plasma-glass = плазменное стекло
-materials-reinforced-plasma-glass = плазменное бронестекло
+materials-reinforced-plasma-glass = плазменное армированное стекло
 # Metals
 materials-steel = сталь
 materials-gold = золото
@@ -21,15 +21,13 @@ materials-uranium = уран
 materials-bananium = бананиум
 materials-meat = мясо
 materials-web = шёлк
-materials-bones = кость
+materials-bones = кости
 materials-coal = уголь
-materials-gunpowder = порох
 # Ores
-materials-raw-iron = сталь
-materials-raw-quartz = кварц
-materials-raw-gold = золото
-materials-raw-silver = серебро
-materials-raw-plasma = плазма
-materials-raw-uranium = уран
-materials-raw-bananium = бананиум
-materials-raw-salt = каменная соль
+materials-raw-iron = руда железа
+materials-raw-quartz = руда кварца
+materials-raw-gold = руда золота
+materials-raw-silver = руда серебра
+materials-raw-plasma = руда плазмы
+materials-raw-uranium = руда урана
+materials-raw-bananium = руда бананиума

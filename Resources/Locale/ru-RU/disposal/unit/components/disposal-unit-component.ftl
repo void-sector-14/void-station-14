@@ -18,7 +18,7 @@ disposal-self-insert-verb-get-data-text = Залезть внутрь
 
 ## No hands
 
-disposal-unit-no-hands = У Вас нет рук!
+disposal-unit-no-hands = У вас нет рук!
 # state
 disposal-unit-state-Ready = Готов
 # Yes I want it to always say Pressurizing
