@@ -15,7 +15,7 @@
     GameRuleMeteorSwarmSmall: 18
     GameRuleMeteorSwarmMedium: 10
     GameRuleMeteorSwarmLarge: 5
-    GameRuleUristSwarm: 0.05
+    # GameRuleUristSwarm: 0.05
 
 - type: entity
   parent: BaseGameRule
@@ -88,18 +88,18 @@
       MeteorMedium: 4
       MeteorLarge: 4
 
-- type: entity
-  parent: GameRuleMeteorSwarm
-  id: GameRuleUristSwarm
-  components:
-  - type: MeteorSwarm
-    announcement: station-event-meteor-urist-start-announcement
-    announcementSound: /Audio/Announcements/attention.ogg
-    meteors:
-      MeteorUrist: 1
-    waves:
-      min: 3
-      max: 3
-    meteorsPerWave:
-      min: 10
-      max: 10
+# - type: entity
+#   parent: GameRuleMeteorSwarm
+#   id: GameRuleUristSwarm
+#   components:
+#   - type: MeteorSwarm
+#     announcement: station-event-meteor-urist-start-announcement
+#     announcementSound: /Audio/Announcements/attention.ogg
+#     meteors:
+#       MeteorUrist: 1
+#     waves:
+#       min: 3
+#       max: 3
+#     meteorsPerWave:
+#       min: 10
+#       max: 10
