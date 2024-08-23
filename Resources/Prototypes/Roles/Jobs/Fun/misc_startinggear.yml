@@ -167,6 +167,7 @@
     - GasAnalyzer
     - trayScanner
     - AccessConfiguratorUniversal
+    - DoorRemoteAll
 
 #Gladiator with spear
 - type: startingGear
