@@ -117,7 +117,7 @@
     sound:
       path: /Audio/Void/Items/Toys/oguzki.ogg
   - type: UseDelay
-    delay: 5.0
+    delay: 10.0
 
 - type: entity
   parent: BaseVoidPlushie
@@ -180,6 +180,8 @@
   - type: MeleeWeapon
     soundHit:
       path: /Audio/Void/Items/Toys/discord.ogg
+  - type: UseDelay
+    delay: 10.0
 
 - type: entity
   parent: BaseVoidPlushie
@@ -216,4 +218,4 @@
     sound:
       path: /Audio/Void/Items/Toys/dude_laugh.ogg
   - type: UseDelay
-    delay: 5.0
+    delay: 10.0
