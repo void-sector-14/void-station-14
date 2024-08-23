@@ -3,4 +3,4 @@
   name: guide-entry-rules-void
   ruleEntry: true
   priority: 0
-  text: "/ServerInfo/Guidebook/ServerRules/VoidRules.xml"
+  text: "/ServerInfo/Guidebook/Void/ServerRules/VoidRules.xml"
