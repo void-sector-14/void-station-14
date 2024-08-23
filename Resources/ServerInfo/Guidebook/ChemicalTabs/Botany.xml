@@ -1,8 +1,8 @@
 <Document>
 
-# Ботанические химикаты
+# Botanical Chemicals
 
-Эти химические вещества используются ботаниками. Некоторые из химикатов изменяют свойства растений.
+These chemicals are used by botanists. Some of the chemicals change the properties of the plants.
 
 <GuideReagentEmbed Reagent="Ammonia"/>
 <GuideReagentEmbed Reagent="Diethylamine"/>
