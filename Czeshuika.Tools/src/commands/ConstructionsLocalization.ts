@@ -33,13 +33,13 @@ export class ConstructionsLocalization extends ACommand {
 
         const ftlPath = cli.argv<string>("ftl")
         if (ftlPath == null) {
-            log.error("Missing argument: \"--ftl=/path/to/Resources/Locale/ru-RU/prototypes/construction\"")
+            log.error("Missing argument: \"--ftl=/path/to/Resources/Locale/ru-RU/construction/con-menu\"")
             return
         }
 
         const savePath = cli.argv<string>("save")
         if (savePath == null) {
-            log.error("Missing argument: \"--save=/path/to/Resources/Locale/ru-RU/prototypes/construction_new\"")
+            log.error("Missing argument: \"--save=/path/to/Resources/Locale/ru-RU/construction/con-menu_new\"")
             return
         }
 
