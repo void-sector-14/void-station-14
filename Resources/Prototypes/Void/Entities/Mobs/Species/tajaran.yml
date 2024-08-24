@@ -30,7 +30,6 @@
       Unsexed: MaleFelinid
   - type: Damageable
     damageContainer: Biological
-    damageModifierSet: Fur
   - type: MeleeWeapon
     hidden: true
     soundHit:

@@ -29,6 +29,8 @@
     ClothingHeadHatShrineMaidenWig: 2
     ClothingOuterSuitShrineMaiden: 2
     Gohei: 2
+    ClothingOuterSuitWitchRobes: 2
+    ClothingHeadHatWitch1: 2
     ClothingHeadHatRedRacoon: 2
     ClothingOuterRedRacoon: 2
     ClothingHeadPaperSack: 2
@@ -54,6 +56,16 @@
     ClothingShoesBootsCowboyBlack: 1
     ClothingShoesBootsCowboyWhite: 1
     ClothingMaskNeckGaiterRed: 2
+
+    ClothingUniformDiscoDetective: 1
+    ClothingUniformAerostatic: 1
+    ClothingEyesAerostatic: 1
+    ClothingHandsAerostatic: 1
+    ClothingNeckDiscoDetective: 1
+    ClothingOuterAerostatic: 1
+    ClothingOuterDiscoAssBlazer: 1
+    ClothingShoesDiscoDetective: 1
+    ClothingShoesAerostatic: 1
   emaggedInventory:
     ClothingShoesBling: 1
     ClothingShoesBootsCowboyFancy: 1
@@ -61,3 +73,4 @@
     ClothingMaskSexyClown: 1
     ClothingMaskSexyMime: 1
     ClothingHeadHatCowboyBountyHunter: 1
+

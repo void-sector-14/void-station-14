@@ -1,3 +1,0 @@
-ent-BaseShadow = { "" }
-    .desc = { "" }
-    .suffix = { "" }

@@ -1,17 +1,19 @@
 <Document>
   # Расы
 
-  Nanotrasen нанимает множество разумных рас.
+  Нанотразен нанимает разнообразные разумные виды.
 
   <Box>
   <GuideEntityEmbed Entity="MobArachnid" Caption="Арахнид"/>
   <GuideEntityEmbed Entity="MobDiona" Caption="Диона"/>
   <GuideEntityEmbed Entity="MobDwarf" Caption="Дворф"/>
   <GuideEntityEmbed Entity="MobHuman" Caption="Человек"/>
+  <GuideEntityEmbed Entity="MobOrc" Caption="Орк"/>
   </Box>
   <Box>
   <GuideEntityEmbed Entity="MobMoth" Caption="Ниан"/>
   <GuideEntityEmbed Entity="MobReptilian" Caption="Унатх"/>
+  <GuideEntityEmbed Entity="MobVulpkanin" Caption="Вульпканин"/>
   <GuideEntityEmbed Entity="MobSlimePerson" Caption="Слаймолюд"/>
   </Box>
 

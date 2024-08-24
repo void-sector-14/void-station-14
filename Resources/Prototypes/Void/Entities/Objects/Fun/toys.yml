@@ -117,7 +117,7 @@
     sound:
       path: /Audio/Void/Items/Toys/oguzki.ogg
   - type: UseDelay
-    delay: 5.0
+    delay: 10.0
 
 - type: entity
   parent: BaseVoidPlushie
@@ -180,18 +180,8 @@
   - type: MeleeWeapon
     soundHit:
       path: /Audio/Void/Items/Toys/discord.ogg
-
-- type: entity
-  parent: BaseVoidPlushie
-  id: PlushieYen
-  name: Плюшевый Йен
-  description: |
-    Пахнет как страх и 500 ананасов. Спрятать в шкафу, в случае экстренной ситуации.
-    Ограниченная серия игрушек команды проекта "Void Sector".
-    Собери их всех!
-  components:
-  - type: Sprite
-    state: plushie_yen
+  - type: UseDelay
+    delay: 10.0
 
 - type: entity
   parent: BaseVoidPlushie
@@ -212,24 +202,20 @@
 
 - type: entity
   parent: BaseVoidPlushie
-  id: PlushieSharssee
-  name: Плюшевый Шарсси
+  id: PlushieSullivan
+  name: Плюшевый Салливан
   description: |
-    Вам кажется что эта игрушка за вами следит.
+    Верный цепной пёс Nanotrasen. Пахнет дорогим мужским одеколоном.
     Ограниченная серия игрушек команды проекта "Void Sector".
     Собери их всех!
   components:
   - type: Sprite
-    state: plushie_sharssee
+    state: plushie_sullivan
   - type: EmitSoundOnUse
     sound:
-      path: /Audio/Items/Toys/weh.ogg
-  - type: EmitSoundOnLand
-    sound:
-      path: /Audio/Items/Toys/weh.ogg
+      path: /Audio/Void/Items/Toys/dude_laugh.ogg
   - type: EmitSoundOnActivate
     sound:
-      path: /Audio/Items/Toys/weh.ogg
-  - type: MeleeWeapon
-    soundHit:
-      path: /Audio/Items/Toys/weh.ogg
+      path: /Audio/Void/Items/Toys/dude_laugh.ogg
+  - type: UseDelay
+    delay: 10.0

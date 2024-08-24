@@ -1,0 +1,58 @@
+image: registry.workbench.network/workbench-team/space-station-14:build-image-net8
+
+stages:
+  - test
+  - publish
+
+test-debug:
+  stage: test
+  script:
+    - mkdir .git/hooks -p
+    - python3 RUN_THIS.py
+    - dotnet restore
+    - dotnet build --configuration DebugOpt --no-restore /p:WarningsAsErrors=nullable /m
+    - pwsh -Command "dotnet test --configuration DebugOpt --no-build Content.Tests/Content.Tests.csproj -- NUnit.ConsoleOut=0"
+    - export DOTNET_gcServer=1
+    - pwsh -Command "dotnet test --configuration DebugOpt --no-build Content.IntegrationTests/Content.IntegrationTests.csproj -- NUnit.ConsoleOut=0 NUnit.MapWarningTo=Failed"
+
+publish:
+  stage: publish
+  interruptible: true
+  only:
+    - schedules
+  except:
+    variables:
+      - ($SSH_PRIVATE_KEY == null || $SSH_REMOTE_IP == null || $SSH_USER == null)
+  script:
+    - mkdir .git/hooks -p
+    - python3 RUN_THIS.py
+    - dotnet restore
+    - dotnet build Content.Packaging --configuration Release --no-restore /m
+    - dotnet run --project Content.Packaging server --platform win-x64 --platform linux-x64 --platform osx-x64 --platform linux-arm64
+    - dotnet run --project Content.Packaging client --no-wipe-release
+    - Tools/gen_build_info.py
+    - mkdir release/$CI_COMMIT_REF_NAME-$CI_COMMIT_SHA
+    - mv release/*.zip release/$CI_COMMIT_REF_NAME-$CI_COMMIT_SHA
+    - eval $(ssh-agent -s)
+    - ssh-add - <<< "${SSH_PRIVATE_KEY}"
+    - mkdir -p ~/.ssh && chmod 700 ~/.ssh
+    - ssh-keyscan $SSH_REMOTE_IP >> ~/.ssh/known_hosts
+    - rsync -avz release/$CI_COMMIT_REF_NAME-$CI_COMMIT_SHA $SSH_USER@$SSH_REMOTE_IP:~/builds/builds/
+    - ssh $SSH_USER@$SSH_REMOTE_IP "~/push.ps1 $CI_COMMIT_REF_NAME-$CI_COMMIT_SHA $CI_COMMIT_REF_NAME"
+
+publish-artifact:
+  stage: publish
+  interruptible: true
+  except:
+    - schedules
+  script:
+    - mkdir .git/hooks -p
+    - python3 RUN_THIS.py
+    - dotnet restore
+    - dotnet build Content.Packaging --configuration Release --no-restore /m
+    # We create artifact only for Windows and x64 Linux, because no one uses OSX and Linux on arm for development among our contributors. This will save for us some amount of storage. You can just add --platform osx-x64 or --platform linux-arm64 if you really need it.
+    - dotnet run --project Content.Packaging server --platform win-x64 --platform linux-x64 --hybrid-acz
+  artifacts:
+    name: "$CI_COMMIT_REF_NAME-$CI_COMMIT_SHA"
+    paths:
+    - release/SS14.Server_*

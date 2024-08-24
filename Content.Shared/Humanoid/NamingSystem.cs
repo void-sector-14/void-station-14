@@ -38,7 +38,7 @@ namespace Content.Shared.Humanoid
                 case SpeciesNaming.FirstLast:
                 default:
                     return Loc.GetString("namepreset-firstlast",
-                        ("first", GetFirstName(speciesProto, gender)), ("last", GetLastName(speciesProto)));
+                        ("first", GetFirstName(speciesProto, gender)), ("last", GetLastName(speciesProto, gender)));
             }
         }
 
@@ -57,6 +57,22 @@ namespace Content.Shared.Humanoid
                         return _random.Pick(_prototypeManager.Index<DatasetPrototype>(speciesProto.FemaleFirstNames).Values);
             }
         }
+
+        // public string GetLastName(SpeciesPrototype speciesProto, Gender? gender = null)
+        // {
+        //     switch (gender)
+        //     {
+        //         case Gender.Male:
+        //             return _random.Pick(_prototypeManager.Index<DatasetPrototype>(speciesProto.MaleLastNames).Values);
+        //         case Gender.Female:
+        //             return _random.Pick(_prototypeManager.Index<DatasetPrototype>(speciesProto.FemaleLastNames).Values);
+        //         default:
+        //             if (_random.Prob(0.5f))
+        //                 return _random.Pick(_prototypeManager.Index<DatasetPrototype>(speciesProto.MaleLastNames).Values);
+        //             else
+        //                 return _random.Pick(_prototypeManager.Index<DatasetPrototype>(speciesProto.FemaleLastNames).Values);
+        //     }
+        // }
 
         public string GetLastName(SpeciesPrototype speciesProto, Gender? gender = null)
         {

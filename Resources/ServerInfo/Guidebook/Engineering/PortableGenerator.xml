@@ -1,40 +1,42 @@
 ﻿<Document>
-    # Портативные генераторы
+  # Портативные генераторы
 
-    Требуется питание? Генератор не работает? Линейка портативных генераторов "P.A.C.M.A.N." вас устроит.
+  Нужна мощность? Не работает двигатель? Линейка портативных генераторов " П.А.К.М.А.Н." обеспечит вас всем необходимым.
 
-	<Box>
-    <GuideEntityEmbed Entity="PortableGeneratorJrPacman" Caption="J.R.P.A.C.M.A.N." />
-    <GuideEntityEmbed Entity="PortableGeneratorPacman" Caption="P.A.C.M.A.N." />
-    <GuideEntityEmbed Entity="PortableGeneratorSuperPacman" Caption="S.U.P.E.R.P.A.C.M.A.N." />
+  <Box>
+    <GuideEntityEmbed Entity="PortableGeneratorJrPacman" Caption="М.И.Н.И.П.А.К.М.А.Н." />
+    <GuideEntityEmbed Entity="PortableGeneratorPacman" Caption="П.А.К.М.А.Н." />
+    <GuideEntityEmbed Entity="PortableGeneratorSuperPacman" Caption="С.У.П.Е.Р.П.А.К.М.А.Н." />
   </Box>
 
   # Младший
 
   <Box>
-    <GuideEntityEmbed Entity="PortableGeneratorJrPacman" Caption="J.R.P.A.C.M.A.N." />
+    <GuideEntityEmbed Entity="PortableGeneratorJrPacman" Caption="М.И.Н.И.П.А.К.М.А.Н." />
     <GuideEntityEmbed Entity="WeldingFuelTank" />
   </Box>
 
-	J.R.P.A.C.M.A.N. можно найти по всей станции в зонах технического обслуживания, и он идеально подходит для самостоятельной настройки экипажем при возникновении проблем с питанием.
-	Настройка невероятно проста: закрепите его над кабелем питания [color=green]НВ[/color], залейте в него немного сварочного топлива и запустите.
+  М.И.Н.И.П.А.К.М.А.Н. можно найти по всей станции в технических помещениях и это идеальное решение для экипажа, чтобы установить его самостоятельно, когда возникают проблемы с электричеством.
+  Установить его невероятно просто: закрепите его над [color=green]низковольтным[/color] кабелем, залейте в него сварочное топливо и запустите.
 
-	# Большие шишки
+  Сварочного топлива на станции должно быть много. В крайнем случае, можно даже перелить немного из больших баков с помощью банки из-под газировки. Только не забудьте сначала опорожнить банку, не думаю, что генератору нравится газировка в качестве топлива.
 
-	<Box>
-    <GuideEntityEmbed Entity="PortableGeneratorPacman" Caption="P.A.C.M.A.N." />
+  # Большие
+
+  <Box>
+    <GuideEntityEmbed Entity="PortableGeneratorPacman" Caption="П.А.К.М.А.Н." />
     <GuideEntityEmbed Entity="SheetPlasma" />
   </Box>
 
   <Box>
-    <GuideEntityEmbed Entity="PortableGeneratorSuperPacman" Caption="S.U.P.E.R.P.A.C.M.A.N." />
+    <GuideEntityEmbed Entity="PortableGeneratorSuperPacman" Caption="С.У.П.Е.Р.П.А.К.М.А.Н." />
     <GuideEntityEmbed Entity="SheetUranium" />
   </Box>
 
-	(S.U.P.E.R.)P.A.C.M.A.N. предназначен для использования инженерами в сложных энергетических сценариях. Загрузка генератора, энергоснабжающих подразделений и так далее.
+  (С.У.П.Е.Р.)П.А.К.М.А.Н. предназначен для использования инженерами для продвинутых сценариев питания. Начальный запуск двигателя, питание отделов и так далее.
 
-	S.U.P.E.R.P.A.C.M.A.N. может похвастаться большей выходной мощностью и более длительным временем работы при максимальной мощности, но менее эффективно масштабируется до более низких значений.
+  С.У.П.Е.Р.П.А.К.М.А.Н. может похвастаться большей мощностью и более длительным временем работы на максимальной мощности, но менее эффективно масштабируется до более низких мощностей.
 
-	Они подключаются непосредственно к силовым кабелям [color=yellow]СВ[/color] или [color=orange]ВВ[/color] с возможностью гибкого переключения между ними.
+  Они подключаются непосредственно к [color=yellow]СВ[/color] или [color=orange]ВВ[/color] кабелям с возможностью переключения между ними для гибкости.
 
 </Document>

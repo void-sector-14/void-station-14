@@ -22,8 +22,7 @@ map_pool = "VoidMapPool"
 advertise = false
 
 [server]
-rules_file = "RP_Rules.txt"
-rules_header = "ui-rules-header-rp"
+rules_file = "VoidRuleset"
 
 [console]
 login_host_user = "Makot"
@@ -81,16 +80,7 @@ max_announcement_length = 1024
 flavor_text = true
 
 ################################################################################
-##### Events ###################################################################
-
-[zombie]
-min_players = 10
-
-[pirates]
-min_players = 15
-
-################################################################################
 ##### Discord ##################################################################
 
 [discord]
-rich_main_icon_id = "VoidSector"
+rich_main_icon_id = "voidsector"

@@ -2,6 +2,7 @@
   id: Tall
   name: Высокий
   description: Вы созданы, чтобы пронзить небеса!
+  category: Size
   whitelist:
     components:
       - SizeAttributeWhitelist
@@ -16,6 +17,7 @@
   id: Short
   name: Низкий
   description: Вай, занижен как приора.
+  category: Size
   whitelist:
     components:
       - SizeAttributeWhitelist

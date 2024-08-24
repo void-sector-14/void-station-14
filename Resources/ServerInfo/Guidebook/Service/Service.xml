@@ -1,0 +1,33 @@
+<Document>
+# Сервис
+[color=#9fed58]Сервис[/color] поддерживает станцию в чистоте, порядке и нормальном состоянии, чтобы все остальные отделы могли лучше выполнять свою работу и сохранять удовлетворенность сотрудников. Они также занимаются большей частью бумажной работы на станции.
+
+## Персонал
+[color=#9fed58]Сервис[/color]включает сервисных работников, поваров, ботаников, барменов, уборщиков, капелланов, клоунов, мимов, музыкантов, библиотекарей и пассажиров. Сервисным Отделом управляет Глава Персонала.
+
+  <Box>
+    <GuideEntityEmbed Entity="ToyFigurineChef" Caption="Chef"/>
+    <GuideEntityEmbed Entity="ToyFigurineBotanist" Caption="Botanist"/>
+    <GuideEntityEmbed Entity="ToyFigurineBartender" Caption="Bartender"/>
+    <GuideEntityEmbed Entity="ToyFigurineJanitor" Caption="Janitor"/>
+  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="ToyFigurineChaplain" Caption="Chaplain"/>
+    <GuideEntityEmbed Entity="ToyFigurineClown" Caption="Clown"/>
+    <GuideEntityEmbed Entity="ToyFigurineMime" Caption="Mime"/>
+    <GuideEntityEmbed Entity="ToyFigurineMusician" Caption="Musician"/>
+  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="ToyFigurineLawyer" Caption="Lawyer"/>
+    <GuideEntityEmbed Entity="ToyFigurineLibrarian" Caption="Librarian"/>
+    <GuideEntityEmbed Entity="ToyFigurinePassenger" Caption="Passenger"/>
+    <GuideEntityEmbed Entity="ToyFigurineHeadOfPersonnel" Caption="HoP"/>
+  </Box>
+
+## Совместная Работа
+Несмотря на то, что [color=#9fed58]Сервис[/color] является самым разнообразным отделом, оно также является самым [color=#a4885c]взаимосвязанным[/color].
+Большинство работ в [color=#9fed58]Сервисе[/color] требуют [color=#a4885c]сотрудничества[/color] между работниками.
+Повару часто нужны ингредиенты, которые могут эффективно выращивать только ботаники. Бармен может попросить бананы, которые только клоуны могут носить в изобилии.
+
+Для [color=#a4885c]сотрудничества[/color] как внутри отдела [color=#9fed58]Сервиса[/color], так и за его пределами требуется немало усилий. Часто другие отделы нуждаются в услугах [color=#9fed58]Сервиса[/color], поэтому будьте готовы.
+</Document>

@@ -26,6 +26,7 @@
   - BorgModuleMining
   - OreProcessorIndustrialMachineCircuitboard
   - OreBagOfHolding
+  - ClothingMaskWeldingGas
 
 - type: technology
   id: AdvancedPowercells
@@ -64,6 +65,7 @@
   recipeUnlocks:
   - AutolatheHyperConvectionMachineCircuitboard
   - ProtolatheHyperConvectionMachineCircuitboard
+  - CircuitImprinterHyperConvectionMachineCircuitboard
   - SheetifierMachineCircuitboard
 
 - type: technology

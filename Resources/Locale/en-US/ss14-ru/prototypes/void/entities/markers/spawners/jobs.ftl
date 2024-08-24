@@ -1,0 +1,9 @@
+ent-SpawnPointVoidJobBase = { ent-MarkerBase }
+    .suffix = Job Spawn
+    .desc = { ent-MarkerBase.desc }
+ent-SpawnPointIAA = АВД
+    .desc = { ent-SpawnPointVoidJobBase.desc }
+ent-SpawnPointMagistrate = магистрат
+    .desc = { ent-SpawnPointVoidJobBase.desc }
+ent-SpawnPointBlueShield = офицер синего щита
+    .desc = { ent-SpawnPointVoidJobBase.desc }

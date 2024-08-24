@@ -46,28 +46,25 @@
         "name": "plushie_voomra_unshad"
       },
       {
-        "name": "plushie_yen"
-      },
-      {
         "name": "toybug"
       },
       {
-          "name": "pink_ball",
-          "delays": [
-            [
-              0.15625,
-              0.15625,
-              0.15625,
-              0.15625,
-              0.15625,
-              0.15625,
-              0.15625,
-              0.15625
-            ]
+        "name": "pink_ball",
+        "delays": [
+          [
+            0.15625,
+            0.15625,
+            0.15625,
+            0.15625,
+            0.15625,
+            0.15625,
+            0.15625,
+            0.15625
           ]
-        },
-        {
-          "name": "plushie_sharssee"
-        }
+        ]
+      },
+      {
+        "name": "plushie_sullivan"
+      }
     ]
   }

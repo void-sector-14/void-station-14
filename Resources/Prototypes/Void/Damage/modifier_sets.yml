@@ -7,3 +7,11 @@
     Cold: 1.5
     Heat: 2.0
     Poison: 1.1
+
+- type: damageModifierSet
+  id: Demon
+  coefficients:
+    Cold: 1.5
+    Heat: 0.9
+    Poison: 0.9
+    Radiation: 1.2
