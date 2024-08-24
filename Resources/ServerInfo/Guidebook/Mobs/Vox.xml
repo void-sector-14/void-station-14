@@ -1,16 +1,14 @@
 <Document>
-  # Vox
+  # Воксы
 
   <Box>
     <GuideEntityEmbed Entity="MobVox" Caption=""/>
   </Box>
 
-  [color=#ffa500]Caution! This species has a severely limiting game mechanic and is not recommended for new players. [/color]
+  [color=#ffa500]Внимание! У этого вида есть строго ограничивающая игровая механика, и он не рекомендуется для новичков.[/color]
 
-  They breathe nitrogen, and [color=#ffa500] oxygen is very toxic to them.[/color]
-  They need to be on internals at all times to avoid being poisoned by the station's oxygen.
-  Eating or drinking will require you to remove your breath mask, although injecting liquid food is an option.
+  Они дышат азотом, и [color=#ffa500]кислород для них очень токсичен.[/color] Им нужно постоянно использовать внутренние системы дыхания, чтобы избежать отравления кислородом на станции. Для приема пищи или питья вам придется снять дыхательную маску, хотя есть возможность вводить жидкую пищу через инъекции.
 
-  Their unarmed claw attacks deal Slash damage instead of Blunt.
+  Их безоружные атаки когтями наносят режущий урон вместо тупого.
 
 </Document>
