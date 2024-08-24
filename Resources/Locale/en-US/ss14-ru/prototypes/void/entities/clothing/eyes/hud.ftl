@@ -1,2 +1,2 @@
-ent-ClothingEyesGlassesBlueShield = очки офицера синего щита
+ent-ClothingEyesGlassesBlueShield = BlueShield Eyeglasses
     .desc = Модные очки отдающие синевой.

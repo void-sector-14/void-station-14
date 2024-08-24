@@ -1,6 +1,5 @@
 cmd-bql_select-desc = Отображение результатов запроса BQL в окне на стороне клиента
-cmd-bql_select-help = 
-	Использование: bql_select <bql query>
+cmd-bql_select-help = Использование: bql_select <bql query>	
     Открывшееся окно позволяет телепортироваться или просмотреть переменные получившихся сущностей.
 
 cmd-bql_select-err-server-shell = Невозможно выполнить из оболочки сервера.

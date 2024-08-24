@@ -10,6 +10,3 @@ ent-ClothingBackpackDuffelBlueshieldFilled = { ent-ClothingBackpackDuffelBlueshi
     .desc = { ent-ClothingBackpackDuffelBlueshield.desc }
     .suffix = { "" }
 
-ent-ClothingBackpackDuffelBrigmedicFilled = { ent-ClothingBackpackDuffelBrigmedic }
-    .desc = { ent-ClothingBackpackDuffelBrigmedic.desc }
-    .suffix = { "" }
