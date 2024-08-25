@@ -20,6 +20,10 @@
             "directions": 1
         },
         {
+            "name": "no-trigger",
+            "directions": 1
+        },
+        {
             "name": "complete",
             "directions": 1
         },
