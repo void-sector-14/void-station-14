@@ -29501,15 +29501,6 @@ entities:
     - type: Transform
       pos: -9.479882,-29.613472
       parent: 2
-- proto: ClothingBackpackDuffelSyndicateOperative
-  entities:
-  - uid: 4518
-    components:
-    - type: Transform
-      parent: 4517
-    - type: Physics
-      canCollide: False
-    - type: InsideEntityStorage
 - proto: ClothingBeltChampion
   entities:
   - uid: 4522
