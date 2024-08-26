@@ -120,6 +120,12 @@
         sprite: "Effects/creampie.rsi"
         state: "creampie_moth"
         visible: false
+  - type: SizeAttributeWhitelist
+    tall: true
+    tallscale: 1
+  - type: SizeAttributeWhitelist
+    short: true
+    shortscale: 0.8
 
 - type: entity
   parent: BaseSpeciesDummy

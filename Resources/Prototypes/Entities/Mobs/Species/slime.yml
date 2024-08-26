@@ -110,6 +110,12 @@
       types:
         Asphyxiation: -1.0
     maxSaturation: 15
+  - type: SizeAttributeWhitelist
+    tall: true
+    tallscale: 1.1
+  - type: SizeAttributeWhitelist
+    short: true
+    shortscale: 0.9
 
 - type: entity
   parent: MobHumanDummy
