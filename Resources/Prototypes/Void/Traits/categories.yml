@@ -1,3 +1,4 @@
 - type: traitCategory
   id: Size
   name: trait-category-size
+  maxTraitPoints: 1

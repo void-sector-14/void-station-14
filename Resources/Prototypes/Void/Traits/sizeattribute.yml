@@ -3,6 +3,7 @@
   name: Высокий
   description: Вы созданы, чтобы пронзить небеса!
   category: Size
+  cost: 1
   whitelist:
     components:
       - SizeAttributeWhitelist
@@ -18,6 +19,7 @@
   name: Низкий
   description: Вай, занижен как приора.
   category: Size
+  cost: 1
   whitelist:
     components:
       - SizeAttributeWhitelist
