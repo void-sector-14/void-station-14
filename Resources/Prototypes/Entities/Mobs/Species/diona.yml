@@ -101,6 +101,12 @@
     actionPrototype: DionaGibAction
     allowedStates:
     - Dead
+  - type: SizeAttributeWhitelist
+    tall: true
+    tallscale: 1.1
+  - type: SizeAttributeWhitelist
+    short: true
+    shortscale: 0.9
 
 - type: entity
   parent: BaseSpeciesDummy

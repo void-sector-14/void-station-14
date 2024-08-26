@@ -53,6 +53,12 @@
     baseWalkSpeed : 2.5
     baseSprintSpeed : 4.5
   - type: Perishable
+  - type: SizeAttributeWhitelist
+    short: true
+    shortscale: 0.9
+  - type: SizeAttributeWhitelist
+    tall: true
+    shortscale: 1.1
 
 - type: entity
   save: false

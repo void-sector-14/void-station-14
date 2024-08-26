@@ -67,6 +67,9 @@
   - type: SizeAttributeWhitelist
     short: true
     shortscale: 1
+  - type: SizeAttributeWhitelist
+    tall: true
+    shortscale: 1.22
 
 - type: entity
   parent: BaseSpeciesDummy
