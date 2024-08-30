@@ -7,7 +7,7 @@
     ///     Maps to <see cref="ChatChannel"/>, giving better names.
     /// </remarks>
     [Flags]
-    public enum ChatSelectChannel : ushort
+    public enum ChatSelectChannel : uint
     {
         None = 0,
 
@@ -55,6 +55,11 @@
         ///     ERP chat
         /// </summary>
         ERP = ChatChannel.ERP,
+
+        /// <summary>
+        ///     Description chat
+        /// </summary>
+        Do = ChatChannel.Do,
 
         Console = ChatChannel.Unspecified
     }

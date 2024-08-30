@@ -80,7 +80,8 @@ public sealed class ChatUIController : UIController
         {SharedChatSystem.AdminPrefix, ChatSelectChannel.Admin},
         {SharedChatSystem.RadioCommonPrefix, ChatSelectChannel.Radio},
         {SharedChatSystem.DeadPrefix, ChatSelectChannel.Dead},
-        {SharedChatSystem.ERPPrefix, ChatSelectChannel.ERP}
+        {SharedChatSystem.ERPPrefix, ChatSelectChannel.ERP},
+        {SharedChatSystem.DoPrefix, ChatSelectChannel.Do}
     };
 
     public static readonly Dictionary<ChatSelectChannel, char> ChannelPrefixes = new()
@@ -95,6 +96,7 @@ public sealed class ChatUIController : UIController
         {ChatSelectChannel.Radio, SharedChatSystem.RadioCommonPrefix},
         {ChatSelectChannel.Dead, SharedChatSystem.DeadPrefix},
         {ChatSelectChannel.ERP, SharedChatSystem.ERPPrefix},
+        {ChatSelectChannel.Do, SharedChatSystem.DoPrefix}
     };
 
     /// <summary>
@@ -529,6 +531,7 @@ public sealed class ChatUIController : UIController
             FilterableChannels |= ChatChannel.Emotes;
             FilterableChannels |= ChatChannel.Notifications;
             FilterableChannels |= ChatChannel.ERP;
+            FilterableChannels |= ChatChannel.Do;
 
             // Can only send local / radio / emote when attached to a non-ghost entity.
             // TODO: this logic is iffy (checking if controlling something that's NOT a ghost), is there a better way to check this?
@@ -539,6 +542,7 @@ public sealed class ChatUIController : UIController
                 CanSendChannels |= ChatSelectChannel.Radio;
                 CanSendChannels |= ChatSelectChannel.Emotes;
                 CanSendChannels |= ChatSelectChannel.ERP;
+                CanSendChannels |= ChatSelectChannel.Do;
             }
         }
 
@@ -868,6 +872,10 @@ public sealed class ChatUIController : UIController
 
             case ChatChannel.Emotes:
                 AddSpeechBubble(msg, SpeechBubble.SpeechType.Emote);
+                break;
+
+            case ChatChannel.Do:
+                AddSpeechBubble(msg, SpeechBubble.SpeechType.Do);
                 break;
 
             case ChatChannel.LOOC:
