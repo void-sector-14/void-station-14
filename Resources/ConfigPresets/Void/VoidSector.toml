@@ -51,8 +51,9 @@ login_host_user = "Makot"
 see_own_notes = true
 note_fresh_days = 0
 message_wait_time = 1
-new_player_threshold = 180
+new_player_threshold = 600
 afk_time = 180.0
+new_player_join_sound = true
 
 [infolinks]
 discord = "https://discord.gg/Tc5RNEWVWS"
