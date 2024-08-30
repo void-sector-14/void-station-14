@@ -109,6 +109,8 @@
   - type: SizeAttributeWhitelist
     tall: true
     tallscale: 1
+    short: true
+    shortscale: 0.8
 
 - type: entity
   save: false

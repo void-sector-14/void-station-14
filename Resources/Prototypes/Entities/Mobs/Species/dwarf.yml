@@ -59,7 +59,6 @@
   - type: SizeAttributeWhitelist
     tall: true
     tallscale: 0.9
-  - type: SizeAttributeWhitelist
     short: true
     shortscale: 0.7
 
