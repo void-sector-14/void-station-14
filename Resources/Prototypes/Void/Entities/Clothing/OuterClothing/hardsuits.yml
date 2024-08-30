@@ -28,7 +28,7 @@
     clothingPrototype: ClothingHeadHelmetHardsuitQuartermaster
 
 - type: entity
-  parent: ClothingOuterHardsuitERTLeader
+  parent: ClothingOuterHardsuitERTSecurity
   id: ClothingOuterHardsuitBlueshield
   name: скафандр офицера синего щита
   description: Стильный скафандр сделанный специально для спасения глав из открытого космоса.
