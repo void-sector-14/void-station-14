@@ -1,0 +1,11 @@
+- type: entity
+  id: GooseHonk
+  name: Кря!
+  description: Кря-кря!
+  noSpawn: true
+  components:
+  - type: InstantAction
+    useDelay: 5
+    icon: Interface/Actions/scream.png
+    event: !type:ScreamActionEvent
+    checkCanInteract: false
