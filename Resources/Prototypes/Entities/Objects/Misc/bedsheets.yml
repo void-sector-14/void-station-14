@@ -20,8 +20,18 @@
     - neck
   - type: StaticPrice
     price: 100
+  - type: Food
+    requiresSpecialDigestion: true
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        maxVol: 45
+        reagents:
+        - ReagentId: Fiber
+          Quantity: 45
   - type: Tag
     tags:
+    - ClothMade
     - Bedsheet
 
 - type: entity
