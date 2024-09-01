@@ -23,8 +23,7 @@ role_timers = false
 advertise = false
 
 [server]
-rules_file = "RP_Rules.txt"
-rules_header = "ui-rules-header-rp"
+rules_file = "BuildRuleset"
 
 [console]
 login_host_user = "Makot"
