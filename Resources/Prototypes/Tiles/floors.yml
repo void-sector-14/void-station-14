@@ -201,7 +201,7 @@
     collection: FootstepHull
   itemDrop: FloorTileItemBrassFilled
   heatCapacity: 10000
-  
+
 - type: tile
   id: FloorBrassReebe
   name: tiles-brass-floor-reebe
@@ -621,7 +621,7 @@
   deconstructTools: [ Prying ]
   footstepSounds:
     collection: FootstepHull
-  itemDrop: FloorTileItemReinforced
+  itemDrop: PartRodMetal1
   heatCapacity: 10000
 
 - type: tile
@@ -1866,7 +1866,7 @@
   isSubfloor: false
   footstepSounds:
     collection: FootstepHull
-  itemDrop: FloorTileItemReinforced #same case as FloorHull
+  itemDrop: PartRodMetal1 #same case as FloorHull
 
 # Faux sci tiles
 
