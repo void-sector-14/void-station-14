@@ -18,10 +18,6 @@ ent-AdminInstantEffectSmoke30 = { ent-AdminInstantEffectBase }
     .desc = { ent-AdminInstantEffectBase.desc }
     .suffix = Дым (30 сек)
 
-ent-AdminInstantEffectSmoke30 = { ent-AdminInstantEffectBase }
-    .desc = { ent-AdminInstantEffectBase.desc }
-    .suffix = Дым (30 сек)
-
 ent-AdminInstantEffectTearGas = { ent-AdminInstantEffectBase }
     .desc = { ent-AdminInstantEffectBase.desc }
     .suffix = Слезоточивый газ
