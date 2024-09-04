@@ -1,46 +1,87 @@
 ent-ClothingHeadHelmetBasic = шлем
-    .desc = Стандартное средство защиты. Защищает голову от воздействий.
+    .desc = Стандартная защитная экипировка. Защищает голову от ударов.
+    .suffix = { ent-ClothingHeadBase.suffix }
+
+ent-ClothingHeadHelmetMerc = шлем наёмника
+    .desc = Боевой шлем обычно используется наемниками, он прочный, легкий и пахнет порохом и джунглями.
+    .suffix = { ent-ClothingHeadHelmetBasic.suffix }
+
+ent-ClothingHeadHelmetSwat = шлем спецназа
+    .desc = Очень прочный шлем, широко используемый военизированными организациями. На его верхней части выгравирован логотип Nanotrasen.
+    .suffix = { ent-ClothingHeadBase.suffix }
+
+ent-ClothingHeadHelmetSwatSyndicate = шлем спецназа
+    .desc = Очень прочный шлем, широко используемый военизированными организациями. Его украшает ужасный узор из красных и черных полос.
+    .suffix = Синдикат
+
+ent-ClothingHeadHelmetRiot = легкий противоударный шлем
+    .desc = Это шлем был специально разработан для защиты в ближнем бою.
+    .suffix = { ent-ClothingHeadBase.suffix }
+
 ent-ClothingHeadHelmetBombSuit = сапёрный шлем
     .desc = Тяжелый шлем, предназначенный для защиты от осколков и давления, создаваемого взрывом.
-ent-ClothingHeadHelmetMerc = шлем наёмника
-    .desc = Боевой шлем обычно используется наёмниками, он прочный, лёгкий и пахнет порохом и джунглями.
-ent-ClothingHeadHelmetSwat = шлем спецназа
-    .desc = Очень устойчивый шлем, обычно используемый военными организациями. На верхней части шлема выгравирован логотип Nanotrasen.
-ent-ClothingHeadHelmetSwatSyndicate = шлем спецназа
-    .desc = Очень устойчивый шлем, обычно используемый военными организациями. Он украшен гнусным узором из красных и чёрных полос.
-    .suffix = Syndicate
-ent-ClothingHeadHelmetCult = шлем культа
-    .desc = Крепкий, злобно выглядящий шлем культа.
+    .suffix = { ent-ClothingHeadBase.suffix }
+
 ent-ClothingHeadHelmetJanitorBombSuit = сапёрно-уборочный шлем
     .desc = Тяжелый шлем, предназначенный для выдерживания взрывов, возникающих в результате реакций между химическими веществами.
     .suffix = НЕ МАППИТЬ
-ent-ClothingHeadHelmetRiot = легкий противоударный шлем
-    .desc = Это шлем был специально разработан для защиты в ближнем бою.
+
+ent-ClothingHeadHelmetCult = шлем культа
+    .desc = Крепкий, злобно выглядящий шлем культа.
+    .suffix = { ent-ClothingHeadBase.suffix }
+
 ent-ClothingHeadHelmetSpaceNinja = шлем космического ниндзя
     .desc = То, что может показаться простой черной одеждой, на самом деле является сложнейшим шлемом с нано-плетением. Стандартное снаряжение ниндзя.
+    .suffix = { ent-ClothingHeadBase.suffix }
+
 ent-ClothingHeadHelmetTemplar = шлем тамплиера
     .desc = DEUS VULT
+    .suffix = { ent-ClothingHeadBase.suffix }
+
 ent-ClothingHeadHelmetThunderdome = шлем громовержца
     .desc = Да начнется битва!
+    .suffix = { ent-ClothingHeadBase.suffix }
+
 ent-ClothingHeadHelmetWizardHelm = шлем волшебника
     .desc = Странного вида шлем, который, несомненно, принадлежал настоящему магу.
+    .suffix = { ent-ClothingHeadBase.suffix }
+
 ent-ClothingHeadHelmetFire = пожарный шлем
     .desc = Лучший друг борцов с огнём. Обеспечивает определенную жаростойкость и выглядит круто.
-ent-ClothingHeadHelmetERTLeader = шлем лидера ОБР
-    .desc = Открытый шлем, который носит лидер Отряда Быстрого Реагирования Nanotrasen. Имеет синюю подсветку.
-ent-ClothingHeadHelmetERTSecurity = шлем офицера ОБР
-    .desc = Открытый шлем, который носят офицеры Отряда Быстрого Реагирования Nanotrasen. Имеет красную подсветку.
-ent-ClothingHeadHelmetERTMedic = шлем медика ОБР
-    .desc = Открытый шлем, который носят медики Отряда Быстрого Реагирования Nanotrasen. Имеет белую подсветку.
-ent-ClothingHeadHelmetERTEngineer = шлем инженера ОБР
-    .desc = Открытый шлем, который носят инженеры Отряда Быстрого Реагирования Nanotrasen. Имеет оранжевую подсветку.
-ent-ClothingHeadHelmetERTJanitor = шлем уборщика ОБР
-    .desc = Открытый шлем, который носят уборщики Отряда Быстрого Реагирования Nanotrasen. Имеет фиолетовую подсветку.
+    .suffix = { ent-ClothingHeadLightBase.suffix }
+
 ent-ClothingHeadHelmetAtmosFire = пожарный атмос-шлем
     .desc = Пожарный шлем атмосферных техников, способный охладить пыл пользователя в любой ситуации.
+    .suffix = { ent-ClothingHeadLightBase.suffix }
+
 ent-ClothingHeadHelmetLing = хитиновый шлем
     .desc = Раздувает тело генокрада во всепоглощающий массив хитиновый брони. Обеспечивает высокую защиту от физических повреждений, более низкую от других типов. Его вес замедляет движение генокрада, а его поддержание замедляет выработку химических веществ.
+    .suffix = { ent-ClothingHeadBase.suffix }
+
+ent-ClothingHeadHelmetERTLeader = шлем лидера ОБР
+    .desc = Атмосферный шлем, который носят лидеры отрядов быстрого реагирования Nanotrasen. Имеет голубой фонарь.
+    .suffix = { ent-ClothingHeadHelmetBasic.suffix }
+
+ent-ClothingHeadHelmetERTSecurity = шлем офицера безопасности ОБР
+    .desc = Атмосферный шлем, который носят офицеры безопасности отрядов быстрого реагирования Nanotrasen. Имеет красный фонарь.
+    .suffix = { ent-ClothingHeadHelmetBasic.suffix }
+
+ent-ClothingHeadHelmetERTMedic = шлем врача ОБР
+    .desc = Атмосферный шлем, который носят медики отрядов быстрого реагирования Nanotrasen. Имеет белый фонарь.
+    .suffix = { ent-ClothingHeadHelmetBasic.suffix }
+
+ent-ClothingHeadHelmetERTEngineer = шлем инженера ОБР
+    .desc = Атмосферный шлем, который носят инженеры отрядов быстрого реагирования Nanotrasen. Имеет оранжевый фонарь.
+    .suffix = { ent-ClothingHeadHelmetBasic.suffix }
+
+ent-ClothingHeadHelmetERTJanitor = шлем уборщика ОБР
+    .desc = Атмосферный шлем, который носят уборщики отрядов быстрого реагирования Nanotrasen. Имеет тёмно-фиолетовый фонарь.
+    .suffix = { ent-ClothingHeadHelmetBasic.suffix }
+
 ent-ClothingHeadHelmetBone = костяной шлем
-    .desc = Круто выглядящий шлем, сделанный из черепов ваших врагов.
-ent-ClothingHeadHelmetPodWars = шлем нерушимого II
-    .desc = Шлем нерушимого II - реликвия pod wars.
+    .desc = Крутой шлем сделанный из черепа ваших врагов. Больше черепов трону черепов!
+    .suffix = { "" }
+
+ent-ClothingHeadHelmetPodWars = шлем Броненосец II
+    .desc = Шлем Броненосец II, реликвия войн подов.
+    .suffix = { "" }

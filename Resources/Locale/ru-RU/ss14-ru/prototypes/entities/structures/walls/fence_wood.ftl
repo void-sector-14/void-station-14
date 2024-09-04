@@ -1,32 +1,47 @@
 ent-BaseFenceWood = деревянный забор
-    .desc = Деревянный кусок ограды. Надеюсь, за ним находится сад бабушки.
-ent-BaseFenceWoodSmall = небольшой деревянный забор
-    .desc = Маленький забор из куска дерева. Лучшая защита для ограждения частной территории!
+    .desc = Деревянный кусок ограждения. Надеюсь, за этим есть бабушкин сад.
+    .suffix = { "" }
+
+ent-BaseFenceWoodSmall = низкий деревянный забор
+    .desc = Деревянный кусок небольшого забора. Лучшая защита для ограждения частной территории!
+    .suffix = { "" }
+
 ent-FenceWoodHighStraight = { ent-BaseFenceWood }
-    .suffix = Прямой
     .desc = { ent-BaseFenceWood.desc }
+    .suffix = Прямой
+
 ent-FenceWoodHighEnd = { ent-BaseFenceWood }
-    .suffix = Конец
     .desc = { ent-BaseFenceWood.desc }
+    .suffix = Конечный
+
 ent-FenceWoodHighCorner = { ent-BaseFenceWood }
-    .suffix = Угловой
     .desc = { ent-BaseFenceWood.desc }
+    .suffix = Угловой
+
 ent-FenceWoodHighTJunction = { ent-BaseFenceWood }
-    .suffix = Т-образный
     .desc = { ent-BaseFenceWood.desc }
-ent-FenceWoodHighGate = деревянные ворота забора
-    .desc = Представляете ли вы, что ждет вас за этими воротами? Это может быть как туалет, так и роскошный особняк. Но вы продолжаете любить своих эмо-мальчиков.
-ent-FenceWoodSmallStraight = { ent-BaseFenceWoodSmall }
-    .suffix = Прямой
-    .desc = { ent-BaseFenceWoodSmall.desc }
-ent-FenceWoodSmallEnd = { ent-BaseFenceWoodSmall }
-    .suffix = Конец
-    .desc = { ent-BaseFenceWoodSmall.desc }
-ent-FenceWoodSmallCorner = { ent-BaseFenceWoodSmall }
-    .suffix = Угловой
-    .desc = { ent-BaseFenceWoodSmall.desc }
-ent-FenceWoodSmallTJunction = { ent-BaseFenceWoodSmall }
     .suffix = Т-образный
+
+ent-FenceWoodHighGate = ворота деревянного забора
+    .desc = Вы хоть представляете, что ждет вас за этими воротами? Это может быть как туалет, так и роскошный особняк. Но ты продолжаешь любить своих эмо-мальчиков.
+    .suffix = { "" }
+
+ent-FenceWoodSmallStraight = { ent-BaseFenceWoodSmall }
     .desc = { ent-BaseFenceWoodSmall.desc }
-ent-FenceWoodSmallGate = деревянные ворота забора
-    .desc = Глядя на эти ворота, в голове всплывает знакомый образ. Где мой поросенок?
+    .suffix = Прямой
+
+ent-FenceWoodSmallEnd = { ent-BaseFenceWoodSmall }
+    .desc = { ent-BaseFenceWoodSmall.desc }
+    .suffix = Конечный
+
+ent-FenceWoodSmallCorner = { ent-BaseFenceWoodSmall }
+    .desc = { ent-BaseFenceWoodSmall.desc }
+    .suffix = Угловой
+
+ent-FenceWoodSmallTJunction = { ent-BaseFenceWoodSmall }
+    .desc = { ent-BaseFenceWoodSmall.desc }
+    .suffix = Т-образный
+
+ent-FenceWoodSmallGate = ворота деревянного забора
+    .desc = Глядя на эти ворота, в голове всплывает знакомая картинка. Где моя свинка?
+    .suffix = { "" }

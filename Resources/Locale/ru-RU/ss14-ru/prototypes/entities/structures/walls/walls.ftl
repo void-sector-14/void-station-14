@@ -1,101 +1,178 @@
 ent-BaseWall = базовая стена
     .desc = Удерживает воздух внутри, а ассистентов снаружи.
+    .suffix = { "" }
+
 ent-WallBrick = кирпичная стена
     .desc = { ent-BaseWall.desc }
+    .suffix = { "" }
+
 ent-WallClock = часовая стена
     .desc = { ent-BaseWall.desc }
-ent-WallClown = банановая стена
+    .suffix = { "" }
+
+ent-WallClown = бананиумовая стена
     .desc = { ent-BaseWall.desc }
+    .suffix = { "" }
+
 ent-WallMeat = стена из плоти
     .desc = Липкая.
+    .suffix = { "" }
+
 ent-WallCult = стена культа
     .desc = { ent-BaseWall.desc }
+    .suffix = { "" }
+
 ent-WallDebug = debug wall
-    .suffix = DEBUG
     .desc = { ent-BaseWall.desc }
+    .suffix = DEBUG
+
 ent-WallDiamond = бриллиантовая стена
     .desc = { ent-BaseWall.desc }
+    .suffix = { "" }
+
 ent-WallGold = золотая стена
     .desc = { ent-BaseWall.desc }
+    .suffix = { "" }
+
 ent-WallIce = ледяная стена
     .desc = { ent-BaseWall.desc }
+    .suffix = { "" }
+
 ent-WallPlasma = плазменная стена
     .desc = { ent-BaseWall.desc }
+    .suffix = { "" }
+
 ent-WallPlastic = пластиковая стена
     .desc = { ent-BaseWall.desc }
+    .suffix = { "" }
+
 ent-WallPlastitaniumIndestructible = пластитановая стена
-    .suffix = Неразрушаемая
     .desc = { ent-BaseWall.desc }
+    .suffix = Неразрушимый
+
 ent-WallPlastitanium = пластитановая стена
     .desc = { ent-BaseWall.desc }
+    .suffix = { "" }
+
 ent-WallPlastitaniumDiagonal = пластитановая стена
-    .suffix = Диагональная
     .desc = { ent-WallShuttleDiagonal.desc }
+    .suffix = Диагональ
+
 ent-WallReinforced = укреплённая стена
     .desc = { ent-BaseWall.desc }
+    .suffix = { "" }
+
 ent-WallReinforcedRust = укреплённая стена
-    .suffix = Ржавая
     .desc = { ent-WallReinforced.desc }
+    .suffix = Ржавый
+
 ent-WallReinforcedDiagonal = укреплённая стена
-    .suffix = Диагональная
     .desc = { ent-WallShuttleDiagonal.desc }
+    .suffix = Диагональ
+
 ent-WallRiveted = клёпаная стена
     .desc = { ent-BaseWall.desc }
+    .suffix = { "" }
+
 ent-WallSandstone = песчаниковая стена
     .desc = { ent-BaseWall.desc }
+    .suffix = { "" }
+
 ent-WallSilver = серебряная стена
     .desc = { ent-BaseWall.desc }
+    .suffix = { "" }
+
 ent-WallShuttleDiagonal = стена шаттла
     .desc = Удерживает воздух внутри, а ассистентов снаружи.
-    .suffix = Диагональная
+    .suffix = Диагональ
 ent-WallShuttle = стена шаттла
-    .desc = { ent-WallReinforced.desc }
-    .suffix = Укреплённая, Внешняя
+    .desc = { ent-BaseWall.desc }
+    .suffix = Укреплённый, Внешний
 ent-WallShuttleInterior = стена шаттла
     .suffix = Внутренняя
     .desc = { ent-WallSolid.desc }
-ent-WallSolidRust = обычная стена
-    .suffix = Ржавая
-    .desc = { ent-WallSolid.desc }
-ent-WallSolidDiagonal = обычная стена
-    .suffix = Диагональная
-    .desc = { ent-WallShuttleDiagonal.desc }
+    .suffix = Внутренний
+
 ent-WallSolid = обычная стена
     .desc = { ent-BaseWall.desc }
+    .suffix = { "" }
+
+ent-WallSolidDiagonal = обычная стена
+    .desc = { ent-WallShuttleDiagonal.desc }
+    .suffix = Диагональ
+
+ent-WallSolidRust = обычная стена
+    .desc = { ent-BaseWall.desc }
+    .suffix = Ржавый
+
 ent-WallUranium = урановая стена
     .desc = { ent-BaseWall.desc }
+    .suffix = { "" }
+
 ent-WallWood = деревянная стена
     .desc = { ent-BaseWall.desc }
+    .suffix = { "" }
+
 ent-WallWeb = паутинная стена
-    .desc = Держит пауков внутри, а грейтайдов - снаружи.
+    .desc = Удерживает паучат внутри, а ассистентов снаружи.
+    .suffix = { "" }
+
 ent-WallNecropolis = каменная стена
     .desc = { ent-BaseWall.desc }
+    .suffix = { "" }
+
 ent-WallMining = стена
     .desc = { ent-BaseWall.desc }
+    .suffix = { "" }
+
 ent-WallMiningDiagonal = стена
-    .suffix = Диагональная
     .desc = { ent-WallShuttleDiagonal.desc }
+    .suffix = Диагональ
+
 ent-WallVaultAlien = инопланетная стена хранилища
     .desc = Таинственная стена с витиеватыми узорами. Внутри могут подстерегать древние опасности.
+    .suffix = { "" }
+
 ent-WallVaultRock = каменная стена хранилища
     .desc = { ent-WallVaultAlien.desc }
+    .suffix = { "" }
+
 ent-WallVaultSandstone = песчаниковая каменная стена
     .desc = { ent-WallVaultAlien.desc }
+    .suffix = { "" }
+
 ent-WallInvisible = невидимая стена
     .desc = { "" }
+    .suffix = { "" }
+
 ent-WallForce = силовой барьер
     .desc = { "" }
-ent-WallCobblebrick = кирпичная стена из булыжника
-    .desc = Камень за камнем, идеально подогнанные друг к другу, образуют стену.
-ent-WallBasaltCobblebrick = кирпичная стена из базальта
+    .suffix = { "" }
+
+ent-WallCobblebrick = булыжниковая стена
+    .desc = Идеально подогнанные друг к другу кирпичик за кирпичиком образовали стену.
+    .suffix = { "" }
+
+ent-WallBasaltCobblebrick = базальтовая стена
     .desc = { ent-WallCobblebrick.desc }
-ent-WallSnowCobblebrick = кирпичная стена из снега
-    .desc = Холодная, непроницаемая стена.
-ent-WallAsteroidCobblebrick = кирпичная стена из астероидного камня
+    .suffix = { "" }
+
+ent-WallSnowCobblebrick = снежковая стена
+    .desc = A cold, not-so-impenetrable wall.
+    .suffix = { "" }
+
+ent-WallAsteroidCobblebrick = астероидная булыжниковая стена
     .desc = { ent-WallCobblebrick.desc }
-ent-WallSandCobblebrick = кирпичная стенка из песчаника
+    .suffix = { "" }
+
+ent-WallSandCobblebrick = песчаниковая булыжниковая стена
     .desc = { ent-WallCobblebrick.desc }
-ent-WallChromiteCobblebrick = кирпичная стена из хромита
+    .suffix = { "" }
+
+ent-WallChromiteCobblebrick = хромитовая булыжниковая стена
     .desc = { ent-WallCobblebrick.desc }
-ent-WallAndesiteCobblebrick = кирпичная стена из андезита
+    .suffix = { "" }
+
+ent-WallAndesiteCobblebrick = андезитовая булыжниковая стена
     .desc = { ent-WallCobblebrick.desc }
+    .suffix = { "" }

@@ -1,23 +1,43 @@
 ent-ClothingHeadsetAlt = полноразмерная гарнитура
     .desc = Модифицированный модульный интерком, надеваемый на голову. Принимает ключи шифрования.
+    .suffix = { ent-ClothingHeadset.suffix }
+
+ent-ClothingHeadsetAltCargo = полноразмерная гарнитура КМ
+    .desc = { ent-ClothingHeadsetAlt.desc }
+    .suffix = { ent-ClothingHeadsetAlt.suffix }
+
 ent-ClothingHeadsetAltCentCom = полноразмерная гарнитура Центком
     .desc = { ent-ClothingHeadsetAlt.desc }
-ent-ClothingHeadsetAltCommand = полноразмерная командная гарнитура
-    .desc = { ent-ClothingHeadsetAlt.desc }
+    .suffix = { ent-ClothingHeadsetAlt.suffix }
+
 ent-ClothingHeadsetAltCentComFake = { ent-ClothingHeadsetAltCentCom }
-    .suffix = Фальшивая
     .desc = { ent-ClothingHeadsetAltCentCom.desc }
-ent-ClothingHeadsetAltMedical = полноразмерная гарнитура главного врача
+    .suffix = Фальшивый
+
+ent-ClothingHeadsetAltCommand = полноразмерная гарнитура командования
     .desc = { ent-ClothingHeadsetAlt.desc }
-ent-ClothingHeadsetAltSecurity = полноразмерная гарнитура главы службы безопасности
+    .suffix = { ent-ClothingHeadsetAlt.suffix }
+
+ent-ClothingHeadsetAltEngineering = полноразмерная гарнитура СИ
     .desc = { ent-ClothingHeadsetAlt.desc }
-ent-ClothingHeadsetAltEngineering = полноразмерная гарнитура старшего инженера
+    .suffix = { ent-ClothingHeadsetAlt.suffix }
+
+ent-ClothingHeadsetAltMedical = полноразмерная гарнитура ГВ
     .desc = { ent-ClothingHeadsetAlt.desc }
-ent-ClothingHeadsetAltScience = полноразмерная гарнитура научного руководителя
+    .suffix = { ent-ClothingHeadsetAlt.suffix }
+
+ent-ClothingHeadsetAltSecurity = полноразмерная гарнитура ГСБ
     .desc = { ent-ClothingHeadsetAlt.desc }
-ent-ClothingHeadsetAltCargo = полноразмерная гарнитура квартирмейстера
+    .suffix = { ent-ClothingHeadsetAlt.suffix }
+
+ent-ClothingHeadsetAltScience = полноразмерная гарнитура НР
     .desc = { ent-ClothingHeadsetAlt.desc }
+    .suffix = { ent-ClothingHeadsetAlt.suffix }
+
 ent-ClothingHeadsetAltSyndicate = полноразмерная кроваво-красная гарнитура
-    .desc = Обновленная модульная гарнитура синдиката, которая помещается на голове и принимает ключи шифрования (имеется 5 слотов для ключей).
+    .desc = Модифицированный модульный интерком синдиката, надеваемый на голову, и содержащий ключ шифрования. Имеет 5 ячеек для ключей шифрования.
+    .suffix = { ent-ClothingHeadsetAlt.suffix }
+
 ent-ClothingHeadsetAltFreelancer = полноразмерная гарнитура фрилансера
     .desc = { ent-ClothingHeadsetAlt.desc }
+    .suffix = { "" }

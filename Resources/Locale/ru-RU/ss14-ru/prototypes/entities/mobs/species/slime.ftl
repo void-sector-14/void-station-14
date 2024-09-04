@@ -1,4 +1,7 @@
 ent-BaseMobSlimePerson = Урист МакСлайм
     .desc = { ent-BaseMobSpeciesOrganic.desc }
-ent-MobSlimePersonDummy = { ent-BaseSpeciesDummy }
-    .desc = { ent-BaseSpeciesDummy.desc }
+    .suffix = { "" }
+
+ent-MobSlimePersonDummy = Урист МакХэндс
+    .desc = Манекен-слайм, используемый при создании персонажа.
+    .suffix = { ent-MobHumanDummy.suffix }
