@@ -1,35 +1,35 @@
 - type: stationGoal
-  id: StationGoalShuttle
+  id: Shuttle
   text: station-goal-shuttle
 
 - type: stationGoal
-  id: StationGoalShuttleRescue
+  id: ShuttleRescue
   text: station-goal-shuttle-rescue
 
 - type: stationGoal
-  id: StationGoalTesla
+  id: Tesla
   text: station-goal-tesla
 
 - type: stationGoal
-  id: StationGoalSolarPanels
+  id: SolarPanels
   text: station-goal-solar-panels
 
 - type: stationGoal
-  id: StationGoalArtifacts
+  id: Artifacts
   text: station-goal-artifacts
 
 - type: stationGoal
-  id: StationGoalBar
+  id: Bar
   text: station-goal-bar
 
 - type: stationGoal
-  id: StationGoalCyborgs
+  id: Cyborgs
   text: station-goal-cyborgs
 
 - type: stationGoal
-  id: StationGoalContainment
+  id: Containment
   text: station-goal-containment
 
 - type: stationGoal
-  id: StationGoalBotany
+  id: Botany
   text: station-goal-botany
