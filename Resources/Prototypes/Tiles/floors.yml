@@ -1459,7 +1459,7 @@
   id: FloorGrass
   name: tiles-planet-grass-floor
   sprite: /Textures/Tiles/grass.png
-  variants: 4 #Corvax
+  variants: 4
   placementVariants:
   - 1.0
   - 1.0
@@ -1477,7 +1477,7 @@
   id: FloorGrassJungle
   name: tiles-jungle-grass-floor
   sprite: /Textures/Tiles/grassjungle.png
-  variants: 4 #Corvax
+  variants: 4
   placementVariants:
   - 1.0
   - 1.0
@@ -1903,7 +1903,7 @@
   id: FloorMowedAstroGrass
   name: tiles-mowed-astro-grass
   parent: FloorGrass
-  sprite: /Textures/Corvax/Tiles/mowed_grass.png #Corvax
+  sprite: /Textures/Void/Tiles/mowed_grass.png
   variants: 4
   placementVariants:
   - 1.0
