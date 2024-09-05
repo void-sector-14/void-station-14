@@ -154,7 +154,6 @@
       - id: AccessConfigurator
       - id: RCD
       - id: RCDAmmo
-      - id: SensorConsoleCircuitboard
 
 - type: entity
   id: LockerChiefEngineerFilled
@@ -175,7 +174,6 @@
       - id: AccessConfigurator
       - id: RCD
       - id: RCDAmmo
-      - id: SensorConsoleCircuitboard
       - id: ClothingMaskGasAtmos
 
 - type: entity
