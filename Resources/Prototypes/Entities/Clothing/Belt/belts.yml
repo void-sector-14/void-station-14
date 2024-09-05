@@ -123,6 +123,7 @@
         - Geiger
         - TrayScanner
         - GasAnalyzer
+        - AccessOverrider
   - type: ItemMapper
     mapLayers:
       drill:
