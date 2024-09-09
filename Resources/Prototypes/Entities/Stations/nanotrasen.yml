@@ -11,6 +11,7 @@
   parent:
     - BaseStation
 #    - BaseStationNews
+    - BaseStationGoal
     - BaseStationCargo
     - BaseStationJobsSpawning
     - BaseStationRecords

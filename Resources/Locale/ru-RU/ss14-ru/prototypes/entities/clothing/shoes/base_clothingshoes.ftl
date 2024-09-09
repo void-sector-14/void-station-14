@@ -1,11 +1,15 @@
 ent-ClothingShoesBase = { ent-Clothing }
     .desc = { ent-Clothing.desc }
+    .suffix = { ent-Clothing.suffix }
+
 ent-ClothingShoesBaseButcherable = { ent-ClothingShoesBase }
     .desc = { ent-ClothingShoesBase.desc }
+    .suffix = { ent-ClothingShoesBase.suffix }
+
 ent-ClothingShoesMilitaryBase = { ent-ClothingShoesBase }
-    .desc = { ent-ClothingShoesBase.desc }
-ent-ClothingShoesBootsSecFilled = { "" }
-    .suffix = Заполненные
     .desc = { "" }
+    .suffix = { "" }
+
 ent-ClothingShoesBaseWinterBoots = { ent-ClothingShoesBaseButcherable }
-    .desc = Меховые сапоги помогут пережить даже самую холодную зиму.
+    .desc = Меховые ботинки, которые помогут пережить даже самую холодную зиму.
+    .suffix = { "" }

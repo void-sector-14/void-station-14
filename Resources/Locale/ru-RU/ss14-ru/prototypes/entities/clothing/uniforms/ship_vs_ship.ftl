@@ -1,16 +1,31 @@
-ent-ClothingUniformJumpsuitRecruitNT = комбинезон новобранца
-    .desc = Стильный серый комбинезон с синей отделкой. Идеальный вариант для достойного помощника.
-ent-ClothingUniformJumpsuitRecruitSyndie = комбинезон новобранца синдиката
-    .desc = Сомнительный тёмно-серый комбинезон. Как будто ассистенты и так не были достаточно сомнительными.
+ent-ClothingUniformJumpsuitRecruitNT = комбинезон рекрута
+    .desc = Классический серый комбинезон с синими элементами. Идеально для достойного помощника.
+    .suffix = { ent-ClothingUniformBase.suffix }
+
+ent-ClothingUniformJumpsuitRecruitSyndie = комбинезон рекрута Синдиката
+    .desc = Подозрительный тёмно-серый комбинезон. Как будто пассажиры не были и без того достаточно подозрительными.
+    .suffix = { ent-ClothingUniformBase.suffix }
+
 ent-ClothingUniformJumpsuitRepairmanNT = комбинезон ремонтника
-    .desc = комбинезон, напоминающий вам об определённой рабочей должности в экипаже. Надеюсь, вам не придётся выполнять ту же работу, что и ЭТИМ чудикам.
-ent-ClothingUniformJumpsuitRepairmanSyndie = комбинезон ремонтника синдиката
-    .desc = Функционально, модно и чертвоски круто. Инженеры Nanotrasen хотели бы иметь такой же хороший комбинезон, как этот.
+    .desc = Комбинезон, напоминающий вам определенную рабочую специальность в гражданском секторе. Надеемся, вам не придется выполнять ту же работу, что и этим чудакам.
+    .suffix = { ent-ClothingUniformBase.suffix }
+
+ent-ClothingUniformJumpsuitRepairmanSyndie = комбинезон ремонтника Синдиката
+    .desc = Функциональный, модный, крутой. Инженеры Nanotrasen мечтают выглядеть так же хорошо, как и вы.
+    .suffix = { ent-ClothingUniformBase.suffix }
+
 ent-ClothingUniformJumpsuitParamedicNT = комбинезон парамедика
-    .desc = Стандартный бело-голубой комбинезон, предназначенный для парамедиков Nanotrasen, расположенных в боевых секторах.
-ent-ClothingUniformJumpsuitParamedicSyndie = комбинезон парамедика синдиката
-    .desc = По каким-то причинам, надевая его, вы чувствуете, будто очень близки к нарушению Женевской конвенции.
+    .desc = Простой бело-голубой комбинезон, предназначенный для парамедиков Nanotrasen, работающих в боевых секторах.
+    .suffix = { ent-ClothingUniformBase.suffix }
+
+ent-ClothingUniformJumpsuitParamedicSyndie = комбинезон парамедика Синдиката
+    .desc = По какой-то причине, надевая его, вы чувствуете, что очень близки к нарушению Женевской конвенции.
+    .suffix = { ent-ClothingUniformBase.suffix }
+
 ent-ClothingUniformJumpsuitChiefEngineerNT = комбинезон старшего инженера
-    .desc = Часто шутят, что на роль старшего инженера боевого сектора назначают настоящих инженеров-логистов. Удачи.
-ent-ClothingUniformJumpsuitChiefEngineerSyndie = комбинезон старшего инженера синдиката
-    .desc = Зловеще выглядящий комбинезон со светоотражающим жилетом и красной нижней рубашкой.
+    .desc = Часто шутят, что роль старшего инженера боевого сектора - это место, куда продвигаются настоящие инженеры с логистическим типом мышления. Удачи.
+    .suffix = { ent-ClothingUniformBase.suffix }
+
+ent-ClothingUniformJumpsuitChiefEngineerSyndie = комбинезон старшего инженера Синдиката
+    .desc = Злодейского вида комбинезон со светоотражающим жилетом и красной рубашкой.
+    .suffix = { ent-ClothingUniformBase.suffix }

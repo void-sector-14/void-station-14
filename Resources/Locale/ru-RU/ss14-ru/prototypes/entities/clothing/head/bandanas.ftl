@@ -1,22 +1,43 @@
-ent-ClothingHeadBandBase = { ent-ClothingHeadBaseButcherable }
-    .desc = { ent-ClothingHeadBaseButcherable.desc }
+ent-ClothingHeadBandBase = { ent-BaseFoldable }
+    .desc = { "" }
+    .suffix = { "" }
+
 ent-ClothingHeadBandBlack = чёрная бандана
-    .desc = { ent-ClothingHeadBandBase.desc }
+    .desc = Чёрная бандана, чтобы выглядеть круто.
+    .suffix = { ent-ClothingHeadBaseButcherable.suffix }
+
 ent-ClothingHeadBandBlue = синяя бандана
-    .desc = { ent-ClothingHeadBandBase.desc }
+    .desc = Синяя бандана, чтобы выглядеть круто.
+    .suffix = { ent-ClothingHeadBaseButcherable.suffix }
+
 ent-ClothingHeadBandBotany = бандана ботаника
-    .desc = { ent-ClothingHeadBandBase.desc }
+    .desc = Ботаническая бандана из натуральных волокон, чтобы выглядеть круто.
+    .suffix = { ent-ClothingHeadBaseButcherable.suffix }
+
 ent-ClothingHeadBandGold = золотая бандана
-    .desc = { ent-ClothingHeadBandBase.desc }
-ent-ClothingHeadBandGreen = зелёная бандана
-    .desc = { ent-ClothingHeadBandBase.desc }
+    .desc = Золотая бандана, чтобы выглядеть круто.
+    .suffix = { ent-ClothingHeadBaseButcherable.suffix }
+
+ent-ClothingHeadBandGreen = зеленая бандана
+    .desc = Зеленая бандана, чтобы выглядеть круто.
+    .suffix = { ent-ClothingHeadBaseButcherable.suffix }
+
 ent-ClothingHeadBandGrey = серая бандана
-    .desc = { ent-ClothingHeadBandBase.desc }
+    .desc = Серая бандана, чтобы выглядеть круто.
+    .suffix = { ent-ClothingHeadBaseButcherable.suffix }
+
 ent-ClothingHeadBandRed = красная бандана
-    .desc = { ent-ClothingHeadBandBase.desc }
+    .desc = Красная бандана, чтобы выглядеть круто.
+    .suffix = { ent-ClothingHeadBaseButcherable.suffix }
+
 ent-ClothingHeadBandSkull = бандана с черепом
-    .desc = { ent-ClothingHeadBandBase.desc }
+    .desc = Бандана с черепом, чтобы выглядеть еще круче.
+    .suffix = { ent-ClothingHeadBaseButcherable.suffix }
+
 ent-ClothingHeadBandMerc = бандана наёмника
-    .desc = { ent-ClothingHeadBandBase.desc }
+    .desc = Для защиты головы от солнца, насекомых и других угроз сверху.
+    .suffix = { ent-ClothingHeadBaseButcherable.suffix }
+
 ent-ClothingHeadBandBrown = коричневая бандана
-    .desc = { ent-ClothingHeadBandBase.desc }
+    .desc = Коричневая бандана, чтобы выглядеть круто.
+    .suffix = { ent-ClothingHeadBaseButcherable.suffix }

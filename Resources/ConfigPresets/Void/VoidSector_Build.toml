@@ -32,11 +32,20 @@ login_host_user = "Makot"
 see_own_notes = true
 note_fresh_days = 0
 message_wait_time = 1
-new_player_threshold = 180
 afk_time = 0.0
 
 [physics]
 grid_splitting = false
+
+[procgen]
+preload = false
+
+[shuttle]
+grid_fill = false
+auto_call_time = 0
+emergency = false
+arrivals = false
+preload_grids = false
 
 ################################################################################
 ##### In Game ##################################################################
@@ -64,12 +73,6 @@ enabled = false
 
 [ooc]
 enable_during_round = true
-
-[looc]
-enabled_crit = true
-
-[ic]
-flavor_text = false
 
 ################################################################################
 ##### Discord ##################################################################

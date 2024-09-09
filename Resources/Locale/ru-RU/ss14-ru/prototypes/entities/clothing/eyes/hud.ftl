@@ -1,51 +1,67 @@
-ent-ShowSecurityIcons = { "" }
-    .desc = { "" }
-ent-ShowMedicalIcons = { "" }
-    .desc = { "" }
 ent-ClothingEyesHudDiagnostic = диагностический визор
     .desc = Окуляр с индикатором на стекле, способный анализировать целостность и состояние роботов и экзокостюмов.
+    .suffix = { ent-ClothingEyesBase.suffix }
+
 ent-ClothingEyesHudMedical = медицинский визор
     .desc = Окуляр с индикатором на стекле, который сканирует гуманоидов в поле зрения и предоставляет точные данные о состоянии их здоровья.
+    .suffix = { ent-ClothingEyesBase.suffix }
+
 ent-ClothingEyesHudSecurity = охранный визор
     .desc = Окуляр с индикатором на стекле, который сканирует гуманоидов в поле зрения и предоставляет точные данные об их идентификационном статусе и записях в системе безопасности.
+    .suffix = { ent-ClothingEyesBase.suffix }
+
 ent-ClothingEyesHudBeer = пивные очки
     .desc = Пара солнцезащитных очков, оснащенных сканером реагентов, а также дающих понимание вязкости жидкости во время движения.
-ent-ClothingEyesHudFriedOnion = очки из жареного лука
-    .desc = Любимые луковые колечки, обжаренные в кляре, но теперь в формате очков!
-ent-ClothingEyesHudOnionBeer = жолодные очки
-    .desc = Любимые луковые колечки, обжаренные в кляре с пивом, но теперь в формате очков. Для настоящих гурманов!
-ent-ClothingEyesHudMedOnion = медлуковой визор
-    .desc = Медициский визор, сделанный из лукового колечка в кляре. Дает информацию не только о здоровии пациента, но и о его заполненности желудка.
-ent-ClothingEyesHudMedOnionBeer = меджолодный визор
-    .desc = Медициский визор, сделанный из лукового колечка в кляре из пива. Дает информацию не только о здоровии пациента, но и о его заполненности желудка и уровне жажды.
-ent-ClothingEyesHudMedSec = медико-охранный визор
-    .desc = Глазной дисплей, похожий на смесь медицинских и охранных визоров.
-ent-ClothingEyesHudMultiversal = мультиверсальный визор
-    .desc = Соединять медицинский визор с визором охраны и луковым колечком было самой лучшей идеей.
+    .suffix = { "" }
+
+ent-ClothingEyesHudFriedOnion = жареные луковые очки
+    .desc = Пара красивых очков на закуску к пиву.
+    .suffix = { "" }
+
+ent-ClothingEyesHudOnionBeer = грозные пивные очки
+    .desc = Пара необычных очков с встроеным сканером.
+    .suffix = { "" }
+
+ent-ClothingEyesHudMedOnion = продвинутый мед визор
+    .desc = Продвинутый медицинский визор, ничего более.
+    .suffix = { "" }
+
+ent-ClothingEyesHudMedOnionBeer = продвинутый мед визор плюс
+    .desc = Продвинутый медицинский визор со встроеным сканером реагентов.
+    .suffix = { "" }
+
+ent-ClothingEyesHudMedSec = мед-охранный визор
+    .desc = Окуляр с индикатором на стекле, напоминающий сочетание визора охраны с медицинским.
+    .suffix = { "" }
+
+ent-ClothingEyesHudMultiversal = мульти визор
+    .desc = Професианальный визор с множеством полезных функций.
+    .suffix = { "" }
+
 ent-ClothingEyesHudOmni = омни визор
-    .desc = Смесь медициского, охранного и меджолодного визора, дарованная высшими существами для вас.
-ent-ClothingEyesHudSyndicate = визор синдиката
-    .desc = Профессиональный головной дисплей синдиката, предназначенный для более точного обнаружения гуманоидов и их последующего уничтожения.
-ent-ClothingEyesHudSyndicateAgent = визор агента синдиката
-    .desc = Профессиональный головной дисплей агента Синдиката, предназначенный для быстрой диагностики состояния его команды.
-    .suffix = Синдикат
-    .desc = { ent-ClothingEyesGlassesSunglasses.desc }
+    .desc = В этом визоре есть буквально все.
+    .suffix = { "" }
+
+ent-ClothingEyesHudSyndicate = синди-визор
+    .desc = Профессиональный визор Синдиката с индикатором на стекле, предназначенный для более точного обнаружения гуманоидов с их последующим уничтожением.
+    .suffix = { "" }
+
 ent-ClothingEyesGlassesHiddenSecurity = { ent-ClothingEyesGlassesSunglasses }
-    .suffix = Синдикат
     .desc = { ent-ClothingEyesGlassesSunglasses.desc }
+    .suffix = Синдикат
+
 ent-ClothingEyesEyepatchHudMedical = медицинский моновизор
     .desc = Окуляр с индикатором на стекле, который сканирует гуманоидов в поле зрения и предоставляет точные данные о состоянии их здоровья. Для настоящих патриотов.
-ent-ClothingEyesEyepatchHudMedicalFlipped = { ent-ClothingEyesEyepatchHudMedical }
-    .desc = { ent-ClothingEyesEyepatchHudMedical.desc }
+    .suffix = { "" }
+
 ent-ClothingEyesEyepatchHudSecurity = моновизор охраны
     .desc = Окуляр с индикатором на стекле, который сканирует гуманоидов в поле зрения и предоставляет точные данные об их идентификационном статусе и записях в системе безопасности. Для настоящих патриотов.
-ent-ClothingEyesEyepatchHudSecurityFlipped = { ent-ClothingEyesEyepatchHudSecurity }
-    .desc = { ent-ClothingEyesEyepatchHudSecurity.desc }
+    .suffix = { "" }
+
 ent-ClothingEyesEyepatchHudBeer = пивной монокуляр
     .desc = Пара солнцезащитных очков, оснащенных сканером реагентов, а также дающих понимание вязкости жидкости во время движения. Для настоящих патриотов.
-ent-ClothingEyesEyepatchHudBeerFlipped = { ent-ClothingEyesEyepatchHudBeer }
-    .desc = { ent-ClothingEyesEyepatchHudBeer.desc }
+    .suffix = { "" }
+
 ent-ClothingEyesEyepatchHudDiag = диагностический моновизор
     .desc = Окуляр с индикатором на стекле, способный анализировать целостность и состояние роботов и экзокостюмов. Сделан из си-боргия.
-ent-ClothingEyesEyepatchHudDiagFlipped = { ent-ClothingEyesEyepatchHudDiag }
-    .desc = { ent-ClothingEyesEyepatchHudDiag.desc }
+    .suffix = { "" }

@@ -56,11 +56,11 @@
     hideLayersOnEquip:
     - Hair
     - Snout
-  - type: SizeAttributeWhitelist
-    tall: true
-    tallscale: 0.9
-    short: true
-    shortscale: 0.7
+  # - type: SizeAttributeWhitelist
+  #   tall: true
+  #   tallscale: 0.9
+  #   short: true
+  #   shortscale: 0.7
 
 - type: entity
   parent: BaseSpeciesDummy
