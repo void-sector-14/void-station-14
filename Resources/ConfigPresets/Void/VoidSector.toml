@@ -36,6 +36,9 @@ lobbyduration = 180
 fallbackpreset = "Extended"
 map_pool = "VoidMapPool"
 
+[replay]
+auto_record = true
+
 [hub]
 advertise = true
 tags = "lang:ru,region:eu_e,rp:med,18+"
