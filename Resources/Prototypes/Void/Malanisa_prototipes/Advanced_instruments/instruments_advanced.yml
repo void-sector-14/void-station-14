@@ -72,7 +72,8 @@
 - type: entity
   parent: BaseHandheldInstrument
   id: AdvancedBassGuitarInstrument
-  name: улучшенная басс гитара
+  suffix: Void Sector
+  name: улучшенная бас-гитара
   description: Ваши бассы будут теперь звучать еще лучше с цифровым барабанным сопровождением, если конечно вы не криворучка.
   components:
   - type: Instrument
@@ -103,7 +104,7 @@
 - type: entity
   parent: BaseHandheldInstrument
   id: AdvancedRockGuitarInstrument
-  name: улучшенная рок гитара
+  name: улучшенная рок-гитара
   suffix: Void Sector
   description: Нанесите больше драйва с цифровыми ударными инструментами, и больше боли за счет тяжелого металлического корпуса. 
   components:
