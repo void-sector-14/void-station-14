@@ -1,0 +1,175 @@
+- type: entity
+  parent: BaseItem
+  id: BasePockedInstrument
+  abstract: true
+  description: That's an instrument.
+  components:
+  - type: Sprite
+  - type: Instrument
+  - type: ActivatableUI
+    singleUser: true
+    verbText: verb-instrument-openui
+    key: enum.InstrumentUiKey.Key
+  - type: UserInterface
+    interfaces:
+      enum.InstrumentUiKey.Key:
+        type: InstrumentBoundUserInterface
+  - type: Item
+    size: Normal
+  - type: StaticPrice
+    price: 200
+
+- type: entity
+  parent: BasePockedInstrument
+  id: PockedPlayerUnpowered
+  suffix: Void Sector
+  name: карманный плеер
+  description: Давно забытый плеер вновь вернули для тех, кому скучно на работе. Единственный минус только в отсутсвии наушников.
+  components:
+  - type: Item
+    size: Tiny
+  - type: Sprite
+    sprite: Void/Malanisa_sprites/Advanced_instruments/portableplayer.rsi 
+    layers:
+    - state: player-base
+    - state: player-display
+      shader: unshaded
+      visible: false
+      map: [ "enum.PowerDeviceVisualLayers.Powered" ]     
+  - type: Appearance
+  - type: Instrument
+    allowPercussion: true
+    allowProgramChange: true
+  - type: ItemToggle
+    onUse: false
+  - type: GenericVisualizer
+    visuals:
+      enum.PowerCellSlotVisuals.Enabled:
+        enum.PowerDeviceVisualLayers.Powered:
+          True: { visible: true }
+          False: { visible: false }
+
+- type: entity
+  id: PockedPlayer
+  parent: [ PockedPlayerUnpowered, PowerCellSlotSmallItem]
+  suffix: Powered
+  components:
+  - type: PowerCellDraw
+    drawRate: 1.2 #Calculated for 5 minutes on a small cell
+  - type: ActivatableUIRequiresPowerCell
+
+- type: entity
+  id: PockedPlayerEmpty
+  parent: PockedPlayer
+  suffix: Empty
+  components:
+  - type: ItemSlots
+    slots:
+      cell_slot:
+        name: power-cell-slot-component-slot-name-default    
+
+
+- type: entity
+  parent: BaseHandheldInstrument
+  id: AdvancedBassGuitarInstrument
+  name: улучшенная басс гитара
+  description: Ваши бассы будут теперь звучать еще лучше с цифровым барабанным сопровождением, если конечно вы не криворучка.
+  components:
+  - type: Instrument
+    program: 33
+    allowPercussion: true
+  - type: SwappableInstrument
+    instrumentList:
+      "Fingered": {33: 0}
+      "Pick": {34: 0}
+      "Slap": {36: 0}
+      "Slap (XTra Funky)": {37: 0}
+  - type: Sprite
+    sprite: Void/Malanisa_sprites/Advanced_instruments/advanced_bassguitar.rsi
+    state: icon
+  - type: Item
+    size: Normal
+    sprite: Void/Malanisa_sprites/Advanced_instruments/advanced_bassguitar.rsi
+  - type: Clothing
+    quickEquip: false
+    slots:
+    - back
+    - suitStorage
+    sprite: Void/Malanisa_sprites/Advanced_instruments/advanced_bassguitar.rsi
+  - type: Tag
+    tags:
+    - StringInstrument    
+
+- type: entity
+  parent: BaseHandheldInstrument
+  id: AdvancedRockGuitarInstrument
+  name: улучшенная рок гитара
+  suffix: Void Sector
+  description: Нанесите больше драйва с цифровыми ударными инструментами, и больше боли за счет тяжелого металлического корпуса. 
+  components:
+  - type: Instrument
+    program: 29
+    allowPercussion: true
+  - type: SwappableInstrument
+    instrumentList:
+      "Overdrive": {29: 0}
+      "Distortion": {30: 0}
+      "Harmonics": {31: 0}
+  - type: Sprite
+    sprite: Void/Malanisa_sprites/Advanced_instruments/advanced_rockguitar.rsi
+    state: icon
+  - type: Item
+    size: Normal
+    sprite: Void/Malanisa_sprites/Advanced_instruments/advanced_rockguitar.rsi
+  - type: Clothing
+    quickEquip: false
+    slots:
+    - back
+    - suitStorage
+    sprite: Void/Malanisa_sprites/Advanced_instruments/advanced_rockguitar.rsi
+  - type: Tag
+    tags:
+    - StringInstrument
+  - type: MeleeWeapon
+    wideAnimationRotation: 45
+    damage:
+      types:
+        Blunt: 8
+        Slash: 2
+  - type: Wieldable
+  - type: IncreaseDamageOnWield #they don't call it an axe for nothing
+    damage:
+      types:
+        Blunt: 4
+        Slash: 2    
+
+- type: entity
+  parent: BaseHandheldInstrument
+  id: AdvancedElectricGuitarInstrument
+  name: улучшенная электро гитара
+  suffix: Void Sector
+  description: Устали искать барабанщика? Теперь у вас есть свой цифровой прямо гитаре!
+  components:
+  - type: Instrument
+    program: 27
+    allowPercussion: true
+  - type: SwappableInstrument
+    instrumentList:
+      "Clean": {27: 0}
+      "Jazz": {25: 0}
+      "Muted": {28: 0}
+  - type: Sprite
+    sprite: Void/Malanisa_sprites/Advanced_instruments/advanced_eguitar.rsi
+    state: icon
+  - type: Item
+    size: Normal
+    sprite: Void/Malanisa_sprites/Advanced_instruments/advanced_eguitar.rsi
+  - type: Clothing
+    quickEquip: false
+    slots:
+    - back
+    - suitStorage
+    sprite: Void/Malanisa_sprites/Advanced_instruments/advanced_eguitar.rsi
+  - type: Tag
+    tags:
+    - StringInstrument        

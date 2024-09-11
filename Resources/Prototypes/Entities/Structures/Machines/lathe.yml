@@ -198,6 +198,11 @@
       - ClothingHeadHatWelding
       - WetFloorSign
       - ClothingHeadHatCone
+    dynamicRecipes:
+      - AdvancedRockGuitarInstrument #Для рецепта продвинутых инструментов by Malanisa Нет возможности вынести в отдельную папку     
+      - AdvancedBassGuitarInstrument #Для рецепта продвинутых инструментов by Malanisa Нет возможности вынести в отдельную папку      
+      - AdvancedElectricGuitarInstrument #Для рецепта продвинутых инструментов by Malanisa Нет возможности вынести в отдельную папку  
+      - PockedPlayerEmpty #Для рецепта продвинутых инструментов by Malanisa. Нет возможности вынести в отдельную папку       
   - type: EmagLatheRecipes
     emagStaticRecipes:
       - BoxLethalshot
