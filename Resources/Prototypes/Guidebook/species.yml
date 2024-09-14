@@ -11,6 +11,11 @@
     - Reptilian
     - SlimePerson
     - Vox
+    - Demon
+    - Katunian
+    - Tajaran
+    - Vulpkanin
+    - Felinid
 
 - type: guideEntry
   id: Arachnid
@@ -51,3 +56,28 @@
   id: Vox
   name: species-name-vox
   text: "/ServerInfo/Guidebook/Mobs/Vox.xml"
+
+- type: guideEntry
+  id: Demon
+  name: species-name-demon
+  text: "/ServerInfo/Guidebook/Mobs/Demon.xml"
+
+- type: guideEntry
+  id: Katunian
+  name: species-name-katunian
+  text: "/ServerInfo/Guidebook/Mobs/Katunian.xml"
+
+- type: guideEntry
+  id: Tajaran
+  name: species-name-tajaran
+  text: "/ServerInfo/Guidebook/Mobs/Tajaran.xml"
+
+- type: guideEntry
+  id: Vulpkanin
+  name: species-name-vulpkanin
+  text: "/ServerInfo/Guidebook/Mobs/Vulpkanin.xml"
+
+- type: guideEntry
+  id: Felinid
+  name: species-name-felinid
+  text: "/ServerInfo/Guidebook/Mobs/Felinid.xml"

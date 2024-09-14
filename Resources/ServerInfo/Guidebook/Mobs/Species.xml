@@ -8,13 +8,18 @@
   <GuideEntityEmbed Entity="MobDiona" Caption="Диона"/>
   <GuideEntityEmbed Entity="MobDwarf" Caption="Дворф"/>
   <GuideEntityEmbed Entity="MobHuman" Caption="Человек"/>
-  <GuideEntityEmbed Entity="MobOrc" Caption="Орк"/>
   </Box>
   <Box>
   <GuideEntityEmbed Entity="MobMoth" Caption="Ниан"/>
   <GuideEntityEmbed Entity="MobReptilian" Caption="Унатх"/>
-  <GuideEntityEmbed Entity="MobVulpkanin" Caption="Вульпканин"/>
+  <GuideEntityEmbed Entity="MobVulpkaninPerson" Caption="Вульпканин"/>
   <GuideEntityEmbed Entity="MobSlimePerson" Caption="Слаймолюд"/>
+  </Box>
+  <Box>
+  <GuideEntityEmbed Entity="MobDemon" Caption="Тифлинг"/>
+  <GuideEntityEmbed Entity="MobFelinid" Caption="Фелинид"/>
+  <GuideEntityEmbed Entity="MobKatunian" Caption="Катунианец"/>
+  <GuideEntityEmbed Entity="MobTajaran" Caption="Таяран"/>
   </Box>
 
 </Document>
