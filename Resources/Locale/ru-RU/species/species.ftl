@@ -13,3 +13,4 @@ species-name-skeleton = Скелет
 species-name-vox = Вокс
 species-name-tajaran = Таяран
 species-name-demon = Тифлинг
+species-name-felinid = Фелинид
