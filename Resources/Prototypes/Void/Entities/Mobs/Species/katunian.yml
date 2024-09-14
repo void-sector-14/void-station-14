@@ -22,7 +22,7 @@
       Unsexed: FemaleHuman
   - type: Damageable
     damageContainer: Biological
-    damageModifierSet: Scale
+    damageModifierSet: Katunian
   - type: MeleeWeapon
     hidden: true
     soundHit:

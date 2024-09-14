@@ -15,3 +15,10 @@
     Heat: 0.9
     Poison: 0.8
     Radiation: 1.2
+
+- type: damageModifierSet
+  id: Katunian
+  coefficients:
+    Cold: 0.75
+    Caustic: 1.1
+    Poison: 1.25
