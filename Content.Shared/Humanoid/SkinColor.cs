@@ -19,6 +19,7 @@ public static class SkinColor
 
     public static Color ValidHumanSkinTone => Color.FromHsv(new Vector4(0.07f, 0.2f, 1f, 1f));
 
+    public static Color ValidKatunianSkinTone => Color.FromHsv(new Vector4(0.0f, 0.0f, 0.98f, 1f));
     /// <summary>
     ///     Turn a color into a valid tinted hue skin tone.
     /// </summary>
@@ -138,6 +139,32 @@ public static class SkinColor
         return true;
     }
 
+    public static bool VerifyKatunianSkinTone(Color color)
+    {
+        var colorValues = Color.ToHsv(color);
+
+        var hue = Math.Round(colorValues.X * 360f);
+        var sat = Math.Round(colorValues.Y * 100f);
+        var val = Math.Round(colorValues.Z * 100f);
+
+        // Nonspecific hue for grayscale shades (allow any hue)
+        // Saturation should be low for gray shades (0 <= sat <= 20)
+        if (sat > 20)
+        {
+            return false;
+        }
+
+        // Value determines lightness (dark gray to white)
+        // 20 <= val <= 100 represents from dark gray to white
+        if (val < 20 || val > 100)
+        {
+            return false;
+        }
+
+        return true;
+    }
+
+
     /// <summary>
     ///     Convert a color to the 'tinted hues' skin tone type.
     /// </summary>
@@ -246,6 +273,7 @@ public static class SkinColor
             HumanoidSkinColor.HumanToned => VerifyHumanSkinTone(color),
             HumanoidSkinColor.TintedHues => VerifyTintedHues(color),
             HumanoidSkinColor.Hues => VerifyHues(color),
+            HumanoidSkinColor.KatunianToned => VerifyKatunianSkinTone(color),
             HumanoidSkinColor.VoxFeathers => VerifyVoxFeathers(color),
             _ => false,
         };
@@ -258,6 +286,7 @@ public static class SkinColor
             HumanoidSkinColor.HumanToned => ValidHumanSkinTone,
             HumanoidSkinColor.TintedHues => ValidTintedHuesSkinTone(color),
             HumanoidSkinColor.Hues => MakeHueValid(color),
+            HumanoidSkinColor.KatunianToned => ValidKatunianSkinTone,
             HumanoidSkinColor.VoxFeathers => ClosestVoxColor(color),
             _ => color
         };

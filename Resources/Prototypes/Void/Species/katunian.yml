@@ -1,16 +1,15 @@
 - type: species
-  id: Katunian #1
-  name: species-name-katunian #1
+  id: Katunian
+  name: species-name-katunian
   roundStart: true
-  prototype: MobKatunian #1
-  sprites: MobKatunianSprites  #1
-  defaultSkinTone: "#fafafa" #1
-  markingLimits: MobKatunianMarkingLimits #1
-  dollPrototype: MobKatunianDummy #1
+  prototype: MobKatunian
+  sprites: MobKatunianSprites
+  markingLimits: MobKatunianMarkingLimits
+  dollPrototype: MobKatunianDummy
   skinColoration: KatunianToned
 
 - type: speciesBaseSprites
-  id: MobKatunianSprites #1
+  id: MobKatunianSprites
   sprites:
     Head: MobKatunianHead
     Hair: MobHumanoidAnyMarking
