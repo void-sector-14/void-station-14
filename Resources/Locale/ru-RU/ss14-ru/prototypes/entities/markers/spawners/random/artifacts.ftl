@@ -1,4 +1,6 @@
-ent-RandomArtifactSpawner = спавнер случайного артефакта
+ent-RandomArtifactSpawner = случайный артефакт
     .desc = { ent-MarkerBase.desc }
-ent-RandomArtifactSpawner20 = спавнер случайного артефакта [20]
+    .suffix = Спавнер
+ent-RandomArtifactSpawner20 = случайный артефакт [20]
     .desc = { ent-RandomArtifactSpawner.desc }
+    .suffix = { ent-RandomArtifactSpawner.suffix }

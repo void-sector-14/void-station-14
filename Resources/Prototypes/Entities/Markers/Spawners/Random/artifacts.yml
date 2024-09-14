@@ -1,6 +1,7 @@
 - type: entity
   id: RandomArtifactSpawner
   name: random artifact spawner
+  suffix: Spawner
   parent: MarkerBase
   components:
     - type: Sprite
