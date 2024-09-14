@@ -51000,8 +51000,6 @@ entities:
       parent: 1
     - type: NavMapBeacon
       text: Двигатель четвертый
-    - type: WarpPoint
-      location: Двигатель четвертый
   - uid: 7826
     components:
     - type: Transform
@@ -51010,8 +51008,6 @@ entities:
     - type: NavMapBeacon
       color: '#008C0093'
       text: Отдых
-    - type: WarpPoint
-      location: Отдых
   - uid: 7827
     components:
     - type: Transform
@@ -51020,8 +51016,6 @@ entities:
     - type: NavMapBeacon
       color: '#3232FF93'
       text: Левая Батарейная Палуба
-    - type: WarpPoint
-      location: Левая Батарейная Палуба
   - uid: 7828
     components:
     - type: Transform
@@ -51029,8 +51023,6 @@ entities:
       parent: 1
     - type: NavMapBeacon
       text: Второй двигатель
-    - type: WarpPoint
-      location: Второй двигатель
   - uid: 7829
     components:
     - type: Transform
@@ -51039,8 +51031,6 @@ entities:
     - type: NavMapBeacon
       color: '#3296FF93'
       text: Каюты ОБР
-    - type: WarpPoint
-      location: Каюты ОБР
   - uid: 7830
     components:
     - type: Transform
@@ -51048,8 +51038,6 @@ entities:
       parent: 1
     - type: NavMapBeacon
       text: Капсулы
-    - type: WarpPoint
-      location: Капсулы
   - uid: 7831
     components:
     - type: Transform
@@ -51058,8 +51046,6 @@ entities:
     - type: NavMapBeacon
       color: '#FFAD0093'
       text: Реактор
-    - type: WarpPoint
-      location: Реактор
   - uid: 7832
     components:
     - type: Transform
@@ -51067,8 +51053,6 @@ entities:
       parent: 1
     - type: NavMapBeacon
       text: Ангар
-    - type: WarpPoint
-      location: Ангар
   - uid: 7833
     components:
     - type: Transform
@@ -51076,8 +51060,6 @@ entities:
       parent: 1
     - type: NavMapBeacon
       text: Двигатель третий
-    - type: WarpPoint
-      location: Двигатель третий
   - uid: 7834
     components:
     - type: Transform
@@ -51085,8 +51067,6 @@ entities:
       parent: 1
     - type: NavMapBeacon
       text: Двигатель первый
-    - type: WarpPoint
-      location: Двигатель первый
   - uid: 7835
     components:
     - type: Transform
@@ -51095,8 +51075,6 @@ entities:
     - type: NavMapBeacon
       color: '#3232FF93'
       text: Каюты Флота
-    - type: WarpPoint
-      location: Каюты Флота
   - uid: 7836
     components:
     - type: Transform
@@ -51105,8 +51083,6 @@ entities:
     - type: NavMapBeacon
       color: '#FFFFFF93'
       text: Видеонаблюдение
-    - type: WarpPoint
-      location: Видеонаблюдение
   - uid: 7837
     components:
     - type: Transform
@@ -51115,8 +51091,6 @@ entities:
     - type: NavMapBeacon
       color: '#FF000093'
       text: Боекомплект Альфа
-    - type: WarpPoint
-      location: Боекомплект Альфа
   - uid: 7838
     components:
     - type: Transform
@@ -51125,8 +51099,6 @@ entities:
     - type: NavMapBeacon
       color: '#3232FF93'
       text: Правая Батарейная Палуба
-    - type: WarpPoint
-      location: Правая Батарейная Палуба
   - uid: 7839
     components:
     - type: Transform
@@ -51135,8 +51107,6 @@ entities:
     - type: NavMapBeacon
       color: '#3232FF93'
       text: Каюты Флота
-    - type: WarpPoint
-      location: Каюты Флота
   - uid: 7840
     components:
     - type: Transform
@@ -51145,8 +51115,6 @@ entities:
     - type: NavMapBeacon
       color: '#FF000093'
       text: Боекомплект Браво
-    - type: WarpPoint
-      location: Боекомплект Браво
   - uid: 7841
     components:
     - type: Transform
@@ -51155,8 +51123,6 @@ entities:
     - type: NavMapBeacon
       color: '#32963293'
       text: Штаб
-    - type: WarpPoint
-      location: Штаб
   - uid: 7842
     components:
     - type: Transform
@@ -51165,8 +51131,6 @@ entities:
     - type: NavMapBeacon
       color: '#00960093'
       text: Общий кафетерий
-    - type: WarpPoint
-      location: Общий кафетерий
   - uid: 7843
     components:
     - type: Transform
@@ -51175,8 +51139,6 @@ entities:
     - type: NavMapBeacon
       color: '#2FA7FF93'
       text: Отсек СЖО
-    - type: WarpPoint
-      location: Отсек СЖО
 - proto: DefaultStationBeaconArmory
   entities:
   - uid: 7844
@@ -82937,7 +82899,7 @@ entities:
       content: >2-
 
 
-         - Мы не ходим в двигательный отсек. 
+         - Мы не ходим в двигательный отсек.
 
 
 
@@ -83071,7 +83033,7 @@ entities:
       parent: 1
     - type: Paper
       content: >-
-        Для Уильяма: 
+        Для Уильяма:
 
 
 
@@ -83079,7 +83041,7 @@ entities:
         ИСТОЧНИК - [ВВ КАБЕЛЬ] - СМЭС - [ВВ КАБЕЛЬ] - ПОДСТАНЦИЯ - [СВ КАБЕЛЬ] - ЛКП - [НВ КАБЕЛЬ] - ПОТРЕБИТЕЛЬ
 
 
-        Выучи уже, пожалуйста. Я не знаю каким хреном ты припаял ВВ кабель к консоли, но она при включении взорвалась. Пожалуйста, не делай так больше. 
+        Выучи уже, пожалуйста. Я не знаю каким хреном ты припаял ВВ кабель к консоли, но она при включении взорвалась. Пожалуйста, не делай так больше.
 
 
         От твоего не любимого инструктора Джессики.
@@ -83110,7 +83072,7 @@ entities:
       parent: 1
     - type: Paper
       content: >
-        ЛИЧНОЕ МЕСТО РЭНДИ АЛЛЕНА 
+        ЛИЧНОЕ МЕСТО РЭНДИ АЛЛЕНА
 
 
         Алан, если ты еще раз украдешь у меня еду - я расшибу тебе лоб об стекло мостика. Без негатива.
@@ -83379,7 +83341,7 @@ entities:
       content: >-
         - Тут содержится страшное и ужасное существо которое поглощает вашу душу если вы на него посмотрите, а оно большое. Не хотите умереть в муках? Не ходите сюда!
 
-         - Так же не преследуйте странные фигуры в пижамах во время отбоя! 
+         - Так же не преследуйте странные фигуры в пижамах во время отбоя!
 
                                               [italic]- Крон-Комиссар[/italic]
   - uid: 12399
