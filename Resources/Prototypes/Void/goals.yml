@@ -33,3 +33,11 @@
 - type: stationGoal
   id: Botany
   text: station-goal-botany
+
+- type: stationGoal
+  id: Retranslator
+  text: station-goal-retranslator
+
+- type: stationGoal
+  id: ShuttlePatrol
+  text: station-goal-shuttle-patrol
