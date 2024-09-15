@@ -29,13 +29,13 @@
   - type: Item
     size: Tiny
   - type: Sprite
-    sprite: Void/Malanisa_sprites/Advanced_instruments/portableplayer.rsi 
+    sprite: Void/Malanisa_sprites/Advanced_instruments/portableplayer.rsi
     layers:
     - state: player-base
     - state: player-display
       shader: unshaded
       visible: false
-      map: [ "enum.PowerDeviceVisualLayers.Powered" ]     
+      map: [ "enum.PowerDeviceVisualLayers.Powered" ]
   - type: Appearance
   - type: Instrument
     allowPercussion: true
@@ -66,7 +66,7 @@
   - type: ItemSlots
     slots:
       cell_slot:
-        name: power-cell-slot-component-slot-name-default    
+        name: power-cell-slot-component-slot-name-default
 
 
 - type: entity
@@ -99,14 +99,14 @@
     sprite: Void/Malanisa_sprites/Advanced_instruments/advanced_bassguitar.rsi
   - type: Tag
     tags:
-    - StringInstrument    
+    - StringInstrument
 
 - type: entity
   parent: BaseHandheldInstrument
   id: AdvancedRockGuitarInstrument
   name: улучшенная рок-гитара
   suffix: Void Sector
-  description: Нанесите больше драйва с цифровыми ударными инструментами, и больше боли за счет тяжелого металлического корпуса. 
+  description: Нанесите больше драйва с цифровыми ударными инструментами, и больше боли за счет тяжелого металлического корпуса.
   components:
   - type: Instrument
     program: 29
@@ -142,7 +142,7 @@
     damage:
       types:
         Blunt: 4
-        Slash: 2    
+        Slash: 2
 
 - type: entity
   parent: BaseHandheldInstrument
@@ -173,4 +173,4 @@
     sprite: Void/Malanisa_sprites/Advanced_instruments/advanced_eguitar.rsi
   - type: Tag
     tags:
-    - StringInstrument        
+    - StringInstrument
