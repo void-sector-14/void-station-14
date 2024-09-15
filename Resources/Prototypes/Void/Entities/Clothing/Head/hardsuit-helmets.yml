@@ -32,4 +32,4 @@
   - type: Clothing
     sprite: Void/Clothing/Head/Hardsuits/blueshield.rsi
   - type: PointLight
-    color: blue
+    color: cyan
