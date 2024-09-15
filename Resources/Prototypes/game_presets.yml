@@ -16,7 +16,7 @@
   description: all-at-once-description
   showInVote: true
   rules:
-    - Nukeops
+    # - Nukeops
     - Traitor
     - Revolutionary
     - Zombie

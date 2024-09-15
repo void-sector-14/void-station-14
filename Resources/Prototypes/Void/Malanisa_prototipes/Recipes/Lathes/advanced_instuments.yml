@@ -1,0 +1,35 @@
+- type: latheRecipe
+  id: PockedPlayerEmpty
+  result: PockedPlayerEmpty
+  completetime: 4
+  materials:
+    Steel: 300
+    Plastic: 300
+    Glass: 100
+
+- type: latheRecipe
+  id: AdvancedBassGuitarInstrument
+  result: AdvancedBassGuitarInstrument
+  completetime: 4
+  materials:
+    Steel: 300
+    Plastic: 300
+    Glass: 100    
+
+- type: latheRecipe
+  id: AdvancedRockGuitarInstrument
+  result: AdvancedRockGuitarInstrument
+  completetime: 4
+  materials:
+    Steel: 300
+    Plastic: 300
+    Glass: 100
+
+- type: latheRecipe
+  id: AdvancedElectricGuitarInstrument
+  result: AdvancedElectricGuitarInstrument
+  completetime: 4
+  materials:
+    Steel: 300
+    Plastic: 300
+    Glass: 100        

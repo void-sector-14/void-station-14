@@ -7,9 +7,11 @@
       - Shuttle
       - ShuttleRescue
       - Tesla
-      - SolarPanels
+      # - SolarPanels
       - Artifacts
       - Bar
-      - Cyborgs
+      # - Cyborgs
       - Containment
       - Botany
+      - Retranslator
+      - ShuttlePatrol

@@ -64,6 +64,10 @@
   tier: 1
   cost: 7500
   recipeUnlocks:
+    - AdvancedRockGuitarInstrument #Для рецепта продвинутых инструментов by Malanisa Нет возможности вынести в отдельную папку     
+    - AdvancedBassGuitarInstrument #Для рецепта продвинутых инструментов by Malanisa Нет возможности вынести в отдельную папку      
+    - AdvancedElectricGuitarInstrument #Для рецепта продвинутых инструментов by Malanisa Нет возможности вынести в отдельную папку  
+    - PockedPlayerEmpty #Для рецепта продвинутых инструментов by Malanisa. Нет возможности вынести в отдельную папку 
     - ComputerTelevisionCircuitboard
     - SynthesizerInstrument
     - BorgModuleMusique

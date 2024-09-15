@@ -1,17 +1,24 @@
 - type: damageModifierSet
   id: Felinid
   coefficients:
-    Blunt: 1.0
-    Piercing: 1.15
-    Slash: 1.30
+    Slash: 1.3
     Cold: 1.5
-    Heat: 2.0
+    Heat: 1.2
     Poison: 1.1
+    Cellular: 0.9
+    Radiation: 0.8
 
 - type: damageModifierSet
   id: Demon
   coefficients:
-    Cold: 1.5
+    Cold: 1.1
     Heat: 0.9
-    Poison: 0.9
+    Poison: 0.8
     Radiation: 1.2
+
+- type: damageModifierSet
+  id: Katunian
+  coefficients:
+    Cold: 0.75
+    Caustic: 1.1
+    Poison: 1.25

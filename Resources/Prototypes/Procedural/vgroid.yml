@@ -14,8 +14,8 @@
       proto: VGRoidBlob
     - !type:PrototypeDunGen
       proto: VGRoidExterior
-    - !type:PrototypeDunGen
-      proto: VGRoidSmaller
+    # - !type:PrototypeDunGen
+    #   proto: VGRoidSmaller
     - !type:PrototypeDunGen
       proto: VGRoidSmallPaths
     # Fill
@@ -102,24 +102,24 @@
         lacunarity: 2
         gain: 0.5
 
-- type: dungeonConfig
-  id: VGRoidSmaller
-  minOffset: 40
-  maxOffset: 60
-  layers:
-  - !type:NoiseDistanceDunGen
-    size: 150, 150
-    distanceConfig: !type:DunGenEuclideanSquaredDistance
-    layers:
-    - tile: FloorAsteroidSand
-      threshold: 0.50
-      noise:
-        frequency: 0.080
-        noiseType: OpenSimplex2
-        fractalType: FBm
-        octaves: 5
-        lacunarity: 1.5
-        gain: 0.5
+# - type: dungeonConfig
+#   id: VGRoidSmaller
+#   minOffset: 40
+#   maxOffset: 60
+#   layers:
+#   - !type:NoiseDistanceDunGen
+#     size: 150, 150
+#     distanceConfig: !type:DunGenEuclideanSquaredDistance
+#     layers:
+#     - tile: FloorAsteroidSand
+#       threshold: 0.50
+#       noise:
+#         frequency: 0.080
+#         noiseType: OpenSimplex2
+#         fractalType: FBm
+#         octaves: 5
+#         lacunarity: 1.5
+#         gain: 0.5
 
 - type: dungeonConfig
   id: VGRoidExterior

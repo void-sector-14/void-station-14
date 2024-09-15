@@ -1,6 +1,6 @@
 - type: species
   id: Felinid
-  name: Фелинид
+  name: species-name-felinid
   roundStart: true
   prototype: MobFelinid
   sprites: MobHumanSprites
@@ -10,23 +10,6 @@
   youngAge: 20
   oldAge: 40
   maxAge: 40
-  blockedJobs:
-    - Captain
-    - BlueShield
-    - HeadOfPersonnel
-    - Quartermaster
-    - ChiefEngineer
-    - Chemist
-    - ChiefMedicalOfficer
-    - Paramedic
-    - ResearchDirector
-    - Brigmedic
-    - Detective
-    - HeadOfSecurity
-    - SecurityCadet
-    - SecurityOfficer
-    - Warden
-    - Boxer
 - type: markingPoints
   id: MobFelinidMarkingLimits
   points:
