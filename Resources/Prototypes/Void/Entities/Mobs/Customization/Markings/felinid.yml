@@ -1,5 +1,5 @@
 - type: marking
-  id: FelinidEears [2]
+  id: FelinidEears2
   bodyPart: HeadTop
   markingCategory: HeadTop
   speciesRestriction: [Felinid]
@@ -22,7 +22,7 @@
     state: ears_pirsing_inner
 
 - type: marking
-  id: FelinidEears [3]
+  id: FelinidEears3
   bodyPart: HeadTop
   markingCategory: HeadTop
   speciesRestriction: [Felinid]
@@ -45,7 +45,7 @@
     state: ears_big_inner
 
 - type: marking
-  id: FelinidEears [4]
+  id: FelinidEears4
   bodyPart: HeadTop
   markingCategory: HeadTop
   speciesRestriction: [Felinid]
@@ -68,7 +68,7 @@
     state: ears_nyshka_inner
 
 - type: marking
-  id: FelinidEears [5]
+  id: FelinidEears5
   bodyPart: HeadTop
   markingCategory: HeadTop
   speciesRestriction: [Felinid]
@@ -116,7 +116,7 @@
 # Felinid Tails
 
 - type: marking
-  id: FelinidTails [6]
+  id: FelinidTails6
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [Felinid]
@@ -141,7 +141,7 @@
     state: felinid_tail_D
 
 - type: marking
-  id: FelinidTails [5]
+  id: FelinidTails5
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [Felinid]
@@ -168,7 +168,7 @@
     state: felinid_tail_C
 
 - type: marking
-  id: FelinidTails [4]
+  id: FelinidTails4
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [Felinid]
@@ -195,7 +195,7 @@
     state: felinid_tail_B
 
 - type: marking
-  id: FelinidTails [3]
+  id: FelinidTails3
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [Felinid]
@@ -224,7 +224,7 @@
     state: felinid_tail_B
 
 - type: marking
-  id: FelinidTails [2]
+  id: FelinidTails2
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [Felinid]
@@ -247,7 +247,7 @@
     state: felinid_tail
 
 - type: marking
-  id: FelinidTails
+  id: FelinidTails1
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [Felinid]
