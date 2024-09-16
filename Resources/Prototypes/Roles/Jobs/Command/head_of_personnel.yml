@@ -18,7 +18,7 @@
       time: 36000 # 10 hours
     - !type:AgeRequirement
       requiredAge: 21
-  weight: 20
+  weight: 25
   startingGear: HoPGear
   icon: "JobIconHeadOfPersonnel"
   requireAdminNotify: true
