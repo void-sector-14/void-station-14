@@ -4544,7 +4544,13 @@ entities:
     components:
     - type: Transform
       pos: -8.5,-42.5
-      parent: 2
+      parent: 31
+  - uid: 10766
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 31.5,-16.5
+      parent: 31
 - proto: AirlockExternalGlassShuttleLocked
   entities:
   - uid: 128
@@ -5765,65 +5771,78 @@ entities:
     components:
     - type: Transform
       pos: 5.5,-32.5
-      parent: 2
-- proto: AtmosDeviceFanTiny
+      parent: 31
+- proto: AtmosDeviceFanDirectional
   entities:
-  - uid: 329
+  - uid: 950
     components:
     - type: Transform
+      rot: -1.5707963267948966 rad
       pos: -14.5,-4.5
-      parent: 2
-  - uid: 330
+      parent: 31
+  - uid: 5157
     components:
     - type: Transform
+      rot: -1.5707963267948966 rad
       pos: -44.5,0.5
-      parent: 2
-  - uid: 331
+      parent: 31
+  - uid: 6694
     components:
     - type: Transform
+      rot: -1.5707963267948966 rad
       pos: -44.5,2.5
-      parent: 2
-  - uid: 332
+      parent: 31
+  - uid: 7138
     components:
     - type: Transform
+      rot: -1.5707963267948966 rad
       pos: -44.5,8.5
-      parent: 2
-  - uid: 333
+      parent: 31
+  - uid: 7346
     components:
     - type: Transform
+      rot: -1.5707963267948966 rad
       pos: -44.5,10.5
-      parent: 2
-  - uid: 334
+      parent: 31
+  - uid: 7566
     components:
     - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 20.5,28.5
+      parent: 31
+  - uid: 7567
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
       pos: 22.5,28.5
       parent: 2
   - uid: 335
     components:
     - type: Transform
-      pos: 20.5,28.5
-      parent: 2
-  - uid: 336
-    components:
-    - type: Transform
+      rot: 3.141592653589793 rad
       pos: -12.5,-2.5
-      parent: 2
-  - uid: 337
+      parent: 31
+  - uid: 9923
     components:
     - type: Transform
-      rot: 1.5707963267948966 rad
       pos: -8.5,-42.5
-      parent: 2
-  - uid: 338
-    components:
-    - type: Transform
-      pos: -44.5,-12.5
-      parent: 2
-  - uid: 339
+      parent: 31
+  - uid: 10583
     components:
     - type: Transform
       pos: -51.5,-12.5
-      parent: 2
+      parent: 31
+  - uid: 10765
+    components:
+    - type: Transform
+      pos: -44.5,-12.5
+      parent: 31
+  - uid: 11466
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 31.5,-16.5
+      parent: 31
 - proto: AtmosFixBlockerMarker
   entities:
   - uid: 340
@@ -40723,6 +40742,20 @@ entities:
       parent: 31
     - type: NavMapBeacon
       text: Tesla Storage
+- proto: DefaultStationBeaconEscapePod
+  entities:
+  - uid: 11467
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 31.5,-17.5
+      parent: 31
+  - uid: 11468
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: -8.5,-41.5
+      parent: 31
 - proto: DefaultStationBeaconEVAStorage
   entities:
   - uid: 4676
@@ -71345,14 +71378,7 @@ entities:
     components:
     - type: Transform
       pos: 7.2571726,18.545927
-      parent: 2
-- proto: MaterialReclaimer
-  entities:
-  - uid: 7788
-    components:
-    - type: Transform
-      pos: -32.5,-17.5
-      parent: 2
+      parent: 31
 - proto: MaterialWoodPlank1
   entities:
   - uid: 7789
@@ -79577,6 +79603,156 @@ entities:
       parent: 2
 - proto: SignBar
   entities:
+  - uid: 5110
+    components:
+    - type: Transform
+      pos: 1.5,2.5
+      parent: 31
+- proto: SignBiohazardMed
+  entities:
+  - uid: 8895
+    components:
+    - type: Transform
+      pos: 16.5,-12.5
+      parent: 31
+- proto: SignBridge
+  entities:
+  - uid: 142
+    components:
+    - type: Transform
+      pos: 5.5,22.5
+      parent: 31
+- proto: SignCargo
+  entities:
+  - uid: 4299
+    components:
+    - type: Transform
+      pos: 12.5,8.5
+      parent: 31
+- proto: SignCargoDock
+  entities:
+  - uid: 5150
+    components:
+    - type: Transform
+      pos: 21.5,28.5
+      parent: 31
+- proto: SignChapel
+  entities:
+  - uid: 7694
+    components:
+    - type: Transform
+      pos: -38.5,11.5
+      parent: 31
+- proto: SignChem
+  entities:
+  - uid: 4889
+    components:
+    - type: Transform
+      pos: 18.5,-3.5
+      parent: 31
+  - uid: 7291
+    components:
+    - type: Transform
+      pos: 14.5,2.5
+      parent: 31
+- proto: SignCloning
+  entities:
+  - uid: 4133
+    components:
+    - type: Transform
+      pos: 10.5,-12.5
+      parent: 31
+- proto: SignConference
+  entities:
+  - uid: 1524
+    components:
+    - type: Transform
+      pos: 1.5,26.5
+      parent: 31
+  - uid: 8704
+    components:
+    - type: Transform
+      pos: -33.5,-25.5
+      parent: 31
+- proto: SignCryogenicsMed
+  entities:
+  - uid: 10992
+    components:
+    - type: Transform
+      pos: 8.5,-12.5
+      parent: 31
+- proto: SignDangerMed
+  entities:
+  - uid: 4640
+    components:
+    - type: Transform
+      pos: 58.5,5.5
+      parent: 31
+  - uid: 4797
+    components:
+    - type: Transform
+      pos: 71.5,11.5
+      parent: 31
+  - uid: 9548
+    components:
+    - type: Transform
+      pos: 71.5,-6.5
+      parent: 31
+  - uid: 9549
+    components:
+    - type: Transform
+      pos: 80.5,2.5
+      parent: 31
+  - uid: 11379
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 55.5,9.5
+      parent: 31
+- proto: SignDirectionalBridge
+  entities:
+  - uid: 157
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: -21.482899,6.2720566
+      parent: 31
+  - uid: 1766
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 1.5,6.5
+      parent: 31
+  - uid: 7492
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 5.493867,-12.264781
+      parent: 31
+- proto: SignDirectionalChapel
+  entities:
+  - uid: 8239
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: -34.5,11.5
+      parent: 31
+  - uid: 8917
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -26.499413,2.2858148
+      parent: 31
+- proto: SignDirectionalCryo
+  entities:
+  - uid: 9326
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -38.5,-2.5
+      parent: 31
+- proto: SignDirectionalDorms
+  entities:
   - uid: 8915
     components:
     - type: Transform
@@ -79862,14 +80038,7 @@ entities:
     - type: Transform
       rot: 1.5707963267948966 rad
       pos: -26.497889,6.2645836
-      parent: 2
-- proto: SignDrones
-  entities:
-  - uid: 8958
-    components:
-    - type: Transform
-      pos: 26.5,2.5
-      parent: 2
+      parent: 31
 - proto: SignElectrical
   entities:
   - uid: 8959
@@ -79918,8 +80087,8 @@ entities:
     components:
     - type: Transform
       pos: 50.5,-1.5
-      parent: 2
-- proto: SignHydro2
+      parent: 31
+- proto: SignHydro1
   entities:
   - uid: 8966
     components:
@@ -79961,22 +80130,21 @@ entities:
     components:
     - type: Transform
       pos: 32.5,23.5
-      parent: 2
+      parent: 31
+- proto: SignMaterials
+  entities:
+  - uid: 7224
+    components:
+    - type: Transform
+      pos: 26.5,2.5
+      parent: 31
 - proto: SignMedical
   entities:
   - uid: 8972
     components:
     - type: Transform
       pos: 5.5,2.5
-      parent: 2
-- proto: SignMinerDock
-  entities:
-  - uid: 8973
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 34.5,38.5
-      parent: 2
+      parent: 31
 - proto: SignMorgue
   entities:
   - uid: 8974
@@ -80068,7 +80236,15 @@ entities:
     components:
     - type: Transform
       pos: 54.5,-10.5
-      parent: 2
+      parent: 31
+- proto: SignShipDock
+  entities:
+  - uid: 9941
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 34.5,38.5
+      parent: 31
 - proto: SignSomethingOld2
   entities:
   - uid: 8990
@@ -85490,13 +85666,8 @@ entities:
     components:
     - type: Transform
       pos: 53.5,-12.5
-      parent: 2
-  - uid: 9754
-    components:
-    - type: Transform
-      pos: 31.5,-16.5
-      parent: 2
-  - uid: 9755
+      parent: 31
+  - uid: 951
     components:
     - type: Transform
       pos: 28.5,-16.5

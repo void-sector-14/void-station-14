@@ -283,8 +283,6 @@
         color: "#535353"
   - type: Clothing
     sprite: Clothing/Hands/Gloves/Color/black.rsi
-  - type: GloveHeatResistance
-    heatResistance: 1400
   - type: Butcherable
     butcheringType: Knife
     spawned:
@@ -305,8 +303,6 @@
     sprite: Clothing/Hands/Gloves/Color/yellow.rsi
   - type: Clothing
     sprite: Clothing/Hands/Gloves/Color/yellow.rsi
-  - type: GloveHeatResistance
-    heatResistance: 1400
   - type: Butcherable
     butcheringType: Knife
     spawned:

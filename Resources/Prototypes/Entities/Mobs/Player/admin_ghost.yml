@@ -2,7 +2,7 @@
   parent: [MobObserver, InventoryBase]
   id: AdminObserver
   name: admin observer
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: ContentEye
     maxZoom: 8.916104, 8.916104
@@ -76,6 +76,7 @@
   - type: DeviceNetwork
     deviceNetId: Wireless
     receiveFrequencyId: CrewMonitor
+    transmitFrequencyId: ShuttleTimer
   - type: WirelessNetworkConnection
     range: 500
   - type: StationLimitedNetwork
@@ -155,7 +156,7 @@
 - type: entity
   id: ActionAGhostShowStationRecords
   name: Station Records Interface
-  description: View a station records Interface
+  description: View a station records Interface.
   components:
   - type: InstantAction
     icon: Void/Interface/admin_actions.rsi/records.png
