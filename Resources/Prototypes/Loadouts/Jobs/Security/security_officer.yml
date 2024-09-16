@@ -50,15 +50,15 @@
   equipment:
     jumpsuit: ClothingUniformJumpskirtSec
 
-- type: loadout
-  id: SecurityJumpsuitGrey
-  equipment:
-    jumpsuit: ClothingUniformJumpsuitSecGrey
+# - type: loadout
+#   id: SecurityJumpsuitGrey
+#   equipment:
+#     jumpsuit: ClothingUniformJumpsuitSecGrey
 
-- type: loadout
-  id: SecurityJumpskirtGrey
-  equipment:
-    jumpsuit: ClothingUniformJumpskirtSecGrey
+# - type: loadout
+#   id: SecurityJumpskirtGrey
+#   equipment:
+#     jumpsuit: ClothingUniformJumpskirtSecGrey
 
 - type: loadout
   id: SeniorOfficerJumpsuit

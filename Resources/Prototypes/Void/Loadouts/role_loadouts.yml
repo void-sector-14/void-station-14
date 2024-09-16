@@ -18,7 +18,7 @@
   groups:
   - LawyerNeck
   - LawyerJumpsuit
-  - IAABackpack
+  - CommonBackpack
   - Trinkets
 
 - type: roleLoadout
@@ -26,5 +26,5 @@
   groups:
   - LawyerNeck
   - LawyerJumpsuit
-  - MagistrateBackpack
+  - CommonBackpack
   - Trinkets

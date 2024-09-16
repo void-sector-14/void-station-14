@@ -1,26 +1,15 @@
+# Back
 - type: loadout
   id: BlueshieldBackpack
-  equipment: BlueshieldBackpack
-
-- type: startingGear
-  id: BlueshieldBackpack
   equipment:
-    back: ClothingBackpackBlueshieldFilled
+    back: ClothingBackpackBlueshield
 
 - type: loadout
   id: BlueshieldSatchel
-  equipment: BlueshieldSatchel
-
-- type: startingGear
-  id: BlueshieldSatchel
   equipment:
-    back: ClothingBackpackSatchelBlueshieldFilled
+    back: ClothingBackpackSatchelBlueshield
 
 - type: loadout
   id: BlueshieldDuffel
-  equipment: BlueshieldDuffel
-
-- type: startingGear
-  id: BlueshieldDuffel
   equipment:
-    back: ClothingBackpackDuffelBlueshieldFilled
+    back: ClothingBackpackDuffelBlueshield

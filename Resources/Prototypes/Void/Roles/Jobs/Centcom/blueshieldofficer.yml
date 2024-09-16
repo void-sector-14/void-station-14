@@ -39,3 +39,7 @@
     pocket1: WeaponEnergyGunBlueShield
     pocket2: HandheldCrewMonitor
     belt: ClothingBeltSecurityFilled
+  storage:
+    back:
+    - BoxSurvivalSecurity
+    - Flash
