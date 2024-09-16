@@ -117,7 +117,6 @@ barsign-prototype-description-emprah = Нравится и фанатикам, �
 
 ## EmpBarSign
 
-
 barsign-prototype-description-empbarsign = Что-то пошло совсем не так.
 
 ## SignOff
