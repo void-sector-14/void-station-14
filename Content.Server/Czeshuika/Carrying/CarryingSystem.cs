@@ -252,23 +252,43 @@ public sealed class CarryingSystem : EntitySystem
         if (TryComp<PullableComponent>(carried, out var pullable))
             _pullingSystem.TryStopPull(carried, pullable);
 
-        Transform(carrier).AttachToGridOrMap();
-        Transform(carried).AttachToGridOrMap();
-        Transform(carried).Coordinates = Transform(carrier).Coordinates;
-        Transform(carried).AttachParent(Transform(carrier));
+        // Получаем TransformComponent сущностей
+        var carrierTransform = Transform(carrier);
+        var carriedTransform = Transform(carried);
+
+        // Закрепляем на сетке или карте
+        carrierTransform.AttachToGridOrMap();
+        carriedTransform.AttachToGridOrMap();
+
+        // Координаты перемещаемого объекта соответствуют координатам носителя
+        carriedTransform.Coordinates = carrierTransform.Coordinates;
+
+        // Устанавливаем родителя через EntityUid
+        carriedTransform.AttachParent(carrierTransform.Owner);
+
+        // Создаем виртуальные предметы в руках носителя
         _virtualItemSystem.TrySpawnVirtualItemInHand(carried, carrier);
         _virtualItemSystem.TrySpawnVirtualItemInHand(carried, carrier);
+
+        // Применяем компонент CarryingComponent к носителю
         var carryingComp = EnsureComp<CarryingComponent>(carrier);
+
+        // Применяем замедление, связанное с переносом
         ApplyCarrySlowdown(carrier, carried);
+
+        // Применяем необходимые компоненты к переносимому объекту
         var carriedComp = EnsureComp<BeingCarriedComponent>(carried);
         EnsureComp<KnockedDownComponent>(carried);
         EnsureComp<CanEscapeInventoryComponent>(carried);
 
+        // Обновляем информацию о переносимом объекте
         carryingComp.Carried = carried;
         carriedComp.Carrier = carrier;
 
+        // Обновляем возможность движения для переносимого объекта
         _actionBlockerSystem.UpdateCanMove(carried);
     }
+
 
     public void DropCarried(EntityUid carrier, EntityUid carried)
     {
