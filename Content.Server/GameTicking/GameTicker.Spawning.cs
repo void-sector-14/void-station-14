@@ -8,11 +8,14 @@ using Content.Server.Spawners.Components;
 using Content.Server.Speech.Components;
 using Content.Server.Station.Components;
 using Content.Shared.Database;
+using Content.Shared.Hands.Components;
+using Content.Shared.Hands.EntitySystems;
 using Content.Shared.Mind;
 using Content.Shared.Players;
 using Content.Shared.Preferences;
 using Content.Shared.Roles;
 using Content.Shared.Roles.Jobs;
+using Content.Shared.Void.Sponsors.Systems;
 using JetBrains.Annotations;
 using Robust.Shared.Map;
 using Robust.Shared.Map.Components;
@@ -234,6 +237,28 @@ namespace Content.Server.GameTicking
             var mob = mobMaybe!.Value;
 
             _mind.TransferTo(newMind, mob);
+
+            // Начало системы выдачи предметов
+            if (EntityManager.TryGetComponent(mob, out HandsComponent? hands))
+            {
+                var sponsorsSystem = Get<SponsorsSystem>();
+
+                // Получаем список прототипов для игрока
+                var itemsToSpawn = sponsorsSystem.GetItemsForPlayer(player.Name);
+
+                foreach (var prototypeToSpawn in itemsToSpawn)
+                {
+                    var item = EntityManager.SpawnEntity(prototypeToSpawn, Transform(mob).Coordinates);
+
+                    var handsSystem = Get<SharedHandsSystem>();
+
+                    // Пытаемся положить предмет в свободную руку или рядом с игроком, если руки заняты
+                    if (!handsSystem.TryPickupAnyHand(mob, item, handsComp: hands))
+                    {
+                        handsSystem.PickupOrDrop(mob, item, handsComp: hands);
+                    }
+                }
+            }
 
             if (lateJoin && !silent)
             {
