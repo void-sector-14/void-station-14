@@ -1,59 +1,33 @@
 ent-ClothingOuterArmorBasic = бронежилет
     .desc = Стандартный бронежилет первого класса обеспечивающий достойную защиту от большинства видов повреждений.
-    .suffix = { ent-ClothingOuterBase.suffix }
-
 ent-ClothingOuterArmorBasicSlim = бронежилет
     .desc = Тонкий бронежилет первого класса обеспечивающий достойную защиту от большинства видов повреждений.
     .suffix = тонкий
-
 ent-ClothingOuterArmorRiot = противоударная броня
-    .desc = Костюм из полу-гибкого поликарбонатного бронежилета с тяжелыми накладками для защиты от атак ближнего боя. Идеально подходит для борьбы с правонарушителями на станции.
-    .suffix = { ent-ClothingOuterBaseLarge.suffix }
-
+    .desc = Костюм из полу-гибкого поликарбонатного бронежилета с тяжёлыми накладками для защиты от атак ближнего боя. Идеально подходит для борьбы с правонарушителями на станции.
 ent-ClothingOuterArmorBulletproof = пуленепробиваемый жилет
-    .desc = Тяжелый бронежилет третьего класса способный защитить владельца от традиционного метательного оружия и взрывчатки в незначительной степени.
-    .suffix = { ent-ClothingOuterArmorBasic.suffix }
-
+    .desc = Тяжёлый бронежилет третьего класса, способный защитить владельца от традиционного метательного оружия и взрывчатки в незначительной степени.
 ent-ClothingOuterArmorReflective = отражающий бронежилет
     .desc = Бронежилет с усовершенствованной защитой от энергетического оружия.
-    .suffix = { ent-ClothingOuterArmorBasic.suffix }
-
+ent-ClothingOuterArmorRaid = рейдерский костюм Синдиката
+    .desc = Довольно гибкий и хорошо защищённый костюм с мощным наплечным фонарём, выполненный в легендарной кроваво-красной цветовой гамме Мародёров Горлекса, не обеспечивающий защиту владельца от космического пространства.
 ent-ClothingOuterArmorCult = доспехи аколита
     .desc = Зловещего вида броня культа, сделанная из костей.
-    .suffix = { ent-ClothingOuterBaseLarge.suffix }
-
 ent-ClothingOuterArmorHeavy = тяжёлый бронекостюм
     .desc = Тяжело бронированный костюм, способный защитить от высокого урона.
-    .suffix = { ent-ClothingOuterBaseLarge.suffix }
-
-ent-ClothingOuterArmorHeavyGreen = зелёный тяжелый бронекостюм
+ent-ClothingOuterArmorHeavyGreen = зелёный тяжёлый бронекостюм
     .desc = Тяжело бронированный костюм с зелёными вставками, способный защитить от высокого урона.
-    .suffix = { ent-ClothingOuterArmorHeavy.suffix }
-
-ent-ClothingOuterArmorHeavyRed = красный тяжелый бронекостюм
+ent-ClothingOuterArmorHeavyRed = красный тяжёлый бронекостюм
     .desc = Тяжело бронированный костюм с красными вставками, способный защитить от высокого урона.
-    .suffix = { ent-ClothingOuterArmorHeavy.suffix }
-
 ent-ClothingOuterArmorMagusblue = синие доспехи магуса
     .desc = Синий бронекостюм, обеспечивающий хорошую защиту.
-    .suffix = { ent-ClothingOuterArmorHeavy.suffix }
-
 ent-ClothingOuterArmorMagusred = красные доспехи магуса
     .desc = Красный бронекостюм, обеспечивающий хорошую защиту.
-    .suffix = { ent-ClothingOuterArmorHeavy.suffix }
-
 ent-ClothingOuterArmorCaptainCarapace = панцирь капитана
-    .desc = Бронированный нагрудник, обеспечивающий защиту и при этом обладающий мобильностью и гибкостью. Выдается только лучшим представителям станции.
-    .suffix = { ent-ClothingOuterBaseLarge.suffix }
-
+    .desc = Бронированный нагрудник, обеспечивающий защиту и при этом обладающий мобильностью и гибкостью. Выдаётся только лучшим представителям станции.
 ent-ClothingOuterArmorChangeling = хитиновый панцирь
     .desc = Раздувает тело генокрада во всепоглощающий массив хитиновый брони. Обеспечивает высокую защиту от физических повреждений, более низкую от других типов. Его вес замедляет движение генокрада, а его поддержание замедляет выработку химических веществ.
-    .suffix = { ent-ClothingOuterBaseLarge.suffix }
-
-ent-ClothingOuterArmorBone = костяная броня
+ent-ClothingOuterArmorBone = костяной доспех
     .desc = Сидит на вас как вторая кожа.
-    .suffix = { "" }
-
 ent-ClothingOuterArmorPodWars = броня Броненосец II
     .desc = Переделанный бронескафандр Броненосец II, реликвия войн подов.
-    .suffix = { "" }

@@ -4,27 +4,21 @@ ent-Stairs = ступеньки
 ent-StairStage = { ent-Stairs }
     .desc = { ent-Stairs.desc }
     .suffix = Стальной, Одна ступень
-
 ent-StairWhite = { ent-Stairs }
     .desc = { ent-Stairs.desc }
     .suffix = Белый
-
 ent-StairStageWhite = { ent-Stairs }
     .desc = { ent-Stairs.desc }
     .suffix = Белый, Одна ступень
-
 ent-StairDark = { ent-Stairs }
     .desc = { ent-Stairs.desc }
     .suffix = Тёмный
-
 ent-StairStageDark = { ent-Stairs }
     .desc = { ent-Stairs.desc }
     .suffix = Тёмный, Одна ступень
-
 ent-StairWood = { ent-Stairs }
     .desc = { ent-Stairs.desc }
     .suffix = Дерево
-
 ent-StairStageWood = { ent-Stairs }
     .desc = { ent-Stairs.desc }
     .suffix = Дерево, Одна ступень

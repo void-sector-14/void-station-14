@@ -489,7 +489,7 @@
     - state: gold
     - state: ert_chaplain # we have the sprite for the id but dont have chaplain ERT equipment for now.
   - type: IdCard
-    jobTitle: ОБР Инквизитор
+    jobTitle: ОБР Капеллан
   - type: Item
     heldPrefix: blue
 

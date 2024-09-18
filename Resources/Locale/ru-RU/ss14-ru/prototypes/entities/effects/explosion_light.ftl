@@ -1,3 +1,3 @@
-ent-ExplosionLight = вспышка взрыва
+ent-ExplosionLight = РІСЃРїС‹С€РєР° РІР·СЂС‹РІР°
     .desc = { "" }
     .suffix = { "" }

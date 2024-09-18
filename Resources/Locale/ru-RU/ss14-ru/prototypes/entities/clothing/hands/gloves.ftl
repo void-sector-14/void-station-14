@@ -33,7 +33,6 @@ ent-ClothingHandsTacticalMaidGloves = тактические перчатки г
     .desc = Тактические перчатки горничной - каждая уважающая себя горничная должна уметь незаметно устранять свои цели.
 ent-ClothingHandsGlovesMercFingerless = беспалые перчатки наемника
     .desc = Возможно эти перчатки не защитят вас от ожогов пальцев, но зато сделают круче.
-
 ent-ClothingHandsGlovesFingerless = беспалые перчатки
     .desc = Простые черные перчатки с обрезанными пальцами для тяжелой работы.
 ent-ClothingHandsGlovesFingerlessInsulated = изолированные беспалые перчатки
@@ -41,13 +40,11 @@ ent-ClothingHandsGlovesFingerlessInsulated = изолированные бесп
 ent-ThievingGloves = { ent-ClothingHandsGlovesColorBlack }
     .desc = { ent-ClothingHandsGlovesColorBlack.desc }
     .suffix = Воровские
-
 ent-ClothingHandsGlovesCluwne = перчатки клувна
     .desc = Проклятая пара перчаток клувна.
     .suffix = Неснимаемые
 ent-ClothingHandsGlovesNorthStar = перчатки Полярный звезды
     .desc = Эти перчатки позволяют наносить удары с невероятной скоростью.
-
 ent-ClothingHandsGlovesForensic = перчатки для судебно-медицинской экспертизы
     .desc = Не оставляют волокон и отпечатков пальцев. Если вы работаете без них, Вы - УЖАСНЫЙ ДЕТЕКТИВ.
 ent-ClothingHandsGlovesJanitor = резиновые перчатки

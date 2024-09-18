@@ -10,9 +10,11 @@ loadout-group-survival-extended = Расширенный аварийный за
 loadout-group-survival-clown = Клоунский аварийный запас
 loadout-group-survival-medical = Медицинский аварийный запас
 loadout-group-survival-security = Аварийный запас СБ
-loadout-group-survival-syndicate = Github заставляет меня писать текст, который буквально дважды невозможно увидеть игроку, отправьте помощь
+loadout-group-survival-syndicate = Аварийный запас Синдиката
 loadout-group-breath-tool = Расозависимые дыхательные инструменты
 loadout-group-tank-harness = Расоспецифичное снаряжение для выживания
+loadout-group-EVA-tank = Расозависимый газовый баллон
+loadout-group-survival-mime = Аварийный запас Мима
 # Command
 loadout-group-captain-head = Капитан, голова
 loadout-group-captain-jumpsuit = Капитан, комбинезон
@@ -30,6 +32,7 @@ loadout-group-passenger-mask = Пассажир, маска
 loadout-group-passenger-gloves = Пассажир, перчатки
 loadout-group-passenger-backpack = Пассажир, рюкзак
 loadout-group-passenger-outerclothing = Пассажир, верхняя одежда
+loadout-group-passenger-neck = Пассажир, шея
 loadout-group-passenger-shoes = Пассажир, обувь
 loadout-group-bartender-head = Бармен, голова
 loadout-group-bartender-jumpsuit = Бармен, комбинезон
@@ -49,6 +52,7 @@ loadout-group-janitor-head = Уборщик, голова
 loadout-group-janitor-jumpsuit = Уборщик, комбинезон
 loadout-group-janitor-gloves = Уборщик, перчатки
 loadout-group-janitor-outerclothing = Уборщик, верхняя одежда
+loadout-group-janitor-plunger = Уборщик, вантуз
 loadout-group-botanist-head = Ботаник, голова
 loadout-group-botanist-jumpsuit = Ботаник, комбинезон
 loadout-group-botanist-backpack = Ботаник, рюкзак
@@ -63,9 +67,10 @@ loadout-group-mime-mask = Мим, маска
 loadout-group-mime-jumpsuit = Мим, комбинезон
 loadout-group-mime-backpack = Мим, рюкзак
 loadout-group-mime-outerclothing = Мим, верхняя одежда
+loadout-group-mime-belt = Мим, пояс
+loadout-group-musician-jumpsuit = Музыкант, комбинезон
 loadout-group-musician-backpack = Музыкант, рюкзак
 loadout-group-musician-outerclothing = Музыкант, верхняя одежда
-
 # Cargo
 loadout-group-quartermaster-head = Квартирмейстер, голова
 loadout-group-quartermaster-jumpsuit = Квартирмейстер, комбинезон
@@ -81,7 +86,6 @@ loadout-group-cargo-technician-shoes = Грузчик, обувь
 loadout-group-salvage-specialist-backpack = Утилизатор, рюкзак
 loadout-group-salvage-specialist-outerclothing = Утилизатор, верхняя одежда
 loadout-group-salvage-specialist-shoes = Утилизатор, обувь
-
 # Engineering
 loadout-group-chief-engineer-head = Старший инженер, голова
 loadout-group-chief-engineer-jumpsuit = Старший инженер, комбинезон
@@ -100,7 +104,6 @@ loadout-group-atmospheric-technician-jumpsuit = Атмосферный техн�
 loadout-group-atmospheric-technician-backpack = Атмосферный техник, рюкзак
 loadout-group-atmospheric-technician-outerclothing = Атмосферный техник, верхняя одежда
 loadout-group-atmospheric-technician-shoes = Атмосферный техник, обувь
-
 # Science
 loadout-group-research-director-head = Научный руководитель, голова
 loadout-group-research-director-neck = Научный руководитель, шея
@@ -117,7 +120,6 @@ loadout-group-scientist-gloves = Учёный, перчатки
 loadout-group-scientist-shoes = Учёный, обувь
 loadout-group-scientist-id = Учёный, ID
 loadout-group-research-assistant-jumpsuit = Научный ассистент, комбинезон
-
 # Security
 loadout-group-head-of-security-head = Глава службы безопасности, голова
 loadout-group-head-of-security-jumpsuit = Глава службы безопасности, комбинезон
@@ -134,13 +136,13 @@ loadout-group-security-outerclothing = Офицер СБ, верхняя оде�
 loadout-group-security-shoes = Офицер СБ, обувь
 loadout-group-security-id = Офицер СБ, ID
 loadout-group-detective-head = Детектив, голова
+loadout-group-security-star = СБ, Звёзда
 loadout-group-detective-neck = Детектив, шея
 loadout-group-detective-jumpsuit = Детектив, комбинезон
 loadout-group-detective-backpack = Детектив, рюкзак
 loadout-group-detective-outerclothing = Детектив, верхняя одежда
 loadout-group-security-cadet-jumpsuit = Кадет СБ, комбинезон
 loadout-group-brigmedic = Бригмедик, рюкзак
-
 # Medical
 loadout-group-medical-gloves = Медицинский отдел, перчатки
 loadout-group-medical-mask = Медицинский отдел, маска
@@ -158,6 +160,7 @@ loadout-group-medical-doctor-shoes = Врач, обувь
 loadout-group-medical-doctor-id = Врач, ID
 loadout-group-medical-intern-jumpsuit = Интерн, комбинезон
 loadout-group-chemist-jumpsuit = Химик, комбинезон
+loadout-group-psychologist-jumpsuit = Психолог, комбинезон
 loadout-group-chemist-outerclothing = Химик, верхняя одежда
 loadout-group-chemist-backpack = Химик, рюкзак
 loadout-group-paramedic-head = Парамедик, голова
@@ -165,18 +168,15 @@ loadout-group-paramedic-jumpsuit = Парамедик, комбинезон
 loadout-group-paramedic-outerclothing = Парамедик, верхняя одежда
 loadout-group-paramedic-shoes = Парамедик, обувь
 loadout-group-paramedic-backpack = Парамедик, рюкзак
-
 # Wildcards
 loadout-group-reporter-jumpsuit = Репортёр, комбинезон
 loadout-group-boxer-jumpsuit = Боксёр, комбинезон
 loadout-group-boxer-gloves = Боксёр, перчатки
-
 # Legal
 loadout-group-lawyer-jumpsuit = Юрист, комбинезон
 loadout-group-lawyer-neck = Юрист, шея
 loadout-group-lawyer-backpack = Юрист, рюкзак
 loadout-group-iaa-backpack = АВД, рюкзак
 loadout-group-magistrate-backpack = Магистрат, рюкзак
-
 # Centcom
 loadout-group-blueshield-backpack = Синий Щит, рюкзак

@@ -50,6 +50,7 @@ flavor-base-horrible = ужасно
 # lmao
 flavor-base-terrible = ужасающе
 flavor-base-mindful = разумно
+flavor-base-chewy = жевательно
 
 # Complex flavors. Put a flavor here when you want something that's more
 # specific.
@@ -126,6 +127,7 @@ flavor-complex-vegetables = как овощи
 
 ## Complex foodstuffs (cooked foods, joke flavors, etc)
 
+flavor-complex-cherry = как вишня
 flavor-complex-pink = как розовый
 flavor-complex-curry = как карри
 flavor-complex-borsch-1 = как борщ
@@ -172,10 +174,13 @@ flavor-complex-light = как угасший свет
 
 flavor-complex-profits = как прибыль
 flavor-complex-fishops = как страшная рыбья операция
+flavor-complex-blue-pumpkin = как глоток воды из бассейна
 flavor-complex-violets = как фиалки
 flavor-complex-pyrotton = как горящий рот
 flavor-complex-mothballs = как нафталиновые шарики
 flavor-complex-paint-thinner = как растворитель для краски
+flavor-complex-paper = как кашеобразная мякоть
+flavor-complex-compressed-meat = как спрессованное мясо
 flavor-complex-alcohol = как алкоголь
 flavor-complex-soda = как газировка
 flavor-complex-juice = как сок
@@ -261,7 +266,9 @@ flavor-complex-irish-car-bomb = как шипучая пенка колы
 flavor-complex-white-gilgamesh = как слегка газированные сливки
 flavor-complex-antifreeze = как тепло
 flavor-complex-uolong = как чай, что может загорется
+
 ### This is exactly what pilk tastes like. I'm not even joking. I might've been a little drunk though
+
 flavor-complex-pilk = как сладкое молоко
 
 # Medicine/chemical-specific flavors.

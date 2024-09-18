@@ -31,3 +31,5 @@ ent-CrateJanitorBiosuit = ящик биокостюмов уборщиков
 ent-CrateTrashCartFilled = { ent-CrateTrashCart }
     .suffix = Заполненный
     .desc = { ent-CrateTrashCart.desc }
+ent-CrateCandles = ящик свечей
+    .desc = В комплекте 4 коробки свечей, 2 большие и 2 маленькие. Для атмосферы или чего-то в этом роде.

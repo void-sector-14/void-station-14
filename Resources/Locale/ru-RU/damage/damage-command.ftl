@@ -1,13 +1,13 @@
 ## Damage command loc.
 
-damage-command-description = Добавить или убрать урон сущности.
-damage-command-help = Использование: { $command } <type/group> <amount> [ignoreResistances] [uid]
+damage-command-description = Р”РѕР±Р°РІРёС‚СЊ РёР»Рё СѓР±СЂР°С‚СЊ СѓСЂРѕРЅ СЃСѓС‰РЅРѕСЃС‚Рё.
+damage-command-help = РСЃРїРѕР»СЊР·РѕРІР°РЅРёРµ: { $command } <type/group> <amount> [ignoreResistances] [uid]
 damage-command-arg-type = <damage type or group>
 damage-command-arg-quantity = [quantity]
 damage-command-arg-target = [target euid]
-damage-command-error-type = { $arg } неправильная группа или тип урона.
-damage-command-error-euid = { $arg } неправильный UID сущности.
-damage-command-error-quantity = { $arg } неправильное количество.
-damage-command-error-bool = { $arg } неправильное логическое значение.
-damage-command-error-player = Нет сущности, привязанной к сессии. Вы должны указать UID цели.
-damage-command-error-args = Неправильное количество аргументов.
+damage-command-error-type = { $arg } РЅРµРїСЂР°РІРёР»СЊРЅР°СЏ РіСЂСѓРїРїР° РёР»Рё С‚РёРї СѓСЂРѕРЅР°.
+damage-command-error-euid = { $arg } РЅРµРїСЂР°РІРёР»СЊРЅС‹Р№ UID СЃСѓС‰РЅРѕСЃС‚Рё.
+damage-command-error-quantity = { $arg } РЅРµРїСЂР°РІРёР»СЊРЅРѕРµ РєРѕР»РёС‡РµСЃС‚РІРѕ.
+damage-command-error-bool = { $arg } РЅРµРїСЂР°РІРёР»СЊРЅРѕРµ Р»РѕРіРёС‡РµСЃРєРѕРµ Р·РЅР°С‡РµРЅРёРµ.
+damage-command-error-player = РќРµС‚ СЃСѓС‰РЅРѕСЃС‚Рё, РїСЂРёРІСЏР·Р°РЅРЅРѕР№ Рє СЃРµСЃСЃРёРё. Р’С‹ РґРѕР»Р¶РЅС‹ СѓРєР°Р·Р°С‚СЊ UID С†РµР»Рё.
+damage-command-error-args = РќРµРїСЂР°РІРёР»СЊРЅРѕРµ РєРѕР»РёС‡РµСЃС‚РІРѕ Р°СЂРіСѓРјРµРЅС‚РѕРІ.
