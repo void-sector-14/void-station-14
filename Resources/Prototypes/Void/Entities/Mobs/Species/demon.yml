@@ -6,7 +6,11 @@
   abstract: true
   components:
   - type: HumanoidAppearance
-    species: DemonSpecies
+    species:
+    hideLayersOnEquip:
+      - HeadTop
+      - Hair
+      - Snout
   - type: Hunger
   - type: Thirst
   - type: Icon
@@ -58,6 +62,14 @@
     shortscale: 0.9
     tall: true
     talltscale: 1.1
+  - type: Inventory
+    femaleDisplacements:
+      jumpsuit:
+        sizeMaps:
+          32:
+            sprite: Mobs/Species/Human/displacement.rsi
+            state: jumpsuit-female
+
 
 - type: entity
   save: false
@@ -69,3 +81,10 @@
   components:
   - type: HumanoidAppearance
     species: DemonSpecies
+  - type: Inventory
+    femaleDisplacements:
+      jumpsuit:
+        sizeMaps:
+          32:
+            sprite: Mobs/Species/Human/displacement.rsi
+            state: jumpsuit-female
