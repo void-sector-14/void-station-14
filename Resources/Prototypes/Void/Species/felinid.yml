@@ -9,7 +9,8 @@
   skinColoration: HumanToned
   youngAge: 20
   oldAge: 40
-  maxAge: 40
+  maxAge: 60
+
 - type: markingPoints
   id: MobFelinidMarkingLimits
   points:
