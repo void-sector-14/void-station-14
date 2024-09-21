@@ -6,7 +6,7 @@
   abstract: true
   components:
   - type: HumanoidAppearance
-    species:
+    species: DemonSpecies
     hideLayersOnEquip:
       - HeadTop
       - Hair
