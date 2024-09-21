@@ -1,7 +1,7 @@
 ent-BaseMeteor = метеор
     .desc = Вы предпочитаете, когда они сгорают в атмосфере.
-ent-MeteorSpaceDust = space dust
-    .desc = Makes a station sneeze.
+ent-MeteorSpaceDust = космическая пыль
+    .desc = Заставляет станцию чихать.
 ent-MeteorSmall = { ent-BaseMeteor }
     .suffix = Маленький
     .desc = { ent-BaseMeteor.desc }
