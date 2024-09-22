@@ -21,3 +21,4 @@ comms-console-announcement-unknown-sender = Неизвестный
 comms-console-announcement-title-station = Консоль связи
 comms-console-announcement-title-centcom = Центрального Командования
 comms-console-announcement-title-nukie = Ядерных Оперативников Синдиката
+comms-console-announcement-title-station-ai = Станционный ИИ
