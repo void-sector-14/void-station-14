@@ -72,6 +72,7 @@
     - Security
     - Service
     - Supply
+    - Legal
     defaultChannel: Command
   - type: Sprite
     layers:
