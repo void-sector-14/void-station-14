@@ -156,3 +156,20 @@
     state: state1
   objectType: Structure
   placementMode: SnapgridCenter
+
+- type: construction
+  name: solid secret door
+  id: SolidReinforcedSecretDoor
+  graph: SecretReinforcedDoor
+  startNode: start
+  targetNode: SolidReinforcedSecretDoor
+  category: construction-category-structures
+  description: Дверь.
+  objectType: Structure
+  placementMode: SnapgridCenter
+  canBuildInImpassable: false
+  icon:
+    sprite: Void/Structures/Doors/secret_door.rsi
+    state: closed
+  conditions:
+    - !type:TileNotBlocked
