@@ -61,7 +61,7 @@
         Heat: 0.95
 
 - type: entity
-  parent: ClothingMaskGas
+  parent: [ClothingMaskGas, BaseEngineeringContraband]
   id: ClothingMaskGasAtmos
   name: atmospheric gas mask
   description: Improved gas mask utilized by atmospheric technicians. It's flameproof!
