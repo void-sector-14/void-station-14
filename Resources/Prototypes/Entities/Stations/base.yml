@@ -56,7 +56,7 @@
           nameDataset: OutpostNames
         mining: !type:GridSpawnGroup
           paths:
-            - /Maps/Shuttles/mining.yml
+            - /Maps_Void/Shuttles/mining.yml
           nameDataset: ShuttleNames
         # Spawn last
         ruins: !type:GridSpawnGroup
