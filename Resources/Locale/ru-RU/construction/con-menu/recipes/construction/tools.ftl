@@ -1,7 +1,7 @@
 con-LightTorch = факел
     .desc = Факел, сделанный из какого-то дерева.
 
-con-LogicGate = { ent-LogicGate }
+con-LogicGate = логический элемент
     .desc = Двоичный сигнальный логический модуль.
 
 con-EdgeDetector = { ent-EdgeDetector }
