@@ -16,5 +16,5 @@ con-AirlockExternalGlass = { ent-AirlockExternal }
     .desc = { ent-AirlockExternal.desc }
 con-ShuttleWindowDiagonal = { ent-ShuttleWindowDiagonal }
     .desc = { ent-ShuttleWindowDiagonal.desc }
-con-SolidReinforcedSecretDoor = { ent-WallReinforced }
-    .desc = { ent-WallReinforced.desc }
+con-SolidReinforcedSecretDoor = скрытая дверь из пластали
+    .desc = Секретная дверь в стене.
