@@ -137,7 +137,7 @@
       - !type:PlaySound
         sound: /Audio/Effects/sizzle.ogg
       steps:
-      - minTemperature: 345 #I dunno what this is but I don't want whatever parasites are inside
+      - minTemperature: 445 #I dunno what this is but I don't want whatever parasites are inside
 
   - node: goliath steak
     entity: FoodMeatGoliathCooked
