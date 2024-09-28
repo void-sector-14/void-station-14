@@ -28,5 +28,5 @@
     includeSecret: false
   # - !type:ConditionManualWhitelistMembership # Allow whitelisted players
   #   action: Allow
-  - !type:ConditionAlwaysMatch
-    action: Deny
+  # - !type:ConditionAlwaysMatch
+  #   action: Deny
