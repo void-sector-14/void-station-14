@@ -141,3 +141,153 @@
   name: Земляне - Трава у дома
   path:
     path: /Audio/Void/Jukebox/Zemlyane_-_Trava_u_doma.ogg
+
+- type: jukebox
+  id: Shag_V_Temnotu
+  name: Пламенев - Шаг в темноту
+  path:
+    path: /Audio/Void/Jukebox/Shag_V_Temnotu.ogg
+
+- type: jukebox
+  id: Hammers_Call
+  name: Naktigonis - Hammers Call
+  path:
+    path: /Audio/Void/Jukebox/Hammers_Call.ogg
+
+- type: jukebox
+  id: Mind_Games
+  name: Mind Games
+  path:
+    path: /Audio/Void/Jukebox/Mind_Games.ogg
+
+- type: jukebox
+  id: Human
+  name: Rag'n'Bone Man - Human
+  path:
+    path: /Audio/Void/Jukebox/Human.ogg
+
+- type: jukebox
+  id: Intro
+  name: Alt-J - Intro
+  path:
+    path: /Audio/Void/Jukebox/Intro.ogg
+
+- type: jukebox
+  id: Its_Been_A_While
+  name: STAIND - It's been a while
+  path:
+    path: /Audio/Void/Jukebox/Its_Been_A_While.ogg
+
+- type: jukebox
+  id: 8PM
+  name: 8PM
+  path:
+    path: /Audio/Void/Jukebox/8PM.ogg
+
+- type: jukebox
+  id: 12PM
+  name: 12PM
+  path:
+    path: /Audio/Void/Jukebox/12PM.ogg
+
+- type: jukebox
+  id: Disco_Panzer
+  name: Alan Aztek - Disco Panzer
+  path:
+    path: /Audio/Void/Jukebox/Disco_Panzer.ogg
+
+- type: jukebox
+  id: Ghost
+  name: Marvin Brooks - Ghost
+  path:
+    path: /Audio/Void/Jukebox/Ghost.ogg
+
+- type: jukebox
+  id:
+  name: Mick Gordon - Everything Will Be Ok
+  path:
+    path: /Audio/Void/Jukebox/Everything_Will_Be_Ok.ogg
+
+- type: jukebox
+  id: Radioactive
+  name: Imagine Dragons - Radioactive
+  path:
+    path: /Audio/Void/Jukebox/Radioactive.ogg
+
+- type: jukebox
+  id: Good Life
+  name: Shayfer James - Good Life
+  path:
+    path: /Audio/Void/Jukebox/Good_Life.ogg
+
+- type: jukebox
+  id: Smooth_Criminal
+  name: Michael Jackson - Smooth Criminal
+  path:
+    path: /Audio/Void/Jukebox/Smooth_Criminal.ogg
+
+- type: jukebox
+  id: Another_Bites_The_Dust
+  name: Queen - Another One Bites The Dust
+  path:
+    path: /Audio/Void/Jukebox/Another_Bites_The_Dust.ogg
+
+- type: jukebox
+  id: Out_Of_The_Black
+  name: Royal Blood - Out Of The Black
+  path:
+    path: /Audio/Void/Jukebox/Out_Of_The_Black.ogg
+
+- type: jukebox
+  id: Chernikovska_hata
+  name: Черниковская хата - Спектакль окончен
+  path:
+    path: /Audio/Void/Jukebox/Chernikovska_hata.ogg
+
+- type: jukebox
+  id: Moi_Marmelad
+  name: Катя Лель - Мой мармелад
+  path:
+    path: /Audio/Void/Jukebox/Moi_Marmelad.ogg
+
+- type: jukebox
+  id: Photograf.ogg
+  name: Электрофорез - Фотограф
+  path:
+    path: /Audio/Void/Jukebox/Photograf.ogg
+
+- type: jukebox
+  id: Relove_Relax
+  name: Wantaways - Relove Relax
+  path:
+    path: /Audio/Void/Jukebox/Relove_Relax.ogg
+
+- type: jukebox
+  id: Slim_Shady
+  name: Eminem - Slim_Shady
+  path:
+    path: /Audio/Void/Jukebox/Slim_Shady.ogg
+
+- type: jukebox
+  id: Take_Me_To_Church
+  name: Hozier - Take Me To Church
+  path:
+    path: /Audio/Void/Jukebox/Take_Me_To_Church
+
+- type: jukebox
+  id: The_Cat_Empire
+  name: The Cat Empire - The Lost Song
+  path:
+    path: /Audio/Void/Jukebox/The_Cat_Empire.ogg
+
+- type: jukebox
+  id: Way_Down_We_Go
+  name: Kaleo - Way Down We Go
+  path:
+    path: /Audio/Void/Jukebox/Way_Down_We_Go.ogg
+
+- type: jukebox
+  id: Emotion_Engine
+  name: Dazegxd - Emotion Engine
+  path:
+    path: /Audio/Void/Jukebox/Emotion_Engine.ogg
