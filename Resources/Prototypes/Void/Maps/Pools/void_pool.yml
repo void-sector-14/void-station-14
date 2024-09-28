@@ -3,10 +3,12 @@
   maps:
   - VSBagel
   - VSBox
+  - VSCog
   - VSCore
   - VSFland
   - VSMarathon
   - VSMeta
+  - VSOasis
   - VSOmega
-  - VSSaltern
   - VSPacked
+  - VSSaltern

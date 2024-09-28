@@ -2,7 +2,7 @@
   id: VSPacked
   mapName: 'Packed'
   mapPath: /Maps_Void/packed.yml
-  minPlayers: 5
+  minPlayers: 0
   maxPlayers: 40
   stations:
     Packed:
@@ -14,8 +14,6 @@
             !type:NanotrasenNameGenerator
             prefixCreator: 'VG'
         - type: StationJobs
-          overflowJobs:
-            - Passenger
           availableJobs:
             #service
             Captain: [ 1, 1 ]
@@ -59,7 +57,9 @@
             Clown: [ 1, 1 ]
             Mime: [ 1, 1 ]
             Musician: [ 1, 1 ]
-            Borg: [ 1 , 1 ]
+            #silicon
+            StationAi: [ 1, 1 ]
+            Borg: [ 1, 1 ]
             # legal
             Magistrate: [ 1, 1 ]
             IAA: [ 1, 1 ]
