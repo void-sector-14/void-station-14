@@ -1,7 +1,6 @@
 - type: gameMapPool
   id: VoidMapPool
   maps:
-  - VSAtlas
   - VSBagel
   - VSBox
   - VSCore
@@ -9,6 +8,5 @@
   - VSMarathon
   - VSMeta
   - VSOmega
-  - VSOrigin
   - VSSaltern
   - VSPacked
