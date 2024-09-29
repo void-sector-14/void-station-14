@@ -14,3 +14,5 @@ job-supervisors-science = учёным, научному руководител�
 job-supervisors-hire = своим нанимателям
 job-supervisors-everyone = вообще всем
 job-supervisors-magistrate = магистрату
+job-supervisors-command = командованию станции
+job-supervisors-ai = станционнному ИИ
