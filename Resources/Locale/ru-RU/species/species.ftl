@@ -10,6 +10,7 @@ species-name-moth = Ниан
 species-name-vulpkanin = Вульпканин
 species-name-katunian = Катунианец
 species-name-skeleton = Скелет
+snail-hurt-by-salt-popup = Соленый раствор жжет, как кислота!
 species-name-vox = Вокс
 species-name-tajaran = Таяран
 species-name-demon = Тифлинг

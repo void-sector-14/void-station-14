@@ -7,6 +7,10 @@
   components:
   - type: HumanoidAppearance
     species: Katunian
+    hideLayersOnEquip:
+      - HeadTop
+      - Hair
+      - Snout
   - type: Hunger
   - type: Thirst
   - type: Icon
@@ -42,6 +46,13 @@
     shortscale: 0.9
     tall: true
     tallscale: 1.1
+  - type: Inventory
+    femaleDisplacements:
+      jumpsuit:
+        sizeMaps:
+          32:
+            sprite: Mobs/Species/Human/displacement.rsi
+            state: jumpsuit-female
 
 - type: entity
   parent: BaseSpeciesDummy
@@ -52,3 +63,10 @@
   components:
   - type: HumanoidAppearance
     species: Katunian
+  - type: Inventory
+    femaleDisplacements:
+      jumpsuit:
+        sizeMaps:
+          32:
+            sprite: Mobs/Species/Human/displacement.rsi
+            state: jumpsuit-female

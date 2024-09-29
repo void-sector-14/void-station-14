@@ -156,3 +156,91 @@
     state: state1
   objectType: Structure
   placementMode: SnapgridCenter
+
+- type: construction
+  name: потайная дверь из пластали
+  id: SolidReinforcedSecretDoor
+  graph: SecretReinforcedDoor
+  startNode: start
+  targetNode: SolidReinforcedSecretDoor
+  category: construction-category-structures
+  description: Дверь.
+  objectType: Structure
+  placementMode: SnapgridCenter
+  canBuildInImpassable: false
+  icon:
+    sprite: Void/Structures/Doors/secret_door.rsi
+    state: closed
+  conditions:
+    - !type:TileNotBlocked
+
+- type: construction
+  name: шахтерская стена
+  id: MiningWall
+  graph: Girder
+  startNode: start
+  targetNode: miningWall
+  category: construction-category-structures
+  description: Удерживает воздух внутри, а ксеносов снаружи.
+  canRotate: false
+  canBuildInImpassable: false
+  conditions:
+    - !type:TileNotBlocked
+  icon:
+    sprite: Structures/Walls/mining.rsi
+    state: full
+  objectType: Structure
+  placementMode: SnapgridCenter
+
+- type: construction
+  name: шахтерская стена
+  id: MiningWallDiagonal
+  graph: Girder
+  startNode: start
+  targetNode: diagonalMiningWall
+  category: construction-category-structures
+  canBuildInImpassable: true
+  description: Удерживает воздух внутри, а ксеносов снаружи.
+  conditions:
+    - !type:TileNotBlocked
+  icon:
+    sprite: Structures/Walls/mining_diagonal.rsi/
+    state: state0
+  objectType: Structure
+  placementMode: SnapgridCenter
+
+- type: construction
+  name: шахтерское окно
+  id: MiningWindow
+  graph: Window
+  startNode: start
+  targetNode: miningWindow
+  category: construction-category-structures
+  canBuildInImpassable: true
+  description: Смотри не заляпай.
+  conditions:
+    - !type:EmptyOrWindowValidInTile
+    - !type:NoWindowsInTile
+  icon:
+    sprite: Structures/Windows/mining.rsi
+    state: full
+  objectType: Structure
+  placementMode: SnapgridCenter
+
+- type: construction
+  name: шахтерское окно
+  id: MiningWindowDiagonal
+  graph: WindowDiagonal
+  startNode: start
+  targetNode: miningWindowDiagonal
+  category: construction-category-structures
+  canBuildInImpassable: true
+  description: Смотри не заляпай.
+  conditions:
+    - !type:EmptyOrWindowValidInTile
+    - !type:NoWindowsInTile
+  icon:
+    sprite: Structures/Windows/mining_diagonal.rsi
+    state: state0
+  objectType: Structure
+  placementMode: SnapgridCenter

@@ -10,6 +10,5 @@ hand-labeler-has-label = На объекте имеется этикетка "{ 
 # Verb text
 hand-labeler-remove-label-text = Удалить этикетку
 hand-labeler-add-label-text = Наклеить этикетку
-
 # Name
 hand-labeler-title = ручной этикетировщих

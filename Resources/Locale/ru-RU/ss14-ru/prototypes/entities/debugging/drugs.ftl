@@ -1,3 +1,3 @@
-ent-DrinkMeth = мет
-    .desc = Всего лишь стакан мета.
+ent-DrinkMeth = РјРµС‚
+    .desc = Р’СЃРµРіРѕ Р»РёС€СЊ СЃС‚Р°РєР°РЅ РјРµС‚Р°.
     .suffix = DEBUG

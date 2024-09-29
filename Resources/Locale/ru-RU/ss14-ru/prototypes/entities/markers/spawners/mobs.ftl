@@ -120,3 +120,5 @@ ent-SpawnMobLuminousEntity = спавнер светящейся сущност�
     .desc = { ent-MarkerBase.desc }
 ent-SpawnClownSpider = спавнер паука-клоуна
     .desc = { ent-MarkerBase.desc }
+ent-SpawnHonkBot = спавнер хонк-бота
+    .desc = { ent-MarkerBase.desc }

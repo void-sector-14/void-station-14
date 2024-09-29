@@ -48,13 +48,13 @@
 
 - type: entity
   parent: ClothingUniformBase
-  id: ClothingOuterClothingDenRezo
-  name: инженерный бомбер Дэна
+  id: ClothingOuterClothingAtmos
+  name: атмосферный бомбер
   description: Крепкая кожаная куртка снабжённая системой инженерных датчиков. Помогает при работе в команде.
   suffix: VoidPersonal
   components:
   - type: Sprite
-    sprite: Void/Clothing/OuterClothing/Coats/den_rezo.rsi
+    sprite: Void/Clothing/OuterClothing/Coats/bomber_atmos.rsi
   - type: Clothing
     slots: [ outerClothing ]
-    sprite: Void/Clothing/OuterClothing/Coats/den_rezo.rsi
+    sprite: Void/Clothing/OuterClothing/Coats/bomber_atmos.rsi

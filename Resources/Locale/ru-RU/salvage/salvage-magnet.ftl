@@ -25,11 +25,19 @@ salvage-magnet-resources-count =
         [5] (Много)
        *[other] (Изобилие)
     }
+# Debris
+salvage-magnet-debris-ChunkDebris = Космический мусор
 # Asteroids
 dungeon-config-proto-BlobAsteroid = Астероидный массив
 dungeon-config-proto-ClusterAsteroid = Астероидный кластер
 dungeon-config-proto-SpindlyAsteroid = Астероидная спираль
 dungeon-config-proto-SwissCheeseAsteroid = Фрагменты астероидов
+# Wrecks
+salvage-map-wreck = Утилизация обломков
+salvage-map-wreck-desc-size = Размер:
+salvage-map-wreck-size-small = [color=lime]Маленький[/color]
+salvage-map-wreck-size-medium = [color=cornflowerblue]Средний[/color]
+salvage-map-wreck-size-large = [color=orchid]Большой[/color]
 # Wrecks
 salvage-map-proto-Small1 = Инженерное хранилище
 salvage-map-proto-Small2 = Игровой уголок
@@ -50,7 +58,7 @@ salvage-map-proto-MediumOrchestra = Безмолвный оркестр
 salvage-map-proto-MediumLibraryWreck = Покинутая библиотека
 salvage-map-proto-MediumCargoWreck = Крушение отдела снабжения
 salvage-map-proto-MediumPirateWreck = Обломок пиратской баржи
-salvage-map-proto-MediumHaulingShuttleWreck = Разрушенный грузовой корабль
+salvage-map-proto-MediumHaulingShuttleWreck = Разрушенный грузовой шаттл
 salvage-map-proto-TickColony = Колония космических клещей
 salvage-map-proto-CargoDock = Грузовой док на астероиде
 salvage-map-proto-SpaceWaffleHome = Вафельный домик

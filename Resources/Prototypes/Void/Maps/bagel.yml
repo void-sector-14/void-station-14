@@ -2,7 +2,7 @@
   id: VSBagel
   mapName: 'Bagel Station'
   mapPath: /Maps_Void/bagel.yml
-  minPlayers: 40
+  minPlayers: 15
   maxPlayers: 76
   stations:
     Bagel:
@@ -16,12 +16,11 @@
         - type: StationEmergencyShuttle
           emergencyShuttlePath: /Maps/Shuttles/emergency_lox.yml
         - type: StationJobs
-          overflowJobs:
-            - Passenger
           availableJobs:
-            #service
+            #command
             Captain: [ 1, 1 ]
             BlueShieldOfficer: [ 1, 1 ]
+            #service
             HeadOfPersonnel: [ 1, 1 ]
             Bartender: [ 2, 2 ]
             Botanist: [ 3, 3 ]
@@ -45,7 +44,6 @@
             ResearchDirector: [ 1, 1 ]
             Scientist: [ 5, 5 ]
             ResearchAssistant: [ 4, 4 ]
-            Borg: [ 2, 2 ]
             #security
             HeadOfSecurity: [ 1, 1 ]
             Warden: [ 1, 1 ]
@@ -63,6 +61,9 @@
             Mime: [ 1, 1 ]
             Musician: [ 1, 1 ]
             Reporter: [ 2, 2 ]
+            #silicon
+            StationAi: [ 1, 1 ]
+            Borg: [ 2, 2 ]
             # legal
             Magistrate: [ 1, 1 ]
             IAA: [ 1, 1 ]

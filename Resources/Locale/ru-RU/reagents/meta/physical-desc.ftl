@@ -92,6 +92,6 @@ reagent-physical-desc-fluffy = пушистое
 reagent-physical-desc-funny = забавное
 reagent-physical-desc-alkaline = щелочное
 reagent-physical-desc-reflective = отражающее
-reagent-physical-desc-holy =  святое
+reagent-physical-desc-holy = святое
 reagent-physical-desc-slimy = слизистое
 reagent-physical-desc-neural = нейронное

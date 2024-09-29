@@ -24,3 +24,18 @@ con-AirlockExternalGlass = { ent-AirlockExternal }
 
 con-ShuttleWindowDiagonal = { ent-ShuttleWindowDiagonal }
     .desc = { ent-ShuttleWindowDiagonal.desc }
+
+con-SolidReinforcedSecretDoor = скрытая дверь из пластали
+    .desc = Секретная дверь в стене.
+
+con-MiningWall = шахтерская стена
+    .desc = Удерживает воздух внутри, а ксеносов снаружи.
+
+con-MiningWallDiagonal = шахтерская стена
+    .desc = Удерживает воздух внутри, а ксеносов снаружи.
+
+con-MiningWindow = шахтерское окно
+    .desc = Смотри не заляпай.
+
+con-MiningWindowDiagonal = шахтерское окно
+    .desc = Смотри не заляпай.

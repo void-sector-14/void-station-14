@@ -42,6 +42,10 @@ latejoin-arrival-announcement =
 latejoin-arrival-sender = Станции
 latejoin-arrivals-direction = Вскоре прибудет шаттл, который доставит вас на станцию.
 latejoin-arrivals-direction-time = Шаттл, который доставит вас на станцию, прибудет через { $time }.
-
-preset-not-enough-ready-players = Невозможно начать {$presetName}. Нужно минимум {$minimumPlayers} для {$readyPlayersCount}.
-preset-no-one-ready = Невозможно начать {$presetName}. Ни один игрок не готов.
+latejoin-arrivals-dumped-from-shuttle = Таинственная сила не дает вам улететь на транзитном шаттле.
+latejoin-arrivals-teleport-to-spawn = Таинственная сила телепортирует вас из шаттла прибытия. Удачной смены!
+preset-not-enough-ready-players = Невозможно начать { $presetName }. Готово { $readyPlayersCount } из { $minimumPlayers }.
+preset-no-one-ready = Невозможно начать { $presetName }. Ни один игрок не готов.
+game-run-level-PreRoundLobby = Лобби
+game-run-level-InRound = Раунд
+game-run-level-PostRound = Постраунд

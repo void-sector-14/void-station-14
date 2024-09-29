@@ -283,8 +283,6 @@
         color: "#535353"
   - type: Clothing
     sprite: Clothing/Hands/Gloves/Color/black.rsi
-  - type: GloveHeatResistance
-    heatResistance: 1400
   - type: Butcherable
     butcheringType: Knife
     spawned:
@@ -295,7 +293,7 @@
 # Insulated Gloves (Yellow Gloves)
 # Currently can not be greyscaled without looking like shit.
 - type: entity
-  parent: ClothingHandsBase
+  parent: [ClothingHandsBase, BaseEngineeringContraband]
   id: ClothingHandsGlovesColorYellow
   name: insulated gloves
   description: These gloves will protect the wearer from electric shocks.
@@ -305,8 +303,6 @@
     sprite: Clothing/Hands/Gloves/Color/yellow.rsi
   - type: Clothing
     sprite: Clothing/Hands/Gloves/Color/yellow.rsi
-  - type: GloveHeatResistance
-    heatResistance: 1400
   - type: Butcherable
     butcheringType: Knife
     spawned:
@@ -327,9 +323,6 @@
     sprite: Void/Clothing/Hands/Gloves/Color/yellow-budget.rsi
   - type: Clothing
     sprite: Void/Clothing/Hands/Gloves/Color/yellow-budget.rsi
-  - type: GloveHeatResistance
-    # can't take out lights using budgets
-    heatResistance: 0
   - type: RandomInsulation
     # Why repeated numbers? So some numbers are more common, of course!
     list:

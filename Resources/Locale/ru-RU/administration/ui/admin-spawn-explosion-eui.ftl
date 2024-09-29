@@ -1,5 +1,4 @@
 admin-explosion-eui-title = Создание взрыва
-
 admin-explosion-eui-label-type = Тип взрыва
 admin-explosion-eui-label-mapid = ID карты
 admin-explosion-eui-label-xmap = X (Карта)

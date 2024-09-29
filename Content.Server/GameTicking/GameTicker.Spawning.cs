@@ -4,15 +4,19 @@ using System.Numerics;
 using Content.Server.Administration.Managers;
 using Content.Server.GameTicking.Events;
 using Content.Server.Ghost;
+using Content.Server.Shuttles.Components;
 using Content.Server.Spawners.Components;
 using Content.Server.Speech.Components;
 using Content.Server.Station.Components;
 using Content.Shared.Database;
+using Content.Shared.Hands.Components;
+using Content.Shared.Hands.EntitySystems;
 using Content.Shared.Mind;
 using Content.Shared.Players;
 using Content.Shared.Preferences;
 using Content.Shared.Roles;
 using Content.Shared.Roles.Jobs;
+using Content.Shared.Void.Sponsors.Systems;
 using JetBrains.Annotations;
 using Robust.Shared.Map;
 using Robust.Shared.Map.Components;
@@ -235,6 +239,28 @@ namespace Content.Server.GameTicking
 
             _mind.TransferTo(newMind, mob);
 
+            // Начало системы выдачи предметов
+            if (EntityManager.TryGetComponent(mob, out HandsComponent? hands))
+            {
+                var sponsorsSystem = Get<SponsorsSystem>();
+
+                // Получаем список прототипов для игрока
+                var itemsToSpawn = sponsorsSystem.GetItemsForPlayer(player.Name);
+
+                foreach (var prototypeToSpawn in itemsToSpawn)
+                {
+                    var item = EntityManager.SpawnEntity(prototypeToSpawn, Transform(mob).Coordinates);
+
+                    var handsSystem = Get<SharedHandsSystem>();
+
+                    // Пытаемся положить предмет в свободную руку или рядом с игроком, если руки заняты
+                    if (!handsSystem.TryPickupAnyHand(mob, item, handsComp: hands))
+                    {
+                        handsSystem.PickupOrDrop(mob, item, handsComp: hands);
+                    }
+                }
+            }
+
             if (lateJoin && !silent)
             {
                 _chatSystem.DispatchStationAnnouncement(station,
@@ -275,28 +301,13 @@ namespace Content.Server.GameTicking
                     Loc.GetString("job-greet-station-name", ("stationName", metaData.EntityName)));
             }
 
-            // Arrivals is unable to do this during spawning as no actor is attached yet.
-            // We also want this message last.
-            if (!silent && lateJoin && _arrivals.Enabled)
-            {
-                var arrival = _arrivals.NextShuttleArrival();
-                if (arrival == null)
-                {
-                    _chatManager.DispatchServerMessage(player, Loc.GetString("latejoin-arrivals-direction"));
-                }
-                else
-                {
-                    _chatManager.DispatchServerMessage(player,
-                        Loc.GetString("latejoin-arrivals-direction-time", ("time", $"{arrival:mm\\:ss}")));
-                }
-            }
-
             // We raise this event directed to the mob, but also broadcast it so game rules can do something now.
             PlayersJoinedRoundNormally++;
             var aev = new PlayerSpawnCompleteEvent(mob,
                 player,
                 jobId,
                 lateJoin,
+                silent,
                 PlayersJoinedRoundNormally,
                 station,
                 character);
@@ -315,7 +326,7 @@ namespace Content.Server.GameTicking
         }
 
         /// <summary>
-        /// Makes a player join into the game and spawn on a staiton.
+        /// Makes a player join into the game and spawn on a station.
         /// </summary>
         /// <param name="player">The player joining</param>
         /// <param name="station">The station they're spawning on</param>
@@ -495,6 +506,7 @@ namespace Content.Server.GameTicking
         public ICommonSession Player { get; }
         public string? JobId { get; }
         public bool LateJoin { get; }
+        public bool Silent { get; }
         public EntityUid Station { get; }
         public HumanoidCharacterProfile Profile { get; }
 
@@ -505,6 +517,7 @@ namespace Content.Server.GameTicking
             ICommonSession player,
             string? jobId,
             bool lateJoin,
+            bool silent,
             int joinOrder,
             EntityUid station,
             HumanoidCharacterProfile profile)
@@ -513,6 +526,7 @@ namespace Content.Server.GameTicking
             Player = player;
             JobId = jobId;
             LateJoin = lateJoin;
+            Silent = silent;
             Station = station;
             Profile = profile;
             JoinOrder = joinOrder;

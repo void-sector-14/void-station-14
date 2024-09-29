@@ -58,3 +58,5 @@ ent-BoxCandleSmall = коробка маленьких свечей
     .desc = { ent-BoxCardboard.desc }
 ent-BoxDarts = коробка дротиков
     .desc = Эта коробка наполнена разноцветными дротиками.
+ent-BoxEnvelope = коробка конвертов
+    .desc = Коробка, заполненная конвертами.

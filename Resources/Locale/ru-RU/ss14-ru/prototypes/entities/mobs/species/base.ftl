@@ -1,11 +1,9 @@
 ent-BaseMobSpecies = BaseMobSpecies
     .desc = { "" }
     .suffix = { "" }
-
-ent-BaseMobSpeciesOrganic = Урист МакХэндс
+ent-BaseMobSpeciesOrganic = РЈСЂРёСЃС‚ РњР°РєРҐСЌРЅРґСЃ
     .desc = { "" }
     .suffix = { "" }
-
 ent-BaseSpeciesDummy = BaseSpeciesDummy
     .desc = { "" }
     .suffix = { "" }

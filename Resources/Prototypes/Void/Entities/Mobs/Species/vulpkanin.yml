@@ -21,22 +21,13 @@
     shortscale: 0.9
     tall: true
     tallscale: 1.1
-#    - type: Temperature
-#      heatDamageThreshold: 317
-#      coldDamageThreshold: 307
-#      currentTemperature: 312
-#      specificHeat: 180
-#      coldDamage:
-#        types:
-#          Cold: 1.1 #per second, scales with temperature & other constants
-#      heatDamage:
-#        types:
-#          Heat: 0.9 #per second, scales with temperature & other constants
-#    - type: ThermalRegulator
-#      normalBodyTemperature: 312
-#      implicitHeatRegulation: 0
-#      sweatHeatRegulation: 2
-#      shiveringHeatRegulation: 150
+  - type: Inventory
+    femaleDisplacements:
+      jumpsuit:
+        sizeMaps:
+          32:
+            sprite: Mobs/Species/Human/displacement.rsi
+            state: jumpsuit-female
 
 - type: entity
   parent: BaseSpeciesDummy
@@ -45,3 +36,10 @@
   components:
   - type: HumanoidAppearance
     species: VulpkaninPerson
+  - type: Inventory
+    femaleDisplacements:
+      jumpsuit:
+        sizeMaps:
+          32:
+            sprite: Mobs/Species/Human/displacement.rsi
+            state: jumpsuit-female

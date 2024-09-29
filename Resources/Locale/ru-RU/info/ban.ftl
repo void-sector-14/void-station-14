@@ -15,7 +15,6 @@ cmd-ban-hint-duration-3 = 3 дня
 cmd-ban-hint-duration-4 = 1 неделя
 cmd-ban-hint-duration-5 = 2 недели
 cmd-ban-hint-duration-6 = 1 месяц
-
 # ban panel
 cmd-banpanel-desc = Открывает панель банов
 cmd-banpanel-help = Использование: banpanel [имя или пользовательский guid]
@@ -75,3 +74,5 @@ ban-panel-erase = Стереть сообщения в чате и игрока 
 server-ban-string-never = никогда
 server-ban-string-no-pii = { $admin } выдал бан { $severity } тяжести, который истекает { $expires } для { $name } по причине: { $reason }
 cmd-ban_exemption_get-arg-player = <игрок>
+# Kick on ban
+ban-kick-reason = Вы были забанены

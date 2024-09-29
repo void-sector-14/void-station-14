@@ -1,20 +1,21 @@
 - type: entity
   abstract: true
   parent: Clothing
-  id: ClothingRingBase
+  id: VoidRingBase
   components:
+  - type: Clothing
+    slots: [ gloves, neck ]
   - type: Sprite
     state: icon
+  - type: Appearance
   - type: Item
     size: Tiny
-  - type: Clothing
-    slots: [gloves]
   - type: Tag
     tags:
     - Ring
 
 - type: entity
-  parent: ClothingRingBase
+  parent: VoidRingBase
   id: ClothingHandsRingWedding
   name: обручальное кольцо
   description: Пока смерть не разлучит нас.
@@ -23,4 +24,6 @@
     sprite: Void/Clothing/Hands/Gloves/wedding_ring.rsi
   - type: Clothing
     sprite: Void/Clothing/Hands/Gloves/wedding_ring.rsi
+  - type: StaticPrice
+    price: 300
 

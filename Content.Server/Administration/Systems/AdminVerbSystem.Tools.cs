@@ -90,22 +90,22 @@ public sealed partial class AdminVerbSystem
                 args.Verbs.Add(bolt);
             }
 
-            if (TryComp<AirlockComponent>(args.Target, out var airlock))
+            if (TryComp<AirlockComponent>(args.Target, out var airlockComp))
             {
                 Verb emergencyAccess = new()
                 {
-                    Text = airlock.EmergencyAccess ? "Emergency Access Off" : "Emergency Access On",
+                    Text = airlockComp.EmergencyAccess ? "Emergency Access Off" : "Emergency Access On",
                     Category = VerbCategory.Tricks,
                     Icon = new SpriteSpecifier.Texture(new("/Textures/Interface/AdminActions/emergency_access.png")),
                     Act = () =>
                     {
-                        _airlockSystem.ToggleEmergencyAccess(args.Target, airlock);
+                        _airlockSystem.SetEmergencyAccess((args.Target, airlockComp), !airlockComp.EmergencyAccess);
                     },
                     Impact = LogImpact.Medium,
-                    Message = Loc.GetString(airlock.EmergencyAccess
+                    Message = Loc.GetString(airlockComp.EmergencyAccess
                         ? "admin-trick-emergency-access-off-description"
                         : "admin-trick-emergency-access-on-description"),
-                    Priority = (int) (airlock.EmergencyAccess ? TricksVerbPriorities.EmergencyAccessOff : TricksVerbPriorities.EmergencyAccessOn),
+                    Priority = (int) (airlockComp.EmergencyAccess ? TricksVerbPriorities.EmergencyAccessOff : TricksVerbPriorities.EmergencyAccessOn),
                 };
                 args.Verbs.Add(emergencyAccess);
             }
@@ -724,15 +724,7 @@ public sealed partial class AdminVerbSystem
                         if (!int.TryParse(amount, out var result))
                             return;
 
-                        if (result > 0)
-                        {
-                            ballisticAmmo.UnspawnedCount = result;
-                        }
-                        else
-                        {
-                            ballisticAmmo.UnspawnedCount = 0;
-                        }
-
+                        _gun.SetBallisticUnspawned((args.Target, ballisticAmmo), result);
                         _gun.UpdateBallisticAppearance(args.Target, ballisticAmmo);
                     });
                 },
@@ -744,11 +736,11 @@ public sealed partial class AdminVerbSystem
         }
     }
 
-    private void RefillEquippedTanks(EntityUid target, Gas plasma)
+    private void RefillEquippedTanks(EntityUid target, Gas gasType)
     {
         foreach (var held in _inventorySystem.GetHandOrInventoryEntities(target))
         {
-            RefillGasTank(held, Gas.Plasma);
+            RefillGasTank(held, gasType);
         }
     }
 

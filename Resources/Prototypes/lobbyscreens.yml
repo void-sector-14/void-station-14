@@ -82,3 +82,6 @@
   id: ReclaimerNuke
   background: /Textures/LobbyScreens/reclaimer-nuke.webp
 
+- type: lobbyBackground
+  id: RobusTyanka
+  background: /Textures/LobbyScreens/RobusTyanka.png

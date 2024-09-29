@@ -9,6 +9,8 @@
       time: 21600 #6 hrs
     - !type:OverallPlaytimeRequirement
       time: 72000 # 20 hrs
+    - !type:AgeRequirement
+      requiredAge: 30
   startingGear: MagistrateGear
   icon: "JobIconMagistrate"
   supervisors: job-supervisors-centcom
@@ -33,3 +35,7 @@
     # TODO add copy of space law
   inhand:
     - BriefcaseBrownFilled
+  storage:
+    back:
+    - RubberStampMagistrate
+    - BookSpaceLaw

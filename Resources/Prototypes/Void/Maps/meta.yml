@@ -2,7 +2,7 @@
   id: VSMeta
   mapName: 'Meta Station'
   mapPath: /Maps_Void/meta.yml
-  minPlayers: 50
+  minPlayers: 35
   stations:
     Meta:
       stationProto: StandardNanotrasenStation
@@ -13,10 +13,8 @@
             !type:NanotrasenNameGenerator
             prefixCreator: 'TG'
         - type: StationEmergencyShuttle
-          emergencyShuttlePath: /Maps/Shuttles/emergency_meta.yml
+          emergencyShuttlePath: /Maps/Shuttles/emergency_box.yml
         - type: StationJobs
-          overflowJobs:
-            - Passenger
           availableJobs:
             #service
             Captain: [ 1, 1 ]
@@ -44,7 +42,6 @@
             ResearchDirector: [ 1, 1 ]
             Scientist: [ 5, 7 ]
             ResearchAssistant: [ 3, 6 ]
-            Borg: [ 2, 2 ]
             #security
             HeadOfSecurity: [ 1, 1 ]
             Warden: [ 1, 1 ]
@@ -61,6 +58,9 @@
             Clown: [ 1, 1 ]
             Mime: [ 1, 1 ]
             Musician: [ 1, 1 ]
+            #silicon
+            StationAi: [ 1, 1 ]
+            Borg: [ 2, 2 ]
             # legal
             Magistrate: [ 1, 1 ]
             IAA: [ 1, 1 ]

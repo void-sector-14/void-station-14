@@ -5,6 +5,7 @@ gun-selected-mode = Выбран { $mode }
 gun-disabled = Вы не можете использовать оружие!
 gun-clumsy = Оружие взрывается вам в лицо!
 gun-set-fire-mode = Выбран режим { $mode }
+gun-magazine-whitelist-fail = Это не влезет в оружие!
 # SelectiveFire
 gun-SemiAuto = полуавто
 gun-Burst = очередь
@@ -20,7 +21,8 @@ gun-ballistic-transfer-target-full = { CAPITALIZE($entity) } уже полнос
 gun-cartridge-spent = Он [color=red]израсходован[/color].
 gun-cartridge-unspent = Он [color=lime]не израсходован[/color].
 # BatteryAmmoProvider
-gun-battery-examine = Заряда хватит на [color={ $color }]{ $count }[/color] { $count ->
+gun-battery-examine =
+    Заряда хватит на [color={ $color }]{ $count }[/color] { $count ->
         [one] выстрел
         [few] выстрела
        *[other] выстрелов

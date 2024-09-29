@@ -1,3 +1,2 @@
 ent-OrganTajaranStomach = { ent-OrganAnimalStomach }
-    .desc = { "" }
-    .suffix = { "" }
+    .desc = { ent-OrganAnimalStomach.desc }

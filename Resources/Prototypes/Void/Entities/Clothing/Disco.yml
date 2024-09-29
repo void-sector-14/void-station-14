@@ -41,8 +41,6 @@
       sprite: Void/Clothing/Hands/Gloves/kim.rsi
     - type: Clothing
       sprite: Void/Clothing/Hands/Gloves/kim.rsi
-    - type: GloveHeatResistance
-      heatResistance: 1400
     - type: Insulated
 
 - type: entity
