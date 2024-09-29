@@ -1227,10 +1227,24 @@
     thresholds:
     - trigger:
         !type:DamageTrigger
-        damage: 700
+        damage: 500
       behaviors:
       - !type:DoActsBehavior
-        acts: [ "Destruction" ]
+        acts: ["Destruction"]
+      - !type:PlaySoundBehavior
+        sound:
+          collection: MetalSlam
+    - trigger:
+        !type:DamageTrigger
+        damage: 300
+      behaviors:
+      - !type:PlaySoundBehavior
+        sound:
+          collection: MetalSlam
+      - !type:ChangeConstructionNodeBehavior
+        node: girder
+      - !type:DoActsBehavior
+        acts: ["Destruction"]
   - type: IconSmooth
     key: walls
     base: mining
@@ -1239,6 +1253,11 @@
     - mining
     - miningB
   - type: Appearance
+  - type: Construction
+    graph: Girder
+    node: miningWall
+  - type: RadiationBlocker
+    resistance: 4
 
 - type: entity
   parent: WallShuttleDiagonal
@@ -1254,6 +1273,28 @@
     drawdepth: Walls
     sprite: Structures/Walls/mining_diagonal.rsi
     state: state0
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 400
+      behaviors:
+        - !type:DoActsBehavior
+          acts: [ "Destruction" ]
+        - !type:PlaySoundBehavior
+          sound:
+            collection: MetalSlam
+    - trigger:
+        !type:DamageTrigger
+        damage: 200
+      behaviors:
+      - !type:ChangeConstructionNodeBehavior
+        node: girder
+      - !type:PlaySoundBehavior
+        sound:
+          collection: MetalSlam
+      - !type:DoActsBehavior
+        acts: ["Destruction"]
   - type: IconSmooth
     mode: Diagonal
     key: walls
@@ -1261,6 +1302,11 @@
   - type: Icon
     sprite: Structures/Walls/mining_diagonal.rsi
     state: state0
+  - type: Construction
+    graph: Girder
+    node: diagonalMiningWall
+  - type: RadiationBlocker
+    resistance: 4
 
 
 # Vault Walls
