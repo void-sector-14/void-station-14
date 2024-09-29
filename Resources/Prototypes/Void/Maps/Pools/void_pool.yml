@@ -2,7 +2,7 @@
   id: VoidMapPool
   maps:
   - VSBagel
-  - VSBox
+  # - VSBox
   - VSCog
   - VSCore
   - VSFland
