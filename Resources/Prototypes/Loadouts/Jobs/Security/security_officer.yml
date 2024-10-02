@@ -135,6 +135,16 @@
   equipment:
     shoes: ClothingShoesBootsWinterSecFilled
 
+- type: loadout
+  id: ShoesSwat
+  equipment:
+    shoes: ClothingShoesSwat
+
+- type: loadout
+  id: ShoesDusk
+  equipment:
+    shoes: ClothingShoesBootsCombatDusk
+
 # PDA
 - type: loadout
   id: SecurityPDA
@@ -158,3 +168,14 @@
   storage:
     back:
     - Dinkystar
+
+# Gloves
+- type: loadout
+  id: GlovesBlack
+  equipment:
+    gloves: ClothingHandsGlovesColorBlack
+
+- type: loadout
+  id: GlovesFingerless
+  equipment:
+    gloves: ClothingHandsGlovesFingerless

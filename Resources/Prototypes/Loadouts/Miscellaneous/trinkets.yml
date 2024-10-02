@@ -69,3 +69,9 @@
   storage:
     back:
     - CigarGold
+
+- type: loadout
+  id: FlippoLighter
+  storage:
+    back:
+    - FlippoLighter

@@ -10,6 +10,6 @@
     jumpsuit: ClothingUniformJumpskirtSecGrey
 
 - type: loadout
-  id: BlueJumpsuit
+  id: BlueJumpsuitSec
   equipment:
     jumpsuit: ClothingUniformJumpsuitSecBlue

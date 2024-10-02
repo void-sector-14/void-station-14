@@ -26,6 +26,7 @@ loadout-group-hop-jumpsuit = Глава персонала, комбинезон
 loadout-group-hop-neck = Глава персонала, шея
 loadout-group-hop-backpack = Глава персонала, рюкзак
 loadout-group-hop-outerclothing = Глава персонала, верхняя одежда
+loadout-group-hop-shoes = Глава персонала, обувь
 # Civilian
 loadout-group-passenger-jumpsuit = Пассажир, комбинезон
 loadout-group-passenger-mask = Пассажир, маска
@@ -135,6 +136,7 @@ loadout-group-security-belt = Офицер СБ, пояс
 loadout-group-security-outerclothing = Офицер СБ, верхняя одежда
 loadout-group-security-shoes = Офицер СБ, обувь
 loadout-group-security-id = Офицер СБ, ID
+loadout-group-security-gloves = Офицер СБ, перчатки
 loadout-group-detective-head = Детектив, голова
 loadout-group-security-star = СБ, Звёзда
 loadout-group-detective-neck = Детектив, шея
