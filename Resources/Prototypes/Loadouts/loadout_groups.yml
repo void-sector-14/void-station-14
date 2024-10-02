@@ -1018,8 +1018,8 @@
   loadouts:
   - SecurityJumpsuit
   - SecurityJumpskirt
-  - SecurityJumpsuitGrey
-  - SecurityJumpskirtGrey
+  # - SecurityJumpsuitGrey
+  # - SecurityJumpskirtGrey
   - SeniorOfficerJumpsuit
   - SeniorOfficerJumpskirt
 
@@ -1053,7 +1053,7 @@
   - JackBoots
   - SecurityWinterBoots
   - ShoesSwat
-  - CombatDusk
+  - ShoesDusk
 
 - type: loadoutGroup
   id: SecurityPDA
