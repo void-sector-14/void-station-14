@@ -513,6 +513,12 @@
   id: MobFoxRenault
   description: The captain's trustworthy fox.
   components:
+  - type: Sprite
+    drawdepth: Mobs
+    sprite: Void/Mobs/Animals/alisa.rsi
+    layers:
+    - map: ["enum.DamageStateVisualLayers.Base", "movement"]
+      state: fox
   - type: InteractionPopup
     successChance: 1
     interactSuccessString: petting-success-soft-floofy
