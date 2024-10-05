@@ -24,6 +24,11 @@
             - material: Steel
               amount: 1
               doAfter: 2.0
+        - to: spotlight
+          steps:
+            - material: Steel
+              amount: 2
+              doAfter: 2.0
     - node: tubeLight
       entity: PoweredlightEmpty
       edges:
@@ -83,4 +88,19 @@
             - !type:SpawnPrototype
               prototype: SheetSteel1
               amount: 1
+            - !type:DeleteEntity {}
+    - node: spotlight
+      entity: SpotlightEmpty
+      edges:
+        - to: start
+          conditions:
+            - !type:ContainerEmpty
+              container: "light_bulb"
+          steps:
+            - tool: Screwing
+              doAfter: 2.0
+          completed:
+            - !type:SpawnPrototype
+              prototype: SheetSteel1
+              amount: 2
             - !type:DeleteEntity {}
