@@ -11,7 +11,7 @@ particle-accelerator-control-menu-check-containment-field-warning = Убедит
 particle-accelerator-control-menu-foo-bar-baz = FOO-BAR-BAZ
 particle-accelerator-control-menu-status-label = [bold]Статус:[/bold]
 particle-accelerator-control-menu-status-unknown = [font="Monospace"][color=red]Нет данных[/color][/bold]
-particle-accelerator-control-menu-status-operational = [font="Monospace"][color=green]Работоспособно[/color][/bold]
+particle-accelerator-control-menu-status-operational = [font="Monospace"][color=green]Работает[/color][/bold]
 particle-accelerator-control-menu-status-incomplete = [font="Monospace"][color=red]Не завершено[/color][/bold]
 particle-accelerator-control-menu-draw = [bold]Мощность:[/bold]
 particle-accelerator-control-menu-draw-value = [font="Monospace"]{ $watts }/{ $lastReceive }[/font]
