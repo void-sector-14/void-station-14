@@ -72,7 +72,7 @@ entities:
       name: Oasis
     - type: Transform
       pos: -0.5104167,-0.5
-      parent: invalid
+      parent: 3854
     - type: MapGrid
       chunks:
         0,0:
@@ -8356,6 +8356,18 @@ entities:
     - type: NavMap
     - type: BecomesStation
       id: Oasis
+  - uid: 3854
+    components:
+    - type: MetaData
+      name: Map Entity
+    - type: Transform
+    - type: Map
+      mapPaused: True
+    - type: PhysicsMap
+    - type: GridTree
+    - type: MovedGrids
+    - type: Broadphase
+    - type: OccluderTree
 - proto: AcousticGuitarInstrument
   entities:
   - uid: 1634
@@ -12697,7 +12709,7 @@ entities:
       lastSignals:
         DoorStatus: True
     - type: Door
-      secondsUntilStateChange: -59822.348
+      secondsUntilStateChange: -60112.832
       state: Opening
   - uid: 6934
     components:
@@ -12709,7 +12721,7 @@ entities:
       lastSignals:
         DoorStatus: True
     - type: Door
-      secondsUntilStateChange: -59824.98
+      secondsUntilStateChange: -60115.465
       state: Opening
   - uid: 6935
     components:
@@ -12721,7 +12733,7 @@ entities:
       lastSignals:
         DoorStatus: True
     - type: Door
-      secondsUntilStateChange: -59823.832
+      secondsUntilStateChange: -60114.316
       state: Opening
   - uid: 6936
     components:
@@ -12732,7 +12744,7 @@ entities:
       lastSignals:
         DoorStatus: True
     - type: Door
-      secondsUntilStateChange: -59823.047
+      secondsUntilStateChange: -60113.53
       state: Opening
 - proto: AirlockTheatreLocked
   entities:
@@ -17705,6 +17717,20 @@ entities:
     - type: Transform
       pos: -25.5,-11.5
       parent: 2
+- proto: BedsheetBrigmedic
+  entities:
+  - uid: 21017
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 41.5,-12.5
+      parent: 2
+  - uid: 21018
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 41.5,-11.5
+      parent: 2
 - proto: BedsheetBrown
   entities:
   - uid: 6735
@@ -18874,13 +18900,6 @@ entities:
     - type: Transform
       rot: 1.5707963267948966 rad
       pos: 45.5,-10.5
-      parent: 2
-- proto: Brutepack
-  entities:
-  - uid: 24252
-    components:
-    - type: Transform
-      pos: 41.55124,-13.37919
       parent: 2
 - proto: Bucket
   entities:
@@ -68567,7 +68586,7 @@ entities:
       pos: -13.5,-1.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -51146.33
+      secondsUntilStateChange: -51436.812
     - type: DeviceNetwork
       deviceLists:
       - 18275
@@ -109506,7 +109525,7 @@ entities:
       pos: 36.5,-35.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -87978.18
+      secondsUntilStateChange: -88268.664
       state: Opening
   - uid: 5211
     components:
@@ -110434,6 +110453,13 @@ entities:
     components:
     - type: Transform
       pos: 14.5,23.5
+      parent: 2
+- proto: LockerBrigmedicFilled
+  entities:
+  - uid: 21015
+    components:
+    - type: Transform
+      pos: 41.5,-13.5
       parent: 2
 - proto: LockerCaptainFilledNoLaser
   entities:
@@ -111782,6 +111808,16 @@ entities:
     - type: Transform
       pos: -31.5,-36.5
       parent: 2
+  - uid: 3856
+    components:
+    - type: Transform
+      pos: 41.5,-12.5
+      parent: 2
+  - uid: 21016
+    components:
+    - type: Transform
+      pos: 41.5,-11.5
+      parent: 2
 - proto: MedicalTechFab
   entities:
   - uid: 1523
@@ -111826,7 +111862,7 @@ entities:
   - uid: 24246
     components:
     - type: Transform
-      pos: 37.53505,-14.097963
+      pos: 45.62932,-12.771978
       parent: 2
 - proto: MedkitBurnFilled
   entities:
@@ -111887,7 +111923,7 @@ entities:
   - uid: 24247
     components:
     - type: Transform
-      pos: 37.514214,-14.931296
+      pos: 45.488693,-12.443853
       parent: 2
   - uid: 29419
     components:
@@ -112168,6 +112204,12 @@ entities:
       rot: -1.5707963267948966 rad
       pos: -6.5,-27.5
       parent: 2
+  - uid: 21014
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 45.5,-11.5
+      parent: 2
 - proto: MouseTimedSpawner
   entities:
   - uid: 20663
@@ -112434,13 +112476,6 @@ entities:
     components:
     - type: Transform
       pos: 58.485508,21.59031
-      parent: 2
-- proto: Ointment
-  entities:
-  - uid: 24253
-    components:
-    - type: Transform
-      pos: 45.50957,-13.525023
       parent: 2
 - proto: OperatingTable
   entities:
@@ -129817,13 +129852,6 @@ entities:
     - type: Transform
       pos: -25.5,-20.5
       parent: 2
-- proto: SpawnMobMonkeyPunpun
-  entities:
-  - uid: 20671
-    components:
-    - type: Transform
-      pos: -21.5,13.5
-      parent: 2
 - proto: SpawnMobMouse
   entities:
   - uid: 4031
@@ -130074,6 +130102,13 @@ entities:
     components:
     - type: Transform
       pos: 5.5,15.5
+      parent: 2
+- proto: SpawnPointBrigmedic
+  entities:
+  - uid: 21019
+    components:
+    - type: Transform
+      pos: 43.5,-12.5
       parent: 2
 - proto: SpawnPointCaptain
   entities:
@@ -131107,21 +131142,6 @@ entities:
     - type: Transform
       rot: 1.5707963267948966 rad
       pos: 31.5,-3.5
-      parent: 2
-  - uid: 3854
-    components:
-    - type: Transform
-      pos: 42.5,-11.5
-      parent: 2
-  - uid: 3855
-    components:
-    - type: Transform
-      pos: 43.5,-11.5
-      parent: 2
-  - uid: 3856
-    components:
-    - type: Transform
-      pos: 44.5,-11.5
       parent: 2
 - proto: Stool
   entities:
@@ -135421,6 +135441,12 @@ entities:
       rot: 1.5707963267948966 rad
       pos: 56.5,-9.5
       parent: 2
+  - uid: 20671
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 45.5,-12.5
+      parent: 2
   - uid: 21004
     components:
     - type: Transform
@@ -135461,16 +135487,6 @@ entities:
     components:
     - type: Transform
       pos: -6.5,47.5
-      parent: 2
-  - uid: 24250
-    components:
-    - type: Transform
-      pos: 41.5,-13.5
-      parent: 2
-  - uid: 24251
-    components:
-    - type: Transform
-      pos: 45.5,-13.5
       parent: 2
 - proto: TableStone
   entities:
@@ -137412,6 +137428,11 @@ entities:
     components:
     - type: Transform
       pos: -26.5,-29.5
+      parent: 2
+  - uid: 3855
+    components:
+    - type: Transform
+      pos: 45.5,-13.5
       parent: 2
 - proto: VendingMachineMediDrobe
   entities:
@@ -154851,6 +154872,12 @@ entities:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: -12.5,19.5
+      parent: 2
+  - uid: 21013
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 45.5,-12.5
       parent: 2
   - uid: 22277
     components:

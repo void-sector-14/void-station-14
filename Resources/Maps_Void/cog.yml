@@ -62,7 +62,7 @@ entities:
       name: grid
     - type: Transform
       pos: 1.09375,-1.3229165
-      parent: invalid
+      parent: 63
     - type: MapGrid
       chunks:
         0,0:
@@ -10929,6 +10929,18 @@ entities:
     - type: GasTileOverlay
     - type: RadiationGridResistance
     - type: NavMap
+  - uid: 63
+    components:
+    - type: MetaData
+      name: Map Entity
+    - type: Transform
+    - type: Map
+      mapPaused: True
+    - type: PhysicsMap
+    - type: GridTree
+    - type: MovedGrids
+    - type: Broadphase
+    - type: OccluderTree
 - proto: ActionStethoscope
   entities:
   - uid: 4711
@@ -12075,7 +12087,6 @@ entities:
       - 19395
       - 19392
       - 23793
-      - 19289
       - 245
       - 246
       - 26113
@@ -16129,11 +16140,6 @@ entities:
       parent: 12
 - proto: AirlockSecurityGlassLocked
   entities:
-  - uid: 63
-    components:
-    - type: Transform
-      pos: -48.5,57.5
-      parent: 12
   - uid: 8715
     components:
     - type: Transform
@@ -16298,7 +16304,7 @@ entities:
       pos: -9.5,-59.5
       parent: 12
     - type: Door
-      secondsUntilStateChange: -11256.565
+      secondsUntilStateChange: -11487.446
       state: Opening
     - type: DeviceLinkSink
       invokeCounter: 1
@@ -20278,6 +20284,14 @@ entities:
     - type: Transform
       pos: -4.5,58.5
       parent: 12
+- proto: BedsheetBrigmedic
+  entities:
+  - uid: 19193
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: -46.5,55.5
+      parent: 12
 - proto: BedsheetCaptain
   entities:
   - uid: 17413
@@ -20356,12 +20370,6 @@ entities:
       parent: 12
 - proto: BedsheetMedical
   entities:
-  - uid: 89
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: -46.5,55.5
-      parent: 12
   - uid: 5384
     components:
     - type: Transform
@@ -20929,16 +20937,6 @@ entities:
     components:
     - type: Transform
       pos: 28.499054,39.898373
-      parent: 12
-  - uid: 19282
-    components:
-    - type: Transform
-      pos: -46.21142,54.60185
-      parent: 12
-  - uid: 19283
-    components:
-    - type: Transform
-      pos: -46.517414,54.638542
       parent: 12
   - uid: 21421
     components:
@@ -78741,11 +78739,6 @@ entities:
     - type: Transform
       pos: 40.589756,28.67458
       parent: 12
-  - uid: 19287
-    components:
-    - type: Transform
-      pos: -46.73773,54.846462
-      parent: 12
 - proto: ClothingNeckBling
   entities:
   - uid: 17459
@@ -79009,11 +79002,6 @@ entities:
     components:
     - type: Transform
       pos: -11.401172,-62.36277
-      parent: 12
-  - uid: 19275
-    components:
-    - type: Transform
-      pos: -47.597347,54.737755
       parent: 12
 - proto: ClothingOuterSuitEmergency
   entities:
@@ -97740,14 +97728,6 @@ entities:
     - type: DeviceNetwork
       deviceLists:
       - 18884
-  - uid: 19289
-    components:
-    - type: Transform
-      pos: -48.5,57.5
-      parent: 12
-    - type: DeviceNetwork
-      deviceLists:
-      - 23791
   - uid: 19290
     components:
     - type: Transform
@@ -143969,7 +143949,7 @@ entities:
   - uid: 19274
     components:
     - type: Transform
-      pos: -47.560627,54.395298
+      pos: -46.541626,54.68481
       parent: 12
 - proto: HandheldStationMapUnpowered
   entities:
@@ -145320,6 +145300,13 @@ entities:
     components:
     - type: Transform
       pos: 61.5,42.5
+      parent: 12
+- proto: LockerBrigmedicFilled
+  entities:
+  - uid: 19287
+    components:
+    - type: Transform
+      pos: -47.5,54.5
       parent: 12
 - proto: LockerCaptainFilledNoLaser
   entities:
@@ -146842,7 +146829,7 @@ entities:
   - uid: 19273
     components:
     - type: Transform
-      pos: -47.168957,54.529835
+      pos: -46.28121,54.25773
       parent: 12
   - uid: 20794
     components:
@@ -167568,13 +167555,6 @@ entities:
     - type: Transform
       pos: 0.5,-46.5
       parent: 12
-- proto: SpawnMobMonkeyPunpun
-  entities:
-  - uid: 23510
-    components:
-    - type: Transform
-      pos: 26.5,50.5
-      parent: 12
 - proto: SpawnMobMouse
   entities:
   - uid: 12047
@@ -167775,6 +167755,13 @@ entities:
     components:
     - type: Transform
       pos: 15.5,51.5
+      parent: 12
+- proto: SpawnPointBrigmedic
+  entities:
+  - uid: 19282
+    components:
+    - type: Transform
+      pos: -47.5,55.5
       parent: 12
 - proto: SpawnPointCaptain
   entities:
@@ -172765,12 +172752,6 @@ entities:
     - type: Transform
       pos: -29.5,58.5
       parent: 12
-  - uid: 21393
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: -47.5,54.5
-      parent: 12
   - uid: 21441
     components:
     - type: Transform
@@ -174193,6 +174174,11 @@ entities:
     components:
     - type: Transform
       pos: -47.5,57.5
+      parent: 12
+  - uid: 19283
+    components:
+    - type: Transform
+      pos: -48.5,57.5
       parent: 12
   - uid: 19368
     components:
@@ -176934,6 +176920,11 @@ entities:
     components:
     - type: Transform
       pos: 26.5,35.5
+      parent: 12
+  - uid: 19275
+    components:
+    - type: Transform
+      pos: -48.5,56.5
       parent: 12
   - uid: 21330
     components:
@@ -199188,6 +199179,12 @@ entities:
       rot: 3.141592653589793 rad
       pos: 2.5,-0.5
       parent: 12
+  - uid: 89
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: -48.5,57.5
+      parent: 12
   - uid: 220
     components:
     - type: Transform
@@ -199722,11 +199719,11 @@ entities:
       rot: 3.141592653589793 rad
       pos: -39.5,46.5
       parent: 12
-  - uid: 19193
+  - uid: 19289
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
-      pos: -47.5,57.5
+      pos: -48.5,57.5
       parent: 12
   - uid: 19349
     components:
