@@ -29,12 +29,21 @@ public sealed partial class GrapplingGunComponent : Component
         Params = AudioParams.Default.WithLoop(true)
     };
 
+    [ViewVariables(VVAccess.ReadWrite), DataField("reelSoundCustom"), AutoNetworkedField]
+    public SoundSpecifier? ReelSoundCustom;
+
     [ViewVariables(VVAccess.ReadWrite), DataField("cycleSound"), AutoNetworkedField]
     public SoundSpecifier? CycleSound = new SoundPathSpecifier("/Audio/Weapons/Guns/MagIn/kinetic_reload.ogg");
+
+    [ViewVariables(VVAccess.ReadWrite), DataField("cycleSoundCustom"), AutoNetworkedField]
+    public SoundSpecifier? CycleSoundCustom;
 
     [DataField, ViewVariables]
     public SpriteSpecifier RopeSprite =
         new SpriteSpecifier.Rsi(new ResPath("Objects/Weapons/Guns/Launchers/grappling_gun.rsi"), "rope");
+
+    [DataField, ViewVariables]
+    public SpriteSpecifier? RopeSpriteCustom;
 
     public EntityUid? Stream;
 }

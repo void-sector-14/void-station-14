@@ -1,0 +1,60 @@
+{
+    "version": 1,
+    "size":
+    {
+      "x": 32,
+      "y": 32
+    },
+    "license": "CC-BY-SA-3.0",
+    "copyright": "Taken from SS13",
+    "states":
+    [
+      {
+        "name": "standing",
+        "directions": 4,
+        "delays": [
+          [
+            5.1,
+            0.1,
+            5.1,
+            0.1,
+            0.1,
+            0.1
+          ],
+          [
+            5.1,
+            0.1,
+            5.1,
+            0.1,
+            0.1,
+            0.1
+          ],
+          [
+            5.1,
+            0.1,
+            5.1,
+            0.1,
+            0.1,
+            0.1
+          ],
+          [
+            5.1,
+            0.1,
+            5.1,
+            0.1,
+            0.1,
+            0.1
+          ]
+        ]
+      },
+      {
+        "name": "sleep",
+        "directions": 1
+      },  
+      {
+        "name": "dead",
+        "directions": 1
+      }
+    ]
+  }
+  
