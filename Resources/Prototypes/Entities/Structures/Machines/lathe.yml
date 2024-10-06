@@ -150,6 +150,7 @@
       - ExteriorLightTube
       - LightBulb
       - LedLightBulb
+      - ExteriorLightBulb
       - Bucket
       - DrinkMug
       - DrinkMugMetal

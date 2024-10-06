@@ -1,0 +1,282 @@
+- type: Tag
+  id: ClothingNeckCloakCap
+
+- type: Tag
+  id: ClothingNeckCloakHos
+
+- type: Tag
+  id: ClothingNeckCloakCe
+
+- type: Tag
+  id: ClothingNeckCloakCmo
+
+- type: Tag
+  id: ClothingNeckCloakRd
+
+- type: Tag
+  id: ClothingNeckCloakQm
+
+- type: Tag
+  id: ClothingNeckCloakHop
+
+- type: Tag
+  id: ClothingNeckCloakCapFormal
+
+- type: Tag
+  id: ClothingNeckCloakMiner
+
+- type: entity
+  parent: ClothingNeckTieRed
+  id: ClothingNeckTieRedSlimecat
+  name: обрезаный красный галстук
+  description: Ваш галстук стал как-то нелепо коротким...
+  components:
+  - type: Sprite
+    sprite: Void/Malanisa_sprites/Objects/Slimecat_items/Clothing/Neck/Ties/redtie.rsi
+  - type: Clothing
+    sprite: Void/Malanisa_sprites/Objects/Slimecat_items/Clothing/Neck/Ties/redtie.rsi
+  - type: Tag
+    tags:
+    - HamsterWearable
+    - Slimecatgear
+    - SlimecatgearGourmand
+    - ClothMade
+
+- type: entity
+  parent: ClothingNeckTieDet
+  id: ClothingNeckTieDetSlimecat
+  name: обрезаный чёрный галстук
+  description: Ваш галстук стал как-то нелепо коротким...
+  components:
+  - type: Sprite
+    sprite: Void/Malanisa_sprites/Objects/Slimecat_items/Clothing/Neck/Ties/dettie.rsi
+  - type: Clothing
+    sprite: Void/Malanisa_sprites/Objects/Slimecat_items/Clothing/Neck/Ties/dettie.rsi
+  - type: Tag
+    tags:
+    - Slimecatgear
+    - SlimecatgearGourmand
+    - ClothMade
+
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckTieSciSlimecat
+  name: обрезаный фиолетовый галстук
+  description: Нелепый галстук стал еще более нелепым...
+  components:
+  - type: Sprite
+    sprite: Void/Malanisa_sprites/Objects/Slimecat_items/Clothing/Neck/Ties/scitie.rsi
+  - type: Clothing
+    sprite: Void/Malanisa_sprites/Objects/Slimecat_items/Clothing/Neck/Ties/scitie.rsi
+  - type: Tag
+    tags:
+    - HamsterWearable
+    - Slimecatgear
+    - SlimecatgearGourmand
+    - ClothMade
+
+- type: entity
+  parent: [ClothingNeckBase, BaseCommandContraband]
+  id: ClothingNeckCloakCapSlimecat
+  suffix: Обгрызанный
+  name: плащ капитана
+  description: Кто-то обгрыз ваш плащ...
+  components:
+  - type: Sprite
+    sprite: Void/Malanisa_sprites/Objects/Slimecat_items/Clothing/Neck/Cloaks/cap.rsi
+  - type: Tag
+    tags:
+    - Slimecatgear
+    - SlimecatgearGourmand
+    - ClothMade
+  - type: Construction
+    graph: CloakCap
+    node: CloakCap
+
+- type: entity
+  parent: [ClothingNeckBase, BaseCommandContraband]
+  id: ClothingNeckCloakHosSlimecat
+  suffix: Обгрызанный 
+  name: плащ главы службы безопасности
+  description: Кто-то обгрыз ваш плащ...
+  components:
+  - type: Sprite
+    sprite: Void/Malanisa_sprites/Objects/Slimecat_items/Clothing/Neck/Cloaks/hos.rsi    
+  - type: Tag
+    tags:
+    - Slimecatgear
+    - SlimecatgearGourmand
+    - ClothMade
+  - type: Construction
+    graph: CloakHos
+    node: CloakHos
+
+- type: entity
+  parent: [ClothingNeckBase, BaseCommandContraband]
+  id: ClothingNeckCloakCeSlimecat
+  suffix: Обгрызанный 
+  name: плащ старшего инженера
+  description: Кто-то обгрыз ваш плащ...
+  components:
+  - type: Sprite
+    sprite: Void/Malanisa_sprites/Objects/Slimecat_items/Clothing/Neck/Cloaks/ce.rsi   
+  - type: Tag
+    tags:
+    - Slimecatgear
+    - SlimecatgearGourmand
+    - ClothMade
+  - type: Construction
+    graph: CloakCe
+    node: CloakCe
+
+- type: entity
+  parent: [ClothingNeckBase, BaseCommandContraband]
+  id: ClothingCloakCmoSlimecat
+  suffix: Обгрызанный 
+  name: плащ главного врача
+  description: Кто-то обгрыз ваш плащ...
+  components:
+  - type: Sprite
+    sprite: Void/Malanisa_sprites/Objects/Slimecat_items/Clothing/Neck/Cloaks/cmo.rsi
+  - type: Tag
+    tags:
+    - Slimecatgear
+    - SlimecatgearGourmand
+    - ClothMade
+  - type: Construction
+    graph: CloakCmo
+    node: CloakCmo
+
+- type: entity
+  parent: [ClothingNeckBase, BaseCommandContraband]
+  id: ClothingNeckCloakRdSlimecat
+  suffix: Обгрызанный 
+  name: плащ научного руководителя
+  description: Кто-то обгрыз ваш плащ...
+  components:
+  - type: Sprite
+    sprite: Void/Malanisa_sprites/Objects/Slimecat_items/Clothing/Neck/Cloaks/rd.rsi  
+  - type: Tag
+    tags:
+    - Slimecatgear
+    - SlimecatgearGourmand
+    - ClothMade
+  - type: Construction
+    graph: CloakRd
+    node: CloakRd
+
+- type: entity
+  parent: [ClothingNeckBase, BaseCommandContraband]
+  id: ClothingNeckCloakQmSlimecat
+  suffix: Обгрызанный 
+  name: плащ квартирмейстера
+  description: Кто-то обгрыз ваш плащ...
+  components:
+  - type: Sprite
+    sprite: Void/Malanisa_sprites/Objects/Slimecat_items/Clothing/Neck/Cloaks/qm.rsi
+  - type: Tag
+    tags:
+    - Slimecatgear
+    - SlimecatgearGourmand
+    - ClothMade    
+  - type: Construction
+    graph: CloakQm
+    node: CloakQm
+
+- type: entity
+  parent: [ClothingNeckBase, BaseCommandContraband]
+  id: ClothingNeckCloakHopSlimecat
+  suffix: Обгрызанный 
+  name: плащ главы персонала
+  description: Кто-то обгрыз ваш плащ...
+  components:
+  - type: Sprite
+    sprite: Void/Malanisa_sprites/Objects/Slimecat_items/Clothing/Neck/Cloaks/hop.rsi
+  - type: Tag
+    tags:
+    - Slimecatgear
+    - SlimecatgearGourmand
+    - ClothMade        
+  - type: Construction
+    graph: CloakHop
+    node: CloakHop
+
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckCloakMinerSlimecat
+  suffix: Обгрызанный 
+  name: плащ шахтёра
+  description: Кто-то обгрыз ваш плащ...
+  components:
+  - type: Sprite
+    sprite: Void/Malanisa_sprites/Objects/Slimecat_items/Clothing/Neck/Cloaks/miner.rsi
+  - type: Tag
+    tags:
+    - Slimecatgear
+    - SlimecatgearGourmand
+    - ClothMade   
+  - type: Construction
+    graph: CloakMiner
+    node: CloakMiner
+
+- type: entity
+  parent: [ClothingNeckBase, BaseCommandContraband]
+  id: ClothingNeckCloakHCapFormalSlimecat
+  suffix: Обгрызанный 
+  name: торжественный плащ капитана
+  description: Кто-то обгрыз ваш плащ...
+  components:
+  - type: Sprite
+    sprite: Void/Malanisa_sprites/Objects/Slimecat_items/Clothing/Neck/Cloaks/capcloakformal.rsi
+  - type: Tag
+    tags:
+    - Slimecatgear
+    - SlimecatgearGourmand
+    - ClothMade       
+  - type: Construction
+    graph: CapFormal
+    node: CapFormal
+
+  ####- type: Construction
+  ####  graph: WoodenBat
+  ####  node: incompleteBat
+
+- type: entity
+  parent: ClothingBeltStorageBase
+  id: ClothingBeltStorageWaistbagSlimecat
+  name: маленькая сумочка
+  description: Какая-то криваая поделка из ткани.
+  components:
+  - type: Sprite
+    sprite: Void/Malanisa_sprites/Objects/Slimecat_items/waistbag_mini.rsi
+  - type: Clothing
+    sprite: Void/Malanisa_sprites/Objects/Slimecat_items/waistbag_mini.rsi
+  - type: Storage
+    grid:
+    - 0,0,2,1
+  - type: Tag
+    tags:
+    - Slimecatgear
+  - type: Construction
+    graph: Slimecat_belt
+    node: Slimecat_belt
+
+- type: entity
+  parent: ClothingBackpack
+  id: ClothingStorageSlimecatBack
+  name: маленький рюкзак
+  description: Какая-то криваая поделка из ткани.
+  components:
+  - type: Sprite
+    sprite: Void/Malanisa_sprites/Objects/Slimecat_items/backpack.rsi
+  - type: Clothing
+    sprite: Void/Malanisa_sprites/Objects/Slimecat_items/backpack.rsi
+  - type: Storage
+    grid:
+    - 0,0,2,2    
+  - type: Tag
+    tags:
+    - Slimecatgear    
+  - type: Construction
+    graph: Slimecat_back
+    node: Slimecat_back

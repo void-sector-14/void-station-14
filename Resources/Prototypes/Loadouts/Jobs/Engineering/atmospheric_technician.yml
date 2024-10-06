@@ -35,9 +35,3 @@
   id: AtmosphericTechnicianWintercoat
   equipment:
     outerClothing: ClothingOuterWinterAtmos
-
-# Shoes
-- type: loadout
-  id: WhiteShoes
-  equipment:
-    shoes: ClothingShoesColorWhite

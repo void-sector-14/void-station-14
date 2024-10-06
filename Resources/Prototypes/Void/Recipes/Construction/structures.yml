@@ -244,3 +244,19 @@
     state: state0
   objectType: Structure
   placementMode: SnapgridCenter
+
+- type: construction
+  name: настенный прожектор
+  id: Spotlight
+  graph: LightFixture
+  startNode: start
+  targetNode: spotlight
+  category: construction-category-structures
+  description: Настенный прожектор. Использует лампы накаливания.
+  icon:
+    sprite: Void/Structures/Wallmounts/Lighting/spotlight.rsi
+    state: base
+  objectType: Structure
+  placementMode: SnapgridCenter
+  canRotate: true
+  canBuildInImpassable: true

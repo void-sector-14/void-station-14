@@ -16,6 +16,7 @@ using Robust.Shared.Physics.Dynamics.Joints;
 using Robust.Shared.Physics.Systems;
 using Robust.Shared.Serialization;
 using Robust.Shared.Timing;
+using Robust.Shared.Audio;
 
 namespace Content.Shared.Weapons.Misc;
 
@@ -62,7 +63,11 @@ public abstract class SharedGrapplingGunSystem : EntitySystem
             component.Projectile = shotUid.Value;
             Dirty(uid, component);
             var visuals = EnsureComp<JointVisualsComponent>(shotUid.Value);
-            visuals.Sprite = component.RopeSprite;
+            if (component.RopeSpriteCustom != null){
+               visuals.Sprite = component.RopeSpriteCustom; 
+            }else {
+                visuals.Sprite = component.RopeSprite;
+            }
             visuals.OffsetA = new Vector2(0f, 0.5f);
             visuals.Target = GetNetEntity(uid);
             Dirty(shotUid.Value, visuals);
@@ -120,7 +125,13 @@ public abstract class SharedGrapplingGunSystem : EntitySystem
         if (Deleted(component.Projectile))
             return;
 
-        _audio.PlayPredicted(component.CycleSound, uid, args.User);
+        SoundSpecifier? cycleSound;
+        if (component.CycleSoundCustom!=null) {
+            cycleSound= component.CycleSoundCustom;
+        } else{
+            cycleSound=component.CycleSound;
+        }
+        _audio.PlayPredicted(cycleSound, uid, args.User);
         _appearance.SetData(uid, SharedTetherGunSystem.TetherVisualsStatus.Key, true);
 
         if (_netManager.IsServer)
@@ -142,8 +153,16 @@ public abstract class SharedGrapplingGunSystem : EntitySystem
 
         if (value)
         {
-            if (Timing.IsFirstTimePredicted)
-                component.Stream = _audio.PlayPredicted(component.ReelSound, uid, user)?.Entity;
+            if (Timing.IsFirstTimePredicted){
+                SoundSpecifier? reelSound;
+                if (component.ReelSoundCustom!=null) {
+                    reelSound= component.ReelSoundCustom;
+                } else{
+                    reelSound=component.ReelSound;
+                }
+                component.Stream = _audio.PlayPredicted(reelSound, uid, user)?.Entity;
+            }
+    
         }
         else
         {
