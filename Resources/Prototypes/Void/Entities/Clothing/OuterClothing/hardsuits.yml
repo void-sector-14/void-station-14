@@ -42,3 +42,90 @@
   - type: ClothingSpeedModifier
     walkModifier: 0.9
     sprintModifier: 0.9
+
+#Trauma team EVA
+- type: entity
+  parent: [ClothingOuterHardsuitBase, BaseRestrictedContraband]
+  id: ClothingOuterHardsuitTraumaTeam
+  name: EVA Парамедика "Траумы"
+  description: Специальный прототип скафандра EVA для отрядов Trauma Team Interstellar. Снабжен экзоскелетом для повышенной грузоподъёмности и мобильности.
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/OuterClothing/Hardsuits/traumateam.rsi
+  - type: Clothing
+    sprite: Void/Clothing/OuterClothing/Hardsuits/traumateam.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.3
+    lowPressureMultiplier: 1000
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.8
+        Slash: 0.8
+        Piercing: 0.7
+  - type: ClothingSpeedModifier
+    walkModifier: 1
+    sprintModifier: 1
+  - type: HeldSpeedModifier
+  - type: ToggleableClothing
+    clothingPrototype: TraumaTeamHelmet
+
+#Trauma team EVAR
+- type: entity
+  parent: [ClothingOuterHardsuitBase, BaseRestrictedContraband]
+  id: ClothingOuterHardsuitTraumaTeamRed
+  name: EVA Техника "Траумы"
+  description: Специальный прототип скафандра EVA для отрядов Trauma Team Interstellar. Снабжен экзоскелетом для повышенной грузоподъёмности и мобильности.
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/OuterClothing/Hardsuits/traumateam.rsi
+  - type: Clothing
+    sprite: Void/Clothing/OuterClothing/Hardsuits/traumateam.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.3
+    lowPressureMultiplier: 1000
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.4
+        Slash: 0.8
+        Piercing: 0.4
+        Blast: 0.5
+        Heat: 0.5
+        Cold: 0.5
+  - type: ClothingSpeedModifier
+    walkModifier: 1
+    sprintModifier: 1
+  - type: HeldSpeedModifier
+  - type: ToggleableClothing
+    clothingPrototype: TraumaTeamHelmetRed
+
+#Trauma team EVAS
+- type: entity
+  parent: [ClothingOuterHardsuitBase, BaseRestrictedContraband]
+  id: ClothingOuterHardsuitTraumaTeamSur
+  name: EVA Реаниматора "Траумы"
+  description: Специальный прототип скафандра EVA для отрядов Trauma Team Interstellar. Снабжен экзоскелетом для повышенной грузоподъёмности и мобильности.
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/OuterClothing/Hardsuits/traumateam.rsi
+  - type: Clothing
+    sprite: Void/Clothing/OuterClothing/Hardsuits/traumateam.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.3
+    lowPressureMultiplier: 1000
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.8
+        Piercing: 0.9
+        Heat: 0.5
+        Cold: 0.5
+        Shock: 0.9
+  - type: ClothingSpeedModifier
+    walkModifier: 1
+    sprintModifier: 1
+  - type: HeldSpeedModifier
+  - type: ToggleableClothing
+    clothingPrototype: TraumaTeamHelmetSur
