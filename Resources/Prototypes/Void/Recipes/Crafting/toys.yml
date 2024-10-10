@@ -1,7 +1,7 @@
 # Resources\Prototypes\Recipes\Crafting\toys.yml
 # Resources\Prototypes\Void\Recipes\Crafting\toys.yml
 - type: construction
-  name: Кулон из зелёного кристалла
+  name: кулон из зелёного кристалла
   id: CheapPendantGreen
   graph: CheapPendantGreen
   startNode: start
@@ -14,7 +14,7 @@
     state: icon
 
 - type: construction
-  name: Кулон из оранжевого кристалла
+  name: кулон из оранжевого кристалла
   id: CheapPendantOrange
   graph: CheapPendantOrange
   startNode: start
@@ -27,7 +27,7 @@
     state: icon
 
 - type: construction
-  name: Кулон из розового кристалла
+  name: кулон из розового кристалла
   id: CheapPendantPink
   graph: CheapPendantPink
   startNode: start
@@ -40,7 +40,7 @@
     state: icon
 
 - type: construction
-  name: Кулон из голубого кристалла
+  name: кулон из голубого кристалла
   id: CheapPendantCyan
   graph: CheapPendantCyan
   startNode: start
@@ -53,7 +53,7 @@
     state: icon
 
 - type: construction
-  name: Кулон из синего кристалла
+  name: кулон из синего кристалла
   id: CheapPendantBlue
   graph: CheapPendantBlue
   startNode: start
@@ -66,7 +66,7 @@
     state: icon
 
 - type: construction
-  name: Кулон из серого кристалла
+  name: кулон из серого кристалла
   id: CheapPendantGrey
   graph: CheapPendantGrey
   startNode: start

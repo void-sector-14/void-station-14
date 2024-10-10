@@ -1,7 +1,7 @@
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: ClothingOuterHardsuitAriralExosuit
-  name: Экзоскафандр Арирал
+  name: экзоскафандр арирал
   description: Легкий экзоскафандр для подлглядывания за новыми видами.
   components:
   - type: Sprite
@@ -43,7 +43,7 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetAriralExosuit
-  name: Шлем экзоскафандра Арирал
+  name: шлем экзоскафандра арирал
   description: Как вы это увидели?
   components:
   - type: BreathMask

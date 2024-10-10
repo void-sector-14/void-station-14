@@ -58,7 +58,7 @@
     makeSentient: true
     allowSpeech: true
     allowMovement: true
-    name: Белый гусь
+    name: белый гусь
     description: >
       Бесите экипаж, воруйте вещи, станьте злом этой станции!
       Но будте осторожны, и не выбесите экипаж слишком сильно, вы не бессмертны.

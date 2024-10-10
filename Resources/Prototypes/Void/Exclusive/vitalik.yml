@@ -39,7 +39,7 @@
 - type: entity
   parent: [ClothingBeltBase, ClothingSlotBase]
   id: ClothingBeltSheathYamato
-  name: Ножны Ямато
+  name: ножны Ямато
   description: Исскустные древние ножны, для столь же древнего клинка
   suffix: Вишдом
   components:
@@ -64,7 +64,7 @@
           tags:
           - Yamato
   - type: Appearance
-  
+
 - type: entity
   id: ClothingBeltSheathYamatoFilled
   parent: ClothingBeltSheathYamato
@@ -78,7 +78,7 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: ClothingOuterCoatVerfilfort
-  name: Старое фамильное пальто
+  name: старое фамильное пальто
   description: длинный чёрный плащ с серебряными пуговицами и серебряным вышитым узором, похожим на змею. "Голова" змеи лежит на левом плече, а её "хвост" проходит вдоль воротника, через правое плечо и спускается вдоль пуговиц до нижнего края плаща.
   suffix: Вишдом
   components:
@@ -96,7 +96,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: VoidClothingUniformVergilJelet
-  name: Желетка из драконей кожи
+  name: жилетка из драконьей кожи
   description: Очень дорогое удовольствие
   suffix: Вишдом
   components:

@@ -7,7 +7,7 @@
     - to: pendantgreen
       steps:
       - tag: CrystalGreen
-        name: Осколок зелёного кристалла.
+        name: осколок зелёного кристалла.
         icon:
           sprite: Void/Structures/Decoration/crystal.rsi
           state: crystalshard_green
@@ -27,7 +27,7 @@
     - to: pendantorange
       steps:
       - tag: CrystalOrange
-        name: Осколок оранжевого кристалла.
+        name: осколок оранжевого кристалла.
         icon:
           sprite: Void/Structures/Decoration/crystal.rsi
           state: crystalshard_orange
@@ -47,7 +47,7 @@
     - to: pendantpink
       steps:
       - tag: CrystalPink
-        name: Осколок розового кристалла.
+        name: осколок розового кристалла.
         icon:
           sprite: Void/Structures/Decoration/crystal.rsi
           state: crystalshard_pink
@@ -67,7 +67,7 @@
     - to: pendantcyan
       steps:
       - tag: CrystalCyan
-        name: Осколок голубого кристалла.
+        name: осколок голубого кристалла.
         icon:
           sprite: Void/Structures/Decoration/crystal.rsi
           state: crystalshard_cyan
@@ -87,7 +87,7 @@
     - to: pendantblue
       steps:
       - tag: CrystalBlue
-        name: Осколок синего кристалла.
+        name: осколок синего кристалла.
         icon:
           sprite: Void/Structures/Decoration/crystal.rsi
           state: crystalshard_blue
@@ -107,7 +107,7 @@
     - to: pendantgrey
       steps:
       - tag: CrystalGrey
-        name: Осколок серого кристалла.
+        name: осколок серого кристалла.
         icon:
           sprite: Void/Structures/Decoration/crystal.rsi
           state: crystalshard_grey

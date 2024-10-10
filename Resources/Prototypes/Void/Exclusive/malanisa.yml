@@ -5,7 +5,7 @@
 - type: entity
   parent: ClothingMaskGas
   id: ClothingMaskGasDuskfort
-  name: Металлическая маска
+  name: металлическая маска
   description: Металличесекая маска с удобной подложкой
   suffix: Вещи Маланисы
   components:
@@ -27,7 +27,7 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: ClothingOuterCoatDuskfort
-  name: Пальто из драконьей кожи
+  name: пальто из драконьей кожи
   description: Пальто из редкого материала
   suffix: Вещи Маланисы
   components:
@@ -46,7 +46,7 @@
 - type: entity
   parent: ClothingShoesBootsCombat
   id: ClothingShoesBootsCombatDusk
-  name: Ботинки из драконьей кожи
+  name: ботинки из драконьей кожи
   description: Пара сапог из редкого материала
   suffix: Вещи Маланисы
   components:
@@ -62,7 +62,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpskirtDusk
-  name: Зелёная майка с шортами
+  name: зелёная майка с шортами
   description: Кто-то додумался порезать джинсы в шорты
   suffix: Вещи Маланисы
   components:

@@ -1,19 +1,19 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpskirtDress
-  name: Свадебное платье
+  name: свадебное платье
   description: Пышное свадебное платье, сделанное из шёлка, усыпанное узорами из цветов.
   components:
   - type: Sprite
     sprite: Void/Clothing/OuterClothing/Dresses/dress.rsi
   - type: Clothing
     slots: [ outerClothing ]
-    sprite: Void/Clothing/OuterClothing/Dresses/dress.rsi 
+    sprite: Void/Clothing/OuterClothing/Dresses/dress.rsi
 
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpskirtRichDress
-  name: Дорогое платье
+  name: дорогое платье
   description: Бальное платье с бантами и золотыми вставками.
   components:
   - type: Sprite
@@ -25,7 +25,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpskirtRedDress
-  name: Красное платье
+  name: красное платье
   description: Платье идеально впишется под бокал красного вина в дивный вечер.
   components:
   - type: Sprite
@@ -37,7 +37,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpskirtStarDress
-  name: Звёздное платье
+  name: звёздное платье
   description: Оно сияет!
   components:
   - type: Sprite
@@ -54,7 +54,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpskirtCosmoDress
-  name: Космическое платье
+  name: космическое платье
   description: Россыпь звёзд у ваших ног
   components:
   - type: Sprite
@@ -71,7 +71,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpskirtBlackDress
-  name: Чёрное платье
+  name: чёрное платье
   description: Платье идеально впишется под бокал красного вина в дивный вечер.
   components:
   - type: Sprite
@@ -83,7 +83,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpskirtSilkDress
-  name: Шёлковое платье
+  name: шёлковое платье
   description: Стань жемчужиной на мероприятии
   components:
   - type: Sprite
@@ -95,7 +95,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpskirtPinkDress
-  name: Розовое платье
+  name: розовое платье
   description: Милый бантик делает вас привлекательнее
   components:
   - type: Sprite
@@ -107,7 +107,7 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtSundressBlue
-  name: Синий сарафан
+  name: синий сарафан
   description: Простой но милый сарафан с бантиком
   components:
   - type: Sprite
@@ -119,7 +119,7 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtSundressBrown
-  name: Коричневый сарафан
+  name: коричневый сарафан
   description: Простой но милый сарафан с бантиком
   components:
   - type: Sprite
@@ -131,7 +131,7 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtSundressPurple
-  name: Фиолетовый сарафан
+  name: фиолетовый сарафан
   description: Простой но милый сарафан с бантиком
   components:
   - type: Sprite
@@ -143,7 +143,7 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtSundressTeal
-  name: Бирюзовый сарафан
+  name: бирюзовый сарафан
   description: Простой но милый сарафан с бантиком
   components:
   - type: Sprite
@@ -155,7 +155,7 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtSummerdressBlack
-  name: Летнее чёрное платье
+  name: летнее чёрное платье
   description: Лёгкое платье на дивный вечер
   components:
   - type: Sprite
@@ -167,11 +167,11 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtSummerdressRed
-  name: Летнее красное платье
+  name: летнее красное платье
   description: В нем вы будете словно алая роза
   components:
   - type: Sprite
     sprite: Void/Clothing/OuterClothing/Dresses/red_dress.rsi
   - type: Clothing
     slots: [ outerClothing ]
-    sprite: Void/Clothing/OuterClothing/Dresses/red_dress.rsi               
+    sprite: Void/Clothing/OuterClothing/Dresses/red_dress.rsi

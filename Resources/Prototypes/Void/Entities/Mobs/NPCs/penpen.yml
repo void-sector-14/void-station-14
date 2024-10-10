@@ -1,7 +1,7 @@
 - type: entity
   parent: ClothingBackpack
   id: PenPenBackpack
-  name: Рюкзак ПенПена
+  name: рюкзак ПенПена
   noSpawn: true
   components:
   - type: Sprite

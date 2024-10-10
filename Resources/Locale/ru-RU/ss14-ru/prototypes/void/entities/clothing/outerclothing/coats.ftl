@@ -1,13 +1,13 @@
-ent-ClothingOuterClothingBlackCoatDragon = Чёрное пальто из драконьей кожи
+ent-ClothingOuterClothingBlackCoatDragon = чёрное пальто из драконьей кожи
     .desc = Ни один дракон не пострадал в процессе производства такой роскоши, что не скажешь об остальных
     .suffix = { "" }
-ent-ClothingOuterClothingBlackJacket = Чёрная куртка
+ent-ClothingOuterClothingBlackJacket = чёрная куртка
     .desc = Стильно, модно, молодежно
     .suffix = { "" }
-ent-ClothingOuterClothingBlackJacketSkull = Чёрная куртка с черепом
+ent-ClothingOuterClothingBlackJacketSkull = чёрная куртка с черепом
     .desc = Для крутых перцев
     .suffix = { "" }
-ent-ClothingOuterCoatBomberBlack = Чёрная куртка-бомбер
+ent-ClothingOuterCoatBomberBlack = чёрная куртка-бомбер
     .desc = Толстая, поношенная кожаная куртка-бомбер периода второй мировой войны.
     .suffix = { "" }
 ent-ClothingOuterClothingDenRezo = инженерный бомбер Дэна
