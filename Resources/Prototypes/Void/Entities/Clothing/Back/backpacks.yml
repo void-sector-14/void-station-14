@@ -6,3 +6,16 @@
   components:
   - type: Sprite
     sprite: Void/Clothing/Back/Backpacks/blueshield.rsi
+
+#ERT
+- type: entity
+  parent: ClothingBackpack
+  id: TraumaBackPack
+  name: Ранец "Траумы"
+  description: Рюкзак повышенной ёмкости, имеет многочисленные боковые и внутренние крепления для разного оборудования и снаряжения. Хорошо изолирован.
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Back/Backpacks/trauma.rsi
+  - type: Storage
+    grid:
+    - 0,0,10,5
