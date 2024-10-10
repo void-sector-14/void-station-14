@@ -191,7 +191,6 @@
       - APCElectronics
       - SMESMachineCircuitboard
       - SubstationMachineCircuitboard
-      - WallmountSubstationElectronics
       - CellRechargerCircuitboard
       - BorgChargerCircuitboard
       - WeaponCapacitorRechargerCircuitboard
@@ -352,6 +351,7 @@
       - FauxTileAstroSnow
       - OreBagOfHolding
       - DeviceQuantumSpinInverter
+      - JetpackAdvanced
   - type: EmagLatheRecipes
     emagDynamicRecipes:
       - BoxBeanbag
@@ -498,6 +498,8 @@
       - PortableGeneratorPacmanMachineCircuitboard
       - PortableGeneratorSuperPacmanMachineCircuitboard
       - PortableGeneratorJrPacmanMachineCircuitboard
+      - WallmountGeneratorElectronics
+      - WallmountGeneratorAPUElectronics
       - WallmountSubstationElectronics
       - PowerCageRechargerCircuitboard
       - EmitterCircuitboard
