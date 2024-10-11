@@ -47,37 +47,27 @@
     damageContainer: Inorganic
   - type: Destructible
     thresholds:
-      - trigger:
-          !type:DamageTrigger
-          damage: 600
-        behaviors:
-          - !type:DoActsBehavior
-            acts: [ "Destruction" ]
-      - trigger:
-          !type:DamageTrigger
-          damage: 300
-        # TODO: Construction graph
-        behaviors:
-          - !type:DoActsBehavior
-            acts: [ "Destruction" ]
-          - !type:PlaySoundBehavior
-            sound:
-              collection: MetalGlassBreak
-          - !type:SpawnEntitiesBehavior
-            spawn:
-              SheetSteel1:
-                min: 3
-                max: 5
+    - trigger:
+        !type:DamageTrigger
+        damage: 200
+      behaviors:
+      - !type:PlaySoundBehavior
+        sound:
+          collection: MetalBreak
+      - !type:ChangeConstructionNodeBehavior
+        node: machineFrame
+      - !type:DoActsBehavior
+        acts: ["Destruction"]
   - type: Gun
     projectileSpeed: 80
-    fireRate: 6
+    fireRate: 10
     selectedMode: FullAuto
     availableModes:
       - FullAuto
     soundGunshot: /Audio/Weapons/Guns/Gunshots/laser_cannon2.ogg
   - type: ProjectileBatteryAmmoProvider
     proto: AntiMeteorEnergyBullet
-    fireCost: 5000
+    fireCost: 15000
   - type: PowerConsumer
     voltage: High
   - type: NodeContainer
@@ -87,15 +77,15 @@
         !type:CableDeviceNode
         nodeGroupID: HVPower
   - type: Battery
-    maxCharge: 100000
+    maxCharge: 150000
     startingCharge: 0
   - type: BatteryCharger
     voltage: High
     node:
   - type: PowerNetworkBattery
     maxSupply: 150000
-    maxChargeRate: 5000
-    supplyRampTolerance: 5000
+    maxChargeRate: 15000
+    supplyRampTolerance: 15000
     supplyRampRate: 1000
   - type: Electrified
     onHandInteract: false
