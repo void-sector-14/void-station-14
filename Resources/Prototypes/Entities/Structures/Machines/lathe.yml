@@ -522,6 +522,7 @@
       - FanTinyElectronics
       - ReagentGrinderIndustrialMachineCircuitboard
       - JukeboxCircuitBoard
+      - TurretAntiMeteorCircuitboard
   - type: EmagLatheRecipes
     emagDynamicRecipes:
       - ShuttleGunDusterCircuitboard

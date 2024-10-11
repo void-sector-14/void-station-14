@@ -14,6 +14,7 @@ research-technology-industrial-engineering = Промышленная инжен
 research-technology-power-generation = Генерация электроэнергии
 research-technology-atmospheric-tech = Атмосферные технологии
 research-technology-advanced-jetpack = Продвинутое перемещение
+research-technology-antimeteor = Противометеоритная защита
 research-technology-rapid-construction = Быстрое строительство
 research-technology-shuttlecraft = Шаттлостроение
 research-technology-ripley-aplu = Рипли АТМЕ

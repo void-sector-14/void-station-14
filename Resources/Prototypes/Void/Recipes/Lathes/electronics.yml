@@ -6,3 +6,13 @@
      Steel: 200
      Plastic: 100
      Silver: 10
+
+- type: latheRecipe
+  id: TurretAntiMeteorCircuitboard
+  result: TurretAntiMeteorCircuitboard
+  completetime: 8
+  materials:
+     Steel: 100
+     Glass: 500
+     Silver: 50
+     Gold: 50
