@@ -139,7 +139,7 @@
       - WhitelistChameleon
 
 - type: entity
-  parent: ClothingScarfBase
+  parent: [ ClothingScarfBase, BaseCentcommContraband ]
   id: ClothingNeckScarfStripedCentcom
   name: striped CentComm scarf
   description: A stylish striped centcomm colored scarf. The perfect winter accessory for those with a keen fashion sense, and those who need to do paperwork in the cold.

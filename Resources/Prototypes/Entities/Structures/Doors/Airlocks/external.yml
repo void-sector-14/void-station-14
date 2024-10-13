@@ -33,6 +33,8 @@
         - FullTileMask
         layer:
         - WallLayer
+  - type: Wires
+    layoutId: AirlockExternal
 
 - type: entity
   parent: AirlockExternal

@@ -199,10 +199,12 @@
       - WetFloorSign
       - ClothingHeadHatCone
     dynamicRecipes:
-      - AdvancedRockGuitarInstrument #Для рецепта продвинутых инструментов by Malanisa Нет возможности вынести в отдельную папку
-      - AdvancedBassGuitarInstrument #Для рецепта продвинутых инструментов by Malanisa Нет возможности вынести в отдельную папку
-      - AdvancedElectricGuitarInstrument #Для рецепта продвинутых инструментов by Malanisa Нет возможности вынести в отдельную папку
-      - PockedPlayerEmpty #Для рецепта продвинутых инструментов by Malanisa. Нет возможности вынести в отдельную папку
+      - AdvancedRockGuitarInstrument
+      - AdvancedBassGuitarInstrument
+      - AdvancedElectricGuitarInstrument
+      - PockedPlayerEmpty
+      - FreezerElectronics
+      - Flare
   - type: EmagLatheRecipes
     emagStaticRecipes:
       - BoxLethalshot
@@ -443,6 +445,7 @@
     - UniformPrinterMachineCircuitboard
     - FloorGreenCircuit
     - FloorBlueCircuit
+    - FloorRedCircuit
     - MicrowaveMachineCircuitboard
     - ReagentGrinderMachineCircuitboard
     - ElectricGrillMachineCircuitboard
@@ -451,6 +454,7 @@
     - SpaceHeaterMachineCircuitBoard
     - CutterMachineCircuitboard
     - StationAnchorCircuitboard
+    - SalvageMagnetMachineCircuitboard
     dynamicRecipes:
       - ThermomachineFreezerMachineCircuitBoard
       - HellfireFreezerMachineCircuitBoard
