@@ -7,108 +7,104 @@
   placement:
     mode: SnapgridCenter
   components:
-  - type: Transform
-  - type: Pullable
-  - type: Physics
-    bodyType: Dynamic
-  - type: Clickable
-  - type: InteractionOutline
-  - type: Actions
-  - type: Appearance
-  - type: Fixtures
-    fixtures:
-      fix1:
-        shape:
-          !type:PhysShapeAabb
-          bounds: "-0.45,-0.45,0.45,0.45"
-        density: 60
-        mask:
-          - MachineMask
-        layer:
-          - MachineLayer
-  - type: ContainerContainer
-    containers:
-      ballistic-ammo: !type:Container
-  - type: Sprite
-    sprite: Void/Objects/Weapons/Guns/Turrets/turrets.rsi
-    drawdepth: Mobs
-    layers:
-      - state: blue_stun
-  - type: InteractionPopup
-    interactDelay: 0.2
-    successChance: 0.8
-    interactSuccessString: petting-success-generic
-    interactFailureString: petting-failure-generic
-    interactSuccessSound:
-      path: /Audio/Effects/double_beep.ogg
-  - type: CombatMode
-    toggleMouseRotator: false
-  - type: Damageable
-    damageContainer: Inorganic
-  - type: Destructible
-    thresholds:
-    - trigger:
-        !type:DamageTrigger
-        damage: 200
-      behaviors:
-      - !type:PlaySoundBehavior
-        sound:
-          collection: MetalBreak
-      - !type:ChangeConstructionNodeBehavior
-        node: machineFrame
-      - !type:DoActsBehavior
-        acts: ["Destruction"]
-  - type: Gun
-    projectileSpeed: 80
-    fireRate: 10
-    selectedMode: FullAuto
-    availableModes:
-      - FullAuto
-    soundGunshot: /Audio/Weapons/Guns/Gunshots/laser_cannon2.ogg
-  - type: ProjectileBatteryAmmoProvider
-    proto: AntiMeteorEnergyBullet
-    fireCost: 15000
-  - type: PowerConsumer
-    voltage: High
-  - type: NodeContainer
-    examinable: true
-    nodes:
-      input:
-        !type:CableDeviceNode
-        nodeGroupID: HVPower
-  - type: Battery
-    maxCharge: 150000
-    startingCharge: 0
-  - type: BatteryCharger
-    voltage: High
-    node:
-  - type: PowerNetworkBattery
-    maxSupply: 150000
-    maxChargeRate: 15000
-    supplyRampTolerance: 15000
-    supplyRampRate: 1000
-  - type: Electrified
-    onHandInteract: false
-    onInteractUsing: false
-    onBump: false
-    requirePower: true
-    highVoltageNode: input
-  - type: HTN
-    rootTask:
-      task: TurretCompound
-    blackboard:
-      RotateSpeed: !type:Single
-        3.141
-      SoundTargetInLOS: !type:SoundPathSpecifier
-        path: /Audio/Void/Effects/angry_beep.ogg
-  - type: MouseRotator
-    angleTolerance: 5
-    rotationSpeed: 180
-    simple4DirMode: false
-  - type: NoRotateOnInteract
-  - type: NoRotateOnMove
-  - type: Input
-    context: "human"
+    - type: Transform
+    - type: Pullable
+    - type: Physics
+      bodyType: Dynamic
+    - type: Clickable
+    - type: InteractionOutline
+    - type: Actions
+    - type: Appearance
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PhysShapeAabb
+            bounds: "-0.45,-0.45,0.45,0.45"
+          density: 60
+          mask:
+            - MachineMask
+          layer:
+            - MachineLayer
+    - type: ContainerContainer
+      containers:
+        ballistic-ammo: !type:Container
+    - type: Sprite
+      sprite: Void/Objects/Weapons/Guns/Turrets/turrets.rsi
+      drawdepth: Mobs
+      layers:
+        - state: blue_stun
+    - type: InteractionPopup
+      interactDelay: 0.2
+      successChance: 0.8
+      interactSuccessString: petting-success-generic
+      interactFailureString: petting-failure-generic
+      interactSuccessSound:
+        path: /Audio/Effects/double_beep.ogg
+    - type: CombatMode
+      toggleMouseRotator: false
+    - type: Damageable
+      damageContainer: Inorganic
+    - type: Destructible
+      thresholds:
+        - trigger: !type:DamageTrigger
+            damage: 200
+          behaviors:
+            - !type:PlaySoundBehavior
+              sound:
+                collection: MetalBreak
+            - !type:ChangeConstructionNodeBehavior
+              node: machineFrame
+            - !type:DoActsBehavior
+              acts: ["Destruction"]
+    - type: Gun
+      projectileSpeed: 80
+      fireRate: 10
+      selectedMode: FullAuto
+      availableModes:
+        - FullAuto
+      soundGunshot: /Audio/Weapons/Guns/Gunshots/laser_cannon2.ogg
+    - type: ProjectileBatteryAmmoProvider
+      proto: AntiMeteorEnergyBullet
+      fireCost: 15000
+    - type: PowerConsumer
+      voltage: High
+    - type: NodeContainer
+      examinable: true
+      nodes:
+        input: !type:CableDeviceNode
+          nodeGroupID: HVPower
+    - type: Battery
+      maxCharge: 150000
+      startingCharge: 0
+    - type: BatteryCharger
+      voltage: High
+      node:
+    - type: PowerNetworkBattery
+      maxSupply: 150000
+      maxChargeRate: 15000
+      supplyRampTolerance: 15000
+      supplyRampRate: 1000
+    - type: Electrified
+      onHandInteract: false
+      onInteractUsing: false
+      onBump: false
+      requirePower: true
+      highVoltageNode: input
+    - type: HTN
+      rootTask:
+        task: TurretCompound
+      blackboard:
+        RotateSpeed: !type:Single 3.141
+        SoundTargetInLOS: !type:SoundPathSpecifier
+          path: /Audio/Void/Effects/angry_beep.ogg
+    - type: MouseRotator
+      angleTolerance: 5
+      rotationSpeed: 180
+      simple4DirMode: false
+    - type: NoRotateOnInteract
+    - type: NoRotateOnMove
+    - type: Input
+      context: "human"
 
 - type: entity
   parent: BaseWeaponEnergyBoltTurret
@@ -116,41 +112,47 @@
   name: противометеоритная турель
   suffix: АнтиМетеор
   components:
-  - type: NpcFactionMember
-    factions:
-    - AntiMeteor
-  - type: HTN
-    rootTask:
-      task: AntiMeteorTurretCompound
-    planCooldown: 0
-    blackboard:
-      RotateSpeed: !type:Single
-        9.420
-      ShootDelay: !type:Single
-        0
-      SoundTargetInLOS: !type:SoundPathSpecifier
-        path: /Audio/Void/Effects/angry_beep.ogg
-  - type: Lock
-    locked: false
-  - type: Anchorable
-  - type: WiresPanel
-  - type: WiresVisuals
-  - type: LockVisuals
-  - type: LockedAnchorable
-  - type: LockedWiresPanel
-  - type: AccessReader
-    access: [[ "Engineering" ]]
-  - type: Machine
-    board: TurretAntiMeteorCircuitboard
+    - type: Sprite
+      sprite: Void/Objects/Weapons/Guns/Turrets/turrets.rsi
+      drawdepth: Mobs
+      layers:
+        - state: blue_stun
+        - state: locked
+          map: ["enum.LockVisualLayers.Lock"]
+          shader: unshaded
+    - type: NpcFactionMember
+      factions:
+        - AntiMeteor
+    - type: HTN
+      rootTask:
+        task: AntiMeteorTurretCompound
+      planCooldown: 0
+      blackboard:
+        RotateSpeed: !type:Single 9.420
+        ShootDelay: !type:Single 0
+        SoundTargetInLOS: !type:SoundPathSpecifier
+          path: /Audio/Void/Effects/angry_beep.ogg
+    - type: Lock
+      locked: false
+    - type: Anchorable
+    - type: WiresPanel
+    - type: WiresVisuals
+    - type: LockVisuals
+    - type: LockedAnchorable
+    - type: LockedWiresPanel
+    - type: AccessReader
+      access: [["Engineering"]]
+    - type: Machine
+      board: TurretAntiMeteorCircuitboard
 
 - type: entity
   parent: WeaponTurretAntiMeteor
   id: WeaponTurretAntiMeteorDebug
   suffix: АнтиМетеор, Дебаг
   components:
-  - type: BatterySelfRecharger
-    autoRecharge: true
-    autoRechargeRate: 100000
-  - type: Battery
-    maxCharge: 100000
-    startingCharge: 100000
+    - type: BatterySelfRecharger
+      autoRecharge: true
+      autoRechargeRate: 100000
+    - type: Battery
+      maxCharge: 100000
+      startingCharge: 100000

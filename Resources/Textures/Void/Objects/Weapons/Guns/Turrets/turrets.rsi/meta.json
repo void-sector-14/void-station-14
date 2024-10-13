@@ -22,6 +22,14 @@
     {
       "name": "blue_lethal",
       "directions": 8
+    },
+    {
+      "name": "locked",
+      "directions": 8
+    },
+    {
+      "name": "unlocked",
+      "directions": 8
     }
   ]
 }
