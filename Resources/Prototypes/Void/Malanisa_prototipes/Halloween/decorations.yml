@@ -1,0 +1,120 @@
+- type: entity
+  id: DecoreFlagsLeft
+  suffix: левая
+  name: флажки
+  description: Придайте празднику эффекта.
+  placement:
+    mode: SnapgridCenter
+    snap:
+    - Wall
+  components:
+  - type: SpriteFade
+  - type: Clickable
+  - type: Sprite
+    sprite: Void/Malanisa_sprites/Structures/flags.rsi
+    state: decoration
+    drawdepth: Overdoors
+    offset: 0,0.9
+  - type: Physics
+    bodyType: Static
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.1,-0.1,0.3,0.1"
+        density: 1000
+        layer:
+        - WallLayer
+  - type: Damageable
+    damageContainer: Inorganic
+    damageModifierSet: Wood
+  - type: MeleeSound
+    soundGroups:
+      Brute:
+        path: /Audio/Effects/chop.ogg
+        params:
+          variation: 0.05
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 400
+      behaviors:
+        - !type:DoActsBehavior
+          acts: [ "Destruction" ]
+    - trigger:
+        !type:DamageTrigger
+        damage: 50
+      behaviors:
+      - !type:PlaySoundBehavior
+        sound:
+          path: /Audio/Effects/tree_fell.ogg
+          params:
+            volume: 5
+            variation: 0.05
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+
+- type: entity
+  id: DecoreFlagsRight
+  parent: DecoreFlagsLeft
+  name: флажки
+  suffix: правая
+  description: Придайте празднику эффекта.
+  components:
+  - type: Sprite
+    state: decoration2 
+
+- type: entity
+  id: DecoreWitchStand
+  name: ведьмочка
+  description: Сделано из дешевого материала.
+  components:
+  - type: SpriteFade
+  - type: Clickable
+  - type: Sprite
+    sprite: Void/Malanisa_sprites/Structures/stands.rsi
+    state: stand
+    drawdepth: Overdoors
+    offset: 0,0.9
+  - type: Physics
+    bodyType: Static
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.35,-0.4,0.35,0.4"
+        density: 1000
+        layer:
+        - WallLayer
+  - type: Damageable
+    damageContainer: Inorganic
+    damageModifierSet: Wood
+  - type: MeleeSound
+    soundGroups:
+      Brute:
+        path: /Audio/Effects/chop.ogg
+        params:
+          variation: 0.05
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 400
+      behaviors:
+        - !type:DoActsBehavior
+          acts: [ "Destruction" ]
+    - trigger:
+        !type:DamageTrigger
+        damage: 50
+      behaviors:
+      - !type:PlaySoundBehavior
+        sound:
+          path: /Audio/Effects/tree_fell.ogg
+          params:
+            volume: 5
+            variation: 0.05
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
