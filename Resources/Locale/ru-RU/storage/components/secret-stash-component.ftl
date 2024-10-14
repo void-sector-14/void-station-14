@@ -19,4 +19,5 @@ comp-secret-stash-verb-open = Открыть
 secret-stash-part-plant = растение
 secret-stash-plant = растение
 secret-stash-toilet = туалетный бачок
+secret-stash-plushie = игрушка
 secret-stash-part-toilet = бачок унитаза

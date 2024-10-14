@@ -112,6 +112,8 @@ JobSecurityOfficer = { job-name-security }
 JobSeniorOfficer = { job-name-senior-officer }
 JobWarden = { job-name-warden }
 # Центком, ОБР
+job-name-cburn = РХБЗЗ
+job-name-deathsquad = Агент Центрального Командования
 job-name-centcomoff = Офицер Центрального Командования
 job-name-ertengineer = Инженер ОБР
 job-name-ertjanitor = Уборщик ОБР
@@ -133,3 +135,7 @@ job-name-magistrate = Магистрат
 JobLawyer = { job-name-lawyer }
 JobIAA = { job-name-iaa }
 JobMagistrate = { job-name-magistrate }
+# Разное
+job-title-visitor = Посетитель
+job-title-cluwne = Клувень
+job-title-universal = Матрица
