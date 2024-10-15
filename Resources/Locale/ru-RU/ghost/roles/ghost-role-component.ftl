@@ -177,42 +177,42 @@ ghost-role-information-Cak-name = Корт
 ghost-role-information-Cak-description = Вы - любимое дитя шеф-повара. Вы - живой торт-кот.
 ghost-role-information-BreadDog-name = Хлебопёс
 ghost-role-information-BreadDog-description = Вы - любимое дитя шеф-повара. Вы - живая хлебная собака.
-ghost-role-information-syndicate-cyborg-assault-name = Syndicate Assault Cyborg
-ghost-role-information-syndicate-cyborg-saboteur-name = Syndicate Saboteur Cyborg
-ghost-role-information-syndicate-cyborg-description = The Syndicate needs reinforcements. You, a cold silicon killing machine, will help them.
-ghost-role-information-security-name = Security
-ghost-role-information-security-description = You are part of a security task force, but seem to have found yourself in a strange situation...
-ghost-role-information-medical-name = Medical
-ghost-role-information-medical-virologist-name = Virologist
-ghost-role-information-medical-geneticist-name = Geneticist
-ghost-role-information-medical-dentist-name = Dentist
-ghost-role-information-medical-description = You are a medical professional, but seem to have found yourself in a strange situation...
-ghost-role-information-cargo-name = Cargo
-ghost-role-information-cargo-description = You are part of a logistics mission, but seem to have found yourself in a strange situation...
-ghost-role-information-engineering-name = Engineering
-ghost-role-information-engineering-description = You are on an engineering job, but seem to have found yourself in a strange situation...
-ghost-role-information-science-name = Science
-ghost-role-information-science-description = You are part of a science team, but seem to have found yourself in a strange situation...
-ghost-role-information-civilian-name = Civilian
-ghost-role-information-civilian-description = You were just hanging out, but seem to have found yourself in a strange situation...
-ghost-role-information-civilian-centcom-lawyer-name = Centcom Lawyer
-ghost-role-information-civilian-centcom-lawyer-description = A lawyer direct from the Central Legal Division.
-ghost-role-information-command-name = Commander
-ghost-role-information-command-description = You are a member of command, but seem to have found yourself in a strange situation...
-ghost-role-information-lost-challenge-commander-name = Commander on Shore Leave
-ghost-role-information-lost-challenge-commander-description = You are a command member from another starship who was granted shore leave with one of your cargo technicians.
+ghost-role-information-syndicate-cyborg-assault-name = Штурмовой киборг Синдиката
+ghost-role-information-syndicate-cyborg-saboteur-name = Саботажный киборг Синдиката
+ghost-role-information-syndicate-cyborg-description = Синдикату нужно подкрепление. Ты, безэмоциональная машина для убийств, поможешь им.
+ghost-role-information-security-name = Сотрудник СБ
+ghost-role-information-security-description = Вы являетесь частью оперативной группы службы безопасности, но, похоже, оказались в странной ситуации...
+ghost-role-information-medical-name = Сотрудник Медблока
+ghost-role-information-medical-virologist-name = Вирусолог
+ghost-role-information-medical-geneticist-name = Генетик
+ghost-role-information-medical-dentist-name = Дантист
+ghost-role-information-medical-description = Вы — работник медблока, но, похоже, оказались в странной ситуации...
+ghost-role-information-cargo-name = Сотрудник отдела Поставок
+ghost-role-information-cargo-description = Вы доставляли очередной груз, но, похоже, оказались в странной ситуации...
+ghost-role-information-engineering-name = Сотрудник Инженерного отдела
+ghost-role-information-engineering-description = Вы как всегда что чинили, но, похоже, оказались в странной ситуации...
+ghost-role-information-science-name = Сотрудник НИО
+ghost-role-information-science-description = Вы часть НИО, и опять оказались в странной ситуации...
+ghost-role-information-civilian-name = Пассажир
+ghost-role-information-civilian-description = Вы отдыхали, но, похоже, оказались в странной ситуации...
+ghost-role-information-civilian-centcom-lawyer-name = Юрист Центкома
+ghost-role-information-civilian-centcom-lawyer-description = Юрист непосредственно из Центрального юридического отдела.
+ghost-role-information-command-name = Член командования
+ghost-role-information-command-description = Вы являетесь членом командования, но, похоже, оказались в странной ситуации...
+ghost-role-information-lost-challenge-commander-name = Командир в отпуске
+ghost-role-information-lost-challenge-commander-description = Вы — офицер с другого звездолёта, которому дали отпуск вместе с одним из ваших грузчиков.
 ghost-role-information-lost-challenge-commander-rules =
-    You are not hostile to the station, do what you must to ensure your own survival.
-    You don't remember any of your previous life, and you don't remember anything you learned as a ghost.
-    You are allowed to remember knowledge about the game in general, such as how to cook, how to use objects, etc.
-    You are absolutely [color=red]NOT[/color] allowed to remember, say, the name, appearance, etc. of your previous character.
-ghost-role-information-lost-challenge-cargo-technican-name = Cargo Chauffeur
-ghost-role-information-lost-challenge-cargo-technican-description = You are a cargo technician who was granted shore leave with one of your commanding officers.
+    Вы не враждебны по отношению к станции, делайте всё необходимое для своего выживания.
+    Вы не помните ничего из своей предыдущей жизни и не помните ничего из того, чему научились, будучи призраком.
+    Вам разрешено запоминать знания об игре в целом, например, как готовить, как использовать предметы и т.д.
+    Вам категорически [color=red]НЕ[/color] разрешается помнить, скажем, имя, внешность и т.д. вашего предыдущего персонажа.
+ghost-role-information-lost-challenge-cargo-technican-name = Пилот отдела Поставок
+ghost-role-information-lost-challenge-cargo-technican-description = Вы грузчик которому выдали отпуск вместе с одним из офицеров командования.
 ghost-role-information-lost-challenge-cargo-technican-rules =
-    You are not hostile to the station, do what you must to ensure your own survival.
-    You don't remember any of your previous life, and you don't remember anything you learned as a ghost.
-    You are allowed to remember knowledge about the game in general, such as how to cook, how to use objects, etc.
-    You are absolutely [color=red]NOT[/color] allowed to remember, say, the name, appearance, etc. of your previous character.
+    Вы не враждебны по отношению к станции, делайте всё необходимое для своего выживания.
+    Вы не помните ничего из своей предыдущей жизни и не помните ничего из того, чему научились, будучи призраком.
+    Вам разрешено запоминать знания об игре в целом, например, как готовить, как использовать предметы и т.д.
+    Вам категорически [color=red]НЕ[/color] разрешается помнить, скажем, имя, внешность и т.д. вашего предыдущего персонажа.
 ghost-role-information-space-ninja-name = Космический ниндзя
 ghost-role-information-space-ninja-description = Используйте хитрость и скрытность, чтобы устроить диверсию на станции.
 ghost-role-information-syndicate-reinforcement-name = Агент Синдиката
