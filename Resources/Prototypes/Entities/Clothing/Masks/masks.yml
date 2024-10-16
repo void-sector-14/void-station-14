@@ -76,7 +76,7 @@
         Heat: 0.80
 
 - type: entity
-  parent: [ClothingMaskGasAtmos, BaseCommandContraband]
+  parent: [ClothingMaskGas, BaseCommandContraband]
   id: ClothingMaskGasCaptain
   name: captain's gas mask
   description: Nanotrasen cut corners and repainted a spare atmospheric gas mask, but don't tell anyone.
@@ -85,11 +85,15 @@
     sprite: Clothing/Mask/gascaptain.rsi
   - type: Clothing
     sprite: Clothing/Mask/gascaptain.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Heat: 0.80
   - type: BreathMask
   - type: IngestionBlocker
 
 - type: entity
-  parent: [ ClothingMaskGasAtmos, BaseCentcommContraband ]
+  parent: [ ClothingMaskGas, BaseCentcommContraband ]
   id: ClothingMaskGasCentcom
   name: CentComm gas mask
   description: Oooh, gold and green. Fancy! This should help as you sit in your office.
@@ -98,6 +102,10 @@
     sprite: Clothing/Mask/gascentcom.rsi
   - type: Clothing
     sprite: Clothing/Mask/gascentcom.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Heat: 0.80
   - type: BreathMask
   - type: IngestionBlocker
 

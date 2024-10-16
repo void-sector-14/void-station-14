@@ -1,5 +1,5 @@
 - type: entity
-  parent: [ClothingEyesBase, ShowSecurityIcons]
+  parent: [ClothingEyesBase, ShowSecurityIcons, BaseCommandContraband]
   id: ClothingEyesGlassesBlueShield
   name: очки офицера синего щита
   description: Модные очки отдающие синевой.

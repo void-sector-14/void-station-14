@@ -1,7 +1,7 @@
 - type: entity
   name: мультифазовый пистолет
   suffix: НЕ МАППИТЬ
-  parent: BaseWeaponBatterySmall
+  parent: [BaseWeaponBatterySmall, BaseCommandContraband]
   id: WeaponEnergyGunBlueShield
   description: Специально разработанный для офицеров синего щита мультифазовый пистолет. Может как оглушить, так и убить противника.
   components:

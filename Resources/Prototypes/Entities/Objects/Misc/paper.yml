@@ -446,7 +446,7 @@
 - type: entity
   id: BoxFolderCentCom
   name: CentComm folder
-  parent: BoxFolderBase
+  parent: [BoxFolderBase? BaseCentcommContraband]
   suffix: DO NOT MAP
   description: CentComm's miserable little pile of secrets!
   components:
@@ -516,7 +516,7 @@
 
 - type: entity
   id: BoxFolderCentComClipboard
-  parent: BoxFolderClipboard
+  parent: [BoxFolderClipboard, BaseCentcommContraband]
   name: CentComm clipboard
   description: A luxurious clipboard upholstered with green velvet. Often seen carried by CentComm officials, seldom seen actually used.
   components:
