@@ -1,6 +1,6 @@
 - type: entity
-  parent: ClothingNeckBase
-  id: [ClothingNeckCloakCentCom, BaseCentcommContraband]
+  parent: [ClothingNeckBase, BaseCentcommContraband]
+  id: ClothingNeckCloakCentCom
   name: фирменный плащ Центкома
   description: Дорогой плащ, который вам не по корману
   components:
