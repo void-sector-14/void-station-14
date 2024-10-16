@@ -446,7 +446,7 @@
 - type: entity
   id: BoxFolderCentCom
   name: CentComm folder
-  parent: [BoxFolderBase? BaseCentcommContraband]
+  parent: [BoxFolderBase, BaseCentcommContraband]
   suffix: DO NOT MAP
   description: CentComm's miserable little pile of secrets!
   components:
