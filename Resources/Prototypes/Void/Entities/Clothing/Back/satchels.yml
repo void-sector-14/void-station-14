@@ -1,5 +1,5 @@
 - type: entity
-  parent: ClothingBackpackSatchel
+  parent: [ClothingBackpackSatchel, BaseCommandContraband]
   id: ClothingBackpackSatchelBlueshield
   name: сумка офицера синего щита
   description: В нее удобно сбрасывать магазины.

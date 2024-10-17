@@ -191,7 +191,6 @@
       - APCElectronics
       - SMESMachineCircuitboard
       - SubstationMachineCircuitboard
-      - WallmountSubstationElectronics
       - CellRechargerCircuitboard
       - BorgChargerCircuitboard
       - WeaponCapacitorRechargerCircuitboard
@@ -200,10 +199,12 @@
       - WetFloorSign
       - ClothingHeadHatCone
     dynamicRecipes:
-      - AdvancedRockGuitarInstrument #Для рецепта продвинутых инструментов by Malanisa Нет возможности вынести в отдельную папку
-      - AdvancedBassGuitarInstrument #Для рецепта продвинутых инструментов by Malanisa Нет возможности вынести в отдельную папку
-      - AdvancedElectricGuitarInstrument #Для рецепта продвинутых инструментов by Malanisa Нет возможности вынести в отдельную папку
-      - PockedPlayerEmpty #Для рецепта продвинутых инструментов by Malanisa. Нет возможности вынести в отдельную папку
+      - AdvancedRockGuitarInstrument
+      - AdvancedBassGuitarInstrument
+      - AdvancedElectricGuitarInstrument
+      - PockedPlayerEmpty
+      - FreezerElectronics
+      - Flare
   - type: EmagLatheRecipes
     emagStaticRecipes:
       - BoxLethalshot
@@ -352,6 +353,7 @@
       - FauxTileAstroSnow
       - OreBagOfHolding
       - DeviceQuantumSpinInverter
+      - JetpackAdvanced
   - type: EmagLatheRecipes
     emagDynamicRecipes:
       - BoxBeanbag
@@ -443,6 +445,7 @@
     - UniformPrinterMachineCircuitboard
     - FloorGreenCircuit
     - FloorBlueCircuit
+    - FloorRedCircuit
     - MicrowaveMachineCircuitboard
     - ReagentGrinderMachineCircuitboard
     - ElectricGrillMachineCircuitboard
@@ -451,6 +454,7 @@
     - SpaceHeaterMachineCircuitBoard
     - CutterMachineCircuitboard
     - StationAnchorCircuitboard
+    - SalvageMagnetMachineCircuitboard
     dynamicRecipes:
       - ThermomachineFreezerMachineCircuitBoard
       - HellfireFreezerMachineCircuitBoard
@@ -498,6 +502,8 @@
       - PortableGeneratorPacmanMachineCircuitboard
       - PortableGeneratorSuperPacmanMachineCircuitboard
       - PortableGeneratorJrPacmanMachineCircuitboard
+      - WallmountGeneratorElectronics
+      - WallmountGeneratorAPUElectronics
       - WallmountSubstationElectronics
       - PowerCageRechargerCircuitboard
       - EmitterCircuitboard
@@ -520,6 +526,7 @@
       - FanTinyElectronics
       - ReagentGrinderIndustrialMachineCircuitboard
       - JukeboxCircuitBoard
+      - TurretAntiMeteorCircuitboard
   - type: EmagLatheRecipes
     emagDynamicRecipes:
       - ShuttleGunDusterCircuitboard

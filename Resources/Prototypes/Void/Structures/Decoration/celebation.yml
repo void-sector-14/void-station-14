@@ -1,6 +1,6 @@
 - type: entity
   id: DecoreLeft
-  name: Праздничная декорация (левая часть)
+  name: праздничная декорация (левая часть)
   description: Придайте празднику эффекта.
   components:
   - type: SpriteFade
@@ -54,8 +54,8 @@
 - type: entity
   id: DecoreRight
   parent: DecoreLeft
-  name: Праздничная декорация (правая часть)
+  name: праздничная декорация (правая часть)
   description: Придайте празднику эффекта.
   components:
   - type: Sprite
-    state: decoration2 
+    state: decoration2

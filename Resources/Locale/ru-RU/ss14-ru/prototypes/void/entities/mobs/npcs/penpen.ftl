@@ -1,4 +1,4 @@
-ent-PenPenBackpack = Рюкзак ПенПена
+ent-PenPenBackpack = рюкзак ПенПена
     .desc = { ent-ClothingBackpack.desc }
     .suffix = { ent-ClothingBackpack.suffix }
 ent-PenPenIDCard = ID карта ПенПена

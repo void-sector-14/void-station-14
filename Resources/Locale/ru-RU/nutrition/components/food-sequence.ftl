@@ -14,6 +14,7 @@ food-sequence-content-salami = салями
 food-sequence-content-slime = слаймом
 food-sequence-content-clown = клоуном
 food-sequence-content-pea = бобами
+food-sequence-content-world-pea = горохом мира
 food-sequence-content-bungo = бунго
 food-sequence-content-banana = бананом
 food-sequence-content-mimana = миманом
@@ -64,6 +65,7 @@ food-sequence-content-glasstle = стеклополохом
 food-sequence-content-gatfruit = гатфруктом
 food-sequence-content-koibean = коибобами
 food-sequence-content-watermelon = арбузом
+food-sequence-content-holymelon = святорбузом
 food-sequence-content-cannabis = коноплёй
 food-sequence-content-rainbow-cannabis = радужной коноплёй
 food-sequence-content-tobacco = табаком
@@ -74,6 +76,7 @@ food-sequence-content-berries = ягодами
 food-sequence-content-spacemans-trumpet = космической трубкой
 food-sequence-content-cherry = вишней
 food-sequence-content-snail = улиткой
+food-sequence-content-anomaly-berry = аномальной ягодой
 
 # BURGERS
 
@@ -105,6 +108,7 @@ food-sequence-burger-content-rice = рис
 food-sequence-burger-content-soy = сой
 food-sequence-burger-content-koibean = кои
 food-sequence-burger-content-watermelon = арбузо
+food-sequence-burger-content-holymelon = свято
 food-sequence-burger-content-cannabis = смехо
 food-sequence-burger-content-rainbow-cannabis = СМЕХО
 food-sequence-burger-content-tobacco = табако
@@ -112,6 +116,9 @@ food-sequence-burger-content-suppermatter = супер
 food-sequence-burger-content-hamster = хомяко
 food-sequence-burger-content-berries = ягодно
 food-sequence-burger-content-spacemans-trumpet = космотруб
+food-sequence-burger-content-anomaly-berry = аномально
+food-sequence-burger-content-extradimensional-orange = 3d
+food-sequence-burger-content-world-pea = мирно
 
 # TACO
 

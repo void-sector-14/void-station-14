@@ -1,7 +1,7 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtSummerdressBlue
-  name: Синее летнее платье
+  name: синее летнее платье
   description: Милое короткое платье из легкого материала
   components:
   - type: Sprite
@@ -12,7 +12,7 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtSummerdressGreen
-  name: Зелёное летнее платье
+  name: зелёное летнее платье
   description: Милое короткое платье из легкого материала
   components:
   - type: Sprite
@@ -23,7 +23,7 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtSummerdressPurple
-  name: Фиолетовое летнее платье
+  name: фиолетовое летнее платье
   description: Милое короткое платье из легкого материала
   components:
   - type: Sprite

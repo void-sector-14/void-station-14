@@ -5,5 +5,5 @@ ent-SpawnVendingMachineRestockFood = Пополнения запасов тор�
     .suffix = еда
     .desc = { ent-MarkerBase.desc }
 ent-SpawnVendingMachineRestockDrink = Пополнения запасов торгового автомата
-    .suffix = dнапитки
+    .suffix = напитки
     .desc = { ent-MarkerBase.desc }

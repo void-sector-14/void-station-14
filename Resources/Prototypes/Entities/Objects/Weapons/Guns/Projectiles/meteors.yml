@@ -43,7 +43,9 @@
     maxIntensity: 100
     maxTileBreak: 1
     tileBreakScale: 2
-
+  - type: NpcFactionMember
+    factions:
+      - Meteor
 
 - type: entity
   parent: BaseMeteor

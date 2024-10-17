@@ -76,7 +76,7 @@
         Heat: 0.80
 
 - type: entity
-  parent: [ClothingMaskGasAtmos, BaseCommandContraband]
+  parent: [ClothingMaskGas, BaseCommandContraband]
   id: ClothingMaskGasCaptain
   name: captain's gas mask
   description: Nanotrasen cut corners and repainted a spare atmospheric gas mask, but don't tell anyone.
@@ -85,11 +85,15 @@
     sprite: Clothing/Mask/gascaptain.rsi
   - type: Clothing
     sprite: Clothing/Mask/gascaptain.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Heat: 0.80
   - type: BreathMask
   - type: IngestionBlocker
 
 - type: entity
-  parent: ClothingMaskGasAtmos
+  parent: [ ClothingMaskGas, BaseCentcommContraband ]
   id: ClothingMaskGasCentcom
   name: CentComm gas mask
   description: Oooh, gold and green. Fancy! This should help as you sit in your office.
@@ -98,6 +102,10 @@
     sprite: Clothing/Mask/gascentcom.rsi
   - type: Clothing
     sprite: Clothing/Mask/gascentcom.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Heat: 0.80
   - type: BreathMask
   - type: IngestionBlocker
 
@@ -231,7 +239,7 @@
     node: mask
 
 - type: entity
-  parent: ClothingMaskClown
+  parent: [ClothingMaskClown, BaseRestrictedContraband]
   id: ClothingMaskClownSecurity
   name: security clown wig and mask
   description: A debatably oxymoronic but protective mask and wig.
@@ -359,7 +367,7 @@
     accent: StutteringAccent
 
 - type: entity
-  parent: ClothingMaskGasExplorer
+  parent: [ ClothingMaskGas, BaseRestrictedContraband ]
   id: ClothingMaskGasSwat
   name: swat gas mask
   description: A elite issue Security gas mask.
@@ -376,9 +384,16 @@
     - Hair
     - Snout
     hideOnToggle: true
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.90
+        Slash: 0.90
+        Piercing: 0.95
+        Heat: 0.95
 
 - type: entity
-  parent: ClothingMaskGasExplorer
+  parent: [ ClothingMaskGas, BaseRestrictedContraband ]
   id: ClothingMaskGasMerc
   name: mercenary gas mask
   description: Slightly outdated, but reliable military-style gas mask.
@@ -387,9 +402,16 @@
     sprite: Clothing/Mask/merc.rsi
   - type: Clothing
     sprite: Clothing/Mask/merc.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.90
+        Slash: 0.90
+        Piercing: 0.95
+        Heat: 0.95
 
 - type: entity
-  parent: ClothingMaskGasSyndicate
+  parent: [ ClothingMaskGas, BaseCentcommContraband ]
   id: ClothingMaskGasERT
   name: ert gas mask
   description: The gas mask of the elite squad of the ERT.
@@ -406,6 +428,15 @@
     - Hair
     - Snout
     hideOnToggle: true
+  - type: FlashImmunity
+  - type: EyeProtection
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.95
+        Slash: 0.95
+        Piercing: 0.95
+        Heat: 0.95
 
 - type: entity
   parent: ClothingMaskGasERT

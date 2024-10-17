@@ -15,3 +15,20 @@
     damage:
       types:
         Heat: 20
+
+- type: entity
+  id: AntiMeteorEnergyBullet
+  name: энергошар
+  parent: BaseBullet
+  noSpawn: true
+  components:
+  - type: Sprite
+    sprite: Void/Objects/Weapons/Guns/Projectiles/magic.rsi
+    layers:
+    - state: magjectile-nl
+      shader: unshaded
+  - type: Projectile
+    impactEffect: BulletImpactEffectDisabler
+    damage:
+      types:
+        Heat: 70

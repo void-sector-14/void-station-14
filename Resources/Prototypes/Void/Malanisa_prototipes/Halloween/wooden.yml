@@ -1,0 +1,195 @@
+
+### деревяшки
+
+- type: entity
+  id: WoodenToy
+  parent: BaseStructure
+  name: деревяшка
+  abstract: true
+  description: Бууу!
+  placement:
+    mode: SnapgridCenter
+  components:
+  - type: Sprite
+    sprite: Structures/Doors/Shutters/shutters.rsi
+    drawdepth: BlastDoors
+    layers:
+    - state: closed
+      map: ["enum.DoorVisualLayers.Base"]
+  - type: AnimationPlayer
+  - type: Physics
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.49,-0.49,0.49,0.49" 
+        density: 100
+        mask:
+        - FullTileMask
+        layer:
+        - AirlockLayer
+  - type: Door
+    openDrawDepth: BlastDoors
+    closedDrawDepth: BlastDoors
+    bumpOpen: false
+    clickOpen: false
+    closeTimeOne: 0.2
+    closeTimeTwo: 1.2
+    openTimeOne: 1.2
+    openTimeTwo: 0.2
+    openingAnimationTime: 1.4
+    closingAnimationTime: 1.4
+    crushDamage:
+      types:
+        Blunt: 5 # getting shutters closed on you probably doesn't hurt that much
+    openSound:
+      path: /Audio/Machines/blastdoor.ogg
+    closeSound:
+      path: /Audio/Machines/blastdoor.ogg
+  - type: Appearance
+  - type: UserInterface
+    interfaces:
+      enum.WiresUiKey.Key:
+        type: WiresBoundUserInterface
+  - type: Damageable
+    damageContainer: StructuralInorganic
+    damageModifierSet: StructuralMetallic
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 500
+      behaviors:
+      - !type:DoActsBehavior
+        acts: ["Destruction"]
+  - type: IconSmooth
+    key: walls
+    mode: NoSprite
+  - type: DoorSignalControl
+  - type: DeviceNetwork
+    deviceNetId: Wireless
+    receiveFrequencyId: BasicDevice
+  - type: WirelessNetworkConnection
+    range: 200
+  - type: DeviceLinkSink
+    ports:
+      - Open
+      - Close
+      - Toggle
+  - type: DeviceLinkSource
+    ports:
+    - DoorStatus
+    lastSignals:
+      DoorStatus: false
+  - type: AccessReader
+
+- type: entity
+  id: WoodenToy1
+  parent: WoodenToy
+  components:
+  - type: Sprite
+    sprite: Void/Malanisa_sprites/Structures/wooden/1.rsi 
+    layers:
+    - state: closed
+      map: ["enum.DoorVisualLayers.Base"]
+  - type: Door
+    closeTimeOne: 0.4
+    closeTimeTwo: 0.4
+    openTimeOne: 0.4
+    openTimeTwo: 0.4
+    openingAnimationTime: 1.0
+    closingAnimationTime: 1.0
+    openSound:
+      path: /Audio/Void/Malanisa_audio/woodens/wooden.ogg   
+    closeSound:
+      path: /Audio/Void/Malanisa_audio/woodens/wooden1.ogg    
+    canPry: false
+
+- type: entity
+  id: WoodenToy2
+  parent: WoodenToy
+  components:
+  - type: Sprite
+    sprite: Void/Malanisa_sprites/Structures/wooden/2.rsi 
+    layers:
+    - state: closed
+      map: ["enum.DoorVisualLayers.Base"]
+  - type: Door
+    closeTimeOne: 0.4
+    closeTimeTwo: 0.4
+    openTimeOne: 0.4
+    openTimeTwo: 0.4
+    openingAnimationTime: 1.0
+    closingAnimationTime: 1.0
+    openSound:
+      path: /Audio/Void/Malanisa_audio/woodens/wooden.ogg   
+    closeSound:
+      path: /Audio/Void/Malanisa_audio/woodens/wooden2.ogg    
+    canPry: false    
+
+- type: entity
+  id: WoodenToy3
+  parent: WoodenToy
+  components:
+  - type: Sprite
+    sprite: Void/Malanisa_sprites/Structures/wooden/3.rsi 
+    layers:
+    - state: closed
+      map: ["enum.DoorVisualLayers.Base"]
+  - type: Door
+    closeTimeOne: 0.4
+    closeTimeTwo: 0.4
+    openTimeOne: 0.4
+    openTimeTwo: 0.4
+    openingAnimationTime: 1.0
+    closingAnimationTime: 1.0
+    openSound:
+      path: /Audio/Void/Malanisa_audio/woodens/wooden.ogg   
+    closeSound:
+      path: /Audio/Void/Malanisa_audio/woodens/wooden3.ogg    
+    canPry: false      
+
+- type: entity
+  id: WoodenToy4
+  parent: WoodenToy
+  components:
+  - type: Sprite
+    sprite: Void/Malanisa_sprites/Structures/wooden/4.rsi 
+    layers:
+    - state: closed
+      map: ["enum.DoorVisualLayers.Base"]
+  - type: Door
+    closeTimeOne: 0.4
+    closeTimeTwo: 0.4
+    openTimeOne: 0.4
+    openTimeTwo: 0.4
+    openingAnimationTime: 1.0
+    closingAnimationTime: 1.0
+    openSound:
+      path: /Audio/Void/Malanisa_audio/woodens/wooden.ogg   
+    closeSound:
+      path: /Audio/Void/Malanisa_audio/woodens/wooden4.ogg    
+    canPry: false      
+
+- type: entity
+  id: WoodenToy5
+  parent: WoodenToy
+  components:
+  - type: Sprite
+    sprite: Void/Malanisa_sprites/Structures/wooden/5.rsi 
+    layers:
+    - state: closed
+      map: ["enum.DoorVisualLayers.Base"]
+  - type: Door
+    closeTimeOne: 0.4
+    closeTimeTwo: 0.4
+    openTimeOne: 0.4
+    openTimeTwo: 0.4
+    openingAnimationTime: 1.0
+    closingAnimationTime: 1.0
+    openSound:
+      path: /Audio/Void/Malanisa_audio/woodens/wooden.ogg   
+    closeSound:
+      path: /Audio/Void/Malanisa_audio/woodens/wooden5.ogg    
+    canPry: false  

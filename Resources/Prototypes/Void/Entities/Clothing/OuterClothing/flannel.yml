@@ -1,11 +1,11 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingOuterClothingFlannelBlueNew
-  name: Синяя рубашка
+  name: синяя рубашка
   description: Ходить в клеточку всё еще модно
   components:
   - type: Sprite
-    sprite: Void/Clothing/OuterClothing/Flannel/flannel_blue.rsi 
+    sprite: Void/Clothing/OuterClothing/Flannel/flannel_blue.rsi
   - type: Clothing
     slots: [ outerClothing ]
     sprite: Void/Clothing/OuterClothing/Flannel/flannel_blue.rsi
@@ -13,11 +13,11 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingOuterClothingFlannelRedNew
-  name: Красная рубашка
+  name: красная рубашка
   description: Ходить в клеточку всё еще модно
   components:
   - type: Sprite
-    sprite: Void/Clothing/OuterClothing/Flannel/flannel_red.rsi 
+    sprite: Void/Clothing/OuterClothing/Flannel/flannel_red.rsi
   - type: Clothing
     slots: [ outerClothing ]
     sprite: Void/Clothing/OuterClothing/Flannel/flannel_red.rsi
@@ -25,11 +25,11 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingOuterClothingFlannelOrangeNew
-  name: Оранжевая рубашка
+  name: оранжевая рубашка
   description: Ходить в клеточку всё еще модно
   components:
   - type: Sprite
-    sprite: Void/Clothing/OuterClothing/Flannel/flannel_orange.rsi 
+    sprite: Void/Clothing/OuterClothing/Flannel/flannel_orange.rsi
   - type: Clothing
     slots: [ outerClothing ]
     sprite: Void/Clothing/OuterClothing/Flannel/flannel_orange.rsi
@@ -37,11 +37,11 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingOuterClothingFlannelGreenNew
-  name: Зеленая рубашка
+  name: зеленая рубашка
   description: Ходить в клеточку всё еще модно
   components:
   - type: Sprite
-    sprite: Void/Clothing/OuterClothing/Flannel/flannel_green.rsi 
+    sprite: Void/Clothing/OuterClothing/Flannel/flannel_green.rsi
   - type: Clothing
     slots: [ outerClothing ]
     sprite: Void/Clothing/OuterClothing/Flannel/flannel_green.rsi
@@ -49,11 +49,11 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingOuterClothingFlannelPinkNew
-  name: Розовая рубашка
+  name: розовая рубашка
   description: Ходить в клеточку всё еще модно
   components:
   - type: Sprite
-    sprite: Void/Clothing/OuterClothing/Flannel/flannel_pink.rsi 
+    sprite: Void/Clothing/OuterClothing/Flannel/flannel_pink.rsi
   - type: Clothing
     slots: [ outerClothing ]
-    sprite: Void/Clothing/OuterClothing/Flannel/flannel_pink.rsi              
+    sprite: Void/Clothing/OuterClothing/Flannel/flannel_pink.rsi

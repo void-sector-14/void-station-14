@@ -1,0 +1,19 @@
+- type: entity
+  id: TurretAntiMeteorCircuitboard
+  parent: BaseMachineCircuitboard
+  name: противометеоритная турель (машинная плата)
+  description: Машинная плата для противометеоритной турели.
+  components:
+  - type: Sprite
+    state: engineering
+  - type: MachineBoard
+    prototype: WeaponTurretAntiMeteor
+    stackRequirements:
+      Manipulator: 1
+      Capacitor: 3
+      Diamond: 3
+      CableHV: 5
+    tagRequirements:
+      ProximitySensor:
+        amount: 3
+        defaultPrototype: ProximitySensor
