@@ -1,0 +1,72 @@
+- type: entity
+  parent: [ SimpleSpaceMobBase, MobCombat ]
+  id: MobShadow
+  name: теневой монстр
+  description: Выглядит как темная, зловещая тень человека, лишенная четких деталей и черт. Силуэт напоминает фигуру человека, но размытые очертания придают ему неестественную зыбкость.
+  components:
+  - type: HTN
+    rootTask:
+      task: SimpleHostileCompound
+    blackboard:
+      NavClimb: !type:Bool
+        true
+      NavSmash: !type:Bool
+        true
+  - type: NpcFactionMember
+    factions:
+    - SimpleHostile
+  - type: Tag
+    tags:
+    - DoorBumpOpener
+  - type: Sprite
+    drawdepth: Mobs
+    sprite: Void/Mobs/Aliens/r_shadowling.rsi
+    layers:
+    - map: [ "enum.DamageStateVisualLayers.Base" ]
+      state: golem
+  - type: MovementAlwaysTouching
+  - type: MovementSpeedModifier
+    baseWalkSpeed: 0.9
+    baseSprintSpeed: 1
+  - type: MobState
+    allowedStates:
+    - Alive
+    - Dead
+  - type: MobThresholds
+    thresholds:
+      0: Alive
+      200: Dead
+  - type: Stamina
+    critThreshold: 50
+  - type: Butcherable
+    spawned:
+    - id: Ectoplasm
+      amount: 1
+  - type: Bloodstream
+    bloodMaxVolume: 100
+    bloodReagent: VentCrud
+  - type: CombatMode
+  - type: MeleeWeapon
+    soundHit:
+      path: /Audio/Weapons/Xeno/alien_claw_flesh3.ogg
+    angle: 0
+    animation: WeaponArcClaw
+    damage:
+      types:
+        Slash: 7
+  - type: ReplacementAccent
+    accent: genericAggressive
+  - type: DamageStateVisuals
+    states:
+      Alive:
+        Base: golem
+      Critical:
+        Base: dead
+      Dead:
+        Base: dead
+  - type: DamagedByFlashing
+    flashDamage:
+      types:
+        Heat: 200
+  - type: Damageable
+    damageContainer: ShadowHaze

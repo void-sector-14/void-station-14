@@ -33,3 +33,81 @@
     sprite: Void/Clothing/Head/Hardsuits/blueshield.rsi
   - type: PointLight
     color: cyan
+
+#Trauma EVA
+- type: entity
+  parent: ClothingHeadHardsuitWithLightBase
+  id: TraumaTeamHelmet
+  name: EVA Шлем Парамедика "Траумы"
+  description: Лёгкий шлем парамедиков TTI, адаптированый для действий в безвоздушном пространстве.
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Head/Hardsuits/trauma.rsi
+  - type: Clothing
+    sprite: Void/Clothing/Head/Hardsuits/trauma.rsi
+  - type: PointLight
+    color: "#00FFFF"
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.95
+        Slash: 0.95
+        Piercing: 0.95
+        Heat: 0.95
+        Radiation: 0.90
+        Caustic: 0.90
+  - type: PressureProtection
+    highPressureMultiplier: 0.6
+    lowPressureMultiplier: 1000
+
+#Trauma EVAR
+- type: entity
+  parent: ClothingHeadHardsuitWithLightBase
+  id: TraumaTeamHelmetRed
+  name: EVA Шлем Техника "Траумы"
+  description: Укреплённый шлем техника TTI, адаптированый для действий в безвоздушном пространстве. Это кровь?..
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Head/Hardsuits/traumared.rsi
+  - type: Clothing
+    sprite: Void/Clothing/Head/Hardsuits/traumared.rsi
+  - type: PointLight
+    color: "#00FFFF"
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.8
+        Slash: 0.8
+        Piercing: 0.8
+        Heat: 0.8
+        Radiation: 0.9
+        Caustic: 0.9
+  - type: PressureProtection
+    highPressureMultiplier: 0.6
+    lowPressureMultiplier: 1000
+
+#Trauma EVAS
+- type: entity
+  parent: ClothingHeadHardsuitWithLightBase
+  id: TraumaTeamHelmetSur
+  name: EVA Шлем Реаниматора "Траумы"
+  description: Высокотехнологичный шлем техника TTI показывающий всю необходимую информацию о физическом состоянии, адаптированый для действий в безвоздушном пространстве. Как платина...
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Head/Hardsuits/traumasur.rsi
+  - type: Clothing
+    sprite: Void/Clothing/Head/Hardsuits/traumasur.rsi
+  - type: PointLight
+    color: "#00FFFF"
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.8
+        Slash: 0.8
+        Piercing: 0.8
+        Heat: 0.8
+        Radiation: 0.9
+        Caustic: 0.9
+  - type: PressureProtection
+    highPressureMultiplier: 0.6
+    lowPressureMultiplier: 1000

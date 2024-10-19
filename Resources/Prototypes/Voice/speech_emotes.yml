@@ -420,6 +420,12 @@
   id: GooseHonk
   name: Кря!
   category: Vocal
+  whitelist:
+    components:
+    - Vocal
+  blacklist:
+    components:
+    - BorgChassis
   chatMessages: [ крякает ]
   chatTriggers:
   - крякает
@@ -429,6 +435,12 @@
   id: Hiss
   name: Шипеть
   category: Vocal
+  whitelist:
+    components:
+    - Vocal
+  blacklist:
+    components:
+    - BorgChassis
   chatMessages: ["шипит!"]
   chatTriggers:
   - шипение
@@ -448,6 +460,12 @@
   id: Mew
   name: Мяукать
   category: Vocal
+  whitelist:
+    components:
+    - Vocal
+  blacklist:
+    components:
+    - BorgChassis
   chatMessages: [ мяукает ]
   chatTriggers:
   - мяу
@@ -459,6 +477,12 @@
   id: Purr
   name: Мурчать
   category: Vocal
+  whitelist:
+    components:
+    - Vocal
+  blacklist:
+    components:
+    - BorgChassis
   chatMessages: [ мурчит ]
   chatTriggers:
   - мур

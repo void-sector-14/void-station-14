@@ -198,12 +198,12 @@
       - ClothingHeadHatWelding
       - WetFloorSign
       - ClothingHeadHatCone
+      - FreezerElectronics
     dynamicRecipes:
       - AdvancedRockGuitarInstrument
       - AdvancedBassGuitarInstrument
       - AdvancedElectricGuitarInstrument
       - PockedPlayerEmpty
-      - FreezerElectronics
       - Flare
   - type: EmagLatheRecipes
     emagStaticRecipes:

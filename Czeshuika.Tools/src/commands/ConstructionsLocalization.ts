@@ -125,7 +125,7 @@ export class ConstructionsLocalization extends ACommand {
                     `    .desc = ${patchDesc}\n`)
                 //@formatter:on
             }
-            writeFile(file, lines.join("\n"))
+            writeFile(file, lines.join(""))
         }
     }
 
