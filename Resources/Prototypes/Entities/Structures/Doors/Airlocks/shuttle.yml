@@ -96,7 +96,7 @@
     fixtures:
       fix1:
         layer:     #removed opaque from the layer, allowing lasers to pass through glass airlocks
-        - GlassAirlockLayer
+        - GlassLayer
 
 - type: entity
   id: AirlockShuttleAssembly

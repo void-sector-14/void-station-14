@@ -59,7 +59,7 @@
         mask:
         - FullTileMask
         layer:     #removed opaque from the layer, allowing lasers to pass through glass airlocks
-        - GlassAirlockLayer
+        - GlassLayer
   - type: Construction
     graph: AirlockExternal
     node: airlockGlass
