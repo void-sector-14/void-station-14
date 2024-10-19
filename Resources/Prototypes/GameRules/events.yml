@@ -24,8 +24,8 @@
     - id: SpiderSpawn
     - id: VentClog
     - id: VentCrittersSlimecats
-    - id: VentCrittersSlimecatsAgressive   
-      
+    - id: VentCrittersSlimecatsAgressive
+
 - type: entityTable
   id: BasicAntagEventsTable
   table: !type:AllSelector # we need to pass a list of rules, since rules have further restrictions to consider via StationEventComp
@@ -75,7 +75,7 @@
   - type: StationEvent
     startAnnouncementColor: "#18abf5"
     startAudio:
-      path: /Audio/Announcements/announce.ogg
+      path: /Audio/Void/Announcements/spanomalies.ogg
     weight: 8
     duration: 35
   - type: AnomalySpawnRule
@@ -288,7 +288,11 @@
     startAnnouncement: station-event-power-grid-check-start-announcement
     endAnnouncement: station-event-power-grid-check-end-announcement
     startAudio:
-      path: /Audio/Announcements/power_off.ogg
+      collection: PowerOff
+      params:
+        volume: -4
+    endAudio:
+      collection: PowerOn
       params:
         volume: -4
     duration: 60
@@ -557,7 +561,7 @@
   - type: StationEvent
     startAnnouncement: station-event-ion-storm-start-announcement
     startAudio:
-      path: /Audio/Announcements/attention.ogg
+      collection: IonStorm
     weight: 8
     reoccurrenceDelay: 20
     duration: 1

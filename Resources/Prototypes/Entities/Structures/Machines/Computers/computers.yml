@@ -622,6 +622,7 @@
     access: [[ "Command" ]]
   - type: CommunicationsConsole
     title: comms-console-announcement-title-station
+    sound: /Audio/Void/Announcements/attention.ogg
   - type: DeviceNetwork
     deviceNetId: Wireless
     transmitFrequencyId: ShuttleTimer

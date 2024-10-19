@@ -1,0 +1,18 @@
+- type: soundCollection
+  id: IonStorm
+  files:
+  - /Audio/Void/Announcements/ionstorm1.ogg
+  - /Audio/Void/Announcements/ionstorm2.ogg
+  - /Audio/Void/Announcements/ionstorm3.ogg
+
+- type: soundCollection
+  id: PowerOff
+  files:
+  - /Audio/Void/Announcements/poweroff1.ogg
+  - /Audio/Void/Announcements/poweroff2.ogg
+
+- type: soundCollection
+  id: PowerOn
+  files:
+  - /Audio/Void/Announcements/poweron1.ogg
+  - /Audio/Void/Announcements/poweron2.ogg
