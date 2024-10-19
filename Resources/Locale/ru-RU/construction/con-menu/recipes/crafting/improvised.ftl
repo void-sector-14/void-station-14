@@ -32,3 +32,5 @@ con-strawHat = { ent-ClothingHeadHatStrawHat }
     .desc = { ent-ClothingHeadHatStrawHat.desc }
 con-pipebomb = самодельная бомба
     .desc = Самодельное взрывчатое устройство, сделанное из труб и проволоки.
+con-rollingpin = скалка
+    .desc = Скалка, используется для приготовления пищи и защиты кухни.
