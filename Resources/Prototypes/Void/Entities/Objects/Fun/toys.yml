@@ -6,6 +6,8 @@
   - type: Sprite
     sprite: Void/Objects/Fun/toys.rsi
 
+### Плюшки команды
+
 - type: entity
   id: PlushieMayla
   parent: BaseVoidPlushie
@@ -35,45 +37,6 @@
   - type: PointLight
     color: "#8f40ff"
     radius: 1.5
-
-- type: entity
-  id: PlushieFrezon
-  parent: BaseVoidPlushie
-  name: плюшевый Фрезон
-  description: Любимая игрушка главного по атмосу
-  components:
-  - type: Sprite
-    state: plushie_frezon
-
-- type: entity
-  id: PlushieStv
-  parent: BaseVoidPlushie
-  name: плюшевый Стив
-  description: Лучший друг утилизатора, которого унесло далеко в космос
-  components:
-  - type: Sprite
-    state: plushie_stv
-
-- type: entity
-  id: Toybug
-  parent: BaseVoidPlushie
-  name: игрушечный космический клещ
-  description: Шутка, которая может довести до красного кода
-  components:
-  - type: Sprite
-    state: toybug
-  - type: EmitSoundOnUse
-    sound:
-      path: /Audio/Effects/bite.ogg
-  - type: EmitSoundOnLand
-    sound:
-      path: /Audio/Effects/bite.ogg
-  - type: EmitSoundOnActivate
-    sound:
-      path: /Audio/Effects/bite.ogg
-  - type: MeleeWeapon
-    soundHit:
-      path: /Audio/Effects/bite.ogg
 
 - type: entity
   parent: BaseVoidPlushie
@@ -121,6 +84,91 @@
 
 - type: entity
   parent: BaseVoidPlushie
+  id: PlushiePalastir
+  name: плюшевый Паластир
+  description: |
+    Милая и красивая игрушка одного небезызвестного робототехника, который ничего не делал. Пахнет мятой.
+    Ограниченная серия игрушек команды проекта "Void Sector".
+    Собери их всех!
+  components:
+  - type: Sprite
+    state: plushie_palastir
+  - type: EmitSoundOnUse
+    sound:
+      path: /Audio/Void/Items/Toys/discord.ogg
+  - type: EmitSoundOnLand
+    sound:
+      path: /Audio/Void/Items/Toys/discord.ogg
+  - type: EmitSoundOnActivate
+    sound:
+      path: /Audio/Void/Items/Toys/discord.ogg
+  - type: MeleeWeapon
+    soundHit:
+      path: /Audio/Void/Items/Toys/discord.ogg
+  - type: UseDelay
+    delay: 10.0
+
+- type: entity
+  parent: BaseVoidPlushie
+  id: PlushieSullivan
+  name: плюшевый Салливан
+  description: |
+    Верный цепной пёс Nanotrasen. Пахнет дорогим мужским одеколоном.
+    Ограниченная серия игрушек команды проекта "Void Sector".
+    Собери их всех!
+  components:
+  - type: Sprite
+    state: plushie_sullivan
+  - type: EmitSoundOnUse
+    sound:
+      path: /Audio/Void/Items/Toys/dude_laugh.ogg
+  - type: EmitSoundOnActivate
+    sound:
+      path: /Audio/Void/Items/Toys/dude_laugh.ogg
+  - type: UseDelay
+    delay: 10.0
+
+- type: entity
+  parent: BaseVoidPlushie
+  id: PlushieKevin
+  name: плюшевый Кевин
+  description: |
+    Кажется он выделяет фрезон.
+    Ограниченная серия игрушек команды проекта "Void Sector".
+    Собери их всех!
+  components:
+  - type: Sprite
+    state: plushie_kevin
+  - type: EmitSoundOnUse
+    sound:
+      path: /Audio/Void/Items/Toys/alarm.ogg
+  - type: EmitSoundOnActivate
+    sound:
+      path: /Audio/Void/Items/Toys/alarm.ogg
+  - type: UseDelay
+    delay: 10.0
+
+### Другие плюшки
+
+- type: entity
+  parent: BaseVoidPlushie
+  id: PlushiePinkBall
+  name: розовый шарик
+  description: Залипательно...
+  components:
+  - type: Sprite
+    state: pink_ball
+  - type: EmitSoundOnUse
+    sound:
+      collection: RadiationPulse
+  - type: EmitSoundOnActivate
+    sound:
+      collection: RadiationPulse
+  - type: UseDelay
+    delay: 5.0
+
+- type: entity
+  parent: BaseVoidPlushie
   id: PlushieBear
   name: плюшевый мишка
   description: |
@@ -158,84 +206,40 @@
     state: plushie_rabbit
 
 - type: entity
+  id: PlushieFrezon
   parent: BaseVoidPlushie
-  id: PlushiePalastir
-  name: плюшевый Паластир
-  description: |
-    Милая и красивая игрушка одного небезызвестного робототехника, который ничего не делал. Пахнет мятой.
-    Ограниченная серия игрушек команды проекта "Void Sector".
-    Собери их всех!
+  name: плюшевый Фрезон
+  description: Любимая игрушка главного по атмосу
   components:
   - type: Sprite
-    state: plushie_palastir
+    state: plushie_frezon
+
+- type: entity
+  id: PlushieStv
+  parent: BaseVoidPlushie
+  name: плюшевый Стив
+  description: Лучший друг утилизатора, которого унесло далеко в космос
+  components:
+  - type: Sprite
+    state: plushie_stv
+
+- type: entity
+  id: Toybug
+  parent: BaseVoidPlushie
+  name: игрушечный космический клещ
+  description: Шутка, которая может довести до красного кода
+  components:
+  - type: Sprite
+    state: toybug
   - type: EmitSoundOnUse
     sound:
-      path: /Audio/Void/Items/Toys/discord.ogg
+      path: /Audio/Effects/bite.ogg
   - type: EmitSoundOnLand
     sound:
-      path: /Audio/Void/Items/Toys/discord.ogg
+      path: /Audio/Effects/bite.ogg
   - type: EmitSoundOnActivate
     sound:
-      path: /Audio/Void/Items/Toys/discord.ogg
+      path: /Audio/Effects/bite.ogg
   - type: MeleeWeapon
     soundHit:
-      path: /Audio/Void/Items/Toys/discord.ogg
-  - type: UseDelay
-    delay: 10.0
-
-- type: entity
-  parent: BaseVoidPlushie
-  id: PlushiePinkBall
-  name: розовый шарик
-  description: Залипательно...
-  components:
-  - type: Sprite
-    state: pink_ball
-  - type: EmitSoundOnUse
-    sound:
-      collection: RadiationPulse
-  - type: EmitSoundOnActivate
-    sound:
-      collection: RadiationPulse
-  - type: UseDelay
-    delay: 5.0
-
-- type: entity
-  parent: BaseVoidPlushie
-  id: PlushieSullivan
-  name: плюшевый Салливан
-  description: |
-    Верный цепной пёс Nanotrasen. Пахнет дорогим мужским одеколоном.
-    Ограниченная серия игрушек команды проекта "Void Sector".
-    Собери их всех!
-  components:
-  - type: Sprite
-    state: plushie_sullivan
-  - type: EmitSoundOnUse
-    sound:
-      path: /Audio/Void/Items/Toys/dude_laugh.ogg
-  - type: EmitSoundOnActivate
-    sound:
-      path: /Audio/Void/Items/Toys/dude_laugh.ogg
-  - type: UseDelay
-    delay: 10.0
-
-- type: entity
-  parent: BaseVoidPlushie
-  id: PlushieKevin
-  name: плюшевый Кевин
-  description: |
-    Кажется он излучает фрезон.
-    Ограниченная серия игрушек команды проекта "Void Sector".
-    Собери их всех!
-  components:
-  - type: Sprite
-    state: plushie_kevin
-  - type: EmitSoundOnUse
-    sound:
-      path: /Audio/Void/Items/Toys/alarm.ogg
-  - type: EmitSoundOnActivate
-    sound:
-      path: /Audio/Void/Items/Toys/alarm.ogg
-  - type: UseDelay
-    delay: 10.0
+      path: /Audio/Effects/bite.ogg
