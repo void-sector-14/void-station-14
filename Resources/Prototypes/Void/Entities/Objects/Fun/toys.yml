@@ -219,3 +219,23 @@
       path: /Audio/Void/Items/Toys/dude_laugh.ogg
   - type: UseDelay
     delay: 10.0
+
+- type: entity
+  parent: BaseVoidPlushie
+  id: PlushieKevin
+  name: плюшевый Кевин
+  description: |
+    Кажется он излучает фрезон.
+    Ограниченная серия игрушек команды проекта "Void Sector".
+    Собери их всех!
+  components:
+  - type: Sprite
+    state: plushie_kevin
+  - type: EmitSoundOnUse
+    sound:
+      path: /Audio/Void/Items/Toys/alarm.ogg
+  - type: EmitSoundOnActivate
+    sound:
+      path: /Audio/Void/Items/Toys/alarm.ogg
+  - type: UseDelay
+    delay: 10.0
