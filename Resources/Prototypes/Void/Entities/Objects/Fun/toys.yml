@@ -142,9 +142,13 @@
   - type: EmitSoundOnUse
     sound:
       path: /Audio/Void/Items/Toys/alarm.ogg
+      params:
+        volume: -4
   - type: EmitSoundOnActivate
     sound:
       path: /Audio/Void/Items/Toys/alarm.ogg
+      params:
+        volume: -4
   - type: UseDelay
     delay: 10.0
 
@@ -182,7 +186,7 @@
   parent: BaseVoidPlushie
   id: PlushieCosmocat
   name: плюшевый космокотик
-  description: Космическик космокотики! Инопланетное мур мур мур!
+  description: Космическик космокотики! Инопланетное мур-мур-мур!
   components:
   - type: Sprite
     state: plushie_cosmocat
@@ -209,7 +213,7 @@
   id: PlushieFrezon
   parent: BaseVoidPlushie
   name: плюшевый Фрезон
-  description: Любимая игрушка главного по атмосу
+  description: Любимая игрушка главного по атмосу.
   components:
   - type: Sprite
     state: plushie_frezon
@@ -218,7 +222,7 @@
   id: PlushieStv
   parent: BaseVoidPlushie
   name: плюшевый Стив
-  description: Лучший друг утилизатора, которого унесло далеко в космос
+  description: Лучший друг утилизатора, которого унесло далеко в космос.
   components:
   - type: Sprite
     state: plushie_stv
@@ -227,7 +231,7 @@
   id: Toybug
   parent: BaseVoidPlushie
   name: игрушечный космический клещ
-  description: Шутка, которая может довести до красного кода
+  description: Шутка, которая может довести до красного кода.
   components:
   - type: Sprite
     state: toybug
@@ -243,3 +247,32 @@
   - type: MeleeWeapon
     soundHit:
       path: /Audio/Effects/bite.ogg
+
+- type: entity
+  id: PlushieShard
+  parent: BaseVoidPlushie
+  name: игрушечный осколок
+  description: Плюшевый осколок кристалла суперматерии. На 100% безопаснее.
+  components:
+  - type: Sprite
+    state: plushie_shard
+  - type: EmitSoundOnUse
+    sound:
+      collection: SupermatterShard
+      params:
+        volume: -4
+  - type: EmitSoundOnActivate
+    sound:
+      collection: SupermatterShard
+      params:
+        volume: -4
+  - type: Food
+    requiresSpecialDigestion: true
+    useSound:
+      collection: SupermatterShard
+      params:
+        volume: -4
+  - type: SpeakOnUse
+    pack: ToysSuperShard
+  - type: UseDelay
+    delay: 10.0
