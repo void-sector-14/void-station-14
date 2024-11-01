@@ -276,3 +276,26 @@
     pack: ToysSuperShard
   - type: UseDelay
     delay: 10.0
+
+- type: entity
+  parent: GrenadeBase
+  id: NuclearGrenadeFake
+  name: критическая масса
+  description: Критическая ошибка.
+  suffix: Игрушка
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Grenades/nukenade.rsi
+  - type: OnUseTimerTrigger
+    delay: 5
+  - type: Appearance
+  - type: DeleteOnTrigger
+  - type: TimerTriggerVisuals
+    primingSound:
+      path: /Audio/Effects/countdown.ogg
+  - type: SoundOnTrigger
+    sound:
+      collection: Explosion
+      volume: 1
+  - type: SpawnOnTrigger
+    proto: NuclearExplosion
