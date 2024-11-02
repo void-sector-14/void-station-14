@@ -1,4 +1,5 @@
 using Content.Server.GameTicking;
+using Content.Server.Ghost;
 using Content.Server.Mind;
 using Content.Shared.Administration;
 using Content.Shared.CCVar;
@@ -57,12 +58,12 @@ public sealed class GhostRespawnCommand : IConsoleCommand
             shell.WriteLine("You have no mind.");
             return;
         }
-        var time = (_gameTiming.CurTime - ghost.TimeOfDeath);
+        var time = _gameTiming.RealTime.Subtract(ghost.TimeOfDeath).TotalSeconds;
         var respawnTime = _configurationManager.GetCVar(VoidCVars.RespawnTime);
 
-        if (respawnTime > time.TotalSeconds)
+        if (respawnTime > time)
         {
-            shell.WriteLine($"Вы не мертвы достаточно долго. Вы мертвы в течении {time.TotalSeconds} секунд из требующихся {respawnTime}.");
+            shell.WriteLine($"Вы не мертвы достаточно долго. Вы мертвы в течении {time} секунд из требующихся {respawnTime}.");
             return;
         }
 

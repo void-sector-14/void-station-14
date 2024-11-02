@@ -7,5 +7,5 @@ shuttle-timer-shuttle-map = КартаШаттла
 shuttle-timer-source-map = КартаИсточника
 shuttle-timer-dest-map = КартаПрибытия
 shuttle-timer-docked = Пристыкован
-shuttle-timer-bye = ПОКА!
+shuttle-timer-bye = ЦК
 shuttle-timer-kill = УБИТЬ

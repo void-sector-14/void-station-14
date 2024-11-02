@@ -1,0 +1,12 @@
+ent-WoodenToy = деревяшка
+    .desc = Бууу!
+ent-WoodenToy1 = { ent-WoodenToy }
+    .desc = { ent-WoodenToy.desc }
+ent-WoodenToy2 = { ent-WoodenToy }
+    .desc = { ent-WoodenToy.desc }
+ent-WoodenToy3 = { ent-WoodenToy }
+    .desc = { ent-WoodenToy.desc }
+ent-WoodenToy4 = { ent-WoodenToy }
+    .desc = { ent-WoodenToy.desc }
+ent-WoodenToy5 = { ent-WoodenToy }
+    .desc = { ent-WoodenToy.desc }

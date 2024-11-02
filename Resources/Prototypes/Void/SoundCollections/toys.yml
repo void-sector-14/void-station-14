@@ -1,0 +1,5 @@
+- type: soundCollection
+  id: SupermatterShard
+  files:
+  - /Audio/Void/Items/Toys/glass_step_sm.ogg
+  - /Audio/Void/Items/Toys/supermatter.ogg

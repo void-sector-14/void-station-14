@@ -36,8 +36,12 @@ traitor-role-codewords =
 traitor-role-uplink-code =
     Установите рингтон вашего КПК на { $code } чтобы заблокировать или разблокировать аплинк.
     Не забудьте заблокировать его и сменить код, иначе кто угодно из экипажа станции сможет открыть аплинк!
+traitor-role-uplink-implant =
+    Ваш имплант аплинка активирован, получите к нему доступ с панели быстрого доступа.
+    Аплинк защищен, пока кто-то не извлечет его из вашего тела.
 # don't need all the flavour text for character menu
 traitor-role-codewords-short =
     Кодовые слова:
     { $codewords }.
 traitor-role-uplink-code-short = Ваш код аплинка: { $code }.
+traitor-role-uplink-implant-short = Ваш аплинк был имплантирован. Доступ к нему с панели быстрого доступа.

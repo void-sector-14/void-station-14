@@ -1,5 +1,5 @@
-ent-AdminObserver = админ наблюдатель
-    .desc = { ent-MobObserver.desc }
+ent-AdminObserver = адмем
+    .desc = Летают тут всякие, подглядывают, записывают в книгу обид.
     .suffix = { "" }
 ent-ActionAGhostShowSolar = Интерфейс управления солнечными батареями
     .desc = Просмотр интерфейса управления солнечными батареями.

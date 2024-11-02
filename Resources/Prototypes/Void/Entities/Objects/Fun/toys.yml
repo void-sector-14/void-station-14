@@ -6,6 +6,8 @@
   - type: Sprite
     sprite: Void/Objects/Fun/toys.rsi
 
+### Плюшки команды
+
 - type: entity
   id: PlushieMayla
   parent: BaseVoidPlushie
@@ -35,45 +37,6 @@
   - type: PointLight
     color: "#8f40ff"
     radius: 1.5
-
-- type: entity
-  id: PlushieFrezon
-  parent: BaseVoidPlushie
-  name: плюшевый Фрезон
-  description: Любимая игрушка главного по атмосу
-  components:
-  - type: Sprite
-    state: plushie_frezon
-
-- type: entity
-  id: PlushieStv
-  parent: BaseVoidPlushie
-  name: плюшевый Стив
-  description: Лучший друг утилизатора, которого унесло далеко в космос
-  components:
-  - type: Sprite
-    state: plushie_stv
-
-- type: entity
-  id: Toybug
-  parent: BaseVoidPlushie
-  name: игрушечный космический клещ
-  description: Шутка, которая может довести до красного кода
-  components:
-  - type: Sprite
-    state: toybug
-  - type: EmitSoundOnUse
-    sound:
-      path: /Audio/Effects/bite.ogg
-  - type: EmitSoundOnLand
-    sound:
-      path: /Audio/Effects/bite.ogg
-  - type: EmitSoundOnActivate
-    sound:
-      path: /Audio/Effects/bite.ogg
-  - type: MeleeWeapon
-    soundHit:
-      path: /Audio/Effects/bite.ogg
 
 - type: entity
   parent: BaseVoidPlushie
@@ -121,44 +84,6 @@
 
 - type: entity
   parent: BaseVoidPlushie
-  id: PlushieBear
-  name: плюшевый мишка
-  description: |
-    Обними его!
-    Его на станции теряли пять раз.
-  components:
-  - type: Sprite
-    state: plushie_bear
-
-- type: entity
-  parent: BaseVoidPlushie
-  id: PlushieCosmocat
-  name: плюшевый космокотик
-  description: Космическик космокотики! Инопланетное мур мур мур!
-  components:
-  - type: Sprite
-    state: plushie_cosmocat
-
-- type: entity
-  parent: BaseVoidPlushie
-  id: PlushieUnicorn
-  name: плюшевый единорожек
-  description: Будет оберегать ваши сны и любить вас!
-  components:
-  - type: Sprite
-    state: plushie_unicorn
-
-- type: entity
-  parent: BaseVoidPlushie
-  id: PlushieRabbit
-  name: плюшевый кролик
-  description: Очень милое крылатое создание!
-  components:
-  - type: Sprite
-    state: plushie_rabbit
-
-- type: entity
-  parent: BaseVoidPlushie
   id: PlushiePalastir
   name: плюшевый Паластир
   description: |
@@ -185,23 +110,6 @@
 
 - type: entity
   parent: BaseVoidPlushie
-  id: PlushiePinkBall
-  name: розовый шарик
-  description: Залипательно...
-  components:
-  - type: Sprite
-    state: pink_ball
-  - type: EmitSoundOnUse
-    sound:
-      collection: RadiationPulse
-  - type: EmitSoundOnActivate
-    sound:
-      collection: RadiationPulse
-  - type: UseDelay
-    delay: 5.0
-
-- type: entity
-  parent: BaseVoidPlushie
   id: PlushieSullivan
   name: плюшевый Салливан
   description: |
@@ -219,3 +127,175 @@
       path: /Audio/Void/Items/Toys/dude_laugh.ogg
   - type: UseDelay
     delay: 10.0
+
+- type: entity
+  parent: BaseVoidPlushie
+  id: PlushieKevin
+  name: плюшевый Кевин
+  description: |
+    Кажется он выделяет фрезон.
+    Ограниченная серия игрушек команды проекта "Void Sector".
+    Собери их всех!
+  components:
+  - type: Sprite
+    state: plushie_kevin
+  - type: EmitSoundOnUse
+    sound:
+      path: /Audio/Void/Items/Toys/alarm.ogg
+      params:
+        volume: -4
+  - type: EmitSoundOnActivate
+    sound:
+      path: /Audio/Void/Items/Toys/alarm.ogg
+      params:
+        volume: -4
+  - type: UseDelay
+    delay: 10.0
+
+### Другие плюшки
+
+- type: entity
+  parent: BaseVoidPlushie
+  id: PlushiePinkBall
+  name: розовый шарик
+  description: Залипательно...
+  components:
+  - type: Sprite
+    state: pink_ball
+  - type: EmitSoundOnUse
+    sound:
+      collection: RadiationPulse
+  - type: EmitSoundOnActivate
+    sound:
+      collection: RadiationPulse
+  - type: UseDelay
+    delay: 5.0
+
+- type: entity
+  parent: BaseVoidPlushie
+  id: PlushieBear
+  name: плюшевый мишка
+  description: |
+    Обними его!
+    Его на станции теряли пять раз.
+  components:
+  - type: Sprite
+    state: plushie_bear
+
+- type: entity
+  parent: BaseVoidPlushie
+  id: PlushieCosmocat
+  name: плюшевый космокотик
+  description: Космическик космокотики! Инопланетное мур-мур-мур!
+  components:
+  - type: Sprite
+    state: plushie_cosmocat
+
+- type: entity
+  parent: BaseVoidPlushie
+  id: PlushieUnicorn
+  name: плюшевый единорожек
+  description: Будет оберегать ваши сны и любить вас!
+  components:
+  - type: Sprite
+    state: plushie_unicorn
+
+- type: entity
+  parent: BaseVoidPlushie
+  id: PlushieRabbit
+  name: плюшевый кролик
+  description: Очень милое крылатое создание!
+  components:
+  - type: Sprite
+    state: plushie_rabbit
+
+- type: entity
+  id: PlushieFrezon
+  parent: BaseVoidPlushie
+  name: плюшевый Фрезон
+  description: Любимая игрушка главного по атмосу.
+  components:
+  - type: Sprite
+    state: plushie_frezon
+
+- type: entity
+  id: PlushieStv
+  parent: BaseVoidPlushie
+  name: плюшевый Стив
+  description: Лучший друг утилизатора, которого унесло далеко в космос.
+  components:
+  - type: Sprite
+    state: plushie_stv
+
+- type: entity
+  id: Toybug
+  parent: BaseVoidPlushie
+  name: игрушечный космический клещ
+  description: Шутка, которая может довести до красного кода.
+  components:
+  - type: Sprite
+    state: toybug
+  - type: EmitSoundOnUse
+    sound:
+      path: /Audio/Effects/bite.ogg
+  - type: EmitSoundOnLand
+    sound:
+      path: /Audio/Effects/bite.ogg
+  - type: EmitSoundOnActivate
+    sound:
+      path: /Audio/Effects/bite.ogg
+  - type: MeleeWeapon
+    soundHit:
+      path: /Audio/Effects/bite.ogg
+
+- type: entity
+  id: PlushieShard
+  parent: BaseVoidPlushie
+  name: игрушечный осколок
+  description: Плюшевый осколок кристалла суперматерии. На 100% безопаснее.
+  components:
+  - type: Sprite
+    state: plushie_shard
+  - type: EmitSoundOnUse
+    sound:
+      collection: SupermatterShard
+      params:
+        volume: -4
+  - type: EmitSoundOnActivate
+    sound:
+      collection: SupermatterShard
+      params:
+        volume: -4
+  - type: Food
+    requiresSpecialDigestion: true
+    useSound:
+      collection: SupermatterShard
+      params:
+        volume: -4
+  - type: SpeakOnUse
+    pack: ToysSuperShard
+  - type: UseDelay
+    delay: 10.0
+
+- type: entity
+  parent: GrenadeBase
+  id: NuclearGrenadeFake
+  name: критическая масса
+  description: Критическая ошибка.
+  suffix: Игрушка
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Grenades/nukenade.rsi
+  - type: OnUseTimerTrigger
+    delay: 5
+  - type: Appearance
+  - type: DeleteOnTrigger
+  - type: TimerTriggerVisuals
+    primingSound:
+      path: /Audio/Effects/countdown.ogg
+  - type: SoundOnTrigger
+    sound:
+      collection: Explosion
+      volume: 1
+  - type: SpawnOnTrigger
+    proto: NuclearExplosion

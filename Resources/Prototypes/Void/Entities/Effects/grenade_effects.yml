@@ -1,0 +1,10 @@
+- type: entity
+  id: NuclearExplosion
+  name: ядерный гриб
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Sprite
+    sprite: Void/Effects/explosion.rsi
+    state: explosion
+  - type: TimedDespawn
+    lifetime: 1

@@ -1,0 +1,14 @@
+ent-FloorWaterEntityGrassDark = вода
+    .desc = Настоящий утолитель жажды
+ent-FloorWaterEntitySand = { ent-FloorWaterEntityGrassDark }
+    .desc = { ent-FloorWaterEntityGrassDark.desc }
+ent-FloorWaterEntityGrassNormal = { ent-FloorWaterEntityGrassDark }
+    .desc = { ent-FloorWaterEntityGrassDark.desc }
+ent-FloorWaterEntityGrassOrange = { ent-FloorWaterEntityGrassDark }
+    .desc = { ent-FloorWaterEntityGrassDark.desc }
+ent-FloorWaterEntityCave = { ent-FloorWaterEntityGrassDark }
+    .desc = { ent-FloorWaterEntityGrassDark.desc }
+ent-FloorWaterEntityDirt1 = { ent-FloorWaterEntityGrassDark }
+    .desc = { ent-FloorWaterEntityGrassDark.desc }
+ent-FloorWaterEntityDirt2 = { ent-FloorWaterEntityGrassDark }
+    .desc = { ent-FloorWaterEntityGrassDark.desc }
