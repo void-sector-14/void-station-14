@@ -1,0 +1,42 @@
+- type: entity
+  parent: ClothingMaskBase
+  id: ClothingBalaclavaMask
+  name: балаклава
+  description: Готов или нет?
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Mask/balaclava.rsi
+  - type: Clothing
+    sprite: Void/Clothing/Mask/balaclava.rsi
+  - type: IngestionBlocker
+  - type: IdentityBlocker
+  - type: Tag
+    tags:
+    - HamsterWearable
+    - WhitelistChameleon
+  - type: HideLayerClothing
+    slots:
+    - Snout
+    hideOnToggle: true
+
+- type: entity
+  parent: ClothingMaskBase
+  id: ClothingMaskInterloper
+  name: маска постороннего
+  description: Не ощущается реальной.
+  suffix: Для ивентов
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Mask/interlopermask.rsi
+  - type: Clothing
+    sprite: Void/Clothing/Mask/interlopermask.rsi
+  - type: IngestionBlocker
+  - type: IdentityBlocker
+  - type: Tag
+    tags:
+    - HamsterWearable
+    - WhitelistChameleon
+  - type: HideLayerClothing
+    slots:
+    - Snout
+    hideOnToggle: true

@@ -1,0 +1,50 @@
+- type: entity
+  parent: BaseItem
+  id: UmbrellaBlack
+  name: чёрный зонтик
+  description: Простой зонтик, вряд ли защитит вас от дождя состоящим из метеоров.
+  components:
+  - type: Sprite
+    sprite: Void/Objects/Misc/umbrellablack.rsi
+    state: icon
+  - type: MeleeWeapon
+    wideAnimationRotation: -135
+    damage:
+      types:
+        Piercing: 1
+  - type: DamageOtherOnHit
+    damage:
+      types:
+        Piercing: 1
+  - type: Item
+    size: Tiny
+  - type: BalloonPopper
+  - type: ThrowingAngle
+    angle: -25
+  - type: LandAtCursor
+
+- type: entity
+  parent: BaseItem
+  id: UmbrellaInterlope
+  name: зонт постороннего
+  description: Это не ваше. Вам это известно. Ему это известно.
+  suffix: Не трогать
+  components:
+  - type: Sprite
+    sprite: Void/Objects/Misc/umbrellainterloper.rsi
+    state: icon
+  - type: MeleeWeapon
+    wideAnimationRotation: -135
+    damage:
+      types:
+        Piercing: 100
+  - type: DamageOtherOnHit
+    damage:
+      types:
+        Piercing: 100
+  - type: Item
+    size: Tiny
+  - type: BalloonPopper
+  - type: ThrowingAngle
+    angle: -25
+  - type: LandAtCursor

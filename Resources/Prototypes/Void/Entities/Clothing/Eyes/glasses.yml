@@ -1,0 +1,15 @@
+- type: entity
+  parent: ClothingEyesBase
+  id: ClothingEyesGlassesOrange
+  name: оранжевые очки
+  description: Пара стильных оранжевых очков. В них всё кажется медленным.
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Glasses/orangewind.rsi
+  - type: Clothing
+    sprite: Void/Clothing/Glasses/orangewind.rsi
+  - type: Tag
+    tags:
+    - WhitelistChameleon
+  - type: IdentityBlocker
+    coverage: EYES
