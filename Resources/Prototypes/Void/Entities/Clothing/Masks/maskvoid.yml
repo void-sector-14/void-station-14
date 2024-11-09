@@ -16,6 +16,7 @@
     - WhitelistChameleon
   - type: HideLayerClothing
     slots:
+    - Hair
     - Snout
     hideOnToggle: true
 
