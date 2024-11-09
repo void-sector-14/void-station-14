@@ -76,9 +76,13 @@
   - type: EmitSoundOnUse
     sound:
       path: /Audio/Void/Items/Toys/oguzki.ogg
+      params:
+        volume: -4
   - type: EmitSoundOnActivate
     sound:
       path: /Audio/Void/Items/Toys/oguzki.ogg
+      params:
+        volume: -4
   - type: UseDelay
     delay: 10.0
 
