@@ -1,6 +1,6 @@
 ent-BaseComputerCircuitboard = печатная плата
     .desc = { ent-BaseItem.desc }
-ent-AlertsComputerCircuitboard = консоль оповещений (машинная плата)
+ent-AlertsComputerCircuitboard = консоль атмосферных оповещений (машинная плата)
     .desc = Машинная плата для консоли оповещений.
 ent-PowerComputerCircuitboard = консоль контроля питания (машинная плата)
     .desc = Машинная плата для консоли контроля питания.
