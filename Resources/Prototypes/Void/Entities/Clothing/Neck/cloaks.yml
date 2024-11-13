@@ -2,7 +2,7 @@
   parent: ClothingNeckBase
   id: ClothingNeckCloakCentCom
   name: фирменный плащ Центкома
-  description: Дорогой плащ, который вам не по корману
+  description: Дорогой плащ, который вам не по карману
   components:
   - type: Sprite
     sprite: Void/Clothing/Neck/Cloaks/centcomcloakformal.rsi
@@ -15,3 +15,39 @@
   components:
   - type: Sprite
     sprite: Void/Clothing/Neck/Cloaks/poncho.rsi
+
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckDispatchCentCom
+  name: плащ диспетчера
+  description: Плащ, который обычно носят диспетчеры Центрального Командования.
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Neck/centcomm_custom_cloak_dispatch.rsi
+
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckOperatorCentCom
+  name: плащ оператора
+  description: Плащ оператора Центрального Командования. На внутренней части воротника имеется прикольный миниатюрный микрофон который можно подключить к гарнитуре.
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Neck/centcomm_custom_cloak_operator.rsi
+
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckWhiteCentCom
+  name: белый плащ Центком
+  description: Белый плащ Центрального Командования, их на самом деле много кто носит. Но обычно если те кто, действительно, должен их носить, вас в нём увидят - исход будет печальным.
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Neck/centcomm_custom_cloak_white.rsi
+
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckIntendantCentCom
+  name: плащ интенданта
+  description: Плащ носимый интендантом Центкома, на внутренней стороне всё ещё находится бирка с большим количеством нулей, вы даже не можете назвать итоговое число.
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Neck/centcomm_custom_cloak_intendant.rsi

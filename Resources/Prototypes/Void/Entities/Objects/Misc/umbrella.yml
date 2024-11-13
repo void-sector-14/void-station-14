@@ -17,7 +17,7 @@
       types:
         Piercing: 1
   - type: Item
-    size: Tiny
+    size: Small
   - type: BalloonPopper
   - type: ThrowingAngle
     angle: -25
