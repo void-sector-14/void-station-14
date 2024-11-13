@@ -63,9 +63,3 @@
   id: ChiefEngineerWintercoat
   equipment:
     outerClothing: ClothingOuterWinterCE
-
-# Shoes
-- type: loadout
-  id: BrownShoes
-  equipment:
-    shoes: ClothingShoesColorBrown

@@ -17,6 +17,7 @@ random-sentience-event-strength-5 = командования
 random-sentience-event-strength-6 = клоуна
 random-sentience-event-strength-7 = огузка
 random-sentience-event-strength-8 = ИИ
+random-sentience-event-strength-9 = слизнекота
 
 ## Announcement text
 
@@ -39,3 +40,4 @@ station-event-random-sentience-flavor-primate = приматы
 station-event-random-sentience-flavor-kobold = кобольды
 station-event-random-sentience-flavor-slime = слаймы
 station-event-random-sentience-flavor-inanimate = предметы
+station-event-random-sentience-flavor-slimecat = слизнекоты

@@ -1,5 +1,5 @@
 - type: entity
-  parent: [MobObserver, InventoryBase]
+  parent: [MobObserverBase, InventoryBase]
   id: AdminObserver
   name: admin observer
   categories: [ HideSpawnMenu ]
@@ -12,6 +12,7 @@
     - CanPilot
     - BypassInteractionRangeChecks
     - BypassDropChecks
+    - NoConsoleSound
   - type: Input
     context: "aghost"
   - type: Ghost
@@ -96,11 +97,12 @@
 - type: entity
   id: ActionAGhostShowSolar
   name: Solar Control Interface
-  description: View a solar control interface.
+  description: View a Solar Control Interface.
   components:
   - type: InstantAction
-    icon: Void/Interface/admin_actions.rsi/solar.png
-    iconOn: Void/Interface/admin_actions.rsi/solar.png
+    icon:
+      sprite: Void/Interface/admin_actions.rsi
+      state: solar
     keywords: [ "AI", "console", "interface" ]
     priority: -10
     event: !type:ToggleIntrinsicUIEvent { key: enum.SolarControlConsoleUiKey.Key }
@@ -108,35 +110,38 @@
 - type: entity
   id: ActionAGhostShowCommunications
   name: Communications Interface
-  description: View a communications interface.
+  description: View a Communications Interface.
   components:
   - type: InstantAction
-    icon: Void/Interface/admin_actions.rsi/communications.png
-    iconOn: Void/Interface/admin_actions.rsi/communications.png
+    icon:
+      sprite: Void/Interface/admin_actions.rsi
+      state: communications
     keywords: [ "AI", "console", "interface" ]
-    priority: -10
+    priority: -4
     event: !type:ToggleIntrinsicUIEvent { key: enum.CommunicationsConsoleUiKey.Key }
 
 - type: entity
   id: ActionAGhostShowRadar
   name: Mass Scanner Interface
-  description: View a mass scanner interface.
+  description: View a Mass Scanner Interface.
   components:
   - type: InstantAction
-    icon: Void/Interface/admin_actions.rsi/radar.png
-    iconOn: Void/Interface/admin_actions.rsi/radar.png
+    icon:
+      sprite: Void/Interface/admin_actions.rsi
+      state: radar
     keywords: [ "AI", "console", "interface" ]
-    priority: -10
+    priority: -6
     event: !type:ToggleIntrinsicUIEvent { key: enum.RadarConsoleUiKey.Key }
 
 - type: entity
   id: ActionAGhostShowCargo
   name: Cargo Ordering Interface
-  description: View a cargo ordering interface.
+  description: View a Cargo Ordering Interface.
   components:
   - type: InstantAction
-    icon: Void/Interface/admin_actions.rsi/cargo.png
-    iconOn: Void/Interface/admin_actions.rsi/cargo.png
+    icon:
+      sprite: Void/Interface/admin_actions.rsi
+      state: cargo
     keywords: [ "AI", "console", "interface" ]
     priority: -10
     event: !type:ToggleIntrinsicUIEvent { key: enum.CargoConsoleUiKey.Orders }
@@ -144,23 +149,25 @@
 - type: entity
   id: ActionAGhostShowCrewMonitoring
   name: Crew Monitoring Interface
-  description: View a crew monitoring interface.
+  description: View a Crew Monitoring Interface.
   components:
   - type: InstantAction
-    icon: Void/Interface/admin_actions.rsi/monitoring.png
-    iconOn: Void/Interface/admin_actions.rsi/monitoring.png
+    icon:
+      sprite: Void/Interface/admin_actions.rsi
+      state: monitoring
     keywords: [ "AI", "console", "interface" ]
-    priority: -10
+    priority: -8
     event: !type:ToggleIntrinsicUIEvent { key: enum.CrewMonitoringUIKey.Key }
 
 - type: entity
   id: ActionAGhostShowStationRecords
   name: Station Records Interface
-  description: View a station records Interface.
+  description: View a Station Records Interface.
   components:
   - type: InstantAction
-    icon: Void/Interface/admin_actions.rsi/records.png
-    iconOn: Void/Interface/admin_actions.rsi/records.png
+    icon:
+      sprite: Void/Interface/admin_actions.rsi
+      state: records
     keywords: [ "AI", "console", "interface" ]
-    priority: -10
+    priority: -7
     event: !type:ToggleIntrinsicUIEvent { key: enum.GeneralStationRecordConsoleKey.Key }

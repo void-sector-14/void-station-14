@@ -15,8 +15,8 @@
     closeTimeTwo: 0.4
     openTimeOne: 0.4
     openTimeTwo: 0.4
-    openingAnimationTime: 1.0
-    closingAnimationTime: 1.0
+    openingAnimationTime: 1.1
+    closingAnimationTime: 1.1
     canPry: false
     crushDamage:
       types:

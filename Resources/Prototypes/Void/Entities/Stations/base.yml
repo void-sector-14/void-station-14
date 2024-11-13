@@ -6,7 +6,6 @@
       goals:
       - Shuttle
       - ShuttleRescue
-      - Tesla
       # - SolarPanels
       - Artifacts
       - Bar

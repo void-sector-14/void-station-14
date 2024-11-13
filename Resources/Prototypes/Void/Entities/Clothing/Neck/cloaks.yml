@@ -1,5 +1,5 @@
 - type: entity
-  parent: ClothingNeckBase
+  parent: [ClothingNeckBase, BaseCentcommContraband]
   id: ClothingNeckCloakCentCom
   name: фирменный плащ Центкома
   description: Дорогой плащ, который вам не по карману
@@ -10,7 +10,7 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckCloakCowboyPoncho
-  name: Пончо
+  name: пончо
   description: Пока еще дырки от пуль на нем не появлялись
   components:
   - type: Sprite

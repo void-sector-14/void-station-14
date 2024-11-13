@@ -1,5 +1,5 @@
 - type: entity
-  parent: ClothingHeadBase
+  parent: [ClothingHeadBase, BaseCentcommContraband]
   id: ClothingHeadHatcentcap
   name: фирменная шапка Центкома
   description: Хорошо быть Императором
@@ -10,7 +10,7 @@
     sprite: Void/Clothing/Head/Hats/centcap.rsi
 
 - type: entity
-  parent: ClothingHeadBase
+  parent: [ClothingHeadBase, BaseCentcommContraband]
   id: ClothingHeadHatBeretCent
   name: фирменный берет Центкома
   description: Хорошо быть Императором
@@ -43,7 +43,7 @@
     sprite: Void/Clothing/Head/Hats/oldfedora.rsi
 
 - type: entity
-  parent: ClothingHeadBase
+  parent: [ClothingHeadBase, BaseCommandContraband]
   id: ClothingHeadHatBeretBlueshield
   name: берет офицера синего щита
   description: Берет темно-синего цвета с эмблемой командования. Для офицеров, которые больше думают о безопасности других людей, чем о своей.

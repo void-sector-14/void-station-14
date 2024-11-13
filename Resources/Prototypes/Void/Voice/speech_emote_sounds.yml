@@ -18,7 +18,7 @@
     Crying:
       collection: MaleCry
     Whistle:
-      collection: Whistles                                                                      
+      collection: Whistles
     Hiss:
       collection: FelinidHisses
     Meow:
@@ -30,7 +30,7 @@
     Purr:
       collection: FelinidPurrs
     Gasp:
-      collection: Gasp
+      collection: MaleGasp
     CritGasp:
       collection: MaleCritGasp
 
@@ -46,15 +46,15 @@
     Giggle:
       collection: FemaleLaugh
     Cough:
-      collection: FemaleCoughs 
+      collection: FemaleCoughs
     Yawn:
-      collection: FemaleYawn  
+      collection: FemaleYawn
     Sigh:
       collection: FemaleSigh
     Crying:
       collection: FemaleCry
     Whistle:
-      collection: Whistles                           
+      collection: Whistles
     Hiss:
       collection: FelinidHisses
     Meow:
@@ -66,6 +66,6 @@
     Purr:
       collection: FelinidPurrs
     Gasp:
-      collection: Gasp
+      collection: FemaleGasp
     CritGasp:
-      collection: FemaleCritGasp  
+      collection: FemaleCritGasp

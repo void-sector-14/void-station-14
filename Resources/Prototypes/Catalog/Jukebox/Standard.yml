@@ -203,7 +203,7 @@
     path: /Audio/Void/Jukebox/Ghost.ogg
 
 - type: jukebox
-  id:
+  id: Everything
   name: Mick Gordon - Everything Will Be Ok
   path:
     path: /Audio/Void/Jukebox/Everything_Will_Be_Ok.ogg

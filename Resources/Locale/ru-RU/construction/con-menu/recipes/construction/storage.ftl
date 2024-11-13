@@ -1,15 +1,11 @@
 con-FilingCabinet = картотечный шкаф
     .desc = Шкаф для хранения документов.
-
 con-TallCabinet = высокий шкаф
     .desc = Шкаф для хранения документов.
-
 con-ChestDrawer = { ent-filingCabinetDrawer }
     .desc = { ent-filingCabinetDrawer.desc }
-
 con-ShowCase = витрина
     .desc = Прочная витрина для дорогого экспоната.
-
 con-ShelfWood = деревянная полка
     .desc = Удобное место для размещения, ээ, да чего угодно.
 con-ShelfMetal = металлическая полка

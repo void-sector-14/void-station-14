@@ -1,0 +1,373 @@
+### плащи
+
+- type: construction
+  name: плащ капитана
+  id: CloakCap
+  graph: CloakCap
+  startNode: start
+  targetNode: CloakCap
+  category: construction-category-slimecat
+  description: Порезать плащ
+  icon:
+    sprite: Void/Malanisa_sprites/Objects/Slimecat_items/Clothing/Neck/Cloaks/cap.rsi
+    state: icon
+  objectType: Item
+  entityWhitelist:
+    tags:
+    - SlimecatSimpleCraft
+
+- type: constructionGraph
+  id: CloakCap
+  start: start
+  graph:
+  - node: start
+    edges:
+    - to: CloakCap
+      steps:    
+      - tag: ClothingNeckCloakCap
+        name: плащ капитана
+        icon:
+          sprite: Void/Malanisa_sprites/Objects/Slimecat_items/Clothing/Neck/Cloaks/cap.rsi
+          state: icon
+        doAfter: 4
+  - node: CloakCap
+    entity: ClothingNeckCloakCapSlimecat
+
+- type: construction
+  name: плащ главы службы безопасности
+  id: CloakHos
+  graph: CloakHos
+  startNode: start
+  targetNode: CloakHos
+  category: construction-category-slimecat
+  description: Порезать плащ
+  icon:
+    sprite: Void/Malanisa_sprites/Objects/Slimecat_items/Clothing/Neck/Cloaks/hos.rsi
+    state: icon
+  objectType: Item
+  entityWhitelist:
+    tags:
+    - SlimecatSimpleCraft
+
+- type: constructionGraph
+  id: CloakHos
+  start: start
+  graph:
+  - node: start
+    edges:
+    - to: CloakHos
+      steps:    
+      - tag: ClothingNeckCloakHos
+        name: плащ главы службы безопасности
+        icon:
+          sprite: Void/Malanisa_sprites/Objects/Slimecat_items/Clothing/Neck/Cloaks/hos.rsi
+          state: icon
+        doAfter: 4
+  - node: CloakHos
+    entity: ClothingNeckCloakHosSlimecat
+
+- type: construction
+  name: плащ старшего инженера
+  id: CloakCe
+  graph: CloakCe
+  startNode: start
+  targetNode: CloakCe
+  category: construction-category-slimecat
+  description: Порезать плащ
+  icon:
+    sprite: Void/Malanisa_sprites/Objects/Slimecat_items/Clothing/Neck/Cloaks/ce.rsi   
+    state: icon
+  objectType: Item
+  entityWhitelist:
+    tags:
+    - SlimecatSimpleCraft
+
+- type: constructionGraph
+  id: CloakCe
+  start: start
+  graph:
+  - node: start
+    edges:
+    - to: CloakCe
+      steps:    
+      - tag: ClothingNeckCloakCe
+        name: плащ старшего инженера
+        icon:
+          sprite: Void/Malanisa_sprites/Objects/Slimecat_items/Clothing/Neck/Cloaks/ce.rsi   
+          state: icon
+        doAfter: 4
+  - node: CloakCe
+    entity: ClothingNeckCloakCeSlimecat
+
+- type: construction
+  name: плащ главного врача
+  id: CloakCmo
+  graph: CloakCmo
+  startNode: start
+  targetNode: CloakCmo
+  category: construction-category-slimecat
+  description: Порезать плащ
+  icon:
+    sprite: Void/Malanisa_sprites/Objects/Slimecat_items/Clothing/Neck/Cloaks/cmo.rsi
+    state: icon
+  objectType: Item
+  entityWhitelist:
+    tags:
+    - SlimecatSimpleCraft
+
+- type: constructionGraph
+  id: CloakCmo
+  start: start
+  graph:
+  - node: start
+    edges:
+    - to: CloakCmo
+      steps:    
+      - tag: ClothingNeckCloakCmo
+        name: плащ главного врача
+        icon:
+          sprite: Void/Malanisa_sprites/Objects/Slimecat_items/Clothing/Neck/Cloaks/cmo.rsi
+          state: icon
+        doAfter: 4
+  - node: CloakCmo
+    entity: ClothingCloakCmoSlimecat
+
+- type: construction
+  name: плащ научного руководителя
+  id: CloakRd
+  graph: CloakRd
+  startNode: start
+  targetNode: CloakRd
+  category: construction-category-slimecat
+  description: Порезать плащ
+  icon:
+    sprite: Void/Malanisa_sprites/Objects/Slimecat_items/Clothing/Neck/Cloaks/rd.rsi  
+    state: icon
+  objectType: Item
+  entityWhitelist:
+    tags:
+    - SlimecatSimpleCraft
+
+- type: constructionGraph
+  id: CloakRd
+  start: start
+  graph:
+  - node: start
+    edges:
+    - to: CloakRd
+      steps:    
+      - tag: ClothingNeckCloakRd
+        name: плащ научного руководителя
+        icon:
+          sprite: Void/Malanisa_sprites/Objects/Slimecat_items/Clothing/Neck/Cloaks/rd.rsi  
+          state: icon
+        doAfter: 4
+  - node: CloakRd
+    entity: ClothingNeckCloakRdSlimecat
+
+- type: construction
+  name: плащ квартирмейстера
+  id: CloakQm
+  graph: CloakQm
+  startNode: start
+  targetNode: CloakQm
+  category: construction-category-slimecat
+  description: Порезать плащ
+  icon:
+    sprite: Void/Malanisa_sprites/Objects/Slimecat_items/Clothing/Neck/Cloaks/qm.rsi
+    state: icon
+  objectType: Item
+  entityWhitelist:
+    tags:
+    - SlimecatSimpleCraft
+
+- type: constructionGraph
+  id: CloakQm
+  start: start
+  graph:
+  - node: start
+    edges:
+    - to: CloakQm
+      steps:    
+      - tag: ClothingNeckCloakQm
+        name: плащ квартирмейстера
+        icon:
+          sprite: Void/Malanisa_sprites/Objects/Slimecat_items/Clothing/Neck/Cloaks/qm.rsi
+          state: icon
+        doAfter: 4
+  - node: CloakQm
+    entity: ClothingNeckCloakQmSlimecat            
+
+
+- type: construction
+  name: плащ главы персонала
+  id: CloakHop
+  graph: CloakHop
+  startNode: start
+  targetNode: CloakHop
+  category: construction-category-slimecat
+  description: Порезать плащ
+  icon:
+    sprite: Void/Malanisa_sprites/Objects/Slimecat_items/Clothing/Neck/Cloaks/hop.rsi
+    state: icon
+  objectType: Item
+  entityWhitelist:
+    tags:
+    - SlimecatSimpleCraft
+
+- type: constructionGraph
+  id: CloakHop
+  start: start
+  graph:
+  - node: start
+    edges:
+    - to: CloakHop
+      steps:    
+      - tag: ClothingNeckCloakHop
+        name: плащ главы персонала
+        icon:
+          sprite: Void/Malanisa_sprites/Objects/Slimecat_items/Clothing/Neck/Cloaks/hop.rsi
+          state: icon
+        doAfter: 4
+  - node: CloakHop
+    entity: ClothingNeckCloakHopSlimecat    
+
+- type: construction
+  name: плащ шахтёра
+  id: CloakMiner
+  graph: CloakMiner
+  startNode: start
+  targetNode: CloakMiner
+  category: construction-category-slimecat
+  description: Порезать плащ
+  icon:
+    sprite: Void/Malanisa_sprites/Objects/Slimecat_items/Clothing/Neck/Cloaks/miner.rsi
+    state: icon
+  objectType: Item
+  entityWhitelist:
+    tags:
+    - SlimecatSimpleCraft
+
+- type: constructionGraph
+  id: CloakMiner
+  start: start
+  graph:
+  - node: start
+    edges:
+    - to: CloakMiner
+      steps:    
+      - tag: ClothingNeckCloakMiner
+        name: плащ шахтёра
+        icon:
+          sprite: Void/Malanisa_sprites/Objects/Slimecat_items/Clothing/Neck/Cloaks/miner.rsi
+          state: icon
+        doAfter: 4
+  - node: CloakMiner
+    entity: ClothingNeckCloakMinerSlimecat    
+
+- type: construction
+  name: торжественный плащ капитана
+  id: CapFormal
+  graph: CapFormal
+  startNode: start
+  targetNode: CapFormal
+  category: construction-category-slimecat
+  description: Порезать плащ
+  icon:
+    sprite: Void/Malanisa_sprites/Objects/Slimecat_items/Clothing/Neck/Cloaks/capcloakformal.rsi
+    state: icon
+  objectType: Item
+  entityWhitelist:
+    tags:
+    - SlimecatSimpleCraft
+
+- type: constructionGraph
+  id: CapFormal
+  start: start
+  graph:
+  - node: start
+    edges:
+    - to: CapFormal
+      steps:    
+      - tag: ClothingNeckCloakCapFormal
+        name: торжественный плащ капитана
+        icon:
+          sprite: Void/Malanisa_sprites/Objects/Slimecat_items/Clothing/Neck/Cloaks/capcloakformal.rsi
+          state: icon
+        doAfter: 4
+  - node: CapFormal
+    entity: ClothingNeckCloakHCapFormalSlimecat
+
+### сумки
+
+- type: construction
+  name: маленькая сумочка
+  id: Slimecat_belt
+  graph: Slimecat_belt
+  startNode: start
+  targetNode: Slimecat_belt
+  category: construction-category-slimecat
+  description: Какая-то криваая поделка из ткани.
+  icon:
+    sprite: Void/Malanisa_sprites/Objects/Slimecat_items/waistbag_mini.rsi
+    state: icon
+  objectType: Item
+  entityWhitelist:
+    tags:
+    - SlimecatSimpleCraft 
+
+- type: constructionGraph
+  id: Slimecat_belt
+  start: start
+  graph:
+  - node: start
+    edges:
+    - to: Slimecat_belt
+      steps:
+        - material: Cloth
+          amount: 5
+          doAfter: 1
+        - material: Cable
+          amount: 5
+          doAfter: 5   
+        - material: Durathread
+          amount: 10
+          doAfter: 5                 
+  - node: Slimecat_belt
+    entity: ClothingBeltStorageWaistbagSlimecat   
+
+- type: construction
+  name: маленький рюкзак
+  id: Slimecat_back
+  graph: Slimecat_back
+  startNode: start
+  targetNode: Slimecat_back
+  category: construction-category-slimecat
+  description: Какая-то криваая поделка из ткани.
+  icon:
+    sprite: Void/Malanisa_sprites/Objects/Slimecat_items/backpack.rsi
+    state: icon
+  objectType: Item
+  entityWhitelist:
+    tags:
+    - SlimecatSimpleCraft 
+
+- type: constructionGraph
+  id: Slimecat_back
+  start: start
+  graph:
+  - node: start
+    edges:
+    - to: Slimecat_back
+      steps:
+        - material: Cloth
+          amount: 5
+          doAfter: 1
+        - material: Cable
+          amount: 5
+          doAfter: 5   
+        - material: Durathread
+          amount: 10
+          doAfter: 5         
+  - node: Slimecat_back
+    entity: ClothingStorageSlimecatBack

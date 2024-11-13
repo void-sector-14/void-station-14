@@ -21,11 +21,11 @@
   cost: 1
   biome: Snow
 
-- type: salvageBiomeMod
-  id: Lava
-  desc: salvage-biome-mod-lava
-  cost: 2
-  biome: Lava
+# - type: salvageBiomeMod
+#   id: Lava
+#   desc: salvage-biome-mod-lava
+#   cost: 2
+#   biome: Lava
 
 #- type: salvageBiomeMod
 #  id: Space

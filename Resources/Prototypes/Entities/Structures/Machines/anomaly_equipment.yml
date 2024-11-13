@@ -116,7 +116,7 @@
 
 - type: entity
   id: MachineAPE
-  parent: [ BaseMachinePowered, ConstructibleMachine ]
+  parent: [ BaseMachinePowered, ConstructibleMachine, BaseScienceContraband ]
   name: A.P.E.
   description: An Anomalous Particle Emitter, capable of shooting out unstable particles which can interface with anomalies.
   components:
@@ -184,7 +184,7 @@
     guides:
     - APE
   - type: Gun
-    projectileSpeed: 4
+    projectileSpeed: 10
     fireRate: 10 #just has to be fast enough to keep up with upgrades
     showExamineText: false
     selectedMode: SemiAuto

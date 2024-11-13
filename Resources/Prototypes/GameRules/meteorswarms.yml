@@ -4,7 +4,7 @@
   id: MeteorSwarmDustEventsTable
   table: !type:AllSelector # we need to pass a list of rules, since rules have further restrictions to consider via StationEventComp
     children:
-    - id: GameRuleSpaceDustMinor
+    # - id: GameRuleSpaceDustMinor
     - id: GameRuleSpaceDustMajor
 
 - type: entityTable
@@ -57,10 +57,10 @@
   components:
   - type: GameRule
   - type: BasicStationEventScheduler
-    minimumTimeUntilFirstEvent: 300 # 5 min
+    minimumTimeUntilFirstEvent: 1200 # 20 min
     minMaxEventTiming:
-      min: 750 # 12.5 min
-      max: 930 # 17.5 min
+      min: 1500 # 25 min
+      max: 2400 # 40 min
     scheduledGameRules: !type:NestedSelector
       tableId: BasicMeteorSwarmEventsTable
 
@@ -70,7 +70,7 @@
   components:
   - type: GameRule
   - type: BasicStationEventScheduler
-    minimumTimeUntilFirstEvent: 300 # 5 min
+    minimumTimeUntilFirstEvent: 600 # 10 min
     minMaxEventTiming:
       min: 750 # 12.5 min
       max: 930 # 17.5 min
@@ -95,7 +95,7 @@
   components:
   - type: GameRule
   - type: StationEvent
-    reoccurrenceDelay: 1
+    reoccurrenceDelay: 10
     earliestStart: 12
     minimumPlayers: 25
   - type: MeteorSwarm
@@ -202,7 +202,7 @@
   - type: StationEvent
     startAnnouncement: station-event-immovable-rod-start-announcement
     startAudio:
-      path: /Audio/Announcements/attention.ogg
+      path: /Audio/Void/Announcements/irod.ogg
     weight: 3.5
     reoccurrenceDelay: 1
     duration: 1
@@ -211,26 +211,29 @@
   - type: ImmovableRodRule
     rodPrototypes:
     - id: ImmovableRodKeepTilesStill
-      prob: 0.95
+      prob: 0.94
       orGroup: rodProto
     - id: ImmovableRodMop
-      prob: 0.0072
+      prob: 0.0075
       orGroup: rodProto
     - id: ImmovableRodShark
-      prob: 0.0072
+      prob: 0.0075
       orGroup: rodProto
     - id: ImmovableRodClown
-      prob: 0.0072
+      prob: 0.0075
       orGroup: rodProto
     - id: ImmovableRodBanana
-      prob: 0.0072
+      prob: 0.0075
       orGroup: rodProto
     - id: ImmovableRodHammer
-      prob: 0.0072
+      prob: 0.0075
       orGroup: rodProto
     - id: ImmovableRodThrongler
-      prob: 0.0072
+      prob: 0.0075
       orGroup: rodProto
     - id: ImmovableRodGibstick
-      prob: 0.0072
+      prob: 0.0075
+      orGroup: rodProto
+    - id: ImmovableRodWeh
+      prob: 0.0075
       orGroup: rodProto

@@ -1,5 +1,5 @@
 - type: entity
-  parent: DoorRemoteDefault
+  parent: [DoorRemoteDefault, BaseCentcommContraband]
   id: DoorRemoteCentcom
   name: пульт от дверей ЦентКома
   description: Гаджет, который может открывать и закрывать любые двери дистанционно.

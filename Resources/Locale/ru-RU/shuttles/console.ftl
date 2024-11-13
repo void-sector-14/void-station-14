@@ -3,6 +3,7 @@ shuttle-pilot-end = Пилотирование прекращено
 shuttle-console-in-ftl = Невозможно войти в БСС когда уже в БСС!
 shuttle-console-mass = Сликом большой для БСС прыжка
 shuttle-console-proximity = Слишком близко к соседним объектам
+shuttle-console-static = Объект статичен
 shuttle-console-prevent = Вы не можете управлять этим шаттлом.
 
 # NAV

@@ -32,7 +32,7 @@
     sprite: Void/Clothing/Uniforms/Jumpsuit/white_sm.rsi
 
 - type: entity
-  parent: ClothingUniformBase
+  parent: [ClothingUniformBase, BaseCommandContraband]
   id: ClothingUniformJumpsuitBlueshield
   name: комбинезон офицера синего щита
   description: Влагоотталкивающий, чтобы не запачкать кровью.

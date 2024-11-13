@@ -1,0 +1,12 @@
+ent-FoodMeatShashlik = сырой шашлык
+    .desc = Сырой шашлык на шампурах.
+ent-FoodMeatShashlikCooked = приготовленный шашлык
+    .desc = Еда богов.
+ent-FoodMeatShashlikOverCooked = угли на палочке
+    .desc = Ужас...
+ent-FoodMeatMarshmallows = маршмеллоу на палочке
+    .desc = Сладенько.
+ent-FoodMeatMarshmallowsCooked = приготовленный маршмеллоу
+    .desc = Еда богов.
+ent-FoodMeatMarshmallowsOverCooked = угли на палочке
+    .desc = Ужас...

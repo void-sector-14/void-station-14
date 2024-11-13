@@ -11,12 +11,12 @@ engine = "sqlite"
 sqlite_dbpath = "database.sqlite"
 
 [game]
-desc = "VoidSector Test 1"
 hostname = "Пустотный Полигон"
+desc = "VoidSector Test 1"
 soft_max_players = 60
 lobbyduration = 180
 fallbackpreset = "Extended"
-map_pool = "DefaultMapPool"
+map_pool = "VoidMapPool"
 
 [hub]
 advertise = false
@@ -36,6 +36,7 @@ afk_time = 180.0
 
 [infolinks]
 discord = "https://discord.gg/Tc5RNEWVWS"
+
 ################################################################################
 ##### In Game ##################################################################
 
@@ -48,6 +49,10 @@ mmos_max_wind = 1000.0
 [biomass]
 easy_mode = false
 
+[whitelist]
+enabled = true
+prototype_list = "voidSectorWhitelist"
+
 [vote]
 timermap = 30
 
@@ -56,7 +61,7 @@ arrivals_planet = false
 arrivals_returns = true
 emergency_early_launch_allowed = true
 emergency_dock_time = 300.0
-emergency_authorize_time = 30.0
+emergency_authorize_time = 15.0
 recall_turning_point = 0.1
 auto_call_time = 120
 auto_call_extension_time = 60

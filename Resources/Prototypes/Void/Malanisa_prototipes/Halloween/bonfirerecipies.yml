@@ -1,0 +1,246 @@
+### шашлык
+
+- type: entity
+  name: сырой шашлык
+  parent: FoodMeatBase
+  id: FoodMeatShashlik
+  description: Сырой шашлык на шампурах.
+  components:
+  - type: Tag
+    tags:
+    - Raw
+    - Shashlik
+    - Meat
+  - type: Sprite
+    sprite: Void/Malanisa_sprites/Consumable/Food/shashlik.rsi 
+    state: skewer-raw
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        reagents:
+        - ReagentId: UncookedAnimalProteins
+          Quantity: 3
+        - ReagentId: Fat
+          Quantity: 2
+  - type: Construction
+    graph: Shashlik
+    node: start
+    defaultTarget: Shashlik
+  - type: Food
+    trash: 
+    - FoodKebabSkewer
+
+- type: Tag
+  id: Shashlik
+
+- type: constructionGraph
+  id: Shashlik
+  start: start
+  graph:
+  - node: start
+    edges:
+    - to: Shashlik
+      completed:
+      - !type:PlaySound
+        sound: /Audio/Effects/sizzle.ogg
+      steps:
+      - minTemperature: 335
+  - node: Shashlik
+    entity: FoodMeatShashlikCooked
+
+- type: entity
+  name: приготовленный шашлык
+  parent: FoodMealBase
+  id: FoodMeatShashlikCooked
+  description: Еда богов.
+  components:
+  - type: Tag
+    tags:
+    - Raw
+    - CookedShashlik
+    - Meat
+  - type: Sprite
+    sprite: Void/Malanisa_sprites/Consumable/Food/shashlik.rsi 
+    state: skewer-cooked
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        maxVol: 25
+        reagents:
+        - ReagentId: Nutriment
+          Quantity: 3
+        - ReagentId: Protein
+          Quantity: 10
+  - type: Construction
+    graph: CookedShashlik
+    node: start
+    defaultTarget: CookedShashlik
+  - type: Food
+    trash: 
+    - FoodKebabSkewer
+  - type: FlavorProfile
+    flavors:
+      - meaty
+      - smokey
+  - type: Temperature
+    currentTemperature: 290
+
+- type: Tag
+  id: CookedShashlik
+
+- type: constructionGraph
+  id: CookedShashlik
+  start: start
+  graph:
+  - node: start
+    edges:
+    - to: CookedShashlik
+      completed:
+      - !type:PlaySound
+        sound: /Audio/Effects/sizzle.ogg
+      steps:
+      - minTemperature: 500
+  - node: CookedShashlik
+    entity: FoodMeatShashlikOverCooked
+
+- type: entity
+  name: угли на палочке
+  parent: FoodMealBase
+  id: FoodMeatShashlikOverCooked
+  description: Ужас...
+  components:
+  - type: Sprite
+    sprite: Void/Malanisa_sprites/Consumable/Food/shashlik.rsi 
+    state: skewer-overcooked
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        reagents:
+        - ReagentId: GastroToxin
+          Quantity: 4
+  - type: Food
+    trash: 
+    - FoodKebabSkewer
+  - type: Construction
+    graph: CookedShashlik
+    node: CookedShashlik
+
+### маршмеллоу
+
+- type: entity
+  name: маршмеллоу на палочке
+  parent: FoodInjectableBase
+  id: FoodMeatMarshmallows
+  description: Сладенько.
+  components:
+  - type: Tag
+    tags:
+    - Marshmallows
+  - type: Sprite
+    sprite: Void/Malanisa_sprites/Consumable/Food/marshmallows.rsi
+    state: skewer-raw
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        reagents:
+        - ReagentId: Nutriment
+          Quantity: 3
+        - ReagentId: Sugar
+          Quantity: 2
+  - type: FlavorProfile
+    flavors:
+      - sweet       
+  - type: Construction
+    graph: Marshmallows
+    node: start
+    defaultTarget: Marshmallows
+  - type: Temperature
+    currentTemperature: 290
+
+- type: Tag
+  id: Marshmallows
+
+- type: constructionGraph
+  id: Marshmallows
+  start: start
+  graph:
+  - node: start
+    edges:
+    - to: Marshmallows
+      completed:
+      - !type:PlaySound
+        sound: /Audio/Effects/sizzle.ogg
+      steps:
+      - minTemperature: 335
+  - node: Marshmallows
+    entity: FoodMeatMarshmallowsCooked
+
+- type: entity
+  name: приготовленный маршмеллоу
+  parent: FoodMealBase
+  id: FoodMeatMarshmallowsCooked
+  description: Еда богов.
+  components:
+  - type: Tag
+    tags:
+    - CookedMarshmallows
+  - type: Sprite
+    sprite: Void/Malanisa_sprites/Consumable/Food/marshmallows.rsi
+    state: skewer-cooked
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        reagents:
+        - ReagentId: Nutriment
+          Quantity: 3
+        - ReagentId: Sugar
+          Quantity: 2
+  - type: FlavorProfile
+    flavors:
+      - sweet       
+  - type: Construction
+    graph: CookedMarshmallows
+    node: start
+    defaultTarget: CookedMarshmallows
+  - type: Temperature
+    currentTemperature: 290
+
+- type: Tag
+  id: CookedMarshmallows
+
+- type: constructionGraph
+  id: CookedMarshmallows
+  start: start
+  graph:
+  - node: start
+    edges:
+    - to: CookedMarshmallows
+      completed:
+      - !type:PlaySound
+        sound: /Audio/Effects/sizzle.ogg
+      steps:
+      - minTemperature: 500
+  - node: CookedMarshmallows
+    entity: FoodMeatMarshmallowsOverCooked
+
+- type: entity
+  name: угли на палочке
+  parent: FoodMealBase
+  id: FoodMeatMarshmallowsOverCooked
+  description: Ужас...
+  components:
+  - type: Sprite
+    sprite: Void/Malanisa_sprites/Consumable/Food/marshmallows.rsi
+    state: skewer-overcooked
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        reagents:
+        - ReagentId: GastroToxin
+          Quantity: 4
+  - type: Food
+    trash: 
+    - FoodKebabSkewer
+  - type: Construction
+    graph: CookedMarshmallows
+    node: CookedMarshmallows

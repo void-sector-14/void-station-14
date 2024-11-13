@@ -26,7 +26,7 @@
     sprintModifier: 1
 
 - type: entity
-  parent: ClothingOuterBase
+  parent: [ClothingOuterBase, BaseCentcommContraband]
   id: ClothingOuterVestKevlarCent
   name: фирменный кевларовый жилет Центкома
   description: Стоит как три станции.

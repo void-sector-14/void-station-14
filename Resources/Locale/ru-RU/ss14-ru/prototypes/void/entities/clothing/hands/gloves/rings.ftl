@@ -1,3 +1,5 @@
+ent-VoidRingBase = { ent-Clothing }
+    .desc = { ent-Clothing.desc }
 ent-ClothingRingBase = { ent-Clothing }
     .desc = { "" }
     .suffix = { "" }

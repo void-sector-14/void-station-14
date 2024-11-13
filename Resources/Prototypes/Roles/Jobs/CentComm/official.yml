@@ -1,0 +1,34 @@
+- type: job
+  id: CentralCommandOfficial
+  name: job-name-centcomoff
+  description: job-description-centcomoff
+  playTimeTracker: JobCentralCommandOfficial
+  setPreference: false
+  startingGear: CentcomGear
+  icon: "JobIconNanotrasen"
+  supervisors: job-supervisors-centcom
+  canBeAntag: false
+  accessGroups:
+  - AllAccess
+  access:
+  - CentralCommand
+
+- type: startingGear
+  id: CentcomGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitCentcomOfficial
+    back: ClothingBackpackSatchelHolding
+    shoes: ClothingShoesBootsLaceup
+    head: ClothingHeadHatCentcom
+    eyes: ClothingEyesGlassesCentcom
+    gloves: ClothingHandsGlovesColorBlack
+    outerClothing: ClothingOuterVestKevlarCent
+    id: CentcomPDA
+    ears: ClothingHeadsetAltCentCom
+    belt: WeaponPistolN1984
+    pocket1: BoxFolderCentCom
+    pocket2: RubberStampCentcom
+  storage:
+    back:
+    - Flash
+    - DoorRemoteCentcom

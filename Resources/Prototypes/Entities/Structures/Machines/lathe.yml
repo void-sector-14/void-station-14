@@ -150,6 +150,7 @@
       - ExteriorLightTube
       - LightBulb
       - LedLightBulb
+      - ExteriorLightBulb
       - Bucket
       - DrinkMug
       - DrinkMugMetal
@@ -163,6 +164,7 @@
       - FoodPlateSmallPlastic
       - FoodBowlBig
       - FoodPlateTin
+      - FoodPlateMuffinTin
       - FoodKebabSkewer
       - SprayBottle
       - MopItem
@@ -190,7 +192,6 @@
       - APCElectronics
       - SMESMachineCircuitboard
       - SubstationMachineCircuitboard
-      - WallmountSubstationElectronics
       - CellRechargerCircuitboard
       - BorgChargerCircuitboard
       - WeaponCapacitorRechargerCircuitboard
@@ -198,15 +199,16 @@
       - ClothingHeadHatWelding
       - WetFloorSign
       - ClothingHeadHatCone
+      - FreezerElectronics
     dynamicRecipes:
-      - AdvancedRockGuitarInstrument #Для рецепта продвинутых инструментов by Malanisa Нет возможности вынести в отдельную папку
-      - AdvancedBassGuitarInstrument #Для рецепта продвинутых инструментов by Malanisa Нет возможности вынести в отдельную папку
-      - AdvancedElectricGuitarInstrument #Для рецепта продвинутых инструментов by Malanisa Нет возможности вынести в отдельную папку
-      - PockedPlayerEmpty #Для рецепта продвинутых инструментов by Malanisa. Нет возможности вынести в отдельную папку
+      - AdvancedRockGuitarInstrument
+      - AdvancedBassGuitarInstrument
+      - AdvancedElectricGuitarInstrument
+      - PockedPlayerEmpty
+      - Flare
   - type: EmagLatheRecipes
     emagStaticRecipes:
       - BoxLethalshot
-      - BoxShotgunFlare
       - BoxShotgunSlug
       - CombatKnife
       - MagazineBoxLightRifle
@@ -351,6 +353,7 @@
       - FauxTileAstroSnow
       - OreBagOfHolding
       - DeviceQuantumSpinInverter
+      - JetpackAdvanced
   - type: EmagLatheRecipes
     emagDynamicRecipes:
       - BoxBeanbag
@@ -442,6 +445,7 @@
     - UniformPrinterMachineCircuitboard
     - FloorGreenCircuit
     - FloorBlueCircuit
+    - FloorRedCircuit
     - MicrowaveMachineCircuitboard
     - ReagentGrinderMachineCircuitboard
     - ElectricGrillMachineCircuitboard
@@ -450,6 +454,7 @@
     - SpaceHeaterMachineCircuitBoard
     - CutterMachineCircuitboard
     - StationAnchorCircuitboard
+    - SalvageMagnetMachineCircuitboard
     dynamicRecipes:
       - ThermomachineFreezerMachineCircuitBoard
       - HellfireFreezerMachineCircuitBoard
@@ -497,6 +502,8 @@
       - PortableGeneratorPacmanMachineCircuitboard
       - PortableGeneratorSuperPacmanMachineCircuitboard
       - PortableGeneratorJrPacmanMachineCircuitboard
+      - WallmountGeneratorElectronics
+      - WallmountGeneratorAPUElectronics
       - WallmountSubstationElectronics
       - PowerCageRechargerCircuitboard
       - EmitterCircuitboard
@@ -519,6 +526,7 @@
       - FanTinyElectronics
       - ReagentGrinderIndustrialMachineCircuitboard
       - JukeboxCircuitBoard
+      - TurretAntiMeteorCircuitboard
   - type: EmagLatheRecipes
     emagDynamicRecipes:
       - ShuttleGunDusterCircuitboard
@@ -733,7 +741,6 @@
     runningState: icon
     staticRecipes:
       - BoxLethalshot
-      - BoxShotgunFlare
       - BoxShotgunPractice
       - BoxShotgunSlug
       - ClothingEyesHudSecurity
@@ -770,6 +777,7 @@
       - TargetHuman
       - TargetSyndicate
       - WeaponDisablerPractice
+      - WeaponFlareGunSecurity
       - WeaponLaserCarbinePractice
       - Zipties
     dynamicRecipes:
@@ -856,7 +864,6 @@
       runningState: icon
       staticRecipes:
         - BoxLethalshot
-        - BoxShotgunFlare
         - BoxShotgunSlug
         - BoxShellTranquilizer
         - MagazineBoxLightRifle
@@ -1180,8 +1187,6 @@
   - type: Machine
     board: BiogeneratorMachineCircuitboard
   - type: MaterialStorage
-    insertOnInteract: false
-    canEjectStoredMaterials: false
   - type: ProduceMaterialExtractor
   - type: ItemSlots
     slots:

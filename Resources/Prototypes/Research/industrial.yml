@@ -164,6 +164,8 @@
   - HellfireFreezerMachineCircuitBoard
   - PortableScrubberMachineCircuitBoard
   - HolofanProjector
+  technologyPrerequisites:
+  - AtmosphericTech
 
 - type: technology
   id: AdvancedToolsTechnology
@@ -208,6 +210,36 @@
     - OreBagOfHolding
     - MiningDrillDiamond
     - AdvancedMineralScannerEmpty
+
+- type: technology
+  id: AdvancedJetpack
+  name: research-technology-advanced-jetpack
+  icon:
+    sprite: Void/Objects/Tanks/Jetpacks/advanced.rsi
+    state: icon
+  discipline: Industrial
+  tier: 2
+  cost: 10000
+  recipeUnlocks:
+  - JetpackAdvanced
+  technologyPrerequisites:
+  - SalvageEquipment
+  - AtmosphericTech
+
+- type: technology
+  id: AntiMeteor
+  name: research-technology-antimeteor
+  icon:
+    sprite: Void/Objects/Weapons/Guns/Turrets/turrets.rsi
+    state: blue_stun
+  discipline: Industrial
+  tier: 2
+  cost: 10000
+  recipeUnlocks:
+  - TurretAntiMeteorCircuitboard
+  technologyPrerequisites:
+  - BasicShuttleArmament
+  - BasicRobotics
 
 # Tier 3
 

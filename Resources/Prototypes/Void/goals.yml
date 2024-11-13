@@ -7,10 +7,6 @@
   text: station-goal-shuttle-rescue
 
 - type: stationGoal
-  id: Tesla
-  text: station-goal-tesla
-
-- type: stationGoal
   id: SolarPanels
   text: station-goal-solar-panels
 

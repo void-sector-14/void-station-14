@@ -1,0 +1,7 @@
+- type: npcFaction
+  id: AntiMeteor
+  hostile:
+    - Meteor
+
+- type: npcFaction
+  id: Meteor

@@ -16,11 +16,13 @@
     - id: MimicVendorRule
     - id: MouseMigration
     - id: PowerGridCheck
+    - id: RandomSentience
     - id: SlimesSpawn
     - id: SolarFlare
-    - id: SpiderClownSpawn
+    - id: SnakeSpawn
     - id: SpiderSpawn
     - id: VentClog
+    - id: VentCrittersSlimecats
 
 - type: entityTable
   id: BasicAntagEventsTable
@@ -33,37 +35,37 @@
     - id: RevenantSpawn
     - id: SleeperAgents
     - id: ZombieOutbreak
-
+    - id: LoneOpsSpawn
 
 - type: entity
   id: BaseStationEvent
   parent: BaseGameRule
   abstract: true
   components:
-    - type: GameRule
-      delay:
-        min:  10
-        max:  20
+  - type: GameRule
+    delay:
+      min:  10
+      max:  20
 
 - type: entity
   id: BaseStationEventShortDelay
   parent: BaseGameRule
   abstract: true
   components:
-    - type: GameRule
-      delay:
-        min:  10
-        max:  20
+  - type: GameRule
+    delay:
+      min:  10
+      max:  20
 
 - type: entity
   id: BaseStationEventLongDelay
   parent: BaseGameRule
   abstract: true
   components:
-    - type: GameRule
-      delay:
-        min:  40
-        max:  60
+  - type: GameRule
+    delay:
+      min:  40
+      max:  60
 
 - type: entity
   id: AnomalySpawn
@@ -72,7 +74,7 @@
   - type: StationEvent
     startAnnouncementColor: "#18abf5"
     startAudio:
-      path: /Audio/Announcements/announce.ogg
+      path: /Audio/Void/Announcements/spanomalies.ogg
     weight: 8
     duration: 35
   - type: AnomalySpawnRule
@@ -159,10 +161,13 @@
     weight: 6.5
     earliestStart: 40
     reoccurrenceDelay: 20
-    minimumPlayers: 20
-  - type: AntagRandomSpawn
+    minimumPlayers: 15
+    duration: null
+  - type: SpaceSpawnRule
+    spawnDistance: 0
   - type: AntagSpawner
     prototype: MobDragon
+  - type: DragonRule
   - type: AntagObjectives
     objectives:
     - CarpRiftsObjective
@@ -174,11 +179,8 @@
       min: 1
       max: 1
       pickPlayer: false
-      mindComponents:
-      - type: DragonRole
-        prototype: Dragon
-      - type: RoleBriefing
-        briefing: dragon-role-briefing
+      mindRoles:
+      - MindRoleDragon
 
 - type: entity
   parent: BaseGameRule
@@ -226,9 +228,8 @@
         nameSegments:
         - names_ninja_title
         - names_ninja
-      mindComponents:
-      - type: NinjaRole
-        prototype: SpaceNinja
+      mindRoles:
+      - MindRoleNinja
 
 - type: entity
   parent: BaseGameRule
@@ -272,7 +273,7 @@
   components:
   - type: StationEvent
     earliestStart: 15
-    minimumPlayers: 15
+    minimumPlayers: 10
     weight: 7
     duration: 240
   - type: KudzuGrowthRule
@@ -286,9 +287,13 @@
     startAnnouncement: station-event-power-grid-check-start-announcement
     endAnnouncement: station-event-power-grid-check-end-announcement
     startAudio:
-      path: /Audio/Announcements/power_off.ogg
+      collection: PowerOff
       params:
-       volume: -4
+        volume: -4
+    endAudio:
+      collection: PowerOn
+      params:
+        volume: -4
     duration: 60
     maxDuration: 120
   - type: PowerGridCheckRule
@@ -381,6 +386,27 @@
       prob: 0.02
 
 - type: entity
+  id: SnakeSpawn
+  parent: BaseStationEventShortDelay
+  components:
+  - type: StationEvent
+    startAnnouncement: station-event-vent-creatures-start-announcement
+    startAudio:
+      path: /Audio/Announcements/attention.ogg
+    earliestStart: 20
+    minimumPlayers: 15
+    weight: 5
+    duration: 60
+  - type: VentCrittersRule
+    entries:
+    - id: MobPurpleSnake
+      prob: 0.02
+    - id: MobSmallPurpleSnake
+      prob: 0.02
+    - id: MobCobraSpace
+      prob: 0.02
+
+- type: entity
   id: SpiderSpawn
   parent: BaseStationEventShortDelay
   components:
@@ -421,7 +447,7 @@
   components:
   - type: StationEvent
     earliestStart: 90
-    minimumPlayers: 40
+    minimumPlayers: 15
     weight: 1 # Zombies was happening basically every single survival round, so now it's super rare
     duration: 1
   - type: ZombieRule
@@ -445,9 +471,8 @@
       - type: ZombifyOnDeath
       - type: IncurableZombie
       - type: InitialInfected
-      mindComponents:
-      - type: InitialInfectedRole
-        prototype: InitialInfected
+      mindRoles:
+      - MindRoleInitialInfected
 
 - type: entity
   parent: BaseNukeopsRule
@@ -460,7 +485,7 @@
     duration: 1
   - type: RuleGrids
   - type: LoadMapRule
-    preloadedGrid: ShuttleStriker
+    mapPath: /Maps/Shuttles/ShuttleEvent/striker.yml
   - type: NukeopsRule
     roundEndBehavior: Nothing
   - type: AntagSelection
@@ -470,6 +495,8 @@
       max: 1
       pickPlayer: false
       startingGear: SyndicateLoneOperativeGearFull
+      roleLoadout:
+      - RoleSurvivalNukie
       components:
       - type: NukeOperative
       - type: RandomMetadata
@@ -479,9 +506,8 @@
       - type: NpcFactionMember
         factions:
         - Syndicate
-      mindComponents:
-      - type: NukeopsRole
-        prototype: Nukeops
+      mindRoles:
+      - MindRoleNukeops
 
 - type: entity
   parent: BaseTraitorRule
@@ -508,9 +534,8 @@
       blacklist:
         components:
         - AntagImmune
-      mindComponents:
-      - type: TraitorRole
-        prototype: TraitorSleeper
+      mindRoles:
+      - MindRoleTraitorSleeper
 
 - type: entity
   id: MassHallucinations
@@ -535,7 +560,7 @@
   - type: StationEvent
     startAnnouncement: station-event-ion-storm-start-announcement
     startAudio:
-      path: /Audio/Announcements/attention.ogg
+      collection: IonStorm
     weight: 8
     reoccurrenceDelay: 20
     duration: 1
@@ -545,9 +570,9 @@
   id: MimicVendorRule
   parent: BaseGameRule
   components:
-    - type: StationEvent
-      earliestStart: 0
-      minimumPlayers: 20
-      maxOccurrences: 1 # this event has diminishing returns on interesting-ness, so we cap it
-      weight: 5
-    - type: MobReplacementRule
+  - type: StationEvent
+    earliestStart: 0
+    minimumPlayers: 15
+    maxOccurrences: 1 # this event has diminishing returns on interesting-ness, so we cap it
+    weight: 5
+  - type: MobReplacementRule

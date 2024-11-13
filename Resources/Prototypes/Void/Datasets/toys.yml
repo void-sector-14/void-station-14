@@ -1,0 +1,5 @@
+- type: localizedDataset
+  id: ToysSuperShard
+  values:
+    prefix: toys-supershard-
+    count: 1

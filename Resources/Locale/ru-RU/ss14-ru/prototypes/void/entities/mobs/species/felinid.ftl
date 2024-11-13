@@ -1,3 +1,5 @@
+ent-BaseMobFelinid = Base felinid
+    .desc = { ent-BaseMobHuman.desc }
 ent-MobFelinidBase = Урист МакФелинид
     .desc = { "" }
     .suffix = { "" }

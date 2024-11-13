@@ -1,7 +1,7 @@
 - type: entity
   parent: ClothingShoesBaseButcherable
   id: ClothingShoesBlackDress
-  name: Чёрные туфли
+  name: чёрные туфли
   description: Вечерный шик.
   components:
   - type: Sprite
@@ -12,7 +12,7 @@
 - type: entity
   parent: ClothingShoesBaseButcherable
   id: ClothingShoesRedDress
-  name: Красные туфли
+  name: красные туфли
   description: Вечерный шик.
   components:
   - type: Sprite
@@ -23,7 +23,7 @@
 - type: entity
   parent: ClothingShoesBaseButcherable
   id: ClothingShoesRichDress
-  name: Дорогие туфли
+  name: дорогие туфли
   description: Вы этом вы чувствуете себя богаче.
   components:
   - type: Sprite
@@ -34,7 +34,7 @@
 - type: entity
   parent: ClothingShoesBaseButcherable
   id: ClothingShoesStarDress
-  name: Звёздные туфли
+  name: звёздные туфли
   description: Они сияют!
   components:
   - type: Sprite
@@ -50,7 +50,7 @@
 - type: entity
   parent: ClothingShoesBaseButcherable
   id: ClothingShoesBootsSilkDress
-  name: Шёлковые туфли
+  name: шёлковые туфли
   description: Украшенные жемчугом туфли
   components:
   - type: Sprite
@@ -61,7 +61,7 @@
 - type: entity
   parent: ClothingShoesBaseButcherable
   id: ClothingShoesBootsPinkDress
-  name: Розовые туфли
+  name: розовые туфли
   description: Украшены милыми бантиками
   components:
   - type: Sprite

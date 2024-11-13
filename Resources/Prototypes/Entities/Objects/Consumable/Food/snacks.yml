@@ -129,6 +129,10 @@
   - type: Sprite
     state: chocolatebar-open
   - type: Item
+  - type: Tag
+    tags:
+      - FoodSnack
+      - ReptilianFood
   - type: SolutionContainerManager
     solutions:
       food:
@@ -527,6 +531,10 @@
   components:
   - type: Sprite
     state: boritos-trash
+  - type: Tag
+    tags:
+    - Trash
+    - Trashcraft
 
 - type: entity
   categories: [ HideSpawnMenu ]
@@ -536,7 +544,11 @@
   components:
   - type: Sprite
     state: cnds-trash
-
+  - type: Tag
+    tags:
+    - Trash
+    - Trashcraft
+   
 - type: entity
   categories: [ HideSpawnMenu ]
   parent: FoodPacketTrash
@@ -545,7 +557,11 @@
   components:
   - type: Sprite
     state: cheesiehonkers-trash
-
+  - type: Tag
+    tags:
+    - Trash
+    - Trashcraft
+   
 - type: entity
   categories: [ HideSpawnMenu ]
   parent: FoodPacketTrash
@@ -554,7 +570,11 @@
   components:
   - type: Sprite
     state: chips-trash
-
+  - type: Tag
+    tags:
+    - Trash
+    - Trashcraft
+   
 - type: entity
   categories: [ HideSpawnMenu ]
   parent: FoodPacketTrash
@@ -563,7 +583,11 @@
   components:
   - type: Sprite
     state: chocolatebar-trash
-
+  - type: Tag
+    tags:
+    - Trash
+    - Trashcraft
+   
 - type: entity
   categories: [ HideSpawnMenu ]
   parent: FoodPacketTrash
@@ -572,7 +596,11 @@
   components:
   - type: Sprite
     state: energybar-trash
-
+  - type: Tag
+    tags:
+    - Trash
+    - Trashcraft
+   
 - type: entity
   categories: [ HideSpawnMenu ]
   parent: FoodPacketTrash
@@ -581,7 +609,11 @@
   components:
   - type: Sprite
     state: pistachio-trash
-
+  - type: Tag
+    tags:
+    - Trash
+    - Trashcraft
+   
 - type: entity
   categories: [ HideSpawnMenu ]
   parent: FoodPacketTrash
@@ -590,7 +622,11 @@
   components:
   - type: Sprite
     state: popcorn-trash
-
+  - type: Tag
+    tags:
+    - Trash
+    - Trashcraft
+   
 - type: entity
   categories: [ HideSpawnMenu ]
   parent: FoodPacketTrash
@@ -599,7 +635,11 @@
   components:
   - type: Sprite
     state: raisins-trash
-
+  - type: Tag
+    tags:
+    - Trash
+    - Trashcraft
+   
 - type: entity
   categories: [ HideSpawnMenu ]
   parent: FoodPacketTrash
@@ -608,7 +648,11 @@
   components:
   - type: Sprite
     state: semki-trash
-
+  - type: Tag
+    tags:
+    - Trash
+    - Trashcraft
+   
 - type: entity
   categories: [ HideSpawnMenu ]
   parent: FoodPacketTrash
@@ -617,7 +661,11 @@
   components:
   - type: Sprite
     state: susjerky-trash
-
+  - type: Tag
+    tags:
+    - Trash
+    - Trashcraft
+   
 - type: entity
   categories: [ HideSpawnMenu ]
   parent: FoodPacketTrash
@@ -626,7 +674,11 @@
   components:
   - type: Sprite
     state: syndicakes-trash
-
+  - type: Tag
+    tags:
+    - Trash
+    - Trashcraft
+   
 - type: entity
   categories: [ HideSpawnMenu ]
   parent: FoodPacketTrash
@@ -635,7 +687,11 @@
   components:
   - type: Sprite
     state: ramen
-
+  - type: Tag
+    tags:
+    - Trash
+    - Trashcraft
+   
 - type: entity
   categories: [ HideSpawnMenu ]
   parent: FoodPacketTrash
@@ -644,7 +700,11 @@
   components:
   - type: Sprite
     state: chinese1
-
+  - type: Tag
+    tags:
+    - Trash
+    - Trashcraft
+   
 - type: entity
   categories: [ HideSpawnMenu ]
   parent: FoodPacketTrash
@@ -653,7 +713,11 @@
   components:
   - type: Sprite
     state: chinese2
-
+  - type: Tag
+    tags:
+    - Trash
+    - Trashcraft
+   
 - type: entity
   categories: [ HideSpawnMenu ]
   parent: FoodPacketTrash
@@ -666,7 +730,10 @@
   - type: Item
   - type: RandomMetadata
     descriptionSegments: [CookieFortuneDescriptions]
-
+  - type: Tag
+    tags:
+    - Trash
+   
 - type: entity
   categories: [ HideSpawnMenu ]
   parent: FoodPacketTrash
@@ -686,6 +753,6 @@
   - type: Tag
     tags:
     - ClothMade
-    - Trash
+    - Trash   
   - type: Sprite
     state: mre-wrapper

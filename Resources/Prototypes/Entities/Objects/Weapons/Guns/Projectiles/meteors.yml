@@ -43,7 +43,9 @@
     maxIntensity: 100
     maxTileBreak: 1
     tileBreakScale: 2
-
+  - type: NpcFactionMember
+    factions:
+      - Meteor
 
 - type: entity
   parent: BaseMeteor
@@ -67,7 +69,7 @@
         - Impassable
         - BulletImpassable
   - type: Explosive
-    totalIntensity: 25
+    totalIntensity: 15
   - type: Destructible
     thresholds:
     - trigger:
@@ -107,7 +109,7 @@
     thresholds:
     - trigger:
         !type:DamageTrigger
-        damage: 1250
+        damage: 300
       behaviors:
       - !type:DoActsBehavior
         acts: [ "Destruction" ]
@@ -147,7 +149,7 @@
     thresholds:
     - trigger:
         !type:DamageTrigger
-        damage: 1750
+        damage: 500
       behaviors:
       - !type:DoActsBehavior
         acts: [ "Destruction" ]
@@ -175,7 +177,7 @@
     thresholds:
     - trigger:
         !type:DamageTrigger
-        damage: 2500
+        damage: 1200
       behaviors:
       - !type:DoActsBehavior
         acts: [ "Destruction" ]

@@ -1,0 +1,25 @@
+- type: entity
+  parent: BaseStructure
+  id: BlueSpaceArtillery
+  suffix: БСА
+  name: блюспейс артиллерия
+  description: Орудие для залпа по шаттлам отдела снабжения.
+  components:
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-5.5,-1.0,5.5,1.8"
+        density: 50
+        mask:
+        - LargeMobMask
+        layer:
+        - WallLayer
+  - type: Sprite
+    noRot: true
+    sprite: Void/Structures/bsa.rsi
+    layers:
+    - state: bsa
+      map: ["base"]
+  - type: InteractionOutline

@@ -1,0 +1,59 @@
+
+# Grass
+- type: tile
+  id: FloorPlanetGrassDarkNew
+  name: тёмная трава
+  sprite: /Textures/Void/Malanisa_sprites/Tiles/Planet/GrassDark/grass.png
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  edgeSpritePriority: 1
+  edgeSprites:
+    SouthEast: /Textures/Void/Malanisa_sprites/Tiles/Planet/GrassDark/single_edge.png
+    NorthEast: /Textures/Void/Malanisa_sprites/Tiles/Planet/GrassDark/single_edge.png
+    NorthWest: /Textures/Void/Malanisa_sprites/Tiles/Planet/GrassDark/single_edge.png
+    SouthWest: /Textures/Void/Malanisa_sprites/Tiles/Planet/GrassDark/single_edge.png
+    South: /Textures/Void/Malanisa_sprites/Tiles/Planet/GrassDark/double_edge.png
+    East: /Textures/Void/Malanisa_sprites/Tiles/Planet/GrassDark/double_edge.png
+    North: /Textures/Void/Malanisa_sprites/Tiles/Planet/GrassDark/double_edge.png
+    West: /Textures/Void/Malanisa_sprites/Tiles/Planet/GrassDark/double_edge.png
+  baseTurf: FloorPlanetDirt
+  isSubfloor: true
+  footstepSounds:
+    collection: FootstepGrass
+  itemDrop: FloorTileItemGrass
+  heatCapacity: 10000
+  weather: true
+  indestructible: true
+
+- type: tile
+  id: FloorPlanetGrassOrange
+  name: пожелтевшая трава
+  sprite: /Textures/Void/Malanisa_sprites/Tiles/Planet/GrassOrange/grass.png
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  edgeSpritePriority: 1
+  edgeSprites:
+    SouthEast: /Textures/Void/Malanisa_sprites/Tiles/Planet/GrassOrange/single_edge.png
+    NorthEast: /Textures/Void/Malanisa_sprites/Tiles/Planet/GrassOrange/single_edge.png
+    NorthWest: /Textures/Void/Malanisa_sprites/Tiles/Planet/GrassOrange/single_edge.png
+    SouthWest: /Textures/Void/Malanisa_sprites/Tiles/Planet/GrassOrange/single_edge.png
+    South: /Textures/Void/Malanisa_sprites/Tiles/Planet/GrassOrange/double_edge.png
+    East: /Textures/Void/Malanisa_sprites/Tiles/Planet/GrassOrange/double_edge.png
+    North: /Textures/Void/Malanisa_sprites/Tiles/Planet/GrassOrange/double_edge.png
+    West: /Textures/Void/Malanisa_sprites/Tiles/Planet/GrassOrange/double_edge.png
+  baseTurf: FloorPlanetDirt
+  isSubfloor: true
+  footstepSounds:
+    collection: FootstepGrass
+  itemDrop: FloorTileItemGrass
+  heatCapacity: 10000
+  weather: true
+  indestructible: true

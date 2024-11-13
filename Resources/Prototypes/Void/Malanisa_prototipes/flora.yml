@@ -1,0 +1,122 @@
+- type: entity
+  parent: BaseTree
+  id: BaseTreeOrange
+  name: дерево
+  components:
+  - type: Sprite
+    sprite: Void/Malanisa_sprites/Structures/flora/flora_trees.rsi
+    state: tree01
+
+- type: entity
+  parent: BaseTreeOrange
+  id: FloraTree02Orange
+  name: дерево
+  components:
+  - type: Sprite
+    state: tree02
+
+- type: entity
+  parent: BaseTreeOrange
+  id: FloraTree03Orange
+  name: дерево
+  components:
+  - type: Sprite
+    state: tree03
+
+- type: entity
+  parent: BaseTreeOrange
+  id: FloraTree04Orange
+  name: дерево
+  components:
+  - type: Sprite
+    state: tree04
+
+- type: entity
+  parent: BaseTreeOrange
+  id: FloraTree05Orange
+  name: дерево
+  components:
+  - type: Sprite
+    state: tree05
+
+- type: entity
+  parent: BaseTreeOrange
+  id: FloraTree06Orange
+  name: дерево
+  components:
+  - type: Sprite
+    state: tree06
+
+- type: entity
+  parent: BaseTreeLarge
+  id: BaseTreeLargeOrange
+  name: большое дерево
+  components:
+  - type: Sprite
+    sprite: Void/Malanisa_sprites/Structures/flora/flora_treeslarge.rsi
+    state: treelarge01
+
+- type: entity
+  parent: BaseTreeLargeOrange
+  id: FloraTreeLarge02Orange
+  name: большое дерево
+  components:
+  - type: Sprite
+    state: treelarge02
+
+- type: entity
+  parent: BaseTreeLargeOrange
+  id: FloraTreeLarge03Orange
+  name: большое дерево
+  components:
+  - type: Sprite
+    state: treelarge03
+
+- type: entity
+  parent: BaseTreeLargeOrange
+  id: FloraTreeLarge04Orange
+  name: большое дерево
+  components:
+  - type: Sprite
+    state: treelarge04
+
+- type: entity
+  parent: BaseTreeLargeOrange
+  id: FloraTreeLarge05Orange
+  name: большое дерево
+  components:
+  - type: Sprite
+    state: treelarge05
+
+- type: entity
+  parent: BaseTreeLargeOrange
+  id: FloraTreeLarge06Orange
+  name: большое дерево
+  components:
+  - type: Sprite
+    state: treelarge06
+
+- type: entity
+  parent: BaseTreeConifer
+  id: BaseTreeConiferSimple
+  name: ель
+  components:
+  - type: Sprite
+    sprite: Void/Malanisa_sprites/Structures/flora/flora_treesconifer.rsi
+    state: treeconifer01
+
+- type: entity
+  parent: BaseTreeConiferSimple
+  id: FloraTreeConifer02Simple
+  name: ель
+  components:
+  - type: Sprite
+    state: treeconifer02
+
+- type: entity
+  parent: BaseTreeConiferSimple
+  id: FloraTreeConifer03Simple
+  name: ель
+  components:
+  - type: Sprite
+    state: treeconifer03

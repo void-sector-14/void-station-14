@@ -1,12 +1,12 @@
-ent-ClothingMaskGasDuskfort = Металлическая маска
+ent-ClothingMaskGasDuskfort = металлическая маска
     .desc = Металличесекая маска с удобной подложкой
     .suffix = Вещи Маланисы
-ent-ClothingOuterCoatDuskfort = Пальто из драконьей кожи
+ent-ClothingOuterCoatDuskfort = пальто из драконьей кожи
     .desc = Пальто из редкого материала
     .suffix = Вещи Маланисы
-ent-ClothingShoesBootsCombatDusk = Ботинки из драконьей кожи
+ent-ClothingShoesBootsCombatDusk = ботинки из драконьей кожи
     .desc = Пара сапог из редкого материала
     .suffix = Вещи Маланисы
-ent-ClothingUniformJumpskirtDusk = Зелёная майка с шортами
+ent-ClothingUniformJumpskirtDusk = зелёная майка с шортами
     .desc = Кто-то додумался порезать джинсы в шорты
     .suffix = Вещи Маланисы

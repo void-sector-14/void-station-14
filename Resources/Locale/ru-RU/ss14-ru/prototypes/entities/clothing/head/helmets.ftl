@@ -1,3 +1,5 @@
+ent-ClothingHeadHelmetBase = { ent-ClothingHeadBase }
+    .desc = { ent-ClothingHeadBase.desc }
 ent-ClothingHeadHelmetBasic = шлем
     .desc = Стандартная защитная экипировка. Защищает голову от ударов.
     .suffix = { ent-ClothingHeadBase.suffix }

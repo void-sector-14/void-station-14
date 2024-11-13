@@ -2,7 +2,7 @@
   id: JetpackAdvanced
   parent: BaseJetpack
   name: продвинутый джетпак
-  description: продвинутый джетпак созданный с совестью учеными. Главное, чтобы не взорвался.
+  description: Продвинутый джетпак созданный с совестью учеными. Главное, чтобы не взорвался.
   suffix: Empty
   components:
   - type: Item
@@ -13,4 +13,20 @@
     sprite: Void/Objects/Tanks/Jetpacks/advanced.rsi
     slots:
     - Back
-    - suitStorage
+    - SuitStorage
+
+#Filled
+- type: entity
+  id: JetpackAdvancedFilled
+  parent: JetpackAdvanced
+  suffix: Filled
+  components:
+  - type: GasTank
+    outputPressure: 42.6
+    air:
+      # 13 minutes of thrust
+      volume: 5
+      temperature: 293.15
+      moles:
+        - 1.025689525 # oxygen
+        - 1.025689525 # nitrogen

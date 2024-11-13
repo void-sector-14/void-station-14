@@ -1,4 +1,4 @@
-ent-PenPenBackpack = Рюкзак ПенПена
+ent-PenPenBackpack = рюкзак ПенПена
     .desc = { ent-ClothingBackpack.desc }
 ent-PenPenIDCard = ID карта ПенПена
     .desc = Карта, необходимая для доступа в различные области станции.

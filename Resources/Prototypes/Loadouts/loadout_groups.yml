@@ -5,15 +5,35 @@
   minLimit: 0
   maxLimit: 3
   loadouts:
+  - FlowerWreath
+  - Hairflower
+  - Headphones
   - PlushieLizard
   - PlushieSpaceLizard
   - Lighter
+  - FlippoLighter
   - CigPackGreen
   - CigPackRed
   - CigPackBlue
   - CigPackBlack
   - CigarCase
   - CigarGold
+  - TowelColorBlack
+  - TowelColorDarkBlue
+  - TowelColorDarkGreen
+  - TowelColorGold
+  - TowelColorGray
+  - TowelColorGreen
+  - TowelColorLightBlue
+  - TowelColorLightBrown
+  - TowelColorMaroon
+  - TowelColorMime
+  - TowelColorOrange
+  - TowelColorPurple
+  - TowelColorRed
+  - TowelColorSilver
+  - TowelColorWhite
+  - TowelColorYellow
 
 - type: loadoutGroup
   id: Glasses
@@ -49,6 +69,14 @@
   loadouts:
   - LoadoutSpeciesEVANitrogen
   - LoadoutSpeciesEVAOxygen
+
+- type: loadoutGroup
+  id: GroupPocketTankDouble
+  name: loadout-group-pocket-tank-double
+  hidden: true
+  loadouts:
+  - LoadoutSpeciesPocketDoubleNitrogen
+  - LoadoutSpeciesPocketDoubleOxygen
 
 # Command
 - type: loadoutGroup
@@ -130,6 +158,13 @@
   loadouts:
   - HoPWintercoat
 
+- type: loadoutGroup
+  id: HoPShoes
+  name: loadout-group-hop-shoes
+  loadouts:
+  - BrownShoes
+  - LaceupBoots
+
 # Civilian
 - type: loadoutGroup
   id: PassengerJumpsuit
@@ -137,6 +172,36 @@
   loadouts:
   - GreyJumpsuit
   - GreyJumpskirt
+  - WhiteJumpsuit
+  - WhiteJumpskirt
+  - BlackJumpsuit
+  - BlackJumpskirt
+  - BlueJumpsuit
+  - BlueJumpskirt
+  - DarkBlueJumpsuit
+  - DarkBlueJumpskirt
+  - TealJumpsuit
+  - TealJumpskirt
+  - GreenJumpsuit
+  - GreenJumpskirt
+  - DarkGreenJumpsuit
+  - DarkGreenJumpskirt
+  - OrangeJumpsuit
+  - OrangeJumpskirt
+  - PinkJumpsuit
+  - PinkJumpskirt
+  - RedJumpsuit
+  - RedJumpskirt
+  - YellowJumpsuit
+  - YellowJumpskirt
+  - PurpleJumpsuit
+  - PurpleJumpskirt
+  - LightBrownJumpsuit
+  - LightBrownJumpskirt
+  - BrownJumpsuit
+  - BrownJumpskirt
+  - MaroonJumpsuit
+  - MaroonJumpskirt
   - AncientJumpsuit
   - RainbowJumpsuit
 
@@ -181,6 +246,14 @@
   name: loadout-group-passenger-shoes
   loadouts:
   - BlackShoes
+  - WhiteShoes
+  - BlueShoes
+  - BrownShoes
+  - GreenShoes
+  - OrangeShoes
+  - RedShoes
+  - YellowShoes
+  - PurpleShoes
   - WinterBoots
 
 - type: loadoutGroup
@@ -584,6 +657,7 @@
   name: loadout-group-quartermaster-shoes
   loadouts:
   - BrownShoes
+  - LaceupBoots
   - CargoWinterBoots
 
 - type: loadoutGroup
@@ -698,6 +772,8 @@
   - StationEngineerHardhatYellow
   - StationEngineerHardhatOrange
   - StationEngineerHardhatRed
+  - StationEngineerHardhatDarkYellow
+  - StationEngineerHardhatBlue
   - SeniorEngineerBeret
 
 - type: loadoutGroup
@@ -816,6 +892,7 @@
   name: loadout-group-research-director-shoes
   loadouts:
   - BrownShoes
+  - LaceupBoots
   - ScienceWinterBoots
 
 - type: loadoutGroup
@@ -961,6 +1038,7 @@
   - SecurityHelmet
   - SecurityBeret
   - SecurityHat
+  - TrooperHat
 
 - type: loadoutGroup
   id: SecurityJumpsuit
@@ -968,10 +1046,11 @@
   loadouts:
   - SecurityJumpsuit
   - SecurityJumpskirt
-  - SecurityJumpsuitGrey
-  - SecurityJumpskirtGrey
+  # - SecurityJumpsuitGrey
+  # - SecurityJumpskirtGrey
   - SeniorOfficerJumpsuit
   - SeniorOfficerJumpskirt
+  - TrooperUniform
 
 - type: loadoutGroup
   id: SecurityBackpack
@@ -1002,6 +1081,8 @@
   loadouts:
   - JackBoots
   - SecurityWinterBoots
+  - ShoesSwat
+  - ShoesDusk
 
 - type: loadoutGroup
   id: SecurityPDA
@@ -1009,6 +1090,14 @@
   loadouts:
   - SecurityPDA
   - SeniorOfficerPDA
+
+- type: loadoutGroup
+  id: SecurityGloves
+  name: loadout-group-security-gloves
+  minLimit: 0
+  loadouts:
+  - GlovesBlack
+  - GlovesFingerless
 
 - type: loadoutGroup
   id: DetectiveHead
@@ -1041,6 +1130,7 @@
   loadouts:
   - DetectiveArmorVest
   - DetectiveCoat
+  - DetectiveCoatGrey
 
 - type: loadoutGroup
   id: SecurityCadetJumpsuit
@@ -1048,7 +1138,7 @@
   loadouts:
   - GreyJumpsuitSec
   - GreyJumpskirtSec
-  - BlueJumpsuit
+  - BlueJumpsuitSec
 
 - type: loadoutGroup
   id: SurvivalSecurity
@@ -1106,6 +1196,7 @@
   name: loadout-group-chief-medical-officer-shoes
   loadouts:
   - BrownShoes
+  - LaceupBoots
   - MedicalWinterBoots
 
 - type: loadoutGroup

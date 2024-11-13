@@ -1,5 +1,5 @@
 - type: entity
-  parent: ClothingBackpackDuffel
+  parent: [ClothingBackpackDuffel, BaseCommandContraband]
   id: ClothingBackpackDuffelBlueshield
   name: вещмешок офицера синего щита
   description: Сюда можно спрятать труп.

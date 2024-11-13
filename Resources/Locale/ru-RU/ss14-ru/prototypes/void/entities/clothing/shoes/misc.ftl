@@ -1,4 +1,4 @@
-ent-ClothingShoesBlackDress = Чёрные туфли
+ent-ClothingShoesBlackDress = чёрные туфли
     .desc = Вечерный шик.
     .suffix = { ent-ClothingShoesBaseButcherable.suffix }
 ent-ClothingShoesRedDress = красные туфли
@@ -10,9 +10,9 @@ ent-ClothingShoesRichDress = дорогие туфли
 ent-ClothingShoesStarDress = звёздные туфли
     .desc = Они сияют!
     .suffix = { ent-ClothingShoesBaseButcherable.suffix }
-ent-ClothingShoesBootsSilkDress = Шёлковые туфли
+ent-ClothingShoesBootsSilkDress = шёлковые туфли
     .desc = Украшенные жемчугом туфли
     .suffix = { ent-ClothingShoesBaseButcherable.suffix }
-ent-ClothingShoesBootsPinkDress = Розовые туфли
+ent-ClothingShoesBootsPinkDress = розовые туфли
     .desc = Украшены милыми бантиками
     .suffix = { ent-ClothingShoesBaseButcherable.suffix }
