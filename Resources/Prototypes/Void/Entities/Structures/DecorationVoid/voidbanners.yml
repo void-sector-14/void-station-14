@@ -1,0 +1,19 @@
+- type: entity
+  parent: BaseSignDirectional
+  id: SignIvyString
+  name: рождественская лоза
+  description: Красивая рождественская лоза, пахнет лесом.
+  components:
+  - type: Sprite
+    state: ivystring
+    sprite: Void/Structures/Decoration/Christmasdeco.rsi
+
+- type: entity
+  parent: BaseSignDirectional
+  id: XmasRing
+  name: рождественский венок
+  description: Рождественский венок.
+  components:
+  - type: Sprite
+    state: xmasring
+    sprite: Void/Structures/Decoration/Christmasdeco.rsi
