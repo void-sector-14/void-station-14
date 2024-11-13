@@ -161,7 +161,7 @@
     weight: 6.5
     earliestStart: 40
     reoccurrenceDelay: 20
-    minimumPlayers: 20
+    minimumPlayers: 15
     duration: null
   - type: SpaceSpawnRule
     spawnDistance: 0
@@ -273,7 +273,7 @@
   components:
   - type: StationEvent
     earliestStart: 15
-    minimumPlayers: 15
+    minimumPlayers: 10
     weight: 7
     duration: 240
   - type: KudzuGrowthRule
@@ -447,7 +447,7 @@
   components:
   - type: StationEvent
     earliestStart: 90
-    minimumPlayers: 40
+    minimumPlayers: 15
     weight: 1 # Zombies was happening basically every single survival round, so now it's super rare
     duration: 1
   - type: ZombieRule
@@ -572,7 +572,7 @@
   components:
   - type: StationEvent
     earliestStart: 0
-    minimumPlayers: 20
+    minimumPlayers: 15
     maxOccurrences: 1 # this event has diminishing returns on interesting-ness, so we cap it
     weight: 5
   - type: MobReplacementRule
