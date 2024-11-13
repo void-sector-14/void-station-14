@@ -17,9 +17,10 @@
   id: CentcomGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitCentcomOfficial
+    back: ClothingBackpackSatchelHolding
     shoes: ClothingShoesBootsLaceup
     head: ClothingHeadHatCentcom
-    eyes: ClothingEyesGlassesSunglasses
+    eyes: ClothingEyesGlassesCentcom
     gloves: ClothingHandsGlovesColorBlack
     outerClothing: ClothingOuterVestKevlarCent
     id: CentcomPDA
@@ -27,3 +28,7 @@
     belt: WeaponPistolN1984
     pocket1: BoxFolderCentCom
     pocket2: RubberStampCentcom
+  storage:
+    back:
+    - Flash
+    - DoorRemoteCentcom
