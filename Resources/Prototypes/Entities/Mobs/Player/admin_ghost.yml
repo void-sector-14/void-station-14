@@ -130,7 +130,7 @@
       sprite: Void/Interface/admin_actions.rsi
       state: radar
     keywords: [ "AI", "console", "interface" ]
-    priority: -7
+    priority: -6
     event: !type:ToggleIntrinsicUIEvent { key: enum.RadarConsoleUiKey.Key }
 
 - type: entity
@@ -156,7 +156,7 @@
       sprite: Void/Interface/admin_actions.rsi
       state: monitoring
     keywords: [ "AI", "console", "interface" ]
-    priority: -9
+    priority: -8
     event: !type:ToggleIntrinsicUIEvent { key: enum.CrewMonitoringUIKey.Key }
 
 - type: entity
@@ -169,5 +169,5 @@
       sprite: Void/Interface/admin_actions.rsi
       state: records
     keywords: [ "AI", "console", "interface" ]
-    priority: -8
+    priority: -7
     event: !type:ToggleIntrinsicUIEvent { key: enum.GeneralStationRecordConsoleKey.Key }

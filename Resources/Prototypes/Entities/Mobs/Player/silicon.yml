@@ -35,7 +35,6 @@
   - type: ActionGrant
     actions:
     - ActionJumpToCore
-    - ActionShowJobIcons
     - ActionSurvCameraLights
     - ActionAIViewLaws
   - type: UserInterface
@@ -73,6 +72,7 @@
     title: comms-console-announcement-title-station-ai
     color: "#2ed2fd"
     sound: /Audio/Void/Announcements/intercept.ogg
+  - type: ShowJobIcons
 
 - type: entity
   id: AiHeldIntellicard
@@ -396,6 +396,9 @@
     drawFov: false
   - type: Examiner
   - type: InputMover
+  - type: Speech
+    speechVerb: Robotic
+    speechSounds: Borg
   - type: Tag
     tags:
     - HideContextMenu
