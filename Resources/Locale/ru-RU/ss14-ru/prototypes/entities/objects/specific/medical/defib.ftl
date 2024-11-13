@@ -8,3 +8,7 @@ ent-DefibrillatorEmpty = { ent-Defibrillator }
 ent-DefibrillatorOneHandedUnpowered = { ent-BaseDefibrillator }
     .suffix = Одноручный, Незаряженный
     .desc = { ent-BaseDefibrillator.desc }
+ent-DefibrillatorCompact = компактный дефибриллятор
+    .desc = Теперь в компактной версии!
+ent-DefibrillatorSyndicate = дефибриллятор Interdyne
+    .desc = Также используется как оружие самообороны против лиц, склонных к военным преступлениям.
