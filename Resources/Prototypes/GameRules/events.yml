@@ -20,11 +20,9 @@
     - id: SlimesSpawn
     - id: SolarFlare
     - id: SnakeSpawn
-    - id: SpiderClownSpawn
     - id: SpiderSpawn
     - id: VentClog
     - id: VentCrittersSlimecats
-    - id: VentCrittersSlimecatsAgressive
 
 - type: entityTable
   id: BasicAntagEventsTable
