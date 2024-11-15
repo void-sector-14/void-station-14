@@ -9,8 +9,8 @@
   tier: 1
   cost: 5000
   recipeUnlocks:
-  - WelderIndustrialAdvanced
-  - WelderIndustrial
+    - WelderIndustrialAdvanced
+    - WelderIndustrial
 
 - type: technology
   id: SalvageEquipment
@@ -22,12 +22,12 @@
   tier: 1
   cost: 7500
   recipeUnlocks:
-  - MiningDrill
-  - MineralScannerEmpty
-  - BorgModuleMining
-  - BorgModuleGrapplingGun
-  - OreProcessorIndustrialMachineCircuitboard
-  - ClothingMaskWeldingGas
+    - MiningDrill
+    - MineralScannerEmpty
+    - BorgModuleMining
+    - BorgModuleGrapplingGun
+    - OreProcessorIndustrialMachineCircuitboard
+    - ClothingMaskWeldingGas
 
 - type: technology
   id: SpaceScanning
@@ -39,9 +39,9 @@
   tier: 1
   cost: 5000
   recipeUnlocks:
-  - RadarConsoleCircuitboard
-  - HandHeldMassScanner
-  - BorgModuleGPS
+    - RadarConsoleCircuitboard
+    - HandHeldMassScanner
+    - BorgModuleGPS
 
 - type: technology
   id: AdvancedPowercells
@@ -53,8 +53,8 @@
   tier: 1
   cost: 7500
   recipeUnlocks:
-  - PowerCellHigh
-  - TurboItemRechargerCircuitboard
+    - PowerCellHigh
+    - TurboItemRechargerCircuitboard
 
 - type: technology
   id: MechanicalCompression
@@ -66,7 +66,7 @@
   tier: 1
   cost: 10000
   recipeUnlocks:
-  - FlatpackerMachineCircuitboard
+    - FlatpackerMachineCircuitboard
 
 - type: technology
   id: IndustrialEngineering
@@ -78,10 +78,10 @@
   tier: 1
   cost: 10000
   recipeUnlocks:
-  - AutolatheHyperConvectionMachineCircuitboard
-  - ProtolatheHyperConvectionMachineCircuitboard
-  - CircuitImprinterHyperConvectionMachineCircuitboard
-  - SheetifierMachineCircuitboard
+    - AutolatheHyperConvectionMachineCircuitboard
+    - ProtolatheHyperConvectionMachineCircuitboard
+    - CircuitImprinterHyperConvectionMachineCircuitboard
+    - SheetifierMachineCircuitboard
 
 - type: technology
   id: PowerGeneration
@@ -93,13 +93,13 @@
   tier: 1
   cost: 7500
   recipeUnlocks:
-  - PortableGeneratorPacmanMachineCircuitboard
-  - PortableGeneratorSuperPacmanMachineCircuitboard
-  - PortableGeneratorJrPacmanMachineCircuitboard
-  - PowerComputerCircuitboard #the actual solar panel itself should be in here
-  - SolarControlComputerCircuitboard
-  - SolarTrackerElectronics
-  - EmitterCircuitboard
+    - PortableGeneratorPacmanMachineCircuitboard
+    - PortableGeneratorSuperPacmanMachineCircuitboard
+    - PortableGeneratorJrPacmanMachineCircuitboard
+    - PowerComputerCircuitboard #the actual solar panel itself should be in here
+    - SolarControlComputerCircuitboard
+    - SolarTrackerElectronics
+    - EmitterCircuitboard
 
 - type: technology
   id: AtmosphericTech
@@ -111,8 +111,8 @@
   tier: 1
   cost: 7500
   recipeUnlocks:
-  - ThermomachineFreezerMachineCircuitBoard
-  - GasRecyclerMachineCircuitboard
+    - ThermomachineFreezerMachineCircuitBoard
+    - GasRecyclerMachineCircuitboard
 
 - type: technology
   id: RipleyAPLU
@@ -124,14 +124,14 @@
   tier: 1
   cost: 7500
   recipeUnlocks:
-  - RipleyHarness
-  - RipleyLArm
-  - RipleyRArm
-  - RipleyLLeg
-  - RipleyRLeg
-  - RipleyCentralElectronics
-  - RipleyPeripheralsElectronics
-  - MechEquipmentGrabber
+    - RipleyHarness
+    - RipleyLArm
+    - RipleyRArm
+    - RipleyLLeg
+    - RipleyRLeg
+    - RipleyCentralElectronics
+    - RipleyPeripheralsElectronics
+    - MechEquipmentGrabber
 
 # Tier 2
 
@@ -145,11 +145,11 @@
   tier: 2
   cost: 10000
   recipeUnlocks:
-  - ShuttleConsoleCircuitboard
-  - ThrusterMachineCircuitboard
-  - GyroscopeMachineCircuitboard
-  - MiniGravityGeneratorCircuitboard
-  - FanTinyElectronics
+    - ShuttleConsoleCircuitboard
+    - ThrusterMachineCircuitboard
+    - GyroscopeMachineCircuitboard
+    - MiniGravityGeneratorCircuitboard
+    - FanTinyElectronics
 
 - type: technology
   id: AdvancedAtmospherics
@@ -161,11 +161,11 @@
   tier: 2
   cost: 7500
   recipeUnlocks:
-  - HellfireFreezerMachineCircuitBoard
-  - PortableScrubberMachineCircuitBoard
-  - HolofanProjector
+    - HellfireFreezerMachineCircuitBoard
+    - PortableScrubberMachineCircuitBoard
+    - HolofanProjector
   technologyPrerequisites:
-  - AtmosphericTech
+    - AtmosphericTech
 
 - type: technology
   id: AdvancedToolsTechnology
@@ -182,6 +182,8 @@
     - JawsOfLife
     - BorgModuleAdvancedTool
     - BorgModuleRCD
+  technologyPrerequisites:
+    - WeldingTechnology
 
 - type: technology
   id: AdvancedCompactPower
@@ -196,6 +198,8 @@
     - WallmountGeneratorElectronics
     - WallmountGeneratorAPUElectronics
     - WallmountSubstationElectronics
+  technologyPrerequisites:
+    - PowerGeneration
 
 - type: technology
   id: MassExcavation
@@ -210,6 +214,8 @@
     - OreBagOfHolding
     - MiningDrillDiamond
     - AdvancedMineralScannerEmpty
+  technologyPrerequisites:
+    - SalvageEquipment
 
 - type: technology
   id: AdvancedJetpack
@@ -221,10 +227,10 @@
   tier: 2
   cost: 10000
   recipeUnlocks:
-  - JetpackAdvanced
+    - JetpackAdvanced
   technologyPrerequisites:
-  - SalvageEquipment
-  - AtmosphericTech
+    - SalvageEquipment
+    - AtmosphericTech
 
 - type: technology
   id: AntiMeteor
@@ -236,10 +242,10 @@
   tier: 2
   cost: 10000
   recipeUnlocks:
-  - TurretAntiMeteorCircuitboard
+    - TurretAntiMeteorCircuitboard
   technologyPrerequisites:
-  - BasicShuttleArmament
-  - BasicRobotics
+    - BasicShuttleArmament
+    - BasicRobotics
 
 # Tier 3
 
@@ -253,9 +259,9 @@
   tier: 3
   cost: 15000
   recipeUnlocks:
-  - ClothingBackpackHolding
-  - ClothingBackpackSatchelHolding
-  - ClothingBackpackDuffelHolding
+    - ClothingBackpackHolding
+    - ClothingBackpackSatchelHolding
+    - ClothingBackpackDuffelHolding
 
 - type: technology
   id: PortableFission
@@ -267,6 +273,6 @@
   tier: 3
   cost: 10000
   recipeUnlocks:
-  - PowerCellMicroreactor
+    - PowerCellMicroreactor
   technologyPrerequisites:
-  - AdvancedPowercells
+    - AdvancedPowercells
