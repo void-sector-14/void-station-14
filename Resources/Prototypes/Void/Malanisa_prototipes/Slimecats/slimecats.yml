@@ -110,15 +110,6 @@
   - type: AlwaysRevolutionaryConvertible
   - type: ReplacementAccent
     accent: cat
-  - type: Clumsy
-    clumsyDamage:
-      types:
-        Blunt: 5
-        Piercing: 4
-      groups:
-        Burn: 3
-    clumsySound:
-      path: /Audio/Void/Malanisa_audio/slimecats/slimecat/slm1.ogg
   - type: Storage
     clickInsert: false
     grid:
