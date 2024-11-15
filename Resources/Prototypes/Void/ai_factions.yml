@@ -9,7 +9,6 @@
 - type: npcFaction
   id: Slimecat
   hostile:
-    - Syndicate
     - Xeno
     - Zombie
     - Mouse
@@ -27,16 +26,16 @@
     - Dragon
     - Revolutionary
     - NanoTrasen
+    - SyndicateAgent
     - PetsNT
     - Passive
     - SimpleNeutral
 
 - type: npcFaction
-  id: SlimecatPassive
+  id: SyndicateAgent
   hostile:
+    - SimpleHostile
     - Xeno
     - Zombie
-    - Mouse
-    - SimpleHostile
+    - SlimecatAgressive
     - Dragon
-    - Revolutionary

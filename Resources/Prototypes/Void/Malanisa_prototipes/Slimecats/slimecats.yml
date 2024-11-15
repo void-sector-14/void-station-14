@@ -223,27 +223,6 @@
     Purr:
       collection: FelinidPurrs
 
-    #Laugh:
-      #collection: MaleLaugh
-    #Giggle:
-      #collection: MaleLaugh
-    #Cough:
-      #collection: MaleCoughs
-    #Yawn:
-      #collection: MaleYawn
-    #Sigh:
-      #collection: MaleSigh
-    #Crying:
-      #collection: MaleCry
-    #Whistle:
-      #collection: Whistles
-    #Growl:
-      #collection: FelinidGrowls
-    #Gasp:
-      #collection: Gasp
-    #CritGasp:
-      #collection: MaleCritGasp
-
 - type: speechSounds
   id: slimecat
   saySound:
@@ -756,7 +735,7 @@
     speechVerb: SmallMob
   - type: NpcFactionMember
     factions:
-      - SlimecatPassive
+      - Slimecat
   - type: GhostTakeoverAvailable
   - type: GhostRole
     makeSentient: true
@@ -2402,10 +2381,6 @@
           doAfter: 5
   - node: Slimecat_hardsuit
     entity: ClothingOuterHardsuitBasicSlimecat
-
-  # - type: NpcFactionMember
-  #  factions:
-  #  - Syndicate
 
 # Рандом спавн
 
