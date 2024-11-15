@@ -67,3 +67,39 @@
     tags:
     - DoorBumpOpener
     - FootstepSound
+
+- type: entity
+  id: MobCatStanislav
+  name: Станислав
+  suffix: Адмем
+  parent: MobCatFloppa
+  description: Это не военное преступление, если тебе весело!
+  components:
+  - type: Sprite
+    sprite: Mobs/Pets/caracal.rsi
+    layers:
+    - map: ["enum.DamageStateVisualLayers.Base"]
+      state: stanislav
+  - type: DamageStateVisuals
+    states:
+      Alive:
+        Base: stanislav
+      Dead:
+        Base: stanislav_dead
+  - type: Gun
+    fireRate: 5
+    useKey: false
+    selectedMode: SemiAuto
+    availableModes:
+      - SemiAuto
+    soundGunshot: /Audio/Weapons/Guns/Gunshots/rifle2.ogg
+  - type: BallisticAmmoProvider
+    proto: CartridgeLightRifle
+    capacity: 30
+  - type: CombatMode
+  - type: HTN
+    rootTask:
+      task: StanislavCompound
+  - type: NpcFactionMember
+    factions:
+    - SimpleHostile
