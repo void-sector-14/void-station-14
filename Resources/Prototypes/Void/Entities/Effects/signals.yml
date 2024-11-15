@@ -1,0 +1,47 @@
+- type: entity
+  parent: MarkerBase
+  id: EMSignal
+  name: электромагнитный сигнал
+  suffix: Ивент
+  components:
+  - type: Sprite
+    layers:
+      - sprite: Void/Markers/signal.rsi
+        state: electro
+  - type: SignalEM
+
+- type: entity
+  parent: MarkerBase
+  id: AstralSignal
+  name: астральный сигнал
+  suffix: Ивент
+  components:
+  - type: Sprite
+    layers:
+      - sprite: Void/Markers/signal.rsi
+        state: astral
+  - type: SignalAstral
+
+- type: entity
+  parent: MarkerBase
+  id: IonSignal
+  name: ионный сигнал
+  suffix: Ивент
+  components:
+  - type: Sprite
+    layers:
+      - sprite: Void/Markers/signal.rsi
+        state: ion
+  - type: SignalIon
+
+- type: entity
+  parent: MarkerBase
+  id: RadioSignal
+  name: радио сигнал
+  suffix: Ивент
+  components:
+  - type: Sprite
+    layers:
+      - sprite: Void/Markers/signal.rsi
+        state: radio
+  - type: SignalRadio

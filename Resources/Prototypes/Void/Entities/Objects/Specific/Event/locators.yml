@@ -1,0 +1,79 @@
+- type: entity
+  id: EMLocator
+  parent: [BaseItem, PowerCellSlotMediumItem]
+  name: электромагнитный локатор
+  description: Портативный локатор электромагнитных волн.
+  suffix: Батарея
+  components:
+  - type: Sprite
+    sprite: Void/Objects/Specific/Event/emlocator.rsi
+    layers:
+      - state: icon
+      - state: screen
+        shader: unshaded
+        visible: false
+        map: ["enum.ToggleVisuals.Layer"]
+  - type: Appearance
+  - type: GenericVisualizer
+    visuals:
+      enum.ToggleVisuals.Toggled:
+        enum.ToggleVisuals.Layer:
+          True: { visible: true }
+          False: { visible: false }
+  - type: ItemToggle
+  - type: ProximityBeeper
+  - type: ProximityDetector
+    range: 10
+    criteria:
+      components:
+      - SignalEM
+  - type: Beeper
+    minBeepInterval: 0.15
+    maxBeepInterval: 1.00
+    beepSound:
+      path: "/Audio/Items/locator_beep.ogg"
+      params:
+        maxDistance: 1
+        volume: -8
+  - type: PowerCellDraw
+    drawRate: 1
+    useRate: 0
+
+- type: entity
+  parent: EMLocator
+  id: AstralLocator
+  name: астральный локатор
+  description: Портативный локатор астральных волн.
+  components:
+  - type: Sprite
+    sprite: Void/Objects/Specific/Event/astrallocator.rsi
+  - type: ProximityDetector
+    criteria:
+      components:
+      - SignalAstral
+
+- type: entity
+  parent: EMLocator
+  id: IonLocator
+  name: ионный локатор
+  description: Портативный локатор ионного ветра.
+  components:
+  - type: Sprite
+    sprite: Void/Objects/Specific/Event/ionlocator.rsi
+  - type: ProximityDetector
+    criteria:
+      components:
+      - SignalIon
+
+- type: entity
+  parent: EMLocator
+  id: RadioLocator
+  name: радиолокатор
+  description: Портативный локатор радиоволн.
+  components:
+  - type: Sprite
+    sprite: Void/Objects/Specific/Event/radiolocator.rsi
+  - type: ProximityDetector
+    criteria:
+      components:
+      - SignalRadio
