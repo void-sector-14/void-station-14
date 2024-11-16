@@ -127,7 +127,6 @@
     belt: ClothingBeltChiefEngineerFilled
     head: ClothingHeadHatCentcomcap
     eyes: ClothingEyesHudMultiversal
-    mask: ClothingMaskGasDuskfort
   storage:
     back:
     - AccessConfiguratorUniversal
