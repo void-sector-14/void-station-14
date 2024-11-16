@@ -27,3 +27,13 @@
     - tasks:
         - !type:HTNCompoundTask
           task: IdleSpinCompound
+
+- type: htnCompound
+  id: StanislavCompound
+  branches:
+    - tasks:
+        - !type:HTNCompoundTask
+          task: InnateRangedCombatCompound
+    - tasks:
+        - !type:HTNCompoundTask
+          task: IdleCompound

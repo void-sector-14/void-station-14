@@ -14,7 +14,7 @@
       department: Security
       time: 36000 # 10 hrs
     - !type:DepartmentTimeRequirement
-      department: Command
+      department: Civilian
       time: 36000 # 10 hours
     - !type:AgeRequirement
       requiredAge: 21

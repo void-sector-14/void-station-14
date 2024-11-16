@@ -52,3 +52,14 @@
     sprite: Void/Clothing/Head/Hats/beret_blueshield.rsi
   - type: Clothing
     sprite: Void/Clothing/Head/Hats/beret_blueshield.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadFlash
+  name: шлем вспышки
+  description: Дополняет великолепный костюм вспышки!
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Head/Helmets/flashhelmet.rsi
+  - type: Clothing
+    sprite: Void/Clothing/Head/Helmets/flashhelmet.rsi

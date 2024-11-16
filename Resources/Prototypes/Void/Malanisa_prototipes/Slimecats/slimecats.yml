@@ -2,7 +2,7 @@
   name: базовый слизнекот
   id: MobBaseSlimecat
   parent: [SimpleMobBase, StripableInventoryBase]
-  description: Очаровательное маленькое склизкое и немного пугливое существо. 
+  description: Очаровательное маленькое склизкое и немного пугливое существо.
   abstract: true
   components:
   - type: Vocal
@@ -13,14 +13,14 @@
       Unsexed: slimecat
   - type: RotationVisuals
     defaultRotation: 90
-    horizontalRotation: 90      
+    horizontalRotation: 90
   - type: Eye
-  - type: ContentEye  
+  - type: ContentEye
   - type: MobThresholds
     thresholds:
       0: Alive
       50: Critical
-      60: Dead  
+      60: Dead
   - type: CombatMode
   - type: Inventory
     templateId: SlimecatInventory
@@ -45,7 +45,7 @@
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: standing
-      sprite: Void/Malanisa_sprites/Mobs/Slimecats/white.rsi  
+      sprite: Void/Malanisa_sprites/Mobs/Slimecats/white.rsi
     - map: [ "enum.HumanoidVisualLayers.Handcuffs" ]
       color: "#ffffff"
       sprite: Objects/Misc/handcuffs.rsi
@@ -66,12 +66,12 @@
     interactFailureString: petting-failure-generic
     interactSuccessSpawn: EffectHearts
     interactFailureSound:
-      path: /Audio/Animals/cat_hiss.ogg 
+      path: /Audio/Animals/cat_hiss.ogg
     interactSuccessSound:
-      path: /Audio/Void/Malanisa_audio/slimecats/slimecat/slm1.ogg       
+      path: /Audio/Void/Malanisa_audio/slimecats/slimecat/slm1.ogg
   - type: MeleeWeapon
     soundHit:
-      path: /Audio/Effects/bite.ogg 
+      path: /Audio/Effects/bite.ogg
     angle: 30
     animation: WeaponArcBite
     damage:
@@ -90,7 +90,7 @@
   - type: IdExaminable
   - type: Tag
     tags:
-    - FootstepSound   
+    - FootstepSound
     - CannotSuicide
     - DoorBumpOpener
     - SlimecatSimpleCraft
@@ -103,22 +103,13 @@
       Dead:
         Base: dead
   - type: SentienceTarget
-    flavorKind: station-event-random-sentience-flavor-slimecat ####!        
+    flavorKind: station-event-random-sentience-flavor-slimecat ####!
   - type: HTN
     rootTask:
       task: SlimecatHTN
   - type: AlwaysRevolutionaryConvertible
   - type: ReplacementAccent
     accent: cat
-  - type: Clumsy
-    clumsyDamage:
-      types:
-        Blunt: 5
-        Piercing: 4
-      groups:
-        Burn: 3
-    clumsySound:
-      path: /Audio/Void/Malanisa_audio/slimecats/slimecat/slm1.ogg 
   - type: Storage
     clickInsert: false
     grid:
@@ -139,7 +130,7 @@
       enum.HumanoidMarkingModifierKey.Key:
         type: HumanoidMarkingModifierBoundUserInterface
       enum.StrippingUiKey.Key:
-        type: StrippableBoundUserInterface        
+        type: StrippableBoundUserInterface
   - type: SleepEmitSound
     snore: /Audio/Voice/Felinid/cat_purr1.ogg
 
@@ -158,13 +149,13 @@
     variation: 0.125
   sounds:
     Scream:
-      path: /Audio/Void/Malanisa_audio/slimecats/slimecat/slm1.ogg                                                                  
+      path: /Audio/Void/Malanisa_audio/slimecats/slimecat/slm1.ogg
     Hiss:
       collection: FelinidHisses
     Meow:
-      path: /Audio/Void/Malanisa_audio/slimecats/slimecat/slm1.ogg 
+      path: /Audio/Void/Malanisa_audio/slimecats/slimecat/slm1.ogg
     Mew:
-      path: /Audio/Void/Malanisa_audio/slimecats/slimecat/slm1.ogg 
+      path: /Audio/Void/Malanisa_audio/slimecats/slimecat/slm1.ogg
     Purr:
       collection: FelinidPurrs
 
@@ -174,15 +165,15 @@
     variation: 0.125
   sounds:
     Scream:
-      path: /Audio/Void/Malanisa_audio/slimecats/spearmaster/slm_spearmaster1.ogg                                                                  
+      path: /Audio/Void/Malanisa_audio/slimecats/spearmaster/slm_spearmaster1.ogg
     Hiss:
       collection: FelinidHisses
     Meow:
-      path: /Audio/Void/Malanisa_audio/slimecats/spearmaster/slm_spearmaster1.ogg 
+      path: /Audio/Void/Malanisa_audio/slimecats/spearmaster/slm_spearmaster1.ogg
     Mew:
-      path: /Audio/Void/Malanisa_audio/slimecats/spearmaster/slm_spearmaster1.ogg 
+      path: /Audio/Void/Malanisa_audio/slimecats/spearmaster/slm_spearmaster1.ogg
     Purr:
-      collection: FelinidPurrs      
+      collection: FelinidPurrs
 
 - type: emoteSounds
   id: slimecat_rivulet
@@ -190,7 +181,7 @@
     variation: 0.125
   sounds:
     Scream:
-      path: /Audio/Void/Malanisa_audio/slimecats/rivulet/slm_riv1.ogg                                                                 
+      path: /Audio/Void/Malanisa_audio/slimecats/rivulet/slm_riv1.ogg
     Hiss:
       collection: FelinidHisses
     Meow:
@@ -206,13 +197,13 @@
     variation: 0.125
   sounds:
     Scream:
-      path: /Audio/Void/Malanisa_audio/slimecats/gourmand/slm_gourmand1.ogg                                                              
+      path: /Audio/Void/Malanisa_audio/slimecats/gourmand/slm_gourmand1.ogg
     Hiss:
       collection: FelinidHisses
     Meow:
-      path: /Audio/Void/Malanisa_audio/slimecats/gourmand/slm_gourmand1.ogg 
+      path: /Audio/Void/Malanisa_audio/slimecats/gourmand/slm_gourmand1.ogg
     Mew:
-      path: /Audio/Void/Malanisa_audio/slimecats/gourmand/slm_gourmand1.ogg 
+      path: /Audio/Void/Malanisa_audio/slimecats/gourmand/slm_gourmand1.ogg
     Purr:
       collection: FelinidPurrs
 
@@ -222,83 +213,62 @@
     variation: 0.125
   sounds:
     Scream:
-      path: /Audio/Void/Malanisa_audio/slimecats/artificer/slm_arti1.ogg                                                                   
+      path: /Audio/Void/Malanisa_audio/slimecats/artificer/slm_arti1.ogg
     Hiss:
       collection: FelinidHisses
     Meow:
-      path: /Audio/Void/Malanisa_audio/slimecats/artificer/slm_arti1.ogg 
+      path: /Audio/Void/Malanisa_audio/slimecats/artificer/slm_arti1.ogg
     Mew:
-      path: /Audio/Void/Malanisa_audio/slimecats/artificer/slm_arti1.ogg 
+      path: /Audio/Void/Malanisa_audio/slimecats/artificer/slm_arti1.ogg
     Purr:
-      collection: FelinidPurrs                  
-
-    #Laugh:
-      #collection: MaleLaugh
-    #Giggle:
-      #collection: MaleLaugh
-    #Cough:
-      #collection: MaleCoughs
-    #Yawn:
-      #collection: MaleYawn
-    #Sigh:
-      #collection: MaleSigh
-    #Crying:
-      #collection: MaleCry
-    #Whistle:
-      #collection: Whistles                                                                      
-    #Growl:
-      #collection: FelinidGrowls
-    #Gasp:
-      #collection: Gasp
-    #CritGasp:
-      #collection: MaleCritGasp
+      collection: FelinidPurrs
 
 - type: speechSounds
   id: slimecat
   saySound:
-    path: /Audio/Void/Malanisa_audio/slimecats/slimecat/slm1.ogg 
+    path: /Audio/Void/Malanisa_audio/slimecats/slimecat/slm1.ogg
   askSound:
-    path: /Audio/Void/Malanisa_audio/slimecats/slimecat/slm2.ogg 
+    path: /Audio/Void/Malanisa_audio/slimecats/slimecat/slm2.ogg
   exclaimSound:
     path: /Audio/Void/Malanisa_audio/slimecats/slimecat/slm3.ogg
 
 - type: speechSounds
   id: slimecat_rivulet
   saySound:
-    path: /Audio/Void/Malanisa_audio/slimecats/rivulet/slm_riv1.ogg 
+    path: /Audio/Void/Malanisa_audio/slimecats/rivulet/slm_riv1.ogg
   askSound:
-    path: /Audio/Void/Malanisa_audio/slimecats/rivulet/slm_riv2.ogg 
+    path: /Audio/Void/Malanisa_audio/slimecats/rivulet/slm_riv2.ogg
   exclaimSound:
     path: /Audio/Void/Malanisa_audio/slimecats/rivulet/slm_riv3.ogg
 
 - type: speechSounds
   id: slimecat_artificer
   saySound:
-    path: /Audio/Void/Malanisa_audio/slimecats/artificer/slm_arti1.ogg 
+    path: /Audio/Void/Malanisa_audio/slimecats/artificer/slm_arti1.ogg
   askSound:
-    path: /Audio/Void/Malanisa_audio/slimecats/artificer/slm_arti2.ogg 
+    path: /Audio/Void/Malanisa_audio/slimecats/artificer/slm_arti2.ogg
   exclaimSound:
     path: /Audio/Void/Malanisa_audio/slimecats/artificer/slm_arti3.ogg
 
 - type: speechSounds
   id: slimecat_gourmand
   saySound:
-    path: /Audio/Void/Malanisa_audio/slimecats/gourmand/slm_gourmand1.ogg  
+    path: /Audio/Void/Malanisa_audio/slimecats/gourmand/slm_gourmand1.ogg
   askSound:
-    path: /Audio/Void/Malanisa_audio/slimecats/gourmand/slm_gourmand2.ogg 
+    path: /Audio/Void/Malanisa_audio/slimecats/gourmand/slm_gourmand2.ogg
   exclaimSound:
     path: /Audio/Void/Malanisa_audio/slimecats/gourmand/slm_gourmand3.ogg
 
 - type: speechSounds
   id: slimecat_spearmaster
   saySound:
-    path: /Audio/Void/Malanisa_audio/slimecats/spearmaster/slm_spearmaster1.ogg 
+    path: /Audio/Void/Malanisa_audio/slimecats/spearmaster/slm_spearmaster1.ogg
   askSound:
-    path: /Audio/Void/Malanisa_audio/slimecats/spearmaster/slm_spearmaster2.ogg 
+    path: /Audio/Void/Malanisa_audio/slimecats/spearmaster/slm_spearmaster2.ogg
   exclaimSound:
-    path: /Audio/Void/Malanisa_audio/slimecats/spearmaster/slm_spearmaster3.ogg  
+    path: /Audio/Void/Malanisa_audio/slimecats/spearmaster/slm_spearmaster3.ogg
 
-# Поведение и фракция                  
+# Поведение и фракция
 #####################################################
 
 - type: htnCompound
@@ -306,7 +276,7 @@
   branches:
     - tasks:
         - !type:HTNCompoundTask
-          task: FoodCompound  
+          task: FoodCompound
     - tasks:
         - !type:HTNCompoundTask
           task: MeleeCombatCompound
@@ -319,49 +289,12 @@
   branches:
     - tasks:
         - !type:HTNCompoundTask
-          task: FoodCompound  
+          task: FoodCompound
     - tasks:
         - !type:HTNCompoundTask
           task: IdleCompound
 
-
-- type: npcFaction
-  id: Slimecat
-  hostile:
-    - Syndicate
-    - Xeno
-    - Zombie
-    - Mouse   
-    - SimpleHostile
-    - SimpleNeutral
-    - Dragon     
-
-- type: npcFaction
-  id: SlimecatAgressive
-  hostile:
-    - Syndicate
-    - Xeno
-    - Zombie
-    - Mouse   
-    - SimpleHostile
-    - Dragon        
-    - Revolutionary
-    - NanoTrasen
-    - PetsNT      
-    - Passive  
-    - SimpleNeutral
-
-- type: npcFaction
-  id: SlimecatPassive
-  hostile:
-    - Xeno
-    - Zombie
-    - Mouse   
-    - SimpleHostile
-    - Dragon        
-    - Revolutionary
-
-# Инвентарь               
+# Инвентарь
 #####################################################
 
 - type: inventoryTemplate
@@ -372,10 +305,10 @@
     slotFlags: HEAD
     uiWindowPos: 1,3
     strippingWindowPos: 1,0
-    displayName: Head 
+    displayName: Head
     whitelist:
       tags:
-        - Slimecatgear      
+        - Slimecatgear
   - name: id
     slotTexture: id
     slotFlags: IDCARD
@@ -414,7 +347,7 @@
     displayName: Suit
     whitelist:
       tags:
-        - Slimecatgear   
+        - Slimecatgear
 
 - type: inventoryTemplate
   id: SlimecatInventoryHunter
@@ -424,10 +357,10 @@
     slotFlags: HEAD
     uiWindowPos: 1,3
     strippingWindowPos: 1,0
-    displayName: Head 
+    displayName: Head
     whitelist:
       tags:
-        - Slimecatgear      
+        - Slimecatgear
   - name: back
     displayName: SlimecatBack
     slotTexture: back
@@ -477,7 +410,7 @@
     displayName: Suit
     whitelist:
       tags:
-        - Slimecatgear   
+        - Slimecatgear
 
 - type: inventoryTemplate
   id: SlimecatInventoryGourmand
@@ -487,10 +420,10 @@
     slotFlags: HEAD
     uiWindowPos: 1,3
     strippingWindowPos: 1,0
-    displayName: Head 
+    displayName: Head
     whitelist:
       tags:
-        - Slimecatgear      
+        - Slimecatgear
   - name: id
     slotTexture: id
     slotFlags: IDCARD
@@ -529,7 +462,7 @@
     displayName: Suit
     whitelist:
       tags:
-        - SlimecatgearGourmand                   
+        - SlimecatgearGourmand
 
 #Тэговая система
 #####################################################
@@ -537,25 +470,25 @@
   id: Slimecatgear
 
 - type: Tag
-  id: SlimecatArtificerCraft  
-  
-- type: Tag
-  id: SlimecatGourmandCraft   
+  id: SlimecatArtificerCraft
 
 - type: Tag
-  id: SlimecatSimpleCraft   
+  id: SlimecatGourmandCraft
 
 - type: Tag
-  id: Artificer_powder  
-  
-- type: Tag
-  id: Trashcraft           
+  id: SlimecatSimpleCraft
 
 - type: Tag
-  id: Spearcraftitem  
+  id: Artificer_powder
 
 - type: Tag
-  id: SlimecatgearGourmand  
+  id: Trashcraft
+
+- type: Tag
+  id: Spearcraftitem
+
+- type: Tag
+  id: SlimecatgearGourmand
 
 
 #Тело, руки и "ноги" слизнекота
@@ -669,7 +602,7 @@
       connections:
       - feet
     feet:
-      part: FeetAnimal           
+      part: FeetAnimal
 
 - type: entity
   id: OrganAnimalLungsSlimecat
@@ -704,7 +637,7 @@
         - ReagentId: UncookedAnimalProteins
           Quantity: 5
 
-# Слизнекоты                
+# Слизнекоты
 #####################################################
 
 ### Выживший
@@ -740,7 +673,7 @@
     prototypes: [ Survivorhand ]
 
 - type: entity
-  suffix: выживший 
+  suffix: выживший
   id: MobSlimecatSurvivor
   parent: MobSlimecatSurvivorAgressive
   components:
@@ -751,7 +684,7 @@
   - type: GhostRole
     makeSentient: true
     allowSpeech: true
-    allowMovement: true   
+    allowMovement: true
     name: ghost-role-information-slimecat-name
     description: ghost-role-information-slimecat-description
     rules: ghost-role-information-nonantagonist-rules
@@ -772,10 +705,10 @@
     thresholds:
       0: Alive
       60: Critical
-      70: Dead    
+      70: Dead
   - type: MeleeWeapon
     soundHit:
-      path: /Audio/Effects/bite.ogg 
+      path: /Audio/Effects/bite.ogg
     angle: 30
     animation: WeaponArcBite
     damage:
@@ -786,7 +719,7 @@
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: standing
-      sprite: Void/Malanisa_sprites/Mobs/Slimecats/yellow.rsi  
+      sprite: Void/Malanisa_sprites/Mobs/Slimecats/yellow.rsi
     - map: [ "enum.HumanoidVisualLayers.Handcuffs" ]
       color: "#ffffff"
       sprite: Objects/Misc/handcuffs.rsi
@@ -796,18 +729,18 @@
     - map: [ "outerClothing" ]
     - map: [ "id" ]
     - map: [ "mask" ]
-    - map: [ "head" ]   
+    - map: [ "head" ]
   - type: Speech
     speechSounds: slimecat
     speechVerb: SmallMob
   - type: NpcFactionMember
     factions:
-      - SlimecatPassive
+      - Slimecat
   - type: GhostTakeoverAvailable
   - type: GhostRole
     makeSentient: true
     allowSpeech: true
-    allowMovement: true   
+    allowMovement: true
     name: ghost-role-information-slimecat-name
     description: ghost-role-information-slimecat-description
     rules: ghost-role-information-nonantagonist-rules
@@ -823,25 +756,25 @@
     thresholds:
       0: Alive
       45: Critical
-      50: Dead    
+      50: Dead
   - type: MeleeWeapon
     soundHit:
-      path: /Audio/Effects/bite.ogg 
+      path: /Audio/Effects/bite.ogg
     angle: 30
     animation: WeaponArcBite
     damage:
       types:
-        Blunt: 3  
+        Blunt: 3
         Piercing: 8
   - type: Inventory
     templateId: SlimecatInventoryHunter
-    speciesId: slimecat  
+    speciesId: slimecat
   - type: Sprite
     drawdepth: Mobs
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: standing
-      sprite: Void/Malanisa_sprites/Mobs/Slimecats/hunter.rsi   
+      sprite: Void/Malanisa_sprites/Mobs/Slimecats/hunter.rsi
     - map: [ "enum.HumanoidVisualLayers.Handcuffs" ]
       color: "#ffffff"
       sprite: Objects/Misc/handcuffs.rsi
@@ -851,7 +784,7 @@
     - map: [ "outerClothing" ]
     - map: [ "id" ]
     - map: [ "mask" ]
-    - map: [ "head" ]    
+    - map: [ "head" ]
   - type: Speech
     speechSounds: slimecat
     speechVerb: SmallMob
@@ -873,7 +806,7 @@
   - type: GhostRole
     makeSentient: true
     allowSpeech: true
-    allowMovement: true   
+    allowMovement: true
     name: ghost-role-information-slimecat-name
     description: ghost-role-information-slimecat-description
     rules: ghost-role-information-nonantagonist-rules
@@ -886,22 +819,22 @@
   parent: MobBaseSlimecat
   components:
   - type: Body
-    prototype: SlimecatGourmand 
+    prototype: SlimecatGourmand
   - type: Inventory
     templateId: SlimecatInventoryGourmand
-    speciesId: gourmand 
+    speciesId: gourmand
   - type: Vocal
     wilhelm: "/Audio/Voice/Felinid/cat_wilhelm.ogg"
     sounds:
       Male: slimecat_gourmand
       Female: slimecat_gourmand
-      Unsexed: slimecat_gourmand  
+      Unsexed: slimecat_gourmand
   - type: Sprite
     drawdepth: Mobs
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: standing
-      sprite: Void/Malanisa_sprites/Mobs/Slimecats/gourmand.rsi   
+      sprite: Void/Malanisa_sprites/Mobs/Slimecats/gourmand.rsi
     - map: [ "enum.HumanoidVisualLayers.Handcuffs" ]
       color: "#ffffff"
       sprite: Objects/Misc/handcuffs.rsi
@@ -911,20 +844,20 @@
     - map: [ "outerClothing" ]
     - map: [ "id" ]
     - map: [ "mask" ]
-    - map: [ "head" ]  
+    - map: [ "head" ]
   - type: Speech
     speechSounds: slimecat_gourmand
     speechVerb: SmallMob
   - type: Tag
     tags:
-    - SlimecatGourmandCraft ###! 
-    - SlimecatSimpleCraft 
+    - SlimecatGourmandCraft ###!
+    - SlimecatSimpleCraft
   - type: Sericulture
     action: ActionSericultureGourmand
     popupText: Вы истощены.
     productionLength: 2.5
     entityProduced: Gourmandcloth
-    hungerCost: 20 
+    hungerCost: 20
   - type: Thirst
     startingThirst: 25
     baseDecayRate: 0.04
@@ -934,7 +867,7 @@
       Okay: 80
       Peckish: 25
       Starving: 10
-      Dead: 0    
+      Dead: 0
     currentHunger: 25
     baseDecayRate: 0.3
   - type: InteractionPopup
@@ -943,14 +876,14 @@
     interactFailureString: petting-failure-generic
     interactSuccessSpawn: EffectHearts
     interactFailureSound:
-      path: /Audio/Animals/cat_hiss.ogg 
+      path: /Audio/Animals/cat_hiss.ogg
     interactSuccessSound:
-      path: /Audio/Void/Malanisa_audio/slimecats/gourmand/slm_gourmand1.ogg  
+      path: /Audio/Void/Malanisa_audio/slimecats/gourmand/slm_gourmand1.ogg
   - type: GhostTakeoverAvailable
   - type: GhostRole
     makeSentient: true
     allowSpeech: true
-    allowMovement: true   
+    allowMovement: true
     name: ghost-role-information-slimecat-name
     description: ghost-role-information-slimecat-description
     rules: ghost-role-information-nonantagonist-rules
@@ -961,7 +894,7 @@
   description: Никто не знает, что хранится в вашем желудке...
   components:
   - type: InstantAction
-    icon: Void/Malanisa_sprites/Objects/Slimecat_items/clot.rsi/clot.png 
+    icon: Void/Malanisa_sprites/Objects/Slimecat_items/clot.rsi/clot.png
     event: !type:SericultureActionEvent
     useDelay: 1
 
@@ -974,25 +907,25 @@
   components:
   - type: MeleeWeapon
     soundHit:
-      path: /Audio/Effects/bite.ogg 
+      path: /Audio/Effects/bite.ogg
     angle: 30
     animation: WeaponArcBite
     damage:
       types:
-        Blunt: 3  
-        Piercing: 8  
+        Blunt: 3
+        Piercing: 8
   - type: Vocal
     wilhelm: "/Audio/Voice/Felinid/cat_wilhelm.ogg"
     sounds:
       Male: slimecat_artificer
       Female: slimecat_artificer
-      Unsexed: slimecat_artificer 
+      Unsexed: slimecat_artificer
   - type: Sprite
     drawdepth: Mobs
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: standing
-      sprite: Void/Malanisa_sprites/Mobs/Slimecats/artificer.rsi     
+      sprite: Void/Malanisa_sprites/Mobs/Slimecats/artificer.rsi
     - map: [ "enum.HumanoidVisualLayers.Handcuffs" ]
       color: "#ffffff"
       sprite: Objects/Misc/handcuffs.rsi
@@ -1002,7 +935,7 @@
     - map: [ "outerClothing" ]
     - map: [ "id" ]
     - map: [ "mask" ]
-    - map: [ "head" ]  
+    - map: [ "head" ]
   - type: Speech
     speechSounds: slimecat_artificer
     speechVerb: SmallMob
@@ -1010,17 +943,17 @@
     accent: cat
   - type: Tag
     tags:
-    - FootstepSound   
+    - FootstepSound
     - CannotSuicide
-    - DoorBumpOpener  
+    - DoorBumpOpener
     - SlimecatArtificerCraft
-    - SlimecatSimpleCraft 
+    - SlimecatSimpleCraft
   - type: Sericulture
     action: ActionSericultureArtificer
     popupText: Вы истощены.
     productionLength: 2.5
     entityProduced: artificer_powder
-    hungerCost: 6 
+    hungerCost: 6
   - type: Flammable
     damage:
       types: {}
@@ -1030,7 +963,7 @@
     interactFailureString: petting-failure-generic
     interactSuccessSpawn: EffectHearts
     interactFailureSound:
-      path: /Audio/Animals/cat_hiss.ogg 
+      path: /Audio/Animals/cat_hiss.ogg
     interactSuccessSound:
       path: /Audio/Void/Malanisa_audio/slimecats/artificer/slm_arti1.ogg
   - type: NpcFactionMember
@@ -1051,7 +984,7 @@
   - type: GhostRole
     makeSentient: true
     allowSpeech: true
-    allowMovement: true   
+    allowMovement: true
     name: ghost-role-information-slimecat-name
     description: ghost-role-information-slimecat-description
     rules: ghost-role-information-nonantagonist-rules
@@ -1059,7 +992,7 @@
 - type: startingGear
   id: Artificerhand
   inhand:
-    - Arti_Spear    
+    - Arti_Spear
 
 - type: entity
   id: ActionSericultureArtificer
@@ -1083,13 +1016,13 @@
     sounds:
       Male: slimecat_spearmaster
       Female: slimecat_spearmaster
-      Unsexed: slimecat_spearmaster 
+      Unsexed: slimecat_spearmaster
   - type: Sprite
     drawdepth: Mobs
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: standing
-      sprite: Void/Malanisa_sprites/Mobs/Slimecats/spearmaster.rsi      
+      sprite: Void/Malanisa_sprites/Mobs/Slimecats/spearmaster.rsi
     - map: [ "enum.HumanoidVisualLayers.Handcuffs" ]
       color: "#ffffff"
       sprite: Objects/Misc/handcuffs.rsi
@@ -1099,7 +1032,7 @@
     - map: [ "outerClothing" ]
     - map: [ "id" ]
     - map: [ "mask" ]
-    - map: [ "head" ]    
+    - map: [ "head" ]
   - type: Speech
     speechSounds: slimecat_spearmaster
     speechVerb: SmallMob
@@ -1107,7 +1040,7 @@
     accent: cat
   - type: Body
     prototype: SlimecatSM
-    requiredLegs: 1     
+    requiredLegs: 1
   - type: Sericulture
     action: ActionSericultureSpearmaster
     popupText: Вы истощены.
@@ -1120,9 +1053,9 @@
     interactFailureString: petting-failure-generic
     interactSuccessSpawn: EffectHearts
     interactFailureSound:
-      path: /Audio/Animals/cat_hiss.ogg 
+      path: /Audio/Animals/cat_hiss.ogg
     interactSuccessSound:
-      path: /Audio/Void/Malanisa_audio/slimecats/spearmaster/slm_spearmaster3.ogg  
+      path: /Audio/Void/Malanisa_audio/slimecats/spearmaster/slm_spearmaster3.ogg
   - type: NpcFactionMember
     factions:
       - SlimecatAgressive
@@ -1141,7 +1074,7 @@
   - type: GhostRole
     makeSentient: true
     allowSpeech: true
-    allowMovement: true   
+    allowMovement: true
     name: ghost-role-information-slimecat-name
     description: ghost-role-information-slimecat-description
     rules: ghost-role-information-nonantagonist-rules
@@ -1153,7 +1086,7 @@
   components:
   - type: InstantAction
     icon: Void/Malanisa_sprites/Objects/Slimecat_items/sm_spear.rsi/spear.png
-    event: !type:SericultureActionEvent 
+    event: !type:SericultureActionEvent
     useDelay: 1
 
 ### Ручей
@@ -1169,22 +1102,22 @@
         Asphyxiation: 0.2
     damageRecovery:
       types:
-        Asphyxiation: -1.0  
+        Asphyxiation: -1.0
   - type: MobThresholds
     thresholds:
       0: Alive
       60: Critical
-      70: Dead    
+      70: Dead
   - type: MeleeWeapon
     soundHit:
-      path: /Audio/Effects/bite.ogg 
+      path: /Audio/Effects/bite.ogg
     angle: 30
     animation: WeaponArcBite
     damage:
       types:
-        Blunt: 3  
+        Blunt: 3
   - type: Body
-    prototype: SlimecatRivulet  
+    prototype: SlimecatRivulet
   - type: Vocal
     wilhelm: "/Audio/Voice/Felinid/cat_wilhelm.ogg"
     sounds:
@@ -1196,7 +1129,7 @@
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: standing
-      sprite: Void/Malanisa_sprites/Mobs/Slimecats/rivulet.rsi        
+      sprite: Void/Malanisa_sprites/Mobs/Slimecats/rivulet.rsi
     - map: [ "enum.HumanoidVisualLayers.Handcuffs" ]
       color: "#ffffff"
       sprite: Objects/Misc/handcuffs.rsi
@@ -1206,7 +1139,7 @@
     - map: [ "outerClothing" ]
     - map: [ "id" ]
     - map: [ "mask" ]
-    - map: [ "head" ] 
+    - map: [ "head" ]
   - type: Speech
     speechSounds: slimecat_rivulet
     speechVerb: SmallMob
@@ -1221,14 +1154,14 @@
     interactFailureString: petting-failure-generic
     interactSuccessSpawn: EffectHearts
     interactFailureSound:
-      path: /Audio/Animals/cat_hiss.ogg 
+      path: /Audio/Animals/cat_hiss.ogg
     interactSuccessSound:
       path: /Audio/Void/Malanisa_audio/slimecats/rivulet/slm_riv3.ogg
   - type: GhostTakeoverAvailable
   - type: GhostRole
     makeSentient: true
     allowSpeech: true
-    allowMovement: true   
+    allowMovement: true
     name: ghost-role-information-slimecat-name
     description: ghost-role-information-slimecat-description
     rules: ghost-role-information-nonantagonist-rules
@@ -1246,16 +1179,16 @@
     sounds:
       Male: slimecat_artificer
       Female: slimecat_artificer
-      Unsexed: slimecat_artificer  
+      Unsexed: slimecat_artificer
   - type: Body
     prototype: SlimecatSM
-    requiredLegs: 1   
+    requiredLegs: 1
   - type: Sprite
     drawdepth: Mobs
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: standing
-      sprite: Void/Malanisa_sprites/Mobs/Slimecats/saint.rsi           
+      sprite: Void/Malanisa_sprites/Mobs/Slimecats/saint.rsi
     - map: [ "enum.HumanoidVisualLayers.Handcuffs" ]
       color: "#ffffff"
       sprite: Objects/Misc/handcuffs.rsi
@@ -1265,32 +1198,32 @@
     - map: [ "outerClothing" ]
     - map: [ "id" ]
     - map: [ "mask" ]
-    - map: [ "head" ]   
+    - map: [ "head" ]
   - type: Speech
     speechSounds: slimecat_artificer
     speechVerb: SmallMob
   - type: ReplacementAccent
-    accent: cat        
-  - type: Pacified 
+    accent: cat
+  - type: Pacified
   - type: InteractionPopup
     successChance: 0.9
     interactSuccessString: petting-success-slimes
     interactFailureString: petting-failure-generic
     interactSuccessSpawn: EffectHearts
     interactFailureSound:
-      path: /Audio/Animals/cat_hiss.ogg 
+      path: /Audio/Animals/cat_hiss.ogg
     interactSuccessSound:
       path: /Audio/Void/Malanisa_audio/slimecats/artificer/slm_arti1.ogg
   - type: HTN
     rootTask:
-      task: SlimecatPupHTN #RuminantCompound 
+      task: SlimecatPupHTN #RuminantCompound
   - type: Loadout
     prototypes: [ Sainthand ]
   - type: GhostTakeoverAvailable
   - type: GhostRole
     makeSentient: true
     allowSpeech: true
-    allowMovement: true   
+    allowMovement: true
     name: ghost-role-information-slimecat-name
     description: ghost-role-information-slimecat-description
     rules: ghost-role-information-nonantagonist-rules
@@ -1298,9 +1231,9 @@
 - type: startingGear
   id: Sainthand
   inhand:
-    - WeaponGrapplingGunSaint  
+    - WeaponGrapplingGunSaint
 
-    
+
 ### Цветной выживший
 
 - type: entity
@@ -1312,7 +1245,7 @@
   - type: RandomSprite
     available:
       - enum.DamageStateVisualLayers.Base:
-          standing: Rainbow 
+          standing: Rainbow
   - type: NpcFactionMember
     factions:
       - SlimecatAgressive
@@ -1331,26 +1264,26 @@
   - type: GhostRole
     makeSentient: true
     allowSpeech: true
-    allowMovement: true   
+    allowMovement: true
     name: ghost-role-information-slimecat-name
     description: ghost-role-information-slimecat-description
     rules: ghost-role-information-nonantagonist-rules
 
-# Слизнекотята                
-##################################################### 
+# Слизнекотята
+#####################################################
 - type: entity
   name: слизнекотёнок
   id: MobSlimecatPup
   parent: SimpleMobBase
-  description: Очаровательное маленькое склизкое и немного пугливое существо. 
+  description: Очаровательное маленькое склизкое и немного пугливое существо.
   components:
   - type: ReplacementAccent
-    accent: cat  
+    accent: cat
   - type: MobThresholds
     thresholds:
       0: Alive
       30: Critical
-      40: Dead  
+      40: Dead
   - type: CombatMode
   - type: Deathgasp
     prototype: SlimecatDeathgasp
@@ -1371,7 +1304,7 @@
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: standing
-      sprite: Void/Malanisa_sprites/Mobs/Slimecats/pups/white_pup.rsi 
+      sprite: Void/Malanisa_sprites/Mobs/Slimecats/pups/white_pup.rsi
     - map: [ "enum.HumanoidVisualLayers.Handcuffs" ]
       color: "#ffffff"
       sprite: Objects/Misc/handcuffs.rsi
@@ -1388,12 +1321,12 @@
     interactFailureString: petting-failure-generic
     interactSuccessSpawn: EffectHearts
     interactFailureSound:
-      path: /Audio/Animals/cat_hiss.ogg 
+      path: /Audio/Animals/cat_hiss.ogg
     interactSuccessSound:
-      path: /Audio/Void/Malanisa_audio/slimecats/slimecat/slm1.ogg          
+      path: /Audio/Void/Malanisa_audio/slimecats/slimecat/slm1.ogg
   - type: MeleeWeapon
     soundHit:
-      path: /Audio/Effects/bite.ogg 
+      path: /Audio/Effects/bite.ogg
     angle: 30
     animation: WeaponArcBite
     damage:
@@ -1412,10 +1345,10 @@
   - type: IdExaminable
   - type: Tag
     tags:
-    - Slimecatgear    
+    - Slimecatgear
     - CannotSuicide
     - DoorBumpOpener
-    - SlimecatSimpleCraft    
+    - SlimecatSimpleCraft
   - type: DamageStateVisuals
     states:
       Alive:
@@ -1425,7 +1358,7 @@
       Dead:
         Base: dead
   - type: Item
-    size: Normal    
+    size: Normal
   - type: Clothing
     quickEquip: false
     sprite: Void/Malanisa_sprites/Mobs/Slimecats/pups/white_pup.rsi
@@ -1435,7 +1368,7 @@
   - type: GhostRole
     makeSentient: true
     allowSpeech: true
-    allowMovement: true   
+    allowMovement: true
     name: ghost-role-information-slimecat-name
     description: ghost-role-information-slimecat-description
     rules: ghost-role-information-nonantagonist-rules
@@ -1453,12 +1386,12 @@
     baseDecayRate: 0.3
   - type: Speech
     speechSounds: slimecat
-    speechVerb: SmallMob    
+    speechVerb: SmallMob
   - type: SleepEmitSound
     snore: /Audio/Voice/Felinid/cat_purr1.ogg
   - type: HTN
     rootTask:
-      task: SlimecatPupHTN #RuminantCompound 
+      task: SlimecatPupHTN #RuminantCompound
   - type: CanEscapeInventory
 
 ### По другому цвет отображать на спине не получится.
@@ -1486,7 +1419,7 @@
     sprite: Void/Malanisa_sprites/Mobs/Slimecats/pups/pup1.rsi
     equippedPrefix: 0
     slots:
-    - HEAD 
+    - HEAD
 
 - type: entity
   name: слизнекотёнок
@@ -1511,7 +1444,7 @@
     sprite: Void/Malanisa_sprites/Mobs/Slimecats/pups/pup2.rsi
     equippedPrefix: 0
     slots:
-    - HEAD     
+    - HEAD
 
 - type: entity
   name: слизнекотёнок
@@ -1536,7 +1469,7 @@
     sprite: Void/Malanisa_sprites/Mobs/Slimecats/pups/pup3.rsi
     equippedPrefix: 0
     slots:
-    - HEAD 
+    - HEAD
 
 - type: entity
   name: слизнекотёнок
@@ -1561,7 +1494,7 @@
     sprite: Void/Malanisa_sprites/Mobs/Slimecats/pups/pup4.rsi
     equippedPrefix: 0
     slots:
-    - HEAD 
+    - HEAD
 
 - type: entity
   name: слизнекотёнок
@@ -1586,7 +1519,7 @@
     sprite: Void/Malanisa_sprites/Mobs/Slimecats/pups/pup5.rsi
     equippedPrefix: 0
     slots:
-    - HEAD 
+    - HEAD
 
 - type: entity
   name: слизнекотёнок
@@ -1611,7 +1544,7 @@
     sprite: Void/Malanisa_sprites/Mobs/Slimecats/pups/pup6.rsi
     equippedPrefix: 0
     slots:
-    - HEAD 
+    - HEAD
 
 - type: entity
   name: слизнекотёнок
@@ -1636,16 +1569,16 @@
     sprite: Void/Malanisa_sprites/Mobs/Slimecats/pups/pup7.rsi
     equippedPrefix: 0
     slots:
-    - HEAD                
+    - HEAD
 
-# Предметы             
+# Предметы
 #####################################################
 
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: ClothingOuterHardsuitBasicSlimecat
   name: скафандр для слизнекота
-  description: Хорошая защита от сурового космоса для вашего друга поменьше. 
+  description: Хорошая защита от сурового космоса для вашего друга поменьше.
   components:
   - type: Sprite
     sprite: Void/Malanisa_sprites/Objects/Slimecat_items/Clothing/Outerclothing/hardsuit_slimecat.rsi
@@ -1704,7 +1637,7 @@
   parent: [BaseItem, BaseMinorContraband]
   id: BaseSlimecatSpear
   abstract: true
-  description: Это просто заостроённый стержень. 
+  description: Это просто заостроённый стержень.
   components:
   - type: ThrowingAngle
     angle: 225
@@ -1712,7 +1645,7 @@
   - type: Tag
     tags:
     - Spear
-    - Slimecatgear  
+    - Slimecatgear
   - type: Fixtures
     fixtures:
       fix1:
@@ -1752,7 +1685,7 @@
     slots:
     - back
   - type: UseDelay
-  - type: Appearance 
+  - type: Appearance
   - type: EmitSoundOnSpawn
     sound:
       path: /Audio/Void/Malanisa_audio/slimecats/spearpick.ogg
@@ -1769,17 +1702,17 @@
   name: простейшее копьё
   parent: BaseSlimecatSpearEmbeddable
   id: SL_Spear
-  description: Это просто заостроённый стержень. 
-  components:  
+  description: Это просто заостроённый стержень.
+  components:
   - type: EmitSoundOnSpawn
     sound:
       path: /Audio/Void/Malanisa_audio/slimecats/spearpick.ogg
   - type: Construction
     graph: Slimecat_spear
-    node: Slimecat_spear          
+    node: Slimecat_spear
   - type: Tag
     tags:
-    - Spear   
+    - Spear
     - Spearcraftitem
     - Slimecatgear
 
@@ -1787,17 +1720,17 @@
   name: копье и костной ткани
   parent: BaseSlimecatSpearEmbeddable
   id: SM_Spear
-  description: Очень острое и в то же время лёгкое копье. 
-  components: 
+  description: Очень острое и в то же время лёгкое копье.
+  components:
   - type: Sprite
     sprite: Void/Malanisa_sprites/Objects/Slimecat_items/sm_spear.rsi
     layers:
     - state: spear
   - type: EmitSoundOnSpawn
     sound:
-      path: /Audio/Void/Malanisa_audio/slimecats/spearmaster/spearmaster.ogg 
+      path: /Audio/Void/Malanisa_audio/slimecats/spearmaster/spearmaster.ogg
   - type: TimedDespawn
-    lifetime: 30     
+    lifetime: 30
 
 - type: entity
   name: взрывчатое копьё
@@ -1811,7 +1744,7 @@
     - state: spear
   - type: Construction
     graph: Slimecat_spear_arti
-    node: Slimecat_spear_arti    
+    node: Slimecat_spear_arti
   - type: Damageable
     damageContainer: Inorganic
     damageModifierSet: Glass
@@ -1837,11 +1770,11 @@
     ignoreResistances: true
     damage:
       types:
-        Blunt: 5 
+        Blunt: 5
   - type: SpawnOnTrigger
     proto: AdminInstantEffectBomb
   - type: TriggerOnCollide
-    fixtureID: fix1      
+    fixtureID: fix1
   - type: DeleteOnTrigger
 
 #### для Техника
@@ -1860,10 +1793,10 @@
     size: Normal
   - type: Tag
     tags:
-    - Artificer_powder  
+    - Artificer_powder
   - type: EmitSoundOnSpawn
     sound:
-      path: /Audio/Void/Malanisa_audio/slimecats/gourmand/gourmand.ogg  
+      path: /Audio/Void/Malanisa_audio/slimecats/gourmand/gourmand.ogg
 
 #### бомбочка
 
@@ -1890,7 +1823,7 @@
       behaviors:
       - !type:PlaySoundBehavior
         sound:
-          path: /Audio/Void/Malanisa_audio/slimecats/bomb.ogg 
+          path: /Audio/Void/Malanisa_audio/slimecats/bomb.ogg
       - !type:SpillBehavior { }
       - !type:SpawnEntitiesBehavior
         spawn:
@@ -1904,7 +1837,7 @@
     ignoreResistances: true
     damage:
       types:
-        Blunt: 5    
+        Blunt: 5
   - type: Construction
     graph: artificer_bomb
     node: artificer_bomb
@@ -1936,20 +1869,20 @@
     size: Tiny
   - type: EmitSoundOnSpawn
     sound:
-      path: /Audio/Void/Malanisa_audio/slimecats/gourmand/gourmand.ogg     
+      path: /Audio/Void/Malanisa_audio/slimecats/gourmand/gourmand.ogg
   - type: SpawnItemsOnUse
     items:
       - id: RandomGourmandStaffSpawner
     sound:
-      path: /Audio/Void/Malanisa_audio/slimecats/gourmand/slimesound.ogg      
+      path: /Audio/Void/Malanisa_audio/slimecats/gourmand/slimesound.ogg
 
 - type: entity
   id: RandomGourmandStaffSpawner
   parent: MarkerBase
-  components: 
+  components:
   - type: EmitSoundOnSpawn
     sound:
-      path: /Audio/Void/Malanisa_audio/slimecats/gourmand/gourmand.ogg     
+      path: /Audio/Void/Malanisa_audio/slimecats/gourmand/gourmand.ogg
   - type: Sprite
     layers:
     - state: red
@@ -2049,7 +1982,7 @@
     - FoodBurgerSuper
     - MedicatedSuture
     chance: 1
-    offset: 0.15  
+    offset: 0.15
 
 #### язык слизнекота
 
@@ -2060,22 +1993,22 @@
   components:
     - type: AmmoCounter
     - type: GrapplingGun
-      ropeSpriteCustom: 
-        sprite: Void/Malanisa_sprites/Objects/Slimecat_items/tongue.rsi  
+      ropeSpriteCustom:
+        sprite: Void/Malanisa_sprites/Objects/Slimecat_items/tongue.rsi
         state: rope
       reelSoundCustom:
-        path: /Audio/Void/Malanisa_audio/slimecats/squishy.ogg  
-      cycleSoundCustom: 
-        path: /Audio/Void/Malanisa_audio/slimecats/squishy.ogg  
+        path: /Audio/Void/Malanisa_audio/slimecats/squishy.ogg
+      cycleSoundCustom:
+        path: /Audio/Void/Malanisa_audio/slimecats/squishy.ogg
     - type: Gun
-      soundGunshot: /Audio/Void/Malanisa_audio/slimecats/squishy.ogg  
+      soundGunshot: /Audio/Void/Malanisa_audio/slimecats/squishy.ogg
       fireRate: 0.5
       clumsyProof: true
     - type: BasicEntityAmmoProvider
       proto: GrapplingHookSaint
       capacity: 1
     - type: Sprite
-      sprite: Void/Malanisa_sprites/Objects/Slimecat_items/tongue.rsi  
+      sprite: Void/Malanisa_sprites/Objects/Slimecat_items/tongue.rsi
       layers:
         - state: base
         - state: base-unshaded
@@ -2106,7 +2039,7 @@
     - type: InteractionOutline
     - type: Sprite
       noRot: false
-      sprite: Void/Malanisa_sprites/Objects/Slimecat_items/tongue.rsi 
+      sprite: Void/Malanisa_sprites/Objects/Slimecat_items/tongue.rsi
       layers:
         - state: hook
     - type: Physics
@@ -2128,7 +2061,7 @@
           mask:
             - Impassable
             - HighImpassable
-    - type: GrapplingProjectile            
+    - type: GrapplingProjectile
 
 #### трубчатый червь
 
@@ -2139,7 +2072,7 @@
   components:
     - type: AmmoCounter
     - type: GrapplingGun
-      ropeSpriteCustom: 
+      ropeSpriteCustom:
         sprite: Void/Malanisa_sprites/Mobs/tube_worm.rsi
         state: rope
       ReelSound:
@@ -2155,7 +2088,7 @@
     - type: Sprite
       sprite: Void/Malanisa_sprites/Mobs/tube_worm.rsi
       layers:
-      - map: ["enum.DamageStateVisualLayers.Base", "movement"]      
+      - map: ["enum.DamageStateVisualLayers.Base", "movement"]
         state: base
     - type: UseDelay
       delay: 1.5
@@ -2199,7 +2132,7 @@
     - type: MobState
       allowedStates:
       - Alive
-      - Dead        
+      - Dead
     - type: MobThresholds
       thresholds:
         0: Alive
@@ -2293,9 +2226,9 @@
           mask:
             - Impassable
             - HighImpassable
-    - type: GrapplingProjectile         
+    - type: GrapplingProjectile
 
-# Графы крафтов         
+# Графы крафтов
 #####################################################
 
 #### копье
@@ -2327,7 +2260,7 @@
         amount: 1
         doAfter: 1
   - node: Slimecat_spear
-    entity: SL_Spear 
+    entity: SL_Spear
 
 #### бомбочка
 - type: construction
@@ -2344,7 +2277,7 @@
   objectType: Item
   entityWhitelist:
     tags:
-    - SlimecatArtificerCraft 
+    - SlimecatArtificerCraft
 
 - type: constructionGraph
   id: artificer_bomb
@@ -2355,11 +2288,11 @@
     - to: artificer_bomb
       steps:
       - tag: Artificer_powder
-        name: комок взрывчатого вещества 
+        name: комок взрывчатого вещества
         icon:
           sprite: Void/Malanisa_sprites/Objects/Slimecat_items/artificer_craft.rsi
-          state: item     
-      - tag: Trashcraft 
+          state: item
+      - tag: Trashcraft
         name: мусор
         icon:
           sprite: Objects/Consumable/Food/snacks.rsi
@@ -2382,7 +2315,7 @@
   objectType: Item
   entityWhitelist:
     tags:
-    - SlimecatArtificerCraft 
+    - SlimecatArtificerCraft
 
 - type: constructionGraph
   id: Slimecat_spear_arti
@@ -2393,17 +2326,17 @@
     - to: Slimecat_spear_arti
       steps:
       - tag: Artificer_powder
-        name: комок взрывчатого вещества 
+        name: комок взрывчатого вещества
         icon:
           sprite: Void/Malanisa_sprites/Objects/Slimecat_items/artificer_craft.rsi
-          state: item     
+          state: item
       - tag: Spearcraftitem
-        name: простейшее копьё 
+        name: простейшее копьё
         icon:
           sprite: Void/Malanisa_sprites/Objects/Slimecat_items/simple_spear.rsi
           state: spear
   - node: Slimecat_spear_arti
-    entity: Arti_Spear   
+    entity: Arti_Spear
 
 - type: construction
   name: скафандр для слизнекота
@@ -2412,14 +2345,14 @@
   startNode: start
   targetNode: Slimecat_hardsuit
   category: construction-category-slimecat
-  description: Хорошая защита от сурового космоса для вашего друга поменьше. 
+  description: Хорошая защита от сурового космоса для вашего друга поменьше.
   icon:
     sprite: Void/Malanisa_sprites/Objects/Slimecat_items/Clothing/Head/hardsuit_slimecat.rsi
     state: icon
   objectType: Item
   entityWhitelist:
     tags:
-    - SlimecatSimpleCraft 
+    - SlimecatSimpleCraft
 
 - type: constructionGraph
   id: Slimecat_hardsuit
@@ -2445,20 +2378,16 @@
             state: icon
         - material: Plastic
           amount: 5
-          doAfter: 5          
+          doAfter: 5
   - node: Slimecat_hardsuit
     entity: ClothingOuterHardsuitBasicSlimecat
-     
-  # - type: NpcFactionMember
-  #  factions:
-  #  - Syndicate 
 
 # Рандом спавн
 
 - type: entity
   id: RandomSlugpupSpawner
   parent: MarkerBase
-  components:   
+  components:
   - type: Sprite
     layers:
     - state: red
@@ -2469,18 +2398,18 @@
     - MobSlimecatPup
     - MobSlimecatPupColor1
     - MobSlimecatPupColor2
-    - MobSlimecatPupColor3    
+    - MobSlimecatPupColor3
     - MobSlimecatPupColor4
     - MobSlimecatPupColor5
     - MobSlimecatPupColor6
     - MobSlimecatPupColor7
     chance: 1
-    offset: 0.15  
+    offset: 0.15
 
 - type: entity
   id: RandomSlugcatSpawner
   parent: MarkerBase
-  components:   
+  components:
   - type: Sprite
     layers:
     - state: red
@@ -2498,12 +2427,12 @@
     - MobSlimecatRuvulet
     - MobSlimecatSurvivorColor
     chance: 1
-    offset: 0.35      
+    offset: 0.35
 
 - type: entity
   id: RandomSlugcatAgressiveSpawner
   parent: MarkerBase
-  components:   
+  components:
   - type: Sprite
     layers:
     - state: red
@@ -2517,7 +2446,7 @@
     - MobSlimecatHunterAgressive
     - MobSlimecatSurvivorColorAgressive
     chance: 1
-    offset: 0.35 
+    offset: 0.35
 
 # Ивент спавн
 
@@ -2536,13 +2465,13 @@
     weight: 5
     duration: 60
   - type: VentCrittersRule
-    entries: 
+    entries:
     - id: RandomSlugcatSpawner
-      prob: 0.015          
+      prob: 0.015
     - id: WeaponGrapplingGunMobTubeworm
-      prob: 0.02
+      prob: 0.01
     - id: RandomSlugpupSpawner
-      prob: 0.01 
+      prob: 0.01
 
 - type: entity
   id: VentCrittersSlimecatsAgressive
@@ -2559,9 +2488,9 @@
     weight: 5
     duration: 60
   - type: VentCrittersRule
-    entries: 
+    entries:
     - id: WeaponGrapplingGunMobTubeworm
-      prob: 0.02    
+      prob: 0.02
     - id: RandomSlugcatSpawner
       prob: 0.002
     - id: RandomSlugcatAgressiveSpawner

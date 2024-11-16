@@ -1,0 +1,58 @@
+- type: entity
+  parent: ClothingUniformBase
+  id: JumpSuitDispatchCentCom
+  name: форма диспетчера
+  description: Форма диспетчера Центрального Командования. Пахнет холодным воздухом.
+  suffix: Вещи Алана
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Uniforms/Jumpsuit/centcomm_custom_dispatch.rsi
+  - type: Clothing
+    sprite: Void/Clothing/Uniforms/Jumpsuit/centcomm_custom_dispatch.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: JumpSuitOperatorCentCom
+  name: форма оператора
+  description: Форма оператора Центрального Командования. 
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Uniforms/Jumpsuit/centcomm_custom_operator.rsi
+  - type: Clothing
+    sprite: Void/Clothing/Uniforms/Jumpsuit/centcomm_custom_operator.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: JumpSuitIntendantCentCom
+  name: форма интенданта
+  description: Форма интенданта Центрального Командования. Выглядит дорого.
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Uniforms/Jumpsuit/centcomm_custom_intendant.rsi
+  - type: Clothing
+    sprite: Void/Clothing/Uniforms/Jumpsuit/centcomm_custom_intendant.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: JumpSuitOKOCentCom
+  name: форма офицера контрразведывательных операций
+  description: Форма "ОКО".
+  suffix: Вещи Рэнди
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Uniforms/Jumpsuit/centcomm_custom_OKO.rsi
+  - type: Clothing
+    sprite: Void/Clothing/Uniforms/Jumpsuit/centcomm_custom_OKO.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: JumpSuitOKOCentComWhite
+  name: парадная форма офицера контрразведывательных операций
+  description: Парадная форма "ОКО".
+  suffix: Вещи Рэнди
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Uniforms/Jumpsuit/centcomm_custom_OKO_white.rsi
+  - type: Clothing
+    sprite: Void/Clothing/Uniforms/Jumpsuit/centcomm_custom_OKO_white.rsi
+

@@ -6784,8 +6784,8 @@ entities:
   - uid: 470
     components:
     - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: -2.5,-6.5
+      rot: 3.141592653589793 rad
+      pos: -3.5,-6.5
       parent: 1
   - uid: 471
     components:
@@ -52350,6 +52350,11 @@ entities:
     - type: Transform
       pos: 7.5,1.5
       parent: 1
+  - uid: 11842
+    components:
+    - type: Transform
+      pos: -2.5,-6.5
+      parent: 1
 - proto: PottedPlant22
   entities:
   - uid: 8194
@@ -57387,6 +57392,22 @@ entities:
     - type: Transform
       pos: 48.312096,-5.5456305
       parent: 1
+- proto: ShelfBar
+  entities:
+  - uid: 11843
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: -6.5,-7.5
+      parent: 1
+- proto: ShelfKitchen
+  entities:
+  - uid: 11844
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: -13.5,-2.5
+      parent: 1
 - proto: ShuttersNormal
   entities:
   - uid: 9038
@@ -58690,8 +58711,8 @@ entities:
   - uid: 9202
     components:
     - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: -2.5,-5.5
+      rot: 3.141592653589793 rad
+      pos: -4.5,-6.5
       parent: 1
 - proto: SofaLeft
   entities:
@@ -59332,13 +59353,6 @@ entities:
     components:
     - type: Transform
       pos: -7.5,15.5
-      parent: 1
-- proto: SpawnMobMonkeyPunpun
-  entities:
-  - uid: 9291
-    components:
-    - type: Transform
-      pos: -5.5,-5.5
       parent: 1
 - proto: SpawnMobMouse
   entities:
@@ -62311,6 +62325,12 @@ entities:
       parent: 1
 - proto: TableWoodNtNew
   entities:
+  - uid: 9291
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: -3.5,-6.5
+      parent: 1
   - uid: 9760
     components:
     - type: Transform
@@ -62405,6 +62425,12 @@ entities:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: -28.5,23.5
+      parent: 1
+  - uid: 11840
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: -4.5,-6.5
       parent: 1
 - proto: TegCenter
   entities:
@@ -72969,6 +72995,12 @@ entities:
     components:
     - type: Transform
       pos: -31.5,-15.5
+      parent: 1
+  - uid: 11841
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -6.5,-4.5
       parent: 1
 - proto: WindowFrostedDirectional
   entities:

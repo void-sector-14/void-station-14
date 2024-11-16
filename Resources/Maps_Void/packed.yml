@@ -41,7 +41,7 @@ entities:
     - type: MetaData
     - type: Transform
       pos: 0.4375,0.484375
-      parent: 532
+      parent: invalid
     - type: MapGrid
       chunks:
         -1,-1:
@@ -5899,18 +5899,6 @@ entities:
     - type: GasTileOverlay
     - type: RadiationGridResistance
     - type: SpreaderGrid
-  - uid: 532
-    components:
-    - type: MetaData
-      name: Map Entity
-    - type: Transform
-    - type: Map
-      mapPaused: True
-    - type: PhysicsMap
-    - type: GridTree
-    - type: MovedGrids
-    - type: Broadphase
-    - type: OccluderTree
 - proto: AccordionInstrument
   entities:
   - uid: 2
@@ -9535,15 +9523,6 @@ entities:
     - type: Transform
       pos: 66.5,-18.5
       parent: 1
-- proto: BaseAdvancedPen
-  entities:
-  - uid: 13354
-    components:
-    - type: Transform
-      pos: 60.241913,35.843437
-      parent: 1
-    - type: Physics
-      canCollide: False
 - proto: BaseGasCondenser
   entities:
   - uid: 520
@@ -33821,6 +33800,12 @@ entities:
     components:
     - type: Transform
       pos: 28.5,48.5
+      parent: 1
+  - uid: 9127
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 19.5,44.5
       parent: 1
 - proto: ComputerAnalysisConsole
   entities:
@@ -59632,6 +59617,13 @@ entities:
     - type: Transform
       pos: 63.3999,10.027362
       parent: 1
+  - uid: 13354
+    components:
+    - type: Transform
+      pos: 60.241913,35.843437
+      parent: 1
+    - type: Physics
+      canCollide: False
 - proto: PersonalAI
   entities:
   - uid: 9005
@@ -60466,15 +60458,15 @@ entities:
       parent: 1
 - proto: PottedPlant22
   entities:
+  - uid: 532
+    components:
+    - type: Transform
+      pos: 20.5,44.5
+      parent: 1
   - uid: 9126
     components:
     - type: Transform
       pos: 30.5,44.5
-      parent: 1
-  - uid: 9127
-    components:
-    - type: Transform
-      pos: 19.5,44.5
       parent: 1
 - proto: PottedPlantBioluminscent
   entities:

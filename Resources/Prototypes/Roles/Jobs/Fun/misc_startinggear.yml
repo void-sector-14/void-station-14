@@ -124,17 +124,14 @@
   equipment:
     back: ClothingBackpackSatchelHolding
     id: AdminPDA
+    belt: ClothingBeltChiefEngineerFilled
     head: ClothingHeadHatCentcomcap
-    mask: ClothingMaskGasDuskfort
+    eyes: ClothingEyesHudMultiversal
   storage:
     back:
-    - GasAnalyzer
-    - trayScanner
     - AccessConfiguratorUniversal
     - DoorRemoteAll
-    - Multitool
     - AnomalyScanner
-    - ToolDebug
 
 #Gladiator with spear
 - type: startingGear

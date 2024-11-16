@@ -272,7 +272,7 @@
   id: Take_Me_To_Church
   name: Hozier - Take Me To Church
   path:
-    path: /Audio/Void/Jukebox/Take_Me_To_Church
+    path: /Audio/Void/Jukebox/Take_Me_To_Church.ogg
 
 - type: jukebox
   id: The_Cat_Empire

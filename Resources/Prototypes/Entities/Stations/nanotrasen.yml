@@ -23,7 +23,7 @@
     - BaseStationAlertLevels
     - BaseStationMagnet
     - BaseStationExpeditions
-    - BaseStationSiliconLawCrewsimov
+    - BaseStationSiliconLawNTDefault
     - BaseStationAllEventsEligible
     - BaseStationNanotrasen
   categories: [ HideSpawnMenu ]

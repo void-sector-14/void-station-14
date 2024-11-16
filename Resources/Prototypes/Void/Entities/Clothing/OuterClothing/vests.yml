@@ -8,3 +8,14 @@
     sprite: Void/Clothing/OuterClothing/Vests/storekeeper.rsi
   - type: Clothing
     sprite: Void/Clothing/OuterClothing/Vests/storekeeper.rsi
+
+- type: entity
+  parent: ClothingOuterBase
+  id: ClothingFlashSuit
+  name: костюм вспышки
+  description: Официальный маскот Службы Безопасности НаноТрейзен с 2984-го!
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/OuterClothing/Misc/flashsuit.rsi
+  - type: Clothing
+    sprite: Void/Clothing/OuterClothing/Misc/flashsuit.rsi

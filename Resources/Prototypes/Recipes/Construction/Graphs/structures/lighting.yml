@@ -96,11 +96,3 @@
           conditions:
             - !type:ContainerEmpty
               container: "light_bulb"
-          steps:
-            - tool: Screwing
-              doAfter: 2.0
-          completed:
-            - !type:SpawnPrototype
-              prototype: SheetSteel1
-              amount: 2
-            - !type:DeleteEntity {}

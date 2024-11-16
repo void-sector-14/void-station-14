@@ -1,0 +1,59 @@
+- type: entity
+  parent: ClothingHeadBase
+  id: CapDispatchCentCom
+  name: фуражка диспетчера
+  description: Фуражка для диспетчера Центрального Командования.
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Head/Hats/centcomm_hat_dispatch.rsi
+  - type: Clothing
+    sprite: Void/Clothing/Head/Hats/centcomm_hat_dispatch.rsi
+  - type: Tag
+    tags:
+    - ClothMade
+    - WhitelistChameleon
+
+- type: entity
+  parent: ClothingHeadBase
+  id: CapOperatorCentCom
+  name: фуражка оператора
+  description: Фуражка для оператора Центрального Командования. Имеет удобную подкладку для гарнитуры.
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Head/Hats/centcomm_hat_operator.rsi
+  - type: Clothing
+    sprite: Void/Clothing/Head/Hats/centcomm_hat_operator.rsi
+  - type: Tag
+    tags:
+    - ClothMade
+    - WhitelistChameleon
+
+- type: entity
+  parent: ClothingHeadBase
+  id: CapIntendantCentCom
+  name: фуражка интенданта
+  description: Фуражка носимая итендантом. В ней удобно прятать деньги и другие вещи.
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Head/Hats/centcomm_hat_intendant.rsi
+  - type: Clothing
+    sprite: Void/Clothing/Head/Hats/centcomm_hat_intendant.rsi
+  - type: Tag
+    tags:
+    - ClothMade
+    - WhitelistChameleon
+
+- type: entity
+  parent: ClothingHeadBase
+  id: CapOKOCentCom
+  name: фуражка офицера контрразведовательных операций
+  description: Фуражка "ОКО". Напоминает ту, что носил дедушка на флоте.
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Head/Hats/centcomm_hat_oko.rsi
+  - type: Clothing
+    sprite: Void/Clothing/Head/Hats/centcomm_hat_oko.rsi
+  - type: Tag
+    tags:
+    - ClothMade
+    - WhitelistChameleon

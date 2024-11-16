@@ -69,7 +69,7 @@
         - Impassable
         - BulletImpassable
   - type: Explosive
-    totalIntensity: 25
+    totalIntensity: 15
   - type: Destructible
     thresholds:
     - trigger:

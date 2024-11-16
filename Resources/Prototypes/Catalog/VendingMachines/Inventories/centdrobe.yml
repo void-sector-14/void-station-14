@@ -2,6 +2,7 @@
   id: CentDrobeInventory
   startingInventory:
     ClothingShoesBootsLaceup: 3
+    ClothingOuterVestKevlarCent: 5
     ClothingShoesBootsJack: 3
     ClothingHandsGlovesCombat: 3
     ClothingEyesGlassesSunglasses: 3
@@ -18,3 +19,17 @@
     ClothingOuterCoatExpensive: 1
     ClothingNeckScarfStripedCentcom: 3
     ClothingNeckCloakCentcom: 3
+    ClothingNeckCloakCentCom: 3
+    CapDispatchCentCom: 1
+    CapOperatorCentCom: 1
+    CapIntendantCentCom: 1
+    CapOKOCentCom: 1
+    JumpSuitDispatchCentCom: 1
+    JumpSuitOperatorCentCom: 1
+    JumpSuitIntendantCentCom: 1
+    JumpSuitOKOCentCom: 1
+    JumpSuitOKOCentComWhite: 1
+    ClothingNeckDispatchCentCom: 1
+    ClothingNeckOperatorCentCom: 1
+    ClothingNeckIntendantCentCom: 1
+    ClothingNeckWhiteCentCom: 1

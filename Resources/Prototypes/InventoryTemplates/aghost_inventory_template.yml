@@ -18,6 +18,23 @@
       uiWindowPos: 2,2
       strippingWindowPos: 2,3
       displayName: ID
+    - name: belt
+      slotTexture: belt
+      fullTextureName: template_small
+      slotFlags: BELT
+      slotGroup: SecondHotbar
+      stripTime: 6
+      uiWindowPos: 3,1
+      strippingWindowPos: 1,5
+      displayName: Belt
+    - name: eyes
+      slotTexture: glasses
+      slotFlags: EYES
+      slotGroup: MainHotbar
+      stripTime: 3
+      uiWindowPos: 0,3
+      strippingWindowPos: 0,4
+      displayName: Eyes
 
     # For drip reasons.
     - name: head

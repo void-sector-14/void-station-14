@@ -25,5 +25,8 @@
     ClothingShoesBootsCombat: 1
     ClothingShoesBootsWinterSec: 2
     ClothingHeadHelmetJustice: 1
+    ClothingBalaclavaMask: 4
+    ClothingFlashSuit: 1
+    ClothingHeadFlash: 1
   contrabandInventory:
     ClothingMaskClownSecurity: 1

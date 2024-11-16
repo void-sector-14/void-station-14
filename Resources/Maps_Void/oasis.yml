@@ -72,7 +72,7 @@ entities:
       name: Oasis
     - type: Transform
       pos: -0.5104167,-0.5
-      parent: 3854
+      parent: invalid
     - type: MapGrid
       chunks:
         0,0:
@@ -8356,18 +8356,6 @@ entities:
     - type: NavMap
     - type: BecomesStation
       id: Oasis
-  - uid: 3854
-    components:
-    - type: MetaData
-      name: Map Entity
-    - type: Transform
-    - type: Map
-      mapPaused: True
-    - type: PhysicsMap
-    - type: GridTree
-    - type: MovedGrids
-    - type: Broadphase
-    - type: OccluderTree
 - proto: AcousticGuitarInstrument
   entities:
   - uid: 1634
@@ -12709,7 +12697,7 @@ entities:
       lastSignals:
         DoorStatus: True
     - type: Door
-      secondsUntilStateChange: -60112.832
+      secondsUntilStateChange: -60209.473
       state: Opening
   - uid: 6934
     components:
@@ -12721,7 +12709,7 @@ entities:
       lastSignals:
         DoorStatus: True
     - type: Door
-      secondsUntilStateChange: -60115.465
+      secondsUntilStateChange: -60212.105
       state: Opening
   - uid: 6935
     components:
@@ -12733,7 +12721,7 @@ entities:
       lastSignals:
         DoorStatus: True
     - type: Door
-      secondsUntilStateChange: -60114.316
+      secondsUntilStateChange: -60210.957
       state: Opening
   - uid: 6936
     components:
@@ -12744,7 +12732,7 @@ entities:
       lastSignals:
         DoorStatus: True
     - type: Door
-      secondsUntilStateChange: -60113.53
+      secondsUntilStateChange: -60210.17
       state: Opening
 - proto: AirlockTheatreLocked
   entities:
@@ -54141,6 +54129,12 @@ entities:
       parent: 2
 - proto: ComputerAlert
   entities:
+  - uid: 3854
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 16.5,33.5
+      parent: 2
   - uid: 9322
     components:
     - type: Transform
@@ -68586,7 +68580,7 @@ entities:
       pos: -13.5,-1.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -51436.812
+      secondsUntilStateChange: -51533.453
     - type: DeviceNetwork
       deviceLists:
       - 18275
@@ -109525,7 +109519,7 @@ entities:
       pos: 36.5,-35.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -88268.664
+      secondsUntilStateChange: -88365.305
       state: Opening
   - uid: 5211
     components:
