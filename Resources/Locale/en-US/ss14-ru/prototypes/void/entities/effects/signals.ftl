@@ -1,0 +1,12 @@
+ent-EMSignal = электромагнитный сигнал
+    .suffix = Ивент
+    .desc = { ent-MarkerBase.desc }
+ent-AstralSignal = астральный сигнал
+    .suffix = Ивент
+    .desc = { ent-MarkerBase.desc }
+ent-IonSignal = ионный сигнал
+    .suffix = Ивент
+    .desc = { ent-MarkerBase.desc }
+ent-RadioSignal = радио сигнал
+    .suffix = Ивент
+    .desc = { ent-MarkerBase.desc }
