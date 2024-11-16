@@ -1,6 +1,5 @@
 station-goal-fax-paper-name = бумага
-station-goal-start =
-    [color=#1d7a1d]███░███░░░░██░░░░
+station-goal-start = [color=#1d7a1d]███░███░░░░██░░░░
     ░██░████░░░██░░░░           [head=3]Бланк документа[/head]
     ░░█░██░██░░██░█░░                   [head=3]NanoTrasen[/head]
     ░░░░██░░██░██░██░   [bold]{ $station } ЦК-КОМ[/bold]
