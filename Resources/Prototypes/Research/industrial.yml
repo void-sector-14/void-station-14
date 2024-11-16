@@ -24,8 +24,6 @@
   recipeUnlocks:
     - MiningDrill
     - MineralScannerEmpty
-    - BorgModuleMining
-    - BorgModuleGrapplingGun
     - OreProcessorIndustrialMachineCircuitboard
     - ClothingMaskWeldingGas
 
@@ -181,7 +179,6 @@
     - PowerDrill
     - JawsOfLife
     - BorgModuleAdvancedTool
-    - BorgModuleRCD
   technologyPrerequisites:
     - WeldingTechnology
 
