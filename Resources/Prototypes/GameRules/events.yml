@@ -30,7 +30,6 @@
     children:
     - id: ClosetSkeleton
     - id: DragonSpawn
-    - id: KingRatMigration
     - id: NinjaSpawn
     - id: RevenantSpawn
     - id: SleeperAgents
@@ -54,8 +53,8 @@
   components:
   - type: GameRule
     delay:
-      min:  10
-      max:  20
+      min:  20
+      max:  30
 
 - type: entity
   id: BaseStationEventLongDelay
