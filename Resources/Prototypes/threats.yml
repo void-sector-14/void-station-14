@@ -2,7 +2,7 @@
 - type: weightedRandom
   id: NinjaThreats
   weights:
-    Dragon: 1
+    Dragon: 0.8
     Revenant: 1
 
 - type: ninjaHackingThreat
