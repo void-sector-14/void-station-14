@@ -94,7 +94,7 @@
     state: pod_0
   discipline: Biochemical
   tier: 2
-  cost: 15000
+  cost: 10000
   recipeUnlocks:
   - CloningPodMachineCircuitboard
   - MedicalScannerMachineCircuitboard
