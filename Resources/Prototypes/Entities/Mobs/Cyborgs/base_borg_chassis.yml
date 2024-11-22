@@ -237,8 +237,8 @@
   - type: Emoting
   - type: GuideHelp
     guides:
-    - Cyborgs
-    - Robotics
+    - Borg
+    - Laws
   - type: ProtectedFromStepTriggers
   - type: DamageOnInteractProtection
     damageProtection:
