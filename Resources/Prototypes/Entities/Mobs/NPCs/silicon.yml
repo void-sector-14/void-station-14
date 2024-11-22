@@ -97,7 +97,7 @@
     prototype: Bot
   - type: GuideHelp
     guides:
-    - Robotics
+    - Borg
   - type: Speech
     speechVerb: Robotic
     speechSounds: Pai #couldn't decide if this should be borg or pai sounds so I flipped a coin.
