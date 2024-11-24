@@ -16,6 +16,7 @@
     ClothingMaskGasCentcom: 3
     ClothingHeadsetCentCom: 3
     ClothingOuterWinterCentcom: 3
+    ClothingExpensiveHat: 1
     ClothingOuterCoatExpensive: 1
     ClothingNeckScarfStripedCentcom: 3
     ClothingNeckCloakCentcom: 3
@@ -33,3 +34,4 @@
     ClothingNeckOperatorCentCom: 1
     ClothingNeckIntendantCentCom: 1
     ClothingNeckWhiteCentCom: 1
+    ClothingBackpackSatchelHolding: 5

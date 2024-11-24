@@ -1,0 +1,10 @@
+- type: entity
+  parent: ClothingUniformBase
+  id: BasicUnFoldedJumpSuit
+  name: Test
+  description: Testdescript
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Uniforms/jumpsuitunfolded.rsi
+  - type: Clothing
+    sprite: Void/Clothing/Uniforms/jumpsuitunfolded.rsi

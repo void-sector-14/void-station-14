@@ -1,0 +1,90 @@
+- type: entity
+  name: "Э.Р.У.П.М."
+  parent: [BaseItem, BaseRestrictedContraband]
+  id: Hosbaton
+  description: Электроразгонное Устройство Подавления Мятежей - "Тут твой путь обрывается, предатель."
+  components:
+  - type: Sprite
+    sprite: Void/Objects/Weapons/Melee/hosbaton.rsi
+    layers:
+    - state: stunbaton_off
+      map: [ "enum.ToggleVisuals.Layer" ]
+  - type: Stunbaton
+    energyPerUse: 50
+  - type: ItemToggle
+    predictable: false
+    soundActivate:
+      path: /Audio/Void/Items/Weapons/Melee/hosbaton_unfold.ogg
+      params:
+        variation: 0.250
+    soundDeactivate:
+      collection: sparks
+      params:
+        variation: 0.250
+    soundFailToActivate:
+      path: /Audio/Machines/button.ogg
+      params:
+        variation: 0.250
+  - type: ItemToggleMeleeWeapon
+    activatedDamage:
+      types:
+        Blunt: 20
+  - type: MeleeWeapon
+    wideAnimationRotation: -135
+    damage:
+      types:
+        Blunt: 35
+    bluntStaminaDamageFactor: 3.0
+    angle: 60
+    animation: WeaponArcSlash
+  - type: StaminaDamageOnHit
+    damage: 80
+    sound: /Audio/Weapons/egloves.ogg
+  - type: StaminaDamageOnCollide
+    damage: 10
+    sound: /Audio/Weapons/egloves.ogg
+  - type: LandAtCursor # it deals stamina damage when thrown
+  - type: Battery
+    maxCharge: 5000
+    startingCharge: 5000
+  - type: UseDelay
+  - type: Item
+    heldPrefix: off
+    size: Normal
+  - type: Clothing
+    sprite: Void/Objects/Weapons/Melee/hosbaton.rsi
+    quickEquip: false
+    slots:
+    - Belt
+  - type: DisarmMalus
+    malus: 0.005
+  - type: Appearance
+  - type: GenericVisualizer
+    visuals:
+     enum.ToggleVisuals.Toggled:
+        enum.ToggleVisuals.Layer:
+          True: {state: stunbaton_on}
+          False: {state: stunbaton_off}
+  - type: StaticPrice
+    price: 800
+  - type: Riggable
+  - type: SolutionContainerManager
+    solutions:
+      battery:
+        maxVol: 5
+  - type: InjectableSolution
+    solution: battery
+  - type: DrawableSolution
+    solution: battery
+  - type: Explosive
+    explosionType: Default
+    intensitySlope: 1.5
+    maxIntensity: 200
+  - type: PhysicalComposition
+    materialComposition:
+      Steel: 100
+      Plastic: 100
+  - type: GuideHelp
+    guides:
+    - Security
+    - Antagonists

@@ -71,6 +71,9 @@
       },
       {
         "name": "plushie_shard"
+      },
+      {
+        "name": "plushie_guard"
       }
     ]
   }

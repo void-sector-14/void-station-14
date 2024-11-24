@@ -99,6 +99,7 @@
     ClothingShoesColorYellow: 2
     ClothingShoesColorGreen: 2
     ClothingShoesColorOrange: 2
+    ClothingUniformDrip: 2
     ClothingShoesColorRed: 2
     ClothingShoesColorPurple: 2
     ClothingHeadHatGreysoft: 8
@@ -132,6 +133,10 @@
     ClothingOuterClothingBlackJacketSkull: 1
     ClothingOuterCoatBomberBlack: 3
     ClothingEyesGlassesCheapSunglasses: 3
+    ClothingDeckerHeadset: 1
+    ClothingUniformDeckerJumpsuit: 1
+    ClothingOuterDecker: 1
+    ClothingShoesGlowBoot: 1
     # DO NOT ADD MORE, USE UNIFORM DYING
   contrabandInventory:
     ClothingMaskNeckGaiter: 2
