@@ -1,15 +1,10 @@
 station-goal-fax-paper-name = бумага
-station-goal-start = [color=#1d7a1d]███░███░░░░██░░░░
-    ░██░████░░░██░░░░           [head=3]Бланк документа[/head]
-    ░░█░██░██░░██░█░░                   [head=3]NanoTrasen[/head]
-    ░░░░██░░██░██░██░   [bold]{ $station } ЦК-КОМ[/bold]
-    ░░░░██░░░████░███[/color]
-    ==================================================[bold]
-                                             ЦЕЛЬ СМЕНЫ[/bold]
-    ==================================================
+station-goal-start = [color=#1d7a1d]█▄ █ ▀█▀[/color]    [head=3]Цель смены[/head]
+    [color=#1d7a1d]█ ▀█      █    [/color]     [bold]{ $station } ЦК-КОМ[/bold]
+    ─────────────────────────────────────────
 station-goal-end =
     Слава NanoTrasen!
-    ==================================================[italic]
+    ─────────────────────────────────────────[italic]
                                           Место для печати[/italic]
 station-goal-shuttle =
     { station-goal-start }
