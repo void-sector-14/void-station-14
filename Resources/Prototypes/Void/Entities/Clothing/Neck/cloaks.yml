@@ -51,3 +51,12 @@
   components:
   - type: Sprite
     sprite: Void/Clothing/Neck/centcomm_custom_cloak_intendant.rsi
+
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingDeckerHeadset
+  name: наушники декера
+  description: Стильные наушники декера, самое то для синтвейва.
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Neck/decker_headset.rsi

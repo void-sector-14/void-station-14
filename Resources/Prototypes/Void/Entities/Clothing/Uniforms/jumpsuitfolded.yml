@@ -1,0 +1,13 @@
+- type: entity
+  parent: ClothingUniformBase
+  id: BasicFoldedJumpSuit
+  name: Test1
+  description: Testdescript1
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Uniforms/jumpsuitfolded.rsi
+  - type: Clothing
+    sprite: Void/Clothing/Uniforms/jumpsuitfolded.rsi
+  - type: ToggleableClothing
+    clothingPrototype: BasicUnFoldedJumpSuit
+    slot: belt

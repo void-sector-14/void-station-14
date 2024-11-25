@@ -1,0 +1,14 @@
+- type: entity
+  parent: [ClothingHeadHelmetBase, BaseRestrictedContraband]
+  id: ClothingHeadHelmetLight
+  name: лёгкий шлем службы безопасности
+  description: Стандартный шлем охраны из облегчённых материалов, всё ещё не уступает по защите остальным вариантам.
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Head/Helmets/securitylightweight.rsi
+  - type: Clothing
+    sprite: Void/Clothing/Head/Helmets/securitylightweight.rsi
+  - type: Tag
+    tags:
+    - WhitelistChameleon
+    - SecurityHelmet

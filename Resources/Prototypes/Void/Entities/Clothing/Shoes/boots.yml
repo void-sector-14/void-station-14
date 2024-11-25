@@ -19,3 +19,17 @@
     sprite: Void/Clothing/Shoes/Boots/cowboyboots.rsi
   - type: Clothing
     sprite: Void/Clothing/Shoes/Boots/cowboyboots.rsi
+
+- type: entity
+  parent: ClothingShoesBaseButcherable
+  id: ClothingShoesGlowBoot
+  name: ботинки декера
+  description: Ботинки декера с подсветкой. Честно, никто не понимает почему именно они должны светиться, да и в целом они не светятся. Никто даже не понимает что означет слово "декер"
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Shoes/Boots/deckerboots.rsi
+  - type: Clothing
+    sprite: Void/Clothing/Shoes/Boots/deckerboots.rsi
+    layers:
+    - state: glow
+      shader: unshaded

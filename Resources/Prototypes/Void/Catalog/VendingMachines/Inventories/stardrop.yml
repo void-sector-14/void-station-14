@@ -43,6 +43,8 @@
     ClothingHeadHatBeretDress: 2
     ClothingHeadHatRedFlowerDress: 2
     ClothingUniformJumpskirtKnight: 3
+    ClothingExpensiveHat: 1
+    ClothingOuterCoatExpensive: 1
   contrabandInventory:
     ClothingUniformJumpsuitTacticool: 1
     ClothingUniformJumpskirtTacticool: 1

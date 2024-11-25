@@ -40,3 +40,29 @@
     - WhitelistChameleon
   - type: IdentityBlocker
     coverage: EYES
+
+- type: entity
+  parent: [ClothingEyesBase, ShowSecurityIcons, BaseRestrictedContraband]
+  id: ClothingEyesGogglesSecurityTacticool
+  name: тактические очки охраны
+  description: "Это просто термальные очки, но с охранным интерфе?-.. -НЕТ, ЭТО ТАКТИЧЕСКИЕ ОЧКИ ОХРАНЫ!"
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Eyes/Glasses/tacticoolsec.rsi
+  - type: Clothing
+    sprite: Void/Clothing/Eyes/Glasses/tacticoolsec.rsi
+  - type: FlashImmunity
+  - type: EyeProtection
+    protectionTime: 5
+  - type: Construction
+    graph: GlassesSecHUD
+    node: glassesSec
+  - type: Tag
+    tags:
+    - WhitelistChameleon
+  - type: GuideHelp
+    guides:
+    - Security
+    - Antagonists
+  - type: IdentityBlocker
+    coverage: EYES

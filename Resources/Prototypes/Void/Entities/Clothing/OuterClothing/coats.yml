@@ -58,3 +58,15 @@
   - type: Clothing
     slots: [ outerClothing ]
     sprite: Void/Clothing/OuterClothing/Coats/bomber_atmos.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingOuterDecker
+  name: куртка декера
+  description: Стильная куртка декера для прогулок в городах, которые никогда не спят.
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/OuterClothing/Coats/decker_coat.rsi
+  - type: Clothing
+    slots: [ outerClothing ]
+    sprite: Void/Clothing/OuterClothing/Coats/decker_coat.rsi

@@ -41,3 +41,25 @@
     sprite: Void/Clothing/Uniforms/Jumpsuit/blueshield_suit.rsi
   - type: Clothing
     sprite: Void/Clothing/Uniforms/Jumpsuit/blueshield_suit.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformDeckerJumpsuit
+  name: комбинезон декера
+  description: Яркий комбинезон декера, в комплекте идут очки и модный шарф.
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Uniforms/Jumpsuit/decker_suit.rsi
+  - type: Clothing
+    sprite: Void/Clothing/Uniforms/Jumpsuit/decker_suit.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformDrip
+  name: дорогой костюм
+  description: Когда это было популярно? Лет.. Тысячу назад?
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Uniforms/Jumpsuit/dripsuit.rsi
+  - type: Clothing
+    sprite: Void/Clothing/Uniforms/Jumpsuit/dripsuit.rsi

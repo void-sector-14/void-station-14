@@ -1,0 +1,11 @@
+- type: entity
+  parent: ClothingHeadHatHoodWinterBase
+  id: TechPriestHood
+  name: капюшон техножреца
+  description: ...даже после смерти я служу Омниссии.
+  components:
+  - type: IdentityBlocker
+  - type: Sprite
+    sprite: Void/Clothing/Head/Hoods/techpriesthood.rsi
+  - type: Clothing
+    sprite: Void/Clothing/Head/Hoods/techpriesthood.rsi
