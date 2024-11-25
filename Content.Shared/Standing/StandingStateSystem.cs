@@ -1,3 +1,5 @@
+using Content.Shared.Buckle;
+using Content.Shared.Buckle.Components;
 using Content.Shared.Hands.Components;
 using Content.Shared.Movement.Systems;
 using Content.Shared.Physics;
@@ -13,32 +15,10 @@ public sealed class StandingStateSystem : EntitySystem
     [Dependency] private readonly SharedAppearanceSystem _appearance = default!;
     [Dependency] private readonly SharedAudioSystem _audio = default!;
     [Dependency] private readonly SharedPhysicsSystem _physics = default!;
+    [Dependency] private readonly MovementSpeedModifierSystem _movement = default!; // _CorvaxNext EDIT
 
     // If StandingCollisionLayer value is ever changed to more than one layer, the logic needs to be edited.
-    private const int StandingCollisionLayer = (int) CollisionGroup.MidImpassable;
-
-    public override void Initialize()
-    {
-        base.Initialize();
-        SubscribeLocalEvent<StandingStateComponent, AttemptMobCollideEvent>(OnMobCollide);
-        SubscribeLocalEvent<StandingStateComponent, AttemptMobTargetCollideEvent>(OnMobTargetCollide);
-    }
-
-    private void OnMobTargetCollide(Entity<StandingStateComponent> ent, ref AttemptMobTargetCollideEvent args)
-    {
-        if (!ent.Comp.Standing)
-        {
-            args.Cancelled = true;
-        }
-    }
-
-    private void OnMobCollide(Entity<StandingStateComponent> ent, ref AttemptMobCollideEvent args)
-    {
-        if (!ent.Comp.Standing)
-        {
-            args.Cancelled = true;
-        }
-    }
+    private const int StandingCollisionLayer = (int)CollisionGroup.MidImpassable;
 
     public bool IsDown(EntityUid uid, StandingStateComponent? standingState = null)
     {
@@ -72,9 +52,11 @@ public sealed class StandingStateSystem : EntitySystem
         // and ultimately this is just to avoid boilerplate in Down callers + keep their behavior consistent.
         if (dropHeldItems && hands != null)
         {
-            var ev = new DropHandItemsEvent();
-            RaiseLocalEvent(uid, ref ev, false);
+            RaiseLocalEvent(uid, new DropHandItemsEvent(), false);
         }
+
+        //if (TryComp(uid, out BuckleComponent? buckle) && buckle.Buckled && !_buckle.TryUnbuckle(uid, uid, buckleComp: buckle)) // WD EDIT
+        //    return false;
 
         if (!force)
         {
@@ -85,7 +67,7 @@ public sealed class StandingStateSystem : EntitySystem
                 return false;
         }
 
-        standingState.Standing = false;
+        standingState.CurrentState = StandingState.Lying;
         Dirty(uid, standingState);
         RaiseLocalEvent(uid, new DownedEvent(), false);
 
@@ -112,9 +94,10 @@ public sealed class StandingStateSystem : EntitySystem
 
         if (playSound)
         {
-            _audio.PlayPredicted(standingState.DownSound, uid, uid);
+            _audio.PlayPredicted(standingState.DownSound, uid, null);
         }
 
+        _movement.RefreshMovementSpeedModifiers(uid); // _CorvaxNext EDIT
         return true;
     }
 
@@ -133,6 +116,9 @@ public sealed class StandingStateSystem : EntitySystem
         if (standingState.Standing)
             return true;
 
+        //if (TryComp(uid, out BuckleComponent? buckle) && buckle.Buckled && !_buckle.TryUnbuckle(uid, uid, buckleComp: buckle)) // WD EDIT
+        //    return false;
+
         if (!force)
         {
             var msg = new StandAttemptEvent();
@@ -142,7 +128,7 @@ public sealed class StandingStateSystem : EntitySystem
                 return false;
         }
 
-        standingState.Standing = true;
+        standingState.CurrentState = StandingState.Standing;
         Dirty(uid, standingState);
         RaiseLocalEvent(uid, new StoodEvent(), false);
 
@@ -157,13 +143,15 @@ public sealed class StandingStateSystem : EntitySystem
             }
         }
         standingState.ChangedFixtures.Clear();
+        _movement.RefreshMovementSpeedModifiers(uid); // _CorvaxNext EDIT
 
         return true;
     }
 }
 
-[ByRefEvent]
-public record struct DropHandItemsEvent();
+public sealed class DropHandItemsEvent : EventArgs
+{
+}
 
 /// <summary>
 /// Subscribe if you can potentially block a down attempt.
@@ -192,24 +180,3 @@ public sealed class StoodEvent : EntityEventArgs
 public sealed class DownedEvent : EntityEventArgs
 {
 }
-
-/// <summary>
-/// Raised after an entity falls down.
-/// </summary>
-public sealed class FellDownEvent : EntityEventArgs
-{
-    public EntityUid Uid { get; }
-
-    public FellDownEvent(EntityUid uid)
-    {
-        Uid = uid;
-    }
-}
-
-/// <summary>
-/// Raised on the entity being thrown due to the holder falling down.
-/// </summary>
-[ByRefEvent]
-public record struct FellDownThrowAttemptEvent(EntityUid Thrower, bool Cancelled = false);
-
-

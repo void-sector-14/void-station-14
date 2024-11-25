@@ -584,3 +584,7 @@ binds:
   type: State
   key: MouseRight
   canFocus: true
+- function: ToggleStanding # _CorvaxNext-edit Laying System
+  type: State
+  key: C
+  mod1: Shift
