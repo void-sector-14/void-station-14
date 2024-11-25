@@ -1,6 +1,6 @@
 station-goal-fax-paper-name = бумага
 station-goal-start = [color=#1d7a1d]█▄ █ ▀█▀[/color]    [head=3]Цель смены[/head]
-    [color=#1d7a1d]█ ▀█      █    [/color]     [bold]{ $station } ЦК-КОМ[/bold]
+    [color=#1d7a1d]█ ▀█      █    [/color]     { $station } ЦК-КОМ
     ─────────────────────────────────────────
 station-goal-end =
     Слава NanoTrasen!
