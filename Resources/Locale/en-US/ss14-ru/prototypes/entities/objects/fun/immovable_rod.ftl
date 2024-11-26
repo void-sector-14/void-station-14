@@ -31,3 +31,6 @@ ent-ImmovableRodGibstick = immovable gibstick
     .desc = What did you expect?
 ent-ImmovableRodWeh = immovable weh
     .desc = WEH!
+ent-ImmovableRodBugatti = { ent-ImmovableRod }
+    .suffix = Bugatti-Адмем
+    .desc = { ent-ImmovableRod.desc }

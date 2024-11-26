@@ -10,3 +10,7 @@ ent-ClothingUniformJumpsuitWhitesm = белый смокинг
 ent-ClothingUniformJumpsuitBlueshield = комбинезон офицера синего щита
     .desc = Влагоотталкивающий, чтобы не запачкать кровью.
     .suffix = { "" }
+ent-ClothingUniformDeckerJumpsuit = комбинезон декера
+    .desc = Яркий комбинезон декера, в комплекте идут очки и модный шарф.
+ent-ClothingUniformDrip = дорогой костюм
+    .desc = Когда это было популярно? Лет.. Тысячу назад?
