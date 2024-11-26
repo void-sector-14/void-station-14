@@ -151,6 +151,7 @@
       - LightBulb
       - LedLightBulb
       - ExteriorLightBulb
+      - DimLightBulb
       - Bucket
       - DrinkMug
       - DrinkMugMetal
