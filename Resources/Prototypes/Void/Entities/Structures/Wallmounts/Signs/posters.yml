@@ -1,0 +1,20 @@
+- type: entity
+  parent: PosterBase
+  id: VoidPosterBase
+  abstract: true
+  components:
+  - type: WallMount
+    arc: 360
+  - type: Sprite
+    drawdepth: WallMountedItems
+    sprite: Void/Structures/Wallmounts/posters.rsi
+    snapCardinals: true
+
+- type: entity
+  parent: VoidPosterBase
+  id: PosterLegitProtoken
+  name: Глефа-крушитель
+  description: Рекламный постер нового крушителя. "Теперь в форме глефы!"
+  components:
+  - type: Sprite
+    state: protoken

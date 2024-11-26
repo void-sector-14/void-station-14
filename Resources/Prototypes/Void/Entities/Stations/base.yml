@@ -4,12 +4,10 @@
   components:
     - type: StationGoal
       goals:
-      - Shuttle
       - ShuttleRescue
       # - SolarPanels
       - Artifacts
       - Bar
-      # - Cyborgs
       - Containment
       - Botany
       - Retranslator

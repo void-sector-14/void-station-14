@@ -12,7 +12,7 @@ public sealed partial class PowerGridCheckRuleComponent : Component
     public readonly List<EntityUid> Powered = new();
     public readonly List<EntityUid> Unpowered = new();
 
-    public float SecondsUntilOff = 30.0f;
+    public float SecondsUntilOff = 25.0f;
 
     public int NumberPerSecond = 0;
     public float UpdateRate => 1.0f / NumberPerSecond;

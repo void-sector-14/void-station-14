@@ -918,6 +918,8 @@
       - ScalpelAdvanced
       - ScalpelLaser
       - SawElectric
+      - LauncherSyringe
+      - MiniSyringe
   - type: Machine
     board: MedicalTechFabCircuitboard
   - type: StealTarget

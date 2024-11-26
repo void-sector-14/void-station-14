@@ -1,8 +1,4 @@
 - type: stationGoal
-  id: Shuttle
-  text: station-goal-shuttle
-
-- type: stationGoal
   id: ShuttleRescue
   text: station-goal-shuttle-rescue
 
@@ -17,10 +13,6 @@
 - type: stationGoal
   id: Bar
   text: station-goal-bar
-
-- type: stationGoal
-  id: Cyborgs
-  text: station-goal-cyborgs
 
 - type: stationGoal
   id: Containment

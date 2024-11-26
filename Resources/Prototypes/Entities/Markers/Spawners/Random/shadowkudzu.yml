@@ -20,7 +20,7 @@
         - ShadowTree04
         - ShadowTree05
         - ShadowTree06
-      rareChance: 0.05
+      rareChance: 0.15
       rarePrototypes:
         - MobCatShadow
         - ArtifactFragment

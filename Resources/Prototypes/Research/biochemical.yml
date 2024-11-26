@@ -94,12 +94,25 @@
     state: pod_0
   discipline: Biochemical
   tier: 2
-  cost: 15000
+  cost: 10000
   recipeUnlocks:
   - CloningPodMachineCircuitboard
   - MedicalScannerMachineCircuitboard
   - CloningConsoleComputerCircuitboard
   - BiomassReclaimerMachineCircuitboard
+
+- type: technology
+  id: SyringeLauncher
+  name: research-technology-syringelauncher
+  icon:
+    sprite: Objects/Weapons/Guns/Cannons/syringe_gun.rsi
+    state: syringe_gun
+  discipline: Biochemical
+  tier: 2
+  cost: 7500
+  recipeUnlocks:
+  - LauncherSyringe
+  - MiniSyringe
 
 # Tier 3
 

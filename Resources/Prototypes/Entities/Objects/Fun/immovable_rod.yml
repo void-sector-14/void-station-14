@@ -188,3 +188,35 @@
     sprite: Objects/Fun/toys.rsi
     state: plushie_lizard
     noRot: false
+
+- type: entity
+  parent: ImmovableRod
+  id: ImmovableRodBugatti
+  suffix: Bugatti-Адмем
+  components:
+  - type: ImmovableRod
+    minSpeed: 5
+    maxSpeed: 15
+    destroyTiles: false
+    randomizeVelocity: false
+    shouldGib: false
+    damage:
+      types:
+        Blunt: 200
+  - type: MovementIgnoreGravity
+    gravityState: true
+  - type: InputMover
+  - type: MovementSpeedModifier
+    weightlessAcceleration: 5
+    weightlessModifier: 2
+    weightlessFriction: 0
+    friction: 0
+    frictionNoInput: 0
+  - type: CanMoveInAir
+  - type: MovementAlwaysTouching
+  - type: NoSlip
+  - type: AmbientSound
+    volume: 5
+    range: 25
+    sound:
+      path: /Audio/Ambience/Objects/bugatti.ogg

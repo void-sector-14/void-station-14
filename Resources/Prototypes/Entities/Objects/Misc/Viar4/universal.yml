@@ -1,0 +1,329 @@
+- type: entity
+  parent: ClothingNeckBase
+  id: toothamuletunath
+  name: Амулет с клыками
+  description: Амулет с клыками хищников из джунглей Могеса
+  components:
+  - type: Sprite
+    sprite: Void/Objects/Misc/Viar/tooth.rsi
+  - type: Clothing
+    sprite: Void/Objects/Misc/Viar/tooth.rsi
+
+- type: entity
+  name: Посох Зессул
+  parent: BaseItem
+  id: unathholystick 
+  description: Дар Зессул
+  components:
+  - type: Sprite
+    sprite: Void/Objects/Misc/Viar/saah-tree.rsi
+    state: icon
+  - type: MeleeWeapon
+    wideAnimationRotation: -135
+    damage:
+      types:
+        Blunt: -5
+        Slash: -5
+        Piercing: -5
+        Heat: -5
+        Cold: -5
+        Bloodloss: 2.5
+    soundHit:
+      path: /Audio/Void/Viar4/unathtree.ogg
+  - type: Wieldable
+  - type: IncreaseDamageOnWield
+    damage:
+      types:
+        Blunt: -15
+        Slash: -15
+        Radiation: -10
+        Piercing: -15
+        Heat: -15
+        Cold: -15
+        Poison: -10
+        Shock: -15
+        Bloodloss: 10
+        Asphyxiation: -33
+  - type: Item
+    size: Normal
+  - type: Clothing
+    quickEquip: false
+    slots:
+    - back
+  - type: UseDelay
+    delay: 2
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHelmetUnathRitual
+  name: Череп Усшулу
+  description: Головной убор жриц унатхов
+  components:
+  - type: Sprite
+    sprite: Void/Objects/Misc/Viar/ritualhelm.rsi
+  - type: Clothing
+    sprite: Void/Objects/Misc/Viar/ritualhelm.rsi
+  - type: IngestionBlocker
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.7
+        Slash: 0.6
+        Piercing: 0.7
+        Heat: 0.7
+
+- type: entity
+  parent: ClothingUniformSkirtBase
+  id: ClothingUniformLeafcloth
+  name: Листва
+  description: Одежда из листьев. Такое обычно носят аборигены или жрицы унатхов
+  components:
+    - type: Sprite
+      sprite: Void/Objects/Misc/Viar/leafcloth.rsi
+    - type: Clothing
+      sprite: Void/Objects/Misc/Viar/leafcloth.rsi
+
+- type: entity
+  name: Посох Усшулу
+  parent: BaseItem
+  id: bruhunathystick 
+  description: Символ Усшулу
+  components:
+  - type: Sprite
+    sprite: Void/Objects/Misc/Viar/saah-tree.rsi
+    state: icon
+  - type: MeleeWeapon
+    wideAnimationRotation: -135
+    damage:
+      types:
+        Blunt: 9
+    soundHit:
+      path: /Audio/Void/Viar4/bonk.ogg
+  - type: Wieldable
+  - type: IncreaseDamageOnWield
+    damage:
+      types:
+        Blunt: 19
+  - type: Item
+    size: Normal
+  - type: Clothing
+    quickEquip: false
+    slots:
+    - back
+  - type: UseDelay
+    delay: 2
+
+- type: entity
+  parent: BasePlushie
+  id: PlushieKharnissi
+  name: статуэтка Кхарнисси
+  description: Маленькая статуэтка унатха.
+  components:
+  - type: Sprite
+    sprite: Void/Objects/Misc/Viar/khar.rsi
+    state: icon
+  - type: EmitSoundOnUse
+    sound:
+      path: /Audio/Items/Toys/weh.ogg
+  - type: EmitSoundOnLand
+    sound:
+      path: /Audio/Items/Toys/weh.ogg
+  - type: EmitSoundOnActivate
+    sound:
+      path: /Audio/Items/Toys/weh.ogg
+  - type: MeleeWeapon
+    soundHit:
+      path: /Audio/Items/Toys/weh.ogg
+  - type: Prayable
+
+- type: entity
+  parent: BasePlushie
+  id: PlushieShoorse
+  name: статуэтка Щурсе
+  description: Маленькая статуэтка унатха.
+  components:
+  - type: Sprite
+    sprite: Void/Objects/Misc/Viar/shurse.rsi
+    state: icon
+  - type: EmitSoundOnUse
+    sound:
+      path: /Audio/Items/Toys/weh.ogg
+  - type: EmitSoundOnLand
+    sound:
+      path: /Audio/Items/Toys/weh.ogg
+  - type: EmitSoundOnActivate
+    sound:
+      path: /Audio/Items/Toys/weh.ogg
+  - type: MeleeWeapon
+    soundHit:
+      path: /Audio/Items/Toys/weh.ogg
+  - type: Prayable
+
+- type: entity
+  parent: BasePlushie
+  id: PlushieZessool
+  name: статуэтка Зессул
+  description: Маленькая статуэтка унатха.
+  components:
+  - type: Sprite
+    sprite: Void/Objects/Misc/Viar/zessul.rsi
+    state: icon
+  - type: EmitSoundOnUse
+    sound:
+      path: /Audio/Items/Toys/weh.ogg
+  - type: EmitSoundOnLand
+    sound:
+      path: /Audio/Items/Toys/weh.ogg
+  - type: EmitSoundOnActivate
+    sound:
+      path: /Audio/Items/Toys/weh.ogg
+  - type: MeleeWeapon
+    soundHit:
+      path: /Audio/Items/Toys/weh.ogg   
+  - type: Prayable
+
+- type: entity
+  parent: BasePlushie
+  id: PlushieHisosh
+  name: статуэтка Хисош
+  description: Маленькая статуэтка унатха.
+  components:
+  - type: Sprite
+    sprite: Void/Objects/Misc/Viar/hisosh.rsi
+    state: icon
+  - type: EmitSoundOnUse
+    sound:
+      path: /Audio/Items/Toys/weh.ogg
+  - type: EmitSoundOnLand
+    sound:
+      path: /Audio/Items/Toys/weh.ogg
+  - type: EmitSoundOnActivate
+    sound:
+      path: /Audio/Items/Toys/weh.ogg
+  - type: MeleeWeapon
+    soundHit:
+      path: /Audio/Items/Toys/weh.ogg
+  - type: Prayable
+
+- type: entity
+  id: AltarYnatShu1
+  parent: AltarBase
+  name: Плита
+  description: Обычная универсальная плита. Подходит для поклонения многим богам унатхов
+  components:
+  - type: Sprite
+    sprite: Void/Objects/Misc/Viar/altar.rsi
+    state: standart
+  - type: Icon
+    sprite: Void/Objects/Misc/Viar/altar.rsi
+    state: standart
+
+- type: entity
+  id: AltarYnatShu2
+  parent: AltarBase
+  name: Вычурная плита
+  description: Украшенная плита. Хорошо подходит для поклонению богам богатств унатхов
+  components:
+  - type: Sprite
+    sprite: Void/Objects/Misc/Viar/altar.rsi
+    state: elite
+  - type: Icon
+    sprite: Void/Objects/Misc/Viar/altar.rsi
+    state: elite
+
+- type: entity
+  id: AltarYnatShu3
+  parent: AltarBase
+  name: Проросшая плита
+  description: Плита для поклонения богам природы унатхов
+  components:
+  - type: Sprite
+    sprite: Void/Objects/Misc/Viar/altar.rsi
+    state: zessul
+  - type: Icon
+    sprite: Void/Objects/Misc/Viar/altar.rsi
+    state: zessul
+
+- type: entity
+  id: AltarYnatShu4
+  parent: AltarBase
+  name: Кровавая плита
+  description: Плита для поклонения богам охоты унатхов
+  components:
+  - type: Sprite
+    sprite: Void/Objects/Misc/Viar/altar.rsi
+    state: khar
+  - type: Icon
+    sprite: Void/Objects/Misc/Viar/altar.rsi
+    state: khar
+
+- type: entity
+  name: костяной нож
+  parent: BaseItem
+  id: YnatShuDagger
+  description: Нож сделанный из кости.
+  components:
+  - type: Sharp
+  - type: Sprite
+    sprite: Void/Objects/Misc/Viar/boneknife.rsi
+    state: icon
+  - type: MeleeWeapon
+    attackRate: 1.5
+    damage:
+      types:
+        Slash: 12
+  - type: Item
+    size: 20
+  - type: Clothing
+    sprite: /Uploaded/unathshoo/boneknife.rsi
+    slots:
+    - back
+  - type: DisarmMalus
+
+- type: entity
+  name: Табличка из глины
+  description: Здесь что-то накарябано явно на другом языке...
+  parent: BaseStorageItem
+  id: UnathBible
+  components:
+  - type: UseDelay
+    delay: 10.0
+  - type: Bible
+    damage:
+      groups:
+        Brute: -15
+        Burn: -15
+    damageOnFail:
+      groups:
+        Brute: 15
+        Airloss: 15
+    damageOnUntrainedUse: ## What a non-chaplain takes when attempting to heal someone
+      groups:
+        Burn: 10
+  - type: Prayable
+    bibleUserOnly: true
+  - type: ReactionMixer
+    mixMessage: "Хисош следит"
+    reactionTypes:
+    - Holy
+  - type: Sprite
+    sprite: Void/Objects/Misc/Viar/sign.rsi
+    state: icon
+  - type: Item
+    size: Small
+    sprite: Void/Objects/Misc/Viar/sign.rsi
+  - type: Clothing
+    slots:
+    - Belt
+  - type: Storage
+    grid:
+    - 0,0,0,1
+  - type: UserInterface
+    interfaces:
+      enum.StorageUiKey.Key:
+        type: StorageBoundUserInterface
+  - type: Tag
+    tags:
+    - Book
+  - type: StealTarget
+    stealGroup: Bible

@@ -63,3 +63,14 @@
     sprite: Void/Clothing/Head/Helmets/flashhelmet.rsi
   - type: Clothing
     sprite: Void/Clothing/Head/Helmets/flashhelmet.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingExpensiveHat
+  name: дорогая шляпа
+  description: Ваша невероятно дорогая шляпа, к вашей невероятно дорогой шубе!
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Head/Hats/expensive_hat.rsi
+  - type: Clothing
+    sprite: Void/Clothing/Head/Hats/expensive_hat.rsi

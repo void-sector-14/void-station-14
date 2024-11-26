@@ -1,0 +1,13 @@
+- type: entity
+  parent: ClothingOuterWinterCoatToggleable
+  id: ClothingOuterTechPriest
+  name: роба техножреца
+  description: С того момента, как я осознал слабость своей плоти, она вызвала у меня отвращение. Я жаждал силы и уверенности стали. Я стремился к чистоте Благословенной Машины. Ваш род цепляется за вашу плоть, как будто она не разложится и не подведет вас. Однажды грубая биомасса, которую вы называете храмом, засохнет, и вы попросите меня спасти вас. Но я уже спасен, ибо Машина бессмертна…
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/OuterClothing/Coats/techpriestcoat.rsi
+  - type: Item
+  - type: Clothing
+    sprite: Void/Clothing/OuterClothing/Coats/techpriestcoat.rsi
+  - type: ToggleableClothing
+    clothingPrototype: TechPriestHood

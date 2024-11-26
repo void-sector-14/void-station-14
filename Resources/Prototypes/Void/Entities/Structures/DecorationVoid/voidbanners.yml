@@ -17,3 +17,83 @@
   - type: Sprite
     state: xmasring
     sprite: Void/Structures/Decoration/Christmasdeco.rsi
+
+- type: entity
+  parent: BaseSignDirectional
+  id: GarlandDecorChristmas
+  name: герлянда
+  description: Проверьте, не перегорела ли лампочка. Если засмотритесь слишком долго, то лампы начнут смотреть в ответ.
+  components:
+  - type: Sprite
+    state: garland
+    sprite: Void/Structures/Decoration/Christmasdeco.rsi
+
+- type: entity
+  parent: BaseSignDirectional
+  id: Tinseldecor1
+  name: рождественская мешура
+  description: Рождественская мешура. Пахнет взрывом.
+  components:
+  - type: Sprite
+    state: tinsel_RND
+    sprite: Void/Structures/Decoration/Christmasdeco.rsi
+
+- type: entity
+  parent: BaseSignDirectional
+  id: Tinseldecor2
+  name: рождественская мешура
+  description: Рождественская мешура.
+  components:
+  - type: Sprite
+    state: tinsel_WHT
+    sprite: Void/Structures/Decoration/Christmasdeco.rsi
+
+- type: entity
+  parent: BaseSignDirectional
+  id: Tinseldecor3
+  name: рождественская мешура
+  description: Рождественская мешура. Пахнет щиткуром.
+  components:
+  - type: Sprite
+    state: tinsel_RED
+    sprite: Void/Structures/Decoration/Christmasdeco.rsi
+
+- type: entity
+  parent: BaseSignDirectional
+  id: Tinseldecor4
+  name: рождественская мешура
+  description: Рождественская мешура. Пахнет лекарствами.
+  components:
+  - type: Sprite
+    state: tinsel_MED
+    sprite: Void/Structures/Decoration/Christmasdeco.rsi
+
+- type: entity
+  parent: BaseSignDirectional
+  id: Tinseldecor5
+  name: рождественская мешура
+  description: Рождественская мешура.
+  components:
+  - type: Sprite
+    state: tinsel_GRN
+    sprite: Void/Structures/Decoration/Christmasdeco.rsi
+
+- type: entity
+  parent: BaseSignDirectional
+  id: Tinseldecor6
+  name: рождественская мешура
+  description: Рождественская мешура.
+  components:
+  - type: Sprite
+    state: tinsel_YLW
+    sprite: Void/Structures/Decoration/Christmasdeco.rsi
+
+- type: entity
+  parent: BaseSignDirectional
+  id: SnowflakeDecor
+  name: снежинки
+  description: Снежинки!
+  components:
+  - type: Sprite
+    state: snowflake
+    sprite: Void/Structures/Decoration/Christmasdeco.rsi

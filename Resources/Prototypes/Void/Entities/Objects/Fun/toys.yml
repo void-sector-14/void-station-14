@@ -303,3 +303,17 @@
       volume: 1
   - type: SpawnOnTrigger
     proto: NuclearExplosion
+
+- type: entity
+  parent: BaseVoidPlushie
+  id: PlushieGuard
+  name: плюшевый страж
+  description: >
+    Плюшевый страж из глубоких подземелий который не оставит вас в темноте! Питается красными и синими кристаллами.
+  components:
+  - type: Sprite
+    layers:
+    - state: plushie_guard
+  - type: PointLight
+    color: "#80f6ff"
+    radius: 3

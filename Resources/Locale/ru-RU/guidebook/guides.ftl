@@ -132,3 +132,6 @@ guide-entry-rules-ban-types = Типы банов
 guide-entry-rules-ban-durations = Длительности банов
 guide-entry-writing = Разметка письма
 guide-entry-glossary = Словарь терминов
+guide-entry-silicon = Синтетики
+guide-entry-borg = Киборги
+guide-entry-laws = Законы

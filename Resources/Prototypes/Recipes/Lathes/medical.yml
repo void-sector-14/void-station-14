@@ -253,3 +253,19 @@
   materials:
     Steel: 100
     Plastic: 100
+
+- type: latheRecipe
+  id: LauncherSyringe
+  result: LauncherSyringe
+  completetime: 4
+  materials:
+    Steel: 300
+    Plastic: 100
+    Glass: 100
+
+- type: latheRecipe
+  id: MiniSyringe
+  result: MiniSyringe
+  completetime: 1
+  materials:
+    Plastic: 75

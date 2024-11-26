@@ -708,6 +708,9 @@
     chatsan-word-ss-121: chatsan-replacement-ss-121
     chatsan-word-ss-122: chatsan-replacement-ss-122
 
+## Void
+    chatsan-word-void-1: chatsan-replacement-void-1
+
 - type: accent
   id: liar
   replacementChance: 0.15

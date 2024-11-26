@@ -1,0 +1,17 @@
+- type: guideEntry
+  id: AI
+  name: guide-entry-silicon
+  text: "/ServerInfo/Guidebook/Void/Silicon/AI.xml"
+  children:
+  - Borg
+  - Laws
+
+- type: guideEntry
+  id: Borg
+  name: guide-entry-borg
+  text: "/ServerInfo/Guidebook/Void/Silicon/Borg.xml"
+
+- type: guideEntry
+  id: Laws
+  name: guide-entry-laws
+  text: "/ServerInfo/Guidebook/Void/Silicon/Laws.xml"

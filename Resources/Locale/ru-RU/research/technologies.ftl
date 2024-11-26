@@ -78,3 +78,4 @@ research-technology-cryogenics = Криогеника
 research-technology-crew-monitoring = Мониторинг экипажа
 research-technology-bluespace-chemistry = Блюспейс-химия
 research-technology-cloning = Клонирование
+research-technology-syringelauncher = Дистанционное лечение
