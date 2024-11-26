@@ -19,10 +19,6 @@
   text: station-goal-bar
 
 - type: stationGoal
-  id: Cyborgs
-  text: station-goal-cyborgs
-
-- type: stationGoal
   id: Containment
   text: station-goal-containment
 
