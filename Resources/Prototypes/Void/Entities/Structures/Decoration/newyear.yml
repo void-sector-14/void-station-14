@@ -31,8 +31,8 @@
 - type: entity
   parent: BaseSignDirectional
   id: Tinseldecor1
-  name: рождественская мешура
-  description: Рождественская мешура. Пахнет взрывом.
+  name: рождественская мишура
+  description: Рождественская мишура. Пахнет взрывом.
   components:
   - type: Sprite
     state: tinsel_RND
@@ -41,8 +41,8 @@
 - type: entity
   parent: BaseSignDirectional
   id: Tinseldecor2
-  name: рождественская мешура
-  description: Рождественская мешура.
+  name: рождественская мишура
+  description: Рождественская мишура.
   components:
   - type: Sprite
     state: tinsel_WHT
@@ -51,8 +51,8 @@
 - type: entity
   parent: BaseSignDirectional
   id: Tinseldecor3
-  name: рождественская мешура
-  description: Рождественская мешура. Пахнет щиткуром.
+  name: рождественская мишура
+  description: Рождественская мишура. Пахнет щиткуром.
   components:
   - type: Sprite
     state: tinsel_RED
@@ -61,8 +61,8 @@
 - type: entity
   parent: BaseSignDirectional
   id: Tinseldecor4
-  name: рождественская мешура
-  description: Рождественская мешура. Пахнет лекарствами.
+  name: рождественская мишура
+  description: Рождественская мишура. Пахнет лекарствами.
   components:
   - type: Sprite
     state: tinsel_MED
@@ -71,8 +71,8 @@
 - type: entity
   parent: BaseSignDirectional
   id: Tinseldecor5
-  name: рождественская мешура
-  description: Рождественская мешура.
+  name: рождественская мишура
+  description: Рождественская мишура.
   components:
   - type: Sprite
     state: tinsel_GRN
@@ -81,8 +81,8 @@
 - type: entity
   parent: BaseSignDirectional
   id: Tinseldecor6
-  name: рождественская мешура
-  description: Рождественская мешура.
+  name: рождественская мишура
+  description: Рождественская мишура.
   components:
   - type: Sprite
     state: tinsel_YLW
