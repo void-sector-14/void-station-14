@@ -21,7 +21,7 @@
 - type: entity
   parent: BaseSignDirectional
   id: GarlandDecorChristmas
-  name: герлянда
+  name: гирлянда
   description: Проверьте, не перегорела ли лампочка. Если засмотритесь слишком долго, то лампы начнут смотреть в ответ.
   components:
   - type: Sprite
@@ -97,3 +97,59 @@
   - type: Sprite
     state: snowflake
     sprite: Void/Structures/Decoration/Christmasdeco.rsi
+
+- type: entity
+  id: Snowman
+  parent: BaseStructureDynamic
+  name: снеговик
+  description: Точно не пластиковый.
+  components:
+  - type: Sprite
+    sprite: Void/Structures/Decoration/Christmasdeco.rsi
+    state: snowman
+    noRot: true
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeCircle
+          radius: 0.35
+        density: 200
+        mask:
+        - FullTileMask
+        layer:
+        - WallLayer
+  - type: InteractionOutline
+  - type: Physics
+  - type: Damageable
+    damageContainer: Inorganic
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 200
+      behaviors:
+        - !type:DoActsBehavior
+          acts: [ "Destruction" ]
+    - trigger:
+        !type:DamageTrigger
+        damage: 100
+      behaviors:
+      - !type:SpawnEntitiesBehavior
+        spawn:
+          SheetPlastic:
+            min: 5
+            max: 5
+      - !type:PlaySoundBehavior
+        sound:
+          collection: MetalBreak
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+
+- type: entity
+  parent: Snowman
+  id: SnowmanHat
+  components:
+  - type: Sprite
+    sprite: Void/Structures/Decoration/Christmasdeco.rsi
+    state: snowman_hat
