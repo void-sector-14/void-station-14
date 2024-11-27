@@ -72,6 +72,12 @@
           0.5
         ]
       ]
+    },
+    {
+        "name": "snowman"
+    },
+    {
+        "name": "snowman_hat"
     }
   ]
 }
