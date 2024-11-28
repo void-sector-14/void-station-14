@@ -322,8 +322,8 @@
     Uranium: 100
 
 - type: latheRecipe
-  id: MechMssileWeapon
-  result: MechMssileWeapon
+  id: MechMissileWeapon
+  result: MechMissileWeapon
   category: Mech
   completetime: 20
   materials:

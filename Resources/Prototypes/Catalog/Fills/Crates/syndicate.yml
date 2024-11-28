@@ -32,7 +32,7 @@
   - type: StorageFill
     contents:
       - id: MechMaulerBattery
-      - id: MechMssileWeapon
+      - id: MechMissileWeapon
       - id: MechHadesWeapon
       - id: MechScattershotWeapon
 

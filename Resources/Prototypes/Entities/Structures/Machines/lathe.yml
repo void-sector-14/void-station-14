@@ -646,7 +646,7 @@
     - MechScattershotWeapon
     - MechSolarisLaserWeapon
     - MechHadesWeapon
-    - MechMssileWeapon
+    - MechMissileWeapon
     - MechTeslaWeapon
     - ClarkeHarness
     - ClarkeLArm
@@ -663,16 +663,16 @@
     - OdysseusRLeg
     - MechEquipmentDrill
     - MechEquipmentDiamondDrill
-    - MechMssileWeaponFSRM
+    - MechMissileWeaponFSRM
     - MechEquipmentProtokinet
     - MechEquipmentMedGunBlue
     - MechEquipmentMedGunYellow
     - MechEquipmentMedGunGreen
-    - MechMssileWeaponSGL
-    - MechMssileWeaponSRM
+    - MechMissileWeaponSGL
+    - MechMissileWeaponSRM
     - MechMLG
     - MechLaserWeaponImpuls
-    - MechMssileWeaponShotGun
+    - MechMissileWeaponShotGun
     - MechReactorPlasma
     - MechReactorUranium
     - MechReactorTesla

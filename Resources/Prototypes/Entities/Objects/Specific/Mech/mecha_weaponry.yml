@@ -159,7 +159,7 @@
       - CombatMech
 
 - type: entity
-  id: MechMssileWeapon
+  id: MechMissileWeapon
   parent: BaseMechProjectileGun
   name: SRM-6 Missile Rack
   components:
@@ -262,7 +262,7 @@
       - CombatMech
 
 - type: entity
-  id: MechMssileWeaponSGL
+  id: MechMissileWeaponSGL
   parent: BaseMechProjectileGun
   name: навесной гранатомет SGL-6
   components:
@@ -290,7 +290,7 @@
       - CombatMech
 
 - type: entity
-  id: MechMssileWeaponShotGun
+  id: MechMissileWeaponShotGun
   parent: BaseMechProjectileGun
   name: навесной дробовик MCS-6
   components:
@@ -318,7 +318,7 @@
       - CombatMech
 
 - type: entity
-  id: MechMssileWeaponFSRM
+  id: MechMissileWeaponFSRM
   parent: BaseMechProjectileGun
   name: пусковая ракетная установка FSRM-8
   components:
@@ -346,7 +346,7 @@
       - CombatMech
 
 - type: entity
-  id: MechMssileWeaponSRM
+  id: MechMissileWeaponSRM
   parent: BaseMechProjectileGun
   name: пусковая ракетная установка SRM-8
   components:

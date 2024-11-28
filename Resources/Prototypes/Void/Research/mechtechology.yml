@@ -100,12 +100,12 @@
   tier: 3
   cost: 30000
   recipeUnlocks:
-  - MechMssileWeaponSGL
-  - MechMssileWeaponSRM
+  - MechMissileWeaponSGL
+  - MechMissileWeaponSRM
   - MechMLG
   - MechLaserWeaponImpuls
-  - MechMssileWeaponShotGun
-  - MechMssileWeaponFSRM
+  - MechMissileWeaponShotGun
+  - MechMissileWeaponFSRM
   technologyPrerequisites:
   - ModernCombatMechs
 

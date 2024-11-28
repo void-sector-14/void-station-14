@@ -294,11 +294,11 @@
     Gold: 500
     Diamond: 1500
 
-# - MechMssileWeaponSGL
-# - MechMssileWeaponSRM
+# - MechMissileWeaponSGL
+# - MechMissileWeaponSRM
 # - MechMLG
 # - MechLaserWeaponImpuls
-# - MechMssileWeaponShotGun
+# - MechMissileWeaponShotGun
 
 - type: latheRecipe
   id: MechMLG
@@ -311,8 +311,8 @@
     Gold: 500
 
 - type: latheRecipe
-  id: MechMssileWeaponSRM
-  result: MechMssileWeaponSRM
+  id: MechMissileWeaponSRM
+  result: MechMissileWeaponSRM
   category: Mech
   completetime: 20
   materials:
@@ -322,8 +322,8 @@
     Plasma: 700
 
 - type: latheRecipe
-  id: MechMssileWeaponFSRM
-  result: MechMssileWeaponFSRM
+  id: MechMissileWeaponFSRM
+  result: MechMissileWeaponFSRM
   category: Mech
   completetime: 20
   materials:
@@ -333,8 +333,8 @@
     Plasma: 2000
 
 - type: latheRecipe
-  id: MechMssileWeaponSGL
-  result: MechMssileWeaponSGL
+  id: MechMissileWeaponSGL
+  result: MechMissileWeaponSGL
   category: Mech
   completetime: 20
   materials:
@@ -357,8 +357,8 @@
     Uranium: 1000
 
 - type: latheRecipe
-  id: MechMssileWeaponShotGun
-  result: MechMssileWeaponShotGun
+  id: MechMissileWeaponShotGun
+  result: MechMissileWeaponShotGun
   category: Mech
   completetime: 20
   materials:

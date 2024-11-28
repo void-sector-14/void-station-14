@@ -257,7 +257,7 @@
   - DurandPeripheralsElectronics
   - MechSolarisLaserWeapon
   - MechHadesWeapon
-  - MechMssileWeapon
+  - MechMissileWeapon
   - MechTeslaWeapon
   technologyPrerequisites:
   - MilitaryMachinery
