@@ -1,0 +1,56 @@
+- type: entity
+  name: плазменный реактор
+  description: Реактор использующий силу плазмы для работы
+  parent: BaseItem
+  id: MechReactorPlasma
+  components:
+  - type: Tag
+    tags:
+    - MechReactor
+  - type: Battery
+    maxCharge: 3000
+    startingCharge: 3000
+  - type: Sprite
+    sprite: Objects/Specific/Mech/mecha_equipment.rsi
+    state: plasma
+  - type: BatterySelfRecharger
+    autoRecharge: true
+    autoRechargeRate: 10
+
+- type: entity
+  name: реактор РИТЭГ
+  description: Реактор использующий силу урана для работы
+  parent: BaseItem
+  id: MechReactorUranium
+  components:
+  - type: Tag
+    tags:
+    - MechReactor
+  - type: Battery
+    maxCharge: 5000
+    startingCharge: 5000
+  - type: Sprite
+    sprite: Objects/Specific/Mech/mecha_equipment.rsi
+    state: uranium
+  - type: BatterySelfRecharger
+    autoRecharge: true
+    autoRechargeRate: 15
+
+- type: entity
+  name: реактор тесла
+  description: Реактор использующий силу теслы для работы
+  parent: BaseItem
+  id: MechReactorTesla
+  components:
+  - type: Tag
+    tags:
+    - MechReactor
+  - type: Battery
+    maxCharge: 10000
+    startingCharge: 10000
+  - type: Sprite
+    sprite: Objects/Specific/Mech/mecha_equipment.rsi
+    state: tesla
+  - type: BatterySelfRecharger
+    autoRecharge: true
+    autoRechargeRate: 30

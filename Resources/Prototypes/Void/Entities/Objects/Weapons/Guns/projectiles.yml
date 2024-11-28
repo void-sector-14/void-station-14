@@ -32,3 +32,51 @@
     damage:
       types:
         Heat: 70
+
+- type: hitscan
+  id: MedLaserYellow
+  maxLength: 3
+  damage:
+    groups:
+      Burn: -20
+  muzzleFlash:
+    sprite: Void/Objects/Weapons/Guns/Projectiles/mechbeam.rsi
+    state: muzzle_omni_yellow
+  travelFlash:
+    sprite: Void/Objects/Weapons/Guns/Projectiles/mechbeam.rsi
+    state: beam_omni_yellow
+  impactFlash:
+    sprite: Void/Objects/Weapons/Guns/Projectiles/mechbeam.rsi
+    state: impact_omni_yellow
+
+- type: hitscan
+  id: MedLaserBlue
+  maxLength: 3
+  damage:
+    groups:
+      Toxin: -10
+  muzzleFlash:
+    sprite: Void/Objects/Weapons/Guns/Projectiles/mechbeam.rsi
+    state: muzzle_omni
+  travelFlash:
+    sprite: Void/Objects/Weapons/Guns/Projectiles/mechbeam.rsi
+    state: beam_omni
+  impactFlash:
+    sprite: Void/Objects/Weapons/Guns/Projectiles/mechbeam.rsi
+    state: impact_omni
+
+- type: hitscan
+  id: MedLaserGreen
+  maxLength: 3
+  damage:
+    groups:
+      Brute: -15
+  muzzleFlash:
+    sprite: Void/Objects/Weapons/Guns/Projectiles/mechbeam.rsi
+    state: muzzle_omni_green
+  travelFlash:
+    sprite: Void/Objects/Weapons/Guns/Projectiles/mechbeam.rsi
+    state: beam_omni_green
+  impactFlash:
+    sprite: Void/Objects/Weapons/Guns/Projectiles/mechbeam.rsi
+    state: impact_omni_green

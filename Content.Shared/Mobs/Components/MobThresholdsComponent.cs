@@ -1,5 +1,6 @@
 using Content.Shared.Alert;
 using Content.Shared.FixedPoint;
+using Content.Shared.Mech.EntitySystems;
 using Content.Shared.Mobs.Systems;
 using Robust.Shared.GameStates;
 using Robust.Shared.Prototypes;
@@ -8,7 +9,7 @@ using Robust.Shared.Serialization;
 namespace Content.Shared.Mobs.Components;
 
 [RegisterComponent, NetworkedComponent]
-[Access(typeof(MobThresholdSystem))]
+[Access(typeof(MobThresholdSystem), typeof(SharedMechSystem))]
 public sealed partial class MobThresholdsComponent : Component
 {
     [DataField("thresholds", required: true)]

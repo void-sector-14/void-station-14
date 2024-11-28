@@ -1,0 +1,368 @@
+
+# Circuitboard Mech
+# Clarke
+
+- type: latheRecipe
+  parent: BaseGoldCircuitboardRecipe
+  id: ClarkeCentralElectronics
+  result: ClarkeCentralElectronics
+
+- type: latheRecipe
+  parent: BaseGoldCircuitboardRecipe
+  id: ClarkePeripheralsElectronics
+  result: ClarkePeripheralsElectronics
+
+# RipleyMKii
+
+- type: latheRecipe
+  parent: BaseGoldCircuitboardRecipe
+  id: RipleyMKiiPeripheralsElectronics
+  result: RipleyMKiiPeripheralsElectronics
+
+- type: latheRecipe
+  parent: BaseGoldCircuitboardRecipe
+  id: RipleyMKiiCentralElectronics
+  result: RipleyMKiiCentralElectronics
+
+# FireFighter
+
+- type: latheRecipe
+  parent: BaseGoldCircuitboardRecipe
+  id: FifeFighterPeripheralsElectronics
+  result: FifeFighterPeripheralsElectronics
+
+- type: latheRecipe
+  parent: BaseGoldCircuitboardRecipe
+  id: FifeFighterCentralElectronics
+  result: FifeFighterCentralElectronics
+
+# Hauler
+
+- type: latheRecipe
+  parent: BaseGoldCircuitboardRecipe
+  id: HaulerPeripheralsElectronics
+  result: HaulerPeripheralsElectronics
+
+- type: latheRecipe
+  parent: BaseGoldCircuitboardRecipe
+  id: HaulerCentralElectronics
+  result: HaulerCentralElectronics
+
+# Odysseus
+
+- type: latheRecipe
+  parent: BaseGoldCircuitboardRecipe
+  id: OdysseusPeripheralsElectronics
+  result: OdysseusPeripheralsElectronics
+
+- type: latheRecipe
+  parent: BaseGoldCircuitboardRecipe
+  id: OdysseusCentralElectronics
+  result: OdysseusCentralElectronics
+
+# Part Mech
+# Clarke
+
+- type: latheRecipe
+  id: ClarkeHarness
+  result: ClarkeHarness
+  category: Mech
+  completetime: 10
+  materials:
+    Steel: 2000
+    Glass: 700
+    Silver: 500
+    Gold: 100
+
+- type: latheRecipe
+  id: ClarkeLArm
+  result: ClarkeLArm
+  category: Mech
+  completetime: 10
+  materials:
+    Steel: 1000
+    Glass: 500
+
+- type: latheRecipe
+  parent: ClarkeLArm
+  id: ClarkeRArm
+  result: ClarkeRArm
+
+- type: latheRecipe
+  parent: ClarkeLArm
+  id: ClarkeLLeg
+  result: ClarkeLLeg
+
+- type: latheRecipe
+  parent: ClarkeLArm
+  id: ClarkeRLeg
+  result: ClarkeRLeg
+
+# Odysseus
+
+- type: latheRecipe
+  id: OdysseusHarness
+  result: OdysseusHarness
+  category: Mech
+  completetime: 10
+  materials:
+    Steel: 1500
+    Glass: 1000
+    Silver: 300
+
+- type: latheRecipe
+  id: OdysseusLArm
+  result: OdysseusLArm
+  category: Mech
+  completetime: 10
+  materials:
+    Steel: 700
+    Glass: 700
+    Silver: 100
+
+- type: latheRecipe
+  parent: ClarkeLArm
+  id: OdysseusRArm
+  result: OdysseusRArm
+
+- type: latheRecipe
+  parent: OdysseusLArm
+  id: OdysseusLLeg
+  result: OdysseusLLeg
+
+- type: latheRecipe
+  parent: OdysseusLArm
+  id: OdysseusRLeg
+  result: OdysseusRLeg
+
+# RipleyMKii
+
+- type: latheRecipe
+  id: RipleyMKiiHarness
+  result: RipleyMKiiHarness
+  category: Mech
+  completetime: 10
+  materials:
+    Steel: 1500
+    Glass: 1200
+    Silver: 500
+    Gold: 100
+
+# FireFighter
+
+- type: latheRecipe
+  id: FireFigterHarness
+  result: FireFigterHarness
+  category: Mech
+  completetime: 10
+  materials:
+    Steel: 2000
+    Glass: 500
+    Silver: 200
+    Gold: 100
+
+# Hauler
+
+- type: latheRecipe
+  id: HaulerHarness
+  result: HaulerHarness
+  category: Mech
+  completetime: 10
+  materials:
+    Steel: 1700
+    Glass: 500
+    Silver: 500
+    Gold: 200
+
+# Exosuit equp
+
+# - MechEquipmentDiamondDrill
+# - MechEquipmentDrill
+# - MechEquipmentProtokinet
+
+- type: latheRecipe
+  id: MechEquipmentProtokinet
+  result: MechEquipmentProtokinet
+  category: Mech
+  completetime: 10
+  materials:
+    Steel: 1500
+    Glass: 500
+    Silver: 200
+    Gold: 200
+
+- type: latheRecipe
+  id: MechEquipmentDrill
+  result: MechEquipmentDrill
+  category: Mech
+  completetime: 10
+  materials:
+    Steel: 1000
+    Glass: 500
+    Silver: 100
+    Gold: 100
+
+- type: latheRecipe
+  id: MechEquipmentDiamondDrill
+  result: MechEquipmentDiamondDrill
+  category: Mech
+  completetime: 10
+  materials:
+    Steel: 1700
+    Glass: 500
+    Silver: 500
+    Gold: 200
+    Diamond: 300
+
+# - MechEquipmentMedGunBlue
+# - MechEquipmentMedGunYellow
+# - MechEquipmentMedGunGreen
+
+- type: latheRecipe
+  id: MechEquipmentMedGunBlue
+  result: MechEquipmentMedGunBlue
+  category: Mech
+  completetime: 10
+  materials:
+    Steel: 1000
+    Glass: 1500
+    Silver: 500
+    Gold: 500
+    Diamond: 100
+
+- type: latheRecipe
+  id: MechEquipmentMedGunYellow
+  result: MechEquipmentMedGunYellow
+  category: Mech
+  completetime: 10
+  materials:
+    Steel: 1000
+    Glass: 1500
+    Silver: 500
+    Gold: 500
+    Diamond: 100
+
+- type: latheRecipe
+  id: MechEquipmentMedGunGreen
+  result: MechEquipmentMedGunGreen
+  category: Mech
+  completetime: 10
+  materials:
+    Steel: 1000
+    Glass: 1500
+    Silver: 500
+    Gold: 500
+    Diamond: 100
+
+# - MechReactorPlasma
+# - MechReactorUranium
+# - MechReactorTesla
+
+- type: latheRecipe
+  id: MechReactorPlasma
+  result: MechReactorPlasma
+  category: Mech
+  completetime: 10
+  materials:
+    Steel: 3000
+    Glass: 1000
+    Silver: 500
+    Gold: 500
+    Plasma: 1500
+
+- type: latheRecipe
+  id: MechReactorUranium
+  result: MechReactorUranium
+  category: Mech
+  completetime: 10
+  materials:
+    Steel: 3000
+    Glass: 1000
+    Silver: 500
+    Gold: 500
+    Uranium: 1500
+
+- type: latheRecipe
+  id: MechReactorTesla
+  result: MechReactorTesla
+  category: Mech
+  completetime: 10
+  materials:
+    Steel: 3000
+    Glass: 1000
+    Silver: 500
+    Gold: 500
+    Diamond: 1500
+
+# - MechMssileWeaponSGL
+# - MechMssileWeaponSRM
+# - MechMLG
+# - MechLaserWeaponImpuls
+# - MechMssileWeaponShotGun
+
+- type: latheRecipe
+  id: MechMLG
+  result: MechMLG
+  category: Mech
+  completetime: 10
+  materials:
+    Steel: 2000
+    Plastic: 1500
+    Gold: 500
+
+- type: latheRecipe
+  id: MechMssileWeaponSRM
+  result: MechMssileWeaponSRM
+  category: Mech
+  completetime: 20
+  materials:
+    Steel: 1500
+    Plastic: 1000
+    Gold: 400
+    Plasma: 700
+
+- type: latheRecipe
+  id: MechMssileWeaponFSRM
+  result: MechMssileWeaponFSRM
+  category: Mech
+  completetime: 20
+  materials:
+    Steel: 1500
+    Plastic: 1000
+    Gold: 400
+    Plasma: 2000
+
+- type: latheRecipe
+  id: MechMssileWeaponSGL
+  result: MechMssileWeaponSGL
+  category: Mech
+  completetime: 20
+  materials:
+    Steel: 3000
+    Plastic: 1500
+    Gold: 500
+    Plasma: 1000
+    Uranium: 500
+
+- type: latheRecipe
+  id: MechLaserWeaponImpuls
+  result: MechLaserWeaponImpuls
+  category: Mech
+  completetime: 20
+  materials:
+    Steel: 2000
+    Plastic: 2000
+    Gold: 1000
+    Plasma: 2000
+    Uranium: 1000
+
+- type: latheRecipe
+  id: MechMssileWeaponShotGun
+  result: MechMssileWeaponShotGun
+  category: Mech
+  completetime: 20
+  materials:
+    Steel: 1500
+    Plastic: 1000
+    Gold: 500
+    Silver: 500

@@ -119,19 +119,64 @@
       "name": "mecha_abooster_ccw"
     },
     {
+        "name": "FSRM"
+    },
+    {
+        "name": "LRM"
+    },
+    {
       "name": "mecha_abooster_proj"
     },
     {
-      "name": "tesla"
+      "name": "plasma",
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "tesla",
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "uranium",
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
     },
     {
       "name": "mecha_ion"
+    },
+    {
+      "name": "mecha_mlaser"
     },
     {
       "name": "mecha_analyzer"
     },
     {
       "name": "mecha_medigun"
+    },
+    {
+      "name": "mecha_medigun_green"
+    },
+    {
+      "name": "mecha_medigun_yellow"
     },
     {
       "name": "mecha_punching_glove"

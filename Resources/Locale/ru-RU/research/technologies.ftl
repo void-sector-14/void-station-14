@@ -79,3 +79,5 @@ research-technology-crew-monitoring = Мониторинг экипажа
 research-technology-bluespace-chemistry = Блюспейс-химия
 research-technology-cloning = Клонирование
 research-technology-syringelauncher = Дистанционное лечение
+research-technology-military-machinery = Военная машинерия
+research-technology-modern-combat-mechs = Передовые боевые мехи

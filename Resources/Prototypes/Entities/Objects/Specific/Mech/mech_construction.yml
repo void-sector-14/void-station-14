@@ -483,3 +483,891 @@
     graph: Vim
     node: start
     defaultTarget: vim
+
+# Gygax
+
+- type: entity
+  id: BaseGygaxPart
+  parent: BaseMechPart
+  abstract: true
+  components:
+  - type: Sprite
+    drawdepth: Items
+    noRot: false
+    sprite: Objects/Specific/Mech/gygax_construction.rsi
+
+- type: entity
+  id: BaseGygaxPartItem
+  parent: BaseGygaxPart
+  abstract: true
+  components:
+  - type: Item
+    size: Ginormous
+
+- type: entity
+  parent: BaseGygaxPart
+  id: GygaxHarness
+  name: gygax harness
+  description: The core of the Gygax APLU.
+  components:
+  - type: Appearance
+  - type: ItemMapper
+    mapLayers:
+      gygax_l_arm+o:
+        whitelist:
+          tags:
+          - GygaxLArm
+      gygax_r_arm+o:
+        whitelist:
+          tags:
+          - GygaxRArm
+      gygax_l_leg+o:
+        whitelist:
+          tags:
+          - GygaxLLeg
+      gygax_r_leg+o:
+        whitelist:
+          tags:
+          - GygaxRLeg
+    sprite: Objects/Specific/Mech/gygax_construction.rsi
+  - type: ContainerContainer
+    containers:
+      mech-assembly-container: !type:Container
+  - type: MechAssembly
+    finishedPrototype: GygaxChassis
+    requiredParts:
+      GygaxLArm: false
+      GygaxRArm: false
+      GygaxLLeg: false
+      GygaxRLeg: false
+  - type: Sprite
+    state: gygax_harness+o
+    noRot: true
+
+- type: entity
+  parent: BaseGygaxPartItem
+  id: GygaxLArm
+  name: gygax left arm
+  description: The left arm of the Gygax APLU. It belongs on the chassis of the mech.
+  components:
+  - type: Sprite
+    state: gygax_l_arm
+  - type: Tag
+    tags:
+    - GygaxLArm
+
+- type: entity
+  parent: BaseGygaxPartItem
+  id: GygaxLLeg
+  name: gygax left leg
+  description: The left leg of the Gygax APLU. It belongs on the chassis of the mech.
+  components:
+  - type: Sprite
+    state: gygax_l_leg
+  - type: Tag
+    tags:
+    - GygaxLLeg
+
+- type: entity
+  parent: BaseGygaxPartItem
+  id: GygaxRLeg
+  name: gygax right leg
+  description: The right leg of the Gygax APLU. It belongs on the chassis of the mech.
+  components:
+  - type: Sprite
+    state: gygax_r_leg
+  - type: Tag
+    tags:
+    - GygaxRLeg
+
+- type: entity
+  parent: BaseGygaxPartItem
+  id: GygaxRArm
+  name: gygax right arm
+  description: The right arm of the Gygax APLU. It belongs on the chassis of the mech.
+  components:
+  - type: Sprite
+    state: gygax_r_arm
+  - type: Tag
+    tags:
+    - GygaxRArm
+
+- type: entity
+  id: GygaxChassis
+  parent: BaseGygaxPart
+  name: gygax chassis
+  description: An in-progress construction of the Gygax APLU mech.
+  components:
+  - type: Appearance
+  - type: ContainerContainer
+    containers:
+      battery-container: !type:Container
+  - type: MechAssemblyVisuals
+    statePrefix: gygax
+  - type: Sprite
+    noRot: true
+    state: gygax0
+  - type: Construction
+    graph: Gygax
+    node: start
+    defaultTarget: gygax
+
+# Dark Gygax
+
+- type: entity
+  parent: BaseGygaxPart
+  id: DarkGygaxHarness
+  name: каркас Гайрекса
+  description: Это ядро Гайрекса
+  components:
+  - type: Appearance
+  - type: ItemMapper
+    mapLayers:
+      gygax_l_arm+o:
+        whitelist:
+          tags:
+          - GygaxLArm
+      gygax_r_arm+o:
+        whitelist:
+          tags:
+          - GygaxRArm
+      gygax_l_leg+o:
+        whitelist:
+          tags:
+          - GygaxLLeg
+      gygax_r_leg+o:
+        whitelist:
+          tags:
+          - GygaxRLeg
+    sprite: Objects/Specific/Mech/gygax_construction.rsi
+  - type: ContainerContainer
+    containers:
+      mech-assembly-container: !type:Container
+  - type: MechAssembly
+    finishedPrototype: DarkGygaxChassis
+    requiredParts:
+      GygaxLArm: false
+      GygaxRArm: false
+      GygaxLLeg: false
+      GygaxRLeg: false
+  - type: Sprite
+    state: gygax_harness+o
+    noRot: true
+
+- type: entity
+  id: DarkGygaxChassis
+  parent: BaseGygaxPart
+  name: шасси Гайрекса
+  description: Незавершенный в строительстве Гайрекс
+  components:
+  - type: Appearance
+  - type: ContainerContainer
+    containers:
+      battery-container: !type:Container
+  - type: MechAssemblyVisuals
+    statePrefix: gygax
+  - type: Sprite
+    noRot: true
+    state: gygax0
+  - type: Construction
+    graph: DarkGygax
+    node: start
+    defaultTarget: gygax
+
+# Durand
+
+- type: entity
+  id: BaseDurandPart
+  parent: BaseMechPart
+  abstract: true
+  components:
+  - type: Sprite
+    drawdepth: Items
+    noRot: false
+    sprite: Objects/Specific/Mech/durand_construction.rsi
+
+- type: entity
+  id: BaseDurandPartItem
+  parent: BaseDurandPart
+  abstract: true
+  components:
+  - type: Item
+    size: Ginormous
+
+- type: entity
+  parent: BaseDurandPart
+  id: DurandHarness
+  name: durand harness
+  description: The core of the Durand.
+  components:
+  - type: Appearance
+  - type: ItemMapper
+    mapLayers:
+      durand_l_arm+o:
+        whitelist:
+          tags:
+          - DurandLArm
+      durand_r_arm+o:
+        whitelist:
+          tags:
+          - DurandRArm
+      durand_l_leg+o:
+        whitelist:
+          tags:
+          - DurandLLeg
+      durand_r_leg+o:
+        whitelist:
+          tags:
+          - DurandRLeg
+    sprite: Objects/Specific/Mech/durand_construction.rsi
+  - type: ContainerContainer
+    containers:
+      mech-assembly-container: !type:Container
+  - type: MechAssembly
+    finishedPrototype: DurandChassis
+    requiredParts:
+      DurandLArm: false
+      DurandRArm: false
+      DurandLLeg: false
+      DurandRLeg: false
+  - type: Sprite
+    state: durand_harness+o
+    noRot: true
+
+- type: entity
+  parent: BaseDurandPartItem
+  id: DurandLArm
+  name: durand left arm
+  description: The left arm of the Durand. It belongs on the chassis of the mech.
+  components:
+  - type: Sprite
+    state: durand_l_arm
+  - type: Tag
+    tags:
+    - DurandLArm
+
+- type: entity
+  parent: BaseDurandPartItem
+  id: DurandLLeg
+  name: durand left leg
+  description: The left leg of the Durand. It belongs on the chassis of the mech.
+  components:
+  - type: Sprite
+    state: durand_l_leg
+  - type: Tag
+    tags:
+    - DurandLLeg
+
+- type: entity
+  parent: BaseDurandPartItem
+  id: DurandRLeg
+  name: durand right leg
+  description: The right leg of the Durand. It belongs on the chassis of the mech.
+  components:
+  - type: Sprite
+    state: durand_r_leg
+  - type: Tag
+    tags:
+    - DurandRLeg
+
+- type: entity
+  parent: BaseDurandPartItem
+  id: DurandRArm
+  name: durand right arm
+  description: The right arm of the Durand. It belongs on the chassis of the mech.
+  components:
+  - type: Sprite
+    state: durand_r_arm
+  - type: Tag
+    tags:
+    - DurandRArm
+
+- type: entity
+  id: DurandChassis
+  parent: BaseDurandPart
+  name: durand chassis
+  description: An in-progress construction of the Durand mech.
+  components:
+  - type: Appearance
+  - type: ContainerContainer
+    containers:
+      battery-container: !type:Container
+  - type: MechAssemblyVisuals
+    statePrefix: durand
+  - type: Sprite
+    noRot: true
+    state: durand0
+  - type: Construction
+    graph: Durand
+    node: start
+    defaultTarget: durand
+
+# Odysseus
+
+- type: entity
+  id: BaseOdysseusPart
+  parent: BaseMechPart
+  abstract: true
+  components:
+  - type: Sprite
+    drawdepth: Items
+    noRot: false
+    sprite: Objects/Specific/Mech/odysseus_construction.rsi
+
+- type: entity
+  id: BaseOdysseusPartItem
+  parent: BaseOdysseusPart
+  abstract: true
+  components:
+  - type: Item
+    size: Ginormous
+
+- type: entity
+  parent: BaseOdysseusPart
+  id: OdysseusHarness
+  name: каркас Одиссея
+  description: Это ядро Одиссея
+  components:
+  - type: Appearance
+  - type: ItemMapper
+    mapLayers:
+      odysseus_l_arm+o:
+        whitelist:
+          tags:
+          - OdysseusLArm
+      odysseus_r_arm+o:
+        whitelist:
+          tags:
+          - OdysseusRArm
+      odysseus_l_leg+o:
+        whitelist:
+          tags:
+          - OdysseusLLeg
+      odysseus_r_leg+o:
+        whitelist:
+          tags:
+          - OdysseusRLeg
+    sprite: Objects/Specific/Mech/odysseus_construction.rsi
+  - type: ContainerContainer
+    containers:
+      mech-assembly-container: !type:Container
+  - type: MechAssembly
+    finishedPrototype: OdysseusChassis
+    requiredParts:
+      OdysseusLArm: false
+      OdysseusRArm: false
+      OdysseusLLeg: false
+      OdysseusRLeg: false
+  - type: Sprite
+    state: odysseus_harness+o
+    noRot: true
+
+- type: entity
+  parent: BaseOdysseusPartItem
+  id: OdysseusLArm
+  name: левая рука Одиссея
+  description: Это левая рука. Она принадлежит шасси Одиссея.
+  components:
+  - type: Sprite
+    state: odysseus_l_arm
+  - type: Tag
+    tags:
+    - OdysseusLArm
+
+- type: entity
+  parent: BaseOdysseusPartItem
+  id: OdysseusLLeg
+  name: левая нога Одиссея
+  description: Это левая нога. Она принадлежит шасси Одиссея.
+  components:
+  - type: Sprite
+    state: odysseus_l_leg
+  - type: Tag
+    tags:
+    - OdysseusLLeg
+
+- type: entity
+  parent: BaseOdysseusPartItem
+  id: OdysseusRLeg
+  name: правая нога Одиссея
+  description: Это правая нога. Она принадлежит шасси Одиссея.
+  components:
+  - type: Sprite
+    state: odysseus_r_leg
+  - type: Tag
+    tags:
+    - OdysseusRLeg
+
+- type: entity
+  parent: BaseOdysseusPartItem
+  id: OdysseusRArm
+  name: правая рука Одиссея
+  description: Это правая рука. Она принадлежит шасси Одиссея.
+  components:
+  - type: Sprite
+    state: odysseus_r_arm
+  - type: Tag
+    tags:
+    - OdysseusRArm
+
+- type: entity
+  id: OdysseusChassis
+  parent: BaseOdysseusPart
+  name: шасси Одиссея
+  description: Незавершенный в строительстве Одиссей
+  components:
+  - type: Appearance
+  - type: ContainerContainer
+    containers:
+      battery-container: !type:Container
+  - type: MechAssemblyVisuals
+    statePrefix: odysseus
+  - type: Sprite
+    noRot: true
+    state: odysseus0
+  - type: Construction
+    graph: Odysseus
+    node: start
+    defaultTarget: odysseus
+
+# Clarke
+
+- type: entity
+  id: BaseClarkePart
+  parent: BaseMechPart
+  abstract: true
+  components:
+  - type: Sprite
+    drawdepth: Items
+    noRot: false
+    sprite: Objects/Specific/Mech/clarke_construction.rsi
+
+- type: entity
+  id: BaseClarkePartItem
+  parent: BaseClarkePart
+  abstract: true
+  components:
+  - type: Item
+    size: Ginormous
+
+- type: entity
+  parent: BaseClarkePart
+  id: ClarkeHarness
+  name: каркас Кларка
+  description: Это ядро Кларка
+  components:
+  - type: Appearance
+  - type: ItemMapper
+    mapLayers:
+      clarke_l_arm+o:
+        whitelist:
+          tags:
+          - ClarkeLArm
+      clarke_r_arm+o:
+        whitelist:
+          tags:
+          - ClarkeRArm
+      clarke_l_leg+o:
+        whitelist:
+          tags:
+          - ClarkeLLeg
+      clarke_r_leg+o:
+        whitelist:
+          tags:
+          - ClarkeRLeg
+    sprite: Objects/Specific/Mech/clarke_construction.rsi
+  - type: ContainerContainer
+    containers:
+      mech-assembly-container: !type:Container
+  - type: MechAssembly
+    finishedPrototype: ClarkeChassis
+    requiredParts:
+      ClarkeLArm: false
+      ClarkeRArm: false
+      ClarkeLLeg: false
+      ClarkeRLeg: false
+  - type: Sprite
+    state: clarke_harness+o
+    noRot: true
+
+- type: entity
+  parent: BaseClarkePartItem
+  id: ClarkeLArm
+  name: левая рука Кларка
+  description: Это левая рука. Она принадлежит шасси Кларка.
+  components:
+  - type: Sprite
+    state: clarke_l_arm
+  - type: Tag
+    tags:
+    - ClarkeLArm
+
+- type: entity
+  parent: BaseClarkePartItem
+  id: ClarkeLLeg
+  name: левая нога Кларка
+  description: Это левая нога. Она принадлежит шасси Кларка.
+  components:
+  - type: Sprite
+    state: clarke_l_leg
+  - type: Tag
+    tags:
+    - ClarkeLLeg
+
+- type: entity
+  parent: BaseClarkePartItem
+  id: ClarkeRLeg
+  name: правая нога Кларка
+  description: Это правая нога. Она принадлежит шасси Кларка.
+  components:
+  - type: Sprite
+    state: clarke_r_leg
+  - type: Tag
+    tags:
+    - ClarkeRLeg
+
+- type: entity
+  parent: BaseClarkePartItem
+  id: ClarkeRArm
+  name: правая рука Кларка
+  description: Это правая рука. Она принадлежит шасси Кларка.
+  components:
+  - type: Sprite
+    state: clarke_r_arm
+  - type: Tag
+    tags:
+    - ClarkeRArm
+
+- type: entity
+  id: ClarkeChassis
+  parent: BaseClarkePart
+  name: шасси Кларка
+  description: Незавершенный в строительстве Кларк
+  components:
+  - type: Appearance
+  - type: ContainerContainer
+    containers:
+      battery-container: !type:Container
+  - type: MechAssemblyVisuals
+    statePrefix: clarke
+  - type: Sprite
+    noRot: true
+    state: clarke0
+  - type: Construction
+    graph: Clarke
+    node: start
+    defaultTarget: clarke
+
+# Marauder
+
+- type: entity
+  id: BaseMarauderPart
+  parent: BaseMechPart
+  abstract: true
+  components:
+  - type: Sprite
+    drawdepth: Items
+    noRot: false
+    sprite: Objects/Specific/Mech/marauder_construction.rsi
+
+- type: entity
+  id: BaseMarauderPartItem
+  parent: BaseMarauderPart
+  abstract: true
+  components:
+  - type: Item
+    size: Ginormous
+
+- type: entity
+  parent: BaseMarauderPart
+  id: MarauderHarness
+  name: каркас Мародера
+  description: Это ядро Мародера
+  components:
+  - type: Appearance
+  - type: ItemMapper
+    mapLayers:
+      marauder_l_arm+o:
+        whitelist:
+          tags:
+          - MarauderLArm
+      marauder_r_arm+o:
+        whitelist:
+          tags:
+          - MarauderRArm
+      marauder_l_leg+o:
+        whitelist:
+          tags:
+          - MarauderLLeg
+      marauder_r_leg+o:
+        whitelist:
+          tags:
+          - MarauderRLeg
+    sprite: Objects/Specific/Mech/marauder_construction.rsi
+  - type: ContainerContainer
+    containers:
+      mech-assembly-container: !type:Container
+  - type: MechAssembly
+    finishedPrototype: MarauderChassis
+    requiredParts:
+      MarauderLArm: false
+      MarauderRArm: false
+      MarauderLLeg: false
+      MarauderRLeg: false
+  - type: Sprite
+    state: marauder_harness+o
+    noRot: true
+
+- type: entity
+  parent: BaseMarauderPartItem
+  id: MarauderLArm
+  name: левая рука Мародера
+  description: Это левая рука. Она принадлежит шасси Мародера.
+  components:
+  - type: Sprite
+    state: marauder_l_arm
+  - type: Tag
+    tags:
+    - MarauderLArm
+
+- type: entity
+  parent: BaseMarauderPartItem
+  id: MarauderLLeg
+  name: левая нога Мародера
+  description: Это левая нога. Она принадлежит шасси Мародера.
+  components:
+  - type: Sprite
+    state: marauder_l_leg
+  - type: Tag
+    tags:
+    - MarauderLLeg
+
+- type: entity
+  parent: BaseMarauderPartItem
+  id: MarauderRLeg
+  name: правая нога Мародера
+  description: Это правая нога. Она принадлежит шасси Мародера.
+  components:
+  - type: Sprite
+    state: marauder_r_leg
+  - type: Tag
+    tags:
+    - MarauderRLeg
+
+- type: entity
+  parent: BaseMarauderPartItem
+  id: MarauderRArm
+  name: правая рука Мародера
+  description: Это правая рука. Она принадлежит шасси Мародера.
+  components:
+  - type: Sprite
+    state: marauder_r_arm
+  - type: Tag
+    tags:
+    - MarauderRArm
+
+- type: entity
+  id: MarauderChassis
+  parent: BaseMarauderPart
+  name: шасси Мародера
+  description: Незавершенный в строительстве Мародер
+  components:
+  - type: Appearance
+  - type: ContainerContainer
+    containers:
+      battery-container: !type:Container
+  - type: MechAssemblyVisuals
+    statePrefix: marauder
+  - type: Sprite
+    noRot: true
+    state: marauder0
+  - type: Construction
+    graph: Marauder
+    node: start
+    defaultTarget: marauder
+
+# RipleyMKii
+
+- type: entity
+  parent: BaseRipleyPart
+  id: RipleyMKiiHarness
+  name: каркас Рипли МК2
+  description: Это ядро Рипли мк2
+  components:
+  - type: Appearance
+  - type: ItemMapper
+    mapLayers:
+      ripley_l_arm+o:
+        whitelist:
+          tags:
+          - RipleyLArm
+      ripley_r_arm+o:
+        whitelist:
+          tags:
+          - RipleyRArm
+      ripley_l_leg+o:
+        whitelist:
+          tags:
+          - RipleyLLeg
+      ripley_r_leg+o:
+        whitelist:
+          tags:
+          - RipleyRLeg
+    sprite: Objects/Specific/Mech/ripley_construction.rsi
+  - type: ContainerContainer
+    containers:
+      mech-assembly-container: !type:Container
+  - type: MechAssembly
+    finishedPrototype: RipleyMKiiChassis
+    requiredParts:
+      RipleyLArm: false
+      RipleyRArm: false
+      RipleyLLeg: false
+      RipleyRLeg: false
+  - type: Sprite
+    state: ripley_harness+o
+    noRot: true
+
+- type: entity
+  id: RipleyMKiiChassis
+  parent: BaseRipleyPart
+  name: шасси Рипли МК2
+  description: Незавершенный в строительстве Рипли МК2
+  components:
+  - type: Appearance
+  - type: ContainerContainer
+    containers:
+      battery-container: !type:Container
+  - type: MechAssemblyVisuals
+    statePrefix: ripley
+  - type: Sprite
+    noRot: true
+    state: ripley0
+  - type: Construction
+    graph: RipleyMKii
+    node: start
+    defaultTarget: ripleyMKii
+
+# Hauler
+
+- type: entity
+  parent: BaseRipleyPart
+  id: HaulerHarness
+  name: каркас Хаулера
+  description: Это ядро Хаулера
+  components:
+  - type: Appearance
+  - type: ItemMapper
+    mapLayers:
+      ripley_l_arm+o:
+        whitelist:
+          tags:
+          - RipleyLArm
+      ripley_r_arm+o:
+        whitelist:
+          tags:
+          - RipleyRArm
+      ripley_l_leg+o:
+        whitelist:
+          tags:
+          - RipleyLLeg
+      ripley_r_leg+o:
+        whitelist:
+          tags:
+          - RipleyRLeg
+    sprite: Objects/Specific/Mech/ripley_construction.rsi
+  - type: ContainerContainer
+    containers:
+      mech-assembly-container: !type:Container
+  - type: MechAssembly
+    finishedPrototype: HaulerChassis
+    requiredParts:
+      RipleyLArm: false
+      RipleyRArm: false
+      RipleyLLeg: false
+      RipleyRLeg: false
+  - type: Sprite
+    state: ripley_harness+o
+    noRot: true
+
+- type: entity
+  id: HaulerChassis
+  parent: BaseRipleyPart
+  name: шасси Хаулера
+  description: Незавершенный в строительстве Хаулер
+  components:
+  - type: Appearance
+  - type: ContainerContainer
+    containers:
+      battery-container: !type:Container
+  - type: MechAssemblyVisuals
+    statePrefix: ripley
+  - type: Sprite
+    noRot: true
+    state: ripley0
+  - type: Construction
+    graph: Hauler
+    node: start
+    defaultTarget: hauler
+
+# FireFigter
+
+- type: entity
+  parent: BaseRipleyPart
+  id: FireFigterHarness
+  name: каркас Пожарного рипли
+  description: Это ядро Пожарного рипли
+  components:
+  - type: Appearance
+  - type: ItemMapper
+    mapLayers:
+      ripley_l_arm+o:
+        whitelist:
+          tags:
+          - RipleyLArm
+      ripley_r_arm+o:
+        whitelist:
+          tags:
+          - RipleyRArm
+      ripley_l_leg+o:
+        whitelist:
+          tags:
+          - RipleyLLeg
+      ripley_r_leg+o:
+        whitelist:
+          tags:
+          - RipleyRLeg
+    sprite: Objects/Specific/Mech/ripley_construction.rsi
+  - type: ContainerContainer
+    containers:
+      mech-assembly-container: !type:Container
+  - type: MechAssembly
+    finishedPrototype: FireFigterChassis
+    requiredParts:
+      RipleyLArm: false
+      RipleyRArm: false
+      RipleyLLeg: false
+      RipleyRLeg: false
+  - type: Sprite
+    state: ripley_harness+o
+    noRot: true
+
+- type: entity
+  id: FireFigterChassis
+  parent: BaseRipleyPart
+  name: шасси Пожарного рипли
+  description: Незавершенный в строительстве Пожарный рипли
+  components:
+  - type: Appearance
+  - type: ContainerContainer
+    containers:
+      battery-container: !type:Container
+  - type: MechAssemblyVisuals
+    statePrefix: ripley
+  - type: Sprite
+    noRot: true
+    state: ripley0
+  - type: Construction
+    graph: FireFigter
+    node: start
+    defaultTarget: firefigter

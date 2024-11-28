@@ -61,6 +61,24 @@
     Glass: 500
     Bananium: 100
 
+- type: latheRecipe
+  abstract: true
+  parent: BaseCircuitboardRecipe
+  id: BaseCombatCircuitboardRecipe
+  materials:
+    Steel: 100
+    Glass: 500
+    Gold: 200
+
+- type: latheRecipe
+  abstract: true
+  parent: BaseCircuitboardRecipe
+  id: BaseAdvCombatCircuitboardRecipe
+  materials:
+    Steel: 100
+    Glass: 600
+    Gold: 300
+
 # Recipes
 
 - type: latheRecipe
@@ -614,3 +632,34 @@
   parent: BaseCircuitboardRecipe
   id: WallmountGeneratorAPUElectronics
   result: WallmountGeneratorAPUElectronics
+
+- type: latheRecipe
+  parent: BaseCombatCircuitboardRecipe
+  id: GygaxCentralElectronics
+  result: GygaxCentralElectronics
+
+- type: latheRecipe
+  parent: BaseCombatCircuitboardRecipe
+  id: GygaxPeripheralsElectronics
+  result: GygaxPeripheralsElectronics
+
+- type: latheRecipe
+  parent: BaseCombatCircuitboardRecipe
+  id: DarkGygaxCentralElectronics
+  result: DarkGygaxCentralElectronics
+
+- type: latheRecipe
+  parent: BaseCombatCircuitboardRecipe
+  id: DarkGygaxPeripheralsElectronics
+  result: DarkGygaxPeripheralsElectronics
+
+
+- type: latheRecipe
+  parent: BaseAdvCombatCircuitboardRecipe
+  id: DurandCentralElectronics
+  result: DurandCentralElectronics
+
+- type: latheRecipe
+  parent: BaseAdvCombatCircuitboardRecipe
+  id: DurandPeripheralsElectronics
+  result: DurandPeripheralsElectronics

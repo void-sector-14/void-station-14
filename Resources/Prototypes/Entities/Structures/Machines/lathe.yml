@@ -457,6 +457,16 @@
     - StationAnchorCircuitboard
     - SalvageMagnetMachineCircuitboard
     dynamicRecipes:
+      - ClarkePeripheralsElectronics
+      - ClarkeCentralElectronics
+      - RipleyMKiiPeripheralsElectronics
+      - RipleyMKiiCentralElectronics
+      - FifeFighterPeripheralsElectronics
+      - FifeFighterCentralElectronics
+      - HaulerPeripheralsElectronics
+      - HaulerCentralElectronics
+      - OdysseusPeripheralsElectronics
+      - OdysseusCentralElectronics
       - ThermomachineFreezerMachineCircuitBoard
       - HellfireFreezerMachineCircuitBoard
       - PortableScrubberMachineCircuitBoard
@@ -495,6 +505,10 @@
       - CargoTelepadMachineCircuitboard
       - RipleyCentralElectronics
       - RipleyPeripheralsElectronics
+      - GygaxCentralElectronics
+      - GygaxPeripheralsElectronics
+      - DurandCentralElectronics
+      - DurandPeripheralsElectronics
       - HonkerCentralElectronics
       - HonkerPeripheralsElectronics
       - HonkerTargetingElectronics
@@ -618,6 +632,50 @@
     - HamtrLLeg
     - HamtrRLeg
     - VimHarness
+    - GygaxHarness
+    - GygaxLArm
+    - GygaxRArm
+    - GygaxLLeg
+    - GygaxRLeg
+    - DurandHarness
+    - DurandLArm
+    - DurandRArm
+    - DurandLLeg
+    - DurandRLeg
+    - MechLaserWeapon
+    - MechScattershotWeapon
+    - MechSolarisLaserWeapon
+    - MechHadesWeapon
+    - MechMssileWeapon
+    - MechTeslaWeapon
+    - ClarkeHarness
+    - ClarkeLArm
+    - ClarkeRArm
+    - ClarkeLLeg
+    - ClarkeRLeg
+    - RipleyMKiiHarness
+    - FireFigterHarness
+    - HaulerHarness
+    - OdysseusHarness
+    - OdysseusLArm
+    - OdysseusRArm
+    - OdysseusLLeg
+    - OdysseusRLeg
+    - MechEquipmentDrill
+    - MechEquipmentDiamondDrill
+    - MechMssileWeaponFSRM
+    - MechEquipmentProtokinet
+    - MechEquipmentMedGunBlue
+    - MechEquipmentMedGunYellow
+    - MechEquipmentMedGunGreen
+    - MechMssileWeaponSGL
+    - MechMssileWeaponSRM
+    - MechMLG
+    - MechLaserWeaponImpuls
+    - MechMssileWeaponShotGun
+    - MechReactorPlasma
+    - MechReactorUranium
+    - MechReactorTesla
   - type: MaterialStorage
     whitelist:
       tags:
