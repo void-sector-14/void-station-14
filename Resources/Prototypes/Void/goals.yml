@@ -29,3 +29,7 @@
 - type: stationGoal
   id: ShuttlePatrol
   text: station-goal-shuttle-patrol
+
+- type: stationGoal
+  id: Mechs
+  text: station-goal-mech
