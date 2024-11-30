@@ -17,6 +17,7 @@
             - !type:SpawnPrototype
               prototype: SheetSteel1
               amount: 5
+            - !type:DeleteEntity {}
           steps:
             - tool: Screwing
               doAfter: 1
@@ -40,6 +41,7 @@
             - !type:SpawnPrototype
               prototype: SheetSteel1
               amount: 5
+            - !type:DeleteEntity {}
           steps:
             - tool: Screwing
               doAfter: 1
@@ -84,6 +86,7 @@
             - !type:SpawnPrototype
               prototype: SheetSteel1
               amount: 5
+            - !type:DeleteEntity {}
           steps:
             - tool: Screwing
               doAfter: 1
@@ -100,12 +103,27 @@
         amount: 15
       - material: MetalRod
         amount: 5
-      - tag: Pipe
+      - tag: Bucket
         icon:
-          sprite: Structures/Piping/Atmospherics/pipe.rsi
-          state: pipeStraight
-        name: труба
+          sprite: Objects/Tools/bucket.rsi
+          state: icon
+        name: ведро
         doAfter: 10
   - node: floordrain
     entity: FloorDrain
-
+    edges:
+        - to: start
+          completed:
+            - !type:SpawnPrototype
+              prototype: SheetSteel1
+              amount: 15
+            - !type:SpawnPrototype
+              prototype: PartRodMetal1
+              amount: 5
+            - !type:SpawnPrototype
+              prototype: Bucket
+              amount: 1
+            - !type:DeleteEntity {}
+          steps:
+            - tool: Screwing
+              doAfter: 10
