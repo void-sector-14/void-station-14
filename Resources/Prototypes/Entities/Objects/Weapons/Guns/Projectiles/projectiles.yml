@@ -681,6 +681,42 @@
     energy: 0.5
 
 - type: entity
+  categories: [ HideSpawnMenu ]
+  id: BulletRocketLRM
+  name: weak rocket
+  parent: BulletWeakRocket
+  components:
+  - type: Explosive
+    explosionType: Default
+    totalIntensity: 40 # about a ~6 tile radius
+    intensitySlope: 1
+    maxIntensity: 5
+
+- type: entity
+  id: BulletWeakRocketFire
+  name: weak rocket
+  parent: BaseBulletTrigger
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
+    layers:
+      - state: frag
+  - type: ExplodeOnTrigger
+  - type: Explosive
+    explosionType: DefaultFire
+    maxIntensity: 15 # max 30 per tile
+    intensitySlope: 1
+    totalIntensity: 30 # 60 total damage to distribute over tiles
+    maxTileBreak: 1
+  - type: PointLight
+    radius: 3.5
+    color: orange
+    energy: 0.5
+  - type: IgniteOnCollide
+    fireStacks: 5
+
+- type: entity
   id: BulletGrenadeBaton
   name: baton grenade
   parent: BaseBullet

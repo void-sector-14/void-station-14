@@ -12,6 +12,7 @@
       - Botany
       - Retranslator
       - ShuttlePatrol
+      - Mechs
 
 - type: entity
   id: BaseStationSiliconLawNTDefault

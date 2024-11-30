@@ -31,8 +31,8 @@ namespace Content.Server.Communications
         /// <summary>
         /// Announcement color
         /// </summary>
-        [ViewVariables]
-        [DataField]
+        [ViewVariables(VVAccess.ReadWrite)]
+        [DataField("color")]
         public Color Color = Color.Gold;
 
         /// <summary>
@@ -65,7 +65,9 @@ namespace Content.Server.Communications
         /// <summary>
         /// Announce sound file path
         /// </summary>
-        [DataField]
-        public SoundSpecifier Sound = new SoundPathSpecifier("/Audio/Announcements/announce.ogg");
+        [ViewVariables(VVAccess.ReadWrite)]
+        [DataField("sound")]
+        public SoundSpecifier? Sound;
+        //  = new SoundPathSpecifier("/Audio/Announcements/announce.ogg")
     }
 }

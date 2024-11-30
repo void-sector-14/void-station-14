@@ -1,4 +1,6 @@
 using System.Linq;
+using Content.Server.Chat.Managers;
+using Content.Server.Chat.Systems;
 using Content.Server.Fax;
 using Content.Server.GameTicking.Events;
 using Content.Server.Station.Components;
@@ -21,6 +23,7 @@ namespace Content.Server.Void.StationGoal
         [Dependency] private readonly IRobustRandom _random = default!;
         [Dependency] private readonly FaxSystem _fax = default!;
         [Dependency] private readonly IPlayerManager _playerManager = default!;
+        [Dependency] private readonly IChatManager _chatManager = default!;
         [Dependency] private readonly StationSystem _station = default!;
 
         public override void Initialize()
@@ -60,6 +63,7 @@ namespace Content.Server.Void.StationGoal
                 if (SendStationGoal(uid, selGoal))
                 {
                     Log.Info($"Goal {selGoal.ID} has been sent to station {MetaData(uid).EntityName}");
+                    _chatManager.SendAdminAnnouncement($"Goal {selGoal.ID} has been sent to station {MetaData(uid).EntityName}");
                 }
             }
         }

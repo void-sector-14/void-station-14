@@ -1,0 +1,126 @@
+- type: technology
+  id: SalvageMech
+  name: Кларк АВГ
+  icon:
+    sprite: Objects/Specific/Mech/clarke_construction.rsi
+    state: clarke18
+  discipline: Industrial
+  tier: 2
+  cost: 15000
+  recipeUnlocks:
+  - ClarkePeripheralsElectronics
+  - ClarkeCentralElectronics
+  - ClarkeHarness
+  - ClarkeLArm
+  - ClarkeRArm
+  - ClarkeLLeg
+  - ClarkeRLeg
+  - MechEquipmentDrill
+  - MechEquipmentProtokinet
+  - MechEquipmentDiamondDrill
+  technologyPrerequisites:
+  - RipleyAPLU
+
+- type: technology
+  id: RipleyMKIIMech
+  name: Укрепление конструкции
+  icon:
+    sprite: Objects/Specific/Mech/mecha.rsi
+    state: ripleymkii-open
+  discipline: Industrial
+  tier: 2
+  cost: 15000
+  recipeUnlocks:
+  - RipleyMKiiPeripheralsElectronics
+  - RipleyMKiiCentralElectronics
+  - RipleyMKiiHarness
+  technologyPrerequisites:
+  - RipleyAPLU
+
+- type: technology
+  id: FirefighterMech
+  name: Укрепленные композиты
+  icon:
+    sprite: Objects/Specific/Mech/mecha.rsi
+    state: firefighter-open
+  discipline: Industrial
+  tier: 2
+  cost: 20000
+  recipeUnlocks:
+  - FifeFighterPeripheralsElectronics
+  - FifeFighterCentralElectronics
+  - FireFigterHarness
+  technologyPrerequisites:
+  - RipleyAPLU
+
+- type: technology
+  id: HaulerMech
+  name: Улучшенные сервоприводы
+  icon:
+    sprite: Objects/Specific/Mech/mecha.rsi
+    state: hauler-open
+  discipline: Industrial
+  tier: 2
+  cost: 20000
+  recipeUnlocks:
+  - HaulerPeripheralsElectronics
+  - HaulerCentralElectronics
+  - HaulerHarness
+  technologyPrerequisites:
+  - RipleyAPLU
+
+- type: technology
+  id: OdysseusMech
+  name: Облегчение конструкции
+  icon:
+    sprite: Objects/Specific/Mech/odysseus_construction.rsi
+    state: odysseus18
+  discipline: Biochemical
+  tier: 3
+  cost: 15000
+  recipeUnlocks:
+  - OdysseusPeripheralsElectronics
+  - OdysseusCentralElectronics
+  - OdysseusHarness
+  - OdysseusLArm
+  - OdysseusRArm
+  - OdysseusLLeg
+  - OdysseusRLeg
+  - MechEquipmentMedGunBlue
+  - MechEquipmentMedGunYellow
+  - MechEquipmentMedGunGreen
+
+- type: technology
+  id: ModernWarGun
+  name: Модернизация боевых средств
+  icon:
+    sprite: Objects/Specific/Mech/mecha_equipment.rsi
+    state: mecha_pulse
+  discipline: Arsenal
+  tier: 3
+  cost: 30000
+  recipeUnlocks:
+  - MechMissileWeaponSGL
+  - MechMissileWeaponSRM
+  - MechMLG
+  - MechLaserWeaponImpuls
+  - MechMissileWeaponShotGun
+  - MechMissileWeaponFSRM
+  technologyPrerequisites:
+  - ModernCombatMechs
+
+- type: technology
+  id: ModernReactor
+  name: Модернизация миниатюрных средств питания
+  icon:
+    sprite: Objects/Specific/Mech/mecha_equipment.rsi
+    state: uranium
+  discipline: Industrial
+  tier: 3
+  cost: 30000
+  recipeUnlocks:
+  - MechReactorPlasma
+  - MechReactorUranium
+  - MechReactorTesla
+  technologyPrerequisites:
+  - PortableFission

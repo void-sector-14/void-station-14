@@ -15,11 +15,15 @@ using Content.Shared.Movement.Components;
 using Content.Shared.Movement.Systems;
 using Content.Shared.Popups;
 using Content.Shared.Weapons.Melee;
+using Content.Shared.Weapons.Ranged.Events;
 using Content.Shared.Whitelist;
 using Robust.Shared.Containers;
 using Robust.Shared.Network;
 using Robust.Shared.Serialization;
 using Robust.Shared.Timing;
+using Content.Shared.NPC.Components;
+using Content.Shared.Mobs.Components;
+using Content.Shared.Mobs;
 
 namespace Content.Shared.Mech.EntitySystems;
 
@@ -368,6 +372,51 @@ public abstract class SharedMechSystem : EntitySystem
         SetupUser(uid, toInsert.Value);
         _container.Insert(toInsert.Value, component.PilotSlot);
         UpdateAppearance(uid, component);
+
+        if (TryComp<NpcFactionMemberComponent>(toInsert, out var npcPlayer))
+        {
+            var npcMech = new NpcFactionMemberComponent
+            {
+                Factions = npcPlayer.Factions,
+                FriendlyFactions = npcPlayer.FriendlyFactions,
+                HostileFactions = npcPlayer.HostileFactions,
+            };
+
+            AddComp(uid, npcMech);
+        }
+
+        if (TryComp<MobStateComponent>(toInsert, out var mobStatePlayer))
+        {
+            var mobMech = new MobStateComponent
+            {
+                CurrentState = mobStatePlayer.CurrentState,
+                AllowedStates = mobStatePlayer.AllowedStates
+            };
+
+            AddComp(uid, mobMech);
+        }
+
+        if (TryComp<MobThresholdsComponent>(toInsert, out var mobThresholdsPlayer))
+        {
+            var mobThresholdsMech = new MobThresholdsComponent
+            {
+                Thresholds = new SortedDictionary<FixedPoint2, MobState>
+                {
+                    {new FixedPoint2(), MobState.Alive},
+                    {new FixedPoint2() + component.MaxIntegrity, MobState.Critical},
+                    {new FixedPoint2() + component.MaxIntegrity + 1, MobState.Dead},
+                },
+                TriggersAlerts = mobThresholdsPlayer.TriggersAlerts,
+                CurrentThresholdState = mobThresholdsPlayer.CurrentThresholdState,
+                StateAlertDict = mobThresholdsPlayer.StateAlertDict,
+                HealthAlertCategory = mobThresholdsPlayer.HealthAlertCategory,
+                ShowOverlays = mobThresholdsPlayer.ShowOverlays,
+                AllowRevives = mobThresholdsPlayer.AllowRevives,
+            };
+
+            AddComp(uid, mobThresholdsMech);
+        }
+
         return true;
     }
 
@@ -390,6 +439,16 @@ public abstract class SharedMechSystem : EntitySystem
         RemoveUser(uid, pilot);
         _container.RemoveEntity(uid, pilot);
         UpdateAppearance(uid, component);
+
+        if (TryComp<NpcFactionMemberComponent>(uid, out var npc))
+            RemComp(uid, npc);
+
+        if (TryComp<MobStateComponent>(uid, out var mobState))
+            RemComp(uid, mobState);
+
+        if (TryComp<MobThresholdsComponent>(uid, out var mobThresholds))
+            RemComp(uid, mobThresholds);
+
         return true;
     }
 

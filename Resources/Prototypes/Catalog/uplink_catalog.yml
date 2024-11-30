@@ -2104,3 +2104,19 @@
     whitelist:
     - Chef
     - Mime
+
+- type: listing
+  id: UplinkMauler
+  name: uplink-mauler-name
+  description: uplink-mauler-desc
+  icon: { sprite: Objects/Specific/Mech/mecha.rsi, state: mauler }
+  productEntity: CrateMaulerBundle
+  cost:
+    Telecrystal: 120
+  categories:
+  - UplinkWeaponry
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+        - NukeOpsUplink

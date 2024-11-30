@@ -32,7 +32,7 @@
 - type: entity
   parent: BaseSpeciesDummy
   id: MobVulpkaninPersonDummy
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: HumanoidAppearance
     species: VulpkaninPerson

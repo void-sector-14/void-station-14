@@ -1,3 +1,4 @@
+using Content.Shared.Mech.EntitySystems;
 using Content.Shared.NPC.Prototypes;
 using Content.Shared.NPC.Systems;
 using Robust.Shared.GameStates;
@@ -5,7 +6,7 @@ using Robust.Shared.Prototypes;
 
 namespace Content.Shared.NPC.Components;
 
-[RegisterComponent, NetworkedComponent, Access(typeof(NpcFactionSystem))]
+[RegisterComponent, NetworkedComponent, Access(typeof(NpcFactionSystem), typeof(SharedMechSystem))]
 public sealed partial class NpcFactionMemberComponent : Component
 {
     /// <summary>
@@ -18,13 +19,13 @@ public sealed partial class NpcFactionMemberComponent : Component
     /// Cached friendly factions.
     /// </summary>
     [ViewVariables]
-    public readonly HashSet<ProtoId<NpcFactionPrototype>> FriendlyFactions = new();
+    public HashSet<ProtoId<NpcFactionPrototype>> FriendlyFactions = new();
 
     /// <summary>
     /// Cached hostile factions.
     /// </summary>
     [ViewVariables]
-    public readonly HashSet<ProtoId<NpcFactionPrototype>> HostileFactions = new();
+    public HashSet<ProtoId<NpcFactionPrototype>> HostileFactions = new();
 
     /// <summary>
     /// Used to add friendly factions in prototypes.

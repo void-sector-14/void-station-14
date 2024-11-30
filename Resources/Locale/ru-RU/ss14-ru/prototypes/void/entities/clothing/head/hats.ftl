@@ -15,3 +15,5 @@ ent-ClothingHeadHatBeretBlueshield = берет офицера синего щи
     .suffix = { "" }
 ent-ClothingHeadFlash = шлем вспышки
     .desc = Дополняет великолепный костюм вспышки!
+ent-ClothingExpensiveHat = дорогая шляпа
+    .desc = Ваша невероятно дорогая шляпа, к вашей невероятно дорогой шубе!

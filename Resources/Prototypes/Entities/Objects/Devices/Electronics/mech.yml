@@ -121,3 +121,326 @@
     - type: GuideHelp
       guides:
       - Robotics
+
+# Gygax
+
+- type: entity
+  id: GygaxCentralElectronics
+  parent: BaseElectronics
+  name: gygax central control module
+  description: The electrical control center for the gygax mech.
+  components:
+    - type: Item
+      storedRotation: 0
+    - type: Sprite
+      sprite: Objects/Misc/module.rsi
+      state: mainboard
+    - type: Tag
+      tags:
+      - GygaxCentralControlModule
+    - type: GuideHelp
+      guides:
+      - Robotics
+
+- type: entity
+  id: GygaxPeripheralsElectronics
+  parent: BaseElectronics
+  name: gygax peripherals control module
+  description: The electrical peripherals control for the gygax mech.
+  components:
+    - type: Sprite
+      sprite: Objects/Misc/module.rsi
+      state: id_mod
+    - type: Tag
+      tags:
+      - GygaxPeripheralsControlModule
+    - type: GuideHelp
+      guides:
+      - Robotics
+# Dark Gygax
+
+- type: entity
+  id: DarkGygaxCentralElectronics
+  parent: BaseElectronics
+  name: центральный модуль управления Гайрекса
+  description: центральный модуль управления Гайрекса.
+  components:
+    - type: Item
+      storedRotation: 0
+    - type: Sprite
+      sprite: Objects/Misc/module.rsi
+      state: mainboard
+    - type: Tag
+      tags:
+      - DarkGygaxCentralControlModule
+    - type: GuideHelp
+      guides:
+      - Robotics
+
+- type: entity
+  id: DarkGygaxPeripheralsElectronics
+  parent: BaseElectronics
+  name: модуль управления периферией Гайрекса
+  description: Система управления электрическими периферийными устройствами меха Гайрекса.
+  components:
+    - type: Sprite
+      sprite: Objects/Misc/module.rsi
+      state: id_mod
+    - type: Tag
+      tags:
+      - DarkGygaxPeripheralsControlModule
+    - type: GuideHelp
+      guides:
+      - Robotics
+
+# Durand
+
+- type: entity
+  id: DurandCentralElectronics
+  parent: BaseElectronics
+  name: durand central control module
+  description: The electrical control center for the durand mech.
+  components:
+    - type: Item
+      storedRotation: 0
+    - type: Sprite
+      sprite: Objects/Misc/module.rsi
+      state: mainboard
+    - type: Tag
+      tags:
+      - DurandCentralControlModule
+    - type: GuideHelp
+      guides:
+      - Robotics
+
+- type: entity
+  id: DurandPeripheralsElectronics
+  parent: BaseElectronics
+  name: durand peripherals control module
+  description: The electrical peripherals control for the durand mech.
+  components:
+    - type: Sprite
+      sprite: Objects/Misc/module.rsi
+      state: id_mod
+    - type: Tag
+      tags:
+      - DurandPeripheralsControlModule
+    - type: GuideHelp
+      guides:
+      - Robotics
+
+# Clarke
+
+- type: entity
+  id: ClarkeCentralElectronics
+  parent: BaseElectronics
+  name: центральный модуль управления Кларка
+  description: центральный модуль управления Кларка.
+  components:
+    - type: Item
+      storedRotation: 0
+    - type: Sprite
+      sprite: Objects/Misc/module.rsi
+      state: mainboard
+    - type: Tag
+      tags:
+      - ClarkeCentralControlModule
+    - type: GuideHelp
+      guides:
+      - Robotics
+
+- type: entity
+  id: ClarkePeripheralsElectronics
+  parent: BaseElectronics
+  name: модуль управления периферией Кларка
+  description: Система управления электрическими периферийными устройствами меха Кларка.
+  components:
+    - type: Sprite
+      sprite: Objects/Misc/module.rsi
+      state: id_mod
+    - type: Tag
+      tags:
+      - ClarkePeripheralsControlModule
+    - type: GuideHelp
+      guides:
+      - Robotics
+
+# Marauder
+
+- type: entity
+  id: MarauderCentralElectronics
+  parent: BaseElectronics
+  name: центральный модуль управления Мародера
+  description: центральный модуль управления Мародера.
+  components:
+    - type: Item
+      storedRotation: 0
+    - type: Sprite
+      sprite: Objects/Misc/module.rsi
+      state: mainboard
+    - type: Tag
+      tags:
+      - MarauderCentralControlModule
+    - type: GuideHelp
+      guides:
+      - Robotics
+
+- type: entity
+  id: MarauderPeripheralsElectronics
+  parent: BaseElectronics
+  name: модуль управления периферией Мародера
+  description: Система управления электрическими периферийными устройствами меха Мародера.
+  components:
+    - type: Sprite
+      sprite: Objects/Misc/module.rsi
+      state: id_mod
+    - type: Tag
+      tags:
+      - MarauderPeripheralsControlModule
+    - type: GuideHelp
+      guides:
+      - Robotics
+
+# Odysseus
+
+- type: entity
+  id: OdysseusCentralElectronics
+  parent: BaseElectronics
+  name: центральный модуль управления Одиссея
+  description: центральный модуль управления Одиссея.
+  components:
+    - type: Item
+      storedRotation: 0
+    - type: Sprite
+      sprite: Objects/Misc/module.rsi
+      state: mainboard
+    - type: Tag
+      tags:
+      - OdysseusCentralControlModule
+    - type: GuideHelp
+      guides:
+      - Robotics
+
+- type: entity
+  id: OdysseusPeripheralsElectronics
+  parent: BaseElectronics
+  name: модуль управления периферией Одиссея
+  description: Система управления электрическими периферийными устройствами меха Одиссея.
+  components:
+    - type: Sprite
+      sprite: Objects/Misc/module.rsi
+      state: id_mod
+    - type: Tag
+      tags:
+      - OdysseusPeripheralsControlModule
+    - type: GuideHelp
+      guides:
+      - Robotics
+
+# RipleyMKii
+
+- type: entity
+  id: RipleyMKiiCentralElectronics
+  parent: BaseElectronics
+  name: центральный модуль управления Рипли мк2
+  description: центральный модуль управления Рипли мк2.
+  components:
+    - type: Item
+      storedRotation: 0
+    - type: Sprite
+      sprite: Objects/Misc/module.rsi
+      state: mainboard
+    - type: Tag
+      tags:
+      - RipleyMKiiCentralControlModule
+    - type: GuideHelp
+      guides:
+      - Robotics
+
+- type: entity
+  id: RipleyMKiiPeripheralsElectronics
+  parent: BaseElectronics
+  name: модуль управления периферией Рипли мк2
+  description: Система управления электрическими периферийными устройствами меха Рипли мк2.
+  components:
+    - type: Sprite
+      sprite: Objects/Misc/module.rsi
+      state: id_mod
+    - type: Tag
+      tags:
+      - RipleyMKiiPeripheralsControlModule
+    - type: GuideHelp
+      guides:
+      - Robotics
+
+# Hauler
+
+- type: entity
+  id: HaulerCentralElectronics
+  parent: BaseElectronics
+  name: центральный модуль управления Хаулер
+  description: центральный модуль управления Хаулер.
+  components:
+    - type: Item
+      storedRotation: 0
+    - type: Sprite
+      sprite: Objects/Misc/module.rsi
+      state: mainboard
+    - type: Tag
+      tags:
+      - HaulerCentralControlModule
+    - type: GuideHelp
+      guides:
+      - Robotics
+
+- type: entity
+  id: HaulerPeripheralsElectronics
+  parent: BaseElectronics
+  name: модуль управления периферией Хаулер
+  description: Система управления электрическими периферийными устройствами меха Хаулер.
+  components:
+    - type: Sprite
+      sprite: Objects/Misc/module.rsi
+      state: id_mod
+    - type: Tag
+      tags:
+      - HaulerPeripheralsControlModule
+    - type: GuideHelp
+      guides:
+      - Robotics
+
+# FifeFighter
+
+- type: entity
+  id: FifeFighterCentralElectronics
+  parent: BaseElectronics
+  name: центральный модуль управления Пожарного рипли
+  description: центральный модуль управления Пожарного рипли.
+  components:
+    - type: Item
+      storedRotation: 0
+    - type: Sprite
+      sprite: Objects/Misc/module.rsi
+      state: mainboard
+    - type: Tag
+      tags:
+      - FifeFighterCentralControlModule
+    - type: GuideHelp
+      guides:
+      - Robotics
+
+- type: entity
+  id: FifeFighterPeripheralsElectronics
+  parent: BaseElectronics
+  name: модуль управления периферией Пожарного рипли
+  description: Система управления электрическими периферийными устройствами меха Пожарного рипли.
+  components:
+    - type: Sprite
+      sprite: Objects/Misc/module.rsi
+      state: id_mod
+    - type: Tag
+      tags:
+      - FifeFighterPeripheralsControlModule
+    - type: GuideHelp
+      guides:
+      - Robotics

@@ -17,6 +17,7 @@ using Content.Shared.Interaction;
 using Content.Shared.Inventory;
 using Content.Shared.Jittering;
 using Content.Shared.Maps;
+using Content.Shared.Mech.Components;
 using Content.Shared.Popups;
 using Content.Shared.Speech.EntitySystems;
 using Content.Shared.StatusEffect;
@@ -374,6 +375,9 @@ public sealed class ElectrocutionSystem : SharedElectrocutionSystem
         int? shockDamage, TimeSpan time, bool refresh, float siemensCoefficient = 1f,
         StatusEffectsComponent? statusEffects = null)
     {
+        if (TryComp<MechPilotComponent>(uid, out var _))
+            return false;
+
         if (siemensCoefficient <= 0)
             return false;
 

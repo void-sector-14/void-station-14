@@ -318,6 +318,24 @@
   id: CigPack
 
 - type: Tag
+  id: ClarkePeripheralsControlModule # Clarke Mech
+
+- type: Tag
+  id: ClarkeCentralControlModule
+
+- type: Tag
+  id: ClarkeLArm
+
+- type: Tag
+  id: ClarkeRArm
+
+- type: Tag
+  id: ClarkeLLeg
+
+- type: Tag
+  id: ClarkeRLeg
+
+- type: Tag
   id: Cleaver
 
 - type: Tag
@@ -435,6 +453,12 @@
   id: CubanCarp
 
 - type: Tag
+  id: DarkGygaxPeripheralsControlModule # Dark Gygax Mech
+
+- type: Tag
+  id: DarkGygaxCentralControlModule
+
+- type: Tag
   id: DeathAcidifier
 
 - type: Tag
@@ -528,6 +552,12 @@
   id: FireAxe
 
 - type: Tag
+  id: FifeFighterCentralControlModule # FifeFighter Mech
+
+- type: Tag
+  id: FifeFighterPeripheralsControlModule
+
+- type: Tag
   id: FirelockElectronics
 
 - type: Tag
@@ -610,6 +640,12 @@
 
 - type: Tag
   id: Grenade
+
+- type: Tag
+  id: HaulerCentralControlModule # Hauler Mech
+
+- type: Tag
+  id: HaulerPeripheralsControlModule
 
 - type: Tag
   id: HudMedical
@@ -850,7 +886,13 @@
   id: Medkit
 
 - type: Tag
+  id: MedMech
+
+- type: Tag
   id: Metal
+
+- type: Tag
+  id: MechReactor
 
 - type: Tag
   id: MicroBomb
@@ -895,6 +937,24 @@
   id: Mouse
 
 - type: Tag
+  id: MarauderPeripheralsControlModule # Marauder Mech
+
+- type: Tag
+  id: MarauderCentralControlModule
+
+- type: Tag
+  id: MarauderLArm
+
+- type: Tag
+  id: MarauderRArm
+
+- type: Tag
+  id: MarauderLLeg
+
+- type: Tag
+  id: MarauderRLeg
+
+- type: Tag
   id: Multitool
 
 - type: Tag
@@ -914,6 +974,24 @@
 
 - type: Tag
   id: NukeOpsUplink
+
+- type: Tag
+  id: OdysseusPeripheralsControlModule # Odysseus Mech
+
+- type: Tag
+  id: OdysseusCentralControlModule
+
+- type: Tag
+  id: OdysseusLArm
+
+- type: Tag
+  id: OdysseusRArm
+
+- type: Tag
+  id: OdysseusLLeg
+
+- type: Tag
+  id: OdysseusRLeg
 
 - type: Tag
   id: Ointment
@@ -1053,6 +1131,12 @@
 
 - type: Tag
   id: RipleyPeripheralsControlModule
+
+- type: Tag
+  id: RipleyMKiiCentralControlModule # RipleyMKii Mech
+
+- type: Tag
+  id: RipleyMKiiPeripheralsControlModule
 
 - type: Tag
   id: RipleyLArm
@@ -1365,4 +1449,56 @@
 
 - type: Tag
   id: Tourniquet
+
+- type: Tag
+  id: CombatMech
+
+- type: Tag
+  id: ExoMech
+
+- type: Tag
+  id: GygaxPeripheralsControlModule
+
+- type: Tag
+  id: GygaxCentralControlModule
+
+- type: Tag
+  id: GygaxLArm
+
+- type: Tag
+  id: GygaxLLeg
+
+- type: Tag
+  id: GygaxRLeg
+
+- type: Tag
+  id: GygaxRArm
+
+- type: Tag
+  id: DurandPeripheralsControlModule
+
+- type: Tag
+  id: DurandCentralControlModule
+
+- type: Tag
+  id: DurandLArm
+
+- type: Tag
+  id: DurandLLeg
+
+- type: Tag
+  id: DurandRLeg
+
+- type: Tag
+  id: DurandRArm
+
 # ALPHABETICAL
+
+- type: Tag
+  id: Barrel
+
+- type: Tag
+  id: Orc
+
+- type: Tag
+  id: Reptilian

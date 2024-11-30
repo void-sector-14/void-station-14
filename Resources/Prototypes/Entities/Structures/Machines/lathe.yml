@@ -151,6 +151,7 @@
       - LightBulb
       - LedLightBulb
       - ExteriorLightBulb
+      - DimLightBulb
       - Bucket
       - DrinkMug
       - DrinkMugMetal
@@ -456,6 +457,16 @@
     - StationAnchorCircuitboard
     - SalvageMagnetMachineCircuitboard
     dynamicRecipes:
+      - ClarkePeripheralsElectronics
+      - ClarkeCentralElectronics
+      - RipleyMKiiPeripheralsElectronics
+      - RipleyMKiiCentralElectronics
+      - FifeFighterPeripheralsElectronics
+      - FifeFighterCentralElectronics
+      - HaulerPeripheralsElectronics
+      - HaulerCentralElectronics
+      - OdysseusPeripheralsElectronics
+      - OdysseusCentralElectronics
       - ThermomachineFreezerMachineCircuitBoard
       - HellfireFreezerMachineCircuitBoard
       - PortableScrubberMachineCircuitBoard
@@ -494,6 +505,10 @@
       - CargoTelepadMachineCircuitboard
       - RipleyCentralElectronics
       - RipleyPeripheralsElectronics
+      - GygaxCentralElectronics
+      - GygaxPeripheralsElectronics
+      - DurandCentralElectronics
+      - DurandPeripheralsElectronics
       - HonkerCentralElectronics
       - HonkerPeripheralsElectronics
       - HonkerTargetingElectronics
@@ -617,6 +632,50 @@
     - HamtrLLeg
     - HamtrRLeg
     - VimHarness
+    - GygaxHarness
+    - GygaxLArm
+    - GygaxRArm
+    - GygaxLLeg
+    - GygaxRLeg
+    - DurandHarness
+    - DurandLArm
+    - DurandRArm
+    - DurandLLeg
+    - DurandRLeg
+    - MechLaserWeapon
+    - MechScattershotWeapon
+    - MechSolarisLaserWeapon
+    - MechHadesWeapon
+    - MechMissileWeapon
+    - MechTeslaWeapon
+    - ClarkeHarness
+    - ClarkeLArm
+    - ClarkeRArm
+    - ClarkeLLeg
+    - ClarkeRLeg
+    - RipleyMKiiHarness
+    - FireFigterHarness
+    - HaulerHarness
+    - OdysseusHarness
+    - OdysseusLArm
+    - OdysseusRArm
+    - OdysseusLLeg
+    - OdysseusRLeg
+    - MechEquipmentDrill
+    - MechEquipmentDiamondDrill
+    - MechMissileWeaponFSRM
+    - MechEquipmentProtokinet
+    - MechEquipmentMedGunBlue
+    - MechEquipmentMedGunYellow
+    - MechEquipmentMedGunGreen
+    - MechMissileWeaponSGL
+    - MechMissileWeaponSRM
+    - MechMLG
+    - MechLaserWeaponImpuls
+    - MechMissileWeaponShotGun
+    - MechReactorPlasma
+    - MechReactorUranium
+    - MechReactorTesla
   - type: MaterialStorage
     whitelist:
       tags:

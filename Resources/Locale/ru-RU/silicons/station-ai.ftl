@@ -14,3 +14,4 @@ electrify-door-on = Поднять напряжение
 electrify-door-off = Снизить напряжение
 toggle-light = Переключить свет
 ai-device-not-responding = Устройство не отвечает
+ai-consciousness-download-warning = Ваше сознание загружается.

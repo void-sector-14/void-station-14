@@ -31,3 +31,6 @@ ent-ImmovableRodGibstick = неподвижная палка-гиббер
     .desc = А чего вы ожидали?
 ent-ImmovableRodWeh = неподвижный вех
     .desc = ВЕХ!
+ent-ImmovableRodBugatti = { ent-ImmovableRod }
+    .suffix = Адмем, Bugatti
+    .desc = { ent-ImmovableRod.desc }

@@ -1,4 +1,5 @@
 using Content.Shared.Damage;
+using Content.Shared.Mech.EntitySystems;
 using Content.Shared.Mobs.Systems;
 using Robust.Shared.GameStates;
 using Robust.Shared.Serialization;
@@ -14,7 +15,7 @@ namespace Content.Shared.Mobs.Components
     [RegisterComponent]
     [NetworkedComponent]
     [AutoGenerateComponentState]
-    [Access(typeof(MobStateSystem), typeof(MobThresholdSystem))]
+    [Access(typeof(MobStateSystem), typeof(MobThresholdSystem), typeof(SharedMechSystem))]
     public sealed partial class MobStateComponent : Component
     {
         //default mobstate is always the lowest state level

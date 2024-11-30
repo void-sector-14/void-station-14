@@ -22,6 +22,9 @@
   - type: Sprite
     state: mecha_clamp
   - type: MechGrabber
+  - type: Tag
+    tags:
+    - ExoMech
   - type: UIFragment
     ui: !type:MechGrabberUi
   - type: ContainerContainer
@@ -70,3 +73,246 @@
   - type: UseDelay
     delay: 0.5
   # TODO: tag as being for H.O.N.K. only!!!
+
+#
+- type: entity
+  id: MechEquipmentDiamondDrill
+  parent: BaseMechEquipment
+  name: алмазный бур
+  description: Индустриальный бур с алмазным напылением
+  components:
+  - type: Sprite
+    state: mecha_diamond_drill
+  - type: Tag
+    tags:
+    - ExoMech
+  - type: MeleeWeapon
+    autoAttack: true
+    angle: 0
+    wideAnimationRotation: -90
+    soundHit:
+      path: "/Audio/Items/drill_hit.ogg"
+    attackRate: 4
+    damage:
+      groups:
+        Brute: 6
+      types:
+        Structural: 30
+
+- type: entity
+  id: MechEquipmentDrill
+  parent: BaseMechEquipment
+  name: индустриальный бур
+  description: Индустриальный бур, только для настоящих шахтеров.
+  components:
+  - type: Sprite
+    state: mecha_drill
+  - type: Tag
+    tags:
+    - ExoMech
+  - type: MeleeWeapon
+    autoAttack: true
+    angle: 0
+    wideAnimationRotation: -90
+    soundHit:
+      path: "/Audio/Items/drill_hit.ogg"
+    attackRate: 4
+    damage:
+      groups:
+        Brute: 3
+      types:
+        Structural: 15
+
+- type: entity
+  id: MechEquipmentProtokinet
+  parent: BaseMechEquipment
+  name: протокинетический ускоритель
+  description: Протокинетический ускоритель, только гораздо больше.
+  components:
+  - type: Sprite
+    state: mecha_kineticgun
+  - type: Tag
+    tags:
+    - ExoMech
+  - type: ProjectileBatteryAmmoProvider
+    proto: BulletKinetic
+    fireCost: 50
+  - type: Gun
+    selectedMode: FullAuto
+    fireRate: 1
+    availableModes:
+      - FullAuto
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/kinetic_accel.ogg
+  - type: Battery
+    maxCharge: 51
+    startingCharge: 51
+  - type: Appearance
+  - type: BatterySelfRecharger
+    autoRecharge: true
+    autoRechargeRate: 1
+
+# - type: entity
+#   id: MechEquipmentCutter
+#   parent: BaseMechEquipment
+#   name: плазменный резак
+#   description: Gives the mech the ability to grab things and drag them around.
+#   components:
+#   - type: Sprite
+#     state: mecha_plasmacutter
+#   - type: Tag
+#     tags:
+#     - ExoMech
+#   - type: ProjectileBatteryAmmoProvider
+#     proto: BulletCutter
+#     fireCost: 50
+#   - type: Gun
+#     selectedMode: FullAuto
+#     fireRate: 1
+#     availableModes:
+#       - FullAuto
+#     soundGunshot:
+#       path: /Audio/Weapons/Guns/Gunshots/kinetic_accel.ogg
+#   - type: Battery
+#     maxCharge: 51
+#     startingCharge: 51
+#   - type: Appearance
+#  визарды меняли систему урона и теперь эта залупка не работает
+
+# - type: entity
+#   id: MechEquipmentRCD
+#   parent: [BaseMechEquipment, RCD]
+#   name: навесной РСУ
+#   description: РСУ для киборка, только гораздо больше
+#   components:
+#   - type: Sprite
+#     state: mecha_rcd
+#   - type: LimitedCharges
+#     maxCharges: 20
+#     charges: 20
+#   - type: AutoRecharge
+#     rechargeDuration: 10
+# нельзя засунуть в меха
+
+
+# - type: entity
+#   id: MechEquipmentExting
+#   parent: BaseMechEquipment
+#   name: навесной огнетушитель
+#   description: Огнетушитель из шкафа, только гораздо больше
+#   components:
+#   - type: Sprite
+#     state: mecha_exting
+#   - type: SolutionContainerManager
+#     solutions:
+#       spray:
+#         maxVol: 1000
+#         reagents:
+#         - ReagentId: Water
+#           Quantity: 1000
+#   - type: RefillableSolution
+#     solution: spray
+#   - type: DrainableSolution
+#     solution: spray
+#   - type: SolutionTransfer
+#     maxTransferAmount: 100
+#     transferAmount: 100
+#   - type: Spray
+#     transferAmount: 10
+#     pushbackAmount: 60
+#     spraySound:
+#       path: /Audio/Effects/extinguish.ogg
+#     sprayedPrototype: ExtinguisherSpray
+#     vaporAmount: 3
+#     vaporSpread: 90
+#     sprayVelocity: 1
+#   - type: UseDelay
+#  нельзя засунуть в меха
+
+#  медицинские инструменты
+- type: entity
+  id: MechEquipmentMedGunBlue
+  parent: BaseMechEquipment
+  name: медицинский лазер от токсичных повреждений
+  description: Медицинский лазер для лечения различных увечий
+  components:
+  - type: Sprite
+    state: mecha_medigun
+  - type: HitscanBatteryAmmoProvider
+    proto: MedLaserBlue
+    fireCost: 50
+  - type: Appearance
+  - type: Battery
+    maxCharge: 51
+    startingCharge: 51
+  - type: Gun
+    fireRate: 2
+    selectedMode: FullAuto
+    availableModes:
+      - FullAuto
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/laser.ogg
+  - type: Tag
+    tags:
+    - MedMech
+  - type: BatterySelfRecharger
+    autoRecharge: true
+    autoRechargeRate: 1
+
+- type: entity
+  id: MechEquipmentMedGunYellow
+  parent: BaseMechEquipment
+  name: медицинский лазер от физических повреждений
+  description: Медицинский лазер для лечения различных увечий
+  components:
+  - type: Sprite
+    state: mecha_medigun_yellow
+  - type: HitscanBatteryAmmoProvider
+    proto: MedLaserYellow
+    fireCost: 50
+  - type: Appearance
+  - type: Battery
+    maxCharge: 51
+    startingCharge: 51
+  - type: Gun
+    fireRate: 2
+    selectedMode: FullAuto
+    availableModes:
+      - FullAuto
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/laser.ogg
+  - type: Tag
+    tags:
+    - MedMech
+  - type: BatterySelfRecharger
+    autoRecharge: true
+    autoRechargeRate: 1
+
+- type: entity
+  id: MechEquipmentMedGunGreen
+  parent: BaseMechEquipment
+  name: медицинский лазер от механический повреждений
+  description: Медицинский лазер для лечения различных увечий
+  components:
+  - type: Sprite
+    state: mecha_medigun_green
+  - type: HitscanBatteryAmmoProvider
+    proto: MedLaserGreen
+    fireCost: 50
+  - type: Appearance
+  - type: Battery
+    maxCharge: 51
+    startingCharge: 51
+  - type: Gun
+    fireRate: 2
+    selectedMode: FullAuto
+    availableModes:
+      - FullAuto
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/laser.ogg
+  - type: Tag
+    tags:
+    - MedMech
+  - type: BatterySelfRecharger
+    autoRecharge: true
+    autoRechargeRate: 1

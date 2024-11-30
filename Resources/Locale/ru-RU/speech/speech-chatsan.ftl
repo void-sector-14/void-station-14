@@ -377,6 +377,5 @@ corvax-chatsan-word-124 = лкм
 corvax-chatsan-replacement-124 = левая рука
 corvax-chatsan-word-125 = пкм
 corvax-chatsan-replacement-125 = правая рука
-
 chatsan-word-void-1 = ссд
 chatsan-replacement-void-1 = крс

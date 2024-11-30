@@ -5,6 +5,14 @@
   components:
   - type: MobMover
   - type: Mech
+    maxEquipmentAmount: 2
+    pilotWhitelist:
+      tags:
+      - CanPilot
+    batteryWhitelist:
+      tags:
+      - PowerCell
+      - MechReactor
   - type: MechAir
   - type: AirFilter
     # everything except oxygen and nitrogen
@@ -92,19 +100,7 @@
   - type: GuideHelp
     guides:
     - Robotics
-  - type: Destructible
-    thresholds:
-    - trigger:
-        !type:DamageTrigger
-        damage: 400
-      behaviors:
-      - !type:PlaySoundBehavior
-        sound:
-          collection: MetalBreak
-      - !type:ChangeConstructionNodeBehavior
-        node: start
-      - !type:DoActsBehavior
-        acts: ["Destruction"]
+
 
 - type: entity
   id: MechRipley
@@ -126,7 +122,11 @@
     baseState: ripley
     openState: ripley-open
     brokenState: ripley-broken
-    mechToPilotDamageMultiplier: 0.75
+    maxIntegrity: 200
+    mechToPilotDamageMultiplier: 0.60
+    equipmentWhitelist:
+      tags:
+      - ExoMech
     pilotWhitelist:
       components:
         - HumanoidAppearance
@@ -136,9 +136,25 @@
     damage:
       types:
         Blunt: 14 #intentionally shit so people realize that going into combat with the ripley is usually a bad idea.
+  - type: Damageable
+    damageContainer: Inorganic
+    damageModifierSet: RipleyDamageSet
   - type: MovementSpeedModifier
     baseWalkSpeed: 2.25
     baseSprintSpeed: 3.6
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 450
+      behaviors:
+      - !type:PlaySoundBehavior
+        sound:
+          collection: MetalBreak
+      - !type:ChangeConstructionNodeBehavior
+        node: start
+      - !type:DoActsBehavior
+        acts: ["Destruction"]
 
 - type: entity
   id: MechRipleyBattery
@@ -170,6 +186,7 @@
       params:
         variation: 0.17
   - type: Mech
+    maxIntegrity: 150
     baseState: honker
     openState: honker-open
     brokenState: honker-broken
@@ -177,6 +194,19 @@
     pilotWhitelist:
       components:
       - HumanoidAppearance
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 400
+      behaviors:
+      - !type:PlaySoundBehavior
+        sound:
+          collection: MetalBreak
+      - !type:ChangeConstructionNodeBehavior
+        node: start
+      - !type:DoActsBehavior
+        acts: ["Destruction"]
 
 - type: entity
   parent: MechHonker
@@ -205,6 +235,7 @@
     footstepSoundCollection:
       path: /Audio/Mecha/sound_mecha_powerloader_step.ogg
   - type: Mech
+    maxIntegrity: 100
     baseState: hamtr
     openState: hamtr-open
     brokenState: hamtr-broken
@@ -227,6 +258,19 @@
   - type: MovementSpeedModifier
     baseWalkSpeed: 2.4
     baseSprintSpeed: 3.7
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 200
+      behaviors:
+      - !type:PlaySoundBehavior
+        sound:
+          collection: MetalBreak
+      - !type:ChangeConstructionNodeBehavior
+        node: start
+      - !type:DoActsBehavior
+        acts: ["Destruction"]
 
 - type: entity
   parent: MechHamtr
@@ -270,6 +314,7 @@
       params:
         volume: -10
   - type: Mech
+    maxIntegrity: 75
     baseState: vim
     openState: vim-open
     brokenState: vim-broken
@@ -293,12 +338,733 @@
   - type: Access
     tags:
     - Maintenance
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 150
+      behaviors:
+      - !type:PlaySoundBehavior
+        sound:
+          collection: MetalBreak
+      - !type:ChangeConstructionNodeBehavior
+        node: start
+      - !type:DoActsBehavior
+        acts: ["Destruction"]
   # TOOD: buzz / chime actions
   # TODO: builtin flashlight
 
 - type: entity
   parent: MechVim
   id: MechVimBattery
+  suffix: Battery
+  components:
+  - type: ContainerFill
+    containers:
+      mech-battery-slot:
+      - PowerCellHigh
+
+# Combat Mechs
+
+- type: entity
+  parent: BaseMech
+  id: MechMarauder
+  name: Marauder
+  description: A durable combat 'Mech based on the Durand. Rarely seen among civilians.
+  components:
+  - type: Sprite
+    drawdepth: Mobs
+    noRot: true
+    sprite: Objects/Specific/Mech/mecha.rsi
+    layers:
+    - map: [ "enum.MechVisualLayers.Base" ]
+      state: marauder
+  - type: Mech
+    baseState: marauder
+    openState: marauder-open
+    brokenState: marauder-broken
+    airtight: true
+    maxIntegrity: 500
+    mechToPilotDamageMultiplier: 0.20
+    equipmentWhitelist:
+      tags:
+      - CombatMech
+  - type: MeleeWeapon
+    hidden: true
+    attackRate: 0.70
+    damage:
+      types:
+        Blunt: 50
+        Structural: 55
+  - type: Damageable
+    damageContainer: Inorganic
+    damageModifierSet: MarauderDamageSet
+  - type: MovementSpeedModifier
+    baseWalkSpeed: 2.0
+    baseSprintSpeed: 2.25
+  - type: FootstepModifier
+    footstepSoundCollection:
+      path: /Audio/Mecha/sound_mecha_powerloader_step.ogg
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 750
+      behaviors:
+      - !type:PlaySoundBehavior
+        sound:
+          collection: MetalBreak
+      - !type:ChangeConstructionNodeBehavior
+        node: start
+      - !type:DoActsBehavior
+        acts: ["Destruction"]
+
+- type: entity
+  parent: MechMarauder
+  id: MechMarauderBattery
+  suffix: Battery
+  components:
+  - type: ContainerFill
+    containers:
+      mech-battery-slot:
+      - PowerCellMicroreactor
+
+- type: entity
+  parent: BaseMech
+  id: MechMauler
+  name: Mauler
+  description: A stolen and repainted marauder by the syndicate.
+  components:
+  - type: Sprite
+    drawdepth: Mobs
+    noRot: true
+    sprite: Objects/Specific/Mech/mecha.rsi
+    layers:
+    - map: [ "enum.MechVisualLayers.Base" ]
+      state: mauler
+  - type: Mech
+    baseState: mauler
+    openState: mauler-open
+    brokenState: mauler-broken
+    airtight: true
+    maxIntegrity: 500
+    mechToPilotDamageMultiplier: 0.20
+    equipmentWhitelist:
+      tags:
+      - CombatMech
+  - type: MeleeWeapon
+    hidden: true
+    attackRate: 0.70
+    damage:
+      types:
+        Blunt: 50
+        Structural: 55
+  - type: Damageable
+    damageContainer: Inorganic
+    damageModifierSet: MarauderDamageSet
+  - type: MovementSpeedModifier
+    baseWalkSpeed: 2.0
+    baseSprintSpeed: 2.25
+  - type: FootstepModifier
+    footstepSoundCollection:
+      path: /Audio/Mecha/sound_mecha_powerloader_step.ogg
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 750
+      behaviors:
+      - !type:PlaySoundBehavior
+        sound:
+          collection: MetalBreak
+      - !type:ChangeConstructionNodeBehavior
+        node: start
+      - !type:DoActsBehavior
+        acts: ["Destruction"]
+
+- type: entity
+  parent: MechMauler
+  id: MechMaulerBattery
+  suffix: Battery
+  components:
+  - type: ContainerFill
+    containers:
+      mech-battery-slot:
+      - PowerCellMicroreactor
+
+- type: entity
+  parent: BaseMech
+  id: MechGygax
+  name: Gygax
+  description: Despite its armor, the Gygax has incredible mobility. Infantry from the world of mechs.
+  components:
+  - type: Sprite
+    drawdepth: Mobs
+    noRot: true
+    sprite: Objects/Specific/Mech/mecha.rsi
+    layers:
+    - map: [ "enum.MechVisualLayers.Base" ]
+      state: gygax
+  - type: Mech
+    baseState: gygax
+    openState: gygax-open
+    brokenState: gygax-broken
+    airtight: true
+    maxIntegrity: 250
+    mechToPilotDamageMultiplier: 0.35
+    equipmentWhitelist:
+      tags:
+      - CombatMech
+  - type: MeleeWeapon
+    hidden: true
+    attackRate: 1
+    damage:
+      types:
+        Blunt: 20
+        Structural: 25
+  - type: Damageable
+    damageContainer: Inorganic
+    damageModifierSet: GygaxDamageSet
+  - type: MovementSpeedModifier
+    baseWalkSpeed: 2.25
+    baseSprintSpeed: 4.6
+  - type: FootstepModifier
+    footstepSoundCollection:
+      path: /Audio/Mecha/sound_mecha_powerloader_step.ogg
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 500
+      behaviors:
+      - !type:PlaySoundBehavior
+        sound:
+          collection: MetalBreak
+      - !type:ChangeConstructionNodeBehavior
+        node: start
+      - !type:DoActsBehavior
+        acts: ["Destruction"]
+    - type: Construction
+      graph: Gygax
+      node: NTGygax
+
+- type: entity
+  parent: MechGygax
+  id: MechGygaxBattery
+  suffix: Battery
+  components:
+  - type: ContainerFill
+    containers:
+      mech-battery-slot:
+      - PowerCellHigh
+
+- type: entity
+  parent: BaseMech
+  id: MechDurand
+  name: Durand
+  description: A slow but powerful combat exosuit that is especially fearsome in confined spaces due to its punches. Xenos hate it!
+  components:
+  - type: Sprite
+    drawdepth: Mobs
+    noRot: true
+    sprite: Objects/Specific/Mech/mecha.rsi
+    layers:
+    - map: [ "enum.MechVisualLayers.Base" ]
+      state: durand
+  - type: Mech
+    baseState: durand
+    openState: durand-open
+    brokenState: durand-broken
+    airtight: true
+    maxIntegrity: 400
+    mechToPilotDamageMultiplier: 0.50
+    equipmentWhitelist:
+      tags:
+      - CombatMech
+  - type: MeleeWeapon
+    hidden: true
+    attackRate: 0.70
+    damage:
+      types:
+        Blunt: 40
+        Structural: 45
+  - type: Damageable
+    damageContainer: Inorganic
+    damageModifierSet: DurandDamageSet
+  - type: MovementSpeedModifier
+    baseWalkSpeed: 2.25
+    baseSprintSpeed: 2.4
+  - type: FootstepModifier
+    footstepSoundCollection:
+      path: /Audio/Mecha/sound_mecha_powerloader_step.ogg
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 650
+      behaviors:
+      - !type:PlaySoundBehavior
+        sound:
+          collection: MetalBreak
+      - !type:ChangeConstructionNodeBehavior
+        node: start
+      - !type:DoActsBehavior
+        acts: ["Destruction"]
+
+
+- type: entity
+  parent: MechDurand
+  id: MechDurandBattery
+  suffix: Battery
+  components:
+  - type: ContainerFill
+    containers:
+      mech-battery-slot:
+      - PowerCellHigh
+
+#  Dark Gygax
+- type: entity
+  parent: BaseMech
+  id: MechDarkGygax
+  name: гайрекс
+  description: Легкий экзокостюм, окрашенный в темную гамму. Эта модель, похоже, имеет некоторые модификации.
+  components:
+  - type: Sprite
+    drawdepth: Mobs
+    noRot: true
+    sprite: Objects/Specific/Mech/mecha.rsi
+    layers:
+    - map: [ "enum.MechVisualLayers.Base" ]
+      state: darkgygax
+  - type: Mech
+    baseState: darkgygax
+    openState: darkgygax-open
+    brokenState: darkgygax-broken
+    airtight: true
+    maxIntegrity: 300
+    mechToPilotDamageMultiplier: 0.35
+    equipmentWhitelist:
+      tags:
+      - CombatMech
+  - type: MeleeWeapon
+    hidden: true
+    attackRate: 1
+    damage:
+      types:
+        Blunt: 20
+        Structural: 25
+  - type: Damageable
+    damageContainer: Inorganic
+    damageModifierSet: DarkGygaxDamageSet
+  - type: MovementSpeedModifier
+    baseWalkSpeed: 2.25
+    baseSprintSpeed: 4.6
+  - type: FootstepModifier
+    footstepSoundCollection:
+      path: /Audio/Mecha/sound_mecha_powerloader_step.ogg
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 550
+      behaviors:
+      - !type:PlaySoundBehavior
+        sound:
+          collection: MetalBreak
+      - !type:ChangeConstructionNodeBehavior
+        node: start
+      - !type:DoActsBehavior
+        acts: ["Destruction"]
+    - type: Construction
+      graph: Gygax
+      node: DarkGygax
+
+- type: entity
+  parent: MechDarkGygax
+  id: MechDarkGygaxBattery
+  suffix: Battery
+  components:
+  - type: ContainerFill
+    containers:
+      mech-battery-slot:
+      - PowerCellMicroreactor
+
+#  Seraph
+- type: entity
+  parent: BaseMech
+  id: MechSeraph
+  name: серафим
+  description: Сверхмощный экзокостюм командного типа. Это нестандартная модель, используемая только высокопоставленными военными.
+  components:
+  - type: Sprite
+    drawdepth: Mobs
+    noRot: true
+    sprite: Objects/Specific/Mech/mecha.rsi
+    layers:
+    - map: [ "enum.MechVisualLayers.Base" ]
+      state: seraph
+  - type: Mech
+    baseState: seraph
+    openState: seraph-open
+    brokenState: seraph-broken
+    airtight: true
+    maxIntegrity: 550
+    mechToPilotDamageMultiplier: 0.20
+    equipmentWhitelist:
+      tags:
+      - CombatMech
+  - type: MeleeWeapon
+    hidden: true
+    attackRate: 1
+    damage:
+      types:
+        Blunt: 20
+        Structural: 25
+  - type: Damageable
+    damageContainer: Inorganic
+    damageModifierSet: MarauderDamageSet
+  - type: MovementSpeedModifier
+    baseWalkSpeed: 2.25
+    baseSprintSpeed: 2.25
+  - type: FootstepModifier
+    footstepSoundCollection:
+      path: /Audio/Mecha/sound_mecha_powerloader_step.ogg
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 800
+      behaviors:
+      - !type:PlaySoundBehavior
+        sound:
+          collection: MetalBreak
+      - !type:ChangeConstructionNodeBehavior
+        node: start
+      - !type:DoActsBehavior
+        acts: ["Destruction"]
+
+- type: entity
+  parent: MechSeraph
+  id: MechSeraphBattery
+  suffix: Battery
+  components:
+  - type: ContainerFill
+    containers:
+      mech-battery-slot:
+      - PowerCellMicroreactor
+
+#  Clarke
+- type: entity
+  parent: BaseMech
+  id: MechClarke
+  name: кларк
+  description: Комбинирование человека и машины для создания лучшего, сильнейшая инженерия.
+  components:
+  - type: Sprite
+    drawdepth: Mobs
+    noRot: true
+    sprite: Objects/Specific/Mech/mecha.rsi
+    layers:
+    - map: [ "enum.MechVisualLayers.Base" ]
+      state: clarke
+  - type: Mech
+    baseState: clarke
+    openState: clarke-open
+    brokenState: clarke-broken
+    airtight: true
+    maxIntegrity: 200
+    mechToPilotDamageMultiplier: 0.60
+    equipmentWhitelist:
+      tags:
+      - ExoMech
+  - type: MeleeWeapon
+    hidden: true
+    attackRate: 1
+    damage:
+      types:
+        Blunt: 20
+        Structural: 25
+  - type: Damageable
+    damageContainer: Inorganic
+    damageModifierSet: ClarkeDamageSet
+  - type: MovementSpeedModifier
+    baseWalkSpeed: 2.25
+    baseSprintSpeed: 5
+  - type: FootstepModifier
+    footstepSoundCollection:
+      path: /Audio/Mecha/sound_mecha_powerloader_step.ogg
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 450
+      behaviors:
+      - !type:PlaySoundBehavior
+        sound:
+          collection: MetalBreak
+      - !type:ChangeConstructionNodeBehavior
+        node: start
+      - !type:DoActsBehavior
+        acts: ["Destruction"]
+
+- type: entity
+  parent: MechClarke
+  id: MechClarkeBattery
+  suffix: Battery
+  components:
+  - type: ContainerFill
+    containers:
+      mech-battery-slot:
+      - PowerCellHigh
+
+# Odysseus
+- type: entity
+  parent: BaseMech
+  id: MechOdysseus
+  name: одиссей
+  description: Этот экзокостюм разработан и создан компанией «Вей-Мед»
+  components:
+  - type: Sprite
+    drawdepth: Mobs
+    noRot: true
+    sprite: Objects/Specific/Mech/mecha.rsi
+    layers:
+    - map: [ "enum.MechVisualLayers.Base" ]
+      state: odysseus
+  - type: Mech
+    baseState: odysseus
+    openState: odysseus-open
+    brokenState: odysseus-broken
+    airtight: true
+    maxIntegrity: 120
+    mechToPilotDamageMultiplier: 0.35
+    equipmentWhitelist:
+      tags:
+      - MedMech
+  - type: MeleeWeapon
+    hidden: true
+    attackRate: 1
+    damage:
+      types:
+        Blunt: 20
+        Structural: 25
+  - type: Damageable
+    damageContainer: Inorganic
+    damageModifierSet: OdysseusDamageSet
+  - type: MovementSpeedModifier
+    baseWalkSpeed: 2.25
+    baseSprintSpeed: 4.6
+  - type: FootstepModifier
+    footstepSoundCollection:
+      path: /Audio/Mecha/sound_mecha_powerloader_step.ogg
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 370
+      behaviors:
+      - !type:PlaySoundBehavior
+        sound:
+          collection: MetalBreak
+      - !type:ChangeConstructionNodeBehavior
+        node: start
+      - !type:DoActsBehavior
+        acts: ["Destruction"]
+
+- type: entity
+  parent: MechOdysseus
+  id: MechOdysseusBattery
+  suffix: Battery
+  components:
+  - type: ContainerFill
+    containers:
+      mech-battery-slot:
+      - PowerCellHigh
+
+# FireFighter
+- type: entity
+  parent: BaseMech
+  id: MechFireFighter
+  name: пожарный рипли
+  description: Старший брат Рипли, у которого значительно улучшена броня
+  components:
+  - type: Sprite
+    drawdepth: Mobs
+    noRot: true
+    sprite: Objects/Specific/Mech/mecha.rsi
+    layers:
+    - map: [ "enum.MechVisualLayers.Base" ]
+      state: firefighter
+  - type: Mech
+    baseState: firefighter
+    openState: firefighter-open
+    brokenState: firefighter-broken
+    airtight: true
+    maxIntegrity: 250
+    mechToPilotDamageMultiplier: 0.60
+    equipmentWhitelist:
+      tags:
+      - ExoMech
+  - type: MeleeWeapon
+    hidden: true
+    attackRate: 1
+    damage:
+      types:
+        Blunt: 20
+        Structural: 25
+  - type: Damageable
+    damageContainer: Inorganic
+    damageModifierSet: RipleyFireDamageSet
+  - type: MovementSpeedModifier
+    baseWalkSpeed: 2.25
+    baseSprintSpeed: 3.6
+  - type: FootstepModifier
+    footstepSoundCollection:
+      path: /Audio/Mecha/sound_mecha_powerloader_step.ogg
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 500
+      behaviors:
+      - !type:PlaySoundBehavior
+        sound:
+          collection: MetalBreak
+      - !type:ChangeConstructionNodeBehavior
+        node: start
+      - !type:DoActsBehavior
+        acts: ["Destruction"]
+
+- type: entity
+  parent: MechFireFighter
+  id: MechFireFighterBattery
+  suffix: Battery
+  components:
+  - type: ContainerFill
+    containers:
+      mech-battery-slot:
+      - PowerCellHigh
+
+# RipleyMKii
+- type: entity
+  parent: BaseMech
+  id: MechRipleyMKii
+  name: рипли МК2
+  description: Это медленно движущийся, хорошо защищенный экзокостюм, который часто используется для строительства.
+  components:
+  - type: Sprite
+    drawdepth: Mobs
+    noRot: true
+    sprite: Objects/Specific/Mech/mecha.rsi
+    layers:
+    - map: [ "enum.MechVisualLayers.Base" ]
+      state: firefighter
+  - type: Mech
+    baseState: ripleymkii
+    openState: ripleymkii-open
+    brokenState: ripleymkii-broken
+    airtight: true
+    maxIntegrity: 250
+    mechToPilotDamageMultiplier: 0.60
+    equipmentWhitelist:
+      tags:
+      - ExoMech
+  - type: MeleeWeapon
+    hidden: true
+    attackRate: 1
+    damage:
+      types:
+        Blunt: 20
+        Structural: 25
+  - type: Damageable
+    damageContainer: Inorganic
+    damageModifierSet: RipleyMKDamageSet
+  - type: MovementSpeedModifier
+    baseWalkSpeed: 2.25
+    baseSprintSpeed: 3.6
+  - type: FootstepModifier
+    footstepSoundCollection:
+      path: /Audio/Mecha/sound_mecha_powerloader_step.ogg
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 500
+      behaviors:
+      - !type:PlaySoundBehavior
+        sound:
+          collection: MetalBreak
+      - !type:ChangeConstructionNodeBehavior
+        node: start
+      - !type:DoActsBehavior
+        acts: ["Destruction"]
+
+- type: entity
+  parent: MechRipleyMKii
+  id: MechRipleyMKiiBattery
+  suffix: Battery
+  components:
+  - type: ContainerFill
+    containers:
+      mech-battery-slot:
+      - PowerCellHigh
+
+# Hauler
+- type: entity
+  parent: MechRipley
+  id: MechHauler
+  name: хаулер
+  description: Брат Рипли, только гораздо быстрее.
+  components:
+  - type: Sprite
+    drawdepth: Mobs
+    noRot: true
+    sprite: Objects/Specific/Mech/mecha.rsi
+    layers:
+    - map: [ "enum.MechVisualLayers.Base" ]
+      state: hauler
+  - type: Mech
+    baseState: hauler
+    openState: hauler-open
+    brokenState: hauler-broken
+    maxIntegrity: 200
+    mechToPilotDamageMultiplier: 0.60
+    equipmentWhitelist:
+      tags:
+      - ExoMech
+  - type: MeleeWeapon
+    hidden: true
+    attackRate: 1
+    damage:
+      types:
+        Blunt: 20
+        Structural: 25
+  - type: Damageable
+    damageContainer: Inorganic
+    damageModifierSet: RipleyDamageSet
+  - type: MovementSpeedModifier
+    baseWalkSpeed: 2.25
+    baseSprintSpeed: 4.6
+  - type: FootstepModifier
+    footstepSoundCollection:
+      path: /Audio/Mecha/sound_mecha_powerloader_step.ogg
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 450
+      behaviors:
+      - !type:PlaySoundBehavior
+        sound:
+          collection: MetalBreak
+      - !type:ChangeConstructionNodeBehavior
+        node: start
+      - !type:DoActsBehavior
+        acts: ["Destruction"]
+
+- type: entity
+  parent: MechHauler
+  id: MechHaulerBattery
   suffix: Battery
   components:
   - type: ContainerFill
