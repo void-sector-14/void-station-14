@@ -175,6 +175,7 @@
     damageContainers:
     - Biological
     - Inorganic
+    - Silicon
   - type: ShowSyndicateIcons
 
 - type: entity
