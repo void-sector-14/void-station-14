@@ -19,6 +19,10 @@
       types:
         Slash: 20
         Heat: 40
+    soundHit:
+      path: /Audio/Weapons/eblade1.ogg
+    soundNoDamage:
+      path: /Audio/Weapons/eblade1.ogg
   - type: Appearance
   - type: Tag
     tags:
@@ -44,6 +48,10 @@
       types:
         Piercing: 40
         Heat: 30
+    soundHit:
+      path: /Audio/Weapons/eblade1.ogg
+    soundNoDamage:
+      path: /Audio/Weapons/eblade1.ogg
   - type: Appearance
   - type: Tag
     tags:

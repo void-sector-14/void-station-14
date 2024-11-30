@@ -202,7 +202,7 @@
       availableModes:
         - FullAuto
       soundGunshot:
-        path: /Audio/Weapons/Guns/Misc/selector.ogg
+        path: /Audio/Effects/Lightning/lightningshock.ogg
     - type: ProjectileBatteryAmmoProvider
       proto: TeslaGunBullet
       fireCost: 19
@@ -305,7 +305,7 @@
       availableModes:
         - FullAuto
       soundGunshot:
-        path: /Audio/Weapons/Guns/Gunshots/grenade_launcher.ogg
+        path: /Audio/Weapons/Guns/Gunshots/shotgun.ogg
     - type: ProjectileBatteryAmmoProvider
       proto: PelletShotgunSpread
       fireCost: 30
