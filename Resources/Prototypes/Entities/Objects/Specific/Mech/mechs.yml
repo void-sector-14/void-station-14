@@ -385,7 +385,7 @@
     brokenState: marauder-broken
     airtight: true
     maxIntegrity: 500
-    mechToPilotDamageMultiplier: 0.25
+    mechToPilotDamageMultiplier: 0.20
     equipmentWhitelist:
       tags:
       - CombatMech
