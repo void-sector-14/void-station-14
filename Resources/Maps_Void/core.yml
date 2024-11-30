@@ -77,6 +77,7 @@ entities:
     - type: MovedGrids
     - type: Broadphase
     - type: OccluderTree
+    - type: LoadedMap
   - uid: 2
     components:
     - type: MetaData
@@ -14279,7 +14280,7 @@ entities:
       pos: -16.5,19.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -40273.97
+      secondsUntilStateChange: -40488.6
       state: Opening
   - uid: 302
     components:
@@ -54632,12 +54633,6 @@ entities:
       rot: -1.5707963267948966 rad
       pos: -34.5,-15.5
       parent: 2
-  - uid: 8098
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: -36.5,-15.5
-      parent: 2
   - uid: 8099
     components:
     - type: Transform
@@ -70591,6 +70586,13 @@ entities:
     components:
     - type: Transform
       pos: -47.863766,-29.112556
+      parent: 2
+- proto: FloraTreeChristmas02
+  entities:
+  - uid: 15950
+    components:
+    - type: Transform
+      pos: -23.232185,1.2828408
       parent: 2
 - proto: FloraTreeLarge03
   entities:
@@ -106303,11 +106305,6 @@ entities:
       parent: 2
 - proto: RandomSpawner
   entities:
-  - uid: 15950
-    components:
-    - type: Transform
-      pos: -23.5,1.5
-      parent: 2
   - uid: 15951
     components:
     - type: Transform
@@ -119680,6 +119677,13 @@ entities:
     components:
     - type: Transform
       pos: 80.5,-7.5
+      parent: 2
+- proto: VendingMachineStardrop
+  entities:
+  - uid: 8098
+    components:
+    - type: Transform
+      pos: -36.5,-15.5
       parent: 2
 - proto: VendingMachineSustenance
   entities:
