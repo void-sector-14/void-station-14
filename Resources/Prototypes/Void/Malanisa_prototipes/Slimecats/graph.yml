@@ -23,7 +23,7 @@
   - node: start
     edges:
     - to: CloakCap
-      steps:    
+      steps:
       - tag: ClothingNeckCloakCap
         name: плащ капитана
         icon:
@@ -56,7 +56,7 @@
   - node: start
     edges:
     - to: CloakHos
-      steps:    
+      steps:
       - tag: ClothingNeckCloakHos
         name: плащ главы службы безопасности
         icon:
@@ -75,7 +75,7 @@
   category: construction-category-slimecat
   description: Порезать плащ
   icon:
-    sprite: Void/Malanisa_sprites/Objects/Slimecat_items/Clothing/Neck/Cloaks/ce.rsi   
+    sprite: Void/Malanisa_sprites/Objects/Slimecat_items/Clothing/Neck/Cloaks/ce.rsi
     state: icon
   objectType: Item
   entityWhitelist:
@@ -89,11 +89,11 @@
   - node: start
     edges:
     - to: CloakCe
-      steps:    
+      steps:
       - tag: ClothingNeckCloakCe
         name: плащ старшего инженера
         icon:
-          sprite: Void/Malanisa_sprites/Objects/Slimecat_items/Clothing/Neck/Cloaks/ce.rsi   
+          sprite: Void/Malanisa_sprites/Objects/Slimecat_items/Clothing/Neck/Cloaks/ce.rsi
           state: icon
         doAfter: 4
   - node: CloakCe
@@ -122,7 +122,7 @@
   - node: start
     edges:
     - to: CloakCmo
-      steps:    
+      steps:
       - tag: ClothingNeckCloakCmo
         name: плащ главного врача
         icon:
@@ -141,7 +141,7 @@
   category: construction-category-slimecat
   description: Порезать плащ
   icon:
-    sprite: Void/Malanisa_sprites/Objects/Slimecat_items/Clothing/Neck/Cloaks/rd.rsi  
+    sprite: Void/Malanisa_sprites/Objects/Slimecat_items/Clothing/Neck/Cloaks/rd.rsi
     state: icon
   objectType: Item
   entityWhitelist:
@@ -155,11 +155,11 @@
   - node: start
     edges:
     - to: CloakRd
-      steps:    
+      steps:
       - tag: ClothingNeckCloakRd
         name: плащ научного руководителя
         icon:
-          sprite: Void/Malanisa_sprites/Objects/Slimecat_items/Clothing/Neck/Cloaks/rd.rsi  
+          sprite: Void/Malanisa_sprites/Objects/Slimecat_items/Clothing/Neck/Cloaks/rd.rsi
           state: icon
         doAfter: 4
   - node: CloakRd
@@ -188,7 +188,7 @@
   - node: start
     edges:
     - to: CloakQm
-      steps:    
+      steps:
       - tag: ClothingNeckCloakQm
         name: плащ квартирмейстера
         icon:
@@ -196,7 +196,7 @@
           state: icon
         doAfter: 4
   - node: CloakQm
-    entity: ClothingNeckCloakQmSlimecat            
+    entity: ClothingNeckCloakQmSlimecat
 
 
 - type: construction
@@ -222,7 +222,7 @@
   - node: start
     edges:
     - to: CloakHop
-      steps:    
+      steps:
       - tag: ClothingNeckCloakHop
         name: плащ главы персонала
         icon:
@@ -230,7 +230,7 @@
           state: icon
         doAfter: 4
   - node: CloakHop
-    entity: ClothingNeckCloakHopSlimecat    
+    entity: ClothingNeckCloakHopSlimecat
 
 - type: construction
   name: плащ шахтёра
@@ -255,7 +255,7 @@
   - node: start
     edges:
     - to: CloakMiner
-      steps:    
+      steps:
       - tag: ClothingNeckCloakMiner
         name: плащ шахтёра
         icon:
@@ -263,7 +263,7 @@
           state: icon
         doAfter: 4
   - node: CloakMiner
-    entity: ClothingNeckCloakMinerSlimecat    
+    entity: ClothingNeckCloakMinerSlimecat
 
 - type: construction
   name: торжественный плащ капитана
@@ -288,7 +288,7 @@
   - node: start
     edges:
     - to: CapFormal
-      steps:    
+      steps:
       - tag: ClothingNeckCloakCapFormal
         name: торжественный плащ капитана
         icon:
@@ -307,14 +307,14 @@
   startNode: start
   targetNode: Slimecat_belt
   category: construction-category-slimecat
-  description: Какая-то криваая поделка из ткани.
+  description: Какая-то кривая поделка из ткани.
   icon:
     sprite: Void/Malanisa_sprites/Objects/Slimecat_items/waistbag_mini.rsi
     state: icon
   objectType: Item
   entityWhitelist:
     tags:
-    - SlimecatSimpleCraft 
+    - SlimecatSimpleCraft
 
 - type: constructionGraph
   id: Slimecat_belt
@@ -329,12 +329,12 @@
           doAfter: 1
         - material: Cable
           amount: 5
-          doAfter: 5   
+          doAfter: 5
         - material: Durathread
-          amount: 10
-          doAfter: 5                 
+          amount: 5
+          doAfter: 5
   - node: Slimecat_belt
-    entity: ClothingBeltStorageWaistbagSlimecat   
+    entity: ClothingBeltStorageWaistbagSlimecat
 
 - type: construction
   name: маленький рюкзак
@@ -343,14 +343,14 @@
   startNode: start
   targetNode: Slimecat_back
   category: construction-category-slimecat
-  description: Какая-то криваая поделка из ткани.
+  description: Какая-то кривая поделка из ткани.
   icon:
     sprite: Void/Malanisa_sprites/Objects/Slimecat_items/backpack.rsi
     state: icon
   objectType: Item
   entityWhitelist:
     tags:
-    - SlimecatSimpleCraft 
+    - SlimecatSimpleCraft
 
 - type: constructionGraph
   id: Slimecat_back
@@ -361,13 +361,13 @@
     - to: Slimecat_back
       steps:
         - material: Cloth
-          amount: 5
+          amount: 10
           doAfter: 1
         - material: Cable
           amount: 5
-          doAfter: 5   
+          doAfter: 5
         - material: Durathread
-          amount: 10
-          doAfter: 5         
+          amount: 6
+          doAfter: 5
   - node: Slimecat_back
     entity: ClothingStorageSlimecatBack

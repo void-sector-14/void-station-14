@@ -26,7 +26,6 @@
       name: Пен²
 
 
-
 - type: inventoryTemplate
   id: PenPenInventory
   slots:
@@ -53,7 +52,6 @@
   equipment:
     back: PenPenBackpack
     id: PenPenIDCard
-
 
 
 - type: entity
@@ -131,7 +129,10 @@
       Вы очень умный пингвин, ваш уровень интеллекта превышает как таковой у большинства разумных.
       Пейте пиво и помогайте ученым. Вы главная надежда РнД в этом нелегком мире.
   - type: GhostTakeoverAvailable
+  - type: ComplexInteraction
+  - type: Puller
   - type: Tag
     tags:
+    - VimPilot
     - CannotSuicide
     - DoorBumpOpener

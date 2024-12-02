@@ -309,6 +309,17 @@
     whitelist:
       tags:
         - Slimecatgear
+  - name: back
+    displayName: SlimecatBack
+    slotTexture: back
+    slotFlags: BACK
+    slotGroup: MainHotbar
+    uiWindowPos: 3,0
+    stripTime: 6
+    strippingWindowPos: 0,5
+    whitelist:
+      tags:
+        - Slimecatgear
   - name: id
     slotTexture: id
     slotFlags: IDCARD
@@ -424,6 +435,17 @@
     whitelist:
       tags:
         - Slimecatgear
+  - name: back
+    displayName: SlimecatBack
+    slotTexture: back
+    slotFlags: BACK
+    slotGroup: MainHotbar
+    uiWindowPos: 3,0
+    stripTime: 6
+    strippingWindowPos: 0,5
+    whitelist:
+      tags:
+        - Slimecatgear
   - name: id
     slotTexture: id
     slotFlags: IDCARD
@@ -463,33 +485,6 @@
     whitelist:
       tags:
         - SlimecatgearGourmand
-
-#Тэговая система
-#####################################################
-- type: Tag
-  id: Slimecatgear
-
-- type: Tag
-  id: SlimecatArtificerCraft
-
-- type: Tag
-  id: SlimecatGourmandCraft
-
-- type: Tag
-  id: SlimecatSimpleCraft
-
-- type: Tag
-  id: Artificer_powder
-
-- type: Tag
-  id: Trashcraft
-
-- type: Tag
-  id: Spearcraftitem
-
-- type: Tag
-  id: SlimecatgearGourmand
-
 
 #Тело, руки и "ноги" слизнекота
 #####################################################
@@ -852,6 +847,9 @@
     tags:
     - SlimecatGourmandCraft ###!
     - SlimecatSimpleCraft
+    - FootstepSound
+    - CannotSuicide
+    - DoorBumpOpener
   - type: Sericulture
     action: ActionSericultureGourmand
     popupText: Вы истощены.
@@ -1610,8 +1608,8 @@
 - type: entity
   parent: ClothingHeadHardsuitBase
   id: ClothingHeadHelmetHardsuitSlimecat
-  name: basic hardsuit helmet
-  description: A basic-looking hardsuit helmet that provides minor protection against most sources of damage.
+  name: шлем скафандра для слизнекота
+  description: Хорошая защита от сурового космоса для вашего друга поменьше.
   components:
   - type: Sprite
     sprite: Void/Malanisa_sprites/Objects/Slimecat_items/Clothing/Head/hardsuit_slimecat.rsi
