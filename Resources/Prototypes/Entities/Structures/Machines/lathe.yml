@@ -642,12 +642,6 @@
     - DurandRArm
     - DurandLLeg
     - DurandRLeg
-    - MechLaserWeapon
-    - MechScattershotWeapon
-    - MechSolarisLaserWeapon
-    - MechHadesWeapon
-    - MechMissileWeapon
-    - MechTeslaWeapon
     - ClarkeHarness
     - ClarkeLArm
     - ClarkeRArm
@@ -663,16 +657,10 @@
     - OdysseusRLeg
     - MechEquipmentDrill
     - MechEquipmentDiamondDrill
-    - MechMissileWeaponFSRM
     - MechEquipmentProtokinet
     - MechEquipmentMedGunBlue
     - MechEquipmentMedGunYellow
     - MechEquipmentMedGunGreen
-    - MechMissileWeaponSGL
-    - MechMissileWeaponSRM
-    - MechMLG
-    - MechLaserWeaponImpuls
-    - MechMissileWeaponShotGun
     - MechReactorPlasma
     - MechReactorUranium
     - MechReactorTesla
@@ -849,6 +837,18 @@
       - WeaponLaserCannon
       - WeaponLaserCarbine
       - WeaponXrayCannon
+      - MechLaserWeapon
+      - MechScattershotWeapon
+      - MechSolarisLaserWeapon
+      - MechHadesWeapon
+      - MechMissileWeapon
+      - MechTeslaWeapon
+      - MechMissileWeaponFSRM
+      - MechMissileWeaponSGL
+      - MechMissileWeaponSRM
+      - MechMLG
+      - MechLaserWeaponImpuls
+      - MechMissileWeaponShotGun
   - type: MaterialStorage
     whitelist:
       tags:
