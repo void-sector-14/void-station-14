@@ -849,6 +849,8 @@
       - MechMLG
       - MechLaserWeaponImpuls
       - MechMissileWeaponShotGun
+      - MechSword
+      - MechSpear
   - type: MaterialStorage
     whitelist:
       tags:

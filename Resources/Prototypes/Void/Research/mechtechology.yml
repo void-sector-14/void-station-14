@@ -91,6 +91,21 @@
   - MechEquipmentMedGunGreen
 
 - type: technology
+  id: MeleeMechWeapon
+  name: Бой на короткой дистанции
+  icon:
+    sprite: /Textures/Void/Objects/Specific/Mech/mechamelee_weapon.rsi
+    state: mech-sword
+  discipline: Arsenal
+  tier: 2
+  cost: 10000
+  recipeUnlocks:
+  - MechSword
+  - MechSpear
+  technologyPrerequisites:
+  - ModernCombatMechs
+
+- type: technology
   id: ModernWarGun
   name: Модернизация боевых средств
   icon:
