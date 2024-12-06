@@ -1,6 +1,6 @@
 - type: technology
   id: SalvageMech
-  name: Кларк АВГ
+  name: Кларк АТМЕ
   icon:
     sprite: Objects/Specific/Mech/clarke_construction.rsi
     state: clarke18
