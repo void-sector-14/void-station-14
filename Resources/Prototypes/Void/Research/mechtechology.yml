@@ -76,7 +76,7 @@
     sprite: Objects/Specific/Mech/odysseus_construction.rsi
     state: odysseus18
   discipline: Biochemical
-  tier: 3
+  tier: 2
   cost: 15000
   recipeUnlocks:
   - OdysseusPeripheralsElectronics
