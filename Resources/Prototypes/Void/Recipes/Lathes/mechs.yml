@@ -294,12 +294,6 @@
     Gold: 500
     Diamond: 1500
 
-# - MechMissileWeaponSGL
-# - MechMissileWeaponSRM
-# - MechMLG
-# - MechLaserWeaponImpuls
-# - MechMissileWeaponShotGun
-
 - type: latheRecipe
   id: MechMLG
   result: MechMLG
@@ -366,3 +360,25 @@
     Plastic: 1000
     Gold: 500
     Silver: 500
+
+- type: latheRecipe
+  id: MechSword
+  result: MechSword
+  category: Mech
+  completetime: 10
+  materials:
+    Steel: 10000
+    Plastic: 500
+    Plasma: 2000
+    Gold: 200
+
+- type: latheRecipe
+  id:  MechSpear
+  result: MechSpear
+  category: Mech
+  completetime: 10
+  materials:
+    Steel: 10000
+    Plastic: 500
+    Plasma: 2000
+    Gold: 200

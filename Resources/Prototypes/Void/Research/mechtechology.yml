@@ -1,6 +1,6 @@
 - type: technology
   id: SalvageMech
-  name: Кларк АВГ
+  name: Кларк АТМЕ
   icon:
     sprite: Objects/Specific/Mech/clarke_construction.rsi
     state: clarke18
@@ -76,7 +76,7 @@
     sprite: Objects/Specific/Mech/odysseus_construction.rsi
     state: odysseus18
   discipline: Biochemical
-  tier: 3
+  tier: 2
   cost: 15000
   recipeUnlocks:
   - OdysseusPeripheralsElectronics
@@ -89,6 +89,21 @@
   - MechEquipmentMedGunBlue
   - MechEquipmentMedGunYellow
   - MechEquipmentMedGunGreen
+
+- type: technology
+  id: MeleeMechWeapon
+  name: Бой на короткой дистанции
+  icon:
+    sprite: /Textures/Void/Objects/Specific/Mech/mechamelee_weapon.rsi
+    state: mech-sword
+  discipline: Arsenal
+  tier: 2
+  cost: 10000
+  recipeUnlocks:
+  - MechSword
+  - MechSpear
+  technologyPrerequisites:
+  - ModernCombatMechs
 
 - type: technology
   id: ModernWarGun

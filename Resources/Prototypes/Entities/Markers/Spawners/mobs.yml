@@ -47,6 +47,7 @@
       - MobCorgiIanOld
       - MobCorgiLisa
       - MobCorgiIanPup
+      - MobCorgiMouse
 
 - type: entity
   name: Dev Mouse Spawner
