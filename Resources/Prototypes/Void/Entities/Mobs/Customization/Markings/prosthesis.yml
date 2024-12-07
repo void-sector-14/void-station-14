@@ -1,0 +1,1183 @@
+# bishop_main
+
+- type: marking
+  id: bishop_mainRArm
+  bodyPart: RArm
+  markingCategory: Arms
+  speciesRestriction: [Dwarf, Human, DemonSpecies, Katunian, Reptilian, Arachnid, Felinid, Moth, SlimePerson, VulpkaninPerson, TajaranSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/Prosthesis/bishop_main.rsi
+    state: r_arm
+
+- type: marking
+  id: bishop_mainRHand
+  bodyPart: RHand
+  markingCategory: Arms
+  speciesRestriction: [Dwarf, Human, DemonSpecies, Katunian, Reptilian, Arachnid, Felinid, Moth, SlimePerson, VulpkaninPerson, TajaranSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/Prosthesis/bishop_main.rsi
+    state: r_hand
+
+- type: marking
+  id: bishop_mainLArm
+  bodyPart: LArm
+  markingCategory: Arms
+  speciesRestriction: [Dwarf, Human, DemonSpecies, Katunian, Reptilian, Arachnid, Felinid, Moth, SlimePerson, VulpkaninPerson, TajaranSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/Prosthesis/bishop_main.rsi
+    state: l_arm
+
+- type: marking
+  id: bishop_mainLHand
+  bodyPart: LHand
+  markingCategory: Arms
+  speciesRestriction: [Dwarf, Human, DemonSpecies, Katunian, Reptilian, Arachnid, Felinid, Moth, SlimePerson, VulpkaninPerson, TajaranSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/Prosthesis/bishop_main.rsi
+    state: l_hand
+
+- type: marking
+  id: bishop_mainRLeg
+  bodyPart: RLeg
+  markingCategory: Legs
+  speciesRestriction: [Dwarf, Human, DemonSpecies, Katunian, Reptilian, Arachnid, Felinid, Moth, SlimePerson, VulpkaninPerson, TajaranSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/Prosthesis/bishop_main.rsi
+    state: r_leg
+
+- type: marking
+  id: bishop_mainLLeg
+  bodyPart: LLeg
+  markingCategory: Legs
+  speciesRestriction: [Dwarf, Human, DemonSpecies, Katunian, Reptilian, Arachnid, Felinid, Moth, SlimePerson, VulpkaninPerson, TajaranSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/Prosthesis/bishop_main.rsi
+    state: l_leg
+
+- type: marking
+  id: bishop_mainRFoot
+  bodyPart: RFoot
+  markingCategory: Legs
+  speciesRestriction: [Dwarf, Human, DemonSpecies, Katunian, Reptilian, Arachnid, Felinid, Moth, SlimePerson, VulpkaninPerson, TajaranSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/Prosthesis/bishop_main.rsi
+    state: r_foot
+
+- type: marking
+  id: bishop_mainLFoot
+  bodyPart: LFoot
+  markingCategory: Legs
+  speciesRestriction: [Dwarf, Human, DemonSpecies, Katunian, Reptilian, Arachnid, Felinid, Moth, SlimePerson, VulpkaninPerson, TajaranSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/Prosthesis/bishop_main.rsi
+    state: l_foot
+
+# bishop_rook
+
+- type: marking
+  id: bishop_rookRArm
+  bodyPart: RArm
+  markingCategory: Arms
+  speciesRestriction: [Dwarf, Human, DemonSpecies, Katunian, Reptilian, Arachnid, Felinid, Moth, SlimePerson, VulpkaninPerson, TajaranSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/Prosthesis/bishop_rook.rsi
+    state: r_arm
+
+- type: marking
+  id: bishop_rookRHand
+  bodyPart: RHand
+  markingCategory: Arms
+  speciesRestriction: [Dwarf, Human, DemonSpecies, Katunian, Reptilian, Arachnid, Felinid, Moth, SlimePerson, VulpkaninPerson, TajaranSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/Prosthesis/bishop_rook.rsi
+    state: r_hand
+
+- type: marking
+  id: bishop_rookLArm
+  bodyPart: LArm
+  markingCategory: Arms
+  speciesRestriction: [Dwarf, Human, DemonSpecies, Katunian, Reptilian, Arachnid, Felinid, Moth, SlimePerson, VulpkaninPerson, TajaranSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/Prosthesis/bishop_rook.rsi
+    state: l_arm
+
+- type: marking
+  id: bishop_rookLHand
+  bodyPart: LHand
+  markingCategory: Arms
+  speciesRestriction: [Dwarf, Human, DemonSpecies, Katunian, Reptilian, Arachnid, Felinid, Moth, SlimePerson, VulpkaninPerson, TajaranSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/Prosthesis/bishop_rook.rsi
+    state: l_hand
+
+- type: marking
+  id: bishop_rookRLeg
+  bodyPart: RLeg
+  markingCategory: Legs
+  speciesRestriction: [Dwarf, Human, DemonSpecies, Katunian, Reptilian, Arachnid, Felinid, Moth, SlimePerson, VulpkaninPerson, TajaranSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/Prosthesis/bishop_rook.rsi
+    state: r_leg
+
+- type: marking
+  id: bishop_rookLLeg
+  bodyPart: LLeg
+  markingCategory: Legs
+  speciesRestriction: [Dwarf, Human, DemonSpecies, Katunian, Reptilian, Arachnid, Felinid, Moth, SlimePerson, VulpkaninPerson, TajaranSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/Prosthesis/bishop_rook.rsi
+    state: l_leg
+
+- type: marking
+  id: bishop_rookRFoot
+  bodyPart: RFoot
+  markingCategory: Legs
+  speciesRestriction: [Dwarf, Human, DemonSpecies, Katunian, Reptilian, Arachnid, Felinid, Moth, SlimePerson, VulpkaninPerson, TajaranSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/Prosthesis/bishop_rook.rsi
+    state: r_foot
+
+- type: marking
+  id: bishop_rookLFoot
+  bodyPart: LFoot
+  markingCategory: Legs
+  speciesRestriction: [Dwarf, Human, DemonSpecies, Katunian, Reptilian, Arachnid, Felinid, Moth, SlimePerson, VulpkaninPerson, TajaranSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/Prosthesis/bishop_rook.rsi
+    state: l_foot
+
+# hesphiastos_main
+
+- type: marking
+  id: hesphiastos_mainRArm
+  bodyPart: RArm
+  markingCategory: Arms
+  speciesRestriction: [Dwarf, Human, DemonSpecies, Katunian, Reptilian, Arachnid, Felinid, Moth, SlimePerson, VulpkaninPerson, TajaranSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/Prosthesis/hesphiastos_main.rsi
+    state: r_arm
+
+- type: marking
+  id: hesphiastos_mainRHand
+  bodyPart: RHand
+  markingCategory: Arms
+  speciesRestriction: [Dwarf, Human, DemonSpecies, Katunian, Reptilian, Arachnid, Felinid, Moth, SlimePerson, VulpkaninPerson, TajaranSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/Prosthesis/hesphiastos_main.rsi
+    state: r_hand
+
+- type: marking
+  id: hesphiastos_mainLArm
+  bodyPart: LArm
+  markingCategory: Arms
+  speciesRestriction: [Dwarf, Human, DemonSpecies, Katunian, Reptilian, Arachnid, Felinid, Moth, SlimePerson, VulpkaninPerson, TajaranSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/Prosthesis/hesphiastos_main.rsi
+    state: l_arm
+
+- type: marking
+  id: hesphiastos_mainLHand
+  bodyPart: LHand
+  markingCategory: Arms
+  speciesRestriction: [Dwarf, Human, DemonSpecies, Katunian, Reptilian, Arachnid, Felinid, Moth, SlimePerson, VulpkaninPerson, TajaranSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/Prosthesis/hesphiastos_main.rsi
+    state: l_hand
+
+- type: marking
+  id: hesphiastos_mainRLeg
+  bodyPart: RLeg
+  markingCategory: Legs
+  speciesRestriction: [Dwarf, Human, DemonSpecies, Katunian, Reptilian, Arachnid, Felinid, Moth, SlimePerson, VulpkaninPerson, TajaranSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/Prosthesis/hesphiastos_main.rsi
+    state: r_leg
+
+- type: marking
+  id: hesphiastos_mainLLeg
+  bodyPart: LLeg
+  markingCategory: Legs
+  speciesRestriction: [Dwarf, Human, DemonSpecies, Katunian, Reptilian, Arachnid, Felinid, Moth, SlimePerson, VulpkaninPerson, TajaranSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/Prosthesis/hesphiastos_main.rsi
+    state: l_leg
+
+- type: marking
+  id: hesphiastos_mainRFoot
+  bodyPart: RFoot
+  markingCategory: Legs
+  speciesRestriction: [Dwarf, Human, DemonSpecies, Katunian, Reptilian, Arachnid, Felinid, Moth, SlimePerson, VulpkaninPerson, TajaranSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/Prosthesis/hesphiastos_main.rsi
+    state: r_foot
+
+- type: marking
+  id: hesphiastos_mainLFoot
+  bodyPart: LFoot
+  markingCategory: Legs
+  speciesRestriction: [Dwarf, Human, DemonSpecies, Katunian, Reptilian, Arachnid, Felinid, Moth, SlimePerson, VulpkaninPerson, TajaranSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/Prosthesis/hesphiastos_main.rsi
+    state: l_foot
+
+# hesphiastos_titan
+
+- type: marking
+  id: hesphiastos_titanRArm
+  bodyPart: RArm
+  markingCategory: Arms
+  speciesRestriction: [Dwarf, Human, DemonSpecies, Katunian, Reptilian, Arachnid, Felinid, Moth, SlimePerson, VulpkaninPerson, TajaranSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/Prosthesis/hesphiastos_titan.rsi
+    state: r_arm
+
+- type: marking
+  id: hesphiastos_titanRHand
+  bodyPart: RHand
+  markingCategory: Arms
+  speciesRestriction: [Dwarf, Human, DemonSpecies, Katunian, Reptilian, Arachnid, Felinid, Moth, SlimePerson, VulpkaninPerson, TajaranSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/Prosthesis/hesphiastos_titan.rsi
+    state: r_hand
+
+- type: marking
+  id: hesphiastos_titanLArm
+  bodyPart: LArm
+  markingCategory: Arms
+  speciesRestriction: [Dwarf, Human, DemonSpecies, Katunian, Reptilian, Arachnid, Felinid, Moth, SlimePerson, VulpkaninPerson, TajaranSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/Prosthesis/hesphiastos_titan.rsi
+    state: l_arm
+
+- type: marking
+  id: hesphiastos_titanLHand
+  bodyPart: LHand
+  markingCategory: Arms
+  speciesRestriction: [Dwarf, Human, DemonSpecies, Katunian, Reptilian, Arachnid, Felinid, Moth, SlimePerson, VulpkaninPerson, TajaranSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/Prosthesis/hesphiastos_titan.rsi
+    state: l_hand
+
+- type: marking
+  id: hesphiastos_titanRLeg
+  bodyPart: RLeg
+  markingCategory: Legs
+  speciesRestriction: [Dwarf, Human, DemonSpecies, Katunian, Reptilian, Arachnid, Felinid, Moth, SlimePerson, VulpkaninPerson, TajaranSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/Prosthesis/hesphiastos_titan.rsi
+    state: r_leg
+
+- type: marking
+  id: hesphiastos_titanLLeg
+  bodyPart: LLeg
+  markingCategory: Legs
+  speciesRestriction: [Dwarf, Human, DemonSpecies, Katunian, Reptilian, Arachnid, Felinid, Moth, SlimePerson, VulpkaninPerson, TajaranSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/Prosthesis/hesphiastos_titan.rsi
+    state: l_leg
+
+- type: marking
+  id: hesphiastos_titanRFoot
+  bodyPart: RFoot
+  markingCategory: Legs
+  speciesRestriction: [Dwarf, Human, DemonSpecies, Katunian, Reptilian, Arachnid, Felinid, Moth, SlimePerson, VulpkaninPerson, TajaranSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/Prosthesis/hesphiastos_titan.rsi
+    state: r_foot
+
+- type: marking
+  id: hesphiastos_titanLFoot
+  bodyPart: LFoot
+  markingCategory: Legs
+  speciesRestriction: [Dwarf, Human, DemonSpecies, Katunian, Reptilian, Arachnid, Felinid, Moth, SlimePerson, VulpkaninPerson, TajaranSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/Prosthesis/hesphiastos_titan.rsi
+    state: l_foot
+
+# morpheus_main
+
+- type: marking
+  id: morpheus_mainRArm
+  bodyPart: RArm
+  markingCategory: Arms
+  speciesRestriction: [Dwarf, Human, DemonSpecies, Katunian, Reptilian, Arachnid, Felinid, Moth, SlimePerson, VulpkaninPerson, TajaranSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/Prosthesis/morpheus_main.rsi
+    state: r_arm
+
+- type: marking
+  id: morpheus_mainRHand
+  bodyPart: RHand
+  markingCategory: Arms
+  speciesRestriction: [Dwarf, Human, DemonSpecies, Katunian, Reptilian, Arachnid, Felinid, Moth, SlimePerson, VulpkaninPerson, TajaranSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/Prosthesis/morpheus_main.rsi
+    state: r_hand
+
+- type: marking
+  id: morpheus_mainLArm
+  bodyPart: LArm
+  markingCategory: Arms
+  speciesRestriction: [Dwarf, Human, DemonSpecies, Katunian, Reptilian, Arachnid, Felinid, Moth, SlimePerson, VulpkaninPerson, TajaranSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/Prosthesis/morpheus_main.rsi
+    state: l_arm
+
+- type: marking
+  id: morpheus_mainLHand
+  bodyPart: LHand
+  markingCategory: Arms
+  speciesRestriction: [Dwarf, Human, DemonSpecies, Katunian, Reptilian, Arachnid, Felinid, Moth, SlimePerson, VulpkaninPerson, TajaranSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/Prosthesis/morpheus_main.rsi
+    state: l_hand
+
+- type: marking
+  id: morpheus_mainRLeg
+  bodyPart: RLeg
+  markingCategory: Legs
+  speciesRestriction: [Dwarf, Human, DemonSpecies, Katunian, Reptilian, Arachnid, Felinid, Moth, SlimePerson, VulpkaninPerson, TajaranSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/Prosthesis/morpheus_main.rsi
+    state: r_leg
+
+- type: marking
+  id: morpheus_mainLLeg
+  bodyPart: LLeg
+  markingCategory: Legs
+  speciesRestriction: [Dwarf, Human, DemonSpecies, Katunian, Reptilian, Arachnid, Felinid, Moth, SlimePerson, VulpkaninPerson, TajaranSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/Prosthesis/morpheus_main.rsi
+    state: l_leg
+
+- type: marking
+  id: morpheus_mainRFoot
+  bodyPart: RFoot
+  markingCategory: Legs
+  speciesRestriction: [Dwarf, Human, DemonSpecies, Katunian, Reptilian, Arachnid, Felinid, Moth, SlimePerson, VulpkaninPerson, TajaranSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/Prosthesis/morpheus_main.rsi
+    state: r_foot
+
+- type: marking
+  id: morpheus_mainLFoot
+  bodyPart: LFoot
+  markingCategory: Legs
+  speciesRestriction: [Dwarf, Human, DemonSpecies, Katunian, Reptilian, Arachnid, Felinid, Moth, SlimePerson, VulpkaninPerson, TajaranSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/Prosthesis/morpheus_main.rsi
+    state: l_foot
+
+# morpheus_mantis
+
+- type: marking
+  id: morpheus_mantisRArm
+  bodyPart: RArm
+  markingCategory: Arms
+  speciesRestriction: [Dwarf, Human, DemonSpecies, Katunian, Reptilian, Arachnid, Felinid, Moth, SlimePerson, VulpkaninPerson, TajaranSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/Prosthesis/morpheus_mantis.rsi
+    state: r_arm
+
+- type: marking
+  id: morpheus_mantisRHand
+  bodyPart: RHand
+  markingCategory: Arms
+  speciesRestriction: [Dwarf, Human, DemonSpecies, Katunian, Reptilian, Arachnid, Felinid, Moth, SlimePerson, VulpkaninPerson, TajaranSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/Prosthesis/morpheus_mantis.rsi
+    state: r_hand
+
+- type: marking
+  id: morpheus_mantisLArm
+  bodyPart: LArm
+  markingCategory: Arms
+  speciesRestriction: [Dwarf, Human, DemonSpecies, Katunian, Reptilian, Arachnid, Felinid, Moth, SlimePerson, VulpkaninPerson, TajaranSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/Prosthesis/morpheus_mantis.rsi
+    state: l_arm
+
+- type: marking
+  id: morpheus_mantisLHand
+  bodyPart: LHand
+  markingCategory: Arms
+  speciesRestriction: [Dwarf, Human, DemonSpecies, Katunian, Reptilian, Arachnid, Felinid, Moth, SlimePerson, VulpkaninPerson, TajaranSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/Prosthesis/morpheus_mantis.rsi
+    state: l_hand
+
+- type: marking
+  id: morpheus_mantisRLeg
+  bodyPart: RLeg
+  markingCategory: Legs
+  speciesRestriction: [Dwarf, Human, DemonSpecies, Katunian, Reptilian, Arachnid, Felinid, Moth, SlimePerson, VulpkaninPerson, TajaranSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/Prosthesis/morpheus_mantis.rsi
+    state: r_leg
+
+- type: marking
+  id: morpheus_mantisLLeg
+  bodyPart: LLeg
+  markingCategory: Legs
+  speciesRestriction: [Dwarf, Human, DemonSpecies, Katunian, Reptilian, Arachnid, Felinid, Moth, SlimePerson, VulpkaninPerson, TajaranSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/Prosthesis/morpheus_mantis.rsi
+    state: l_leg
+
+- type: marking
+  id: morpheus_mantisRFoot
+  bodyPart: RFoot
+  markingCategory: Legs
+  speciesRestriction: [Dwarf, Human, DemonSpecies, Katunian, Reptilian, Arachnid, Felinid, Moth, SlimePerson, VulpkaninPerson, TajaranSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/Prosthesis/morpheus_mantis.rsi
+    state: r_foot
+
+- type: marking
+  id: morpheus_mantisLFoot
+  bodyPart: LFoot
+  markingCategory: Legs
+  speciesRestriction: [Dwarf, Human, DemonSpecies, Katunian, Reptilian, Arachnid, Felinid, Moth, SlimePerson, VulpkaninPerson, TajaranSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/Prosthesis/morpheus_mantis.rsi
+    state: l_foot
+
+# nanotrasen_main
+
+- type: marking
+  id: nanotrasen_mainRArm
+  bodyPart: RArm
+  markingCategory: Arms
+  speciesRestriction: [Dwarf, Human, DemonSpecies, Katunian, Reptilian, Arachnid, Felinid, Moth, SlimePerson, VulpkaninPerson, TajaranSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/Prosthesis/nanotrasen_main.rsi
+    state: r_arm
+
+- type: marking
+  id: nanotrasen_mainRHand
+  bodyPart: RHand
+  markingCategory: Arms
+  speciesRestriction: [Dwarf, Human, DemonSpecies, Katunian, Reptilian, Arachnid, Felinid, Moth, SlimePerson, VulpkaninPerson, TajaranSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/Prosthesis/nanotrasen_main.rsi
+    state: r_hand
+
+- type: marking
+  id: nanotrasen_mainLArm
+  bodyPart: LArm
+  markingCategory: Arms
+  speciesRestriction: [Dwarf, Human, DemonSpecies, Katunian, Reptilian, Arachnid, Felinid, Moth, SlimePerson, VulpkaninPerson, TajaranSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/Prosthesis/nanotrasen_main.rsi
+    state: l_arm
+
+- type: marking
+  id: nanotrasen_mainLHand
+  bodyPart: LHand
+  markingCategory: Arms
+  speciesRestriction: [Dwarf, Human, DemonSpecies, Katunian, Reptilian, Arachnid, Felinid, Moth, SlimePerson, VulpkaninPerson, TajaranSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/Prosthesis/nanotrasen_main.rsi
+    state: l_hand
+
+- type: marking
+  id: nanotrasen_mainRLeg
+  bodyPart: RLeg
+  markingCategory: Legs
+  speciesRestriction: [Dwarf, Human, DemonSpecies, Katunian, Reptilian, Arachnid, Felinid, Moth, SlimePerson, VulpkaninPerson, TajaranSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/Prosthesis/nanotrasen_main.rsi
+    state: r_leg
+
+- type: marking
+  id: nanotrasen_mainLLeg
+  bodyPart: LLeg
+  markingCategory: Legs
+  speciesRestriction: [Dwarf, Human, DemonSpecies, Katunian, Reptilian, Arachnid, Felinid, Moth, SlimePerson, VulpkaninPerson, TajaranSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/Prosthesis/nanotrasen_main.rsi
+    state: l_leg
+
+- type: marking
+  id: nanotrasen_mainRFoot
+  bodyPart: RFoot
+  markingCategory: Legs
+  speciesRestriction: [Dwarf, Human, DemonSpecies, Katunian, Reptilian, Arachnid, Felinid, Moth, SlimePerson, VulpkaninPerson, TajaranSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/Prosthesis/nanotrasen_main.rsi
+    state: r_foot
+
+- type: marking
+  id: nanotrasen_mainLFoot
+  bodyPart: LFoot
+  markingCategory: Legs
+  speciesRestriction: [Dwarf, Human, DemonSpecies, Katunian, Reptilian, Arachnid, Felinid, Moth, SlimePerson, VulpkaninPerson, TajaranSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/Prosthesis/nanotrasen_main.rsi
+    state: l_foot
+
+# shellguard_main
+
+- type: marking
+  id: shellguard_mainRArm
+  bodyPart: RArm
+  markingCategory: Arms
+  speciesRestriction: [Dwarf, Human, DemonSpecies, Katunian, Reptilian, Arachnid, Felinid, Moth, SlimePerson, VulpkaninPerson, TajaranSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/Prosthesis/shellguard_main.rsi
+    state: r_arm
+
+- type: marking
+  id: shellguard_mainRHand
+  bodyPart: RHand
+  markingCategory: Arms
+  speciesRestriction: [Dwarf, Human, DemonSpecies, Katunian, Reptilian, Arachnid, Felinid, Moth, SlimePerson, VulpkaninPerson, TajaranSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/Prosthesis/shellguard_main.rsi
+    state: r_hand
+
+- type: marking
+  id: shellguard_mainLArm
+  bodyPart: LArm
+  markingCategory: Arms
+  speciesRestriction: [Dwarf, Human, DemonSpecies, Katunian, Reptilian, Arachnid, Felinid, Moth, SlimePerson, VulpkaninPerson, TajaranSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/Prosthesis/shellguard_main.rsi
+    state: l_arm
+
+- type: marking
+  id: shellguard_mainLHand
+  bodyPart: LHand
+  markingCategory: Arms
+  speciesRestriction: [Dwarf, Human, DemonSpecies, Katunian, Reptilian, Arachnid, Felinid, Moth, SlimePerson, VulpkaninPerson, TajaranSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/Prosthesis/shellguard_main.rsi
+    state: l_hand
+
+- type: marking
+  id: shellguard_mainRLeg
+  bodyPart: RLeg
+  markingCategory: Legs
+  speciesRestriction: [Dwarf, Human, DemonSpecies, Katunian, Reptilian, Arachnid, Felinid, Moth, SlimePerson, VulpkaninPerson, TajaranSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/Prosthesis/shellguard_main.rsi
+    state: r_leg
+
+- type: marking
+  id: shellguard_mainLLeg
+  bodyPart: LLeg
+  markingCategory: Legs
+  speciesRestriction: [Dwarf, Human, DemonSpecies, Katunian, Reptilian, Arachnid, Felinid, Moth, SlimePerson, VulpkaninPerson, TajaranSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/Prosthesis/shellguard_main.rsi
+    state: l_leg
+
+- type: marking
+  id: shellguard_mainRFoot
+  bodyPart: RFoot
+  markingCategory: Legs
+  speciesRestriction: [Dwarf, Human, DemonSpecies, Katunian, Reptilian, Arachnid, Felinid, Moth, SlimePerson, VulpkaninPerson, TajaranSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/Prosthesis/shellguard_main.rsi
+    state: r_foot
+
+- type: marking
+  id: shellguard_mainLFoot
+  bodyPart: LFoot
+  markingCategory: Legs
+  speciesRestriction: [Dwarf, Human, DemonSpecies, Katunian, Reptilian, Arachnid, Felinid, Moth, SlimePerson, VulpkaninPerson, TajaranSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/Prosthesis/shellguard_main.rsi
+    state: l_foot
+
+# veymed_main
+
+- type: marking
+  id: veymed_mainRArm
+  bodyPart: RArm
+  markingCategory: Arms
+  speciesRestriction: [Dwarf, Human, DemonSpecies, Katunian, Reptilian, Arachnid, Felinid, Moth, SlimePerson, VulpkaninPerson, TajaranSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/Prosthesis/veymed_main.rsi
+    state: r_arm
+
+- type: marking
+  id: veymed_mainRHand
+  bodyPart: RHand
+  markingCategory: Arms
+  speciesRestriction: [Dwarf, Human, DemonSpecies, Katunian, Reptilian, Arachnid, Felinid, Moth, SlimePerson, VulpkaninPerson, TajaranSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/Prosthesis/veymed_main.rsi
+    state: r_hand
+
+- type: marking
+  id: veymed_mainLArm
+  bodyPart: LArm
+  markingCategory: Arms
+  speciesRestriction: [Dwarf, Human, DemonSpecies, Katunian, Reptilian, Arachnid, Felinid, Moth, SlimePerson, VulpkaninPerson, TajaranSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/Prosthesis/veymed_main.rsi
+    state: l_arm
+
+- type: marking
+  id: veymed_mainLHand
+  bodyPart: LHand
+  markingCategory: Arms
+  speciesRestriction: [Dwarf, Human, DemonSpecies, Katunian, Reptilian, Arachnid, Felinid, Moth, SlimePerson, VulpkaninPerson, TajaranSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/Prosthesis/veymed_main.rsi
+    state: l_hand
+
+- type: marking
+  id: veymed_mainRLeg
+  bodyPart: RLeg
+  markingCategory: Legs
+  speciesRestriction: [Dwarf, Human, DemonSpecies, Katunian, Reptilian, Arachnid, Felinid, Moth, SlimePerson, VulpkaninPerson, TajaranSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/Prosthesis/veymed_main.rsi
+    state: r_leg
+
+- type: marking
+  id: veymed_mainLLeg
+  bodyPart: LLeg
+  markingCategory: Legs
+  speciesRestriction: [Dwarf, Human, DemonSpecies, Katunian, Reptilian, Arachnid, Felinid, Moth, SlimePerson, VulpkaninPerson, TajaranSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/Prosthesis/veymed_main.rsi
+    state: l_leg
+
+- type: marking
+  id: veymed_mainRFoot
+  bodyPart: RFoot
+  markingCategory: Legs
+  speciesRestriction: [Dwarf, Human, DemonSpecies, Katunian, Reptilian, Arachnid, Felinid, Moth, SlimePerson, VulpkaninPerson, TajaranSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/Prosthesis/veymed_main.rsi
+    state: r_foot
+
+- type: marking
+  id: veymed_mainLFoot
+  bodyPart: LFoot
+  markingCategory: Legs
+  speciesRestriction: [Dwarf, Human, DemonSpecies, Katunian, Reptilian, Arachnid, Felinid, Moth, SlimePerson, VulpkaninPerson, TajaranSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/Prosthesis/veymed_main.rsi
+    state: l_foot
+
+# wardtakahashi_economy
+
+- type: marking
+  id: wardtakahashi_economyRArm
+  bodyPart: RArm
+  markingCategory: Arms
+  speciesRestriction: [Dwarf, Human, DemonSpecies, Katunian, Reptilian, Arachnid, Felinid, Moth, SlimePerson, VulpkaninPerson, TajaranSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/Prosthesis/wardtakahashi_economy.rsi
+    state: r_arm
+
+- type: marking
+  id: wardtakahashi_economyRHand
+  bodyPart: RHand
+  markingCategory: Arms
+  speciesRestriction: [Dwarf, Human, DemonSpecies, Katunian, Reptilian, Arachnid, Felinid, Moth, SlimePerson, VulpkaninPerson, TajaranSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/Prosthesis/wardtakahashi_economy.rsi
+    state: r_hand
+
+- type: marking
+  id: wardtakahashi_economyLArm
+  bodyPart: LArm
+  markingCategory: Arms
+  speciesRestriction: [Dwarf, Human, DemonSpecies, Katunian, Reptilian, Arachnid, Felinid, Moth, SlimePerson, VulpkaninPerson, TajaranSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/Prosthesis/wardtakahashi_economy.rsi
+    state: l_arm
+
+- type: marking
+  id: wardtakahashi_economyLHand
+  bodyPart: LHand
+  markingCategory: Arms
+  speciesRestriction: [Dwarf, Human, DemonSpecies, Katunian, Reptilian, Arachnid, Felinid, Moth, SlimePerson, VulpkaninPerson, TajaranSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/Prosthesis/wardtakahashi_economy.rsi
+    state: l_hand
+
+- type: marking
+  id: wardtakahashi_economyRLeg
+  bodyPart: RLeg
+  markingCategory: Legs
+  speciesRestriction: [Dwarf, Human, DemonSpecies, Katunian, Reptilian, Arachnid, Felinid, Moth, SlimePerson, VulpkaninPerson, TajaranSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/Prosthesis/wardtakahashi_economy.rsi
+    state: r_leg
+
+- type: marking
+  id: wardtakahashi_economyLLeg
+  bodyPart: LLeg
+  markingCategory: Legs
+  speciesRestriction: [Dwarf, Human, DemonSpecies, Katunian, Reptilian, Arachnid, Felinid, Moth, SlimePerson, VulpkaninPerson, TajaranSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/Prosthesis/wardtakahashi_economy.rsi
+    state: l_leg
+
+- type: marking
+  id: wardtakahashi_economyRFoot
+  bodyPart: RFoot
+  markingCategory: Legs
+  speciesRestriction: [Dwarf, Human, DemonSpecies, Katunian, Reptilian, Arachnid, Felinid, Moth, SlimePerson, VulpkaninPerson, TajaranSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/Prosthesis/wardtakahashi_economy.rsi
+    state: r_foot
+
+- type: marking
+  id: wardtakahashi_economyLFoot
+  bodyPart: LFoot
+  markingCategory: Legs
+  speciesRestriction: [Dwarf, Human, DemonSpecies, Katunian, Reptilian, Arachnid, Felinid, Moth, SlimePerson, VulpkaninPerson, TajaranSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/Prosthesis/wardtakahashi_economy.rsi
+    state: l_foot
+
+# wardtakahashi_main
+
+- type: marking
+  id: wardtakahashi_mainRArm
+  bodyPart: RArm
+  markingCategory: Arms
+  speciesRestriction: [Dwarf, Human, DemonSpecies, Katunian, Reptilian, Arachnid, Felinid, Moth, SlimePerson, VulpkaninPerson, TajaranSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/Prosthesis/wardtakahashi_main.rsi
+    state: r_arm
+
+- type: marking
+  id: wardtakahashi_mainRHand
+  bodyPart: RHand
+  markingCategory: Arms
+  speciesRestriction: [Dwarf, Human, DemonSpecies, Katunian, Reptilian, Arachnid, Felinid, Moth, SlimePerson, VulpkaninPerson, TajaranSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/Prosthesis/wardtakahashi_main.rsi
+    state: r_hand
+
+- type: marking
+  id: wardtakahashi_mainLArm
+  bodyPart: LArm
+  markingCategory: Arms
+  speciesRestriction: [Dwarf, Human, DemonSpecies, Katunian, Reptilian, Arachnid, Felinid, Moth, SlimePerson, VulpkaninPerson, TajaranSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/Prosthesis/wardtakahashi_main.rsi
+    state: l_arm
+
+- type: marking
+  id: wardtakahashi_mainLHand
+  bodyPart: LHand
+  markingCategory: Arms
+  speciesRestriction: [Dwarf, Human, DemonSpecies, Katunian, Reptilian, Arachnid, Felinid, Moth, SlimePerson, VulpkaninPerson, TajaranSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/Prosthesis/wardtakahashi_main.rsi
+    state: l_hand
+
+- type: marking
+  id: wardtakahashi_mainRLeg
+  bodyPart: RLeg
+  markingCategory: Legs
+  speciesRestriction: [Dwarf, Human, DemonSpecies, Katunian, Reptilian, Arachnid, Felinid, Moth, SlimePerson, VulpkaninPerson, TajaranSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/Prosthesis/wardtakahashi_main.rsi
+    state: r_leg
+
+- type: marking
+  id: wardtakahashi_mainLLeg
+  bodyPart: LLeg
+  markingCategory: Legs
+  speciesRestriction: [Dwarf, Human, DemonSpecies, Katunian, Reptilian, Arachnid, Felinid, Moth, SlimePerson, VulpkaninPerson, TajaranSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/Prosthesis/wardtakahashi_main.rsi
+    state: l_leg
+
+- type: marking
+  id: wardtakahashi_mainRFoot
+  bodyPart: RFoot
+  markingCategory: Legs
+  speciesRestriction: [Dwarf, Human, DemonSpecies, Katunian, Reptilian, Arachnid, Felinid, Moth, SlimePerson, VulpkaninPerson, TajaranSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/Prosthesis/wardtakahashi_main.rsi
+    state: r_foot
+
+- type: marking
+  id: wardtakahashi_mainLFoot
+  bodyPart: LFoot
+  markingCategory: Legs
+  speciesRestriction: [Dwarf, Human, DemonSpecies, Katunian, Reptilian, Arachnid, Felinid, Moth, SlimePerson, VulpkaninPerson, TajaranSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/Prosthesis/wardtakahashi_main.rsi
+    state: l_foot
+
+# xion_economy
+
+- type: marking
+  id: xion_economyRArm
+  bodyPart: RArm
+  markingCategory: Arms
+  speciesRestriction: [Dwarf, Human, DemonSpecies, Katunian, Reptilian, Arachnid, Felinid, Moth, SlimePerson, VulpkaninPerson, TajaranSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/Prosthesis/xion_economy.rsi
+    state: r_arm
+
+- type: marking
+  id: xion_economyRHand
+  bodyPart: RHand
+  markingCategory: Arms
+  speciesRestriction: [Dwarf, Human, DemonSpecies, Katunian, Reptilian, Arachnid, Felinid, Moth, SlimePerson, VulpkaninPerson, TajaranSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/Prosthesis/xion_economy.rsi
+    state: r_hand
+
+- type: marking
+  id: xion_economyLArm
+  bodyPart: LArm
+  markingCategory: Arms
+  speciesRestriction: [Dwarf, Human, DemonSpecies, Katunian, Reptilian, Arachnid, Felinid, Moth, SlimePerson, VulpkaninPerson, TajaranSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/Prosthesis/xion_economy.rsi
+    state: l_arm
+
+- type: marking
+  id: xion_economyLHand
+  bodyPart: LHand
+  markingCategory: Arms
+  speciesRestriction: [Dwarf, Human, DemonSpecies, Katunian, Reptilian, Arachnid, Felinid, Moth, SlimePerson, VulpkaninPerson, TajaranSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/Prosthesis/xion_economy.rsi
+    state: l_hand
+
+- type: marking
+  id: xion_economyRLeg
+  bodyPart: RLeg
+  markingCategory: Legs
+  speciesRestriction: [Dwarf, Human, DemonSpecies, Katunian, Reptilian, Arachnid, Felinid, Moth, SlimePerson, VulpkaninPerson, TajaranSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/Prosthesis/xion_economy.rsi
+    state: r_leg
+
+- type: marking
+  id: xion_economyLLeg
+  bodyPart: LLeg
+  markingCategory: Legs
+  speciesRestriction: [Dwarf, Human, DemonSpecies, Katunian, Reptilian, Arachnid, Felinid, Moth, SlimePerson, VulpkaninPerson, TajaranSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/Prosthesis/xion_economy.rsi
+    state: l_leg
+
+- type: marking
+  id: xion_economyRFoot
+  bodyPart: RFoot
+  markingCategory: Legs
+  speciesRestriction: [Dwarf, Human, DemonSpecies, Katunian, Reptilian, Arachnid, Felinid, Moth, SlimePerson, VulpkaninPerson, TajaranSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/Prosthesis/xion_economy.rsi
+    state: r_foot
+
+- type: marking
+  id: xion_economyLFoot
+  bodyPart: LFoot
+  markingCategory: Legs
+  speciesRestriction: [Dwarf, Human, DemonSpecies, Katunian, Reptilian, Arachnid, Felinid, Moth, SlimePerson, VulpkaninPerson, TajaranSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/Prosthesis/xion_economy.rsi
+    state: l_foot
+
+# xion_main
+
+- type: marking
+  id: xion_mainRArm
+  bodyPart: RArm
+  markingCategory: Arms
+  speciesRestriction: [Dwarf, Human, DemonSpecies, Katunian, Reptilian, Arachnid, Felinid, Moth, SlimePerson, VulpkaninPerson, TajaranSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/Prosthesis/xion_main.rsi
+    state: r_arm
+
+- type: marking
+  id: xion_mainRHand
+  bodyPart: RHand
+  markingCategory: Arms
+  speciesRestriction: [Dwarf, Human, DemonSpecies, Katunian, Reptilian, Arachnid, Felinid, Moth, SlimePerson, VulpkaninPerson, TajaranSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/Prosthesis/xion_main.rsi
+    state: r_hand
+
+- type: marking
+  id: xion_mainLArm
+  bodyPart: LArm
+  markingCategory: Arms
+  speciesRestriction: [Dwarf, Human, DemonSpecies, Katunian, Reptilian, Arachnid, Felinid, Moth, SlimePerson, VulpkaninPerson, TajaranSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/Prosthesis/xion_main.rsi
+    state: l_arm
+
+- type: marking
+  id: xion_mainLHand
+  bodyPart: LHand
+  markingCategory: Arms
+  speciesRestriction: [Dwarf, Human, DemonSpecies, Katunian, Reptilian, Arachnid, Felinid, Moth, SlimePerson, VulpkaninPerson, TajaranSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/Prosthesis/xion_main.rsi
+    state: l_hand
+
+- type: marking
+  id: xion_mainRLeg
+  bodyPart: RLeg
+  markingCategory: Legs
+  speciesRestriction: [Dwarf, Human, DemonSpecies, Katunian, Reptilian, Arachnid, Felinid, Moth, SlimePerson, VulpkaninPerson, TajaranSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/Prosthesis/xion_main.rsi
+    state: r_leg
+
+- type: marking
+  id: xion_mainLLeg
+  bodyPart: LLeg
+  markingCategory: Legs
+  speciesRestriction: [Dwarf, Human, DemonSpecies, Katunian, Reptilian, Arachnid, Felinid, Moth, SlimePerson, VulpkaninPerson, TajaranSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/Prosthesis/xion_main.rsi
+    state: l_leg
+
+- type: marking
+  id: xion_mainRFoot
+  bodyPart: RFoot
+  markingCategory: Legs
+  speciesRestriction: [Dwarf, Human, DemonSpecies, Katunian, Reptilian, Arachnid, Felinid, Moth, SlimePerson, VulpkaninPerson, TajaranSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/Prosthesis/xion_main.rsi
+    state: r_foot
+
+- type: marking
+  id: xion_mainLFoot
+  bodyPart: LFoot
+  markingCategory: Legs
+  speciesRestriction: [Dwarf, Human, DemonSpecies, Katunian, Reptilian, Arachnid, Felinid, Moth, SlimePerson, VulpkaninPerson, TajaranSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/Prosthesis/xion_main.rsi
+    state: l_foot
+
+# zenghu_main
+
+- type: marking
+  id: zenghu_mainRArm
+  bodyPart: RArm
+  markingCategory: Arms
+  speciesRestriction: [Dwarf, Human, DemonSpecies, Katunian, Reptilian, Arachnid, Felinid, Moth, SlimePerson, VulpkaninPerson, TajaranSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/Prosthesis/zenghu_main.rsi
+    state: r_arm
+
+- type: marking
+  id: zenghu_mainRHand
+  bodyPart: RHand
+  markingCategory: Arms
+  speciesRestriction: [Dwarf, Human, DemonSpecies, Katunian, Reptilian, Arachnid, Felinid, Moth, SlimePerson, VulpkaninPerson, TajaranSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/Prosthesis/zenghu_main.rsi
+    state: r_hand
+
+- type: marking
+  id: zenghu_mainLArm
+  bodyPart: LArm
+  markingCategory: Arms
+  speciesRestriction: [Dwarf, Human, DemonSpecies, Katunian, Reptilian, Arachnid, Felinid, Moth, SlimePerson, VulpkaninPerson, TajaranSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/Prosthesis/zenghu_main.rsi
+    state: l_arm
+
+- type: marking
+  id: zenghu_mainLHand
+  bodyPart: LHand
+  markingCategory: Arms
+  speciesRestriction: [Dwarf, Human, DemonSpecies, Katunian, Reptilian, Arachnid, Felinid, Moth, SlimePerson, VulpkaninPerson, TajaranSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/Prosthesis/zenghu_main.rsi
+    state: l_hand
+
+- type: marking
+  id: zenghu_mainRLeg
+  bodyPart: RLeg
+  markingCategory: Legs
+  speciesRestriction: [Dwarf, Human, DemonSpecies, Katunian, Reptilian, Arachnid, Felinid, Moth, SlimePerson, VulpkaninPerson, TajaranSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/Prosthesis/zenghu_main.rsi
+    state: r_leg
+
+- type: marking
+  id: zenghu_mainLLeg
+  bodyPart: LLeg
+  markingCategory: Legs
+  speciesRestriction: [Dwarf, Human, DemonSpecies, Katunian, Reptilian, Arachnid, Felinid, Moth, SlimePerson, VulpkaninPerson, TajaranSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/Prosthesis/zenghu_main.rsi
+    state: l_leg
+
+- type: marking
+  id: zenghu_mainRFoot
+  bodyPart: RFoot
+  markingCategory: Legs
+  speciesRestriction: [Dwarf, Human, DemonSpecies, Katunian, Reptilian, Arachnid, Felinid, Moth, SlimePerson, VulpkaninPerson, TajaranSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/Prosthesis/zenghu_main.rsi
+    state: r_foot
+
+- type: marking
+  id: zenghu_mainLFoot
+  bodyPart: LFoot
+  markingCategory: Legs
+  speciesRestriction: [Dwarf, Human, DemonSpecies, Katunian, Reptilian, Arachnid, Felinid, Moth, SlimePerson, VulpkaninPerson, TajaranSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/Prosthesis/zenghu_main.rsi
+    state: l_foot
+
+# zenghu_spirit
+
+- type: marking
+  id: zenghu_spiritRArm
+  bodyPart: RArm
+  markingCategory: Arms
+  speciesRestriction: [Dwarf, Human, DemonSpecies, Katunian, Reptilian, Arachnid, Felinid, Moth, SlimePerson, VulpkaninPerson, TajaranSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/Prosthesis/zenghu_spirit.rsi
+    state: r_arm
+
+- type: marking
+  id: zenghu_spiritRHand
+  bodyPart: RHand
+  markingCategory: Arms
+  speciesRestriction: [Dwarf, Human, DemonSpecies, Katunian, Reptilian, Arachnid, Felinid, Moth, SlimePerson, VulpkaninPerson, TajaranSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/Prosthesis/zenghu_spirit.rsi
+    state: r_hand
+
+- type: marking
+  id: zenghu_spiritLArm
+  bodyPart: LArm
+  markingCategory: Arms
+  speciesRestriction: [Dwarf, Human, DemonSpecies, Katunian, Reptilian, Arachnid, Felinid, Moth, SlimePerson, VulpkaninPerson, TajaranSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/Prosthesis/zenghu_spirit.rsi
+    state: l_arm
+
+- type: marking
+  id: zenghu_spiritLHand
+  bodyPart: LHand
+  markingCategory: Arms
+  speciesRestriction: [Dwarf, Human, DemonSpecies, Katunian, Reptilian, Arachnid, Felinid, Moth, SlimePerson, VulpkaninPerson, TajaranSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/Prosthesis/zenghu_spirit.rsi
+    state: l_hand
+
+- type: marking
+  id: zenghu_spiritRLeg
+  bodyPart: RLeg
+  markingCategory: Legs
+  speciesRestriction: [Dwarf, Human, DemonSpecies, Katunian, Reptilian, Arachnid, Felinid, Moth, SlimePerson, VulpkaninPerson, TajaranSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/Prosthesis/zenghu_spirit.rsi
+    state: r_leg
+
+- type: marking
+  id: zenghu_spiritLLeg
+  bodyPart: LLeg
+  markingCategory: Legs
+  speciesRestriction: [Dwarf, Human, DemonSpecies, Katunian, Reptilian, Arachnid, Felinid, Moth, SlimePerson, VulpkaninPerson, TajaranSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/Prosthesis/zenghu_spirit.rsi
+    state: l_leg
+
+- type: marking
+  id: zenghu_spiritRFoot
+  bodyPart: RFoot
+  markingCategory: Legs
+  speciesRestriction: [Dwarf, Human, DemonSpecies, Katunian, Reptilian, Arachnid, Felinid, Moth, SlimePerson, VulpkaninPerson, TajaranSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/Prosthesis/zenghu_spirit.rsi
+    state: r_foot
+
+- type: marking
+  id: zenghu_spiritLFoot
+  bodyPart: LFoot
+  markingCategory: Legs
+  speciesRestriction: [Dwarf, Human, DemonSpecies, Katunian, Reptilian, Arachnid, Felinid, Moth, SlimePerson, VulpkaninPerson, TajaranSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/Prosthesis/zenghu_spirit.rsi
+    state: l_foot
+
+# robovox_main
+
+- type: marking
+  id: robovox_mainRArm
+  bodyPart: RArm
+  markingCategory: Arms
+  speciesRestriction: [Vox]
+  sprites:
+  - sprite: Void/Mobs/Customization/Prosthesis/robovox_main.rsi
+    state: r_arm
+
+- type: marking
+  id: robovox_mainRHand
+  bodyPart: RHand
+  markingCategory: Arms
+  speciesRestriction: [Vox]
+  sprites:
+  - sprite: Void/Mobs/Customization/Prosthesis/robovox_main.rsi
+    state: r_hand
+
+- type: marking
+  id: robovox_mainLArm
+  bodyPart: LArm
+  markingCategory: Arms
+  speciesRestriction: [Vox]
+  sprites:
+  - sprite: Void/Mobs/Customization/Prosthesis/robovox_main.rsi
+    state: l_arm
+
+- type: marking
+  id: robovox_mainLHand
+  bodyPart: LHand
+  markingCategory: Arms
+  speciesRestriction: [Vox]
+  sprites:
+  - sprite: Void/Mobs/Customization/Prosthesis/robovox_main.rsi
+    state: l_hand
+
+- type: marking
+  id: robovox_mainRLeg
+  bodyPart: RLeg
+  markingCategory: Legs
+  speciesRestriction: [Vox]
+  sprites:
+  - sprite: Void/Mobs/Customization/Prosthesis/robovox_main.rsi
+    state: r_leg
+
+- type: marking
+  id: robovox_mainLLeg
+  bodyPart: LLeg
+  markingCategory: Legs
+  speciesRestriction: [Vox]
+  sprites:
+  - sprite: Void/Mobs/Customization/Prosthesis/robovox_main.rsi
+    state: l_leg
+
+- type: marking
+  id: robovox_mainRFoot
+  bodyPart: RFoot
+  markingCategory: Legs
+  speciesRestriction: [Vox]
+  sprites:
+  - sprite: Void/Mobs/Customization/Prosthesis/robovox_main.rsi
+    state: r_foot
+
+- type: marking
+  id: robovox_mainLFoot
+  bodyPart: LFoot
+  markingCategory: Legs
+  speciesRestriction: [Vox]
+  sprites:
+  - sprite: Void/Mobs/Customization/Prosthesis/robovox_main.rsi
+    state: l_foot
