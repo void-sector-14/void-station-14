@@ -12,6 +12,7 @@
   icon: JobIconStationAi
   supervisors: job-supervisors-command
   jobEntity: StationAiBrain
+  jobPreviewEntity: PlayerStationAiPreview
   applyTraits: false
 
 - type: job
