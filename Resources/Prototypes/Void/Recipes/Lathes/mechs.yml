@@ -121,7 +121,7 @@
     Silver: 100
 
 - type: latheRecipe
-  parent: ClarkeLArm
+  parent: OdysseusLArm
   id: OdysseusRArm
   result: OdysseusRArm
 
