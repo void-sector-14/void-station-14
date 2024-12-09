@@ -1,13 +1,30 @@
 - type: construction
-  name: маленький вентилятор
   id: FanTiny
+  name: маленький вентилятор
+  description: Маленький вентилятор, создающий легкий поток воздуха.
   graph: FanTiny
   startNode: start
   targetNode: fantiny
   category: construction-category-utilities
-  description: Маленький вентилятор, создающий легкий поток воздуха.
   icon:
     sprite: Structures/Piping/Atmospherics/tinyfan.rsi
+    state: icon
+  objectType: Structure
+  placementMode: SnapgridCenter
+  canBuildInImpassable: false
+  conditions:
+  - !type:TileNotBlocked
+
+- type: construction
+  id: FanDirectional
+  name: маленький вентилятор
+  description: Маленький вентилятор, создающий легкий поток воздуха.
+  graph: FanDirectional
+  startNode: start
+  targetNode: fandirectional
+  category: construction-category-utilities
+  icon:
+    sprite: Structures/Piping/Atmospherics/directionalfan.rsi
     state: icon
   objectType: Structure
   placementMode: SnapgridCenter

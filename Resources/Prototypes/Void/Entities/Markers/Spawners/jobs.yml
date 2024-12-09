@@ -50,3 +50,15 @@
     layers:
       - state: green
       - state: blueshield
+
+- type: entity
+  id: SpawnPointCentcom
+  parent: SpawnPointJobBase
+  name: офицер ЦК
+  components:
+  - type: SpawnPoint
+    job_id: CentralCommandOfficial
+  - type: Sprite
+    layers:
+      - state: green
+      - state: centcom

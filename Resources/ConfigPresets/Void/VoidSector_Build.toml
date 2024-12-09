@@ -34,6 +34,9 @@ note_fresh_days = 0
 message_wait_time = 1
 afk_time = 0.0
 
+[interaction]
+rate_limit_announce_admins_delay = -1
+
 [physics]
 grid_splitting = false
 

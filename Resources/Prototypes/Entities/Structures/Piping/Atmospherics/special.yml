@@ -36,39 +36,6 @@
       board: !type:Container
 
 - type: entity
-  noSpawn: true
-  id: AtmosDeviceFanTinyFrame
-  name: каркас маленького вентилятора
-  description: Строительный каркас для маленького вентилятора.
-  placement:
-    mode: SnapgridCenter
-  components:
-  - type: Clickable
-  - type: InteractionOutline
-  - type: Physics
-    canCollide: false
-  - type: Fixtures
-    fixtures:
-      fix1:
-        shape:
-          !type:PhysShapeAabb
-            bounds: "-0.5,-0.5,0.5,0.5"
-  - type: Transform
-    anchored: true
-  - type: Sprite
-    sprite: Structures/Piping/Atmospherics/tinyfan.rsi
-    state: frame
-  - type: Construction
-    graph: FanTiny
-    node: frame
-  - type: Tag
-    tags:
-      - SpreaderIgnore
-  - type: Anchorable
-  - type: Item
-    size: Tiny
-
-- type: entity
   id: AtmosDeviceFanDirectional
   name: directional fan
   description: A thin fan, stopping the movement of gases across it.

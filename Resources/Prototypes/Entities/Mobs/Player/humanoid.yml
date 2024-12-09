@@ -10,6 +10,7 @@
 - type: randomHumanoidSettings
   id: EventHumanoidMindShielded
   parent: EventHumanoid
+  speciesBlacklist: [Arachnid, Diona, Dwarf, Moth, Reptilian, SlimePerson, Vox, DemonSpecies, Katunian, TajaranSpecies, VulpkaninPerson, Felinid]
   components:
     - type: MindShield
     - type: AntagImmune
