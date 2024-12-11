@@ -26,6 +26,7 @@ shuttle-console-ftl-label = Статус БСС
 shuttle-console-ftl-state-Available = Доступен
 shuttle-console-ftl-state-Starting = Разгон
 shuttle-console-ftl-state-Travelling = Перемещение
+shuttle-console-ftl-state-Invalid = Неверно
 shuttle-console-ftl-state-Arriving = Прибытие
 shuttle-console-ftl-state-Cooldown = Перезагрузка
 shuttle-console-map-settings = Настройки
