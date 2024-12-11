@@ -73,7 +73,7 @@ anomaly-command-supercritical = Делает целевую аномалию с�
 anomaly-generator-flavor-left = Аномалия может возникнуть внутри оператора.
 anomaly-generator-flavor-right = v1.1
 anomaly-behavior-unknown = [color=red]ОШИБКА. Невозможно прочитать.[/color]
-anomaly-behavior-title = анализ отклонений в поведении:
+anomaly-behavior-title = Анализ отклонений в поведении:
 anomaly-behavior-point = [color=gold]Аномалия генерирует { $mod }% очков[/color]
 anomaly-behavior-safe = [color=forestgreen]Аномалия чрезвычайно стабильна. Крайне редкие импульсы.[/color]
 anomaly-behavior-slow = [color=forestgreen]Частота импульсов значительно меньше.[/color]
