@@ -1,7 +1,7 @@
 - type: gameMap
   id: VSOasis
   mapName: 'Oasis'
-  mapPath: /Maps/oasis.yml
+  mapPath: /Maps_Void/oasis.yml
   minPlayers: 20
   stations:
     Oasis:
