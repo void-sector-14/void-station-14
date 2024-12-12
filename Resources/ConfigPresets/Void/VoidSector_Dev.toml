@@ -65,7 +65,7 @@ emergency_authorize_time = 15.0
 recall_turning_point = 0.1
 auto_call_time = 120
 auto_call_extension_time = 60
-arrivals_map = Maps_Void/Misc/terminal.yml
+arrivals_map = "Maps_Void/Misc/terminal.yml"
 
 [rules]
 time = 0.0
