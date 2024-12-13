@@ -1,6 +1,6 @@
 - type: gameMap
   id: VSMeta
-  mapName: 'Meta Station'
+  mapName: 'Meta '
   mapPath: /Maps_Void/meta.yml
   minPlayers: 35
   stations:
