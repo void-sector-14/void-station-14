@@ -1,6 +1,7 @@
 - type: gameMapPool
   id: VoidMapPool
   maps:
+  - VSAmber
   - VSBagel
   # - VSBox
   - VSCog
