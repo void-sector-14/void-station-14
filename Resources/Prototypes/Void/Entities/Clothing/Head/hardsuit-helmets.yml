@@ -39,7 +39,7 @@
   parent: ClothingHeadHardsuitWithLightBase
   id: TraumaTeamHelmet
   name: EVA Шлем Парамедика "Траумы"
-  description: Лёгкий шлем парамедиков TTI, адаптированый для действий в безвоздушном пространстве.
+  description: Лёгкий шлем парамедиков TTI, адаптированный для действий в безвоздушном пространстве.
   components:
   - type: Sprite
     sprite: Void/Clothing/Head/Hardsuits/trauma.rsi
@@ -65,7 +65,7 @@
   parent: ClothingHeadHardsuitWithLightBase
   id: TraumaTeamHelmetRed
   name: EVA Шлем Техника "Траумы"
-  description: Укреплённый шлем техника TTI, адаптированый для действий в безвоздушном пространстве. Это кровь?..
+  description: Укреплённый шлем техника TTI, адаптированный для действий в безвоздушном пространстве. Это кровь?..
   components:
   - type: Sprite
     sprite: Void/Clothing/Head/Hardsuits/traumared.rsi

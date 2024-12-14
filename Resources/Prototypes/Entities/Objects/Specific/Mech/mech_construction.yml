@@ -1310,11 +1310,11 @@
     node: start
     defaultTarget: hauler
 
-# FireFigter
+# FireFighter
 
 - type: entity
   parent: BaseRipleyPart
-  id: FireFigterHarness
+  id: FireFighterHarness
   name: каркас Пожарного рипли
   description: Это ядро Пожарного рипли
   components:
@@ -1342,7 +1342,7 @@
     containers:
       mech-assembly-container: !type:Container
   - type: MechAssembly
-    finishedPrototype: FireFigterChassis
+    finishedPrototype: FireFighterChassis
     requiredParts:
       RipleyLArm: false
       RipleyRArm: false
@@ -1353,7 +1353,7 @@
     noRot: true
 
 - type: entity
-  id: FireFigterChassis
+  id: FireFighterChassis
   parent: BaseRipleyPart
   name: шасси Пожарного рипли
   description: Незавершенный в строительстве Пожарный рипли
@@ -1368,6 +1368,6 @@
     noRot: true
     state: ripley0
   - type: Construction
-    graph: FireFigter
+    graph: FireFighter
     node: start
-    defaultTarget: firefigter
+    defaultTarget: fireFighter

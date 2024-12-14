@@ -552,10 +552,10 @@
   id: FireAxe
 
 - type: Tag
-  id: FifeFighterCentralControlModule # FifeFighter Mech
+  id: FireFighterCentralControlModule # FireFighter Mech
 
 - type: Tag
-  id: FifeFighterPeripheralsControlModule
+  id: FireFighterPeripheralsControlModule
 
 - type: Tag
   id: FirelockElectronics

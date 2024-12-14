@@ -1,6 +1,6 @@
 - type: gameMap
   id: VSMarathon
-  mapName: 'Marathon Station'
+  mapName: 'Marathon '
   mapPath: /Maps_Void/marathon.yml
   minPlayers: 30
   maxPlayers: 70

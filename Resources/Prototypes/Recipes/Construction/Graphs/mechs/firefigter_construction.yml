@@ -1,10 +1,10 @@
 - type: constructionGraph
-  id: FireFigter
+  id: FireFighter
   start: start
   graph:
   - node: start
     edges:
-    - to: firefigter
+    - to: fireFighter
       steps:
       - tool: Anchoring
         doAfter: 1
@@ -33,7 +33,7 @@
           key: "enum.MechAssemblyVisuals.State"
           data: 4
 
-      - tag: FifeFighterCentralControlModule
+      - tag: FireFighterCentralControlModule
         name: FireFighter central control module
         icon:
           sprite: "Objects/Misc/module.rsi"
@@ -50,7 +50,7 @@
           key: "enum.MechAssemblyVisuals.State"
           data: 6
 
-      - tag: FifeFighterPeripheralsControlModule
+      - tag: FireFighterPeripheralsControlModule
         name: FireFighter peripherals control module
         icon:
           sprite: "Objects/Misc/module.rsi"
@@ -119,7 +119,7 @@
       - tool: Welding
         doAfter: 1
 
-  - node: firefigter
+  - node: fireFighter
     actions:
     - !type:BuildMech
       mechPrototype: MechFireFighter

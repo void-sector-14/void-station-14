@@ -9,6 +9,7 @@ species-name-arachnid = Арахнид
 species-name-moth = Ниан
 species-name-vulpkanin = Вульпканин
 species-name-katunian = Катунианец
+species-name-gingerbread = вкусно выпеченный хороший
 species-name-skeleton = Скелет
 snail-hurt-by-salt-popup = Соленый раствор жжет, как кислота!
 species-name-vox = Вокс

@@ -7,7 +7,6 @@ marking-bishop_mainRLeg = Протез Бишоп (Правая нога)
 marking-bishop_mainLLeg = Протез Бишоп (Левая нога)
 marking-bishop_mainRFoot = Протез Бишоп (Правая ступа)
 marking-bishop_mainLFoot = Протез Бишоп (Левая ступа)
-
 # bishop_rook
 marking-bishop_rookRArm = Протез Бишоп Ладья (Правая рука)
 marking-bishop_rookRHand = Протез Бишоп Ладья (Правая ладонь)
@@ -17,7 +16,6 @@ marking-bishop_rookRLeg = Протез Бишоп Ладья (Правая но�
 marking-bishop_rookLLeg = Протез Бишоп Ладья (Левая нога)
 marking-bishop_rookRFoot = Протез Бишоп Ладья (Правая ступа)
 marking-bishop_rookLFoot = Протез Бишоп Ладья (Левая ступа)
-
 # hesphiastos_main
 marking-hesphiastos_mainRArm = Протез Гефест (Правая рука)
 marking-hesphiastos_mainRHand = Протез Гефест (Правая ладонь)
@@ -27,7 +25,6 @@ marking-hesphiastos_mainRLeg = Протез Гефест (Правая нога)
 marking-hesphiastos_mainLLeg = Протез Гефест (Левая нога)
 marking-hesphiastos_mainRFoot = Протез Гефест (Правая ступа)
 marking-hesphiastos_mainLFoot = Протез Гефест (Левая ступа)
-
 # hesphiastos_titan
 marking-hesphiastos_titanRArm = Протез Гефест Титан (Правая рука)
 marking-hesphiastos_titanRHand = Протез Гефест Титан (Правая ладонь)
@@ -37,7 +34,6 @@ marking-hesphiastos_titanRLeg = Протез Гефест Титан (Права
 marking-hesphiastos_titanLLeg = Протез Гефест Титан (Левая нога)
 marking-hesphiastos_titanRFoot = Протез Гефест Титан (Правая ступа)
 marking-hesphiastos_titanLFoot = Протез Гефест Титан (Левая ступа)
-
 # morpheus_main
 marking-morpheus_mainRArm = Протез Морфей (Правая рука)
 marking-morpheus_mainRHand = Протез Морфей (Правая ладонь)
@@ -47,7 +43,6 @@ marking-morpheus_mainRLeg = Протез Морфей (Правая нога)
 marking-morpheus_mainLLeg = Протез Морфей (Левая нога)
 marking-morpheus_mainRFoot = Протез Морфей (Правая ступа)
 marking-morpheus_mainLFoot = Протез Морфей (Левая ступа)
-
 # morpheus_mantis
 marking-morpheus_mantisRArm = Протез Морфей Богомол (Правая рука)
 marking-morpheus_mantisRHand = Протез Морфей Богомол (Правая ладонь)
@@ -57,7 +52,6 @@ marking-morpheus_mantisRLeg = Протез Морфей Богомол (Прав
 marking-morpheus_mantisLLeg = Протез Морфей Богомол (Левая нога)
 marking-morpheus_mantisRFoot = Протез Морфей Богомол (Правая ступа)
 marking-morpheus_mantisLFoot = Протез Морфей Богомол (Левая ступа)
-
 # nanotrasen_main
 marking-nanotrasen_mainRArm = Протез Нанотрейзен (Правая рука)
 marking-nanotrasen_mainRHand = Протез Нанотрейзен (Правая ладонь)
@@ -67,7 +61,6 @@ marking-nanotrasen_mainRLeg = Протез Нанотрейзен (Правая 
 marking-nanotrasen_mainLLeg = Протез Нанотрейзен (Левая нога)
 marking-nanotrasen_mainRFoot = Протез Нанотрейзен (Правая ступа)
 marking-nanotrasen_mainLFoot = Протез Нанотрейзен (Левая ступа)
-
 # shellguard_main
 marking-shellguard_mainRArm = Протез Шеллгард (Правая рука)
 marking-shellguard_mainRHand = Протез Шеллгард (Правая ладонь)
@@ -77,7 +70,6 @@ marking-shellguard_mainRLeg = Протез Шеллгард (Правая ног
 marking-shellguard_mainLLeg = Протез Шеллгард (Левая нога)
 marking-shellguard_mainRFoot = Протез Шеллгард (Правая ступа)
 marking-shellguard_mainLFoot = Протез Шеллгард (Левая ступа)
-
 # veymed_main
 marking-veymed_mainRArm = Протез ВейМед (Правая рука)
 marking-veymed_mainRHand = Протез ВейМед (Правая ладонь)
@@ -87,7 +79,6 @@ marking-veymed_mainRLeg = Протез ВейМед (Правая нога)
 marking-veymed_mainLLeg = Протез ВейМед (Левая нога)
 marking-veymed_mainRFoot = Протез ВейМед (Правая ступа)
 marking-veymed_mainLFoot = Протез ВейМед (Левая ступа)
-
 # wardtakahashi_economy
 marking-wardtakahashi_economyRArm = Протез Уорд-Такахаси Эконом (Правая рука)
 marking-wardtakahashi_economyRHand = Протез Уорд-Такахаси Эконом (Правая ладонь)
@@ -97,7 +88,6 @@ marking-wardtakahashi_economyRLeg = Протез Уорд-Такахаси Эк�
 marking-wardtakahashi_economyLLeg = Протез Уорд-Такахаси Эконом (Левая нога)
 marking-wardtakahashi_economyRFoot = Протез Уорд-Такахаси Эконом (Правая ступа)
 marking-wardtakahashi_economyLFoot = Протез Уорд-Такахаси Эконом (Левая ступа)
-
 # wardtakahashi_main
 marking-wardtakahashi_mainRArm = Протез Уорд-Такахаси (Правая рука)
 marking-wardtakahashi_mainRHand = Протез Уорд-Такахаси (Правая ладонь)
@@ -107,7 +97,6 @@ marking-wardtakahashi_mainRLeg = Протез Уорд-Такахаси (Пра�
 marking-wardtakahashi_mainLLeg = Протез Уорд-Такахаси (Левая нога)
 marking-wardtakahashi_mainRFoot = Протез Уорд-Такахаси (Правая ступа)
 marking-wardtakahashi_mainLFoot = Протез Уорд-Такахаси (Левая ступа)
-
 # xion_economy
 marking-xion_economyRArm = Протез Сион Эконом (Правая рука)
 marking-xion_economyRHand = Протез Сион Эконом (Правая ладонь)
@@ -117,7 +106,6 @@ marking-xion_economyRLeg = Протез Сион Эконом (Правая но
 marking-xion_economyLLeg = Протез Сион Эконом (Левая нога)
 marking-xion_economyRFoot = Протез Сион Эконом (Правая ступа)
 marking-xion_economyLFoot = Протез Сион Эконом (Левая ступа)
-
 # xion_main
 marking-xion_mainRArm = Протез Сион (Правая рука)
 marking-xion_mainRHand = Протез Сион (Правая ладонь)
@@ -127,7 +115,6 @@ marking-xion_mainRLeg = Протез Сион (Правая нога)
 marking-xion_mainLLeg = Протез Сион (Левая нога)
 marking-xion_mainRFoot = Протез Сион (Правая ступа)
 marking-xion_mainLFoot = Протез Сион (Левая ступа)
-
 # zenghu_main
 marking-zenghu_mainRArm = Протез Зен-Гу (Правая рука)
 marking-zenghu_mainRHand = Протез Зен-Гу (Правая ладонь)
@@ -137,7 +124,6 @@ marking-zenghu_mainRLeg = Протез Зен-Гу (Правая нога)
 marking-zenghu_mainLLeg = Протез Зен-Гу (Левая нога)
 marking-zenghu_mainRFoot = Протез Зен-Гу (Правая ступа)
 marking-zenghu_mainLFoot = Протез Зен-Гу (Левая ступа)
-
 # zenghu_spirit
 marking-zenghu_spiritRArm = Протез Зен-Гу Дух (Правая рука)
 marking-zenghu_spiritRHand = Протез Зен-Гу Дух (Правая ладонь)
@@ -147,7 +133,6 @@ marking-zenghu_spiritRLeg = Протез Зен-Гу Дух (Правая ног
 marking-zenghu_spiritLLeg = Протез Зен-Гу Дух (Левая нога)
 marking-zenghu_spiritRFoot = Протез Зен-Гу Дух (Правая ступа)
 marking-zenghu_spiritLFoot = Протез Зен-Гу Дух (Левая ступа)
-
 # robovox_main
 marking-robovox_mainRArm = Протез (Правая рука)
 marking-robovox_mainRHand = Протез (Правая ладонь)

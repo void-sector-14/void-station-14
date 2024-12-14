@@ -6,6 +6,8 @@ using Content.Shared.Administration.Logs;
 using Content.Shared.CombatMode;
 using Content.Shared.Damage;
 using Content.Shared.Damage.Systems;
+using Content.Shared.Mech.Components;
+using Content.Shared.Mech.Equipment.Components;
 using Content.Shared.Database;
 using Content.Shared.FixedPoint;
 using Content.Shared.Hands;
@@ -343,6 +345,17 @@ public abstract class SharedMeleeWeaponSystem : EntitySystem
 
         if (!CombatMode.IsInCombatMode(user))
             return false;
+
+        // Если у оружия есть MechEquipmentComponent, атака невозможна.
+        if (HasComp<MechEquipmentComponent>(weaponUid))
+        {
+            // Проверяем, является ли пользователь пилотом меха.
+            if (!TryComp<MechPilotComponent>(user, out var mechPilot) || mechPilot.Mech == null)
+            {
+                PopupSystem.PopupClient("Это оружие слишком большое для вас.", user);
+                return false;
+            }
+        }
 
         EntityUid? target = null;
         switch (attack)

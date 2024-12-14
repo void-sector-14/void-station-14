@@ -28,13 +28,13 @@
 
 - type: latheRecipe
   parent: BaseGoldCircuitboardRecipe
-  id: FifeFighterPeripheralsElectronics
-  result: FifeFighterPeripheralsElectronics
+  id: FireFighterPeripheralsElectronics
+  result: FireFighterPeripheralsElectronics
 
 - type: latheRecipe
   parent: BaseGoldCircuitboardRecipe
-  id: FifeFighterCentralElectronics
-  result: FifeFighterCentralElectronics
+  id: FireFighterCentralElectronics
+  result: FireFighterCentralElectronics
 
 # Hauler
 
@@ -151,8 +151,8 @@
 # FireFighter
 
 - type: latheRecipe
-  id: FireFigterHarness
-  result: FireFigterHarness
+  id: FireFighterHarness
+  result: FireFighterHarness
   category: Mech
   completetime: 10
   materials:

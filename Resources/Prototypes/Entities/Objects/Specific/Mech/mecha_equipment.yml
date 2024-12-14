@@ -74,7 +74,6 @@
     delay: 0.5
   # TODO: tag as being for H.O.N.K. only!!!
 
-#
 - type: entity
   id: MechEquipmentDiamondDrill
   parent: BaseMechEquipment
@@ -95,9 +94,9 @@
     attackRate: 4
     damage:
       groups:
-        Brute: 6
+        Brute: 15
       types:
-        Structural: 30
+        Structural: 50
 
 - type: entity
   id: MechEquipmentDrill
@@ -119,9 +118,9 @@
     attackRate: 4
     damage:
       groups:
-        Brute: 3
+        Brute: 9
       types:
-        Structural: 15
+        Structural: 25
 
 - type: entity
   id: MechEquipmentProtokinet

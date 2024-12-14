@@ -32,6 +32,6 @@ ent-ClothingNeckCloakHCapFormalSlimecat = торжественный плащ к
     .desc = Кто-то обгрыз ваш плащ...
     .suffix = Обгрызанный
 ent-ClothingBeltStorageWaistbagSlimecat = маленькая сумочка
-    .desc = Какая-то криваая поделка из ткани.
+    .desc = Какая-то кривая поделка из ткани.
 ent-ClothingStorageSlimecatBack = маленький рюкзак
     .desc = Какая-то криваая поделка из ткани.

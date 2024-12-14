@@ -10,3 +10,5 @@ ent-SpawnPointMagistrate = магистрат
 ent-SpawnPointBlueShield = офицер синего щита
     .desc = { "" }
     .suffix = { ent-SpawnPointVoidJobBase.suffix }
+ent-SpawnPointCentcom = офицер ЦК
+    .desc = { ent-SpawnPointJobBase.desc }
