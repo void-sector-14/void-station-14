@@ -409,10 +409,10 @@
       guides:
       - Robotics
 
-# FifeFighter
+# FireFighter
 
 - type: entity
-  id: FifeFighterCentralElectronics
+  id: FireFighterCentralElectronics
   parent: BaseElectronics
   name: центральный модуль управления Пожарного рипли
   description: центральный модуль управления Пожарного рипли.
@@ -424,13 +424,13 @@
       state: mainboard
     - type: Tag
       tags:
-      - FifeFighterCentralControlModule
+      - FireFighterCentralControlModule
     - type: GuideHelp
       guides:
       - Robotics
 
 - type: entity
-  id: FifeFighterPeripheralsElectronics
+  id: FireFighterPeripheralsElectronics
   parent: BaseElectronics
   name: модуль управления периферией Пожарного рипли
   description: Система управления электрическими периферийными устройствами меха Пожарного рипли.
@@ -440,7 +440,7 @@
       state: id_mod
     - type: Tag
       tags:
-      - FifeFighterPeripheralsControlModule
+      - FireFighterPeripheralsControlModule
     - type: GuideHelp
       guides:
       - Robotics

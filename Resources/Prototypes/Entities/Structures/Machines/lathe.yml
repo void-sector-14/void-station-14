@@ -461,8 +461,8 @@
       - ClarkeCentralElectronics
       - RipleyMKiiPeripheralsElectronics
       - RipleyMKiiCentralElectronics
-      - FifeFighterPeripheralsElectronics
-      - FifeFighterCentralElectronics
+      - FireFighterPeripheralsElectronics
+      - FireFighterCentralElectronics
       - HaulerPeripheralsElectronics
       - HaulerCentralElectronics
       - OdysseusPeripheralsElectronics
@@ -648,7 +648,7 @@
     - ClarkeLLeg
     - ClarkeRLeg
     - RipleyMKiiHarness
-    - FireFigterHarness
+    - FireFighterHarness
     - HaulerHarness
     - OdysseusHarness
     - OdysseusLArm
