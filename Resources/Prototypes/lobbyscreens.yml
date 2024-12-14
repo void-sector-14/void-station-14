@@ -85,3 +85,7 @@
 - type: lobbyBackground
   id: RobusTyanka
   background: /Textures/LobbyScreens/RobusTyanka.png
+
+- type: lobbyBackground
+  id: Syndicate
+  background: /Textures/LobbyScreens/syndicte.png
