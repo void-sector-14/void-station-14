@@ -63,3 +63,12 @@
   - type: Tag
     tags:
       - SpreaderIgnore
+  - type: Construction
+    graph: FanDirectional
+    node: fandirectional
+  - type: ContainerFill
+    containers:
+      board: [ FanTinyElectronics ]
+  - type: ContainerContainer
+    containers:
+      board: !type:Container

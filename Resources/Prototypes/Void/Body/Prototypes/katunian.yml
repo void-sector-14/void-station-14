@@ -19,10 +19,10 @@
         liver: OrganHumanLiver
         kidneys: OrganHumanKidneys
       connections:
-      - left arm
       - right arm
-      - left leg
+      - left arm
       - right leg
+      - left leg
     right arm:
       part: RightArmKatunian
       connections:
