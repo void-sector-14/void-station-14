@@ -89,3 +89,7 @@
 - type: lobbyBackground
   id: Syndicate
   background: /Textures/LobbyScreens/syndicte.png
+
+- type: lobbyBackground
+  id: Medbay
+  background: /Textures/LobbyScreens/medbay.png
