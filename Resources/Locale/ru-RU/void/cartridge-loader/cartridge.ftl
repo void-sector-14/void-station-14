@@ -31,7 +31,7 @@ nano-chat-create = Создать
 
 # LogProbe additions
 log-probe-scan-nanochat = Просканировано { $card } логов НаноЧата
-log-probe-header-access = Доступ Сканера Логов
+log-probe-header-access = Сканер Логов Доступа
 log-probe-header-nanochat = Сканер Логов НаноЧат
 log-probe-label-message = Сообщение
 log-probe-card-number = Карта: { $number }

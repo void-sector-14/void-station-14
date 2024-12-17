@@ -1,1 +1,1 @@
-agent-id-card-current-number = Номер НаноЧат
+agent-id-card-current-number = НаноЧат номер:
