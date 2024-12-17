@@ -770,7 +770,7 @@
   - type: CartridgeLoader
     uiKey: enum.PdaUiKey.Key
     notificationsEnabled: false
-    diskSpace: 10 # DeltaV
+    diskSpace: 10
     preinstalled:
       - CrewManifestCartridge
       - NotekeeperCartridge
@@ -779,7 +779,7 @@
       - WantedListCartridge
       - MedTekCartridge
       - AstroNavCartridge
-      - StockTradingCartridge # Delta-V
+      - NanoChatCartridge # DeltaV
 
 - type: entity
   parent: CentcomPDA
