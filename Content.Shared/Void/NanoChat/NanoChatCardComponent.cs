@@ -1,8 +1,8 @@
-using Content.Shared.DeltaV.CartridgeLoader.Cartridges;
+using Content.Shared.Void.CartridgeLoader.Cartridges;
 using Robust.Shared.GameStates;
 using Robust.Shared.Serialization.TypeSerializers.Implementations.Custom;
 
-namespace Content.Shared.DeltaV.NanoChat;
+namespace Content.Shared.Void.NanoChat;
 
 [RegisterComponent, NetworkedComponent, Access(typeof(SharedNanoChatSystem))]
 [AutoGenerateComponentPause, AutoGenerateComponentState]
