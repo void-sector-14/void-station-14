@@ -1847,10 +1847,9 @@
   suffix: boom
   parent: AdminInstantEffectBase
   components:
-  - type: ClusterGrenade
+  - type: ProjectileGrenade
     fillPrototype: PelletClusterIncendiary
-    maxGrenadesCount: 5
-    grenadeType: enum.GrenadeType.Shoot
+    capacity: 5
 
 #### для Гурмана
 
