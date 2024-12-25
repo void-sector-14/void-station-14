@@ -419,6 +419,8 @@
     Heat: 0.7
     Cold: 0.7
     Caustic: 0.0
+
+- type: damageModifierSet
   id: ManifestedSpirit
   coefficients:
     Holy: 2
