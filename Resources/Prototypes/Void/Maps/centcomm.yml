@@ -1,5 +1,5 @@
 - type: gameMap
-  id: CentComm
+  id: VoidCentComm
   mapName: 'Central Command'
   mapPath: /Maps_Void/centcomm.yml
   minPlayers: 0
