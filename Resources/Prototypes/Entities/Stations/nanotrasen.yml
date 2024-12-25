@@ -36,6 +36,8 @@
     - BaseStation
     - BaseStationAlertLevels
     - BaseStationNanotrasen
+    - BaseStationJobsSpawning
+    - BaseStationRecords
   categories: [ HideSpawnMenu ]
   components:
     - type: Transform
