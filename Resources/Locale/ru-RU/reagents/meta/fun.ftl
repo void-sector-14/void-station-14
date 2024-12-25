@@ -18,3 +18,5 @@ reagent-name-laughter = смех
 reagent-desc-laughter = Некоторые говорят, что это лучшее лекарство, но последние исследования доказали, что это не так.
 reagent-name-weh = сок Weh
 reagent-desc-weh = Чистая суть плюшевой ящерицы. Делает тебя Weh!
+reagent-name-hew = сок Hew
+reagent-desc-hew = Чистая суть инверсированной плюшевой ящерицы. Делает тебя Hew!

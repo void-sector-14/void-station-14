@@ -13,6 +13,8 @@ spellbook-charge-name = Зарядка
 spellbook-charge-desc = Добавляет заряд вашей волшебной палочке!
 spellbook-ethereal-jaunt-name = Эфирная прогулка
 spellbook-ethereal-jaunt-description = Перейдите на Эфирный план чтобы ускользнуть от врагов!
+spellbook-mind-swap-name = Обмен Разумами
+spellbook-mind-swap-description = Обменяться телами с другим человеком!
 
 # Equipment
 
