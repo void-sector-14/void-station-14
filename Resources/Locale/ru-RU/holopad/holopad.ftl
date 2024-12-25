@@ -14,7 +14,7 @@ holopad-window-emergency-broadcast-in-progress = [color=#cf2f2f][bold]Идет �
 holopad-window-controls-locked-out = Управление этим устройством заблокировано:
 holopad-window-controls-unlock-countdown = Он автоматически разблокируется через: { $countdown }
 # Buttons
-holopad-window-answer-call = Позвонить
+holopad-window-answer-call = Принять вызов
 holopad-window-end-call = Завершить звонок
 holopad-window-request-station-ai = Запросить станционный ИИ
 holopad-window-activate-projector = Активировать проектор
