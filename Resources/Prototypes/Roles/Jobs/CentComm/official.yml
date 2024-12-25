@@ -3,7 +3,6 @@
   name: job-name-centcomoff
   description: job-description-centcomoff
   playTimeTracker: JobCentralCommandOfficial
-  setPreference: false
   startingGear: CentcomGear
   icon: "JobIconNanotrasen"
   supervisors: job-supervisors-centcom
@@ -15,6 +14,7 @@
   special:
   - !type:AddImplantSpecial
     implants: [ MindShieldImplant ]
+  whitelisted: true
 
 - type: startingGear
   id: CentcomGear
