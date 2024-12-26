@@ -10,6 +10,6 @@ ent-ClothingBeltSheathYamatoFilled = { ent-ClothingBeltSheathYamato }
 ent-ClothingOuterCoatVerfilfort = старое фамильное пальто
     .desc = длинный чёрный плащ с серебряными пуговицами и серебряным вышитым узором, похожим на змею. "Голова" змеи лежит на левом плече, а её "хвост" проходит вдоль воротника, через правое плечо и спускается вдоль пуговиц до нижнего края плаща.
     .suffix = Вишдом
-ent-VoidClothingUniformVergilJelet = желетка из драконей кожи
+ent-VoidClothingUniformVergilJelet = жилетка из драконей кожи
     .desc = Очень дорогое удовольствие
     .suffix = Вишдом
