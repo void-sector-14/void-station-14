@@ -1,12 +1,12 @@
 - type: preloadedGrid
   id: ShuttleCargoLost
   path: /Maps/Shuttles/ShuttleEvent/lost_cargo.yml
-  copies: 2
+  copies: 1
 
 - type: preloadedGrid
   id: TravelingCuisine
   path: /Maps/Shuttles/ShuttleEvent/traveling_china_cuisine.yml
-  copies: 2
+  copies: 1
 
 - type: preloadedGrid
   id: DisasterEvacPod
@@ -24,10 +24,10 @@
   path: /Maps/Shuttles/ShuttleEvent/syndie_evacpod.yml
   copies: 2
 
-- type: preloadedGrid
-  id: NTQuark
-  path: /Maps/Shuttles/ShuttleEvent/quark.yml
-  copies: 1
+# - type: preloadedGrid
+#   id: NTQuark
+#   path: /Maps/Shuttles/ShuttleEvent/quark.yml
+#   copies: 1
 
 - type: preloadedGrid
   id: MeatZone
@@ -44,30 +44,30 @@
   path: /Maps/Shuttles/ShuttleEvent/cryptid.yml
   copies: 1
 
-- type: preloadedGrid
-  id: Eternal
-  path: /Maps/Shuttles/ShuttleEvent/eternal.yml
-  copies: 1
+# - type: preloadedGrid
+#   id: Eternal
+#   path: /Maps/Shuttles/ShuttleEvent/eternal.yml
+#   copies: 1
 
 - type: preloadedGrid
   id: Flatline
   path: /Maps/Shuttles/ShuttleEvent/flatline.yml
   copies: 1
 
-- type: preloadedGrid
-  id: Gym
-  path: /Maps/Shuttles/ShuttleEvent/gym.yml
-  copies: 1
+# - type: preloadedGrid
+#   id: Gym
+#   path: /Maps/Shuttles/ShuttleEvent/gym.yml
+#   copies: 1
 
-- type: preloadedGrid
-  id: NTIncorporation
-  path: /Maps/Shuttles/ShuttleEvent/incorporation.yml
-  copies: 1
+# - type: preloadedGrid
+#   id: NTIncorporation
+#   path: /Maps/Shuttles/ShuttleEvent/incorporation.yml
+#   copies: 1
 
-- type: preloadedGrid
-  id: Instigator
-  path: /Maps/Shuttles/ShuttleEvent/instigator.yml
-  copies: 1
+# - type: preloadedGrid
+#   id: Instigator
+#   path: /Maps/Shuttles/ShuttleEvent/instigator.yml
+#   copies: 1
 
 - type: preloadedGrid
   id: Joe
@@ -77,11 +77,6 @@
 - type: preloadedGrid
   id: Lambordeere
   path: /Maps/Shuttles/ShuttleEvent/lambordeere.yml
-  copies: 1
-
-- type: preloadedGrid
-  id: Meatzone
-  path: /Maps/Shuttles/ShuttleEvent/meatzone.yml
   copies: 1
 
 - type: preloadedGrid
