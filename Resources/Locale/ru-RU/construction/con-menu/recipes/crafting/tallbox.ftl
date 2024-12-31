@@ -4,5 +4,7 @@ con-ClosetSteelSecure = защищенный шкаф
     .desc = Высокий стальной ящик, который можно запереть.
 con-ClosetFreezer = холодильник
     .desc = Высокий стальной ящик со способностью к охлаждению.
+con-GunSafe = оружейный сейф
+    .desc = { ent-GunSafe.desc }
 con-ClosetWall = настенный шкаф
     .desc = Стандартное хранилище Nanotrasen, теперь на стене.
