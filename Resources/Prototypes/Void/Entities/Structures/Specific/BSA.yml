@@ -23,3 +23,14 @@
     - state: bsa
       map: ["base"]
   - type: InteractionOutline
+
+- type: entity
+  parent: BlueSpaceArtillery
+  id: BlueSpaceArtilleryReflected
+  components:
+  - type: Sprite
+    noRot: true
+    sprite: Void/Structures/bsa.rsi
+    layers:
+    - state: bsa2
+      map: ["base"]
