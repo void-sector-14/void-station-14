@@ -668,3 +668,8 @@
   parent: BaseAdvCombatCircuitboardRecipe
   id: DurandPeripheralsElectronics
   result: DurandPeripheralsElectronics
+
+- type: latheRecipe
+  parent: BaseCircuitboardRecipe
+  id: HolopadMachineCircuitboard
+  result: HolopadMachineCircuitboard
