@@ -59750,18 +59750,6 @@ entities:
       rot: 3.141592653589793 rad
       pos: -25.5,-0.5
       parent: 2
-  - uid: 9145
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: -11.5,-12.5
-      parent: 2
-  - uid: 9206
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: -25.5,-0.5
-      parent: 2
   - uid: 9265
     components:
     - type: Transform
@@ -97471,13 +97459,6 @@ entities:
     - type: Transform
       pos: 71.5,-64.5
       parent: 2
-- proto: LootSpawnerSecurity
-  entities:
-  - uid: 9409
-    components:
-    - type: Transform
-      pos: -31.5,-7.5
-      parent: 2
 - proto: LootSpawnerSecurityBasic
   entities:
   - uid: 18172
@@ -106416,11 +106397,6 @@ entities:
     components:
     - type: Transform
       pos: 6.5,0.5
-      parent: 2
-  - uid: 4919
-    components:
-    - type: Transform
-      pos: -7.5,13.5
       parent: 2
   - uid: 4919
     components:
@@ -130839,11 +130815,6 @@ entities:
     components:
     - type: Transform
       pos: -34.5,-42.5
-      parent: 2
-  - uid: 9939
-    components:
-    - type: Transform
-      pos: -14.5,19.5
       parent: 2
   - uid: 9995
     components:
