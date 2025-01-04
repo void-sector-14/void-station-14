@@ -3,7 +3,6 @@
   maps:
   - VSAmber
   - VSBagel
-  # - VSBox
   - VSCog
   - VSCore
   - VSFland
@@ -13,3 +12,4 @@
   - VSOmega
   - VSPacked
   - VSSaltern
+  - VSGate
