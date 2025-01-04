@@ -1,4 +1,4 @@
-# Resources\Prototypes\Void\Entities\Clothing\Neck
+# Resources/Prototypes/Void/Entities/Clothing/Neck
 
 - type: entity
   parent: ClothingNeckTieRed
@@ -131,3 +131,14 @@
     radius: 1.5
     energy: 3
     color: "#969696"
+
+- type: entity
+  parent: ClothingNeckBase
+  id: NeckChoker
+  name: чокер
+  description: Красивая безделушка
+  components:
+  - type: Sprite
+    sprite: /Textures/Void/Clothing/Neck/choker.rsi
+  - type: Clothing
+    sprite: /Textures/Void/Clothing/Neck/choker.rsi

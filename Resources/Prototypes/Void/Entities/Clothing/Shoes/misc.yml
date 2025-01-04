@@ -68,3 +68,25 @@
     sprite: Void/Clothing/Shoes/Misc/pinkdressshoes.rsi
   - type: Clothing
     sprite: Void/Clothing/Shoes/Misc/pinkdressshoes.rsi
+
+- type: entity
+  parent: ClothingShoesBaseButcherable
+  id: footwrapsblack
+  name: тёмные обмотки для ног
+  description: 
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Shoes/Misc/footwraps_black.rsi
+  - type: Clothing
+    sprite: Void/Clothing/Shoes/Misc/footwraps_black.rsi
+    
+- type: entity
+  parent: ClothingShoesBaseButcherable
+  id: footwrapswhite
+  name: обмотки для ног
+  description: 
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Shoes/Misc/footwraps_white.rsi
+  - type: Clothing
+    sprite: Void/Clothing/Shoes/Misc/footwraps_white.rsi

@@ -12,6 +12,7 @@
       - id: ClothingHandsGlovesCaptain
       - id: ClothingOuterWinterCap
       - id: ClothingNeckCloakCap
+      - id: shirtcaptain
 
 - type: entity
   id: DresserChiefEngineerFilled
@@ -25,6 +26,7 @@
       - id: ClothingHeadHatBeretEngineering
       - id: ClothingOuterWinterCE
       - id: ClothingNeckCloakCe
+      - id: shirtce
 
 - type: entity
   id: DresserChiefMedicalOfficerFilled
@@ -41,6 +43,7 @@
       - id: ClothingEyesGlasses
       - id: ClothingOuterWinterCMO
       - id: ClothingCloakCmo
+      - id: shirtcmo
 
 - type: entity
   id: DresserHeadOfPersonnelFilled
@@ -53,6 +56,7 @@
       - id: ClothingOuterWinterHoP
       - id: ClothingEyesGlasses
       - id: ClothingNeckCloakHop
+      - id: shirthop
 
 - type: entity
   id: DresserHeadOfSecurityFilled
@@ -84,6 +88,7 @@
       - id: ClothingHandsGlovesColorBrown
       - id: ClothingOuterWinterQM
       - id: ClothingNeckCloakQm
+      - id: shirtqm
 
 - type: entity
   id: DresserResearchDirectorFilled
@@ -98,6 +103,7 @@
       - id: ClothingOuterWinterRD
       - id: ClothingOuterCoatRD
       - id: ClothingNeckCloakRd
+      - id: shirtrd
 
 - type: entity
   id: DresserWardenFilled
