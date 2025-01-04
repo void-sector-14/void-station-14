@@ -1,6 +1,6 @@
 - type: gameMap
   id: VSGate
-  mapName: 'Gate Station'
+  mapName: 'Gate'
   mapPath: /Maps_Void/gate.yml
   minPlayers: 55
   stations:
@@ -8,7 +8,7 @@
       stationProto: StandardNanotrasenStation
       components:
         - type: StationNameSetup
-          mapNameTemplate: '{0} Gate Station {1}'
+          mapNameTemplate: '{0} Gate {1}'
           nameGenerator:
             !type:NanotrasenNameGenerator
             prefixCreator: 'ED'
