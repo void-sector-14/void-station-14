@@ -262,7 +262,7 @@ namespace Content.Server.Communications
             title ??= comp.Title;
 
             msg += "\n" + Loc.GetString("comms-console-announcement-sent-by") + " " + author;
-            if (comp.Global)
+            if (comp.PlaySound)
             {
                 _chatSystem.DispatchGlobalAnnouncement(msg, title, announcementSound: comp.Sound, colorOverride: comp.Color);
 
