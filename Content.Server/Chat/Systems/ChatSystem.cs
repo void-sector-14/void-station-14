@@ -382,7 +382,7 @@ public sealed partial class ChatSystem : SharedChatSystem
         EntityUid source,
         string message,
         string? sender = null,
-        // bool playDefaultSound = true,
+        bool playDefaultSound = false,
         bool playSound = true,
         SoundSpecifier? announcementSound = null,
         Color? colorOverride = null)
@@ -403,10 +403,10 @@ public sealed partial class ChatSystem : SharedChatSystem
         var filter = _stationSystem.GetInStation(stationDataComp);
 
         _chatManager.ChatMessageToManyFiltered(filter, ChatChannel.Radio, message, wrappedMessage, source, false, true, colorOverride);
-        // if (playDefaultSound)
-        // {
-        //     _audio.PlayGlobal(announcementSound?.ToString() ?? DefaultAnnouncementSound, filter, true, AudioParams.Default.WithVolume(-2f));
-        // }
+        if (playDefaultSound)
+        {
+            _audio.PlayGlobal(announcementSound?.ToString() ?? DefaultAnnouncementSound, filter, true, AudioParams.Default.WithVolume(-2f));
+        }
         if (playSound)
         {
             _audio.PlayGlobal(announcementSound == null ? DefaultAnnouncementSound : _audio.GetSound(announcementSound), Filter.Broadcast(), true, AudioParams.Default.WithVolume(-2f));
