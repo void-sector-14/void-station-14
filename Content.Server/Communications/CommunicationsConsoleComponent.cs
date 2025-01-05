@@ -57,6 +57,15 @@ namespace Content.Server.Communications
         public bool CanShuttle = true;
 
         /// <summary>
+        /// Проигрывать ли нам звук в строке Sound, если стоит true, то мы проигрываем если
+        /// стоит false соотвественно - нет.
+        /// </summary>
+        [ViewVariables]
+        [DataField]
+        public bool PlaySound = true;
+
+
+        /// <summary>
         /// Announce on all grids (for nukies)
         /// </summary>
         [DataField]
