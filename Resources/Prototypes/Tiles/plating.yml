@@ -9,6 +9,23 @@
   friction: 0.3
   heatCapacity: 10000
 
+# Временное решение для исключения ошибок с сохранением\загрузкой карты. (Скопированно с PlatingDamaged)
+- type: tile
+  id: PlatingBurnt
+  name: tiles-plating
+  sprite: /Textures/Tiles/plating_damaged.png
+  variants: 3
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  baseTurf: Lattice
+  isSubfloor: true
+  footstepSounds:
+    collection: FootstepPlating
+  friction: 0.3
+  heatCapacity: 10000
+
 - type: tile
   id: PlatingDamaged
   name: tiles-plating
