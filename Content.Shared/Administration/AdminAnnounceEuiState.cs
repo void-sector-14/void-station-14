@@ -23,6 +23,9 @@ namespace Content.Shared.Administration
             public string Announcer = default!;
             public string Announcement = default!;
             public AdminAnnounceType AnnounceType;
+            public string AnnounceSound = default!;
+            public float AnnounceVolume =default!;
+            public Color AnnounceColor = default!;
         }
     }
 }

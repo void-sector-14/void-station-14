@@ -22,11 +22,13 @@ namespace Content.Client.Administration.UI
             SendMessage(new AdminAnnounceEuiMsg.DoAnnounce
             {
                 Announcement = Rope.Collapse(_window.Announcement.TextRope),
-                Announcer =  _window.Announcer.Text,
-                AnnounceType =  (AdminAnnounceType) (_window.AnnounceMethod.SelectedMetadata ?? AdminAnnounceType.Station),
+                Announcer = _window.Announcer.Text,
+                AnnounceType = (AdminAnnounceType)(_window.AnnounceMethod.SelectedMetadata ?? AdminAnnounceType.Station),
                 CloseAfter = !_window.KeepWindowOpen.Pressed,
+                AnnounceColor = Color.FromHex(_window.Color.Text),
+                AnnounceSound = _window.AnnounceSound.Text,
+                AnnounceVolume = _window.AnnounceVolume.Value,
             });
-
         }
 
         public override void Opened()

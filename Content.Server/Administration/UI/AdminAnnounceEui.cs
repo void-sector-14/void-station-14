@@ -5,6 +5,7 @@ using Content.Server.Chat.Systems;
 using Content.Server.EUI;
 using Content.Shared.Administration;
 using Content.Shared.Eui;
+using Robust.Shared.Audio;
 
 namespace Content.Server.Administration.UI
 {
@@ -13,6 +14,7 @@ namespace Content.Server.Administration.UI
         [Dependency] private readonly IAdminManager _adminManager = default!;
         [Dependency] private readonly IChatManager _chatManager = default!;
         private readonly ChatSystem _chatSystem;
+        private SoundPathSpecifier? _specifier;
 
         public AdminAnnounceEui()
         {
@@ -50,7 +52,8 @@ namespace Content.Server.Administration.UI
                             break;
                         // TODO: Per-station announcement support
                         case AdminAnnounceType.Station:
-                            _chatSystem.DispatchGlobalAnnouncement(doAnnounce.Announcement, doAnnounce.Announcer, colorOverride: Color.Gold);
+                            _specifier = new SoundPathSpecifier(doAnnounce.AnnounceSound, AnnounceVolume);
+                            _chatSystem.DispatchGlobalAnnouncement(doAnnounce.Announcement, doAnnounce.Announcer, playSound: true, _specifier, doAnnounce.AnnounceColor);
                             break;
                     }
 
