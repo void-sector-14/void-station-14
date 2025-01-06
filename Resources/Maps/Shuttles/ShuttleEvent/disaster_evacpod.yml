@@ -59,36 +59,20 @@ entities:
       data:
         tiles:
           0,-1:
-            0: 4112
-            1: 256
-            2: 32
+            0: 4368
+            1: 32
           0,0:
-            2: 2
+            1: 2
           -1,0:
-            2: 8
+            1: 8
           -1,-1:
-            2: 128
+            1: 128
         uniqueMixes:
         - volume: 2500
           temperature: 293.15
           moles:
           - 21.824879
           - 82.10312
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-        - volume: 2500
-          temperature: 293.15
-          moles:
-          - 21.813705
-          - 82.06108
           - 0
           - 0
           - 0
@@ -143,7 +127,7 @@ entities:
       parent: 1
 - proto: BoxMRE
   entities:
-  - uid: 7
+  - uid: 6
     components:
     - type: Transform
       parent: 5
@@ -218,8 +202,8 @@ entities:
         immutable: False
         temperature: 293.14673
         moles:
-        - 1.8968438
-        - 7.1357465
+        - 1.8856695
+        - 7.0937095
         - 0
         - 0
         - 0
@@ -242,7 +226,7 @@ entities:
           - 9
 - proto: ClothingOuterSuitEmergency
   entities:
-  - uid: 8
+  - uid: 7
     components:
     - type: Transform
       parent: 5
@@ -279,7 +263,7 @@ entities:
       parent: 1
 - proto: HandheldGPSBasic
   entities:
-  - uid: 6
+  - uid: 8
     components:
     - type: Transform
       parent: 5
