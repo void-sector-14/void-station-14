@@ -34,10 +34,10 @@
   path: /Maps/Shuttles/ShuttleEvent/meatzone.yml
   copies: 1
 
-- type: preloadedGrid
-  id: Cruiser
-  path: /Maps/Shuttles/ShuttleEvent/cruiser.yml
-  copies: 1
+# - type: preloadedGrid
+#   id: Cruiser
+#   path: /Maps/Shuttles/ShuttleEvent/cruiser.yml
+#   copies: 1
 
 - type: preloadedGrid
   id: Cryptid
