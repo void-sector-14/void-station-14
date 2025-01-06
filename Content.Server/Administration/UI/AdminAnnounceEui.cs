@@ -53,7 +53,7 @@ namespace Content.Server.Administration.UI
                             break;
                         // TODO: Per-station announcement support
                         case AdminAnnounceType.Station:
-                            var volume = AudioParams.Default.AddVolume(doAnnounce.AnnounceVolume);
+                            var volume = AudioParams.Default.WithVolume(doAnnounce.AnnounceVolume);
                             _specifier = new SoundPathSpecifier(doAnnounce.AnnounceSound, volume);
                             _chatSystem.DispatchGlobalAnnouncement(doAnnounce.Announcement, doAnnounce.Announcer, playSound: true, _specifier, doAnnounce.AnnounceColor);
                             break;
