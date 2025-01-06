@@ -52,7 +52,7 @@ namespace Content.Server.Administration.UI
                             break;
                         // TODO: Per-station announcement support
                         case AdminAnnounceType.Station:
-                            _specifier = new SoundPathSpecifier(doAnnounce.AnnounceSound, AnnounceVolume);
+                            _specifier = new SoundPathSpecifier(doAnnounce.AnnounceSound, doAnnounce.AnnounceVolume);
                             _chatSystem.DispatchGlobalAnnouncement(doAnnounce.Announcement, doAnnounce.Announcer, playSound: true, _specifier, doAnnounce.AnnounceColor);
                             break;
                     }
