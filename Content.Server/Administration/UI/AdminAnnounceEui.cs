@@ -5,7 +5,6 @@ using Content.Server.Chat.Systems;
 using Content.Server.EUI;
 using Content.Shared.Administration;
 using Content.Shared.Eui;
-using FastAccessors.Monads;
 using Robust.Shared.Audio;
 
 namespace Content.Server.Administration.UI
@@ -53,8 +52,7 @@ namespace Content.Server.Administration.UI
                             break;
                         // TODO: Per-station announcement support
                         case AdminAnnounceType.Station:
-                            var volume = AudioParams.Default.WithVolume(doAnnounce.AnnounceVolume);
-                            _specifier = new SoundPathSpecifier(doAnnounce.AnnounceSound, volume);
+                            _specifier = new SoundPathSpecifier(doAnnounce.AnnounceSound, AudioParams.Default.WithVolume(doAnnounce.AnnounceVolume));
                             _chatSystem.DispatchGlobalAnnouncement(doAnnounce.Announcement, doAnnounce.Announcer, playSound: true, _specifier, doAnnounce.AnnounceColor);
                             break;
                     }
