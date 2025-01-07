@@ -37,4 +37,6 @@
   color: "#a56e54"
   metamorphicSprite:
     sprite: Void/Objects/Consumable/Drinks/uolong.rsi
-    state: icon
+    state: icon_empty
+  metamorphicMaxFillLevels: 4
+  metamorphicFillBaseName: fill-
