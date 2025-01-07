@@ -14,7 +14,6 @@ namespace Content.Server.Administration.UI
         [Dependency] private readonly IAdminManager _adminManager = default!;
         [Dependency] private readonly IChatManager _chatManager = default!;
         private readonly ChatSystem _chatSystem;
-        private SoundPathSpecifier? _specifier;
 
         public AdminAnnounceEui()
         {
@@ -52,8 +51,10 @@ namespace Content.Server.Administration.UI
                             break;
                         // TODO: Per-station announcement support
                         case AdminAnnounceType.Station:
-                            _specifier = new SoundPathSpecifier(doAnnounce.AnnounceSound, AudioParams.Default.WithVolume(doAnnounce.AnnounceVolume));
-                            _chatSystem.DispatchGlobalAnnouncement(doAnnounce.Announcement, doAnnounce.Announcer, playSound: true, _specifier, doAnnounce.AnnounceColor);
+                            _chatSystem.DispatchGlobalAnnouncement(doAnnounce.Announcement,
+                                doAnnounce.Announcer,
+                                announcementSound: doAnnounce.SoundSpecifier,
+                                colorOverride: doAnnounce.AnnounceColor);
                             break;
                     }
 

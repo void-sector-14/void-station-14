@@ -2,6 +2,7 @@ using Content.Client.Eui;
 using Content.Shared.Administration;
 using Content.Shared.Eui;
 using Robust.Client.UserInterface.Controls;
+using Robust.Shared.Audio;
 using Robust.Shared.Utility;
 
 namespace Content.Client.Administration.UI
@@ -26,8 +27,8 @@ namespace Content.Client.Administration.UI
                 AnnounceType = (AdminAnnounceType)(_window.AnnounceMethod.SelectedMetadata ?? AdminAnnounceType.Station),
                 CloseAfter = !_window.KeepWindowOpen.Pressed,
                 AnnounceColor = Color.FromHex(_window.Color.Text),
-                AnnounceSound = _window.AnnounceSound.Text,
-                AnnounceVolume = _window.AnnounceVolume.Value,
+                SoundSpecifier = new SoundPathSpecifier(_window.AnnounceSound.Text.Trim(),
+                    AudioParams.Default.WithVolume(_window.AnnounceVolume.Value)),
             });
         }
 
