@@ -48,6 +48,7 @@ server_url = "ss14://37.27.103.62:1212"
 
 [server]
 rules_file = "VoidRuleset"
+uptime_restart_minutes = 10080
 
 [console]
 login_host_user = "Makot"
