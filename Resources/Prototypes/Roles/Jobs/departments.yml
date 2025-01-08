@@ -40,6 +40,7 @@
   color: "#0c344d"
   roles:
   - CentralCommandOfficial
+  - BlueShieldOfficer
   - CBURN
   - ERTLeader
   - ERTChaplain
@@ -65,16 +66,16 @@
   - ResearchDirector
   - Quartermaster
   - Magistrate
-  - BlueShieldOfficer
-  - CentralCommandOfficial
-  - CBURN
-  - ERTLeader
-  - ERTChaplain
-  - ERTJanitor
-  - ERTMedical
-  - ERTSecurity
-  - ERTEngineer
-  - DeathSquad
+  # - BlueShieldOfficer
+  # - CentralCommandOfficial
+  # - CBURN
+  # - ERTLeader
+  # - ERTChaplain
+  # - ERTJanitor
+  # - ERTMedical
+  # - ERTSecurity
+  # - ERTEngineer
+  # - DeathSquad
   primary: false
   weight: 100
 
@@ -135,15 +136,15 @@
   - Borg
   - StationAi
 
-- type: department
-  id: Specific
-  name: department-Specific
-  description: department-Specific-description
-  color: "#9FED58"
-  weight: 10
-  roles:
-  - Boxer
-  - Reporter
-  - Zookeeper
-  - Psychologist
-  primary: false
+# - type: department
+#   id: Specific
+#   name: department-Specific
+#   description: department-Specific-description
+#   color: "#9FED58"
+#   weight: 10
+#   roles:
+#   - Boxer
+#   - Reporter
+#   - Zookeeper
+#   - Psychologist
+#   primary: false
