@@ -2,7 +2,7 @@
   id: VSMarathon
   mapName: 'Marathon '
   mapPath: /Maps_Void/marathon.yml
-  minPlayers: 30
+  minPlayers: 20
   maxPlayers: 70
   stations:
     Marathon:
