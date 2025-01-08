@@ -34107,13 +34107,6 @@ entities:
     - type: Transform
       pos: 4.1304145,-33.0152
       parent: 2
-- proto: FloraTreeChristmas02
-  entities:
-  - uid: 5566
-    components:
-    - type: Transform
-      pos: -4.012771,-2.2618384
-      parent: 2
 - proto: FoamBlade
   entities:
   - uid: 5567

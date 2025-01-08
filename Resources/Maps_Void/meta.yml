@@ -73594,13 +73594,6 @@ entities:
     - type: Transform
       pos: 42.5,34.5
       parent: 2
-- proto: FloraTreeChristmas02
-  entities:
-  - uid: 11798
-    components:
-    - type: Transform
-      pos: 31.5,-4.5
-      parent: 2
 - proto: FloraTreeLarge
   entities:
   - uid: 11799

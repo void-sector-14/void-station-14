@@ -40910,13 +40910,6 @@ entities:
       parent: 2
     - type: Fixtures
       fixtures: {}
-- proto: FloraTreeChristmas02
-  entities:
-  - uid: 6337
-    components:
-    - type: Transform
-      pos: 30.986425,-6.142873
-      parent: 2
 - proto: FolderSpawner
   entities:
   - uid: 6338

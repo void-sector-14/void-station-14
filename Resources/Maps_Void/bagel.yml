@@ -71421,13 +71421,6 @@ entities:
     - type: Transform
       pos: -65.522354,23.506481
       parent: 2
-- proto: FloraTreeChristmas02
-  entities:
-  - uid: 10981
-    components:
-    - type: Transform
-      pos: 19.215342,-34.55356
-      parent: 2
 - proto: FolderSpawner
   entities:
   - uid: 10982

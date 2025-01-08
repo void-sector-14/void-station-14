@@ -99393,13 +99393,6 @@ entities:
     - type: Transform
       pos: -7.8905973,-55.743637
       parent: 2
-- proto: FloraTreeChristmas02
-  entities:
-  - uid: 15914
-    components:
-    - type: Transform
-      pos: 13.521375,42.470947
-      parent: 2
 - proto: FloraTreeLarge
   entities:
   - uid: 15915
