@@ -113,8 +113,8 @@ JobSeniorOfficer = { job-name-senior-officer }
 JobWarden = { job-name-warden }
 # Центком, ОБР
 job-name-cburn = РХБЗЗ
-job-name-deathsquad = Агент Центрального Командования
-job-name-centcomoff = Офицер Центрального Командования
+job-name-deathsquad = Агент ЦентКома
+job-name-centcomoff = Офицер ЦентКома
 job-name-ertengineer = Инженер ОБР
 job-name-ertjanitor = Уборщик ОБР
 job-name-ertleader = Лидер ОБР

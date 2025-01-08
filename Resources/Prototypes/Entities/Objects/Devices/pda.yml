@@ -126,6 +126,7 @@
     - NotekeeperCartridge
     - NewsReaderCartridge
     - WantedListCartridge
+    - NanoChatCartridge
 
 - type: entity
   parent: BasePDA

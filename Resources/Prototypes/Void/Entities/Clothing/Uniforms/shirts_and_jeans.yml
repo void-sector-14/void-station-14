@@ -1,0 +1,240 @@
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformShirtJeansBrown
+  name: коричневая футболка с джинсами
+  description: стильная футболка в комплекте с не менее стильными джинсами
+  components:
+  - type: Sprite
+    sprite: /Textures/Void/Clothing/Uniforms/Jumpsuit/jeans_shirt_brown.rsi
+  - type: Clothing
+    sprite: /Textures/Void/Clothing/Uniforms/Jumpsuit/jeans_shirt_brown.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformShirtJeansDark
+  name: тёмная футболка с джинсами
+  description: стильная футболка в комплекте с не менее стильными джинсами
+  components:
+  - type: Sprite
+    sprite: /Textures/Void/Clothing/Uniforms/Jumpsuit/jeans_shirt_dark.rsi
+  - type: Clothing
+    sprite: /Textures/Void/Clothing/Uniforms/Jumpsuit/jeans_shirt_dark.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformShirtJeansDarkPurple
+  name: тёмно-фиолетовая футболка с джинсами
+  description: стильная футболка в комплекте с не менее стильными джинсами
+  components:
+  - type: Sprite
+    sprite: /Textures/Void/Clothing/Uniforms/Jumpsuit/jeans_shirt_darkpurple.rsi
+  - type: Clothing
+    sprite: /Textures/Void/Clothing/Uniforms/Jumpsuit/jeans_shirt_darkpurple.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformShirtJeansIce
+  name: голубая футболка с джинсами
+  description: стильная футболка в комплекте с не менее стильными джинсами
+  components:
+  - type: Sprite
+    sprite: /Textures/Void/Clothing/Uniforms/Jumpsuit/jeans_shirt_ice.rsi
+  - type: Clothing
+    sprite: /Textures/Void/Clothing/Uniforms/Jumpsuit/jeans_shirt_ice.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformShirtJeansMint
+  name: зелёная футболка с джинсами
+  description: стильная футболка в комплекте с не менее стильными джинсами
+  components:
+  - type: Sprite
+    sprite: /Textures/Void/Clothing/Uniforms/Jumpsuit/jeans_shirt_mint.rsi
+  - type: Clothing
+    sprite: /Textures/Void/Clothing/Uniforms/Jumpsuit/jeans_shirt_mint.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformShirtJeansWhite
+  name: белая футболка с джинсами
+  description: стильная футболка в комплекте с не менее стильными джинсами
+  components:
+  - type: Sprite
+    sprite: /Textures/Void/Clothing/Uniforms/Jumpsuit/jeans_shirt_white.rsi
+  - type: Clothing
+    sprite: /Textures/Void/Clothing/Uniforms/Jumpsuit/jeans_shirt_white.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformShirtBlue
+  name: голубая рубашка
+  description: Аккуратная голубая рубашка
+  components:
+  - type: Sprite
+    sprite: /Textures/Void/Clothing/Uniforms/Jumpsuit/shirt_blue.rsi
+  - type: Clothing
+    sprite: /Textures/Void/Clothing/Uniforms/Jumpsuit/shirt_blue.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformShirtDark
+  name: чёрная рубашка
+  description: Аккуратная чёрная рубашка
+  components:
+  - type: Sprite
+    sprite: /Textures/Void/Clothing/Uniforms/Jumpsuit/shirt_dark.rsi
+  - type: Clothing
+    sprite: /Textures/Void/Clothing/Uniforms/Jumpsuit/shirt_dark.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformShirtGreen
+  name: зелёная рубашка
+  description: Аккуратная зелёная рубашка
+  components:
+  - type: Sprite
+    sprite: /Textures/Void/Clothing/Uniforms/Jumpsuit/shirt_green.rsi
+  - type: Clothing
+    sprite: /Textures/Void/Clothing/Uniforms/Jumpsuit/shirt_green.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformShirtOrange
+  name: оранжевая рубашка
+  description: Аккуратная оранжевая рубашка
+  components:
+  - type: Sprite
+    sprite: /Textures/Void/Clothing/Uniforms/Jumpsuit/shirt_orange.rsi
+  - type: Clothing
+    sprite: /Textures/Void/Clothing/Uniforms/Jumpsuit/shirt_orange.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformShirtPurple
+  name: фиолетвая рубашка
+  description: Аккуратная фиолетовая рубашка
+  components:
+  - type: Sprite
+    sprite: /Textures/Void/Clothing/Uniforms/Jumpsuit/shirt_purple.rsi
+  - type: Clothing
+    sprite: /Textures/Void/Clothing/Uniforms/Jumpsuit/shirt_purple.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformShirtRed
+  name: красная рубашка
+  description: Аккуратная красная рубашка
+  components:
+  - type: Sprite
+    sprite: /Textures/Void/Clothing/Uniforms/Jumpsuit/shirt_red.rsi
+  - type: Clothing
+    sprite: /Textures/Void/Clothing/Uniforms/Jumpsuit/shirt_red.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformShirtWhite
+  name: аккуратная рубашка
+  description: Выглаженная до совершенства рубашка с брюками
+  components:
+  - type: Sprite
+    sprite: /Textures/Void/Clothing/Uniforms/Jumpsuit/shirt_white.rsi
+  - type: Clothing
+    sprite: /Textures/Void/Clothing/Uniforms/Jumpsuit/shirt_white.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformShirtYellow
+  name: жёлтая рубашка
+  description: Аккуратная жёлтая рубашка
+  components:
+  - type: Sprite
+    sprite: /Textures/Void/Clothing/Uniforms/Jumpsuit/shirt_yellow.rsi
+  - type: Clothing
+    sprite: /Textures/Void/Clothing/Uniforms/Jumpsuit/shirt_yellow.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformShirtCaptain
+  name: строгая рубашка капитана
+  description: В этой рубашке вы можете уверенно подходить к людям, угрожать им пальцем и говорить "Ата-та".
+  components:
+  - type: Sprite
+    sprite: /Textures/Void/Clothing/Uniforms/Jumpsuit/shirt_captain.rsi
+  - type: Clothing
+    sprite: /Textures/Void/Clothing/Uniforms/Jumpsuit/shirt_captain.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformShirtCE
+  name: строгая рубашка старшего инженера
+  description: Эта рубашка пылится в шкафу уже который век.. На удивление всё так же идеально чистая.
+  components:
+  - type: Sprite
+    sprite: /Textures/Void/Clothing/Uniforms/Jumpsuit/shirt_ce.rsi
+  - type: Clothing
+    sprite: /Textures/Void/Clothing/Uniforms/Jumpsuit/shirt_ce.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformShirtCMO
+  name: строгая рубашка главного врача
+  description: Она насквозь пропахла медицинским спиртом.
+  components:
+  - type: Sprite
+    sprite: /Textures/Void/Clothing/Uniforms/Jumpsuit/shirt_cmo.rsi
+  - type: Clothing
+    sprite: /Textures/Void/Clothing/Uniforms/Jumpsuit/shirt_cmo.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformShirtHoP
+  name: строгая рубашка главы персонала
+  description: Уверенно отказывайте ассистентам в полном допуске в этой рубашке и брюках!
+  components:
+  - type: Sprite
+    sprite: /Textures/Void/Clothing/Uniforms/Jumpsuit/shirt_hop.rsi
+  - type: Clothing
+    sprite: /Textures/Void/Clothing/Uniforms/Jumpsuit/shirt_hop.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformShirtQM
+  name: строгая рубашка квартирмейстера
+  description: Идеально для сиденья в собственном офисе с важным видом.
+  components:
+  - type: Sprite
+    sprite: /Textures/Void/Clothing/Uniforms/Jumpsuit/shirt_qm.rsi
+  - type: Clothing
+    sprite: /Textures/Void/Clothing/Uniforms/Jumpsuit/shirt_qm.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformShirtRD
+  name: строгая рубашка научного руководителя
+  description: Она не поглажена..
+  components:
+  - type: Sprite
+    sprite: /Textures/Void/Clothing/Uniforms/Jumpsuit/shirt_rd.rsi
+  - type: Clothing
+    sprite: /Textures/Void/Clothing/Uniforms/Jumpsuit/shirt_rd.rsi
+
+#⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⣤⣤⣤⣤⣤⣶⣦⣤⣄⡀⠀⠀⠀⠀⠀⠀⠀⠀
+#⠀⠀⠀⠀⠀⠀⠀⢀⣴⣿⡿⠛⠉⠙⠛⠛⠛⠛⠻⢿⣿⣷⣤⡀⠀⠀⠀⠀⠀
+#⠀⠀⠀⠀⠀⠀⠀⣼⣿⠋⠀⠀⠀⠀⠀⠀⠀⢀⣀⣀⠈⢻⣿⣿⡄⠀⠀⠀⠀
+#⠀⠀⠀⠀⠀⠀⣸⣿⡏⠀⠀⠀⣠⣶⣾⣿⣿⣿⠿⠿⠿⢿⣿⣿⣿⣄⠀⠀⠀
+#⠀⠀⠀⠀⠀⠀⣿⣿⠁⠀⠀⢰⣿⣿⣯⠁⠀⠀⠀⠀⠀⠀⠀⠈⠙⢿⣷⡄⠀
+#⠀⣀⣤⣴⣶⣶⣿⡟⠀⠀⠀⢸⣿⣿⣿⣆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣷⠀
+#⢰⣿⡟⠋⠉⣹⣿⡇⠀⠀⠀⠘⣿⣿⣿⣿⣷⣦⣤⣤⣤⣶⣶⣶⣶⣿⣿
+#⢸⣿⡇⠀⠀⣿⣿⡇⠀⠀⠀⠀⠹⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠃⠀
+#⣸⣿⡇⠀⠀⣿⣿⡇⠀⠀⠀⠀⠀⠉⠻⠿⣿⣿⣿⣿⡿⠿⠿⠛⢻⣿⡇⠀⠀
+#⣿⣿⠁⠀⠀⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣧⠀⠀
+#⣿⣿⠀⠀⠀⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⠀⠀
+#⣿⣿⠀⠀⠀⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⠀⠀
+#⢿⣿⡆⠀⠀⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⡇⠀⠀
+#⠸⣿⣧⡀⠀⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⠃⠀⠀
+#⠀⠛⢿⣿⣿⣿⣿⣇⠀⠀⠀⠀⠀⣰⣿⣿⣷⣶⣶⣶⣶⠶⢠⣿⣿⠀⠀⠀
+#⠀⠀⠀⠀⠀⠀⣿⣿⠀⠀⠀⠀⠀⣿⣿⡇⠀⣽⣿⡏⠁⠀⠀⢸⣿⡇⠀⠀⠀
+#⠀⠀⠀⠀⠀⠀⣿⣿⠀⠀⠀⠀⠀⣿⣿⡇⠀⢹⣿⡆⠀⠀⠀⣸⣿⠇⠀⠀⠀
+#⠀⠀⠀⠀⠀⠀⢿⣿⣦⣄⣀⣠⣴⣿⣿⠁⠀⠈⠻⣿⣿⣿⣿⡿⠏⠀⠀⠀⠀
+#⠀⠀⠀⠀⠀⠀⠈⠛⠻⠿⠿⠿⠿⠋⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+

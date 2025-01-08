@@ -17,7 +17,7 @@
       department: Command
       time: 54000 # 15 hours
     - !type:AgeRequirement
-      requiredAge: 40
+      requiredAge: 35
   weight: 20
   startingGear: CaptainGear
   icon: "JobIconCaptain"

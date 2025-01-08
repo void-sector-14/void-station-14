@@ -1,0 +1,45 @@
+<Control
+    xmlns="https://spacestation14.io"
+    xmlns:aui="clr-namespace:Content.Client.Administration.UI.CustomControls">
+    <PanelContainer Name="PanelContainer" StyleClasses="BackgroundDark">
+        <BoxContainer Orientation="Horizontal" HorizontalExpand="True" VerticalExpand="True" SeparationOverride="6">
+            <BoxContainer MinWidth="250" Orientation="Vertical">
+                <LineEdit Name="PlayerSearch" Access="Public" StyleClasses="actionSearchBox"
+                          HorizontalExpand="True" PlaceHolder="{Loc admin-logs-search-players-placeholder}"/>
+                <BoxContainer HorizontalExpand="True" Orientation="Horizontal">
+                    <Button Name="SelectAllPlayersButton" Text="{Loc admin-logs-select-all}" HorizontalExpand="True" StyleClasses="ButtonSquare" />
+                    <Button Name="SelectNoPlayersButton" Text="{Loc admin-logs-select-none}" HorizontalExpand="True" StyleClasses="ButtonSquare" />
+                </BoxContainer>
+                <ScrollContainer VerticalExpand="True">
+                    <BoxContainer  Name="PlayersContainer" Access="Public" Orientation="Vertical"/>
+                </ScrollContainer>
+            </BoxContainer>
+            <aui:VSeparator/>
+            <BoxContainer Orientation="Vertical" HorizontalExpand="True" SizeFlagsStretchRatio="2">
+                <BoxContainer Orientation="Horizontal" MinWidth="400">
+                    <Label Text="{Loc admin-logs-round}"/>
+                    <SpinBox Name="RoundSpinBox" Access="Public" Value="0" MinWidth="150"/>
+                    <Control HorizontalExpand="True"/>
+                    <Button Name="ResetRoundButton" Text="{Loc admin-logs-reset}" HorizontalAlignment="Right" StyleClasses="OpenRight"/>
+                </BoxContainer>
+                <BoxContainer Orientation="Horizontal">
+                    <BoxContainer Name="LogImpactContainer" HorizontalAlignment="Left" Orientation="Horizontal"/>
+                    <Control HorizontalExpand="True"/>
+                    <Label Name="Count" Access="Public"/>
+                    <Control HorizontalExpand="True"/>
+                    <Button Name="TypeButton" MinWidth="100" ToggleMode ="True" HorizontalAlignment="Right" Text="{Loc moderation-logs-create-box}" StyleClasses="OpenRight"/>
+                </BoxContainer>
+                <BoxContainer Orientation="Horizontal">
+                    <LineEdit Name="LogSearch" Access="Public" StyleClasses="actionSearchBox" HorizontalExpand="true" PlaceHolder="{Loc admin-logs-search-logs-placeholder}"/>
+                    <Button Name="RefreshButton" Access="Public" Text="{Loc admin-logs-refresh}" StyleClasses="ButtonSquare"/>
+                    <Button Name="NextButton" Access="Public" Text="{Loc admin-logs-next}" StyleClasses="OpenLeft"/>
+                </BoxContainer>
+                <ScrollContainer VerticalExpand="True" HorizontalExpand="True" HScrollEnabled="False">
+                    <BoxContainer Name="LogsContainer" Access="Public" Orientation="Vertical" VerticalExpand="True"/>
+                </ScrollContainer>
+            </BoxContainer>
+            <aui:VSeparator Name="SecondSeparator"/>
+            <ScrollContainer Name="TypeContainer" HScrollEnabled="False" VerticalExpand="True"/>
+        </BoxContainer>
+    </PanelContainer>
+</Control>

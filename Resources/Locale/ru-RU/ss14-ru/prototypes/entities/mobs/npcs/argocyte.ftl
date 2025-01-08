@@ -27,3 +27,4 @@ ent-MobArgocyteLeviathing = левиазверь
     .desc = { ent-BaseMobArgocyte.desc }
 ent-MobArgocyteLeviathingSalvage = левиазверь
     .desc = { ent-BaseMobArgocyte.desc }
+    .suffix = Экспедиции

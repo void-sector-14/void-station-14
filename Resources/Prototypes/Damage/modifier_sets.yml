@@ -171,7 +171,7 @@
     Piercing: 0.8
     Cold: 0.8
     Heat: 0.2
-#   Holy: 3 If we ever get some holy or magic sort of damage type they should be vulnerable
+    Holy: 1.5
   flatReductions:
     Heat: 3
 
@@ -273,6 +273,7 @@
     Radiation: 0.0
     Shock: 0.8
     Bloodloss: 0.4
+    Holy: 1
 
 - type: damageModifierSet
   id: Cockroach
@@ -396,7 +397,7 @@
     Heat: 0.9
     Cold: 0.9
     Caustic: 0.0
-# FireFigther (40 melee, 30 bullet, 30 laser, 30 energy, 60 bomb, 70, 100 fire, 100 acid) все мехи не горят по этому прибавил защиты от температурного
+# FireFighter (40 melee, 30 bullet, 30 laser, 30 energy, 60 bomb, 70, 100 fire, 100 acid) все мехи не горят по этому прибавил защиты от температурного
 - type: damageModifierSet
   id: RipleyFireDamageSet
   coefficients:
@@ -418,3 +419,8 @@
     Heat: 0.7
     Cold: 0.7
     Caustic: 0.0
+
+- type: damageModifierSet
+  id: ManifestedSpirit
+  coefficients:
+    Holy: 2

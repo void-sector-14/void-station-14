@@ -242,21 +242,21 @@ entities:
       parent: 1
 - proto: GeneratorWallmountAPU
   entities:
-  - uid: 21
+  - uid: 20
     components:
     - type: Transform
       pos: -0.5,-1.5
       parent: 1
 - proto: Grille
   entities:
-  - uid: 34
+  - uid: 21
     components:
     - type: Transform
       pos: 0.5,0.5
       parent: 1
 - proto: Gyroscope
   entities:
-  - uid: 32
+  - uid: 22
     components:
     - type: Transform
       pos: -0.5,-2.5
@@ -272,19 +272,14 @@ entities:
     - type: InsideEntityStorage
 - proto: NTVisitorSpawner
   entities:
-  - uid: 20
-    components:
-    - type: Transform
-      pos: 0.5,-1.5
-      parent: 1
-  - uid: 33
+  - uid: 23
     components:
     - type: Transform
       pos: 0.5,-1.5
       parent: 1
 - proto: Poweredlight
   entities:
-  - uid: 22
+  - uid: 24
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
@@ -292,14 +287,14 @@ entities:
       parent: 1
 - proto: ShuttleWindow
   entities:
-  - uid: 23
+  - uid: 25
     components:
     - type: Transform
       pos: 0.5,0.5
       parent: 1
 - proto: SubstationWallBasic
   entities:
-  - uid: 24
+  - uid: 26
     components:
     - type: Transform
       rot: 1.5707963267948966 rad
@@ -307,7 +302,7 @@ entities:
       parent: 1
 - proto: Thruster
   entities:
-  - uid: 25
+  - uid: 27
     components:
     - type: Transform
       rot: 3.141592653589793 rad
@@ -315,24 +310,24 @@ entities:
       parent: 1
 - proto: WallShuttle
   entities:
-  - uid: 26
+  - uid: 28
     components:
     - type: Transform
       pos: -0.5,-0.5
       parent: 1
-  - uid: 27
+  - uid: 29
     components:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: -0.5,-1.5
       parent: 1
-  - uid: 28
+  - uid: 30
     components:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: 1.5,-0.5
       parent: 1
-  - uid: 29
+  - uid: 31
     components:
     - type: Transform
       rot: 3.141592653589793 rad
@@ -340,12 +335,12 @@ entities:
       parent: 1
 - proto: WallShuttleDiagonal
   entities:
-  - uid: 30
+  - uid: 32
     components:
     - type: Transform
       pos: -0.5,0.5
       parent: 1
-  - uid: 31
+  - uid: 33
     components:
     - type: Transform
       rot: -1.5707963267948966 rad

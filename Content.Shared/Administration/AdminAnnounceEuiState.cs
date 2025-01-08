@@ -1,4 +1,5 @@
 using Content.Shared.Eui;
+using Robust.Shared.Audio;
 using Robust.Shared.Serialization;
 
 namespace Content.Shared.Administration
@@ -23,6 +24,8 @@ namespace Content.Shared.Administration
             public string Announcer = default!;
             public string Announcement = default!;
             public AdminAnnounceType AnnounceType;
+            public SoundSpecifier SoundSpecifier = default!;
+            public Color AnnounceColor = default!;
         }
     }
 }

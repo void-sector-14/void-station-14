@@ -1,0 +1,17 @@
+- type: gameMap
+  id: VoidCentComm
+  mapName: 'Central Command'
+  mapPath: /Maps_Void/centcomm.yml
+  minPlayers: 0
+  stations:
+    centcomm:
+      stationProto: NanotrasenCentralCommand
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'NT-CC 42-Voidling'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: 'VS'
+        - type: StationJobs
+          availableJobs:
+            CentralCommandOfficial: [ 1, 3 ]

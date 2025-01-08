@@ -44,8 +44,7 @@
   - NodeScanner
   - BorgModuleArtifact
   - AnalysisComputerCircuitboard
-  - ArtifactAnalyzerMachineCircuitboard 
-
+  - ArtifactAnalyzerMachineCircuitboard
 
 - type: technology
   id: AlternativeResearch
@@ -97,6 +96,7 @@
   cost: 5000
   recipeUnlocks:
   - ArtifactCrusherMachineCircuitboard
+  - ExperimentalArtifactAnalyzerMachineCircuitboard
 
 - type: technology
   id: AdvancedAnomalyResearch

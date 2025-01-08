@@ -521,7 +521,7 @@
     maxOccurrences: 1 # can only happen once per round
     startAnnouncement: station-event-communication-interception
     startAudio:
-      path: /Audio/Announcements/intercept.ogg
+      path: /Audio/Announcements/attention.ogg
     duration: null # the rule has to last the whole round not 1 second
     occursDuringRoundEnd: false
   - type: AlertLevelInterceptionRule

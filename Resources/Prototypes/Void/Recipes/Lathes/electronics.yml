@@ -16,3 +16,8 @@
      Glass: 500
      Silver: 50
      Gold: 50
+
+- type: latheRecipe
+  parent: BaseGoldCircuitboardRecipe
+  id: ExperimentalArtifactAnalyzerMachineCircuitboard
+  result: ExperimentalArtifactAnalyzerMachineCircuitboard

@@ -1,13 +1,22 @@
 - type: entity
-  parent: ClothingUniformBase
-  id: BasicFoldedJumpSuit
-  name: Test1
-  description: Testdescript1
+  parent: [ClothingUniformBase, BaseFoldable]
+  id: ClothingJumpSuitTestFoldable
+  name: белый комбинезон
+  description: Обычный белый комбинезон
   components:
-  - type: Sprite
-    sprite: Void/Clothing/Uniforms/jumpsuitfolded.rsi
   - type: Clothing
     sprite: Void/Clothing/Uniforms/jumpsuitfolded.rsi
-  - type: ToggleableClothing
-    clothingPrototype: BasicUnFoldedJumpSuit
-    slot: belt
+  - type: Appearance
+  - type: Foldable
+    canFoldInsideContainer: true
+  - type: FoldableClothing
+    foldedEquippedPrefix: up
+    foldedHeldPrefix: up
+  - type: Sprite
+    sprite: Void/Clothing/Uniforms/jumpsuitfolded.rsi
+    layers:
+    - state: icon
+      map: [ "unfoldedLayer" ]
+    - state: icon-up
+      map: ["foldedLayer"]
+      visible: false

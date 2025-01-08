@@ -1,0 +1,22 @@
+- type: entity
+  id: MachineArtifactAnalyzerExperimental
+  parent: MachineArtifactAnalyzer
+  name: экспериментальный анализатор артефактов
+  description: Улучшенная платформа, способная выполнять анализ различных типов артефактов. За счет повышенного потребления энергии, скорость анализа увеличена.
+  components:
+  - type: Sprite
+    noRot: true
+    sprite: Structures/Machines/traversal_distorter.rsi
+    drawdepth: FloorObjects
+    layers:
+    - state: icon
+    - state: unshaded
+      shader: unshaded
+      map: ["enum.PowerDeviceVisualLayers.Powered"]
+  - type: ApcPowerReceiver
+    powerLoad: 30000
+    needsPower: false #only turns on when scanning
+  - type: ArtifactAnalyzer
+    analysisDuration: 10
+  - type: Machine
+    board: ExperimentalArtifactAnalyzerMachineCircuitboard

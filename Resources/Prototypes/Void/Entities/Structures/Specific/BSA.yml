@@ -10,7 +10,7 @@
       fix1:
         shape:
           !type:PhysShapeAabb
-          bounds: "-5.5,-1.0,5.5,1.8"
+          bounds: "-5.5,-1.0,5.5,1.3"
         density: 50
         mask:
         - LargeMobMask
@@ -23,3 +23,14 @@
     - state: bsa
       map: ["base"]
   - type: InteractionOutline
+
+- type: entity
+  parent: BlueSpaceArtillery
+  id: BlueSpaceArtilleryReflected
+  components:
+  - type: Sprite
+    noRot: true
+    sprite: Void/Structures/bsa.rsi
+    layers:
+    - state: bsa2
+      map: ["base"]

@@ -62,6 +62,20 @@
     ClothingUniformJumpskirtCasualRed: 2
     ClothingUniformJumpsuitCasualGreen: 2
     ClothingUniformJumpskirtCasualGreen: 2
+    ClothingUniformShirtJeansBrown: 2
+    ClothingUniformShirtJeansDark: 2
+    ClothingUniformShirtJeansDarkPurple: 2
+    ClothingUniformShirtJeansIce: 2
+    ClothingUniformShirtJeansMint: 2
+    ClothingUniformShirtJeansWhite: 2
+    ClothingUniformShirtBlue: 2
+    ClothingUniformShirtDark: 2
+    ClothingUniformShirtGreen: 2
+    ClothingUniformShirtOrange: 2
+    ClothingUniformShirtPurple: 2
+    ClothingUniformShirtRed: 2
+    ClothingUniformShirtWhite: 2
+    ClothingUniformShirtYellow: 2
     # DO NOT ADD MORE, USE UNIFORM DYING
     VoidClothingUniformTurleneckBlack: 5
     VoidClothingUniformTurleneckBlackWomen: 5
@@ -94,6 +108,8 @@
     VoidClothingUniformTurleneckWhiteSleeveless: 2
     VoidClothingUniformTurleneckWhiteBlackSleeveless: 2
     VoidClothingUniformTurleneckWhiteWomenSleeveless: 2
+    footwrapsblack: 3
+    footwrapswhite: 3
     ClothingShoesColorBlack: 8
     ClothingShoesColorBrown: 4
     ClothingShoesColorWhite: 3

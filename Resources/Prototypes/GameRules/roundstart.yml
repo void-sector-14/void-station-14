@@ -292,8 +292,8 @@
     children:
       - !type:NestedSelector
         tableId: UnknownShuttlesFriendlyTable
-      - !type:NestedSelector
-        tableId: UnknownShuttlesFreelanceTable
+      # - !type:NestedSelector
+      #   tableId: UnknownShuttlesFreelanceTable
       - !type:NestedSelector
         tableId: UnknownShuttlesHostileTable
 

@@ -17,7 +17,6 @@ nano-chat-new-message-title = Сообщение от { $sender }
 nano-chat-new-message-body = { $message }
 nano-chat-toggle-mute = Заглушить оповещения
 nano-chat-delivery-failed = Ошибка доставки
-
 # Create chat popup
 nano-chat-new-title = Добавить чат
 nano-chat-number-label = Номер
@@ -28,7 +27,6 @@ nano-chat-name-placeholder = Введите имя
 nano-chat-job-placeholder = Введите должность (опционально)
 nano-chat-cancel = Отмена
 nano-chat-create = Создать
-
 # LogProbe additions
 log-probe-scan-nanochat = Просканировано { $card } логов НаноЧата
 log-probe-header-access = Сканер Логов Доступа

@@ -6,3 +6,7 @@ admin-announce-button = Сделать объявление
 admin-announce-type-station = Станция
 admin-announce-type-server = Сервер
 admin-announce-keep-open = Держать открытым
+admin-announce-color = Цвет объявления
+admin-announce-color-hex = Цвет в HEX
+admin-announce-sound = Звук объявления
+admin-announce-sound-path = Путь к звуку

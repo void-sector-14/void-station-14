@@ -2,14 +2,14 @@
   id: VSMarathon
   mapName: 'Marathon '
   mapPath: /Maps_Void/marathon.yml
-  minPlayers: 30
+  minPlayers: 20
   maxPlayers: 70
   stations:
     Marathon:
       stationProto: StandardNanotrasenStation
       components:
         - type: StationNameSetup
-          mapNameTemplate: '{0} Marathon Station {1}'
+          mapNameTemplate: '{0} Marathon {1}'
           nameGenerator:
             !type:NanotrasenNameGenerator
             prefixCreator: '14'

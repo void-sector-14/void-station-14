@@ -1,0 +1,15 @@
+- type: entity
+  id: ExperimentalArtifactAnalyzerMachineCircuitboard
+  parent: BaseMachineCircuitboard
+  name: экспериментальный анализатор артефактов (машинная плата)
+  description: Печатная плата для экспериментального анализатора артефактов.
+  components:
+    - type: Sprite
+      state: science
+    - type: MachineBoard
+      prototype: MachineArtifactAnalyzerExperimental
+      stackRequirements:
+        Manipulator: 3
+        Capacitor: 1
+        Glass: 5
+        Silver: 2
