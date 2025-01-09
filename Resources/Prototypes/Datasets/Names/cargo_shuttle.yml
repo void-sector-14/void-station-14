@@ -1,18 +1,5 @@
-- type: dataset
+- type: localizedDataset
   id: ShuttleNames
   values:
-  - NTR-"Чмуня"
-  - NTR-"Падучий"
-  - NTR-"Пивовозка"
-  - NTR-"Скалогрыз"
-  - NTR-"Потеряшка"
-  - NTR-"Каргузник"
-  - NTR-"Дрыгатель"
-  - NTR-"Утилятина"
-  - NTR-"Полуживой"
-  - NTR-"Списанный"
-  - NTR-"Долбитель"
-  - NTR-"Долбошаттл"
-  - NTR-"Допиленный"
-  - NTR-"Запрещенка"
-  - NTR-"Огузконосец"
+    prefix: names-cargo-dataset-
+    count: 15

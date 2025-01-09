@@ -1,18 +1,5 @@
-- type: dataset
+- type: localizedDataset
   id: OutpostNames
   values:
-  - NTTO-"Гараж"
-  - NTTO-"Базар"
-  - NTTO-"Лотерея"
-  - NTTO-"Торговка"
-  - NTTO-"Блестяшка"
-  - NTTO-"Продажная"
-  - NTTO-"Цыганская"
-  - NTTO-"Транжирная"
-  - NTTO-"Мусороскуп"
-  - NTTO-"Фрезонница"
-  - NTTO-"Рудосбоник"
-  - NTTO-"Поле Чудес"
-  - NTTO-"Пылесборник"
-  - NTTO-"Куплепродажа"
-  - NTTO-"Захламленный"
+    prefix: names-ats-dataset-
+    count: 15
