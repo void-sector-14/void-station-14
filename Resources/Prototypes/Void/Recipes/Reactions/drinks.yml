@@ -12,6 +12,8 @@
 
 - type: reaction
   id: Uolongtea
+  requiredMixerCategories:
+  - Stir
   reactants:
     Whiskey:
       amount: 1
