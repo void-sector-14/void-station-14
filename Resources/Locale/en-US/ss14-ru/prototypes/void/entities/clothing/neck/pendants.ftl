@@ -10,3 +10,5 @@ ent-ClothingCheapPendantBlue = кулон из синего кристалла
     .desc = Кристалл подвешенный на проводе.
 ent-ClothingCheapPendantGrey = кулон из серого кристалла
     .desc = Кристалл подвешенный на проводе.
+ent-NeckChoker = чокер
+    .desc = Красивая безделушка

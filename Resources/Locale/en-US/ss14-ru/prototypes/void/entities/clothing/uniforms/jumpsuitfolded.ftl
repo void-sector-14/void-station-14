@@ -1,2 +1,2 @@
-ent-BasicFoldedJumpSuit = Test1
-    .desc = Testdescript1
+ent-ClothingJumpSuitTestFoldable = белый комбинезон
+    .desc = Обычный белый комбинезон
