@@ -10,15 +10,18 @@
     - SyndicateAgent
     - Slimecat
     - SlimecatAgressive
+    - AllHostile
 
 - type: npcFaction
   id: NanoTrasen
   hostile:
-    - SimpleHostile
-    - Syndicate
-    - Xeno
-    - Zombie
-    - Revolutionary
+  - SimpleHostile
+  - Syndicate
+  - Xeno
+  - Zombie
+  - Revolutionary
+  - Dragon
+  - AllHostile
 
 - type: npcFaction
   id: Mouse
@@ -26,6 +29,7 @@
     - PetsNT
     - Slimecat
     - SlimecatAgressive
+    - AllHostile
 
 - type: npcFaction
   id: Passive
@@ -33,23 +37,25 @@
 - type: npcFaction
   id: PetsNT
   hostile:
-    - Mouse
-    - SimpleHostile
-    - Zombie
-    - Xeno
+  - Mouse
+  - SimpleHostile
+  - Zombie
+  - Xeno
+  - AllHostile
 
 - type: npcFaction
   id: SimpleHostile
   hostile:
-    - NanoTrasen
-    - Syndicate
-    - Passive
-    - PetsNT
-    - Zombie
-    - Revolutionary
-    - SyndicateAgent
-    - Slimecat
-    - SlimecatAgressive
+  - NanoTrasen
+  - Syndicate
+  - Passive
+  - PetsNT
+  - Zombie
+  - Revolutionary
+  - SyndicateAgent
+  - Slimecat
+  - SlimecatAgressive
+  - AllHostile
 
 - type: npcFaction
   id: SimpleNeutral
@@ -57,43 +63,66 @@
 - type: npcFaction
   id: Syndicate
   hostile:
-    - NanoTrasen
-    - SimpleHostile
-    - Xeno
-    - PetsNT
-    - Zombie
+  - NanoTrasen
+  - SimpleHostile
+  - Xeno
+  - PetsNT
+  - Zombie
+  - Dragon
+  - AllHostile
 
 - type: npcFaction
   id: Xeno
   hostile:
-    - NanoTrasen
-    - Syndicate
-    - SyndicateAgent
-    - Passive
-    - PetsNT
-    - Zombie
-    - Revolutionary
-    - Slimecat
-    - SlimecatAgressive
+  - NanoTrasen
+  - Syndicate
+  - SyndicateAgent
+  - Passive
+  - PetsNT
+  - Zombie
+  - Revolutionary
+  - Slimecat
+  - SlimecatAgressive
+  - AllHostile
 
 - type: npcFaction
   id: Zombie
   hostile:
-    - NanoTrasen
-    - SimpleNeutral
-    - SimpleHostile
-    - Syndicate
-    - SyndicateAgent
-    - Passive
-    - PetsNT
-    - Revolutionary
-    - Slimecat
-    - SlimecatAgressive
+  - NanoTrasen
+  - SimpleNeutral
+  - SimpleHostile
+  - Syndicate
+  - SyndicateAgent
+  - Passive
+  - PetsNT
+  - Revolutionary
+  - Slimecat
+  - SlimecatAgressive
+  - AllHostile
 
 - type: npcFaction
   id: Revolutionary
   hostile:
-    - NanoTrasen
-    - Zombie
-    - SimpleHostile
-    - Dragon
+  - NanoTrasen
+  - Zombie
+  - SimpleHostile
+  - Dragon
+  - AllHostile
+
+- type: npcFaction
+  id: AllHostile
+  hostile:
+  - NanoTrasen
+  - Dragon
+  - Mouse
+  - Passive
+  - PetsNT
+  - SimpleHostile
+  - SimpleNeutral
+  - Syndicate
+  - SyndicateAgent
+  - Xeno
+  - Zombie
+  - Revolutionary
+  - Slimecat
+  - SlimecatAgressive
