@@ -1,0 +1,22 @@
+- type: entity
+  id: KvassTank
+  parent: StorageTank
+  suffix: Пустой
+  name: бочка с квасом
+  description: Большая бочка с освежающим квасом.
+  components:
+    - type: Sprite
+      sprite: Void/Structures/Storage/kvass.rsi
+      state: kvass
+
+- type: entity
+  parent: KvassTank
+  id: KvassTankFull
+  suffix: Полный
+  components:
+    - type: SolutionContainerManager
+      solutions:
+        tank:
+          reagents:
+            - ReagentId: Kvass
+              Quantity: 1500
