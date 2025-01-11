@@ -319,7 +319,7 @@
     sprite: Mobs/Silicon/station_ai.rsi
     layers:
     - state: base
-    - state: ai
+    - state: ai-president
       shader: unshaded
 
 - type: entity
@@ -402,7 +402,7 @@
     sprite: Mobs/Silicon/station_ai.rsi
     layers:
     - state: base
-    - state: ai
+    - state: ai-president
       shader: unshaded
 
 # The actual brain inside the core
