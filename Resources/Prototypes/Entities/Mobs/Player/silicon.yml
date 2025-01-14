@@ -370,7 +370,7 @@
       enum.StationAiVisualState.Key:
         unshaded:
           Empty: { state: ai_empty }
-          Occupied: { state: ai }
+          Occupied: { state: ai-president }
   - type: Telephone
     compatibleRanges:
     - Grid
