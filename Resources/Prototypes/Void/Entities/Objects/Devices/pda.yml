@@ -23,6 +23,11 @@
       borderColor: "#4c4d4c"
     - type: Icon
       state: pda-iaa
+    - type: Appearance
+    appearanceDataInit:
+     enum.PdaVisuals.PdaType:
+       !type:String
+       pda-iaa
 
 - type: entity
   parent: BaseVoidPDA
@@ -37,6 +42,11 @@
       borderColor: "#ac3232"
     - type: Icon
       state: pda-magistrate
+    - type: Appearance
+    appearanceDataInit:
+     enum.PdaVisuals.PdaType:
+       !type:String
+       pda-magistrate
 
 - type: entity
   parent: BasePDA
