@@ -80,6 +80,11 @@
   copies: 1
 
 - type: preloadedGrid
+  id: ManOWar
+  path: /Maps/Shuttles/ShuttleEvent/manowar.yml
+  copies: 1
+
+- type: preloadedGrid
   id: Microshuttle
   path: /Maps/Shuttles/ShuttleEvent/microshuttle.yml
   copies: 4

@@ -108,8 +108,8 @@
     VoidClothingUniformTurleneckWhiteSleeveless: 2
     VoidClothingUniformTurleneckWhiteBlackSleeveless: 2
     VoidClothingUniformTurleneckWhiteWomenSleeveless: 2
-    footwrapsblack: 3
-    footwrapswhite: 3
+    ClothingShoesFootwrapsBlack: 3
+    ClothingShoesFootwrapsWhite: 3
     ClothingShoesColorBlack: 8
     ClothingShoesColorBrown: 4
     ClothingShoesColorWhite: 3

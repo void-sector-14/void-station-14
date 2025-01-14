@@ -10,3 +10,7 @@ ent-ClothingShoesBootsSilkDress = шёлковые туфли
     .desc = Украшенные жемчугом туфли
 ent-ClothingShoesBootsPinkDress = розовые туфли
     .desc = Украшены милыми бантиками
+ent-ClothingShoesFootwrapsBlack = тёмные обмотки для ног
+    .desc = { ent-ClothingShoesBaseButcherable.desc }
+ent-ClothingShoesFootwrapsWhite = обмотки для ног
+    .desc = { ent-ClothingShoesBaseButcherable.desc }

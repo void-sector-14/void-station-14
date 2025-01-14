@@ -5,6 +5,7 @@ holopad-window-options = [color=darkgray][font size=10][italic]Пожалуйс�
 # Call status
 holopad-window-no-calls-in-progress = Нет текущих голозвонков
 holopad-window-incoming-call = Входящий голозвонок от:
+holopad-window-relay-label = Позвонить в:
 holopad-window-outgoing-call = Попытка установить соединение...
 holopad-window-call-in-progress = Голосвязь в процессе
 holopad-window-call-ending = Отключение...
@@ -25,6 +26,7 @@ holopad-window-access-denied = Доступ запрещен
 holopad-window-select-contact-from-list = Выберите контакт, чтобы начать голозвонок
 holopad-window-fetching-contacts-list = В настоящее время нет доступных для связи голопадов
 holopad-window-contact-label = { CAPITALIZE($label) }
+holopad-window-filter-line-placeholder = Поиск контакта
 # Flavor
 holopad-window-flavor-left = ⚠ Не входить, пока проектор активен
 holopad-window-flavor-right = v3.0.9
@@ -33,6 +35,7 @@ holopad-hologram-name = голограмма { $name }
 # Holopad actions
 holopad-activate-projector-verb = Активировать проектор голопада
 holopad-ai-is-unable-to-reach-holopad = Вы не можете связаться с источником звонка, он находится слишком далеко от вашего ядра.
+holopad-ai-is-unable-to-activate-projector = Вы не можете активировать проектор голопада, он слишком далеко от вашего ядра.
 # Mapping prototypes
 # Общий
 holopad-general-tools = Общий - Инструменты
@@ -59,7 +62,9 @@ holopad-command-rd = Командование - НР
 holopad-command-hos = Командование - ГСБ
 # НИО
 holopad-science-anomaly = НИО - Аномалистика
-holopad-science-artifact = НИО - Аретфакторика
+holopad-science-artifact = НИО - Ксеноархеология
+holopad-science-artifact-north = НИО - Ксеноархеология Север
+holopad-science-artifact-south = НИО - Ксеноархеология Юг
 holopad-science-robotics = НИО - Робототехника
 holopad-science-rnd = НИО - НИО
 holopad-science-front = НИО - Вход
@@ -74,6 +79,7 @@ holopad-medical-paramedic = Медотсек - Парамедик
 holopad-medical-virology = Медотсек - Вирусолог
 holopad-medical-front = Медотсек - Вход
 holopad-medical-breakroom = Медотсек - Гостиная
+holopad-medical-clinic = Медотсек - Клиника
 # Поставки
 holopad-cargo-front = Поставки - Вход
 holopad-cargo-bay = Поставки - Грузовой Док
@@ -81,6 +87,7 @@ holopad-cargo-salvage-bay = Поставки - Утилизаторы Док
 holopad-cargo-breakroom = Поставки - Гостиная
 holopad-cargo-ats = Поставки - АТС
 holopad-cargo-shuttle = Поставки - Шаттл
+holopad-cargo-mailroom = Поставки - Почта
 # ИО
 holopad-engineering-atmos-front = Атмос - Вход
 holopad-engineering-atmos-main = Атмос - Атмос
@@ -92,6 +99,7 @@ holopad-engineering-telecoms = ИО - Телеком
 holopad-engineering-tech-vault = ИО - Хранилище Плат
 holopad-engineering-ame = ИО - ДАМ
 holopad-engineering-power = ИО - СМЭС
+holopad-engineering-main = ИО - Холл
 # СБ
 holopad-security-front = СБ - Вход
 holopad-security-brig = СБ - Бриг
@@ -105,6 +113,8 @@ holopad-security-lawyer = СБ - Юристы
 holopad-security-armory = СБ - Оружейная
 holopad-security-locker-room = СБ - Раздевалка
 holopad-security-brig-med = СБ - Бригмед
+holopad-security-evac-checkpoint = СБ - Эвак Пост
+holopad-security-arrivals-checkpoint = СБ - Прибытие Пост
 # Сервис
 holopad-service-janitor = Сервис - Уборщик
 holopad-service-bar = Сервис - Бар
