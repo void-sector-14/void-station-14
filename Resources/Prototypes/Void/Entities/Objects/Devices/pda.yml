@@ -24,10 +24,10 @@
     - type: Icon
       state: pda-iaa
     - type: Appearance
-    appearanceDataInit:
-     enum.PdaVisuals.PdaType:
-       !type:String
-       pda-iaa
+      appearanceDataInit:
+       enum.PdaVisuals.PdaType:
+         !type:String
+         pda-iaa
 
 - type: entity
   parent: BaseVoidPDA
@@ -43,10 +43,10 @@
     - type: Icon
       state: pda-magistrate
     - type: Appearance
-    appearanceDataInit:
-     enum.PdaVisuals.PdaType:
-       !type:String
-       pda-magistrate
+      appearanceDataInit:
+       enum.PdaVisuals.PdaType:
+         !type:String
+         pda-magistrate
 
 - type: entity
   parent: BasePDA
