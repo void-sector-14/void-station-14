@@ -16,6 +16,8 @@ Small fixes/refactors are exempt. Media may be used in SS14 progress reports wit
 ## Requirements
 <!-- Confirm the following by placing an X in the brackets [X]: -->
 - [ ] I have read and am following the [Pull Request and Changelog Guidelines](https://docs.spacestation14.com/en/general-development/codebase-info/pull-request-guidelines.html).
+- [ ] I have read and am following the [Commit Conventional](https://github.com/Makotys/void-station-14/blob/master/COMMIT_CONVENTIONAL.MD)
+- [ ] I have read and am following the [Code Conventional](https://github.com/Makotys/void-station-14/blob/master/CODE_CONVENTIONAL.MD)
 - [ ] I have added media to this PR or it does not require an ingame showcase.
 <!-- You should understand that not following the above may get your PR closed at maintainer’s discretion -->
 
