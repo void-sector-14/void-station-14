@@ -103,3 +103,36 @@
   - type: NpcFactionMember
     factions:
     - SimpleHostile
+
+- type: entity
+  id: MobMothroachSalavage
+  parent: MobMothroach
+  name: таракамоль утилизатор
+  description: Пока остальной отдел поставок пилит бюджет, она ворует ваши трусы!
+  components:
+  - type: Sprite
+    sprite: Mobs/Animals/mothroach/spacemothroach.rsi
+  - type: Clothing
+    sprite: Mobs/Animals/mothroach/spacemothroach.rsi
+  - type: Temperature
+    heatDamageThreshold: 423
+    coldDamageThreshold: 0
+  - type: Tag
+    tags:
+      - DoorBumpOpener
+  - type: MovementAlwaysTouching
+  - type: PressureImmunity
+  - type: ProtectedFromStepTriggers
+  - type: Insulated
+  - type: GhostRole
+    makeSentient: true
+    allowSpeech: true
+    allowMovement: true
+    name: ghost-role-information-spacemothroach-name
+    description: ghost-role-information-spacemothroach-description
+    rules: ghost-role-information-freeagent-rules
+    mindRoles:
+    - MindRoleGhostRoleFreeAgent
+    prob: 0.2
+  - type: Respirator
+    minSaturation: 5.0

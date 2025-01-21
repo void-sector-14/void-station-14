@@ -35,6 +35,9 @@ ghost-role-information-mouse-description = A hungry and mischievous mouse.
 ghost-role-information-mothroach-name = Mothroach
 ghost-role-information-mothroach-description = A cute but mischievous mothroach.
 
+ghost-role-information-spacemothroach-name = Таракамоль утилизатор
+ghost-role-information-spacemothroach-description = Милый озорной помощник отдела поставок. Держите свою одежду подальше от него!
+
 ghost-role-information-snail-name = Snail
 ghost-role-information-snail-description = A little snail who doesn't mind a bit of space. Just stay on grid!
 
