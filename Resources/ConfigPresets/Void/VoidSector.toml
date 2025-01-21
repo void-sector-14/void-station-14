@@ -50,6 +50,7 @@ server_url = "ss14://37.27.103.62:1212"
 rules_file = "VoidRuleset"
 uptime_restart_minutes = 10080
 lobby_name = "VoidSector"
+lobby_right_panel_width = 520
 
 [console]
 login_host_user = "Makot"
