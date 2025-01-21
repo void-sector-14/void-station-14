@@ -23,6 +23,7 @@ advertise = false
 
 [server]
 rules_file = "VoidRuleset"
+lobby_name = "Пустотный Полигон"
 
 [console]
 login_host_user = "Makot"
