@@ -291,3 +291,51 @@
   name: Dazegxd - Emotion Engine
   path:
     path: /Audio/Void/Jukebox/Emotion_Engine.ogg
+
+- type: jukebox
+  id: JEto_tak_arkhaichno
+  name: Где Фантом? - Это так архаично
+  path:
+    path: /Audio/Void/Jukebox/Gde_antom_-_JEto_tak_arkhaichno.ogg
+
+- type: jukebox
+  id: SHvajjne
+  name: Глюк'oZa - Швайне
+  path:
+    path: /Audio/Void/Jukebox/GlyukoZa_-_SHvajjne.ogg
+
+- type: jukebox
+  id: Dedushka
+  name: Каникулы На Марсе - Дедушка
+  path:
+    path: /Audio/Void/Jukebox/Kanikuly_na_Marse_-_Dedushka.ogg
+
+- type: jukebox
+  id: Milfkhanter
+  name: Neverlove - Милфхантер
+  path:
+    path: /Audio/Void/Jukebox/Neverlove_-_Milfkhanter.ogg
+
+- type: jukebox
+  id: Radio
+  name: Rammstein - Radio
+  path:
+    path: /Audio/Void/Jukebox/Rammstein_-_RADIO.ogg
+
+- type: jukebox
+  id: Pokerface
+  name: Eric Cartman - Pokerface ft. Lady Gaga
+  path:
+    path: /Audio/Void/Jukebox/South_park_JErik_Kartman_feat_Lady_Gaga_-_Poker_Face.ogg
+
+- type: jukebox
+  id: Toxicity
+  name: System of a Down - Toxicity
+  path:
+    path: /Audio/Void/Jukebox/System_of_a_Down_-_Toxicity.ogg
+
+- type: jukebox
+  id: Ya_byu_zhenshhin_i_detejj
+  name: Валентин Стрыкало - Я бью женщин и детей
+  path:
+    path: /Audio/Void/Jukebox/Valentin_Strykalo_-_YA_byu_zhenshhin_i_detejj.ogg
