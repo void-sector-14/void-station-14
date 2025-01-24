@@ -3,7 +3,7 @@
   alias:
     - survival
   name: survival-title
-  showInVote: true # secret
+  showInVote: true
   description: survival-description
   rules:
     - MeteorSwarmScheduler
@@ -235,3 +235,14 @@
   - KesslerSyndromeScheduler
   - SpaceTrafficControlEventScheduler
   - BasicRoundstartVariation
+
+- type: gamePreset
+  id: Suspicion
+  name: suspicion-title
+  description: suspicion-description
+  showInVote: true
+  rules:
+  - BasicRoundstartVariation
+  - SpaceTrafficControlEventScheduler
+  - Thief
+  - Traitor
