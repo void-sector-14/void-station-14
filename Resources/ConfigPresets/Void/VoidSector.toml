@@ -82,6 +82,10 @@ mmos_max_wind = 1000.0
 [biomass]
 easy_mode = false
 
+[whitelist]
+enabled = true
+prototype_list = "voidSectorWhitelist"
+
 [vote]
 timermap = 30
 map_enabled = true
