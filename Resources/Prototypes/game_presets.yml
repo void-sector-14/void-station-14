@@ -102,6 +102,7 @@
     - sekrit
   name: secret-title
   showInVote: true
+  minPlayers: 3
   description: secret-description
   rules:
     - Secret
@@ -241,6 +242,7 @@
   name: suspicion-title
   description: suspicion-description
   showInVote: true
+  minPlayers: 3
   rules:
   - BasicRoundstartVariation
   - SpaceTrafficControlEventScheduler
