@@ -21,6 +21,8 @@
       prob: 0.3
       rolls: !type:ConstantNumberSelector
         value: 3
+    - id: MobMothroachSalavage
+      prob: 0.2
 
 - type: entity
   id: LockerSalvageSpecialistFilledHardsuit

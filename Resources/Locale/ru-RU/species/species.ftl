@@ -1,18 +1,31 @@
 ## Species Names
 
 species-name-human = Человек
+Human = { species-name-human }
 species-name-dwarf = Дворф
+Dwarf = { species-name-dwarf }
 species-name-reptilian = Унатх
+Reptilian = { species-name-reptilian }
 species-name-slime = Слаймолюд
+SlimePerson = { species-name-slime }
 species-name-diona = Диона
+Diona = { species-name-diona }
 species-name-arachnid = Арахнид
+Arachnid = { species-name-arachnid }
 species-name-moth = Ниан
+Moth = { species-name-moth }
 species-name-vulpkanin = Вульпканин
+VulpkaninPerson = { species-name-vulpkanin }
 species-name-katunian = Катунианец
+Katunian = { species-name-katunian }
 species-name-gingerbread = вкусно выпеченный хороший
 species-name-skeleton = Скелет
 snail-hurt-by-salt-popup = Соленый раствор жжет, как кислота!
 species-name-vox = Вокс
+Vox = { species-name-vox }
 species-name-tajaran = Таяран
+TajaranSpecies = { species-name-tajaran }
 species-name-demon = Тифлинг
+DemonSpecies = { species-name-demon }
 species-name-felinid = Фелинид
+Felinid = { species-name-felinid }

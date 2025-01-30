@@ -2,6 +2,7 @@
   id: VoidMapPool
   maps:
   - VSAmber
+  - VSAspid
   - VSBagel
   - VSCog
   - VSCore

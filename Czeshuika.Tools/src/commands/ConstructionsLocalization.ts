@@ -119,10 +119,10 @@ export class ConstructionsLocalization extends ACommand {
             for (const eid of constructionIds) {
                 const construction = this.constructions[eid]
                 let patchDesc = construction.description == null ? '{ "" }' : construction.description
-                patchDesc = patchDesc.replaceAll("\n", "\n            ")
+                patchDesc = patchDesc.replaceAll("\r\n", "\r\n            ")
                 //@formatter:off
-                lines.push(`con-${construction.id} = ${construction.name}\n` +
-                    `    .desc = ${patchDesc}\n`)
+                lines.push(`con-${construction.id} = ${construction.name}\r\n` +
+                    `    .desc = ${patchDesc}\r\n`)
                 //@formatter:on
             }
             writeFile(file, lines.join(""))

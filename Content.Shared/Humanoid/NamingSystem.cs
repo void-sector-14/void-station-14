@@ -31,7 +31,7 @@ namespace Content.Shared.Humanoid
                         ("first", GetFirstName(speciesProto, gender)));
                 case SpeciesNaming.TheFirstofLast:
                     return Loc.GetString("namepreset-thefirstoflast",
-                        ("first", GetFirstName(speciesProto, gender)), ("last", GetLastName(speciesProto)));
+                        ("first", GetFirstName(speciesProto, gender)), ("last", GetLastName(speciesProto, gender)));
                 case SpeciesNaming.FirstDashFirst:
                     return Loc.GetString("namepreset-firstdashfirst",
                         ("first1", GetFirstName(speciesProto, gender)), ("first2", GetFirstName(speciesProto, gender)));
@@ -58,34 +58,20 @@ namespace Content.Shared.Humanoid
             }
         }
 
-        // public string GetLastName(SpeciesPrototype speciesProto, Gender? gender = null)
-        // {
-        //     switch (gender)
-        //     {
-        //         case Gender.Male:
-        //             return _random.Pick(_prototypeManager.Index<DatasetPrototype>(speciesProto.MaleLastNames).Values);
-        //         case Gender.Female:
-        //             return _random.Pick(_prototypeManager.Index<DatasetPrototype>(speciesProto.FemaleLastNames).Values);
-        //         default:
-        //             if (_random.Prob(0.5f))
-        //                 return _random.Pick(_prototypeManager.Index<DatasetPrototype>(speciesProto.MaleLastNames).Values);
-        //             else
-        //                 return _random.Pick(_prototypeManager.Index<DatasetPrototype>(speciesProto.FemaleLastNames).Values);
-        //     }
-        // }
-
         public string GetLastName(SpeciesPrototype speciesProto, Gender? gender = null)
         {
-            var nameCollections = gender switch
+            switch (gender)
             {
-                Gender.Male => speciesProto.MaleLastNames,
-                Gender.Female => speciesProto.FemaleLastNames,
-                _ => _random.Prob(0.5f)
-                    ? speciesProto.MaleLastNames
-                    : speciesProto.FemaleLastNames
-            };
-
-            return _random.Pick(_prototypeManager.Index<DatasetPrototype>(nameCollections).Values);
+                case Gender.Male:
+                    return _random.Pick(_prototypeManager.Index<DatasetPrototype>(speciesProto.MaleLastNames).Values);
+                case Gender.Female:
+                    return _random.Pick(_prototypeManager.Index<DatasetPrototype>(speciesProto.FemaleLastNames).Values);
+                default:
+                    if (_random.Prob(0.5f))
+                        return _random.Pick(_prototypeManager.Index<DatasetPrototype>(speciesProto.MaleLastNames).Values);
+                    else
+                        return _random.Pick(_prototypeManager.Index<DatasetPrototype>(speciesProto.FemaleLastNames).Values);
+            }
         }
     }
 }

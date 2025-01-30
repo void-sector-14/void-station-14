@@ -5,21 +5,21 @@
   conditions:
   - !type:ConditionManualBlacklistMembership # Deny blacklisted
     action: Deny
-  - !type:ConditionNotesDateRange # Deny for high severity notes in the last 30 days
+  - !type:ConditionNotesDateRange # Deny for >=3 high severity notes in the last 150 days
     includeExpired: false
     minimumSeverity: 3 # High
     minimumNotes: 3
     range: 150 # 150 days
     action: Deny
     includeSecret: false
-  - !type:ConditionNotesDateRange # Deny for >=2 medium severity notes in the last 14 days
+  - !type:ConditionNotesDateRange # Deny for >=2 medium severity notes in the last 90 days
     includeExpired: false
     minimumSeverity: 2 # Medium
     minimumNotes: 5
     range: 90 # 90 Days
     action: Deny
     includeSecret: false
-  - !type:ConditionNotesDateRange # Deny for >=3 low severity notes in the last 14 days
+  - !type:ConditionNotesDateRange # Deny for >=10 low severity notes in the last 30 days
     includeExpired: false
     minimumSeverity: 1 # Low
     minimumNotes: 10
@@ -28,5 +28,5 @@
     includeSecret: false
   # - !type:ConditionManualWhitelistMembership # Allow whitelisted players
   #   action: Allow
-  # - !type:ConditionAlwaysMatch
-  #   action: Deny
+  - !type:ConditionAlwaysMatch
+    action: Allow

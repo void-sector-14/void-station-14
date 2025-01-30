@@ -65,6 +65,7 @@ guide-entry-security = Служба безопасности
 guide-entry-forensics = Криминалистика
 guide-entry-defusal = Обезвреживание Больших Бомб
 guide-entry-criminal-records = Криминальные Записи
+guide-entry-special = Специальное
 guide-entry-species = Расы
 guide-entry-antagonists = Антагонисты
 guide-entry-nuclear-operatives = Ядерные Оперативники

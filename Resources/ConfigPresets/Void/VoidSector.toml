@@ -49,6 +49,8 @@ server_url = "ss14://37.27.103.62:1212"
 [server]
 rules_file = "VoidRuleset"
 uptime_restart_minutes = 10080
+lobby_name = "VoidSector"
+lobby_right_panel_width = 520
 
 [console]
 login_host_user = "Makot"
@@ -79,6 +81,10 @@ mmos_max_wind = 1000.0
 
 [biomass]
 easy_mode = false
+
+[whitelist]
+enabled = true
+prototype_list = "voidSectorWhitelist"
 
 [vote]
 timermap = 30
@@ -124,6 +130,7 @@ ahelp_footer_icon = "https://i.imgur.com/e9AMvev.png"
 round_update_webhook = "{{ round_void }}"
 round_end_role = "1239615123732299897"
 rich_main_icon_id = "voidsector"
+on_call_ping = "1210244969995046912"
 
 ################################################################################
 ##### Metrics ##################################################################

@@ -241,7 +241,6 @@
   recipeUnlocks:
     - TurretAntiMeteorCircuitboard
   technologyPrerequisites:
-    - BasicShuttleArmament
     - BasicRobotics
 
 # Tier 3

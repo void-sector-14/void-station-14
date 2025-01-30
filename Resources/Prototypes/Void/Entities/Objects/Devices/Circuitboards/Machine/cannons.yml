@@ -11,7 +11,7 @@
     stackRequirements:
       Manipulator: 1
       Capacitor: 3
-      Diamond: 1
+      Plasma: 10
       CableHV: 5
     tagRequirements:
       ProximitySensor:

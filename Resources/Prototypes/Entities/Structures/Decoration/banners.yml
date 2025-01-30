@@ -74,7 +74,7 @@
   description: A banner displaying the colors of the medical department. How sterile.
   components:
   - type: Sprite
-    sprite: Structures/Decoration/banner.rsi
+    sprite: Void/Structures/Decoration/banner.rsi
     state: banner_medical
 
 - type: entity
