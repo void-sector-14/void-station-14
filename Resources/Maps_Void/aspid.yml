@@ -349,6 +349,11 @@ entities:
     - type: Shuttle
     - type: GridPathfinding
     - type: Gravity
+    - type: GasTileOverlay
+    - type: RadiationGridResistance
+    - type: NavMap
+    - type: BecomesStation
+      id: VSAspid
       gravityShakeSound: !type:SoundPathSpecifier
         path: /Audio/Effects/alert.ogg
     - type: DecalGrid
@@ -4939,11 +4944,6 @@ entities:
           - 0
           - 0
         chunkSize: 4
-    - type: GasTileOverlay
-    - type: RadiationGridResistance
-    - type: NavMap
-    - type: BecomesStation
-      id: VSAspid
 - proto: AirAlarm
   entities:
   - uid: 3
