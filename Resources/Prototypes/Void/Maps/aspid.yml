@@ -1,6 +1,6 @@
 - type: gameMap
   id: VSAspid
-  mapName: 'Aspid '
+  mapName: 'Aspid'
   mapPath: /Maps_Void/aspid.yml
   minPlayers: 10
   maxPlayers: 40
