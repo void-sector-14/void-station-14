@@ -353,7 +353,7 @@ entities:
     - type: RadiationGridResistance
     - type: NavMap
     - type: BecomesStation
-      id: VSAspid
+      id: Aspid
       gravityShakeSound: !type:SoundPathSpecifier
         path: /Audio/Effects/alert.ogg
     - type: DecalGrid
