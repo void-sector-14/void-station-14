@@ -19,6 +19,9 @@ fallbackpreset = "Sandbox"
 map = "Empty"
 role_timers = false
 
+[gateway]
+generator_enabled = false
+
 [hub]
 advertise = false
 
