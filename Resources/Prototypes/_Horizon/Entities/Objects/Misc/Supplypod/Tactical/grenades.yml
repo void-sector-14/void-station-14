@@ -1,0 +1,104 @@
+- type: entity
+  id: SpawnSupplyEyesNightVision
+  components:
+  - type: SpawnOnDespawn
+    prototype: ClothingEyesNightVision
+  - type: TimedDespawn
+    lifetime: 9.75
+  - type: SpawnOnTrigger 
+    proto: SpawnSupplypodAnimation
+  - type: TriggerOnSpawn
+  - type: Sprite
+    sprite: Markers/cross.rsi
+    state: red
+  - type: Marker
+
+- type: entity
+  id: SpawnSupplySmokeGrenade
+  components:
+  - type: SpawnOnDespawn
+    prototype: SmokeGrenade
+  - type: TimedDespawn
+    lifetime: 9.75
+  - type: SpawnOnTrigger 
+    proto: SpawnSupplypodAnimation
+  - type: TriggerOnSpawn
+  - type: Sprite
+    sprite: Markers/cross.rsi
+    state: red
+  - type: Marker
+
+- type: entity
+  id: SpawnSupplyGrenadeFlashBang
+  components:
+  - type: SpawnOnDespawn
+    prototype: GrenadeFlashBang
+  - type: TimedDespawn
+    lifetime: 9.75
+  - type: SpawnOnTrigger 
+    proto: SpawnSupplypodAnimation
+  - type: TriggerOnSpawn
+  - type: Sprite
+    sprite: Markers/cross.rsi
+    state: red
+  - type: Marker
+
+- type: entity
+  id: SpawnSupplyEmpGrenade
+  components:
+  - type: SpawnOnDespawn
+    prototype: EmpGrenade
+  - type: TimedDespawn
+    lifetime: 9.75
+  - type: SpawnOnTrigger 
+    proto: SpawnSupplypodAnimation
+  - type: TriggerOnSpawn
+  - type: Sprite
+    sprite: Markers/cross.rsi
+    state: red
+  - type: Marker
+
+- type: entity
+  id: SpawnSupplyGrenadeIncendiary
+  components:
+  - type: SpawnOnDespawn
+    prototype: GrenadeIncendiary
+  - type: TimedDespawn
+    lifetime: 9.75
+  - type: SpawnOnTrigger 
+    proto: SpawnSupplypodAnimation
+  - type: TriggerOnSpawn
+  - type: Sprite
+    sprite: Markers/cross.rsi
+    state: red
+  - type: Marker
+
+- type: entity
+  id: SpawnSupplyGrenadeShrapnel
+  components:
+  - type: SpawnOnDespawn
+    prototype: GrenadeShrapnel
+  - type: TimedDespawn
+    lifetime: 9.75
+  - type: SpawnOnTrigger 
+    proto: SpawnSupplypodAnimation
+  - type: TriggerOnSpawn
+  - type: Sprite
+    sprite: Markers/cross.rsi
+    state: red
+  - type: Marker
+
+- type: entity
+  id: SpawnSupplyPortableFlasher
+  components:
+  - type: SpawnOnDespawn
+    prototype: PortableFlasher
+  - type: TimedDespawn
+    lifetime: 9.75
+  - type: SpawnOnTrigger 
+    proto: SpawnSupplypodAnimation
+  - type: TriggerOnSpawn
+  - type: Sprite
+    sprite: Markers/cross.rsi
+    state: red
+  - type: Marker

@@ -23,6 +23,10 @@
   special:
   - !type:AddImplantSpecial
     implants: [ MindShieldImplant ]
+  minBankBalance: 550
+  maxBankBalance: 750
+  wageDepartment: Legal
+  wage: 70
 
 - type: startingGear
   id: IAAGear

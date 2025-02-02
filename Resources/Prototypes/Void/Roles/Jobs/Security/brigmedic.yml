@@ -22,6 +22,10 @@
   special:
   - !type:AddImplantSpecial
     implants: [ MindShieldImplant ]
+  minBankBalance: 550
+  maxBankBalance: 750
+  wageDepartment: Security
+  wage: 40
 
 - type: startingGear
   id: BrigmedicGear

@@ -43,6 +43,12 @@ public sealed partial class StoreMenu : DefaultWindow
         SearchBar.OnTextChanged += _ => SearchTextUpdated?.Invoke(this, SearchBar.Text);
     }
 
+    public bool CanBuyFromBank = false;
+    public void SetCanBuyFromBank(bool hasComponent)
+    {
+        CanBuyFromBank = hasComponent;
+    }
+
     public void UpdateBalance(Dictionary<ProtoId<CurrencyPrototype>, FixedPoint2> balance)
     {
         Balance = balance;
@@ -125,7 +131,7 @@ public sealed partial class StoreMenu : DefaultWindow
         if (!listing.Categories.Contains(CurrentCategory))
             return;
 
-        var hasBalance = listing.CanBuyWith(Balance);
+        var hasBalance = listing.CanBuyWith(Balance) || CanBuyFromBank;
 
         var spriteSys = _entityManager.EntitySysManager.GetEntitySystem<SpriteSystem>();
 
@@ -156,6 +162,19 @@ public sealed partial class StoreMenu : DefaultWindow
             => OnListingButtonPressed?.Invoke(args, listing);
 
         StoreListingsContainer.AddChild(newListing);
+    }
+
+    public bool HasListingPrice(Dictionary<ProtoId<CurrencyPrototype>, FixedPoint2> currency, Dictionary<ProtoId<CurrencyPrototype>, FixedPoint2> price)
+    {
+        foreach (var type in price)
+        {
+            if (!currency.ContainsKey(type.Key))
+                return false;
+
+            if (!CanBuyFromBank && currency[type.Key] < type.Value)
+                return false;
+        }
+        return true;
     }
 
     private string GetListingPriceString(ListingDataWithCostModifiers listing)

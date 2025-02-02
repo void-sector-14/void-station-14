@@ -1,0 +1,76 @@
+﻿- type: listing
+  id: TacticalSupplyInventory1
+  productEntity: SpawnSupplyEyesNightVision
+  name: supply-console-nvd-name
+  description: supply-console-nvd-desc
+  icon: { sprite: /Textures/Clothing/Eyes/Glasses/ninjavisor.rsi, state: icon }
+  cost:
+    SpaceCash: 850
+  categories:
+    - TacticalPodInventory
+
+- type: listing
+  id: TacticalSupplyInventory2
+  productEntity: SpawnSupplySmokeGrenade
+  name: supply-console-smoke-name
+  description: supply-console-smoke-desc
+  icon: { sprite: /Textures/Objects/Weapons/Grenades/smoke.rsi, state: icon }
+  cost:
+    SpaceCash: 130
+  categories:
+    - TacticalPodInventory
+
+- type: listing
+  id: TacticalSupplyInventory3
+  productEntity: SpawnSupplyGrenadeFlashBang
+  name: supply-console-flashbang-name
+  description: supply-console-flashbang-desc
+  icon: { sprite: /Textures/Objects/Weapons/Grenades/flashbang.rsi, state: icon }
+  cost:
+    SpaceCash: 130
+  categories:
+    - TacticalPodInventory
+
+- type: listing
+  id: TacticalSupplyInventory4
+  productEntity: SpawnSupplyEmpGrenade
+  name: supply-console-emp-name
+  description: supply-console-emp-desc
+  icon: { sprite: /Textures/Objects/Weapons/Grenades/empgrenade.rsi, state: icon }
+  cost:
+    SpaceCash: 550
+  categories:
+    - TacticalPodInventory
+
+- type: listing
+  id: TacticalSupplyInventory5
+  productEntity: SpawnSupplyGrenadeIncendiary
+  name: supply-console-incendiary-name
+  description: supply-console-incendiary-desc
+  icon: { sprite: /Textures/Objects/Weapons/Grenades/pyrogrenade.rsi, state: icon }
+  cost:
+    SpaceCash: 650
+  categories:
+    - TacticalPodInventory
+
+- type: listing
+  id: TacticalSupplyInventory6
+  productEntity: SpawnSupplyGrenadeShrapnel
+  name: supply-console-shrapnel-name
+  description: supply-console-shrapnel-desc
+  icon: { sprite: /Textures/Objects/Weapons/Grenades/shrapnelgrenade.rsi, state: icon }
+  cost:
+    SpaceCash: 650
+  categories:
+    - TacticalPodInventory
+
+- type: listing
+  id: TacticalSupplyInventory7
+  productEntity: SpawnSupplyPortableFlasher
+  name: supply-console-flasher-name
+  description: supply-console-flasher-desc
+  icon: { sprite: /Textures/Objects/Weapons/pflash.rsi, state: on }
+  cost:
+    SpaceCash: 400
+  categories:
+    - TacticalPodInventory

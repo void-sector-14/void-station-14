@@ -22,6 +22,10 @@
   special:
   - !type:AddImplantSpecial
     implants: [ MindShieldImplant ]
+  minBankBalance: 650
+  maxBankBalance: 850
+  wageDepartment: Security
+  wage: 45
 
 - type: startingGear
   id: DetectiveGear

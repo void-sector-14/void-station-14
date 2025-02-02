@@ -14,6 +14,10 @@
   - Maintenance
   - Engineering
   - External
+  minBankBalance: 350
+  maxBankBalance: 550
+  wageDepartment: Engineering
+  wage: 30
 
 - type: startingGear
   id: TechnicalAssistantGear

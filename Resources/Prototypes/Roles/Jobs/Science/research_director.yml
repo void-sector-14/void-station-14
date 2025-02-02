@@ -29,6 +29,10 @@
   - !type:AddComponentSpecial
     components:
       - type: CommandStaff
+  minBankBalance: 2300
+  maxBankBalance: 2500
+  wageDepartment: Science
+  wage: 50      
 
 - type: startingGear
   id: ResearchDirectorGear

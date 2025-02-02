@@ -80,6 +80,7 @@
     preinstalled:
       - CrewManifestCartridge
       - NotekeeperCartridge
+      - BankCartridge
       - NewsReaderCartridge
       - NanoChatCartridge # DeltaV
     cartridgeSlot:

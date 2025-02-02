@@ -1,0 +1,43 @@
+﻿- type: listing
+  id: EngineeringSupplyInventory1
+  productEntity: SpawnSupplyAMEJar
+  name: supply-console-amejar-name
+  description: supply-console-amejar-desc
+  icon: { sprite: /Textures/Objects/Power/AME/ame_jar.rsi, state: jar }
+  cost:
+    SpaceCash: 2500
+  categories:
+    - EngineeringPodInventory
+
+- type: listing
+  id: EngineeringSupplyInventory2
+  productEntity: SpawnSupplyRadiationCollector
+  name: supply-console-radiationcollector-name
+  description: supply-console-radiationcollector-desc
+  icon: { sprite: /Textures//Structures/Power/Generation/Singularity/collector.rsi, state: ca_off }
+  cost:
+    SpaceCash: 1500
+  categories:
+    - EngineeringPodInventory
+
+- type: listing
+  id: EngineeringSupplyInventory3
+  productEntity: SpawnSupplyTeslaCoil
+  name: supply-console-teslacoil-name
+  description: supply-console-teslacoil-desc
+  icon: { sprite: /Textures//Structures/Power/Generation/Tesla/coil.rsi, state: coil }
+  cost:
+    SpaceCash: 1800
+  categories:
+    - EngineeringPodInventory
+
+- type: listing
+  id: EngineeringSupplyInventory4
+  productEntity: SpawnSupplyEmitter
+  name: supply-console-emitter-name
+  description: supply-console-emitter-desc
+  icon: { sprite: /Textures//Structures/Power/Generation/Singularity/emitter.rsi, state: emitter }
+  cost:
+    SpaceCash: 3500
+  categories:
+    - EngineeringPodInventory

@@ -1,0 +1,102 @@
+﻿- type: listing
+  id: MedicalSupplyInventory1
+  productEntity: SpawnSupplyCrateChemistrySupplies
+  name: supply-console-chemistry-name
+  description: supply-console-chemistry-desc
+  icon: { sprite: /Textures/Objects/Specific/Chemistry/beaker_large.rsi, state: beakerlarge }
+  cost:
+    SpaceCash: 350
+  categories:
+    - MedicalPodInventory
+
+- type: listing
+  id: MedicalSupplyInventory2
+  productEntity: SpawnSupplyRestockChemVend
+  name: supply-console-restockchemvend-name
+  description: supply-console-restockchemvend-desc
+  icon: { sprite: /Textures/Structures/Machines/VendingMachines/chemvend.rsi, state: normal }
+  cost:
+    SpaceCash: 4300
+  categories:
+    - MedicalPodInventory
+
+- type: listing
+  id: MedicalSupplyInventory3
+  productEntity: SpawnSupplyCrateMedicalSurgery
+  name: supply-console-surgerycrate-name
+  description: supply-console-surgerycrate-desc
+  icon: { sprite: /Textures/Objects/Specific/Medical/Surgery/scalpel.rsi, state: scalpel }
+  cost:
+    SpaceCash: 700
+  categories:
+    - MedicalPodInventory
+
+- type: listing
+  id: MedicalSupplyInventory4
+  productEntity: SpawnSupplyMedkitFilled
+  name: supply-console-medkit-name
+  icon: { sprite: /Textures/Objects/Specific/Medical/firstaidkits.rsi, state: firstaid }
+  cost:
+    SpaceCash: 400
+  categories:
+    - MedicalPodInventory
+
+- type: listing
+  id: MedicalSupplyInventory5
+  productEntity: SpawnSupplyMedkitCombatFilled
+  name: supply-console-medkit-combat-name
+  icon: { sprite: /Textures/Objects/Specific/Medical/firstaidkits.rsi, state: blackkit }
+  cost:
+    SpaceCash: 750
+  categories:
+    - MedicalPodInventory
+
+- type: listing
+  id: MedicalSupplyInventory6
+  productEntity: SpawnSupplyMedkitBurnFilled
+  name: supply-console-medkit-burn-name
+  icon: { sprite: /Textures/Objects/Specific/Medical/firstaidkits.rsi, state: burnkit }
+  cost:
+    SpaceCash: 800
+  categories:
+    - MedicalPodInventory
+
+- type: listing
+  id: MedicalSupplyInventory7
+  productEntity: SpawnSupplyMedkitOxygenFilled
+  name: supply-console-medkit-oxygen-name
+  icon: { sprite: /Textures/Objects/Specific/Medical/firstaidkits.rsi, state: o2kit }
+  cost:
+    SpaceCash: 700
+  categories:
+    - MedicalPodInventory
+
+- type: listing
+  id: MedicalSupplyInventory8
+  productEntity: SpawnSupplyMedkitToxinFilled
+  name: supply-console-medkit-toxin-name
+  icon: { sprite: /Textures/Objects/Specific/Medical/firstaidkits.rsi, state: toxinkit }
+  cost:
+    SpaceCash: 700
+  categories:
+    - MedicalPodInventory
+
+- type: listing
+  id: MedicalSupplyInventory9
+  productEntity: SpawnSupplyMedkitBruteFilled
+  name: supply-console-medkit-brute-name
+  icon: { sprite: /Textures/Objects/Specific/Medical/firstaidkits.rsi, state: brutekit }
+  cost:
+    SpaceCash: 700
+  categories:
+    - MedicalPodInventory
+
+- type: listing
+  id: MedicalSupplyInventory10
+  productEntity: SpawnSupplyMedkitRadiationFilled
+  name: supply-console-medkit-radiation-name
+  icon: { sprite: /Textures/Objects/Specific/Medical/firstaidkits.rsi, state: radkit }
+  cost:
+    SpaceCash: 700
+  categories:
+    - MedicalPodInventory

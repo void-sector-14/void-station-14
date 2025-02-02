@@ -1,0 +1,44 @@
+- type: entity
+  id: SpawnSupplyBeltUtility
+  components:
+  - type: SpawnOnDespawn
+    prototype: ClothingBeltUtilityFilled
+  - type: TimedDespawn
+    lifetime: 9.75
+  - type: SpawnOnTrigger 
+    proto: SpawnSupplypodAnimation
+  - type: TriggerOnSpawn
+  - type: Sprite
+    sprite: Markers/cross.rsi
+    state: red
+  - type: Marker
+
+- type: entity
+  id: SpawnSupplyMiningDrill
+  components:
+  - type: SpawnOnDespawn
+    prototype: MiningDrill
+  - type: TimedDespawn
+    lifetime: 9.75
+  - type: SpawnOnTrigger 
+    proto: SpawnSupplypodAnimation
+  - type: TriggerOnSpawn
+  - type: Sprite
+    sprite: Markers/cross.rsi
+    state: red
+  - type: Marker
+
+- type: entity
+  id: SpawnSupplyMineralScanner
+  components:
+  - type: SpawnOnDespawn
+    prototype: MineralScanner
+  - type: TimedDespawn
+    lifetime: 9.75
+  - type: SpawnOnTrigger 
+    proto: SpawnSupplypodAnimation
+  - type: TriggerOnSpawn
+  - type: Sprite
+    sprite: Markers/cross.rsi
+    state: red
+  - type: Marker

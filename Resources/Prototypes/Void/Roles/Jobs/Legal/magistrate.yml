@@ -24,6 +24,10 @@
   special:
   - !type:AddImplantSpecial
     implants: [ MindShieldImplant ]
+  minBankBalance: 650
+  maxBankBalance: 850
+  wageDepartment: Legal
+  wage: 80
 
 - type: startingGear
   id: MagistrateGear

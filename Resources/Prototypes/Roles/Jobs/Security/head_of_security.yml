@@ -39,6 +39,10 @@
   - !type:AddComponentSpecial
     components:
       - type: CommandStaff
+  minBankBalance: 2650
+  maxBankBalance: 2850
+  wageDepartment: Security
+  wage: 50     
 
 - type: startingGear
   id: HoSGear

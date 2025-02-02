@@ -356,3 +356,4 @@
       orGroup: puddleMess
     - type: ThiefRule #the thieves come as an extension of another gamemode
       ruleChance: 0.2
+    - id: WageScheduler

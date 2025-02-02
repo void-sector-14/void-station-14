@@ -17,6 +17,10 @@
   - Salvage
   - Maintenance
   - External
+  minBankBalance: 550
+  maxBankBalance: 750
+  wageDepartment: Cargo
+  wage: 50
 
 - type: startingGear
   id: SalvageSpecialistGear

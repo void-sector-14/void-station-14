@@ -1,0 +1,89 @@
+- type: entity
+  parent: BaseComputerAiAccess
+  id: BaseComputerSupplyPod
+  abstract: true
+  components:
+  - type: Computer
+  - type: Sprite
+    layers:
+    - map: ["computerLayerBody"]
+      state: computer
+    - map: ["computerLayerKeyboard"]
+      state: generic_keyboard
+    - map: ["computerLayerScreen"]
+      state: teleport
+    - map: ["computerLayerKeys"]
+      state: atmos_key
+    - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
+      state: generic_panel_open
+  - type: BuyStoreBank
+  - type: ActivatableUI
+    key: enum.StoreUiKey.Key
+    singleUser: true
+  - type: ActivatableUIRequiresPower
+  - type: UserInterface
+    interfaces:
+      enum.StoreUiKey.Key:
+        type: StoreBoundUserInterface
+
+- type: entity
+  parent: BaseComputerSupplyPod
+  id: ComputerSupplyPodScience
+  name: science supply pods request console
+  description: For orders of items at your own expense.
+  components:
+  - type: Store
+    categories:
+      - MaterialsPodInventory
+      - SciencePodInventory
+      - ToolsPodInventory
+    currencyWhitelist:
+      - SpaceCash
+    balance:
+      SpaceCash: 0
+
+- type: entity
+  parent: BaseComputerSupplyPod
+  id: ComputerSupplyPodMedical
+  name: medical supply pods request console
+  description: For orders of items at your own expense.
+  components:
+  - type: Store
+    categories:
+      - MaterialsPodInventory
+      - MedicalPodInventory
+    currencyWhitelist:
+      - SpaceCash
+    balance:
+      SpaceCash: 0
+
+- type: entity
+  parent: BaseComputerSupplyPod
+  id: ComputerSupplyPodEngineering
+  name: engineering supply pods request console
+  description: For orders of items at your own expense.
+  components:
+  - type: Store
+    categories:
+      - MaterialsPodInventory
+      - EngineeringPodInventory
+      - ToolsPodInventory
+    currencyWhitelist:
+      - SpaceCash
+    balance:
+      SpaceCash: 0
+
+- type: entity
+  parent: BaseComputerSupplyPod
+  id: ComputerSupplyPodSecurity
+  name: security supply pods request console
+  description: For orders of items at your own expense.
+  components:
+  - type: Store
+    categories:
+      - MaterialsPodInventory
+      - TacticalPodInventory
+    currencyWhitelist:
+      - SpaceCash
+    balance:
+      SpaceCash: 0

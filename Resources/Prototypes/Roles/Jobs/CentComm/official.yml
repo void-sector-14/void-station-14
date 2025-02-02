@@ -7,6 +7,10 @@
   icon: "JobIconNanotrasen"
   supervisors: job-supervisors-centcom
   canBeAntag: false
+  minBankBalance: 5000
+  maxBankBalance: 6000
+  wageDepartment: CentralCommand
+  wage: 400
   accessGroups:
   - AllAccess
   access:

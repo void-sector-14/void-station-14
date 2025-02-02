@@ -4,6 +4,7 @@
   name: spesos
   description: You gotta have money.
   components:
+  - type: AtmCurrency
   - type: Cash
   - type: Item
     shape:

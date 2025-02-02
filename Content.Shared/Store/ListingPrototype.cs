@@ -176,7 +176,7 @@ public partial class ListingData : IEquatable<ListingData>
     [DataField]
     public object? ProductEvent;
 
-    [DataField]
+    [DataField("raiseProductEventOnUser")]
     public bool RaiseProductEventOnUser;
 
     /// <summary>

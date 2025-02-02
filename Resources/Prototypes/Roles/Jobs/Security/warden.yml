@@ -25,6 +25,10 @@
   special:
   - !type:AddImplantSpecial
     implants: [ MindShieldImplant ]
+  minBankBalance: 1050
+  maxBankBalance: 1250
+  wageDepartment: Security
+  wage: 45
 
 - type: startingGear
   id: WardenGear

@@ -1,0 +1,119 @@
+- type: entity
+  id: SpawnSupplySteel
+  components:
+  - type: SpawnOnDespawn
+    prototype: CrateMaterialSteel
+  - type: TimedDespawn
+    lifetime: 9.75
+  - type: SpawnOnTrigger 
+    proto: SpawnSupplypodAnimation
+  - type: TriggerOnSpawn
+  - type: Sprite
+    sprite: Markers/cross.rsi
+    state: red
+  - type: Marker
+
+- type: entity
+  id: SpawnSupplyPlasteel
+  components:
+  - type: SpawnOnDespawn
+    prototype: CrateMaterialPlasteel
+  - type: TimedDespawn
+    lifetime: 9.75
+  - type: SpawnOnTrigger 
+    proto: SpawnSupplypodAnimation
+  - type: TriggerOnSpawn
+  - type: Sprite
+    sprite: Markers/cross.rsi
+    state: red
+  - type: Marker
+
+- type: entity
+  id: SpawnSupplyGlass
+  components:
+  - type: SpawnOnDespawn
+    prototype: CrateMaterialGlass
+  - type: TimedDespawn
+    lifetime: 9.75
+  - type: SpawnOnTrigger 
+    proto: SpawnSupplypodAnimation
+  - type: TriggerOnSpawn
+  - type: Sprite
+    sprite: Markers/cross.rsi
+    state: red
+  - type: Marker
+
+- type: entity
+  id: SpawnSupplyPlastic
+  components:
+  - type: SpawnOnDespawn
+    prototype: CrateMaterialPlastic
+  - type: TimedDespawn
+    lifetime: 9.75
+  - type: SpawnOnTrigger 
+    proto: SpawnSupplypodAnimation
+  - type: TriggerOnSpawn
+  - type: Sprite
+    sprite: Markers/cross.rsi
+    state: red
+  - type: Marker
+
+- type: entity
+  id: SpawnSupplyPlasma
+  components:
+  - type: SpawnOnDespawn
+    prototype: CrateMaterialPlasma
+  - type: TimedDespawn
+    lifetime: 9.75
+  - type: SpawnOnTrigger 
+    proto: SpawnSupplypodAnimation
+  - type: TriggerOnSpawn
+  - type: Sprite
+    sprite: Markers/cross.rsi
+    state: red
+  - type: Marker
+
+- type: entity
+  id: SpawnSupplyUranium
+  components:
+  - type: SpawnOnDespawn
+    prototype: SheetUranium
+  - type: TimedDespawn
+    lifetime: 9.75
+  - type: SpawnOnTrigger 
+    proto: SpawnSupplypodAnimation
+  - type: TriggerOnSpawn
+  - type: Sprite
+    sprite: Markers/cross.rsi
+    state: red
+  - type: Marker
+
+- type: entity
+  id: SpawnSupplyGold
+  components:
+  - type: SpawnOnDespawn
+    prototype: IngotGold
+  - type: TimedDespawn
+    lifetime: 9.75
+  - type: SpawnOnTrigger 
+    proto: SpawnSupplypodAnimation
+  - type: TriggerOnSpawn
+  - type: Sprite
+    sprite: Markers/cross.rsi
+    state: red
+  - type: Marker
+
+- type: entity
+  id: SpawnSupplySilver
+  components:
+  - type: SpawnOnDespawn
+    prototype: IngotSilver
+  - type: TimedDespawn
+    lifetime: 9.75
+  - type: SpawnOnTrigger 
+    proto: SpawnSupplypodAnimation
+  - type: TriggerOnSpawn
+  - type: Sprite
+    sprite: Markers/cross.rsi
+    state: red
+  - type: Marker

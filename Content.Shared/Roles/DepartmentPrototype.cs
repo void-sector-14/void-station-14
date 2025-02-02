@@ -47,6 +47,9 @@ public sealed partial class DepartmentPrototype : IPrototype
     /// </summary>
     [DataField]
     public bool EditorHidden;
+
+    [DataField("accountNumber")]
+    public string? AccountNumber { get; private set; }
 }
 
 /// <summary>

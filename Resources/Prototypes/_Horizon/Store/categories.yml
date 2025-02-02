@@ -1,0 +1,136 @@
+﻿# changeling
+
+- type: storeCategory
+  id: ChangelingAbilityCombat
+  name: store-ling-category-combat
+  priority: 0
+
+- type: storeCategory
+  id: ChangelingAbilitySting
+  name: store-ling-category-sting
+  priority: 1
+
+- type: storeCategory
+  id: ChangelingAbilityUtility
+  name: store-ling-category-utility
+  priority: 2
+
+# vending
+
+- type: storeCategory
+  id: ChangInventory
+  name: store-category-vendingchang
+
+- type: storeCategory
+  id: CigaretteMachineInventory
+  name: store-category-vendingcigs
+
+- type: storeCategory
+  id: VendingClothing
+  name: store-category-vendingclothing
+
+- type: storeCategory
+  id: HotDrinksMachineInventory
+  name: store-category-vending-drinks
+
+- type: storeCategory
+  id: SmitedrinksInventory
+  name: store-category-vending-drinks
+
+- type: storeCategory
+  id: RobustSoftdrinksInventory
+  name: store-category-vending-drinks
+
+- type: storeCategory
+  id: DonutInventory
+  name: store-category-vendingdonut
+
+- type: storeCategory
+  id: GetmoreChocolateCorpInventory
+  name: store-category-vendingsnack
+
+- type: storeCategory
+  id: BodaInventory
+  name: store-category-vending-drinks
+
+- type: storeCategory
+  id: VendingLootboxInventoryEmag
+  name: store-category-emag
+
+- type: storeCategory
+  id: SpaceUpInventory
+  name: store-category-vending-drinks
+
+- type: storeCategory
+  id: ColaRedInventory
+  name: store-category-vending-drinks
+
+- type: storeCategory
+  id: ShamblersJuiceInventory
+  name: store-category-vending-drinks
+
+- type: storeCategory
+  id: PwrGameInventory
+  name: store-category-vending-drinks
+
+- type: storeCategory
+  id: DrGibbInventory
+  name: store-category-vending-drinks
+
+- type: storeCategory
+  id: StarkistInventory
+  name: store-category-vending-drinks
+
+- type: storeCategory
+  id: HappyHonkInventory
+  name: store-category-HappyHonk
+
+- type: storeCategory
+  id: BoxingDrobeInventory
+  name: store-category-vendingmachineboxingdrobe
+
+- type: storeCategory
+  id: BoxingDrobeInventoryEmag
+  name: store-category-emag
+
+- type: storeCategory
+  id: DrinkVendInventoryEmag
+  name: store-category-emag
+
+- type: storeCategory
+  id: HappyHonkInventoryEmag
+  name: store-category-emag
+
+- type: storeCategory
+  id: CigaretteMachineInventoryEmag
+  name: store-category-emag
+
+- type: storeCategory
+  id: HotDrinksMachineInventoryEmag
+  name: store-category-emag
+
+# supplypod
+
+- type: storeCategory
+  id: MaterialsPodInventory
+  name: store-category-pod-materials
+
+- type: storeCategory
+  id: MedicalPodInventory
+  name: store-category-pod-medical
+
+- type: storeCategory
+  id: ToolsPodInventory
+  name: store-category-pod-tools
+
+- type: storeCategory
+  id: TacticalPodInventory
+  name: store-category-pod-tactical
+
+- type: storeCategory
+  id: SciencePodInventory
+  name: store-category-pod-science
+
+- type: storeCategory
+  id: EngineeringPodInventory
+  name: store-category-pod-engineering

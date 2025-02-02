@@ -1,0 +1,119 @@
+- type: entity
+  id: SpawnSupplyCrateMedicalSurgery
+  components:
+  - type: SpawnOnDespawn
+    prototype: CrateMedicalSurgery
+  - type: TimedDespawn
+    lifetime: 9.75
+  - type: SpawnOnTrigger 
+    proto: SpawnSupplypodAnimation
+  - type: TriggerOnSpawn
+  - type: Sprite
+    sprite: Markers/cross.rsi
+    state: red
+  - type: Marker
+
+- type: entity
+  id: SpawnSupplyMedkitFilled
+  components:
+  - type: SpawnOnDespawn
+    prototype: MedkitFilled
+  - type: TimedDespawn
+    lifetime: 9.75
+  - type: SpawnOnTrigger 
+    proto: SpawnSupplypodAnimation
+  - type: TriggerOnSpawn
+  - type: Sprite
+    sprite: Markers/cross.rsi
+    state: red
+  - type: Marker
+
+- type: entity
+  id: SpawnSupplyMedkitCombatFilled
+  components:
+  - type: SpawnOnDespawn
+    prototype: MedkitCombatFilled
+  - type: TimedDespawn
+    lifetime: 9.75
+  - type: SpawnOnTrigger 
+    proto: SpawnSupplypodAnimation
+  - type: TriggerOnSpawn
+  - type: Sprite
+    sprite: Markers/cross.rsi
+    state: red
+  - type: Marker
+
+- type: entity
+  id: SpawnSupplyMedkitBurnFilled
+  components:
+  - type: SpawnOnDespawn
+    prototype: MedkitBurnFilled
+  - type: TimedDespawn
+    lifetime: 9.75
+  - type: SpawnOnTrigger 
+    proto: SpawnSupplypodAnimation
+  - type: TriggerOnSpawn
+  - type: Sprite
+    sprite: Markers/cross.rsi
+    state: red
+  - type: Marker
+
+- type: entity
+  id: SpawnSupplyMedkitToxinFilled
+  components:
+  - type: SpawnOnDespawn
+    prototype: MedkitToxinFilled
+  - type: TimedDespawn
+    lifetime: 9.75
+  - type: SpawnOnTrigger 
+    proto: SpawnSupplypodAnimation
+  - type: TriggerOnSpawn
+  - type: Sprite
+    sprite: Markers/cross.rsi
+    state: red
+  - type: Marker
+
+- type: entity
+  id: SpawnSupplyMedkitBruteFilled
+  components:
+  - type: SpawnOnDespawn
+    prototype: MedkitBruteFilled
+  - type: TimedDespawn
+    lifetime: 9.75
+  - type: SpawnOnTrigger 
+    proto: SpawnSupplypodAnimation
+  - type: TriggerOnSpawn
+  - type: Sprite
+    sprite: Markers/cross.rsi
+    state: red
+  - type: Marker
+
+- type: entity
+  id: SpawnSupplyMedkitOxygenFilled
+  components:
+  - type: SpawnOnDespawn
+    prototype: MedkitOxygenFilled
+  - type: TimedDespawn
+    lifetime: 9.75
+  - type: SpawnOnTrigger 
+    proto: SpawnSupplypodAnimation
+  - type: TriggerOnSpawn
+  - type: Sprite
+    sprite: Markers/cross.rsi
+    state: red
+  - type: Marker
+
+- type: entity
+  id: SpawnSupplyMedkitRadiationFilled
+  components:
+  - type: SpawnOnDespawn
+    prototype: MedkitRadiationFilled
+  - type: TimedDespawn
+    lifetime: 9.75
+  - type: SpawnOnTrigger 
+    proto: SpawnSupplypodAnimation
+  - type: TriggerOnSpawn
+  - type: Sprite
+    sprite: Markers/cross.rsi
+    state: red
+  - type: Marker

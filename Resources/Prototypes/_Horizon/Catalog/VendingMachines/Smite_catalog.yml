@@ -1,0 +1,32 @@
+- type: listing
+  id: SmiteInventory1
+  productEntity: DrinkLemonLimeCan
+  cost:
+    SpaceCash: 40
+  categories:
+    - SmitedrinksInventory
+  conditions:
+    - !type:ListingLimitedStockCondition
+      stock: 15
+
+- type: listing
+  id: SmiteInventory2
+  productEntity: DrinkLemonLimeCranberryCan
+  cost:
+    SpaceCash: 50
+  categories:
+    - SmitedrinksInventory
+  conditions:
+    - !type:ListingLimitedStockCondition
+      stock: 10
+
+- type: listing
+  id: SmiteInventory3
+  productEntity: DrinkSolDryCan
+  cost:
+    SpaceCash: 40
+  categories:
+    - SmitedrinksInventory
+  conditions:
+    - !type:ListingLimitedStockCondition
+      stock: 15

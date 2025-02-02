@@ -18,6 +18,10 @@
   - External
   extendedAccess:
   - Chemistry
+  minBankBalance: 550
+  maxBankBalance: 650
+  wageDepartment: Medical
+  wage: 40  
 
 - type: startingGear
   id: ParamedicGear

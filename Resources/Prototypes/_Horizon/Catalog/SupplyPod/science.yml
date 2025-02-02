@@ -1,0 +1,10 @@
+﻿- type: listing
+  id: ScienceSupplyInventory1
+  productEntity: SpawnSupplyArtifact
+  name: supply-console-artifact-name
+  description: supply-console-artifact-desc
+  icon: { sprite: /Textures/Objects/Specific/Xenoarchaeology/item_artifacts.rsi, state: ano01 }
+  cost:
+    SpaceCash: 3000
+  categories:
+    - SciencePodInventory

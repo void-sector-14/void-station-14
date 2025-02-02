@@ -13,6 +13,10 @@
   access:
   - Research
   - Maintenance
+  minBankBalance: 350
+  maxBankBalance: 550
+  wageDepartment: Science
+  wage: 30 
 
 - type: startingGear
   id: ResearchAssistantGear

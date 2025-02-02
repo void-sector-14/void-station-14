@@ -153,33 +153,47 @@ public sealed partial class StoreSystem
                 return;
         }
 
-        //check that we have enough money
-        var cost = listing.Cost;
-        foreach (var (currency, amount) in cost)
-        {
-            if (!component.Balance.TryGetValue(currency, out var balance) || balance < amount)
-            {
-                return;
-            }
-        }
-
         if (!IsOnStartingMap(uid, component))
             component.RefundAllowed = false;
 
-        //subtract the cash
-        foreach (var (currency, amount) in cost)
+        if (!HandleBankTransaction(uid, component, msg, listing)) // backmen: currency
         {
-            component.Balance[currency] -= amount;
+            //check that we have enough money
+            foreach (var currency in listing.Cost)
+            {
+                if (!component.Balance.TryGetValue(currency.Key, out var balance) || balance < currency.Value)
+                {
+                    return;
+                }
+            }
 
-            component.BalanceSpent.TryAdd(currency, FixedPoint2.Zero);
+            //subtract the cash
+            foreach (var (currency, value) in listing.Cost)
+            {
+                component.Balance[currency] -= value;
 
-            component.BalanceSpent[currency] += amount;
+                component.BalanceSpent.TryAdd(currency, FixedPoint2.Zero);
+
+                component.BalanceSpent[currency] += value;
+            }
+        // start-backmen: currency
         }
+        else
+        {
+            foreach (var (currency, value) in listing.Cost)
+            {
+                component.BalanceSpent.TryAdd(currency, FixedPoint2.Zero);
+                component.BalanceSpent[currency] += value;
+            }
+        }
+         // end-backmen: currency
 
         //spawn entity
         if (listing.ProductEntity != null)
         {
             var product = Spawn(listing.ProductEntity, Transform(buyer).Coordinates);
+            var ev = new ItemPurchasedEvent(buyer);
+            RaiseLocalEvent(product, ref ev);
             _hands.PickupOrDrop(buyer, product);
 
             HandleRefundComp(uid, component, product);
@@ -269,6 +283,7 @@ public sealed partial class StoreSystem
         listing.PurchaseAmount++; //track how many times something has been purchased
         _audio.PlayEntity(component.BuySuccessSound, msg.Actor, uid); //cha-ching!
 
+        _PlayEject(uid); // backmen: currency
         var buyFinished = new StoreBuyFinishedEvent
         {
             PurchasedItem = listing,

@@ -24,6 +24,10 @@
   joinNotifyCrew: true
   supervisors: job-supervisors-centcom
   canBeAntag: false
+  minBankBalance: 4800
+  maxBankBalance: 5200
+  wageDepartment: Command
+  wage: 200
   accessGroups:
   - AllAccess
   special:
