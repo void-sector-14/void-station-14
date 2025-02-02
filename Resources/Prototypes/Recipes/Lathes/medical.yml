@@ -269,3 +269,11 @@
   completetime: 1
   materials:
     Plastic: 75
+
+- type: latheRecipe
+  id: ClothingOuterStraightjacket
+  result: ClothingOuterStraightjacket
+  completetime: 1
+  materials:
+    Steel: 1000
+    Durathread: 300
