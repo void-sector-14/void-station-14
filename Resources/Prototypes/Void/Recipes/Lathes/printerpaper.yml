@@ -1,0 +1,5 @@
+- type: latheRecipe
+  id: Paper
+  result: Paper
+  completetime: 4
+#рецепт для принтера
