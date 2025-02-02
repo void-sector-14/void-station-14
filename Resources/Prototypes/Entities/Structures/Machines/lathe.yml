@@ -966,6 +966,7 @@
       - Scalpel
       - ClothingEyesGlassesChemical
       - WhiteCane
+      - ClothingOuterStraightjacket
     dynamicRecipes:
       - ChemicalPayload
       - CryostasisBeaker
