@@ -1,0 +1,15 @@
+- type: reagent
+  id: ParasiteInfection
+  name: кровь паразита
+  group: Toxins
+  desc: Кровь паразита. Почему бы не выпить?
+  physicalDesc: reagent-physical-desc-wormy
+  flavor: strange
+  color: "#290070"
+  metabolisms:
+    Medicine:
+      effects:
+        - !type:CauseParasiteInfection
+          conditions:
+            - !type:ReagentThreshold
+              min: 1
