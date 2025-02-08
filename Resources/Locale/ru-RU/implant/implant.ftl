@@ -15,6 +15,8 @@ implanter-label =
     { "[" }color=green]{ $implantName }[/color]
     Режим: [color=white]{ $modeString }[/color]
 implanter-contained-implant-text = [color=green]{ $desc }[/color]
+action-name-toggle-fake-mindshield = [color=green]Переключить Защиту разума[/color]
+action-description-toggle-fake-mindshield = Вкл/Выкл отображение Защиты разума.
 
 ## Implanter Actions
 
