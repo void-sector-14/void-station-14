@@ -9,14 +9,14 @@ namespace Content.Server.Void.Parasites;
 public sealed partial class ParasiteSystem
 {
     [ValidatePrototypeId<EntityPrototype>]
-    public const string ParasitePrototypeName = "MobArgocyteSlurva";
+    public const string ParasitePrototypeName = "MobParasite";
 
     /// <summary>
     /// Handles an entity spawning a parasite when they die
     /// </summary>
     private void OnMobStateChanged(EntityUid uid, ParasiteOnDeathComponent component, MobStateChangedEvent args)
     {
-        // don't spawn if they arent going straight from crit to dead
+        // don't spawn if they aren't going straight from crit to dead
         if (args.NewMobState != MobState.Dead || args.OldMobState != MobState.Critical)
         {
             ParasifyEntity(uid, args.Component);
@@ -27,6 +27,8 @@ public sealed partial class ParasiteSystem
         RemComp<PendingParasiteComponent>(target);
         RemComp<ParasiteOnDeathComponent>(target);
         var coords = Transform(target).Coordinates;
+        EntityManager.SpawnAtPosition(ParasitePrototypeName, coords);
+        EntityManager.SpawnAtPosition(ParasitePrototypeName, coords);
         EntityManager.SpawnAtPosition(ParasitePrototypeName, coords);
 
         _popup.PopupEntity(Loc.GetString("parasite-transform", ("target", target)), target, PopupType.LargeCaution);

@@ -1,0 +1,61 @@
+- type: entity
+  id: MobParasite
+  parent: [ BaseMobAsteroid, FlyingMobBase ]
+  name: паразит
+  description: Это выглядит дружелюбно. Почему бы не обнять его?
+  components:
+  - type: Sprite
+    sprite: Void/Mobs/Aliens/parasite.rsi
+    layers:
+    - map: ["enum.DamageStateVisualLayers.Base"]
+      state: viscerator
+  - type: MovementSpeedModifier
+    baseWalkSpeed : 2
+    baseSprintSpeed : 2.5
+  - type: Bloodstream
+    bloodMaxVolume: 100
+    bloodReagent: ParasiteInfection
+    bloodlossDamage:
+      types:
+        Bloodloss:
+          0.5
+    bloodlossHealDamage:
+      types:
+        Bloodloss:
+          -0.25
+  - type: MobThresholds
+    thresholds:
+      0: Alive
+      11: Dead
+  - type: DamageStateVisuals
+    states:
+      Alive:
+        Base: viscerator
+      Critical:
+        Base: viscerator_dead
+      Dead:
+        Base: viscerator_dead
+  - type: MeleeWeapon
+    soundHit:
+      path: /Audio/Weapons/bladeslice.ogg
+    animation: WeaponArcPunch
+    damage:
+      types:
+        Piercing: 7
+  - type: NpcFactionMember
+    factions:
+    - AllHostile
+  - type: HTN
+    rootTask:
+      task: SimpleHostileCompound
+  - type: SolutionContainerManager
+    solutions:
+      melee:
+        reagents:
+        - ReagentId: ParasiteInfection
+          Quantity: 10
+  - type: MeleeChemicalInjector
+    solution: melee
+    transferAmount: 1
+  - type: Item
+    size: Normal
