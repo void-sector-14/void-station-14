@@ -1,0 +1,23 @@
+# Accents that work off of word replacements.
+# this is kind of dumb but localization demands it.
+
+- type: accent
+  id: polish
+  wordReplacements:
+    accent-polish-words-1: accent-polish-words-replace-1
+    accent-polish-words-2: accent-polish-words-replace-2
+    accent-polish-words-3: accent-polish-words-replace-3
+    accent-polish-words-4: accent-polish-words-replace-4
+    accent-polish-words-5: accent-polish-words-replace-5
+    accent-polish-words-6: accent-polish-words-replace-6
+    accent-polish-words-7: accent-polish-words-replace-7
+    accent-polish-words-8: accent-polish-words-replace-8
+    accent-polish-words-9: accent-polish-words-replace-9
+    accent-polish-words-10: accent-polish-words-replace-10
+    accent-polish-words-11: accent-polish-words-replace-11
+    accent-polish-words-11-2: accent-polish-words-replace-11
+    accent-polish-words-12: accent-polish-words-replace-12
+    accent-polish-words-13: accent-polish-words-replace-13
+    accent-polish-words-14: accent-polish-words-replace-14
+    accent-polish-words-14-2: accent-polish-words-replace-14
+    accent-polish-words-14-3: accent-polish-words-replace-14
