@@ -41,7 +41,7 @@
     animation: WeaponArcPunch
     damage:
       types:
-        Piercing: 7
+        Piercing: 4
   - type: NpcFactionMember
     factions:
     - AllHostile
