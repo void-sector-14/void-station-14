@@ -34,7 +34,7 @@
     solution: spray
   - type: UseDelay
   - type: Spray
-    transferAmount: 10
+    transferAmount: 5
     sprayVelocity: 2
     spraySound:
       path: /Audio/Effects/spray2.ogg
@@ -58,7 +58,7 @@
       spray:
         maxVol: 250
   - type: Spray
-    transferAmount: 15
+    transferAmount: 10
     sprayedPrototype: BigVapor
     sprayVelocity: 3
     sprayDistance: 4.5

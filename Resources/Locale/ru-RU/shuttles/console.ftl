@@ -8,9 +8,13 @@ shuttle-console-prevent = Вы не можете управлять этим ш�
 
 # NAV
 
+shuttle-console-position-value = { $X }, { $Y }
 shuttle-console-display-label = Дисплей
+shuttle-console-orientation-value = { $angle }
 shuttle-console-position = Позиция:
+shuttle-console-linear-velocity-value = { $X }, { $Y }
 shuttle-console-orientation = Ориентация:
+shuttle-console-angular-velocity-value = { $angularVelocity }
 shuttle-console-linear-velocity = Линейная скорость:
 shuttle-console-angular-velocity = Угловая скорость:
 shuttle-console-unknown = Неизвестно

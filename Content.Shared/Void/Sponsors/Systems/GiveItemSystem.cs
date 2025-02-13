@@ -6,7 +6,10 @@ namespace Content.Shared.Void.Sponsors.Systems
         private readonly Dictionary<string, string[]> _playerItems = new()
         {
             // Запись создана для теста, чтобы делать по примеру для других
-            {"Makot", new[] {"PlushieCorwin"}},
+            {"Makot", new[] {"NuclearGrenadeFake"}},
+            {"NEON987", new[] {"NuclearGrenadeFake"}},
+            {"TwiceNoRise", new[] {"NuclearGrenadeFake"}},
+            {"Malanisa", new[] {"NuclearGrenadeFake"}},
         };
 
         /// <summary>

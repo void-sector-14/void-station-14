@@ -216,7 +216,8 @@
       briefing:
         text: ninja-role-greeting
         color: Green
-        sound: /Audio/Misc/ninja_greeting.ogg
+        sound:
+          collection: NinjaMusic
       components:
       - type: SpaceNinja
       - type: NpcFactionMember

@@ -1,0 +1,5 @@
+- type: soundCollection
+  id: NinjaMusic
+  files:
+    - /Audio/Void/Misc/amogusninja.ogg
+    - /Audio/Misc/ninja_greeting.ogg

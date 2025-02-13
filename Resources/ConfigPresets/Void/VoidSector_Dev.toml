@@ -35,6 +35,7 @@ note_fresh_days = 0
 message_wait_time = 1
 new_player_threshold = 180
 afk_time = 180.0
+admins_count_in_playercount = true
 
 [infolinks]
 discord = "https://discord.gg/Tc5RNEWVWS"

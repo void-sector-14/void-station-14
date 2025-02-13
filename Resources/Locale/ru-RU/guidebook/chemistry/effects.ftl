@@ -293,6 +293,11 @@ reagent-effect-guidebook-cause-zombie-infection =
         [1] Заражает
        *[other] заразить
     } зомби-инфекцией
+reagent-effect-guidebook-cause-parasite-infection =
+    { $chance ->
+        [1] Заражает
+       *[other] заразить
+    } паразитами
 reagent-effect-guidebook-innoculate-zombie-infection =
     { $chance ->
         [1] Излечивает
