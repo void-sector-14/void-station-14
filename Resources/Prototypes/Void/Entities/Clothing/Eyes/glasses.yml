@@ -66,3 +66,20 @@
     - Antagonists
   - type: IdentityBlocker
     coverage: EYES
+
+- type: entity
+  parent: ClothingEyesBase
+  id: ClothingEyesGlassesJohan
+  name: йоханистические очки
+  description: Очки истинного члена Йохании!
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Eyes/Glasses/johan.rsi
+  - type: Clothing
+    sprite: Void/Clothing/Eyes/Glasses/johan.rsi
+  - type: AddAccentClothing
+    accent: ReplacementAccent
+    replacement: johan
+  - type: Tag
+    tags:
+    - WhitelistChameleon
