@@ -62,6 +62,7 @@ message_wait_time = 1
 new_player_threshold = 600
 afk_time = 180.0
 new_player_join_sound = true
+admins_count_in_playercount = true
 
 [interaction]
 rate_limit_announce_admins_delay = -1

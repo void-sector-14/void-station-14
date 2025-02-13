@@ -36,6 +36,7 @@ see_own_notes = true
 note_fresh_days = 0
 message_wait_time = 1
 afk_time = 0.0
+admins_count_in_playercount = true
 
 [interaction]
 rate_limit_announce_admins_delay = -1
