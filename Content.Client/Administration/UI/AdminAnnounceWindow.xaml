@@ -18,7 +18,7 @@
         </GridContainer>
         <GridContainer Rows="1">
             <Label Text="{Loc admin-announce-sound}" Margin="0 0 0 1"/>
-            <LineEdit Name="AnnounceSound" Access="Public" HorizontalExpand="True" PlaceHolder="{Loc admin-announce-sound-path}" Text="/Audio/Announcements/announce.ogg"/>
+            <LineEdit Name="AnnounceSound" Access="Public" HorizontalExpand="True" PlaceHolder="{Loc admin-announce-sound-path}" Text="/Audio/Void/Announcements/commandreport.ogg"/>
             <FloatSpinBox Name="AnnounceVolume" Access="Public"/>
         </GridContainer>
     </GridContainer>
