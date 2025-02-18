@@ -157,3 +157,22 @@
     - type: Battery
       maxCharge: 100000
       startingCharge: 100000
+
+- type: entity
+  parent: BaseWeaponTurret
+  id: WeaponTurretDisabler
+  suffix: Дизейблер, Все враждебная, Ивент
+  name: оглушающая турель
+  description: Турель, стреляющая оглушающими зарядами.
+  components:
+  - type: Sprite
+    sprite: Void/Objects/Weapons/Guns/Turrets/turrets.rsi
+    drawdepth: Mobs
+    layers:
+      - state: standard_lethal
+  - type: NpcFactionMember
+    factions:
+    - AllHostile
+  - type: BallisticAmmoProvider
+    proto: BulletDisabler
+    capacity: 500

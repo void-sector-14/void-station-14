@@ -24,6 +24,22 @@
       "directions": 8
     },
     {
+      "name": "standard_off",
+      "directions": 8
+    },
+    {
+      "name": "standard_broken",
+      "directions": 8
+    },
+    {
+      "name": "standard_stun",
+      "directions": 8
+    },
+    {
+      "name": "standard_lethal",
+      "directions": 8
+    },
+    {
       "name": "locked",
       "directions": 8
     },
