@@ -1,0 +1,53 @@
+- type: accessLevel
+  id: Level1
+  name: Level 1
+
+- type: accessLevel
+  id: Level2
+  name: Level 2
+
+- type: accessLevel
+  id: Level3
+  name: Level 3
+
+- type: accessLevel
+  id: Level4
+  name: Level 4
+
+- type: accessLevel
+  id: Level5
+  name: Level 5
+
+- type: accessLevel
+  id: Level6
+  name: Level 6
+
+- type: accessLevel
+  id: Level7
+  name: Level 7
+
+- type: accessLevel
+  id: Level8
+  name: Level 8
+
+- type: accessLevel
+  id: Level9
+  name: Level 9
+
+- type: accessLevel
+  id: Level10
+  name: Level 10
+
+- type: accessGroup
+  id: MasterLevel
+  tags:
+  - Level1
+  - Level2
+  - Level3
+  - Level4
+  - Level5
+  - Level6
+  - Level7
+  - Level8
+  - Level9
+  - Level10

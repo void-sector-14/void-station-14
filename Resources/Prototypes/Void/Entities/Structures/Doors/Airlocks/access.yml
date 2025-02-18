@@ -1,0 +1,91 @@
+#Misc
+
+- type: entity
+  parent: AirlockSyndicate
+  id: AirlockLevel1Locked
+  suffix: Level1, Закрыт
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsLevel1 ]
+
+- type: entity
+  parent: AirlockSyndicate
+  id: AirlockLevel2Locked
+  suffix: Level2, Закрыт
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsLevel2 ]
+
+- type: entity
+  parent: AirlockSyndicate
+  id: AirlockLevel3Locked
+  suffix: Level3, Закрыт
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsLevel3 ]
+
+- type: entity
+  parent: AirlockSyndicate
+  id: AirlockLevel4Locked
+  suffix: Level4, Закрыт
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsLevel4 ]
+
+- type: entity
+  parent: AirlockSyndicate
+  id: AirlockLevel5Locked
+  suffix: Level5, Закрыт
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsLevel5 ]
+
+- type: entity
+  parent: AirlockSyndicate
+  id: AirlockLevel6Locked
+  suffix: Level6, Закрыт
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsLevel6 ]
+
+- type: entity
+  parent: AirlockSyndicate
+  id: AirlockLevel7Locked
+  suffix: Level7, Закрыт
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsLevel7 ]
+
+- type: entity
+  parent: AirlockSyndicate
+  id: AirlockLevel8Locked
+  suffix: Level8, Закрыт
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsLevel8 ]
+
+- type: entity
+  parent: AirlockSyndicate
+  id: AirlockLevel9Locked
+  suffix: Level9, Закрыт
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsLevel9 ]
+
+- type: entity
+  parent: AirlockSyndicate
+  id: AirlockLevel10Locked
+  suffix: Level10, Закрыт
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsLevel10 ]
