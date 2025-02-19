@@ -3,6 +3,8 @@
 - type: entity
   parent: AirlockSyndicate
   id: AirlockLevel1Locked
+  name: шлюз
+  description: Необычный шлюз с датчиком магнитной карты.
   suffix: Level1, Закрыт
   components:
   - type: ContainerFill
@@ -12,6 +14,8 @@
 - type: entity
   parent: AirlockSyndicate
   id: AirlockLevel2Locked
+  name: шлюз
+  description: Необычный шлюз с датчиком магнитной карты.
   suffix: Level2, Закрыт
   components:
   - type: ContainerFill
@@ -21,6 +25,8 @@
 - type: entity
   parent: AirlockSyndicate
   id: AirlockLevel3Locked
+  name: шлюз
+  description: Необычный шлюз с датчиком магнитной карты.
   suffix: Level3, Закрыт
   components:
   - type: ContainerFill
@@ -30,6 +36,8 @@
 - type: entity
   parent: AirlockSyndicate
   id: AirlockLevel4Locked
+  name: шлюз
+  description: Необычный шлюз с датчиком магнитной карты.
   suffix: Level4, Закрыт
   components:
   - type: ContainerFill
@@ -39,6 +47,8 @@
 - type: entity
   parent: AirlockSyndicate
   id: AirlockLevel5Locked
+  name: шлюз
+  description: Необычный шлюз с датчиком магнитной карты.
   suffix: Level5, Закрыт
   components:
   - type: ContainerFill
@@ -48,6 +58,8 @@
 - type: entity
   parent: AirlockSyndicate
   id: AirlockLevel6Locked
+  name: шлюз
+  description: Необычный шлюз с датчиком магнитной карты.
   suffix: Level6, Закрыт
   components:
   - type: ContainerFill
@@ -57,6 +69,8 @@
 - type: entity
   parent: AirlockSyndicate
   id: AirlockLevel7Locked
+  name: шлюз
+  description: Необычный шлюз с датчиком магнитной карты.
   suffix: Level7, Закрыт
   components:
   - type: ContainerFill
@@ -66,6 +80,8 @@
 - type: entity
   parent: AirlockSyndicate
   id: AirlockLevel8Locked
+  name: шлюз
+  description: Необычный шлюз с датчиком магнитной карты.
   suffix: Level8, Закрыт
   components:
   - type: ContainerFill
@@ -75,6 +91,8 @@
 - type: entity
   parent: AirlockSyndicate
   id: AirlockLevel9Locked
+  name: шлюз
+  description: Необычный шлюз с датчиком магнитной карты.
   suffix: Level9, Закрыт
   components:
   - type: ContainerFill
@@ -84,6 +102,8 @@
 - type: entity
   parent: AirlockSyndicate
   id: AirlockLevel10Locked
+  name: шлюз
+  description: Необычный шлюз с датчиком магнитной карты.
   suffix: Level10, Закрыт
   components:
   - type: ContainerFill
