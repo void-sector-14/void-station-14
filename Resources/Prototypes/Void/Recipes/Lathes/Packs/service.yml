@@ -1,0 +1,7 @@
+- type: latheRecipePack
+  id: InstrumentsAdvanced
+  recipes:
+  - AdvancedRockGuitarInstrument
+  - AdvancedBassGuitarInstrument
+  - AdvancedElectricGuitarInstrument
+  - PockedPlayerEmpty

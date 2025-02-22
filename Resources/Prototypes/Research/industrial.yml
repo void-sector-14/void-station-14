@@ -179,6 +179,8 @@
     - PowerDrill
     - JawsOfLife
     - BorgModuleAdvancedTool
+    - Fulton
+    - FultonBeacon
   technologyPrerequisites:
     - WeldingTechnology
 

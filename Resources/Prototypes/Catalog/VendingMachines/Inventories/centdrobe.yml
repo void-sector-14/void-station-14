@@ -20,7 +20,6 @@
     ClothingOuterCoatExpensive: 1
     ClothingNeckScarfStripedCentcom: 3
     ClothingNeckCloakCentcom: 3
-    ClothingNeckCloakCentCom: 3
     CapDispatchCentCom: 1
     CapOperatorCentCom: 1
     CapIntendantCentCom: 1
@@ -35,3 +34,6 @@
     ClothingNeckIntendantCentCom: 1
     ClothingNeckWhiteCentCom: 1
     ClothingBackpackSatchelHolding: 5
+  contrabandInventory:
+    ToyFigurineCaptain: 1
+    ToyFigurineHeadOfPersonnel: 1

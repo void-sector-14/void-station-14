@@ -1,0 +1,75 @@
+- type: latheRecipePack
+  id: VoidMechBoards
+  recipes:
+  - GygaxCentralElectronics
+  - GygaxPeripheralsElectronics
+  - DurandCentralElectronics
+  - DurandPeripheralsElectronics
+  - ClarkePeripheralsElectronics
+  - ClarkeCentralElectronics
+  - RipleyMKiiPeripheralsElectronics
+  - RipleyMKiiCentralElectronics
+  - FireFighterPeripheralsElectronics
+  - FireFighterCentralElectronics
+  - HaulerPeripheralsElectronics
+  - HaulerCentralElectronics
+  - OdysseusPeripheralsElectronics
+  - OdysseusCentralElectronics
+
+- type: latheRecipePack
+  id: VoidMechParts
+  recipes:
+  - GygaxHarness
+  - GygaxLArm
+  - GygaxRArm
+  - GygaxLLeg
+  - GygaxRLeg
+  - DurandHarness
+  - DurandLArm
+  - DurandRArm
+  - DurandLLeg
+  - DurandRLeg
+  - ClarkeHarness
+  - ClarkeLArm
+  - ClarkeRArm
+  - ClarkeLLeg
+  - ClarkeRLeg
+  - RipleyMKiiHarness
+  - FireFighterHarness
+  - HaulerHarness
+  - OdysseusHarness
+  - OdysseusLArm
+  - OdysseusRArm
+  - OdysseusLLeg
+  - OdysseusRLeg
+
+- type: latheRecipePack
+  id: VoidMechEquipment
+  recipes:
+  - MechEquipmentDrill
+  - MechEquipmentDiamondDrill
+  - MechEquipmentProtokinet
+  - MechEquipmentMedGunBlue
+  - MechEquipmentMedGunYellow
+  - MechEquipmentMedGunGreen
+  - MechReactorPlasma
+  - MechReactorUranium
+  - MechReactorTesla
+
+- type: latheRecipePack
+  id: VoidMechWeapon
+  recipes:
+  - MechLaserWeapon
+  - MechScattershotWeapon
+  - MechSolarisLaserWeapon
+  - MechHadesWeapon
+  - MechMissileWeapon
+  - MechTeslaWeapon
+  - MechMissileWeaponFSRM
+  - MechMissileWeaponSGL
+  - MechMissileWeaponSRM
+  - MechMLG
+  - MechLaserWeaponImpuls
+  - MechMissileWeaponShotGun
+  - MechSword
+  - MechSpear
