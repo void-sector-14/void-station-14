@@ -46,3 +46,161 @@
     - type: Access
       groups:
       - AllAccess
+
+# Misc
+
+- type: entity
+  parent: IDCardVoid
+  id: IDCardLevel1
+  name: ключ карта уровня 1
+  description: Устаревшая магнитная карта с уровнем доступа 1.
+  suffix: Ивент
+  components:
+    - type: Sprite
+      layers:
+        - state: card_1
+    - type: Access
+      tags:
+      - Level1
+
+- type: entity
+  parent: IDCardVoid
+  id: IDCardLevel2
+  name: ключ карта уровня 2
+  description: Устаревшая магнитная карта с уровнем доступа 2.
+  suffix: Ивент
+  components:
+    - type: Sprite
+      layers:
+        - state: card_2
+    - type: Access
+      tags:
+      - Level2
+
+- type: entity
+  parent: IDCardVoid
+  id: IDCardLevel3
+  name: ключ карта уровня 3
+  description: Устаревшая магнитная карта с уровнем доступа 3.
+  suffix: Ивент
+  components:
+    - type: Sprite
+      layers:
+        - state: card_3
+    - type: Access
+      tags:
+      - Level3
+
+- type: entity
+  parent: IDCardVoid
+  id: IDCardLevel4
+  name: ключ карта уровня 4
+  description: Устаревшая магнитная карта с уровнем доступа 4.
+  suffix: Ивент
+  components:
+    - type: Sprite
+      layers:
+        - state: card_4
+    - type: Access
+      tags:
+      - Level4
+
+- type: entity
+  parent: IDCardVoid
+  id: IDCardLevel5
+  name: ключ карта уровня 5
+  description: Устаревшая магнитная карта с уровнем доступа 5.
+  suffix: Ивент
+  components:
+    - type: Sprite
+      layers:
+        - state: card_5
+    - type: Access
+      tags:
+      - Level5
+
+- type: entity
+  parent: IDCardVoid
+  id: IDCardLevel6
+  name: ключ карта уровня 6
+  description: Устаревшая магнитная карта с уровнем доступа 6.
+  suffix: Ивент
+  components:
+    - type: Sprite
+      layers:
+        - state: card_6
+    - type: Access
+      tags:
+      - Level6
+
+- type: entity
+  parent: IDCardVoid
+  id: IDCardLevel7
+  name: ключ карта уровня 7
+  description: Устаревшая магнитная карта с уровнем доступа 7.
+  suffix: Ивент
+  components:
+    - type: Sprite
+      layers:
+        - state: card_7
+    - type: Access
+      tags:
+      - Level7
+
+- type: entity
+  parent: IDCardVoid
+  id: IDCardLevel8
+  name: ключ карта уровня 8
+  description: Устаревшая магнитная карта с уровнем доступа 8.
+  suffix: Ивент
+  components:
+    - type: Sprite
+      layers:
+        - state: card_8
+    - type: Access
+      tags:
+      - Level8
+
+- type: entity
+  parent: IDCardVoid
+  id: IDCardLevel9
+  name: ключ карта уровня 9
+  description: Устаревшая магнитная карта с уровнем доступа 9.
+  suffix: Ивент
+  components:
+    - type: Sprite
+      layers:
+        - state: card_9
+    - type: Access
+      tags:
+      - Level9
+
+- type: entity
+  parent: IDCardVoid
+  id: IDCardLevel10
+  name: ключ карта уровня 10
+  description: Устаревшая магнитная карта с уровнем доступа 10.
+  suffix: Ивент
+  components:
+    - type: Sprite
+      layers:
+        - state: card_10
+    - type: Access
+      tags:
+      - Level10
+
+- type: entity
+  parent: IDCardVoid
+  id: MasterIDCard
+  name: мастер ключ карта
+  description: Устаревшая магнитная карта с полным доступом.
+  suffix: Ивент
+  components:
+    - type: Sprite
+      layers:
+        - state: card_master
+    - type: PresetIdCard
+      job: Master
+    - type: Access
+      groups:
+      - MasterLevel

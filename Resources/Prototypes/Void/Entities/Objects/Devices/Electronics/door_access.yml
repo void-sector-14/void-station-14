@@ -1,0 +1,80 @@
+# Misc
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsLevel1
+  suffix: Level1, Закрыт, Ивент
+  components:
+  - type: AccessReader
+    access: [["Level1"]]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsLevel2
+  suffix: Level2, Закрыт, Ивент
+  components:
+  - type: AccessReader
+    access: [["Level2"]]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsLevel3
+  suffix: Level3, Закрыт, Ивент
+  components:
+  - type: AccessReader
+    access: [["Level3"]]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsLevel4
+  suffix: Level4, Закрыт, Ивент
+  components:
+  - type: AccessReader
+    access: [["Level4"]]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsLevel5
+  suffix: Level5, Закрыт, Ивент
+  components:
+  - type: AccessReader
+    access: [["Level5"]]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsLevel6
+  suffix: Level6, Закрыт, Ивент
+  components:
+  - type: AccessReader
+    access: [["Level6"]]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsLevel7
+  suffix: Level7, Закрыт, Ивент
+  components:
+  - type: AccessReader
+    access: [["Level7"]]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsLevel8
+  suffix: Level8, Закрыт, Ивент
+  components:
+  - type: AccessReader
+    access: [["Level8"]]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsLevel9
+  suffix: Level9, Закрыт, Ивент
+  components:
+  - type: AccessReader
+    access: [["Level9"]]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsLevel10
+  suffix: Level10, Закрыт, Ивент
+  components:
+  - type: AccessReader
+    access: [["Level10"]]

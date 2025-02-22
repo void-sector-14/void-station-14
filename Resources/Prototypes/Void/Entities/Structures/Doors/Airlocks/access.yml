@@ -1,0 +1,111 @@
+#Misc
+
+- type: entity
+  parent: AirlockSyndicate
+  id: AirlockLevel1Locked
+  name: шлюз
+  description: Необычный шлюз с датчиком магнитной карты.
+  suffix: Level1, Закрыт
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsLevel1 ]
+
+- type: entity
+  parent: AirlockSyndicate
+  id: AirlockLevel2Locked
+  name: шлюз
+  description: Необычный шлюз с датчиком магнитной карты.
+  suffix: Level2, Закрыт
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsLevel2 ]
+
+- type: entity
+  parent: AirlockSyndicate
+  id: AirlockLevel3Locked
+  name: шлюз
+  description: Необычный шлюз с датчиком магнитной карты.
+  suffix: Level3, Закрыт
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsLevel3 ]
+
+- type: entity
+  parent: AirlockSyndicate
+  id: AirlockLevel4Locked
+  name: шлюз
+  description: Необычный шлюз с датчиком магнитной карты.
+  suffix: Level4, Закрыт
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsLevel4 ]
+
+- type: entity
+  parent: AirlockSyndicate
+  id: AirlockLevel5Locked
+  name: шлюз
+  description: Необычный шлюз с датчиком магнитной карты.
+  suffix: Level5, Закрыт
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsLevel5 ]
+
+- type: entity
+  parent: AirlockSyndicate
+  id: AirlockLevel6Locked
+  name: шлюз
+  description: Необычный шлюз с датчиком магнитной карты.
+  suffix: Level6, Закрыт
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsLevel6 ]
+
+- type: entity
+  parent: AirlockSyndicate
+  id: AirlockLevel7Locked
+  name: шлюз
+  description: Необычный шлюз с датчиком магнитной карты.
+  suffix: Level7, Закрыт
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsLevel7 ]
+
+- type: entity
+  parent: AirlockSyndicate
+  id: AirlockLevel8Locked
+  name: шлюз
+  description: Необычный шлюз с датчиком магнитной карты.
+  suffix: Level8, Закрыт
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsLevel8 ]
+
+- type: entity
+  parent: AirlockSyndicate
+  id: AirlockLevel9Locked
+  name: шлюз
+  description: Необычный шлюз с датчиком магнитной карты.
+  suffix: Level9, Закрыт
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsLevel9 ]
+
+- type: entity
+  parent: AirlockSyndicate
+  id: AirlockLevel10Locked
+  name: шлюз
+  description: Необычный шлюз с датчиком магнитной карты.
+  suffix: Level10, Закрыт
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsLevel10 ]

@@ -38,6 +38,39 @@
     },
     {
         "name": "idblueshield"
+    },
+    {
+        "name": "card_1"
+    },
+    {
+        "name": "card_2"
+    },
+    {
+        "name": "card_3"
+    },
+    {
+        "name": "card_4"
+    },
+    {
+        "name": "card_5"
+    },
+    {
+        "name": "card_6"
+    },
+    {
+        "name": "card_7"
+    },
+    {
+        "name": "card_8"
+    },
+    {
+        "name": "card_9"
+    },
+    {
+        "name": "card_10"
+    },
+    {
+        "name": "card_master"
     }
   ]
 }

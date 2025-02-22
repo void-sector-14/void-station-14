@@ -160,6 +160,7 @@
   - type: Access
     groups:
     - AllAccess
+    - MasterLevel
     tags:
     - CentralCommand
     - NuclearOperative

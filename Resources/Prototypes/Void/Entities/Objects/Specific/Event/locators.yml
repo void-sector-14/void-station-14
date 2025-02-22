@@ -3,7 +3,7 @@
   parent: [BaseItem, PowerCellSlotMediumItem]
   name: электромагнитный локатор
   description: Портативный локатор электромагнитных волн.
-  suffix: Батарея
+  suffix: Ивент, Батарея
   components:
   - type: Sprite
     sprite: Void/Objects/Specific/Event/emlocator.rsi
