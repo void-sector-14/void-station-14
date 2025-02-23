@@ -54,5 +54,7 @@ ent-ActionToggleEyes = Открыть/Закрыть глаза
     .desc = Закройте глаза, чтобы защитить своё зрение, или откройте, чтобы насладиться красивыми огоньками.
 ent-FakeMindShieldToggleAction = action-name-toggle-fake-mindshield
     .desc = action-description-toggle-fake-mindshield
+ent-ActionToggleParamedicSiren = Переключить сирену парамедика
+    .desc = Включает и выключает сирену парамедика.
 ent-ActionToggleWagging = action-name-toggle-wagging
     .desc = action-description-toggle-wagging

@@ -1,0 +1,7 @@
+item-recall-marked-name = Призвать { CAPITALIZE($item) }
+item-recall-marked-description = Призыв { $item } Обратно в ваши руки.
+item-recall-item-marked = Вы чертите магический сигил на { $item }.
+item-recall-item-already-marked = { CAPITALIZE($item) } уже помечен!
+item-recall-item-mark-empty = Вы должны держать предмет!
+item-recall-item-summon = { CAPITALIZE($item) } появляется в вашей руке!
+item-recall-item-unmark = Вы чувствуете разрыв связи с { $item }.

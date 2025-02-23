@@ -54,3 +54,5 @@ ent-ClothingNeckScarfStripedRainbow = полосатый шарф
     .desc = Полосатый шарф, не ищите тут смысл.
 ent-ClothingNeckScarfStripedTrans = полосатый шарф
     .desc = Полосатый шарф, не ищите тут смысл.
+ent-ClothingNeckScarfStripedLesbianLong = длинный полосатый шарф
+    .desc = Полосатый шарф, не ищите тут смысл.

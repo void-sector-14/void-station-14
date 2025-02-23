@@ -6,3 +6,6 @@ ent-WeaponTurretAntiMeteor = противометеоритная турель
 ent-WeaponTurretAntiMeteorDebug = { ent-WeaponTurretAntiMeteor }
     .suffix = АнтиМетеор, Дебаг
     .desc = { ent-WeaponTurretAntiMeteor.desc }
+ent-WeaponTurretDisabler = оглушающая турель
+    .desc = Турель, стреляющая оглушающими зарядами.
+    .suffix = Дизейблер, Все враждебная, Ивент

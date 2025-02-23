@@ -6,3 +6,5 @@ ent-ClothingEyesGlassesOrange = оранжевые очки
     .desc = Пара стильных оранжевых очков. В них всё кажется медленным.
 ent-ClothingEyesGogglesSecurityTacticool = тактические очки охраны
     .desc = Это просто термальные очки, но с охранным интерфе?-.. -НЕТ, ЭТО ТАКТИЧЕСКИЕ ОЧКИ ОХРАНЫ!
+ent-ClothingEyesGlassesJohan = йоханистические очки
+    .desc = Очки истинного члена Йохании!
