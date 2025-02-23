@@ -177,8 +177,8 @@
     proto: BulletDisabler
     capacity: 500
   - type: Gun
-      fireRate: 4
-      selectedMode: FullAuto
-      availableModes:
-        - FullAuto
-      soundGunshot: /Audio/Weapons/Guns/Gunshots/ship_svalinn.ogg
+    fireRate: 4
+    selectedMode: FullAuto
+    availableModes:
+      - FullAuto
+    soundGunshot: /Audio/Weapons/Guns/Gunshots/ship_svalinn.ogg
