@@ -11,4 +11,5 @@
     BoxBottle: 3
     ClothingEyesHudMedical: 2
     ClothingEyesEyepatchHudMedical: 2
-
+  contrabandInventory:
+    FoodApple: 1

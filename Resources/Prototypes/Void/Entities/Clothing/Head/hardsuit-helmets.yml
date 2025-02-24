@@ -1,5 +1,5 @@
 - type: entity
-  parent: ClothingHeadHardsuitWithLightBase
+  parent: [ ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase ]
   id: ClothingHeadHelmetHardsuitQuartermaster
   noSpawn: true
   name: шлем скафандра квартирмейстера
@@ -36,7 +36,7 @@
 
 #Trauma EVA
 - type: entity
-  parent: ClothingHeadHardsuitWithLightBase
+  parent: [ ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase ]
   id: TraumaTeamHelmet
   name: EVA Шлем Парамедика "Траумы"
   description: Лёгкий шлем парамедиков TTI, адаптированный для действий в безвоздушном пространстве.
@@ -62,7 +62,7 @@
 
 #Trauma EVAR
 - type: entity
-  parent: ClothingHeadHardsuitWithLightBase
+  parent: [ ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase ]
   id: TraumaTeamHelmetRed
   name: EVA Шлем Техника "Траумы"
   description: Укреплённый шлем техника TTI, адаптированный для действий в безвоздушном пространстве. Это кровь?..
@@ -88,7 +88,7 @@
 
 #Trauma EVAS
 - type: entity
-  parent: ClothingHeadHardsuitWithLightBase
+  parent: [ ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase ]
   id: TraumaTeamHelmetSur
   name: EVA Шлем Реаниматора "Траумы"
   description: Высокотехнологичный шлем техника TTI показывающий всю необходимую информацию о физическом состоянии, адаптированый для действий в безвоздушном пространстве. Как платина...

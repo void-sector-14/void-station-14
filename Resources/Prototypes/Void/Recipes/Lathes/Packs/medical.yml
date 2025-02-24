@@ -1,0 +1,13 @@
+- type: latheRecipePack
+  id: AdvancedSurgery
+  recipes:
+  - ScalpelAdvanced
+  - ScalpelLaser
+  - SawElectric
+
+- type: latheRecipePack
+  id: MedicalDevices
+  recipes:
+  - HandheldCrewMonitor
+  - LauncherSyringe
+  - MiniSyringe

@@ -30,6 +30,7 @@
     - PetsNT
     - Passive
     - SimpleNeutral
+    - Wizard
 
 - type: npcFaction
   id: SyndicateAgent
@@ -39,3 +40,4 @@
     - Zombie
     - SlimecatAgressive
     - Dragon
+    - Wizard

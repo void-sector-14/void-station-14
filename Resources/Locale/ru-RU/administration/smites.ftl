@@ -56,6 +56,7 @@ admin-smite-super-bonk-name = Super Bonk Lite
 admin-smite-super-bonk-lite-name = Super Bonk
 admin-smite-terminate-name = Terminate
 admin-smite-super-slip-name = Super Slip
+admin-smite-omni-accent-name = Omni-Accent
 
 ## Smite descriptions
 
@@ -98,7 +99,8 @@ admin-smite-garbage-can-description = Превратите цель в мусо�
 admin-smite-super-bonk-description = Заставляет цель удариться о каждый стол на станции и за её пределами.
 admin-smite-super-bonk-lite-description = Заставляет цель удариться о каждый стол на станции и за её пределами. Прекращает действовать после смерти цели.
 admin-smite-terminate-description = Creates a Terminator ghost role with the sole objective of killing them.
-admin-smite-super-slip-description = Поскользнуть очень, очень сильно.
+admin-smite-super-slip-description = Подскользнуть очень, очень сильно.
+admin-smite-omni-accent-description = Заставляет цель говорить практически на каждом доступном акценте.
 
 ## Tricks descriptions
 
