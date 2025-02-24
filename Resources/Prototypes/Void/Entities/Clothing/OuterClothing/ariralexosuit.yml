@@ -41,7 +41,7 @@
 
 
 - type: entity
-  parent: ClothingHeadHardsuitWithLightBase
+  parent: [ ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase ]
   id: ClothingHeadHelmetAriralExosuit
   name: шлем экзоскафандра арирал
   description: Как вы это увидели?
