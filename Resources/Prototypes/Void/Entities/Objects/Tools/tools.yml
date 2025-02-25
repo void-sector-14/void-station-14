@@ -1,0 +1,108 @@
+- type: entity
+  id: AtmosRCD
+  parent: [ BaseItem, BaseEngineeringContraband ]
+  name: Атмос РСУ
+  description: Узконаправленная версия РСУ, предназначенная для работы с атмосферой. Позволяет строить трубы, фильтры и другие атмосферные устройства.
+  components:
+  - type: RCD
+    availablePrototypes:
+    # Утиль трубы
+    - DisposalPipe
+    - DisposalTrunk
+    - DisposalJunction
+    - DisposalJunctionFlipped
+    - DisposalYJunction
+    - DisposalBend
+    # Почтовые трубы
+    - DisposalRouter
+    - DisposalRouterFlipped
+    - DisposalSignalRouter
+    - DisposalSignalRouterFlipped
+    - DisposalTagger
+    # Газовые трубы
+    - GasPipeHalf
+    - GasPipeStraight
+    - GasPipeBend
+    - GasPipeTJunction
+    - GasPipeFourway
+    # Атмос утилиты
+    - GasPipeSensor
+    - GasPort
+    - HeatExchanger
+    - HeatExchangerBend
+    - GasFilter
+    - GasFilterFlipped
+    - GasMixer
+    - GasMixerFlipped
+    # Насосы и клапаны
+    - GasPressurePump
+    - GasVolumePump
+    - GasPassiveGate
+    - GasValve
+    - SignalControlledValve
+    - PressureControlledValve
+    # Вентиляции и скрубберы
+    - GasVentPump
+    - GasPassiveVent
+    - GasVentScrubber
+    - GasOutletInjector
+    - GasDualPortVentPump
+    # Разное
+    - Deconstruct
+  - type: LimitedCharges
+    maxCharges: 30
+    charges: 30
+  - type: Sprite
+    sprite: Void/Objects/Tools/atmosrcd.rsi
+    state: icon
+  - type: Item
+    size: Normal
+  - type: Clothing
+    sprite: Void/Objects/Tools/atmosrcd.rsi
+    quickEquip: false
+    slots:
+    - Belt
+  - type: PhysicalComposition
+    materialComposition:
+      Steel: 600
+      Plastic: 100
+  - type: StaticPrice
+    price: 110
+  - type: UserInterface
+    interfaces:
+      enum.RcdUiKey.Key:
+        type: RCDMenuBoundUserInterface
+  - type: ActivatableUI
+    inHandsOnly: true
+    key: enum.RcdUiKey.Key
+
+- type: entity
+  id: AtmosRCDEmpty
+  parent: AtmosRCD
+  suffix: Empty
+  components:
+  - type: LimitedCharges
+    charges: 0
+
+- type: entity
+  id: AtmosRCDRecharging
+  parent: AtmosRCD
+  name: экспериментальный атмос РСУ
+  description: Усовершенствованное блюспейсом атмос РСУ, которое пассивно восстанавливает заряды.
+  suffix: АвтоЗарядка
+  components:
+  - type: LimitedCharges
+    maxCharges: 20
+    charges: 20
+  - type: AutoRecharge
+    rechargeDuration: 10
+
+- type: entity
+  id: AtmosRCDExperimental
+  parent: AtmosRCD
+  suffix: Адмем
+  name: экспериментальный атмос РСУ
+  description: Усовершенствованное блюспейсом атмос РСУ, которое пассивно восстанавливает заряды.
+  components:
+  - type: AutoRecharge
+    rechargeDuration: 1

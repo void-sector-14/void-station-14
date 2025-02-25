@@ -32,7 +32,12 @@ rcd-component-windows-and-grilles = Окна и решетки
 rcd-component-airlocks = Шлюзы
 rcd-component-electrical = Проводка
 rcd-component-lighting = Освещение
-
+rcd-component-disposal-pipes = Утилизационные трубы
+rcd-component-mail-pipes = Почтовые трубы
+rcd-component-gas-pipes = Газовые трубы
+rcd-component-atmos-utilities = Атмосферные утилиты
+rcd-component-pumps-and-valves = Насосы и клапаны
+rcd-component-vents-and-scrubbers = Вентиляции и скрубберы
 ### Prototype names (note: constructable items will be puralized)
 
 rcd-component-deconstruct = уничтожить
