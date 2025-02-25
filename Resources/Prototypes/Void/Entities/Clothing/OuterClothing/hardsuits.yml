@@ -129,3 +129,33 @@
   - type: HeldSpeedModifier
   - type: ToggleableClothing
     clothingPrototype: TraumaTeamHelmetSur
+
+- type: entity
+  parent: [ClothingOuterHardsuitBase, BaseSyndicateContraband]
+  id: ClothingOuterHardsuitCvartet
+  name: боевой скафандр "квартет"
+  description: Лёгкий и прочный скафандр группы наемников "Квартет". Одни из лучших профессионалов в мире грязных денег. Для них любое дело,лишь вопрос правильной суммы внесеный в правильную кассу.
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/OuterClothing/Hardsuits/cvartethardsuit.rsi
+  - type: Clothing
+    sprite: Void/Clothing/OuterClothing/Hardsuits/cvartethardsuit.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.02
+    lowPressureMultiplier: 1000
+  - type: ExplosionResistance
+    damageCoefficient: 0.2
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.4
+        Slash: 0.4
+        Piercing: 0.4
+        Heat: 0.4
+        Radiation: 0.4
+        Caustic: 0.4
+  - type: ClothingSpeedModifier
+    walkModifier: 1
+    sprintModifier: 1
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitCvartet
