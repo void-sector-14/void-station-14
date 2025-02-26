@@ -129,6 +129,16 @@
   group: market
 
 - type: cargoProduct
+  id: EngineeringAtmosRCD
+  icon:
+    sprite: Void/Objects/Tools/atmosrcd.rsi
+    state: icon
+  product: CrateAtmosRCD
+  cost: 800
+  category: cargoproduct-category-name-engineering
+  group: market
+
+- type: cargoProduct
   id: EngineeringParticleDecelerators
   icon:
     sprite: Objects/Weapons/Guns/Battery/particle_decelerator.rsi

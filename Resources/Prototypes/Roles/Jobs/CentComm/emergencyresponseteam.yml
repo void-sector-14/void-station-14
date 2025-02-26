@@ -205,6 +205,7 @@
     back:
     - trayScanner
     - RCD
+    - AtmosRCD
     - RCDAmmo
     - RCDAmmo
     - CableMVStack
@@ -233,6 +234,7 @@
     back:
     - trayScanner
     - RCD
+    - AtmosRCD
     - RCDAmmo
     - RCDAmmo
     - CableMVStack
