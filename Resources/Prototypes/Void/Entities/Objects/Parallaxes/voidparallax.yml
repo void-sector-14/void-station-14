@@ -1,0 +1,19 @@
+- type: parallax
+  id: VoidDefault
+  layers:
+    - texture:
+        !type:ImageParallaxTextureSource
+        path: "/Textures/Void/Objects/Parallaxes/VoidParallaxBG.png"
+      slowness: 0.998046875
+      scale: "1, 1"
+    - texture:
+        !type:GeneratedParallaxTextureSource
+        id: "hq_wizard_stars"
+        configPath: "/Prototypes/Parallaxes/parallax_config_stars.toml"
+      slowness: 0.996625
+    - texture:
+        !type:GeneratedParallaxTextureSource
+        id: "hq_wizard_stars_dim_faster"
+        configPath: "/Prototypes/Parallaxes/parallax_config_stars_dim-2.toml"
+      slowness: 0.954352
+  layersLQUseHQ: false
