@@ -113,7 +113,7 @@
     lowPressureMultiplier: 1000
 
 - type: entity
-  parent: ClothingHeadHardsuitWithLightBase
+  parent: [ ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase ]
   id: ClothingHeadHelmetHardsuitCvartet
   name: шлем боевого скафандра "квартет"
   description: Боевой и легкий шлем скафандра "квартет". Он,возможно,не защитит вас от пуль. Имеется красный фонарик.
