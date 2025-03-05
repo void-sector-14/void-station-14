@@ -1,0 +1,8 @@
+- type: speechSounds
+  id: Metrocop
+  saySound:
+    path: /Audio/Void/Voice/Talk/metrocop.ogg
+  askSound:
+    path: /Audio/Void/Voice/Talk/metrocop_ask.ogg
+  exclaimSound:
+    path: /Audio/Void/Voice/Talk/metrocop_exclaim.ogg
