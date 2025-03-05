@@ -168,3 +168,12 @@
     path: /Audio/Animals/goat_bah.ogg
   exclaimSound:
     path: /Audio/Animals/goat_bah.ogg
+
+- type: speechSounds
+  id: Metrocop
+  saySound:
+    path: /Audio/Voice/Talk/metrocop.ogg
+  askSound:
+    path: /Audio/Voice/Talk/metrocop_ask.ogg
+  exclaimSound:
+    path: /Audio/Voice/Talk/metrocop_exclaim.ogg
