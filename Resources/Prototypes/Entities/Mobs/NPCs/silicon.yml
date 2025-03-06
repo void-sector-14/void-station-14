@@ -154,6 +154,25 @@
       path: /Audio/Ambience/Objects/periodic_beep.ogg
   - type: Advertise
     pack: FirebotAd
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 100
+      behaviors:
+      - !type:TriggerBehavior
+    - trigger:
+        !type:DamageTrigger
+        damage: 120
+      behaviors:
+      - !type:SpawnEntitiesBehavior
+        spawnInContainer: true
+        spawn:
+          ScrapBucket:
+            min: 1
+            max: 1
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
 
 - type: entity
   parent: MobSiliconBase
@@ -302,6 +321,25 @@
     interactFailureString: petting-failure-cleanbot
     interactSuccessSound:
       path: /Audio/Ambience/Objects/periodic_beep.ogg
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 100
+      behaviors:
+      - !type:TriggerBehavior
+    - trigger:
+        !type:DamageTrigger
+        damage: 120
+      behaviors:
+      - !type:SpawnEntitiesBehavior
+        spawnInContainer: true
+        spawn:
+          ScrapBucket:
+            min: 1
+            max: 1
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
 
 - type: entity
   parent:
@@ -352,6 +390,25 @@
   - type: Inventory
     templateId: medibot
   - type: DoAfter
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 100
+      behaviors:
+      - !type:TriggerBehavior
+    - trigger:
+        !type:DamageTrigger
+        damage: 120
+      behaviors:
+      - !type:SpawnEntitiesBehavior
+        spawnInContainer: true
+        spawn:
+          ScrapMedkit:
+            min: 1
+            max: 1
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
 
 - type: entity
   parent:

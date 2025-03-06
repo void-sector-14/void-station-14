@@ -263,6 +263,7 @@
     - ScienceBoards
     - CameraBoards
     - MechBoards
+    - VoidMechBoards
     - ShuttleBoards
   - type: EmagLatheRecipes
     emagDynamicPacks:

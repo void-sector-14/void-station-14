@@ -1,0 +1,396 @@
+# Утиль трубы
+
+- type: rcd
+  id: DisposalPipe
+  category: DisposalPipes
+  sprite: /Textures/Void/Interface/Radial/RCD/disposal_pipe.png
+  mode: ConstructObject
+  prototype: DisposalPipe
+  cost: 1
+  delay: 0
+  rotation: User
+  fx: EffectRCDConstruct0
+
+- type: rcd
+  id: DisposalTrunk
+  category: DisposalPipes
+  sprite: /Textures/Void/Interface/Radial/RCD/disposal_trunk.png
+  mode: ConstructObject
+  prototype: DisposalTrunk
+  cost: 1
+  delay: 0
+  rotation: User
+  fx: EffectRCDConstruct0
+
+- type: rcd
+  id: DisposalJunction
+  category: DisposalPipes
+  sprite: /Textures/Void/Interface/Radial/RCD/disposal_junction.png
+  mode: ConstructObject
+  prototype: DisposalJunction
+  cost: 1
+  delay: 0
+  rotation: User
+  fx: EffectRCDConstruct0
+
+- type: rcd
+  id: DisposalJunctionFlipped
+  category: DisposalPipes
+  sprite: /Textures/Void/Interface/Radial/RCD/disposal_junction_flipped.png
+  mode: ConstructObject
+  prototype: DisposalJunctionFlipped
+  cost: 1
+  delay: 0
+  rotation: User
+  fx: EffectRCDConstruct0
+
+- type: rcd
+  id: DisposalYJunction
+  category: DisposalPipes
+  sprite: /Textures/Void/Interface/Radial/RCD/disposal_junction_y.png
+  mode: ConstructObject
+  prototype: DisposalYJunction
+  cost: 1
+  delay: 0
+  rotation: User
+  fx: EffectRCDConstruct0
+
+- type: rcd
+  id: DisposalBend
+  category: DisposalPipes
+  sprite: /Textures/Void/Interface/Radial/RCD/disposal_bend.png
+  mode: ConstructObject
+  prototype: DisposalBend
+  cost: 1
+  delay: 0
+  rotation: User
+  fx: EffectRCDConstruct0
+
+# Почтовые трубы
+
+- type: rcd
+  id: DisposalRouter
+  category: MailPipes
+  sprite: /Textures/Void/Interface/Radial/RCD/disposal_router.png
+  mode: ConstructObject
+  prototype: DisposalRouter
+  cost: 1
+  delay: 0
+  rotation: User
+  fx: EffectRCDConstruct0
+
+- type: rcd
+  id: DisposalRouterFlipped
+  category: MailPipes
+  sprite: /Textures/Void/Interface/Radial/RCD/disposal_router_flipped.png
+  mode: ConstructObject
+  prototype: DisposalRouterFlipped
+  cost: 1
+  delay: 0
+  rotation: User
+  fx: EffectRCDConstruct0
+
+- type: rcd
+  id: DisposalSignalRouter
+  category: MailPipes
+  sprite: /Textures/Void/Interface/Radial/RCD/disposal_signal_router.png
+  mode: ConstructObject
+  prototype: DisposalSignalRouter
+  cost: 1
+  delay: 0
+  rotation: User
+  fx: EffectRCDConstruct0
+
+- type: rcd
+  id: DisposalSignalRouterFlipped
+  category: MailPipes
+  sprite: /Textures/Void/Interface/Radial/RCD/disposal_signal_router_flipped.png
+  mode: ConstructObject
+  prototype: DisposalSignalRouterFlipped
+  cost: 1
+  delay: 0
+  rotation: User
+  fx: EffectRCDConstruct0
+
+- type: rcd
+  id: DisposalTagger
+  category: MailPipes
+  sprite: /Textures/Void/Interface/Radial/RCD/disposal_tagger.png
+  mode: ConstructObject
+  prototype: DisposalTagger
+  cost: 1
+  delay: 0
+  rotation: User
+  fx: EffectRCDConstruct0
+
+# Газовые трубы
+
+- type: rcd
+  id: GasPipeHalf
+  category: GasPipes
+  sprite: /Textures/Void/Interface/Radial/RCD/gas_pipe_half.png
+  mode: ConstructObject
+  prototype: GasPipeHalf
+  cost: 1
+  delay: 0
+  rotation: User
+  fx: EffectRCDConstruct0
+
+- type: rcd
+  id: GasPipeStraight
+  category: GasPipes
+  sprite: /Textures/Void/Interface/Radial/RCD/gas_pipe_straight.png
+  mode: ConstructObject
+  prototype: GasPipeStraight
+  cost: 1
+  delay: 0
+  rotation: User
+  fx: EffectRCDConstruct0
+
+- type: rcd
+  id: GasPipeBend
+  category: GasPipes
+  sprite: /Textures/Void/Interface/Radial/RCD/gas_pipe_bend.png
+  mode: ConstructObject
+  prototype: GasPipeBend
+  cost: 1
+  delay: 0
+  rotation: User
+  fx: EffectRCDConstruct0
+
+- type: rcd
+  id: GasPipeTJunction
+  category: GasPipes
+  sprite: /Textures/Void/Interface/Radial/RCD/gas_pipe_t_junction.png
+  mode: ConstructObject
+  prototype: GasPipeTJunction
+  cost: 1
+  delay: 0
+  rotation: User
+  fx: EffectRCDConstruct0
+
+- type: rcd
+  id: GasPipeFourway
+  category: GasPipes
+  sprite: /Textures/Void/Interface/Radial/RCD/gas_pipe_fourway.png
+  mode: ConstructObject
+  prototype: GasPipeFourway
+  cost: 1
+  delay: 0
+  rotation: User
+  fx: EffectRCDConstruct0
+
+# Атмос утилиты
+
+- type: rcd
+  id: GasPipeSensor
+  category: AtmosUtilities
+  sprite: /Textures/Void/Interface/Radial/RCD/gas_pipe_sensor.png
+  mode: ConstructObject
+  prototype: GasPipeSensor
+  cost: 1
+  delay: 0
+  rotation: User
+  fx: EffectRCDConstruct0
+
+- type: rcd
+  id: GasPort
+  category: AtmosUtilities
+  sprite: /Textures/Void/Interface/Radial/RCD/gas_port.png
+  mode: ConstructObject
+  prototype: GasPort
+  cost: 1
+  delay: 0
+  rotation: User
+  fx: EffectRCDConstruct0
+
+- type: rcd
+  id: HeatExchanger
+  category: AtmosUtilities
+  sprite: /Textures/Void/Interface/Radial/RCD/heat_exchanger.png
+  mode: ConstructObject
+  prototype: HeatExchanger
+  cost: 1
+  delay: 0
+  rotation: User
+  fx: EffectRCDConstruct0
+
+- type: rcd
+  id: HeatExchangerBend
+  category: AtmosUtilities
+  sprite: /Textures/Void/Interface/Radial/RCD/heat_exchanger_bend.png
+  mode: ConstructObject
+  prototype: HeatExchangerBend
+  cost: 1
+  delay: 0
+  rotation: User
+  fx: EffectRCDConstruct0
+
+- type: rcd
+  id: GasFilter
+  category: AtmosUtilities
+  sprite: /Textures/Void/Interface/Radial/RCD/gas_filter.png
+  mode: ConstructObject
+  prototype: GasFilter
+  cost: 1
+  delay: 0
+  rotation: User
+  fx: EffectRCDConstruct0
+
+- type: rcd
+  id: GasFilterFlipped
+  category: AtmosUtilities
+  sprite: /Textures/Void/Interface/Radial/RCD/gas_filter_flipped.png
+  mode: ConstructObject
+  prototype: GasFilterFlipped
+  cost: 1
+  delay: 0
+  rotation: User
+  fx: EffectRCDConstruct0
+
+- type: rcd
+  id: GasMixer
+  category: AtmosUtilities
+  sprite: /Textures/Void/Interface/Radial/RCD/gas_mixer.png
+  mode: ConstructObject
+  prototype: GasMixer
+  cost: 1
+  delay: 0
+  rotation: User
+  fx: EffectRCDConstruct0
+
+- type: rcd
+  id: GasMixerFlipped
+  category: AtmosUtilities
+  sprite: /Textures/Void/Interface/Radial/RCD/gas_mixer_flipped.png
+  mode: ConstructObject
+  prototype: GasMixerFlipped
+  cost: 1
+  delay: 0
+  rotation: User
+  fx: EffectRCDConstruct0
+
+# Насосы и клапаны
+
+- type: rcd
+  id: GasPressurePump
+  category: PumpsAndValves
+  sprite: /Textures/Void/Interface/Radial/RCD/pump_pressure.png
+  mode: ConstructObject
+  prototype: GasPressurePump
+  cost: 1
+  delay: 0
+  rotation: User
+  fx: EffectRCDConstruct0
+
+- type: rcd
+  id: GasVolumePump
+  category: PumpsAndValves
+  sprite: /Textures/Void/Interface/Radial/RCD/pump_volume.png
+  mode: ConstructObject
+  prototype: GasVolumePump
+  cost: 1
+  delay: 0
+  rotation: User
+  fx: EffectRCDConstruct0
+
+- type: rcd
+  id: GasPassiveGate
+  category: PumpsAndValves
+  sprite: /Textures/Void/Interface/Radial/RCD/pump_passive_gate.png
+  mode: ConstructObject
+  prototype: GasPassiveGate
+  cost: 1
+  delay: 0
+  rotation: User
+  fx: EffectRCDConstruct0
+
+- type: rcd
+  id: GasValve
+  category: PumpsAndValves
+  sprite: /Textures/Void/Interface/Radial/RCD/pump_manual_valve.png
+  mode: ConstructObject
+  prototype: GasValve
+  cost: 1
+  delay: 0
+  rotation: User
+  fx: EffectRCDConstruct0
+
+- type: rcd
+  id: SignalControlledValve
+  category: PumpsAndValves
+  sprite: /Textures/Void/Interface/Radial/RCD/pump_signal_valve.png
+  mode: ConstructObject
+  prototype: SignalControlledValve
+  cost: 1
+  delay: 0
+  rotation: User
+  fx: EffectRCDConstruct0
+
+- type: rcd
+  id: PressureControlledValve
+  category: PumpsAndValves
+  sprite: /Textures/Void/Interface/Radial/RCD/pump_pressure_valve.png
+  mode: ConstructObject
+  prototype: PressureControlledValve
+  cost: 1
+  delay: 0
+  rotation: User
+  fx: EffectRCDConstruct0
+
+# Вентиляции и скрубберы
+
+- type: rcd
+  id: GasVentPump
+  category: VentsAndScrubbers
+  sprite: /Textures/Void/Interface/Radial/RCD/vent_pump.png
+  mode: ConstructObject
+  prototype: GasVentPump
+  cost: 1
+  delay: 0
+  rotation: User
+  fx: EffectRCDConstruct0
+
+- type: rcd
+  id: GasPassiveVent
+  category: VentsAndScrubbers
+  sprite: /Textures/Void/Interface/Radial/RCD/vent_passive.png
+  mode: ConstructObject
+  prototype: GasPassiveVent
+  cost: 1
+  delay: 0
+  rotation: User
+  fx: EffectRCDConstruct0
+
+- type: rcd
+  id: GasVentScrubber
+  category: VentsAndScrubbers
+  sprite: /Textures/Void/Interface/Radial/RCD/scrubber.png
+  mode: ConstructObject
+  prototype: GasVentScrubber
+  cost: 1
+  delay: 0
+  rotation: User
+  fx: EffectRCDConstruct0
+
+- type: rcd
+  id: GasOutletInjector
+  category: VentsAndScrubbers
+  sprite: /Textures/Void/Interface/Radial/RCD/injector.png
+  mode: ConstructObject
+  prototype: GasOutletInjector
+  cost: 1
+  delay: 0
+  rotation: User
+  fx: EffectRCDConstruct0
+
+- type: rcd
+  id: GasDualPortVentPump
+  category: VentsAndScrubbers
+  sprite: /Textures/Void/Interface/Radial/RCD/vent_pump_dual.png
+  mode: ConstructObject
+  prototype: GasDualPortVentPump
+  cost: 1
+  delay: 0
+  rotation: User
+  fx: EffectRCDConstruct0

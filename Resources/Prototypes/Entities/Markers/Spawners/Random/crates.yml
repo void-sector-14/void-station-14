@@ -82,6 +82,7 @@
     - CrateEngineeringTeslaGroundingRod
     - CrateEngineeringParticleAccelerator
     - CrateRCD
+    - CrateAtmosRCD
     - CrateEngineeringGear
     rareChance: 0.2
     prototypes:

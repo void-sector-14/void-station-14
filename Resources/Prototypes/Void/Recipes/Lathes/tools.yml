@@ -6,3 +6,12 @@
     Steel: 1000
     Plasma: 300
     Plastic: 200
+
+- type: latheRecipe
+  parent: BaseToolRecipe
+  id: AtmosRCD
+  result: AtmosRCDEmpty
+  completetime: 4
+  materials:
+    Steel: 1000
+    Plastic: 300

@@ -94,7 +94,7 @@
       - id: GasAnalyzer
       - id: MedkitOxygenFilled
       - id: HolofanProjector
-      - id: RCD
+      - id: AtmosRCD
       - id: RCDAmmo
 
 - type: entity
@@ -110,7 +110,7 @@
       - id: GasAnalyzer
       - id: MedkitOxygenFilled
       - id: HolofanProjector
-      - id: RCD
+      - id: AtmosRCD
       - id: RCDAmmo
 
 - type: entity
