@@ -1,5 +1,5 @@
 using Content.Shared.Access.Systems;
-using Content.Shared._Horizon.Economy;
+using Content.Shared.Void.Economy;
 using Content.Shared.PDA;
 using Content.Shared.Roles;
 using Content.Shared.StatusIcon;
@@ -62,6 +62,6 @@ public sealed partial class IdCardComponent : Component
     [DataField("storedBankAccountPin")]
     public string? StoredBankAccountPin;
 
-    [DataField("storedBankAccountNumber")] 
+    [DataField("storedBankAccountNumber")]
     public string? StoredBankAccountNumber;
 }
