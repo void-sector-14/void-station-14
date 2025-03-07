@@ -9,6 +9,6 @@
       unique: true
       issuer: objective-issuer-SpaceBank
       icon:
-        sprite: _Horizon/Objects/Tools/rimbank.rsi
+        sprite: Void/Objects/Tools/rimbank.rsi
         state: icon
     - type: MindNoteCondition

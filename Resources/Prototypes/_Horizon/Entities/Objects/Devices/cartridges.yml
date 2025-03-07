@@ -16,6 +16,6 @@
     - type: Cartridge
       programName: bank-program-name
       icon:
-        sprite: _Horizon/Structures/Wallmounts/atm.rsi
+        sprite: Void/Structures/Wallmounts/atm.rsi
         state: off
     - type: BankCartridge
