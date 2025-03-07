@@ -80,9 +80,9 @@
     preinstalled:
       - CrewManifestCartridge
       - NotekeeperCartridge
-      - BankCartridge
       - NewsReaderCartridge
       - NanoChatCartridge # DeltaV
+      - BankCartridge
     cartridgeSlot:
       priority: -1
       name: device-pda-slot-component-slot-name-cartridge
@@ -134,7 +134,8 @@
     - NotekeeperCartridge
     - NewsReaderCartridge
     - WantedListCartridge
-    - NanoChatCartridge
+    - NanoChatCartridge # DeltaV
+    - BankCartridge
 
 - type: entity
   parent: BasePDA
@@ -149,6 +150,7 @@
       - NewsReaderCartridge
       - MedTekCartridge
       - NanoChatCartridge # DeltaV
+      - BankCartridge
 
 - type: entity
   parent: BasePDA
@@ -499,6 +501,7 @@
       - NewsReaderCartridge
       - AstroNavCartridge
       - NanoChatCartridge # DeltaV
+      - BankCartridge
 
 - type: entity
   parent: BasePDA
@@ -849,6 +852,7 @@
     - WantedListCartridge
     - LogProbeCartridge
     - NanoChatCartridge # DeltaV
+    - BankCartridge
 
 - type: entity
   parent: BaseSecurityPDA
@@ -920,6 +924,7 @@
       - LogProbeCartridge
       - AstroNavCartridge
       - NanoChatCartridge # DeltaV
+      - BankCartridge
 
 - type: entity
   parent: CentcomPDA
@@ -946,6 +951,7 @@
       - MedTekCartridge
       - AstroNavCartridge
       - NanoChatCartridge # DeltaV
+      - BankCartridge
   - type: Tag #  Ignore Chameleon tags
     tags:
     - DoorBumpOpener
@@ -1064,6 +1070,7 @@
     preinstalled:
       - NotekeeperCartridge
       - NanoChatCartridge # DeltaV
+      - BankCartridge
 
 - type: entity
   parent: BaseSecurityPDA
@@ -1096,6 +1103,7 @@
       - LogProbeCartridge
       - AstroNavCartridge
       - NanoChatCartridge # DeltaV
+      - BankCartridge
 
 - type: entity
   parent: ERTLeaderPDA
@@ -1265,6 +1273,7 @@
     - WantedListCartridge
     - LogProbeCartridge
     - NanoChatCartridge # DeltaV
+    - BankCartridge
 
 - type: entity
   parent: BaseMedicalPDA
@@ -1293,6 +1302,7 @@
     - WantedListCartridge
     - MedTekCartridge
     - NanoChatCartridge # DeltaV
+    - BankCartridge
 
 - type: entity
   parent: ClownPDA
@@ -1438,6 +1448,7 @@
       - NotekeeperCartridge
       - MedTekCartridge
       - NanoChatCartridge # DeltaV
+      - BankCartridge
 
 - type: entity
   parent: BasePDA
