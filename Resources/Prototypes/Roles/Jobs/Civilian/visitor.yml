@@ -8,8 +8,8 @@
   setPreference: false
   overrideConsoleVisibility: true
   access:
+  - Maintenance
   minBankBalance: 350
   maxBankBalance: 1550
   extendedAccess:
-  - Maintenance
   - External
