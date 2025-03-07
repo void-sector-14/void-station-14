@@ -102,13 +102,35 @@
       canChangeAccountNumber: false
       currencyType: SpaceCash
 
+# - type: entity
+#   parent: Eftpos
+#   id: EftposSpecific
+#   suffix: Specific
+#   components:
+#     - type: Eftpos
+#       presetAccountNumber: 1322
+#       presetAccountName: Specific
+#       canChangeAccountNumber: false
+#       currencyType: SpaceCash
+
 - type: entity
   parent: Eftpos
-  id: EftposSpecific
-  suffix: Specific
+  id: EftposLegal
+  suffix: Legal
   components:
     - type: Eftpos
-      presetAccountNumber: 1322
-      presetAccountName: Specific
+      presetAccountNumber: 1323
+      presetAccountName: Legal
+      canChangeAccountNumber: false
+      currencyType: SpaceCash
+
+- type: entity
+  parent: Eftpos
+  id: EftposCentComm
+  suffix: CentComm
+  components:
+    - type: Eftpos
+      presetAccountNumber: 1324
+      presetAccountName: CentComm
       canChangeAccountNumber: false
       currencyType: SpaceCash
