@@ -1,15 +1,4 @@
 ﻿- type: listing
-  id: TacticalSupplyInventory1
-  productEntity: SpawnSupplyEyesNightVision
-  name: supply-console-nvd-name
-  description: supply-console-nvd-desc
-  icon: { sprite: /Textures/Clothing/Eyes/Glasses/ninjavisor.rsi, state: icon }
-  cost:
-    SpaceCash: 850
-  categories:
-    - TacticalPodInventory
-
-- type: listing
   id: TacticalSupplyInventory2
   productEntity: SpawnSupplySmokeGrenade
   name: supply-console-smoke-name

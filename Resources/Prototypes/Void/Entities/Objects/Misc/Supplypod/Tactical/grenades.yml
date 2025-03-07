@@ -1,26 +1,11 @@
 - type: entity
-  id: SpawnSupplyEyesNightVision
-  components:
-  - type: SpawnOnDespawn
-    prototype: ClothingEyesNightVision
-  - type: TimedDespawn
-    lifetime: 9.75
-  - type: SpawnOnTrigger 
-    proto: SpawnSupplypodAnimation
-  - type: TriggerOnSpawn
-  - type: Sprite
-    sprite: Markers/cross.rsi
-    state: red
-  - type: Marker
-
-- type: entity
   id: SpawnSupplySmokeGrenade
   components:
   - type: SpawnOnDespawn
     prototype: SmokeGrenade
   - type: TimedDespawn
     lifetime: 9.75
-  - type: SpawnOnTrigger 
+  - type: SpawnOnTrigger
     proto: SpawnSupplypodAnimation
   - type: TriggerOnSpawn
   - type: Sprite
@@ -35,7 +20,7 @@
     prototype: GrenadeFlashBang
   - type: TimedDespawn
     lifetime: 9.75
-  - type: SpawnOnTrigger 
+  - type: SpawnOnTrigger
     proto: SpawnSupplypodAnimation
   - type: TriggerOnSpawn
   - type: Sprite
@@ -50,7 +35,7 @@
     prototype: EmpGrenade
   - type: TimedDespawn
     lifetime: 9.75
-  - type: SpawnOnTrigger 
+  - type: SpawnOnTrigger
     proto: SpawnSupplypodAnimation
   - type: TriggerOnSpawn
   - type: Sprite
@@ -65,7 +50,7 @@
     prototype: GrenadeIncendiary
   - type: TimedDespawn
     lifetime: 9.75
-  - type: SpawnOnTrigger 
+  - type: SpawnOnTrigger
     proto: SpawnSupplypodAnimation
   - type: TriggerOnSpawn
   - type: Sprite
@@ -80,7 +65,7 @@
     prototype: GrenadeShrapnel
   - type: TimedDespawn
     lifetime: 9.75
-  - type: SpawnOnTrigger 
+  - type: SpawnOnTrigger
     proto: SpawnSupplypodAnimation
   - type: TriggerOnSpawn
   - type: Sprite
@@ -95,7 +80,7 @@
     prototype: PortableFlasher
   - type: TimedDespawn
     lifetime: 9.75
-  - type: SpawnOnTrigger 
+  - type: SpawnOnTrigger
     proto: SpawnSupplypodAnimation
   - type: TriggerOnSpawn
   - type: Sprite
