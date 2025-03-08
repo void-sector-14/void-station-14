@@ -21,8 +21,8 @@ public sealed partial class EftposComponent : SharedEftposComponent
 
     [DataField("soundApply")]
     // Taken from: https://github.com/Baystation12/Baystation12 at commit 662c08272acd7be79531550919f56f846726eabb
-    public SoundSpecifier SoundApply = new SoundPathSpecifier("/Audio/Backmen/Machines/chime.ogg");
+    public SoundSpecifier SoundApply = new SoundPathSpecifier("/Audio/Machines/chime.ogg");
     [DataField("soundDeny")]
     // Taken from: https://github.com/Baystation12/Baystation12 at commit 662c08272acd7be79531550919f56f846726eabb
-    public SoundSpecifier SoundDeny = new SoundPathSpecifier("/Audio/Backmen/Machines/buzz-sigh.ogg");
+    public SoundSpecifier SoundDeny = new SoundPathSpecifier("/Audio/Machines/buzz-sigh.ogg");
 }
