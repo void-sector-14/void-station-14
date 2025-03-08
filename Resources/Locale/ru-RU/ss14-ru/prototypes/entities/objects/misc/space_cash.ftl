@@ -1,4 +1,4 @@
-ent-SpaceCash-10 = кредит
+ent-SpaceCash = кредит
     .desc = Нужно иметь деньги.
 ent-SpaceCash10 = кредитов
     .suffix = 10
