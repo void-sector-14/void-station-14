@@ -1,7 +1,7 @@
 store-currency-display-spacecash =
     { $amount ->
-        [one] космобакс
-        [few] космобакса
-       *[other] космобаксов
+        [one] кредит
+        [few] кредита
+       *[other] кредитов
     }
 store-currency-spacecredits-currency-symbol = ¢
