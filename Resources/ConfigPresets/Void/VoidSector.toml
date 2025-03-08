@@ -33,6 +33,7 @@ desc = """
 """
 soft_max_players = 100
 lobbyduration = 180
+defaultpreset = "Extended"
 fallbackpreset = "Extended"
 map_pool = "VoidMapPool"
 

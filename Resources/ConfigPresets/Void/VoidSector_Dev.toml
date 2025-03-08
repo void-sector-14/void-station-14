@@ -15,6 +15,7 @@ hostname = "Пустотный Полигон"
 desc = "VoidSector Test 1"
 soft_max_players = 60
 lobbyduration = 180
+defaultpreset = "Sandbox"
 fallbackpreset = "Extended"
 map_pool = "VoidMapPool"
 
