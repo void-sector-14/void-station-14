@@ -48,10 +48,10 @@
 
 - type: material
   id: Credit
+  stackEntity: SpaceCash
   name: speso
   unit: materials-unit-bill
-  stackEntity: SpaceCash
-  icon: { sprite: /Textures/Objects/Economy/cash.rsi, state: cash }
+  icon: { sprite: Objects/Economy/cash.rsi, state: cash }
   price: 1
 
 - type: stack
