@@ -95,7 +95,5 @@
   components:
   - type: Loadout
     prototypes:
-    - SyndicateFootsoldierGearESword
-    - SyndicateFootsoldierGearPistol
-    - SyndicateFootsoldierGearKnife
-    - SyndicateOperativeGearNoUplink
+    - SyndicateFootsoldierGear
+    - SyndicateFootsoldierGearRuin
