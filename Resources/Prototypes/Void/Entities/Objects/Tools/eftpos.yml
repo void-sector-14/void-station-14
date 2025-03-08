@@ -13,9 +13,6 @@
       key: enum.EftposUiKey.Key
       singleUser: true
       requireActiveHand: false
-    - type: Construction
-      graph: eftpos
-      node: eftpos
     - type: UserInterface
       interfaces:
         enum.EftposUiKey.Key:

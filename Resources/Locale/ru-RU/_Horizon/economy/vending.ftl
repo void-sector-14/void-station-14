@@ -1,2 +1,2 @@
-store-no-idcard = ИД карта не найдена!
-store-no-money = Недостаночно денег для покупки!
+store-no-idcard = ID карта не найдена!
+store-no-money = Недостаточно денег для покупки!

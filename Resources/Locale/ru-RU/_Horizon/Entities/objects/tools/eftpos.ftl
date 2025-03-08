@@ -1,4 +1,4 @@
-ent-Eftpos = Терминал безналичной оплаты
+ent-Eftpos = терминал безналичной оплаты
     .desc = Проведите вашей ID картой чтобы оплатить покупку безналичными.
 ent-EftposCargo = { ent-Eftpos }
     .suffix = Cargo
@@ -20,7 +20,4 @@ ent-EftposSecurity = { ent-Eftpos }
     .desc = { ent-Eftpos.desc }
 ent-EftposScience = { ent-Eftpos }
     .suffix = Science
-    .desc = { ent-Eftpos.desc }
-ent-EftposSpecific = { ent-Eftpos }
-    .suffix = Specific
     .desc = { ent-Eftpos.desc }

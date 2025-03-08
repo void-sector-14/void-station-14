@@ -10,7 +10,6 @@ supply-console-teslacoil-desc = Устройство, преобразующее
 supply-console-emitter-name = Эмиттер
 supply-console-emitter-desc = Сверхмощный промышленный лазер. Когда включён, безостановочно стреляет.
 
-
 supply-console-artifact-name = Малый артефакт
 supply-console-artifact-desc = Маленькое странное инопланетное устройство.
 
