@@ -80,6 +80,7 @@ entities:
     - type: OccluderTree
     - type: Parallax
       parallax: VoidlingParallax
+    - type: LoadedMap
   - uid: 2
     components:
     - type: MetaData
@@ -9502,7 +9503,7 @@ entities:
       pos: 9.5,71.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -94827.72
+      secondsUntilStateChange: -94954.69
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -9944,7 +9945,7 @@ entities:
       pos: 37.5,72.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -129542.555
+      secondsUntilStateChange: -129669.52
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -10194,7 +10195,7 @@ entities:
       pos: -22.5,108.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -169832.89
+      secondsUntilStateChange: -169959.86
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -12917,6 +12918,20 @@ entities:
     components:
     - type: Transform
       pos: -17.235369,50.438217
+      parent: 2
+- proto: ATM
+  entities:
+  - uid: 13199
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: -1.5,96.5
+      parent: 2
+  - uid: 13202
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 2.5,96.5
       parent: 2
 - proto: AtmosDeviceFanDirectional
   entities:
@@ -51858,7 +51873,7 @@ entities:
       pos: 39.5,42.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -104192.48
+      secondsUntilStateChange: -104319.445
       state: Closing
   - uid: 7869
     components:
@@ -51941,7 +51956,7 @@ entities:
       pos: 35.5,51.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -94796.58
+      secondsUntilStateChange: -94923.55
       state: Closing
   - uid: 7882
     components:
@@ -51980,7 +51995,7 @@ entities:
       pos: -32.5,51.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -115453.87
+      secondsUntilStateChange: -115580.836
       state: Closing
   - uid: 7888
     components:
@@ -84226,7 +84241,7 @@ entities:
       pos: 21.5,105.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -157976.72
+      secondsUntilStateChange: -158103.69
       state: Closing
   - uid: 12439
     components:
@@ -84255,7 +84270,7 @@ entities:
       pos: 21.5,109.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -157979.08
+      secondsUntilStateChange: -158106.05
       state: Closing
 - proto: hydroponicsTray
   entities:
@@ -90130,11 +90145,6 @@ entities:
     - type: Transform
       pos: 2.5,73.5
       parent: 2
-  - uid: 13199
-    components:
-    - type: Transform
-      pos: -1.5,97.5
-      parent: 2
   - uid: 13200
     components:
     - type: Transform
@@ -90144,11 +90154,6 @@ entities:
     components:
     - type: Transform
       pos: 1.5,96.5
-      parent: 2
-  - uid: 13202
-    components:
-    - type: Transform
-      pos: 2.5,97.5
       parent: 2
   - uid: 13203
     components:
@@ -103607,9 +103612,12 @@ entities:
   - uid: 15438
     components:
     - type: Transform
+      anchored: True
       rot: -1.5707963267948966 rad
       pos: -15.5,99.5
       parent: 2
+    - type: Physics
+      bodyType: Static
 - proto: UraniumOre
   entities:
   - uid: 15439

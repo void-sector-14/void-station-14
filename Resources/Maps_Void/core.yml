@@ -14280,7 +14280,7 @@ entities:
       pos: -16.5,19.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -42676.668
+      secondsUntilStateChange: -42778.867
       state: Opening
   - uid: 302
     components:
@@ -18313,6 +18313,14 @@ entities:
     components:
     - type: Transform
       pos: 43.5,-55.5
+      parent: 2
+- proto: ATM
+  entities:
+  - uid: 8407
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 40.5,-17.5
       parent: 2
 - proto: AtmosDeviceFanTiny
   entities:
@@ -56419,11 +56427,6 @@ entities:
       rot: 3.141592653589793 rad
       pos: 39.5,-5.5
       parent: 2
-  - uid: 8407
-    components:
-    - type: Transform
-      pos: 40.5,-17.5
-      parent: 2
   - uid: 8408
     components:
     - type: Transform
@@ -56525,6 +56528,12 @@ entities:
     - type: Transform
       rot: 1.5707963267948966 rad
       pos: 40.5,13.5
+      parent: 2
+  - uid: 21526
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 40.5,-14.5
       parent: 2
 - proto: ClothingBackpackClown
   entities:
@@ -56929,6 +56938,15 @@ entities:
     - type: Transform
       pos: -35.36938,-10.505542
       parent: 2
+- proto: ClothingMaskBlushingMime
+  entities:
+  - uid: 8436
+    components:
+    - type: Transform
+      parent: 8433
+    - type: Physics
+      canCollide: False
+    - type: InsideEntityStorage
 - proto: ClothingMaskBreathMedicalSecurity
   entities:
   - uid: 8489
@@ -56967,15 +56985,6 @@ entities:
     - type: Transform
       pos: 29.545818,-16.460001
       parent: 2
-- proto: ClothingMaskSexyMime
-  entities:
-  - uid: 8436
-    components:
-    - type: Transform
-      parent: 8433
-    - type: Physics
-      canCollide: False
-    - type: InsideEntityStorage
 - proto: ClothingNeckAromanticPin
   entities:
   - uid: 8495
