@@ -44,6 +44,7 @@ public sealed class WageManagerSystem : EntitySystem
     public override void Initialize()
     {
         base.Initialize();
+        _configurationManager.OnValueChanged(Shared.Void.CCVar.VoidCVars.EconomyWagesEnabled, SetEnabled, true);
         SubscribeLocalEvent<RoundRestartCleanupEvent>(OnCleanup);
         SubscribeLocalEvent<WagePaydayEvent>(OnPayday);
     }
@@ -57,6 +58,7 @@ public sealed class WageManagerSystem : EntitySystem
     public override void Shutdown()
     {
         base.Shutdown();
+        _configurationManager.UnsubValueChanged(Shared.Void.CCVar.VoidCVars.EconomyWagesEnabled, SetEnabled);
     }
 
     public void OnPayday(WagePaydayEvent ev)
