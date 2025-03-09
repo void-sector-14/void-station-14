@@ -15,3 +15,12 @@
   materials:
     Steel: 1000
     Plastic: 300
+
+- type: latheRecipe
+  parent: BaseToolRecipe
+  id: Eftpos
+  result: Eftpos
+  completetime: 2
+  materials:
+    Steel: 100
+    Plastic: 200
