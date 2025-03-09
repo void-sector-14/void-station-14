@@ -16,4 +16,7 @@ public sealed class VoidCVars
     /// </summary>
     public static readonly CVarDef<float> RespawnTime =
         CVarDef.Create("void.respawn.time", 600.0f, CVar.SERVER | CVar.REPLICATED);
+
+    public static readonly CVarDef<bool> EconomyWagesEnabled =
+        CVarDef.Create("economy.wages_enabled", true, CVar.SERVERONLY);
 }

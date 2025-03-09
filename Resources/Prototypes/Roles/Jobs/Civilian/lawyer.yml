@@ -18,6 +18,10 @@
   special:
   - !type:AddImplantSpecial
     implants: [ MindShieldImplant ]
+  minBankBalance: 450
+  maxBankBalance: 550
+  wageDepartment: Legal
+  wage: 50
 
 - type: startingGear
   id: LawyerGear

@@ -37,6 +37,10 @@
   - !type:AddComponentSpecial
     components:
       - type: CommandStaff
+  minBankBalance: 2050
+  maxBankBalance: 3250
+  wageDepartment: Engineering
+  wage: 50
 
 - type: startingGear
   id: ChiefEngineerGear

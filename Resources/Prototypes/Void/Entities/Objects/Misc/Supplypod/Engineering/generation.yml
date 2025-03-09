@@ -1,0 +1,59 @@
+- type: entity
+  id: SpawnSupplyAMEJar
+  components:
+  - type: SpawnOnDespawn
+    prototype: CrateEngineeringAMEJar
+  - type: TimedDespawn
+    lifetime: 9.75
+  - type: SpawnOnTrigger 
+    proto: SpawnSupplypodAnimation
+  - type: TriggerOnSpawn
+  - type: Sprite
+    sprite: Markers/cross.rsi
+    state: red
+  - type: Marker
+
+- type: entity
+  id: SpawnSupplyRadiationCollector
+  components:
+  - type: SpawnOnDespawn
+    prototype: RadiationCollectorFlatpack
+  - type: TimedDespawn
+    lifetime: 9.75
+  - type: SpawnOnTrigger 
+    proto: SpawnSupplypodAnimation
+  - type: TriggerOnSpawn
+  - type: Sprite
+    sprite: Markers/cross.rsi
+    state: red
+  - type: Marker
+
+- type: entity
+  id: SpawnSupplyEmitter
+  components:
+  - type: SpawnOnDespawn
+    prototype: EmitterFlatpack
+  - type: TimedDespawn
+    lifetime: 9.75
+  - type: SpawnOnTrigger 
+    proto: SpawnSupplypodAnimation
+  - type: TriggerOnSpawn
+  - type: Sprite
+    sprite: Markers/cross.rsi
+    state: red
+  - type: Marker
+
+- type: entity
+  id: SpawnSupplyTeslaCoil
+  components:
+  - type: SpawnOnDespawn
+    prototype: TeslaCoilFlatpack
+  - type: TimedDespawn
+    lifetime: 9.75
+  - type: SpawnOnTrigger 
+    proto: SpawnSupplypodAnimation
+  - type: TriggerOnSpawn
+  - type: Sprite
+    sprite: Markers/cross.rsi
+    state: red
+  - type: Marker

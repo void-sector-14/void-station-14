@@ -1,0 +1,8 @@
+# Bank
+- type: entity
+  parent: BaseMindRole
+  id: MindRoleBankMemory
+  name: Bank Memory
+  components:
+  - type: MindRole
+  - type: BankMemory

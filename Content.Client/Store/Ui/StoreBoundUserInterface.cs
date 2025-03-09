@@ -67,6 +67,10 @@ public sealed class StoreBoundUserInterface : BoundUserInterface
         switch (state)
         {
             case StoreUpdateState msg:
+
+                _menu?.SetCanBuyFromBank(IoCManager.Resolve<EntityManager>().HasComponent<Content.Shared.Void.Store.BuyStoreBankComponent>(Owner));
+
+
                 _listings = msg.Listings;
 
                 _menu?.UpdateBalance(msg.Balance);

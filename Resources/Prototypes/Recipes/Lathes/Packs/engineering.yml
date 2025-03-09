@@ -19,6 +19,7 @@
   - HandheldStationMap
   - ClothingHeadHatWelding
   - ClothingHeadHatCone
+  - Eftpos
 
 - type: latheRecipePack
   id: AtmosStatic

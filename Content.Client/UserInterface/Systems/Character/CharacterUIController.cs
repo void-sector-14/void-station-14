@@ -146,8 +146,65 @@ public sealed class CharacterUIController : UIController, IOnStateEntered<Gamepl
         _window.Objectives.RemoveAllChildren();
         _window.ObjectivesLabel.Visible = objectives.Any();
 
+        // start backmen: currency
+        {
+            _window.Memory.RemoveAllChildren();
+            foreach (var (groupId, conditions) in objectives)
+            {
+                if (groupId != "objective-issuer-SpaceBank")
+                {
+                    continue;
+                }
+                var objectiveControl = new CharacterObjectiveControl
+                {
+                    Orientation = BoxContainer.LayoutOrientation.Vertical,
+                    Modulate = Color.Gray
+                };
+
+
+                var objectiveText = new FormattedMessage();
+                objectiveText.TryAddMarkup(Loc.GetString(groupId), out _); // backmen: locale
+
+                var objectiveLabel = new RichTextLabel
+                {
+                    StyleClasses = {StyleNano.StyleClassTooltipActionTitle}
+                };
+                objectiveLabel.SetMessage(objectiveText);
+
+                objectiveControl.AddChild(objectiveLabel);
+
+                foreach (var condition in conditions)
+                {
+                    var conditionControl = new ObjectiveConditionsControl();
+                    conditionControl.ProgressTexture.Texture = _sprite.Frame0(condition.Icon);
+                    conditionControl.ProgressTexture.Progress = condition.Progress;
+
+                    var titleMessage = new FormattedMessage();
+                    var descriptionMessage = new FormattedMessage();
+
+                    titleMessage.AddText(condition.Title);
+                    descriptionMessage.AddText(condition.Description);
+
+                    conditionControl.Title.SetMessage(titleMessage);
+                    conditionControl.Description.SetMessage(descriptionMessage);
+
+                    objectiveControl.AddChild(conditionControl);
+                }
+
+                _window.Memory.AddChild(objectiveControl);
+            }
+        }
+        // end backmen: currency
+
         foreach (var (groupId, conditions) in objectives)
         {
+            // start backmen: currency
+            if (groupId == "objective-issuer-SpaceBank")
+            {
+                continue;
+            }
+            // end backmen: currency
+
             var objectiveControl = new CharacterObjectiveControl
             {
                 Orientation = BoxContainer.LayoutOrientation.Vertical,
@@ -156,7 +213,7 @@ public sealed class CharacterUIController : UIController, IOnStateEntered<Gamepl
 
 
             var objectiveText = new FormattedMessage();
-            objectiveText.TryAddMarkup(groupId, out _);
+            objectiveText.TryAddMarkup(Loc.GetString(groupId), out _); // backmen: locale
 
             var objectiveLabel = new RichTextLabel
             {

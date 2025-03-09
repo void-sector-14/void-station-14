@@ -1,0 +1,32 @@
+﻿- type: listing
+  id: ToolsSupplyInventory1
+  productEntity: SpawnSupplyBeltUtility
+  name: supply-console-beltutility-name
+  description: supply-console-beltutility-desc
+  icon: { sprite: /Textures/Clothing/Belt/utility.rsi, state: icon }
+  cost:
+    SpaceCash: 300
+  categories:
+    - ToolsPodInventory
+
+- type: listing
+  id: ToolsSupplyInventory2
+  productEntity: SpawnSupplyMiningDrill
+  name: supply-console-miningdrill-name
+  description: supply-console-miningdrill-desc
+  icon: { sprite: /Textures/Objects/Tools/handdrill.rsi, state: handdrill }
+  cost:
+    SpaceCash: 150
+  categories:
+    - ToolsPodInventory
+
+- type: listing
+  id: ToolsSupplyInventory3
+  productEntity: SpawnSupplyMineralScanner
+  name: supply-console-mineralscanner-name
+  description: supply-console-mineralscanner-desc
+  icon: { sprite: /Textures/Objects/Specific/Mining/mineral_scanner.rsi, state: icon }
+  cost:
+    SpaceCash: 755
+  categories:
+    - ToolsPodInventory

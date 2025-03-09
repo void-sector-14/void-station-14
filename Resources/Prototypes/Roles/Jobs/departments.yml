@@ -7,6 +7,7 @@
   - CargoTechnician
   - Quartermaster
   - SalvageSpecialist
+  accountNumber: 1315
 
 - type: department
   id: Civilian
@@ -32,6 +33,7 @@
   - Visitor
   - Zookeeper
   - ServiceWorker
+  accountNumber: 1316
 
 - type: department
   id: CentralCommand
@@ -50,6 +52,7 @@
   - ERTEngineer
   - DeathSquad
   weight: 120
+  accountNumber: 1324
 
 - type: department
   id: Command
@@ -77,6 +80,7 @@
   # - DeathSquad
   primary: false
   weight: 100
+  accountNumber: 1317
 
 - type: department
   id: Engineering
@@ -88,6 +92,7 @@
   - ChiefEngineer
   - StationEngineer
   - TechnicalAssistant
+  accountNumber: 1318
 
 - type: department
   id: Medical
@@ -101,6 +106,7 @@
   - MedicalIntern
   - Psychologist
   - Paramedic
+  accountNumber: 1319
 
 - type: department
   id: Security
@@ -115,6 +121,7 @@
   - Detective
   - Warden
   - Brigmedic
+  accountNumber: 1320
 
 - type: department
   id: Science
@@ -125,6 +132,7 @@
   - ResearchDirector
   - Scientist
   - ResearchAssistant
+  accountNumber: 1321
 
 - type: department
   id: Silicon
@@ -147,3 +155,4 @@
 #   - Zookeeper
 #   - Psychologist
 #   primary: false
+#   accountNumber: 1322

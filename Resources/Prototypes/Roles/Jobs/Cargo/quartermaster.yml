@@ -18,6 +18,10 @@
     - !type:AgeRequirement
       requiredAge: 25
   weight: 10
+  minBankBalance: 2300
+  maxBankBalance: 2500
+  wageDepartment: Cargo
+  wage: 50
   startingGear: QuartermasterGear
   icon: "JobIconQuarterMaster"
   supervisors: job-supervisors-captain

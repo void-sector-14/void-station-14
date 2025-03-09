@@ -13,6 +13,10 @@
   - !type:GiveItemOnHolidaySpecial
     holiday: BoxingDay
     prototype: BoxCardboard
+  minBankBalance: 350
+  maxBankBalance: 550
+  wageDepartment: Cargo
+  wage: 50
 
 - type: startingGear
   id: CargoTechGear

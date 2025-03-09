@@ -1,8 +1,8 @@
 - type: cargoProduct
   id: EngineAmeShielding
   icon:
-    sprite: Objects/Power/AME/ame_part.rsi
-    state: box
+    sprite: Objects/Devices/flatpack.rsi
+    state: ame-part
   product: CrateEngineeringAMEShielding
   cost: 6000
   category: cargoproduct-category-name-engineering

@@ -10,6 +10,11 @@
   access:
   - Medical
   - Maintenance
+  minBankBalance: 350
+  maxBankBalance: 550
+  wageDepartment: Medical
+  wage: 30
+
 
 - type: startingGear
   id: MedicalInternGear

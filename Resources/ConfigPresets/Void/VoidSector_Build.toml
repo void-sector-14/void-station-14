@@ -15,6 +15,7 @@ desc = "VoidSector Build"
 hostname = "Пустотная Стройка"
 soft_max_players = 60
 lobbyenabled = false
+defaultpreset = "Sandbox"
 fallbackpreset = "Sandbox"
 map = "Empty"
 role_timers = false

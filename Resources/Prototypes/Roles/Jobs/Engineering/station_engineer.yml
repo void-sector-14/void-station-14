@@ -16,6 +16,10 @@
   - External
   extendedAccess:
   - Atmospherics
+  minBankBalance: 550
+  maxBankBalance: 650
+  wageDepartment: Engineering
+  wage: 40
 
 - type: startingGear
   id: StationEngineerGear

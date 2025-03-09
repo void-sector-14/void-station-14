@@ -1,0 +1,87 @@
+﻿- type: listing
+  id: MaterialsSupplyInventory1
+  productEntity: SpawnSupplySteel
+  name: supply-console-steel-name
+  description: supply-console-steel-desc
+  icon: { sprite: /Textures/Objects/Materials/Sheets/metal.rsi, state: steel_3 }
+  cost:
+    SpaceCash: 2000
+  categories:
+    - MaterialsPodInventory
+
+- type: listing
+  id: MaterialsSupplyInventory2
+  productEntity: SpawnSupplyGlass
+  name: supply-console-glass-name
+  description: supply-console-glass-desc
+  icon: { sprite: /Textures/Objects/Materials/Sheets/glass.rsi, state: glass_3 }
+  cost:
+    SpaceCash: 2000
+  categories:
+    - MaterialsPodInventory
+
+- type: listing
+  id: MaterialsSupplyInventory3
+  productEntity: SpawnSupplyPlastic
+  name: supply-console-plastic-name
+  description: supply-console-plastic-desc
+  icon: { sprite: /Textures/Objects/Materials/Sheets/other.rsi, state: plastic_3 }
+  cost:
+    SpaceCash: 2500
+  categories:
+    - MaterialsPodInventory
+
+- type: listing
+  id: MaterialsSupplyInventory4
+  productEntity: SpawnSupplyPlasma
+  name: supply-console-plasma-name
+  description: supply-console-plasma-desc
+  icon: { sprite: /Textures/Objects/Materials/Sheets/other.rsi, state: plasma_3 }
+  cost:
+    SpaceCash: 2500
+  categories:
+    - MaterialsPodInventory
+
+- type: listing
+  id: MaterialsSupplyInventory5
+  productEntity: SpawnSupplyPlasteel
+  name: supply-console-plasteel-name
+  description: supply-console-plasteel-desc
+  icon: { sprite: /Textures/Objects/Materials/Sheets/metal.rsi, state: plasteel_3 }
+  cost:
+    SpaceCash: 5300
+  categories:
+    - MaterialsPodInventory
+
+- type: listing
+  id: MaterialsSupplyInventory6
+  productEntity: SpawnSupplyGold
+  name: supply-console-gold-name
+  description: supply-console-gold-desc
+  icon: { sprite: /Textures/Objects/Materials/Ingots.rsi, state: gold_3 }
+  cost:
+    SpaceCash: 2600
+  categories:
+    - MaterialsPodInventory
+
+- type: listing
+  id: MaterialsSupplyInventory7
+  productEntity: SpawnSupplySilver
+  name: supply-console-silver-name
+  description: supply-console-silver-desc
+  icon: { sprite: /Textures/Objects/Materials/Ingots.rsi, state: silver_3 }
+  cost:
+    SpaceCash: 1300
+  categories:
+    - MaterialsPodInventory
+
+- type: listing
+  id: MaterialsSupplyInventory8
+  productEntity: SpawnSupplyUranium
+  name: supply-console-uranium-name
+  description: supply-console-uranium-desc
+  icon: { sprite: /Textures/Objects/Materials/Sheets/other.rsi, state: uranium_3 }
+  cost:
+    SpaceCash: 2850
+  categories:
+    - MaterialsPodInventory

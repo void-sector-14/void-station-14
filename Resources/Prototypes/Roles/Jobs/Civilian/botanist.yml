@@ -17,6 +17,10 @@
   - !type:GiveItemOnHolidaySpecial
     holiday: FourTwenty
     prototype: CannabisSeeds
+  minBankBalance: 350
+  maxBankBalance: 550
+  wageDepartment: Civilian
+  wage: 50
 
 - type: startingGear
   id: BotanistGear

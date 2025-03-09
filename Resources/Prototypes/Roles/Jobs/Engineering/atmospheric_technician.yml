@@ -19,6 +19,10 @@
   - !type:GiveItemOnHolidaySpecial
     holiday: FirefighterDay
     prototype: FireAxe
+  minBankBalance: 550
+  maxBankBalance: 850
+  wageDepartment: Engineering
+  wage: 50
 
 - type: startingGear
   id: AtmosphericTechnicianGear

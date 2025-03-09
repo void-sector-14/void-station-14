@@ -24,6 +24,10 @@
       interval: 10
   - !type:AddImplantSpecial
     implants: [ SadTromboneImplant ]
+  minBankBalance: 350
+  maxBankBalance: 550
+  wageDepartment: Civilian
+  wage: 50
 
 - type: startingGear
   id: ClownGear
