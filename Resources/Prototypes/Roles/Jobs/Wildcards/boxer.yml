@@ -9,8 +9,8 @@
   access:
   - Service
   - Maintenance
-  minBankBalance: 550
-  maxBankBalance: 650
+  minBankBalance: 350
+  maxBankBalance: 550
   wageDepartment: Civilian
   wage: 40
   special:

@@ -40,7 +40,7 @@
     components:
       - type: CommandStaff
   minBankBalance: 2650
-  maxBankBalance: 2850
+  maxBankBalance: 3150
   wageDepartment: Security
   wage: 150
 
