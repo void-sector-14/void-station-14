@@ -8,8 +8,8 @@ public sealed partial class WageSchedulerRuleComponent : Component
 {
     [ViewVariables(VVAccess.ReadWrite)] public float TimeUntilNextWage;
 
-    [ViewVariables(VVAccess.ReadWrite)] public float MinimumTimeUntilFirstWage { get; set; } = 30;
-    [ViewVariables(VVAccess.ReadWrite)] public float WageInterval { get; set; }= 60;
+    [ViewVariables(VVAccess.ReadWrite)] public float MinimumTimeUntilFirstWage { get; set; } = 300;
+    [ViewVariables(VVAccess.ReadWrite)] public float WageInterval { get; set; } = 600;
 
     public WageSchedulerRuleComponent()
     {
