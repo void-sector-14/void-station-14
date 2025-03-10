@@ -12,7 +12,7 @@
   minBankBalance: 550
   maxBankBalance: 650
   wageDepartment: Civilian
-  wage: 40  
+  wage: 40
 
 - type: startingGear
   id: ReporterGear

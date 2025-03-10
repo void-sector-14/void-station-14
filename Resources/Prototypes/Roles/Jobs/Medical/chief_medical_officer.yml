@@ -41,8 +41,8 @@
   minBankBalance: 2150
   maxBankBalance: 2350
   wageDepartment: Medical
-  wage: 50
-      
+  wage: 150
+
 
 - type: startingGear
   id: CMOGear

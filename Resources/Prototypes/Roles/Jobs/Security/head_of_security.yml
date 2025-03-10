@@ -42,7 +42,7 @@
   minBankBalance: 2650
   maxBankBalance: 2850
   wageDepartment: Security
-  wage: 50     
+  wage: 150
 
 - type: startingGear
   id: HoSGear

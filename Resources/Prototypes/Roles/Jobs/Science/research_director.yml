@@ -32,7 +32,7 @@
   minBankBalance: 2300
   maxBankBalance: 2500
   wageDepartment: Science
-  wage: 50      
+  wage: 150
 
 - type: startingGear
   id: ResearchDirectorGear

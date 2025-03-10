@@ -19,7 +19,7 @@
   minBankBalance: 550
   maxBankBalance: 650
   wageDepartment: Engineering
-  wage: 40
+  wage: 50
 
 - type: startingGear
   id: StationEngineerGear

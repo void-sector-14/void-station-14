@@ -21,7 +21,7 @@
   minBankBalance: 2300
   maxBankBalance: 2500
   wageDepartment: Cargo
-  wage: 50
+  wage: 150
   startingGear: QuartermasterGear
   icon: "JobIconQuarterMaster"
   supervisors: job-supervisors-captain

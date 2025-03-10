@@ -59,7 +59,7 @@
   minBankBalance: 2800
   maxBankBalance: 3200
   wageDepartment: Command
-  wage: 80
+  wage: 150
 
 - type: startingGear
   id: HoPGear

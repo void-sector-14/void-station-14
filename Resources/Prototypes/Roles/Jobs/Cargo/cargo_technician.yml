@@ -16,7 +16,7 @@
   minBankBalance: 350
   maxBankBalance: 550
   wageDepartment: Cargo
-  wage: 50
+  wage: 40
 
 - type: startingGear
   id: CargoTechGear
