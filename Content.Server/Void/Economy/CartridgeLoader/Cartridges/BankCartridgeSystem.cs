@@ -95,56 +95,52 @@ public sealed class BankCartridgeSystem : EntitySystem
         if (!parent.IsValid())
             return;
 
-        if (TryComp<RingerComponent>(parent, out var ringerComponent))
+        _cartridgeLoaderSystem?.UpdateCartridgeUiState(parent, new BankUiState(component.Balance));
+
+        var player = Transform(parent).ParentUid;
+        if (player.IsValid() && TryComp<ActorComponent>(player, out var actor))
         {
-            _ringerSystem.RingerPlayRingtone((parent, ringerComponent));
-            _cartridgeLoaderSystem?.UpdateCartridgeUiState(parent, new BankUiState(component.Balance));
+            var currencySymbol = "";
+            if (_prototypeManager.TryIndex(component.CurrencyType, out CurrencyPrototype? p))
+                currencySymbol = Loc.GetString(p.CurrencySymbol);
 
-            var player = Transform(parent).ParentUid;
-            if (player.IsValid() && TryComp<ActorComponent>(player, out var actor))
+            var change = (double)(args.ChangeAmount ?? 0);
+            var changeAmount = $"{change}";
+            switch (change)
             {
-                var currencySymbol = "";
-                if (_prototypeManager.TryIndex(component.CurrencyType, out CurrencyPrototype? p))
-                    currencySymbol = Loc.GetString(p.CurrencySymbol);
-
-                var change = (double) (args.ChangeAmount ?? 0);
-                var changeAmount = $"{change}";
-                switch (change)
-                {
-                    case > 0:
+                case > 0:
                     {
                         changeAmount = $"+{change}";
                         break;
                     }
-                    case < 0:
+                case < 0:
                     {
                         changeAmount = $"-{change}";
                         break;
                     }
-                }
-
-                var wrappedMessage = Loc.GetString(
-                    "bank-program-change-balance-notification",
-                    ("balance", component.Balance), ("change", changeAmount),
-                    ("currencySymbol", currencySymbol)
-                );
-
-                _popupSystem.PopupEntity(
-                    wrappedMessage,
-                    parent,
-                    Filter.Entities(player),
-                    true,
-                    PopupType.Medium
-                );
-
-                _chatManager.ChatMessageToOne(
-                    ChatChannel.Notifications,
-                    wrappedMessage,
-                    wrappedMessage,
-                    EntityUid.Invalid,
-                    false,
-                    actor.PlayerSession.Channel);
             }
+
+            var wrappedMessage = Loc.GetString(
+                "bank-program-change-balance-notification",
+                ("balance", component.Balance), ("change", changeAmount),
+                ("currencySymbol", currencySymbol)
+            );
+
+            _popupSystem.PopupEntity(
+                wrappedMessage,
+                parent,
+                Filter.Entities(player),
+                true,
+                PopupType.Medium
+            );
+
+            _chatManager.ChatMessageToOne(
+                ChatChannel.Notifications,
+                wrappedMessage,
+                wrappedMessage,
+                EntityUid.Invalid,
+                false,
+                actor.PlayerSession.Channel);
         }
         //UpdateUiState(uid, parent, component);
     }
