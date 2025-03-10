@@ -25,7 +25,7 @@
   minBankBalance: 650
   maxBankBalance: 850
   wageDepartment: Security
-  wage: 45
+  wage: 55
 
 - type: startingGear
   id: DetectiveGear

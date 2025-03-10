@@ -25,7 +25,7 @@
   minBankBalance: 550
   maxBankBalance: 750
   wageDepartment: Security
-  wage: 40
+  wage: 60
 
 - type: startingGear
   id: BrigmedicGear

@@ -38,11 +38,11 @@
   - !type:AddComponentSpecial
     components:
       - type: CommandStaff
-  minBankBalance: 2150
-  maxBankBalance: 2350
+  minBankBalance: 2850
+  maxBankBalance: 3150
   wageDepartment: Medical
-  wage: 50
-      
+  wage: 150
+
 
 - type: startingGear
   id: CMOGear

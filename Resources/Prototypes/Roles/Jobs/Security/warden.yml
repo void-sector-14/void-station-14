@@ -28,7 +28,7 @@
   minBankBalance: 1050
   maxBankBalance: 1250
   wageDepartment: Security
-  wage: 45
+  wage: 80
 
 - type: startingGear
   id: WardenGear

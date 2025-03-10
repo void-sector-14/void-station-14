@@ -17,7 +17,7 @@
   minBankBalance: 550
   maxBankBalance: 650
   wageDepartment: Medical
-  wage: 40
+  wage: 60
 
 - type: startingGear
   id: ChemistGear

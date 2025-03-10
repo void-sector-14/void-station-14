@@ -19,8 +19,8 @@
   icon: "JobIconBlueshield"
   supervisors: job-supervisors-centcom
   canBeAntag: false
-  minBankBalance: 2800
-  maxBankBalance: 3200
+  minBankBalance: 2500
+  maxBankBalance: 2900
   wageDepartment: CentralCommand
   wage: 100
   accessGroups:

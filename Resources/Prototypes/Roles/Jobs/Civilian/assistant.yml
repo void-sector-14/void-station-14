@@ -8,8 +8,8 @@
   supervisors: job-supervisors-everyone
   access:
   - Maintenance
-  minBankBalance: 50
-  maxBankBalance: 300
+  minBankBalance: 500
+  maxBankBalance: 700
 
 - type: startingGear
   id: PassengerGear

@@ -27,7 +27,7 @@
   minBankBalance: 650
   maxBankBalance: 850
   wageDepartment: Legal
-  wage: 80
+  wage: 150
 
 - type: startingGear
   id: MagistrateGear
