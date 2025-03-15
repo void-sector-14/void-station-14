@@ -30,6 +30,7 @@ using Content.Shared.Shuttles.Components;
 using Content.Shared.Shuttles.Events;
 using Content.Shared.Tag;
 using Content.Shared.Tiles;
+using Content.Shared.Void.CCVar;
 using Robust.Server.GameObjects;
 using Robust.Server.Maps;
 using Robust.Shared.Audio.Systems;
@@ -535,7 +536,7 @@ public sealed partial class EmergencyShuttleSystem : EntitySystem
         }
 
         var map = _mapSystem.CreateMap(out var mapId);
-        var centcommMapId = "VoidCentComm";
+        var centcommMapId = _configManager.GetCVar(VoidCVars.CentcommStation);
         var prototypeManager = IoCManager.Resolve<IPrototypeManager>();
 
         if (!prototypeManager.TryIndex<GameMapPrototype>(centcommMapId, out var gameMapPrototype))
