@@ -4,7 +4,7 @@
   mapPath: /Maps_Void/centcomm.yml
   minPlayers: 0
   stations:
-    centcomm:
+    VoidCentComm:
       stationProto: NanotrasenCentralCommand
       components:
         - type: StationNameSetup
