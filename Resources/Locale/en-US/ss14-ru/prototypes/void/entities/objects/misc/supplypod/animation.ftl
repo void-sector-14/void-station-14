@@ -1,0 +1,14 @@
+ent-SpawnSupplypodAnimation = { "" }
+    .desc = { "" }
+ent-SpawnSupplypodPermaMarkerAnimation = { "" }
+    .desc = { "" }
+ent-SpawnSupplypodStartAnimationSound = { "" }
+    .desc = { "" }
+ent-SpawnSupplypodLandingAnimation = { "" }
+    .desc = { "" }
+ent-SpawnSupplypodLanded = { "" }
+    .desc = { "" }
+ent-SpawnSupplypodLandedOpening = { "" }
+    .desc = { "" }
+ent-SpawnSupplypodWooshSound = { "" }
+    .desc = { "" }

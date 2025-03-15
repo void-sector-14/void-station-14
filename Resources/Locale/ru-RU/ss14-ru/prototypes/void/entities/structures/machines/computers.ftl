@@ -1,3 +1,5 @@
+ent-BaseComputerSupplyPod = { ent-BaseComputerAiAccess }
+    .desc = { ent-BaseComputerAiAccess.desc }
 ent-ComputerSupplyPodScience = консоль заказа капсул Solaris Science
     .desc = Консоль для заказа капсул с различными вещами... прямо себе на голову.
 ent-ComputerSupplyPodSecurity = консоль заказа капсул IronHound

@@ -38,6 +38,7 @@ rcd-component-gas-pipes = Газовые трубы
 rcd-component-atmos-utilities = Атмосферные утилиты
 rcd-component-pumps-and-valves = Насосы и клапаны
 rcd-component-vents-and-scrubbers = Вентиляции и скрубберы
+
 ### Prototype names (note: constructable items will be puralized)
 
 rcd-component-deconstruct = уничтожить

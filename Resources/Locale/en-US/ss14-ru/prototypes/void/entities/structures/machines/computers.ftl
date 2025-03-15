@@ -1,0 +1,10 @@
+ent-BaseComputerSupplyPod = { ent-BaseComputerAiAccess }
+    .desc = { ent-BaseComputerAiAccess.desc }
+ent-ComputerSupplyPodScience = science supply pods request console
+    .desc = For orders of items at your own expense.
+ent-ComputerSupplyPodMedical = medical supply pods request console
+    .desc = For orders of items at your own expense.
+ent-ComputerSupplyPodEngineering = engineering supply pods request console
+    .desc = For orders of items at your own expense.
+ent-ComputerSupplyPodSecurity = security supply pods request console
+    .desc = For orders of items at your own expense.

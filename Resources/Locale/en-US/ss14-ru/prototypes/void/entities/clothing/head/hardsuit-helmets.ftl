@@ -1,5 +1,5 @@
 ent-ClothingHeadHelmetHardsuitQuartermaster = шлем скафандра квартирмейстера
-    .desc = { ent-ClothingHeadHardsuitWithLightBase.desc }
+    .desc = { ent-ClothingHeadHardsuitBase.desc }
 ent-ClothingHeadHelmetHardsuitBlueshield = шлем скафандра офицера синего щита
     .desc = { ent-ClothingHeadHelmetHardsuitERTLeader.desc }
 ent-TraumaTeamHelmet = EVA Шлем Парамедика "Траумы"
@@ -8,3 +8,5 @@ ent-TraumaTeamHelmetRed = EVA Шлем Техника "Траумы"
     .desc = Укреплённый шлем техника TTI, адаптированный для действий в безвоздушном пространстве. Это кровь?..
 ent-TraumaTeamHelmetSur = EVA Шлем Реаниматора "Траумы"
     .desc = Высокотехнологичный шлем техника TTI показывающий всю необходимую информацию о физическом состоянии, адаптированый для действий в безвоздушном пространстве. Как платина...
+ent-ClothingHeadHelmetHardsuitCvartet = шлем боевого скафандра "квартет"
+    .desc = Боевой и легкий шлем скафандра "квартет". Он,возможно,не защитит вас от пуль. Имеется красный фонарик.
