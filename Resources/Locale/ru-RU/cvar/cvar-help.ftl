@@ -8,7 +8,6 @@ changecvar-simple-playtest_all_damage_modifier = Множитель для вс�
 changecvar-full-playtest_all_damage_modifier = Множитель для всего нанесенного урона.
 changecvar-simple-playtest_all_heal_modifier = Множитель для всего выполненного лечения.
 changecvar-full-playtest_all_heal_modifier = Множитель для всего выполненного лечения.
-changecvar-full-playtest_all_heal_modifier = Множитель для всего выполненного лечения.
 changecvar-simple-playtest_melee_damage_modifier = Множитель, влияющий на урон от оружия ближнего боя.
 changecvar-full-playtest_melee_damage_modifier = Множитель, влияющий на весь урон, наносимый атаками ближнего боя.
 changecvar-simple-playtest_projectile_damage_modifier = Множитель, влияющий на урон от снарядов.

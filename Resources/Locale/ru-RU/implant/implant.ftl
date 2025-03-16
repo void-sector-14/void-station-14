@@ -16,11 +16,9 @@ implanter-set-draw-type = Тип импланта:
 implanter-draw-text = Извлечение
 implanter-inject-text = Установка
 implanter-empty-text = Пусто
-implanter-label-inject =
-    [color=green]{ $implantName }[/color]
+implanter-label-inject = [color=green]{ $implantName }[/color]
     Режим: [color=white]{ $modeString }[/color]
-implanter-label-draw =
-    [color=red]{ $implantName }[/color]
+implanter-label-draw = [color=red]{ $implantName }[/color]
     Режим: [color=white]{ $modeString }[/color]
 implanter-label =
     { "[" }color=green]{ $implantName }[/color]
