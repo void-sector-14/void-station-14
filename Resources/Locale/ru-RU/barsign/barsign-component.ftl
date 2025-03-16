@@ -120,7 +120,11 @@ barsign-prototype-description-emprah = Нравится и фанатикам, �
 barsign-prototype-name-spacebucks = Кредиты
 barsign-prototype-description-spacebucks = От них невозможно уйти, даже в космосе, и даже после того, как мы стали называть их «кредиты».
 barsign-prototype-description-empbarsign = Что-то пошло совсем не так.
+barsign-prototype-name-maltroach = Солодомоль
+barsign-prototype-description-maltroach = Бжжжж!
 
 ## SignOff
 
+barsign-prototype-name-whiskeyechoes = Отголоски виски
+barsign-prototype-description-whiskeyechoes = Элитный бар для элитного ждуна, это станция Nanotrasen. Почему этот знак в базе данных?
 barsign-prototype-description-sign-off = Этот знак, похоже, не включен.

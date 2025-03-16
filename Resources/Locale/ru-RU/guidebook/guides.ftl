@@ -131,6 +131,7 @@ guide-entry-traitors = Предатели
 guide-entry-zombies = Зомби
 guide-entry-revolutionaries = Революционеры
 guide-entry-minor-antagonists = Малые Антагонисты
+guide-entry-wizard = Волшебник
 guide-entry-space-ninja = Космический Ниндзя
 guide-entry-thieves = Воры
 guide-entry-rules = Правила сервера

@@ -1,7 +1,3 @@
-ent-WeaponTurretSyndicateBroken = баллистическая турель (сломанная)
-    .desc = Автоматическая турель с баллистическим пулеметом.
-ent-BaseWeaponTurret = баллистическая турель
-    .desc = { ent-BaseStructure.desc }
 ent-WeaponTurretSyndicate = { ent-BaseWeaponTurret }
     .desc = { ent-BaseWeaponTurret.desc }
     .suffix = Синдикат
@@ -18,5 +14,6 @@ ent-WeaponTurretAllHostile = { ent-BaseWeaponTurret }
     .suffix = Враждебная ко всем
     .desc = { ent-BaseWeaponTurret.desc }
 ent-WeaponTurretXeno = турель ксеносов
-    .desc = Стреляет кислотными снарядами калибра 9 мм
+    .desc = Стреляет кислотными снарядами калибра 9 мм.
     .suffix = Ксено
+
