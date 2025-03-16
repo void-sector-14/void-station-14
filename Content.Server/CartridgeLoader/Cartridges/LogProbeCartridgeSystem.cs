@@ -33,6 +33,7 @@ public sealed partial class LogProbeCartridgeSystem : EntitySystem // DeltaV - M
     {
         base.Initialize();
         InitializeNanoChat(); // DeltaV
+
         SubscribeLocalEvent<LogProbeCartridgeComponent, CartridgeUiReadyEvent>(OnUiReady);
         SubscribeLocalEvent<LogProbeCartridgeComponent, CartridgeAfterInteractEvent>(AfterInteract);
         SubscribeLocalEvent<LogProbeCartridgeComponent, CartridgeMessageEvent>(OnMessage);
@@ -135,7 +136,7 @@ public sealed partial class LogProbeCartridgeSystem : EntitySystem // DeltaV - M
 
     private void UpdateUiState(Entity<LogProbeCartridgeComponent> ent, EntityUid loaderUid)
     {
-        var state = new LogProbeUiState(ent.Comp.PulledAccessLogs, ent.Comp.ScannedNanoChatData); // DeltaV - NanoChat support
+        var state = new LogProbeUiState(ent.Comp.EntityName, ent.Comp.PulledAccessLogs, ent.Comp.ScannedNanoChatData); // DeltaV - NanoChat support
         _cartridge.UpdateCartridgeUiState(loaderUid, state);
     }
 }
