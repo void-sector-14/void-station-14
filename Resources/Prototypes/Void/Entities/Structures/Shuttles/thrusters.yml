@@ -1,0 +1,71 @@
+- type: entity
+  id: BigThruster
+  parent: BaseStructure
+  name: большой двигатель
+  description: Как обычный двигатель, только для крейсеров.
+  suffix: Дебаг
+  components:
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape:
+            !type:PhysShapeAabb
+            bounds: "-1.45,-1.5,1.45,1.4"
+          density: 60
+          mask:
+          - MachineMask
+          layer:
+          - MachineLayer
+    - type: AmbientSound
+      enabled: false
+      range: 4
+      volume: -4
+      sound:
+        path: /Audio/Effects/shuttle_thruster.ogg
+    - type: Transform
+      anchored: true
+    - type: Physics
+      bodyType: Static
+    - type: Rotatable
+      rotateWhileAnchored: true
+    - type: Thruster
+      thrust: 200
+      damage:
+        types:
+          Heat: 75
+    - type: InteractionOutline
+    - type: Appearance
+    - type: ThrusterVisuals
+    - type: ExtensionCableReceiver
+    - type: Damageable
+      damageContainer: StructuralInorganic
+      damageModifierSet: Electronic
+    - type: Destructible
+      thresholds:
+      - trigger:
+          !type:DamageTrigger
+          damage: 700
+        behaviors:
+          - !type:DoActsBehavior
+            acts: ["Destruction"]
+          - !type:PlaySoundBehavior
+            sound:
+              collection: MetalBreak
+    - type: StaticPrice
+      price: 3000
+    - type: Sprite
+      sprite: Void/Structures/Shuttles/big_thruster.rsi
+      layers:
+      - state: base
+        map: ["enum.ThrusterVisualLayers.Base"]
+      - state: thrust
+        map: ["enum.ThrusterVisualLayers.ThrustOn"]
+        shader: unshaded
+        visible: false
+      - state: thrust_burn_unshaded
+        map: ["enum.ThrusterVisualLayers.ThrustingUnshaded"]
+        shader: unshaded
+        visible: false
+    - type: ApcPowerReceiver
+      needsPower: false
+      powerLoad: 0
