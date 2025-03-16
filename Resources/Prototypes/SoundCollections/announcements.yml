@@ -5,7 +5,7 @@
   - /Audio/Announcements/RoundEnd/disappointed.ogg
   - /Audio/Announcements/RoundEnd/notevenpaidforthis.ogg
 
-- type: soundCollection
-  id: PowerOn
-  files:
-  - /Audio/Announcements/power_on.ogg
+# - type: soundCollection
+#   id: PowerOn
+#   files:
+#   - /Audio/Announcements/power_on.ogg
