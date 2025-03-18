@@ -16,4 +16,3 @@ ent-WeaponTurretAllHostile = { ent-BaseWeaponTurret }
 ent-WeaponTurretXeno = турель ксеносов
     .desc = Стреляет кислотными снарядами калибра 9 мм.
     .suffix = Ксено
-
