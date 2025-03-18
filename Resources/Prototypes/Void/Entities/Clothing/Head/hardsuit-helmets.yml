@@ -134,3 +134,31 @@
         Slash: 0.9
         Piercing: 0.9
         Heat: 0.9
+
+- type: entity
+  parent: ClothingHeadEVAHelmetBase
+  id: ClothingHeadHelmetSundowner
+  name: шлем брони ветра разрушения
+  description: "Я БЛЯТЬ НЕУЯЗВИМ!"
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Head/Hardsuits/sundownerhelmet.rsi
+  - type: Clothing
+    sprite: Void/Clothing/Head/Hardsuits/sundownerhelmet.rsi
+  - type: Tag
+    tags:
+    - HelmetEVA
+
+- type: entity
+  parent: ClothingHeadEVAHelmetBase
+  id: ClothingHeadHelmetAdamSmasher
+  name: дыхательный модуль
+  description: Для крутости
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Head/Hardsuits/CS-MK8Helmet.rsi
+  - type: Clothing
+    sprite: Void/Clothing/Head/Hardsuits/CS-MK8Helmet.rsi
+  - type: Tag
+    tags:
+    - HelmetEVA

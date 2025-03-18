@@ -70,3 +70,34 @@
   - type: Clothing
     slots: [ outerClothing ]
     sprite: Void/Clothing/OuterClothing/Coats/decker_coat.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingOuterSBTacjacket
+  name: корпоративная куртка службы безопасности
+  description: Официальная куртка сотрудника службы безопасности НаноТрейзен. Строгий дизайн и высокое качество материалов.
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/OuterClothing/Coats/tacjacket.rsi
+  - type: Clothing
+    slots: [ outerClothing ]
+    sprite: Void/Clothing/OuterClothing/Coats/tacjacket.rsi
+  - type: Storage
+    grid:
+    - 0,0,3,2
+    maxItemSize: Medium
+  - type: ContainerContainer
+    containers:
+      storagebase: !type:Container
+        ents: []
+  - type: UserInterface
+    interfaces:
+      enum.StorageUiKey.Key:
+        type: StorageBoundUserInterface
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.8
+        Slash: 0.8
+        Piercing: 0.9
+        Heat: 0.5

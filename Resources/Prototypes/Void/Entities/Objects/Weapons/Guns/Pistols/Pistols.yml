@@ -1,0 +1,134 @@
+- type: entity
+  name: позолоченный пустынный орёл
+  parent: [BaseWeaponPistol, BaseRestrictedContraband]
+  id: GoldenDeagleGun
+  description: Пожалуй, стоит покрутить им перед сотрудником службы безопасности.
+  components:
+  - type: Sprite
+    sprite: Void/Objects/Weapons/Guns/Pistols/DeagleGold.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-0
+      map: ["enum.GunVisualLayers.Mag"]
+  - type: Clothing
+    sprite: Void/Objects/Weapons/Guns/Pistols/DeagleGold.rsi
+  - type: Gun
+    minAngle: 5
+    maxAngle: 20
+    angleIncrease: 8
+    angleDecay: 9
+    fireRate: 6
+    availableModes:
+    - SemiAuto
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/mateba.ogg
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        name: Magazine
+        startingItem: MagazineMagnum
+        insertSound: /Audio/Weapons/Guns/MagIn/pistol_magin.ogg
+        ejectSound: /Audio/Weapons/Guns/MagOut/pistol_magout.ogg
+        priority: 2
+        whitelist:
+          tags:
+            - MagazineMagnum
+        whitelistFailPopup: gun-magazine-whitelist-fail
+      gun_chamber:
+        name: Chamber
+        startingItem: CartridgeMagnum
+        priority: 1
+        whitelist:
+          tags:
+            - CartridgeMagnum
+
+- type: entity
+  name: пустынный орёл
+  parent: [BaseWeaponPistol, BaseRestrictedContraband]
+  id: DeagleGun
+  description: Популярный пистолет, знаменит своей мощью за использование .45 калибра. Точность же.. Не лучшая сторона этого оружия.
+  components:
+  - type: Sprite
+    sprite: Void/Objects/Weapons/Guns/Pistols/Deagle.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-0
+      map: ["enum.GunVisualLayers.Mag"]
+  - type: Clothing
+    sprite: Void/Objects/Weapons/Guns/Pistols/Deagle.rsi
+  - type: Gun
+    minAngle: 5
+    maxAngle: 20
+    angleIncrease: 8
+    angleDecay: 9
+    fireRate: 6
+    availableModes:
+    - SemiAuto
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/mateba.ogg
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        name: Magazine
+        startingItem: MagazineMagnum
+        insertSound: /Audio/Weapons/Guns/MagIn/pistol_magin.ogg
+        ejectSound: /Audio/Weapons/Guns/MagOut/pistol_magout.ogg
+        priority: 2
+        whitelist:
+          tags:
+            - MagazineMagnum
+        whitelistFailPopup: gun-magazine-whitelist-fail
+      gun_chamber:
+        name: Chamber
+        startingItem: CartridgeMagnum
+        priority: 1
+        whitelist:
+          tags:
+            - CartridgeMagnum
+
+- type: entity #<-- Можно добавить на лут экспедиций. А ещё кто сможет сделать так что бы этот пистолет стрелял имел магазин под .60 тот получит подарок в стиме на бюджет в 500 рублей.
+  name: гиро-пистолет
+  parent: [BaseWeaponPistol, BaseRestrictedContraband]
+  id: Gyrogun
+  description: testgun
+  components:
+  - type: Sprite
+    sprite: Void/Objects/Weapons/Guns/Pistols/Gyrogun.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-0
+      map: ["enum.GunVisualLayers.Mag"]
+  - type: Clothing
+    sprite: Void/Objects/Weapons/Guns/Pistols/Gyrogun.rsi
+  - type: Gun
+    minAngle: 1
+    maxAngle: 1
+    angleIncrease: 0
+    angleDecay: 0
+    fireRate: 1
+    availableModes:
+    - SemiAuto
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/mateba.ogg
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        name: Magazine
+        startingItem: MagazineMagnum
+        insertSound: /Audio/Weapons/Guns/MagIn/pistol_magin.ogg
+        ejectSound: /Audio/Weapons/Guns/MagOut/pistol_magout.ogg
+        priority: 2
+        whitelist:
+          tags:
+            - MagazineMagnum
+        whitelistFailPopup: gun-magazine-whitelist-fail
+      gun_chamber:
+        name: Chamber
+        startingItem: CartridgeMagnum
+        priority: 1
+        whitelist:
+          tags:
+            - CartridgeMagnum

@@ -25,9 +25,15 @@
     ClothingShoesBootsCombat: 1
     ClothingShoesBootsWinterSec: 2
     ClothingHeadHelmetJustice: 1
+    ClothingNeckPonchoSB: 2
+    ClothingUniformCorporateUniform: 4
+    ClothingOuterSBTacjacket: 4
     ClothingBalaclavaMask: 4
     ClothingEyesGogglesSecurityTacticool: 4
+    ClothingEyesSwatGlasses: 4
     ClothingHeadHelmetLight: 4
+    ClothingJackBootsCross: 4
+    TacticalBackpack: 4
     ClothingFlashSuit: 1
     ClothingHeadFlash: 1
   contrabandInventory:

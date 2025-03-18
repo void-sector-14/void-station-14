@@ -27,6 +27,19 @@
   categories:
   - UplinkWeaponry
 
+- type: listing
+  id: UplinkDeagleGun
+  name: Пустынный орёл
+  description: Классика любого брутального наёмника. Во всяком случае, визуально. На практике же он тяжёлый и неудобный в обращении. Но зато какой стиль!
+  productEntity: DeagleGun
+  discountCategory: rareDiscounts
+  discountDownTo:
+    Telecrystal: 4
+  cost:
+    Telecrystal: 6
+  categories:
+  - UplinkWeaponry
+
 # Inbuilt suppressor so it's sneaky + more expensive.
 - type: listing
   id: UplinkPistolCobra
@@ -888,6 +901,19 @@
     Telecrystal: 2
   cost:
     Telecrystal: 4
+  categories:
+  - UplinkDisruption
+
+- type: listing
+  id: UplinkDataknife
+  name: инфо-клинок
+  description: Всё или ничего, пилот.
+  productEntity: BaseDataKnife
+  discountCategory: rareDiscounts
+  discountDownTo:
+    Telecrystal: 19
+  cost:
+    Telecrystal: 20
   categories:
   - UplinkDisruption
 
