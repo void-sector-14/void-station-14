@@ -92,7 +92,7 @@
   name: гиро-пистолет
   parent: [BaseWeaponPistol, BaseRestrictedContraband]
   id: Gyrogun
-  description: testgun
+  description: Пистолет с гироскооптической стабилизацией. Имеет минимальную отдачу и низкую скорострельность. Офицеры ТСФ просто обожают его.
   components:
   - type: Sprite
     sprite: Void/Objects/Weapons/Guns/Pistols/Gyrogun.rsi
