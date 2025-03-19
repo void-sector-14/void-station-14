@@ -33,3 +33,14 @@
     layers:
     - state: glow
       shader: unshaded
+
+- type: entity
+  parent: ClothingShoesBaseButcherable
+  id: ClothingJackBootsCross
+  name: тактические ботинки
+  description: Пара ботинок обычно носимых спец. подразделениями. 
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Shoes/Boots/jackbootscross.rsi
+  - type: Clothing
+    sprite: Void/Clothing/Shoes/Boots/jackbootscross.rsi

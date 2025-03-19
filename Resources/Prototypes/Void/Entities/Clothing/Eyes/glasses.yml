@@ -68,6 +68,32 @@
     coverage: EYES
 
 - type: entity
+  parent: [ClothingEyesBase, BaseRestrictedContraband]
+  id: ClothingEyesSwatGlasses
+  name: очки спецназа
+  description: Очки носимые спецназом. Не имеют всяких девчачих украшений вроде встроенного интерфейса охраны. 
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Eyes/Glasses/swatglasses.rsi
+  - type: Clothing
+    sprite: Void/Clothing/Eyes/Glasses/swatglasses.rsi
+  - type: FlashImmunity
+  - type: EyeProtection
+    protectionTime: 5
+  - type: Construction
+    graph: GlassesSecHUD
+    node: glassesSec
+  - type: Tag
+    tags:
+    - WhitelistChameleon
+  - type: GuideHelp
+    guides:
+    - Security
+    - Antagonists
+  - type: IdentityBlocker
+    coverage: EYES
+
+- type: entity
   parent: ClothingEyesBase
   id: ClothingEyesGlassesJohan
   name: йоханистические очки
