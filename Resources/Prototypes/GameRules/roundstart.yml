@@ -259,7 +259,7 @@
     - WizardSurviveObjective
     - WizardDemonstrateObjective
   - type: LoadMapRule
-    gridPath: /Maps/Shuttles/wizard.yml
+    gridPath: /Maps_Void/Shuttles/wizard.yml
   - type: RuleGrids
   - type: AntagSelection
   - type: AntagLoadProfileRule
