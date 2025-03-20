@@ -1,0 +1,12 @@
+ent-SpawnSupplySmokeGrenade = { "" }
+    .desc = { "" }
+ent-SpawnSupplyGrenadeFlashBang = { "" }
+    .desc = { "" }
+ent-SpawnSupplyEmpGrenade = { "" }
+    .desc = { "" }
+ent-SpawnSupplyGrenadeIncendiary = { "" }
+    .desc = { "" }
+ent-SpawnSupplyGrenadeShrapnel = { "" }
+    .desc = { "" }
+ent-SpawnSupplyPortableFlasher = { "" }
+    .desc = { "" }

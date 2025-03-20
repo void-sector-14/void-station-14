@@ -1,0 +1,2 @@
+ent-SpawnSupplyArtifact = { "" }
+    .desc = { "" }

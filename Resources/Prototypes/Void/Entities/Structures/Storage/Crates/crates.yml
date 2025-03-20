@@ -1,0 +1,131 @@
+- type: entity
+  parent: CrateBaseWeldable
+  id: milcrate
+  name: военный контейнер
+  description: Контейнер военного образца, предназначенный для хранения и перевозки различного оборудования. Вам вероятно, не стоит его трогать без веских причин.
+  components:
+  - type: Icon
+    sprite: Void/Structures/Storage/milcrate.rsi
+  - type: Sprite
+    sprite: Void/Structures/Storage/milcrate.rsi
+    layers:
+    - state: base
+    - state: closed
+      map: ["enum.StorageVisualLayers.Door"]
+    - state: welded
+      visible: false
+      map: ["enum.WeldableLayers.BaseWelded"]
+    - state: paper
+      sprite: Structures/Storage/Crates/labels.rsi
+      offset: "0.0,0.03125"
+      map: ["enum.PaperLabelVisuals.Layer"]
+
+- type: entity
+  parent: CrateBaseWeldable
+  id: engicrate
+  name: инженерный контейнер
+  description: Контейнер военного образца, предназначенный для хранения и перевозки различного оборудования, конкретно этот маркирован как инженерный. Вам вероятно, не стоит его трогать без веских причин.
+  components:
+  - type: Icon
+    sprite: Void/Structures/Storage/engicrate.rsi
+  - type: Sprite
+    sprite: Void/Structures/Storage/engicrate.rsi
+    layers:
+    - state: base
+    - state: closed
+      map: ["enum.StorageVisualLayers.Door"]
+    - state: welded
+      visible: false
+      map: ["enum.WeldableLayers.BaseWelded"]
+    - state: paper
+      sprite: Structures/Storage/Crates/labels.rsi
+      offset: "0.0,0.03125"
+      map: ["enum.PaperLabelVisuals.Layer"]
+
+- type: entity
+  parent: CrateBaseWeldable
+  id: medcrate
+  name: медицинский контейнер
+  description: Контейнер военного образца, предназначенный для хранения и перевозки различного оборудования, конкретно этот маркирован как медицинский. Вам вероятно, не стоит его трогать без веских причин.
+  components:
+  - type: Icon
+    sprite: Void/Structures/Storage/medcrate.rsi
+  - type: Sprite
+    sprite: Void/Structures/Storage/medcrate.rsi
+    layers:
+    - state: base
+    - state: closed
+      map: ["enum.StorageVisualLayers.Door"]
+    - state: welded
+      visible: false
+      map: ["enum.WeldableLayers.BaseWelded"]
+    - state: paper
+      sprite: Structures/Storage/Crates/labels.rsi
+      offset: "0.0,0.03125"
+      map: ["enum.PaperLabelVisuals.Layer"]
+
+- type: entity
+  parent: [StructureWheeled, CrateBaseWeldable]
+  id: engicart
+  name: техническая тележка #<== Можно использовать как очередное хранилище с лутом в техах
+  description: Тележка предназначенная для хранения материалов и инструментов.
+  components:
+  - type: Icon
+    sprite: Void/Structures/Storage/engicart.rsi
+  - type: Sprite
+    sprite: Void/Structures/Storage/engicart.rsi
+    layers:
+    - state: base
+    - state: closed
+      map: ["enum.StorageVisualLayers.Door"]
+    - state: welded
+      visible: false
+      map: ["enum.WeldableLayers.BaseWelded"]
+    - state: paper
+      sprite: Structures/Storage/Crates/labels.rsi
+      offset: "0.0,0.03125"
+      map: ["enum.PaperLabelVisuals.Layer"]
+
+- type: entity
+  parent: [StructureWheeled, CrateBaseWeldable]
+  id: engicartelectrical
+  name: тележка с электрооборудованием
+  description: Тележка предназначенная для общего хранения и перевозки электроники.
+  components:
+  - type: Icon
+    sprite: Void/Structures/Storage/engicart-electrical.rsi
+  - type: Sprite
+    sprite: Void/Structures/Storage/engicart-electrical.rsi
+    layers:
+    - state: base
+    - state: closed
+      map: ["enum.StorageVisualLayers.Door"]
+    - state: welded
+      visible: false
+      map: ["enum.WeldableLayers.BaseWelded"]
+    - state: paper
+      sprite: Structures/Storage/Crates/labels.rsi
+      offset: "0.0,0.03125"
+      map: ["enum.PaperLabelVisuals.Layer"]
+
+- type: entity
+  parent: [StructureWheeled, CrateBaseWeldable]
+  id: genericcart
+  name: тележка
+  description: Тележка!
+  components:
+  - type: Icon
+    sprite: Void/Structures/Storage/genericcart.rsi
+  - type: Sprite
+    sprite: Void/Structures/Storage/genericcart.rsi
+    layers:
+    - state: base
+    - state: closed
+      map: ["enum.StorageVisualLayers.Door"]
+    - state: welded
+      visible: false
+      map: ["enum.WeldableLayers.BaseWelded"]
+    - state: paper
+      sprite: Structures/Storage/Crates/labels.rsi
+      offset: "0.0,0.03125"
+      map: ["enum.PaperLabelVisuals.Layer"]

@@ -1,0 +1,44 @@
+- type: entity
+  # This means that it's not anchored on spawn.
+  id: TestIDPHYS
+  parent: BaseStructure
+  abstract: true
+  components:
+# These might/might not be a good idea
+#  - type: MovedByPressure
+#  - type: DamageOnHighSpeedImpact
+#  - type: TileFrictionModifier
+#    modifier: 0.5
+  - type: Transform
+    anchored: false
+  - type: Clickable
+  - type: Physics
+    bodyType: Dynamic
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.45,-0.45,0.45,0.45"
+        density: 60
+        mask:
+        - MachineMask
+        layer:
+        - MidImpassable
+        - LowImpassable
+  - type: Anchorable
+
+- type: entity
+  id: MissleTest #<== В планах сделать это декором с возможностью взрыва
+  parent: TestIDPHYS
+  components:
+  - type: Sprite
+    sprite: Void/Structures/Decoration/missle.rsi
+    state: base
+  - type: Destructible
+    health: 100
+    damageMultiplier: 1
+  - type: Damageable
+  - type: Explosive
+    explosionType: Default
+    totalIntensity: 60

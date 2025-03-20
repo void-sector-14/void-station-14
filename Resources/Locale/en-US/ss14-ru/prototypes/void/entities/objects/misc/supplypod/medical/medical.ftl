@@ -1,0 +1,16 @@
+ent-SpawnSupplyCrateMedicalSurgery = { "" }
+    .desc = { "" }
+ent-SpawnSupplyMedkitFilled = { "" }
+    .desc = { "" }
+ent-SpawnSupplyMedkitCombatFilled = { "" }
+    .desc = { "" }
+ent-SpawnSupplyMedkitBurnFilled = { "" }
+    .desc = { "" }
+ent-SpawnSupplyMedkitToxinFilled = { "" }
+    .desc = { "" }
+ent-SpawnSupplyMedkitBruteFilled = { "" }
+    .desc = { "" }
+ent-SpawnSupplyMedkitOxygenFilled = { "" }
+    .desc = { "" }
+ent-SpawnSupplyMedkitRadiationFilled = { "" }
+    .desc = { "" }

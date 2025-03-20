@@ -239,6 +239,8 @@ ghost-role-information-gingerbread-name = Пряничный Человек
 ghost-role-information-gingerbread-description =
     Существо из чистого праздничного духа.
     Распространяйте среди людей благодать патоки и хорошее настроение.
+ghost-role-information-wizard-name = Волшебник
+ghost-role-information-wizard-desc = ВЫ ВОЛШЕБНИК! Покажите станции, как делается настоящее волшебство.
 ghost-role-information-tomatokiller-name = Томат убийца
 ghost-role-information-tomatokiller-description = Этот маленький помидорчик прослужит ботанику всю его оставшуюся жизнь... то есть пару минут.
 ghost-role-information-syndicate-monkey-reinforcement-description = Кому-то нужно подкрепление. Вы, специально обученная обезьяна, поможете им.

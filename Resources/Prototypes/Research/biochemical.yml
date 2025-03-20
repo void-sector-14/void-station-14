@@ -112,3 +112,14 @@
   - BluespaceBeaker
   - SyringeBluespace
 
+- type: technology
+  id: CompactReanimation
+  name: research-technology-compact-reanimation
+  icon:
+    sprite: Objects/Specific/Medical/defibsmall.rsi
+    state: icon
+  discipline: Biochemical
+  tier: 3
+  cost: 7500
+  recipeUnlocks:
+  - DefibrillatorCompact

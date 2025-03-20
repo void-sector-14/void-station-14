@@ -49,3 +49,7 @@ ent-BarSignEmprah = За Империю
     .desc = Нравится и фанатикам, и еретикам, и завсегдатаям с дефектами мозга.
 ent-BarSignSpacebucks = Спейсбакс
     .desc = От них невозможно скрыться, даже в космосе.
+ent-BarSignMaltroach = Солодомоль
+    .desc = Бжжжж!
+ent-BarSignWhiskeyEchoes = Отголоски виски
+    .desc = Элитный бар для элитного ждуна, это станция Nanotrasen. Почему этот знак в базе данных?

@@ -8,7 +8,9 @@ using Content.Server.Chat.Systems;
 using Content.Server.Communications;
 using Content.Server.DeviceNetwork.Components;
 using Content.Server.DeviceNetwork.Systems;
+using Content.Server.GameTicking;
 using Content.Server.GameTicking.Events;
+using Content.Server.Maps;
 using Content.Server.Pinpointer;
 using Content.Server.Popups;
 using Content.Server.RoundEnd;
@@ -28,16 +30,17 @@ using Content.Shared.Shuttles.Components;
 using Content.Shared.Shuttles.Events;
 using Content.Shared.Tag;
 using Content.Shared.Tiles;
+using Content.Shared.Void.CCVar;
 using Robust.Server.GameObjects;
-using Robust.Server.Maps;
 using Robust.Shared.Audio.Systems;
 using Robust.Shared.Configuration;
-using Robust.Shared.Map;
+using Robust.Shared.EntitySerialization.Systems;
 using Robust.Shared.Map.Components;
 using Robust.Shared.Player;
 using Robust.Shared.Random;
 using Robust.Shared.Timing;
 using Robust.Shared.Utility;
+using Robust.Shared.Prototypes;
 
 namespace Content.Server.Shuttles.Systems;
 
@@ -60,7 +63,7 @@ public sealed partial class EmergencyShuttleSystem : EntitySystem
     [Dependency] private readonly DockingSystem _dock = default!;
     [Dependency] private readonly IdCardSystem _idSystem = default!;
     [Dependency] private readonly NavMapSystem _navMap = default!;
-    [Dependency] private readonly MapLoaderSystem _map = default!;
+    [Dependency] private readonly MapLoaderSystem _loader = default!;
     [Dependency] private readonly MetaDataSystem _metaData = default!;
     [Dependency] private readonly PopupSystem _popup = default!;
     [Dependency] private readonly RoundEndSystem _roundEnd = default!;
@@ -69,6 +72,7 @@ public sealed partial class EmergencyShuttleSystem : EntitySystem
     [Dependency] private readonly StationSystem _station = default!;
     [Dependency] private readonly TransformSystem _transformSystem = default!;
     [Dependency] private readonly UserInterfaceSystem _uiSystem = default!;
+    [Dependency] private readonly GameTicker _gameTicker = default!;
 
     private const float ShuttleSpawnBuffer = 1f;
 
@@ -531,39 +535,50 @@ public sealed partial class EmergencyShuttleSystem : EntitySystem
         }
 
         var map = _mapSystem.CreateMap(out var mapId);
-        var grid = _map.LoadGrid(mapId, component.Map.ToString(), new MapLoadOptions()
+        var centcommMapId = _configManager.GetCVar(VoidCVars.CentcommStation);
+        var prototypeManager = IoCManager.Resolve<IPrototypeManager>();
+        if (!prototypeManager.TryIndex<GameMapPrototype>(centcommMapId, out var gameMapPrototype))
         {
-            LoadMap = false,
-        });
+            Log.Error($"Failed to find GameMapPrototype with ID {centcommMapId}");
+            return;
+        }
+
+        var grid = _gameTicker.MergeGameMap(gameMapPrototype, mapId, null);
 
         if (!Exists(map))
         {
             Log.Error($"Failed to set up centcomm map!");
-            QueueDel(grid);
+            foreach (var entity in grid)
+            {
+                QueueDel(entity);
+            }
             return;
         }
 
-        if (!Exists(grid))
+        if (grid == null || grid.Any(entity => !Exists(entity)))
         {
             Log.Error($"Failed to set up centcomm grid!");
             QueueDel(map);
             return;
         }
 
-        var xform = Transform(grid.Value);
+        var xform = Transform(grid.First());
         if (xform.ParentUid != map || xform.MapUid != map)
         {
             Log.Error($"Centcomm grid is not parented to its own map?");
             QueueDel(map);
-            QueueDel(grid);
+            foreach (var entity in grid)
+            {
+                QueueDel(entity);
+            }
             return;
         }
 
         component.MapEntity = map;
         _metaData.SetEntityName(map, Loc.GetString("map-name-centcomm"));
-        component.Entity = grid;
+        component.Entity = grid.FirstOrDefault();
         _shuttle.TryAddFTLDestination(mapId, true, out _);
-        Log.Info($"Created centcomm grid {ToPrettyString(grid)} on map {ToPrettyString(map)} for station {ToPrettyString(station)}");
+        Log.Info($"Created centcomm grid {ToPrettyString(grid.FirstOrDefault())} on map {ToPrettyString(map)} for station {ToPrettyString(station)}");
     }
 
     public HashSet<EntityUid> GetCentcommMaps()
@@ -608,15 +623,11 @@ public sealed partial class EmergencyShuttleSystem : EntitySystem
 
         // Load escape shuttle
         var shuttlePath = ent.Comp1.EmergencyShuttlePath;
-        var shuttle = _map.LoadGrid(map.MapId, shuttlePath.ToString(), new MapLoadOptions()
-        {
+        if (!_loader.TryLoadGrid(map.MapId,
+            shuttlePath,
+            out var shuttle,
             // Should be far enough... right? I'm too lazy to bounds check CentCom rn.
-            Offset = new Vector2(500f + ent.Comp2.ShuttleIndex, 0f),
-            // fun fact: if you just fucking yeet centcomm into nullspace anytime you try to spawn the shuttle, then any distance is far enough. so lets not do that
-            LoadMap = false,
-        });
-
-        if (shuttle == null)
+            offset: new Vector2(500f + ent.Comp2.ShuttleIndex, 0f)))
         {
             Log.Error($"Unable to spawn emergency shuttle {shuttlePath} for {ToPrettyString(ent)}");
             return;
@@ -654,12 +665,12 @@ public sealed partial class EmergencyShuttleSystem : EntitySystem
 
         // check each emergency shuttle
         var xform = Transform(target);
-        foreach (var stationData in EntityQuery<StationEmergencyShuttleComponent>())
+        foreach (var stationData in EntityQuery<StationCentcommComponent>())
         {
-            if (stationData.EmergencyShuttle == null)
+            if (stationData.Entity == null)
                 continue;
 
-            if (IsOnGrid(xform, stationData.EmergencyShuttle.Value))
+            if (IsOnGrid(xform, stationData.Entity.Value))
             {
                 return true;
             }

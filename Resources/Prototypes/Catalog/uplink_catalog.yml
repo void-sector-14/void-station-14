@@ -27,6 +27,19 @@
   categories:
   - UplinkWeaponry
 
+- type: listing
+  id: UplinkDeagleGun
+  name: Пустынный орёл
+  description: Классика любого брутального наёмника. Во всяком случае, визуально. На практике же он тяжёлый и неудобный в обращении. Но зато какой стиль!
+  productEntity: DeagleGun
+  discountCategory: rareDiscounts
+  discountDownTo:
+    Telecrystal: 4
+  cost:
+    Telecrystal: 6
+  categories:
+  - UplinkWeaponry
+
 # Inbuilt suppressor so it's sneaky + more expensive.
 - type: listing
   id: UplinkPistolCobra
@@ -263,10 +276,10 @@
     - UplinkExplosives
 
 - type: listing
-  id: UplinkSupermatterGrenade
-  name: uplink-supermatter-grenade-name
-  description: uplink-supermatter-grenade-desc
-  productEntity: SupermatterGrenade
+  id: UplinkSingularityGrenade
+  name: uplink-singularity-grenade-name
+  description: uplink-singularity-grenade-desc
+  productEntity: SingularityGrenade
   discountCategory: usualDiscounts
   discountDownTo:
     Telecrystal: 3
@@ -870,6 +883,19 @@
   name: uplink-access-breaker-name
   description: uplink-access-breaker-desc
   productEntity: AccessBreaker
+  discountCategory: rareDiscounts
+  discountDownTo:
+    Telecrystal: 2
+  cost:
+    Telecrystal: 4
+  categories:
+  - UplinkDisruption
+
+- type: listing
+  id: UplinkEmag
+  name: uplink-emag-name
+  description: uplink-emag-desc
+  productEntity: Emag
   discountCategory: veryRareDiscounts
   discountDownTo:
     Telecrystal: 3
@@ -879,15 +905,15 @@
   - UplinkDisruption
 
 - type: listing
-  id: UplinkEmag
-  name: uplink-emag-name
-  description: uplink-emag-desc
-  productEntity: Emag
+  id: UplinkDataknife
+  name: инфо-клинок
+  description: Всё или ничего, пилот.
+  productEntity: BaseDataKnife
   discountCategory: rareDiscounts
   discountDownTo:
-    Telecrystal: 2
+    Telecrystal: 19
   cost:
-    Telecrystal: 4
+    Telecrystal: 20
   categories:
   - UplinkDisruption
 

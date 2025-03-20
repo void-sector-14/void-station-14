@@ -32,6 +32,7 @@
   - Slimecat
   - SlimecatAgressive
   - AllHostile
+  - Wizard
 
 - type: npcFaction
   id: Passive
@@ -44,6 +45,7 @@
   - Zombie
   - Xeno
   - AllHostile
+  - Wizard
 
 - type: npcFaction
   id: SimpleHostile
@@ -140,7 +142,11 @@
   hostile:
   - NanoTrasen
   - Dragon
+  - Mouse
+  - Passive
+  - PetsNT
   - SimpleHostile
+  - SimpleNeutral
   - Syndicate
   - SyndicateAgent
   - Xeno

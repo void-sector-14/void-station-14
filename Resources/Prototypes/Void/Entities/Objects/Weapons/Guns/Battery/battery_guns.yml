@@ -65,3 +65,43 @@
     - Sidearm
   - type: StaticPrice
     price: 750
+
+- type: entity
+  name: одноразовый тазер #<== Засунуть в техфаб СБ/ Добавить в технологию оружия СБ/ Всё и сразу. Цена 300 стали и 200 пластика
+  parent: [ BaseWeaponBattery, BaseRestrictedContraband ]
+  id: WeaponTaserCompact
+  description: Тазер выдаваемый сотрудникам службы безопасности. В ходе многих испытаний было принято решение сделать его разовым, с целью предотвращения травм у офицеров. На корпусе есть надпись - УТИЛИЗИРОВАТЬ ПОСЛЕ ПРИМЕНЕНИЯ, ВЗРЫВООПАСНО, ИСПОЛЬЗОВАНИЕ ПОСЛЕ ПРИМЕНЕНИЯ РАССЦЕНИВАЕТСЯ КАК ХАЛАТНОСТЬ.
+  components:  
+  - type: Battery
+    maxCharge: 100000
+    startingCharge: 100000 #<== Сделать так что-б взрывался если его полностью зарядить.
+  - type: Tag
+    tags:
+    - Taser
+    - Sidearm
+  - type: Sprite
+    sprite: Void/Objects/Weapons/Guns/Laser/compacttaser.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-unshaded-0
+      map: ["enum.GunVisualLayers.MagUnshaded"]
+      shader: none
+  - type: Item
+    heldPrefix: taser4
+  - type: Clothing
+    quickEquip: false
+    slots:
+    - Belt
+  - type: Gun
+    fireRate: 1
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/taser.ogg
+  - type: ProjectileBatteryAmmoProvider
+    proto: BulletTaser
+    fireCost: 100000
+  - type: MagazineVisuals
+    magState: mag
+    steps: 5
+    zeroVisible: true
+  - type: Appearance

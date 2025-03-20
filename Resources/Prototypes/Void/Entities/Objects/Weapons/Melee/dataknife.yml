@@ -5,6 +5,7 @@
   description: Стандартный нож для выживания с встроенным криптографическим модулем. Удобно, когда вас загнали в угол.
   components:
   - type: Emag
+    emagType: Access
   - type: Tag
     tags:
     - CombatKnife

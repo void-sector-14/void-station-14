@@ -45,3 +45,42 @@
     steps: 1
     zeroVisible: true
   - type: Appearance
+
+- type: entity
+  name: M90 #<-- Засунуть в техфаб СБ/ Добавить в технологию оружия СБ/ Всё и сразу. Цена 500 стали и 100 серебра
+  parent: [BaseWeaponSubMachineGun, BaseSecurityContraband]
+  id: WeaponSubMachineGunM90
+  description: Скорострельный пистолет-пулемет, разработанный и спроектированный в лучших стандартах ТСФ, теперь в издании от НаноТрейзен. Имеет механизм автоматического сброса магазина.
+  components:
+  - type: Sprite
+    sprite: Void/Objects/Weapons/Guns/SMGs/m90.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-0
+      map: ["enum.GunVisualLayers.Mag"]
+  - type: Clothing
+    sprite: Void/Objects/Weapons/Guns/SMGs/m90.rsi
+  - type: Wieldable
+    unwieldOnUse: false
+  - type: GunWieldBonus
+    minAngle: -5
+    maxAngle: -10
+  - type: Gun
+    fireRate: 12
+    minAngle: 21
+    maxAngle: 35
+    shotsPerBurst: 5
+    availableModes:
+    - Burst
+    - FullAuto
+    - SemiAuto
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/c-20r.ogg
+  - type: ChamberMagazineAmmoProvider
+    autoEject: true
+  - type: MagazineVisuals
+    magState: mag
+    steps: 6
+    zeroVisible: true
+  - type: Appearance

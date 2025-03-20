@@ -1,8 +1,8 @@
 - type: entity
   parent: [ClothingUniformBase, BaseFoldable]
-  id: ClothingJumpSuitTestFoldable
-  name: белый комбинезон
-  description: Обычный белый комбинезон
+  id: ClothingJumpSuitTestFoldable #<== Подставить под цветные комбезы. Как-то.
+  name: комбинезон
+  description: Обычный комбинезон.
   components:
   - type: Clothing
     sprite: Void/Clothing/Uniforms/jumpsuitfolded.rsi
