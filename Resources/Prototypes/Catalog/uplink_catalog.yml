@@ -526,9 +526,8 @@
   id: UplinkMagazineMagnum
   name: Магазин магнум .45
   description: Магазин для тех, кто не любит баллистику с барабанным механизмом.
-  icon: 
-  sprite: /Textures/Objects/Weapons/Guns/Ammunition/Magazine/Pistol/pistol_mag.rsi
-  productEntity: BaseMagazineMagnum
+  icon: { sprite: /Textures/Objects/Weapons/Guns/Ammunition/Magazine/Pistol/pistol_mag.rsi, state: base }
+  productEntity: MagazineMagnum
   cost:
     Telecrystal: 4
   categories:
