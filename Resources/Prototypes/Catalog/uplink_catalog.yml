@@ -522,6 +522,18 @@
   categories:
   - UplinkAmmo
 
+- type: listing
+  id: UplinkMagazineMagnum
+  name: Магазин магнум .45
+  description: Магазин для тех, кто не любит баллистику с барабанным механизмом.
+  icon: 
+  sprite: /Textures/Objects/Weapons/Guns/Ammunition/Magazine/Pistol/pistol_mag.rsi
+  productEntity: BaseMagazineMagnum
+  cost:
+    Telecrystal: 4
+  categories:
+  - UplinkAmmo
+
 # For the mosin
 - type: listing
   id: UplinkMosinAmmo
