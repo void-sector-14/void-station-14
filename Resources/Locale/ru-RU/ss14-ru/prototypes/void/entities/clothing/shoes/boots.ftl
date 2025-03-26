@@ -6,3 +6,5 @@ ent-ClothingShoesBootsCowBoySuit = ботинки ковбоя
     .suffix = { ent-ClothingShoesBaseButcherable.suffix }
 ent-ClothingShoesGlowBoot = ботинки декера
     .desc = Ботинки декера с подсветкой. Честно, никто не понимает почему именно они должны светиться, да и в целом они не светятся. Никто даже не понимает что означет слово "декер"
+ent-ClothingJackBootsCross = тактические ботинки
+    .desc = Пара ботинок обычно носимых спец. подразделениями.
