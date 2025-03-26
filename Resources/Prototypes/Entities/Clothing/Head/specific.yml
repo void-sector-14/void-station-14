@@ -28,7 +28,7 @@
   - type: Tag
     tags: [] # ignore "WhitelistChameleon" tag
   - type: TriggerOnVoice
-    keyPhrase: "go go gadget"
+    keyPhrase: "гоу гоу гаджет"
     listenRange: 0
   - type: ActiveListener
     range: 0
