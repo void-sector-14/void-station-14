@@ -1,0 +1,11 @@
+﻿- type: localizedDataset
+  id: NamesFirst
+  values:
+    prefix: names-first-dataset-
+    count: 902
+
+- type: localizedDataset
+  id: NamesLast
+  values:
+    prefix: names-last-dataset-
+    count: 721

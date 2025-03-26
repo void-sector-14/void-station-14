@@ -1,0 +1,26 @@
+names-skeleton-first-male-dataset-1 = Стернум
+names-skeleton-first-male-dataset-2 = Вертебрей
+names-skeleton-first-male-dataset-3 = Сакрум
+names-skeleton-first-male-dataset-4 = Брук
+names-skeleton-first-male-dataset-5 = Клавикл
+names-skeleton-first-male-dataset-6 = Хумерус
+names-skeleton-first-male-dataset-7 = Радиус
+names-skeleton-first-male-dataset-8 = Карплс
+names-skeleton-first-male-dataset-9 = Пелвис
+names-skeleton-first-male-dataset-10 = Мерроу
+names-skeleton-first-male-dataset-11 = Тарсалс
+names-skeleton-first-male-dataset-12 = Тейлбоун
+names-skeleton-first-male-dataset-13 = Риб
+names-skeleton-first-male-dataset-14 = Йорлунд
+names-skeleton-first-male-dataset-15 = Тарсус
+
+names-skeleton-first-female-dataset-1 = Тибия
+names-skeleton-first-female-dataset-2 = Фибула
+names-skeleton-first-female-dataset-3 = Ална
+names-skeleton-first-female-dataset-4 = Скапула
+names-skeleton-first-female-dataset-5 = Пателла
+names-skeleton-first-female-dataset-6 = Фанаджес
+names-skeleton-first-female-dataset-7 = Бон
+names-skeleton-first-female-dataset-8 = Фимур
+names-skeleton-first-female-dataset-9 = Кокикс
+names-skeleton-first-female-dataset-10 = Лакрмаль

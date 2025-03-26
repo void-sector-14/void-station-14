@@ -1,11 +1,5 @@
-- type: dataset
-  id: skeletonNamesLast
+- type: localizedDataset
+  id: NamesSkeletonLast
   values:
-  - Рибс
-  - Бонер
-  - Ребрад
-  - Шекспир
-  - Бьорн
-  - Айрен
-  - Гренаш
-  - Чивас
+    prefix: names-skeleton-last-dataset-
+    count: 8

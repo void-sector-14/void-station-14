@@ -34,3 +34,6 @@ id-card-access-level-nuclear-operative = Ядерные оперативники
 id-card-access-level-syndicate-agent = Агент Синдиката
 id-card-access-level-central-command = Центральное Командование
 id-card-access-level-wizard = Маг
+id-card-access-level-station-ai = Искусственный Интеллект
+id-card-access-level-borg = Киборг
+id-card-access-level-basic-silicon = Синтетик

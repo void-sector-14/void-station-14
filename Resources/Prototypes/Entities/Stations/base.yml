@@ -57,7 +57,7 @@
         mining: !type:GridSpawnGroup
           paths:
             - /Maps_Void/Shuttles/mining.yml
-          nameDataset: ShuttleNames
+          nameDataset: NamesCargoShuttle
         # Spawn last
         ruins: !type:GridSpawnGroup
           hide: true
@@ -133,6 +133,12 @@
 #  abstract: true
 #  components:
 #    - type: StationNews
+
+- type: entity
+  id: BaseStationDeliveries
+  abstract: true
+  components:
+  - type: CargoDeliveryData
 
 - type: entity
   id: BaseStationAllEventsEligible

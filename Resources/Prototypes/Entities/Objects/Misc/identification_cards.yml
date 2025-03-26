@@ -831,6 +831,7 @@
     groups:
     - AllAccess
     - MasterLevel
+    - Silicon
     tags:
     - CentralCommand
     - NuclearOperative

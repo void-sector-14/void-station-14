@@ -10,6 +10,9 @@
 
   - Революционеры — это антагонисты, которых Синдикат спонсирует для захвата станции.
 
+  ## Objectives
+  You must convert, cuff or kill all of the [textlink="Command staff" link="Command"] on station in no particular order.
+
   ## Главы Революционеров
 
 <Box>
@@ -23,7 +26,7 @@
 
   <Box>
   <GuideEntityEmbed Entity="Flash" Caption="Вспышка"/>
-</Box>
+  </Box>
 
   Вы можете конвертировать членов экипажа, используя [color=#a4885c]Вспышку[/color] в [color=#ff0000]Боевом режиме[/color] и атакуя кого-нибудь с её помощью. Для конвертации можно использовать любую вспышку, но помните, что у них ограниченный заряд.
 
@@ -35,11 +38,13 @@
 
   Однако такие вещи, как [color=#a4885c]Солнцезащитные очки[/color] и [color=#a4885c]Сварочная маска[/color] защищают от вспышек, и члены экипажа, носящие их, не смогут быть конвертированы в революционеров.
 
-<Box>
-  <GuideEntityEmbed Entity="MindShieldImplanter" Caption="Имплант Щит Разума"/>
-</Box>
+  Assume all of [color=#cb0000]Security[/color] and [color=#1b67a5]Command[/color] are implanted with mindshields already, [bold]however they can be removed using an empty implanter, obtainable from the Medical department's MedFab.[/bold]
 
   Несмотря на отсутствие защиты от вспышки, [color=#a4885c]Имплант Щит Разума[/color] предотвратит превращение имплантированного человека в революционера. Предполагается, что все сотрудники [color=#a4885c]Службы Безопасности[/color] и [color=#a4885c]Командование[/color] уже имплантированы.
+
+  <Box>
+    <GuideEntityEmbed Entity="MindShieldImplanter" Caption="Имплант Щит Разума"/>
+  </Box>
 
   ## Революционеры
 

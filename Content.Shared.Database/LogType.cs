@@ -456,4 +456,8 @@ public enum LogType
     AdminCommands = 98,
 
     Transactions = 120,
+    /// <summary>
+    /// A player was selected or assigned antag status
+    /// </summary>
+    AntagSelection = 99,
 }

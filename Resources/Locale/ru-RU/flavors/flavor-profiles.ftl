@@ -271,6 +271,17 @@ flavor-complex-irish-slammer = как шипучая пенка колы
 
 flavor-complex-white-gilgamesh = как слегка газированные сливки
 flavor-complex-antifreeze = как тепло
+flavor-complex-caipirinha = как Бразилия
+flavor-complex-daiquiri = как ром, лайм и сахар
+flavor-complex-deathintheafternoon = как анис и шампанское
+flavor-complex-empress75 =  как тирианский пурпур
+flavor-complex-espressomartini = как водка и кофе
+flavor-complex-mayojito = как животное бурление
+flavor-complex-mimeosa = как тишина и апельсины
+flavor-complex-mimosa = как ранний бранч
+flavor-complex-moscowmule = как водка и имбирный эль
+flavor-complex-thesunalsorises = как античный дайкири
+flavor-complex-whiskeysour = как виски и яйца
 flavor-complex-zombiecocktail = как поедание мозгов
 flavor-complex-absinthe = как анис
 flavor-complex-blue-curacao = как цветы апельсина
