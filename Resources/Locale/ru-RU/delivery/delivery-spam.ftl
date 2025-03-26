@@ -2,7 +2,7 @@
 # I hate saving paper contents in ftl files
 
 delivery-spam-robust-toolboxes =
-    [color=blue][head=1]
+    { "[color=blue][head=1]" }
     ░░▄▀░░
     ░▄█▄▄▀ [head=3]ROBUST - ЯЩИКИ ДЛЯ ИНСТРУМЕНТОВ И ИНСТРУМЕНТЫ[/head]
     ██▀░░░ [/head][/color]
@@ -19,7 +19,7 @@ delivery-spam-robust-toolboxes =
     - ДЕШЕВО! ВСЕГО ЛИШЬ ОДИН ОРГАН! ЭТО МЕНЬШЕ, ЧЕМ ДВА ОРГАНА!
     - НЕ ОБЯЗАТЕЛЬНО ВАШ ОРГАН! МЫ НЕ СУДИМ!
 delivery-spam-reasons-to-chose-nanotrasen =
-    [color=blue]
+    { "[color=blue]" }
                                    ╔══════════════════╗
                                    ║███░███░░░░██░░░░░║
                                    ║░██░████░░░██░░░░░║
@@ -39,7 +39,7 @@ delivery-spam-reasons-to-chose-nanotrasen =
     { "[bold]ПРИЧИНА НОМЕР ТРИ[/bold]" }
     ИХ ЛОГОТИП УЖАСЕН! ОНИ ДУМАЮТ, ЧТО ОНИ КРУТЫЕ С ИХ ЛОГОТИПОМ! ОЙ, СМОТРИТЕ НА МЕНЯ, Я ТАКОЙ КРУТОЙ! ОЙ, ЗМЕЯ, КОТОРАЯ ТАКЖЕ БУКВА S! КАК КРЕАТИВНО! МОЙ ТРЕХЛЕТНИЙ СЫН МОГ БЫ НАРИСОВАТЬ ЛУЧШИЙ ЛОГОТИП!
 delivery-spam-reasons-to-choose-syndicate =
-    [color=#ff0000]
+    { "[color=#ff0000]" }
                                   ╔══════════════════╗
                                   ║░░░░░████████░░░░░║
                                   ║░░░░░██░░░░░░░░░░░║
@@ -59,7 +59,7 @@ delivery-spam-reasons-to-choose-syndicate =
     { "[bold]ПРИЧИНА НОМЕР ТРИ[/bold]" }
     ИХ МЕТОДЫ УБИЙСТВА НЕВООБРАЗИМЫ! ПРОСТО ОРУЖИЕ! НИКАКОГО ВЫБРАСЫВАНИЯ ЛЮДЕЙ В ОТКРЫТЫЙ КОСМОС, НИКАКОГО ЗАБРАСЫВАНИЯ ЛЮДЕЙ В ПЕРЕРАБОТЧИКИ С ОТКЛЮЧЕННЫМ РЕЖИМОМ БЕЗОПАСНОСТИ, НИКАКИХ БОМБ В КАРМАНАХ! ТАК СКУЧНО!
 delivery-spam-tired-of-science =
-    [head=3]Наука ПОЛЮБИТ вас за это!!
+    { "[" }head=3]Наука ПОЛЮБИТ вас за это!!
 
     [bold]ВЫ[/bold] Устали от того, что НИО вашей станции взрывается, не делая никаких настоящих исследований? Ну, вам повезло![/head]
     Следуйте этому простому руководству, и мы гарантируем, что ваш НИО [italic]Никогда Не Заработает Снова![/italic]
@@ -73,7 +73,7 @@ delivery-spam-tired-of-science =
 
     { "[color=lightgray]Примечание: Клан Паука не несет ответственности за любое наказание, выданное вашим руководством.[/color]" }
 delivery-spam-free-all-access =
-    [head=3]ВЫ когда-нибудь хотели [italic][color=green]Бесплатный [bold]Полный Доступ!?!?[/bold][/color][/italic][/head]
+    { "[" }head=3]ВЫ когда-нибудь хотели [italic][color=green]Бесплатный [bold]Полный Доступ!?!?[/bold][/color][/italic][/head]
     { "[head=2]Ну ТЕПЕРЬ ВЫ МОЖЕТЕ!![/head]!" }
 
     Всё, что вам нужно сделать, это позвонить по номеру [color=blue]555-GOUR-LECKSSS[/color] и указать ваш ID станции!!!
@@ -87,7 +87,7 @@ delivery-spam-free-all-access =
     { "[bullet/]P.S. Мы в Gour-Lecksss LMT. не несем ответственности, если ГП вашей станции заставит вас заполнить РЕАЛЬНУЮ форму бесплатного ПД, если он узнает об этом письме" }
     { "[/color]" }
 delivery-spam-centcomm-retribution =
-    [color=red] ЭТО ОФИЦИАЛЬНОЕ УВЕДОМЛЕНИЕ ОТ ГЛАВЫ [color=blue]NANOTRASEN[/color][/color]
+    { "[" }color=red] ЭТО ОФИЦИАЛЬНОЕ УВЕДОМЛЕНИЕ ОТ ГЛАВЫ [color=blue]NANOTRASEN[/color][/color]
 
     Уважаемый(-ая) сэр, мадам или другой незначительный персонал станции,
 
@@ -97,7 +97,7 @@ delivery-spam-centcomm-retribution =
 
     { "[head=2][color=red]ИГНОРИРУЙТЕ ЭТОТ ПРИКАЗ НА СВОЙ СТРАХ И РИСК ПЕРЕД [color=green]ЦЕНТКОММ[/color]!!!!![/head][/color]" }
 delivery-spam-alternate-timeline =
-    [color=red]
+    { "[" }color=red]
                                  ╔══════════════════╗
                                  ║███░███░░░░██░░░░░║
                                  ║░██░████░░░██░░░░░║
@@ -115,7 +115,7 @@ delivery-spam-alternate-timeline =
 
     Слава Nanotrasen.
 delivery-spam-narsie-cult =
-    [color=#134975][head=2]Дитя Нар'Си[/head][/color]
+    { "[" }color=#134975][head=2]Дитя Нар'Си[/head][/color]
                                       Начало Новой Эры
     { "[bold]══──══──══──══──══──══──══──══──══──══──══[/bold]" }
 
@@ -132,7 +132,7 @@ delivery-spam-narsie-cult =
 
     Вам надо всего лишь сказать [color=#FF0000][italic]"Sas'so c'arta forbici!"[/italic][/color]
 delivery-spam-rage-cage =
-    [color=#aaaaaa]▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[/color]
+    { "[" }color=#aaaaaa]▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[/color]
                                  { "[bold][head=1]КЛЕТКА ЯРОСТИ[/head][/bold]" }
     { "[color=#aaaaaa]▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬[/color]" }
     { "[bold][color=#FF0000][head=3]ВЫ ХОТИТЕ СРАЖАТЬСЯ?[/head][/color][/bold]" }
@@ -151,7 +151,7 @@ delivery-spam-rage-cage =
     ──────────────────────────────────────────
     Никакого оружия, никакой брони, только чистый, неподдельный [bold]БОЙ[/bold]. Не проиграйте и не будьте [bold]СЛАБАКОМ[/bold]. Заслужите славу самого сильного бойца своей станции в [color=#FF0000][bold]КЛЕТКЕ ЯРОСТИ[/bold][/color] сегодня!
 delivery-spam-evil-lizard =
-    [color=#FF0000][bold][head=2]СТОЙ[/head][/bold][/color]
+    { "[" }color=#FF0000][bold][head=2]СТОЙ[/head][/bold][/color]
 
     Если ты читаешь это письмо...[color=#FF0000][head=3]ТЫ УЖЕ ПРОКЛЯТ!!![/head][/color]
 
@@ -190,7 +190,7 @@ delivery-spam-evil-lizard =
     ░░░░░░[color=#6EC543]████[/color]░░░░░░░░[color=#6EC543]████████[/color]░░░░░░░░
     ░░░░░░░░░░░░░░░░░░░░[color=#6EC543]████[/color]░░░░░░░░░░
 delivery-spam-parents-need-money =
-    [bold]Привет Дорогой,[/bold]
+    { "[" }bold]Привет Дорогой,[/bold]
 
     Это твои родители пишут тебе: нам нужны деньги! Наши налоги были проверены, и мы должны 100'000 кредитов правительству! Пожалуйста, помоги! Они хотят только подарочные карты, поэтому тебе нужно будет отправить нам 100 подарочных карт Bisa на 1000 кредитов.
 
@@ -205,7 +205,7 @@ delivery-spam-parents-need-money =
     { "[bold]спасибо, и мы любим тебя.,[/bold]" }
     { "[italic]родители[/italics]" }
 delivery-spam-voyage-advertisement =
-    [head=2]Присоединяйтесь к нам в первом рейсе...[/head]
+    { "[" }head=2]Присоединяйтесь к нам в первом рейсе...[/head]
 
          ░█▀▀░█▀▀░░░█▀▄░█▀▀░█░░░█▀█░█░█░█▀█░█▀▄
          ░▀▀█░▀▀█░░░█▀▄░█▀▀░█░░░█▀█░▄▀▄░█░█░█▀▄
