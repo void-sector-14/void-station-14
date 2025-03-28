@@ -64,6 +64,10 @@ space_wind = false
 [biomass]
 easy_mode = false
 
+[control]
+static_storage_ui = false
+storage_limit = 10
+
 [vote]
 timermap = 30
 

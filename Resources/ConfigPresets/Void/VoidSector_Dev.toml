@@ -53,6 +53,10 @@ mmos_max_wind = 1000.0
 [biomass]
 easy_mode = false
 
+[control]
+static_storage_ui = false
+storage_limit = 2
+
 [whitelist]
 enabled = true
 prototype_list = "voidSectorWhitelist"
