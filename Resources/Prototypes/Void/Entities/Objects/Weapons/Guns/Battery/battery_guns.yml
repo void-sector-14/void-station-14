@@ -88,6 +88,7 @@
       map: ["enum.GunVisualLayers.MagUnshaded"]
       shader: none
   - type: Item
+    size: Small
     heldPrefix: taser4
   - type: Clothing
     quickEquip: false

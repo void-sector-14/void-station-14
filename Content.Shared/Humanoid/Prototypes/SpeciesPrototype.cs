@@ -82,19 +82,19 @@ public sealed partial class SpeciesPrototype : IPrototype
     public HumanoidSkinColor SkinColoration { get; private set; }
 
     [DataField]
-    public string MaleFirstNames { get; private set; } = "names_first_male";
+    public string MaleFirstNames { get; private set; } = "NamesFirstMale";
 
     [DataField]
-    public string FemaleFirstNames { get; private set; } = "names_first_female";
+    public string FemaleFirstNames { get; private set; } = "NamesFirstFemale";
 
     [DataField]
-    public string MaleLastNames { get; } = "names_last_male";
+    public string MaleLastNames { get; } = "NamesLastMale";
 
     [DataField]
-    public string FemaleLastNames { get; } = "names_last_female";
+    public string FemaleLastNames { get; } = "NamesLastFemale";
 
     [DataField]
-    public string LastNames { get; private set; } = "names_last";
+    public string LastNames { get; private set; } = "NamesLast";
 
     [DataField]
     public SpeciesNaming Naming { get; private set; } = SpeciesNaming.FirstLast;

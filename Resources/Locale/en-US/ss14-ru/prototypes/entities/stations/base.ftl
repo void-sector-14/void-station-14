@@ -24,5 +24,7 @@ ent-BaseStationMagnet = { "" }
     .desc = { "" }
 ent-BaseStationSiliconLawCrewsimov = { "" }
     .desc = { "" }
+ent-BaseStationDeliveries = { "" }
+    .desc = { "" }
 ent-BaseStationAllEventsEligible = { "" }
     .desc = { "" }

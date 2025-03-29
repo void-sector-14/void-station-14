@@ -1,42 +1,17 @@
-- type: dataset
-  id: NamesFirstMilitaryLeader
+- type: localizedDataset
+  id: NamesMilitaryFirstLeader
   values:
-  - Полковник
-  - Коммандер
-  - Лейтенант
-  - Майор
+    prefix: names-military-leader-first-dataset-
+    count: 4
 
-- type: dataset
-  id: NamesFirstMilitary
+- type: localizedDataset
+  id: NamesMilitaryFirst
   values:
-  - Капрал
-  - Сержант
-  - Прапорщик
+    prefix: names-military-first-dataset-
+    count: 3
 
-- type: dataset
-  id: NamesLastMilitary
+- type: localizedDataset
+  id: NamesMilitaryLast
   values:
-  - Альфа
-  - Браво
-  - Чарли
-  - Дельта
-  - Эхо
-  - Фокстрот
-  - Гольф
-  - Хоутел
-  - Индиа
-  - Джулиет
-  - Кило
-  - Лима
-  - Майк
-  - Новэмбэр
-  - Оскар
-  - Квебек
-  - Ромео
-  - Сьера
-  - Танго
-  - Юниформ
-  - Виктор
-  - Виски
-  - Иксрей
-  - Зулу
+    prefix: names-military-last-dataset-
+    count: 24

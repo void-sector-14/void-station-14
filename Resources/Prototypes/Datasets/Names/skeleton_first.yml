@@ -1,32 +1,11 @@
-- type: dataset
-  id: skeletonMaleNamesFirst
+- type: localizedDataset
+  id: NamesSkeletonFirstMale
   values:
-  - Стернум
-  - Вертебрей
-  - Сакрум
-  - Брук
-  - Клавикл
-  - Хумерус
-  - Радиус
-  - Карплс
-  - Пелвис
-  - Мерроу
-  - Тарсалс
-  - Тейлбоун
-  - Риб
-  - Йорлунд
-  - Тарсус
+    prefix: names-skeleton-first-male-dataset-
+    count: 15
 
-- type: dataset
-  id: skeletonFemaleNamesFirst
+- type: localizedDataset
+  id: NamesSkeletonFirstFemale
   values:
-  - Тибия
-  - Фибула
-  - Ална
-  - Скапула
-  - Пателла
-  - Фанаджес
-  - Бон
-  - Фимур
-  - Кокикс
-  - Лакрмаль
+    prefix: names-skeleton-first-female-dataset-
+    count: 10

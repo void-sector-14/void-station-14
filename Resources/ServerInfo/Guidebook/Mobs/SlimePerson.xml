@@ -29,4 +29,10 @@
   - Вместо крови - слизь зеленого цвета. Она замедляет персонажей на ней на 25%.
   - Слаймолюды дышат реже человека в 5 раз, следовательно получают по [color=red]0.2[/color] урона удушьем без азота. Могут долго обходиться без азота.
 
+  Their slime "blood" can not be regenerated from Iron. Slime Blood is technically a source of
+  moderately filling food for other species, although drinking the blood of your coworkers is usually frowned upon.
+  They suffocate 80% slower, but take pressure damage 9% faster. This makes them by far the species most capable to survive in hard vacuum. For a while.
+
+  They take [color=#1e90ff]40% less Blunt damage and 20% less Poison damage[/color], but [color=#ffa500]50% more Cold damage, 20% more Slash damage and 20% more Piercing damage[/color].
+
 </Document>

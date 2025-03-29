@@ -4,3 +4,5 @@ ent-ClothingOuterArmorBlueshield = панцирь офицера синего щ
 ent-ClothingOuterVestKevlarCent = фирменный бронежилет Центкома
     .desc = Стоит как три станции.
     .suffix = { ent-ClothingOuterBase.suffix }
+ent-ClothingBrigmedicVest = бронежилет бригмедика
+    .desc = Бронежилет врача брига с парой креплений под снаряжение, немного удобней чем его альтернатива.

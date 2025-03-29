@@ -282,11 +282,11 @@
   productEntity: SingularityGrenade
   discountCategory: usualDiscounts
   discountDownTo:
-    Telecrystal: 3
+    Telecrystal: 1
   cost:
-    Telecrystal: 6
+    Telecrystal: 2
   categories:
-    - UplinkExplosives
+    - UplinkDisruption
 
 - type: listing
   id: UplinkWhiteholeGrenade
@@ -297,9 +297,9 @@
   discountDownTo:
     Telecrystal: 1
   cost:
-    Telecrystal: 3
+    Telecrystal: 2
   categories:
-    - UplinkExplosives
+    - UplinkDisruption
 
 - type: listing
   id: UplinkGrenadePenguin
@@ -519,6 +519,17 @@
   productEntity: SpeedLoaderMagnumAP
   cost:
     Telecrystal: 3
+  categories:
+  - UplinkAmmo
+
+- type: listing
+  id: UplinkMagazineMagnum
+  name: Магазин магнум .45
+  description: Магазин для тех, кто не любит баллистику с барабанным механизмом.
+  icon: { sprite: /Textures/Objects/Weapons/Guns/Ammunition/Magazine/Pistol/pistol_mag.rsi, state: base }
+  productEntity: MagazineMagnum
+  cost:
+    Telecrystal: 4
   categories:
   - UplinkAmmo
 
