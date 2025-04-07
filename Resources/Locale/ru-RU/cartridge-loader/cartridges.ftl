@@ -1,6 +1,7 @@
 device-pda-slot-component-slot-name-cartridge = Картридж
 default-program-name = Программа
 notekeeper-program-name = Заметки
+nano-task-program-name = НаноЦель
 news-read-program-name = Новости станции
 crew-manifest-program-name = Манифест экипажа
 crew-manifest-cartridge-loading = Загрузка...
@@ -23,6 +24,47 @@ astro-nav-program-name = АстроНав
 med-tek-program-name = МедТек
 # Wanted list cartridge
 wanted-list-program-name = Список разыска
+nano-task-ui-heading-high-priority-tasks =
+    { $amount ->
+        [zero] Нет высокоприоритетных задач
+        [one] 1 Высокоприоритетная задача
+        [few] { $amount } Высокоприоритетные задачи
+       *[other] { $amount } Высокоприоритетных задач
+    }
+nano-task-ui-heading-medium-priority-tasks =
+    { $amount ->
+        [zero] Нет задач средней приоритетности
+        [one] 1 Задача средней приоритетности
+        [few] { $amount } Задачи средней приоритетности
+       *[other] { $amount } Среднеприоритетных задач
+    }
+nano-task-ui-heading-low-priority-tasks =
+    { $amount ->
+        [zero] Нет низкоприоритетных задач
+        [one] 1 Низкоприоритетная задача
+        [few] { $amount } Низкоприоритетные задачи
+       *[other] { $amount } Низкоприоритетных задач
+    }
+nano-task-ui-done = Готово
+nano-task-ui-revert-done = Назад
+nano-task-ui-priority-low = Низкий
+nano-task-ui-priority-medium = Средний
+nano-task-ui-priority-high = Высокий
+nano-task-ui-cancel = Отмена
+nano-task-ui-print = Напечатать
+nano-task-ui-delete = Удалить
+nano-task-ui-save = Сохранить
+nano-task-ui-new-task = Создать задачу
+nano-task-ui-description-label = Описание:
+nano-task-ui-description-placeholder = Сделать что-то важное
+nano-task-ui-requester-label = Запросчик:
+nano-task-ui-requester-placeholder = Джон Нанотрейзен
+nano-task-ui-item-title = Изменить задачу
+nano-task-printed-description = Описание: { $description }
+nano-task-printed-requester = Запросчик: { $requester }
+nano-task-printed-high-priority = Приоритет: Высокий
+nano-task-printed-medium-priority = Приоритет: Средний
+nano-task-printed-low-priority = Приоритет: Низкий
 wanted-list-label-no-records = Всё спокойно, ковбой.
 wanted-list-search-placeholder = Поиск по имени и статусу
 wanted-list-age-label = [color=darkgray]Возраст:[/color] [color=white]{ $age }[/color]

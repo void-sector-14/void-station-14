@@ -319,6 +319,7 @@ flavor-complex-toxins-special = как исследование космоса
 flavor-complex-vodka-martini = как шпионский фильм из России
 flavor-complex-vodka-tonic = освежающе горький
 flavor-complex-uolong = как чай, что может загорется
+flavor-complex-bacchus-blessing = как стена из кирпичей
 
 ### This is exactly what pilk tastes like. I'm not even joking. I might've been a little drunk though
 
