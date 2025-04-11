@@ -111,6 +111,7 @@ recall_turning_point = 0.1
 auto_call_time = 300
 auto_call_extension_time = 90
 arrivals_map = "Maps_Void/Misc/terminal.yml"
+mass_limit = 6500
 
 [rules]
 time = 90.0
