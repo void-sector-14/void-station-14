@@ -46,6 +46,7 @@
   - Xeno
   - AllHostile
   - Wizard
+  - Dragon
 
 - type: npcFaction
   id: SimpleHostile
@@ -61,6 +62,7 @@
   - SlimecatAgressive
   - AllHostile
   - Wizard
+  - Dragon
 
 - type: npcFaction
   id: SimpleNeutral
@@ -91,6 +93,7 @@
   - SlimecatAgressive
   - AllHostile
   - Wizard
+  - Dragon
 
 - type: npcFaction
   id: Zombie
@@ -107,6 +110,7 @@
   - SlimecatAgressive
   - AllHostile
   - Wizard
+  - Dragon
 
 - type: npcFaction
   id: Revolutionary

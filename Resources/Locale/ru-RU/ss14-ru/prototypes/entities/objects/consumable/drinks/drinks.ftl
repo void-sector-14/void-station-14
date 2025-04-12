@@ -455,3 +455,6 @@ ent-DrinkShakeWhite = белый коктейль
 ent-DrinkBloodGlass = { ent-DrinkGlass }
     .suffix = Кровь
     .desc = { ent-DrinkGlass.desc }
+ent-DrinkBacchusBlessing = { ent-DrinkGlass }
+    .desc = Ты не думал, что жидкость может быть такой отвратительной. Ты уверен в этом...?
+    .suffix = благословение Бахуса

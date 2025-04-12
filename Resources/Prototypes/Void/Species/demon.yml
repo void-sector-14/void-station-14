@@ -8,7 +8,6 @@
   markingLimits: MobDemonMarkingLimits
   dollPrototype: MobDemonDummy
   skinColoration: Hues
-  naming: firstlast
 
 - type: speciesBaseSprites
   id: MobDemonSprites
