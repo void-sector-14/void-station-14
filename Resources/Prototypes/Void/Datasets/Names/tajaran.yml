@@ -1,7 +1,7 @@
 - type: localizedDataset
   id: NamesTajaranFirstMale
   values:
-    prefix: names-moth-first-male-dataset-
+    prefix: names-tajaran-first-male-dataset-
     count: 629
 
 - type: localizedDataset
