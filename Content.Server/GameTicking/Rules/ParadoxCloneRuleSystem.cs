@@ -3,13 +3,11 @@ using Content.Server.Cloning;
 using Content.Server.GameTicking.Rules.Components;
 using Content.Server.Medical.SuitSensors;
 using Content.Server.Objectives.Components;
-using Content.Server.Revolutionary.Components;
 using Content.Shared.GameTicking.Components;
 using Content.Shared.Gibbing.Components;
 using Content.Shared.Medical.SuitSensor;
 using Content.Shared.Mind;
 using Robust.Shared.Random;
-using System.Linq;
 
 namespace Content.Server.GameTicking.Rules;
 
@@ -62,7 +60,6 @@ public sealed class ParadoxCloneRuleSystem : GameRuleSystem<ParadoxCloneRuleComp
         {
             // get possible targets
             var allAliveHumanoids = _mind.GetAliveHumans();
-            allAliveHumanoids.RemoveWhere(x => HasComp<CentcommStaffComponent>(x.Owner));
 
             // we already checked when starting the gamerule, but someone might have died since then.
             if (allAliveHumanoids.Count == 0)
