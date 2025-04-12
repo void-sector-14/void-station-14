@@ -74,6 +74,7 @@ public sealed class PickObjectiveTargetSystem : EntitySystem
             return;
 
         var allHumans = _mind.GetAliveHumans(args.MindId);
+        allHumans.RemoveWhere(x => HasComp<CentcommStaffComponent>(x.Owner));
 
         // Can't have multiple objectives to kill the same person
         foreach (var objective in args.Mind.Objectives)
@@ -109,6 +110,7 @@ public sealed class PickObjectiveTargetSystem : EntitySystem
 
         // no other humans to kill
         var allHumans = _mind.GetAliveHumans(args.MindId);
+        allHumans.RemoveWhere(x => HasComp<CentcommStaffComponent>(x.Owner));
         if (allHumans.Count == 0)
         {
             args.Cancelled = true;
@@ -138,7 +140,7 @@ public sealed class PickObjectiveTargetSystem : EntitySystem
         }
 
         var traitors = _traitorRule.GetOtherTraitorMindsAliveAndConnected(args.Mind).ToHashSet();
-
+        traitors.RemoveWhere(x => HasComp<CentcommStaffComponent>(x.Id));
         // cant help anyone who is tasked with helping:
         // 1. thats boring
         // 2. no cyclic progress dependencies!!!
