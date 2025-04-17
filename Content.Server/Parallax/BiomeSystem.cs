@@ -10,6 +10,7 @@ using Content.Server.Shuttles.Events;
 using Content.Server.Shuttles.Systems;
 using Content.Shared.Atmos;
 using Content.Shared.Decals;
+using Content.Shared.Ghost;
 using Content.Shared.Gravity;
 using Content.Shared.Light.Components;
 using Content.Shared.Parallax.Biomes;
@@ -54,6 +55,7 @@ public sealed partial class BiomeSystem : SharedBiomeSystem
 
     private EntityQuery<BiomeComponent> _biomeQuery;
     private EntityQuery<FixturesComponent> _fixturesQuery;
+    private EntityQuery<GhostComponent> _ghostQuery;
     private EntityQuery<TransformComponent> _xformQuery;
 
     private readonly HashSet<EntityUid> _handledEntities = new();
@@ -85,6 +87,7 @@ public sealed partial class BiomeSystem : SharedBiomeSystem
         Log.Level = LogLevel.Debug;
         _biomeQuery = GetEntityQuery<BiomeComponent>();
         _fixturesQuery = GetEntityQuery<FixturesComponent>();
+        _ghostQuery = GetEntityQuery<GhostComponent>();
         _xformQuery = GetEntityQuery<TransformComponent>();
         SubscribeLocalEvent<BiomeComponent, MapInitEvent>(OnBiomeMapInit);
         SubscribeLocalEvent<FTLStartedEvent>(OnFTLStarted);
@@ -253,7 +256,7 @@ public sealed partial class BiomeSystem : SharedBiomeSystem
 
     private void OnFTLStarted(ref FTLStartedEvent ev)
     {
-        var targetMap = ev.TargetCoordinates.ToMap(EntityManager, _transform);
+        var targetMap = _transform.ToMapCoordinates(ev.TargetCoordinates);
         var targetMapUid = _mapManager.GetMapEntityId(targetMap.MapId);
 
         if (!TryComp<BiomeComponent>(targetMapUid, out var biome))
@@ -344,7 +347,8 @@ public sealed partial class BiomeSystem : SharedBiomeSystem
             if (_xformQuery.TryGetComponent(pSession.AttachedEntity, out var xform) &&
                 _handledEntities.Add(pSession.AttachedEntity.Value) &&
                  _biomeQuery.TryGetComponent(xform.MapUid, out var biome) &&
-                biome.Enabled)
+                biome.Enabled &&
+                CanLoad(pSession.AttachedEntity.Value))
             {
                 var worldPos = _transform.GetWorldPosition(xform);
                 AddChunksInRange(biome, worldPos);
@@ -361,7 +365,8 @@ public sealed partial class BiomeSystem : SharedBiomeSystem
                 if (!_handledEntities.Add(viewer) ||
                     !_xformQuery.TryGetComponent(viewer, out xform) ||
                     !_biomeQuery.TryGetComponent(xform.MapUid, out biome) ||
-                    !biome.Enabled)
+                    !biome.Enabled ||
+                    !CanLoad(viewer))
                 {
                     continue;
                 }
