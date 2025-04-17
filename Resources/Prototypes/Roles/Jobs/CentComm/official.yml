@@ -17,7 +17,7 @@
   - CentralCommand
   special:
   - !type:AddImplantSpecial
-    implants: [ MindShieldImplant ]
+    implants: [ MindShieldImplant, DeathRattleImplantCentcomm ]
   - !type:AddComponentSpecial
     components:
       - type: CentcommStaff

@@ -75,6 +75,7 @@
     - NamesRevenantType
     - NamesRevenantAdjective
     - NamesRevenantTheme
+    nameFormat: name-format-revenant
   - type: Speech
     speechVerb: Ghost
   - type: Reactive
