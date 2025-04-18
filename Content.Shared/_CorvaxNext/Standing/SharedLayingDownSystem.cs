@@ -1,6 +1,5 @@
 using System.Diagnostics.CodeAnalysis;
-using Content.Shared._CorvaxNext.NextVars;
-using Content.Shared._CorvaxNext.Targeting;
+using Content.Shared.Void.VoidCVars;
 using Content.Shared.Body.Components;
 using Content.Shared.Buckle;
 using Content.Shared.Buckle.Components;
@@ -78,7 +77,7 @@ public abstract class SharedLayingDownSystem : EntitySystem
         SubscribeLocalEvent<LayingDownComponent, StandAttemptEvent>(OnCheckLegs);
         SubscribeLocalEvent<BoundUserInterfaceMessageAttempt>(OnBoundUserInterface, after: [typeof(SharedInteractionSystem)]);
 
-        Subs.CVar(_config, NextVars.NextVars.CrawlUnderTables, b => CrawlUnderTables = b, true);
+        Subs.CVar(_config, VoidCvars.CrawlUnderTables, b => CrawlUnderTables = b, true);
     }
 
     private void OnCheckLegs(Entity<LayingDownComponent> ent, ref StandAttemptEvent args)
@@ -94,7 +93,6 @@ public abstract class SharedLayingDownSystem : EntitySystem
     {
         if (
             args.Cancelled ||
-            !TryComp<ActivatableUIComponent>(args.Target, out var uiComp) ||
             !TryComp<StandingStateComponent>(args.Actor, out var standingStateComponent) ||
             standingStateComponent.CurrentState != StandingState.Lying)
             return;
@@ -320,7 +318,6 @@ public abstract class SharedLayingDownSystem : EntitySystem
                 obj.Value,
                 uid,
                 PopupType.MediumCaution);
-            _damageable.TryChangeDamage(uid, new DamageSpecifier() { DamageDict = { { "Blunt", 5 } } }, ignoreResistances: true, canEvade: true, targetPart: TargetBodyPart.Head);
             _stun.TryStun(uid, TimeSpan.FromSeconds(2), true);
             _audioSystem.PlayPredicted(_bonkSound, uid, obj.Value);
             return false;
