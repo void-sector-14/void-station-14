@@ -1,5 +1,5 @@
 using System.Diagnostics.CodeAnalysis;
-using Content.Shared.Void.VoidCVars;
+using Content.Shared.Void.CCVar;
 using Content.Shared.Body.Components;
 using Content.Shared.Buckle;
 using Content.Shared.Buckle.Components;
