@@ -31,7 +31,7 @@ public sealed class LayingDownSystem : SharedLayingDownSystem
         SubscribeLocalEvent<LayingDownComponent, AfterAutoHandleStateEvent>(OnChangeDraw);
         SubscribeLocalEvent<StandingStateComponent, AfterAutoHandleStateEvent>(OnChangeStanding);
 
-        _cfg.OnValueChanged(CCVar.VoidCVars.AutoGetUp, b => _autoGetUp = b, true);
+        _cfg.OnValueChanged(VoidCVars.AutoGetUp, b => _autoGetUp = b, true);
 
         //SubscribeNetworkEvent<CheckAutoGetUpEvent>(OnCheckAutoGetUp);
     }
