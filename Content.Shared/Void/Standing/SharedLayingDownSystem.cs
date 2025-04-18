@@ -8,6 +8,7 @@ using Content.Shared.DoAfter;
 using Content.Shared.Gravity;
 using Content.Shared.Input;
 using Content.Shared.Interaction;
+using Content.Shared.Mind;
 using Content.Shared.Mobs;
 using Content.Shared.Mobs.Systems;
 using Content.Shared.Movement.Components;
@@ -54,6 +55,7 @@ public abstract class SharedLayingDownSystem : EntitySystem
     [Dependency] private readonly DamageableSystem _damageable = default!;
     [Dependency] private readonly SharedAudioSystem _audioSystem = default!;
     [Dependency] private readonly IGameTiming _timing = default!;
+    [Dependency] private readonly SharedMindSystem _mindSystem = default!;
 
     [Dependency] private readonly IConfigurationManager _config = default!;
 
@@ -77,7 +79,7 @@ public abstract class SharedLayingDownSystem : EntitySystem
         SubscribeLocalEvent<LayingDownComponent, StandAttemptEvent>(OnCheckLegs);
         SubscribeLocalEvent<BoundUserInterfaceMessageAttempt>(OnBoundUserInterface, after: [typeof(SharedInteractionSystem)]);
 
-        Subs.CVar(_config, VoidCvars.VoidCvars.CrawlUnderTables, b => CrawlUnderTables = b, true);
+        Subs.CVar(_config, VoidCVars.CrawlUnderTables, b => CrawlUnderTables = b, true);
     }
 
     private void OnCheckLegs(Entity<LayingDownComponent> ent, ref StandAttemptEvent args)
@@ -323,7 +325,8 @@ public abstract class SharedLayingDownSystem : EntitySystem
         var args = new DoAfterArgs(EntityManager, uid, layingDown.StandingUpTime, new StandingUpDoAfterEvent(), uid)
         {
             BreakOnHandChange = false,
-            RequireCanInteract = false
+            RequireCanInteract = false,
+            Hidden = !_mindSystem.TryGetMind(uid, out EntityUid _, out MindComponent? _)
         };
 
         if (!_doAfter.TryStartDoAfter(args))
@@ -342,7 +345,10 @@ public abstract class SharedLayingDownSystem : EntitySystem
             _buckle.IsBuckled(uid))
         {
             if (behavior == DropHeldItemsBehavior.AlwaysDrop)
-                RaiseLocalEvent(uid, new DropHandItemsEvent());
+            {
+                DropHandItemsEvent e = new();
+                RaiseLocalEvent(uid, ref e);
+            }
 
             return false;
         }
