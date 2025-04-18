@@ -1,6 +1,6 @@
 using Content.Shared.ActionBlocker;
-using Content.Shared._CorvaxNext.NextVars;
-using Content.Shared._CorvaxNext.Standing;
+using Content.Shared.Void.CCVar;
+using Content.Shared.Void.Standing;
 using Content.Shared.Buckle;
 using Content.Shared.Rotation;
 using Content.Shared.Standing;
@@ -10,7 +10,7 @@ using Robust.Shared.Configuration;
 using Robust.Shared.Player;
 using Robust.Shared.Timing;
 
-namespace Content.Client._CorvaxNext.Standing;
+namespace Content.Client.Void.Standing;
 
 public sealed class LayingDownSystem : SharedLayingDownSystem
 {
@@ -31,7 +31,7 @@ public sealed class LayingDownSystem : SharedLayingDownSystem
         SubscribeLocalEvent<LayingDownComponent, AfterAutoHandleStateEvent>(OnChangeDraw);
         SubscribeLocalEvent<StandingStateComponent, AfterAutoHandleStateEvent>(OnChangeStanding);
 
-        _cfg.OnValueChanged(NextVars.AutoGetUp, b => _autoGetUp = b, true);
+        _cfg.OnValueChanged(CCVar.VoidCVars.AutoGetUp, b => _autoGetUp = b, true);
 
         //SubscribeNetworkEvent<CheckAutoGetUpEvent>(OnCheckAutoGetUp);
     }

@@ -34,7 +34,7 @@ using Robust.Shared.Player;
 using Robust.Shared.Serialization;
 using Robust.Shared.Timing;
 
-namespace Content.Shared._CorvaxNext.Standing;
+namespace Content.Shared.Void.Standing;
 
 public abstract class SharedLayingDownSystem : EntitySystem
 {
@@ -77,7 +77,7 @@ public abstract class SharedLayingDownSystem : EntitySystem
         SubscribeLocalEvent<LayingDownComponent, StandAttemptEvent>(OnCheckLegs);
         SubscribeLocalEvent<BoundUserInterfaceMessageAttempt>(OnBoundUserInterface, after: [typeof(SharedInteractionSystem)]);
 
-        Subs.CVar(_config, VoidCvars.CrawlUnderTables, b => CrawlUnderTables = b, true);
+        Subs.CVar(_config, VoidCvars.VoidCvars.CrawlUnderTables, b => CrawlUnderTables = b, true);
     }
 
     private void OnCheckLegs(Entity<LayingDownComponent> ent, ref StandAttemptEvent args)
@@ -96,9 +96,6 @@ public abstract class SharedLayingDownSystem : EntitySystem
             !TryComp<StandingStateComponent>(args.Actor, out var standingStateComponent) ||
             standingStateComponent.CurrentState != StandingState.Lying)
             return;
-
-        if (uiComp.RequiresComplex)
-            args.Cancel();
     }
 
     private void OnChangeMobState(Entity<LayingDownComponent> ent, ref MobStateChangedEvent args)

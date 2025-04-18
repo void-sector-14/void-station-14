@@ -1,11 +1,11 @@
-using Content.Shared._CorvaxNext.NextVars;
-using Content.Shared._CorvaxNext.Standing;
+using Content.Shared.Void.CCVar;
+using Content.Shared.Void.Standing;
 using Content.Shared.Rotation;
 using Content.Shared.Standing;
 using Robust.Shared.Configuration;
 using Robust.Shared.Player;
 
-namespace Content.Server._CorvaxNext.Standing;
+namespace Content.Server.Void.Standing;
 
 public sealed class LayingDownSystem : SharedLayingDownSystem // WD EDIT
 {
@@ -60,7 +60,7 @@ public sealed class LayingDownSystem : SharedLayingDownSystem // WD EDIT
 
     protected override bool GetAutoGetUp(Entity<LayingDownComponent> ent, ICommonSession session)
     {
-        return _cfg.GetClientCVar(session.Channel, NextVars.AutoGetUp);
+        return _cfg.GetClientCVar(session.Channel, VoidCVars.AutoGetUp);
     }
     /*
         private void OnCheckAutoGetUp(CheckAutoGetUpEvent ev, EntitySessionEventArgs args)

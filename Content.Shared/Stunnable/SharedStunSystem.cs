@@ -19,7 +19,7 @@ using Robust.Shared.Audio.Systems;
 using Robust.Shared.Physics.Components;
 using Robust.Shared.Physics.Events;
 using Robust.Shared.Physics.Systems;
-using Content.Shared._CorvaxNext.Standing;
+using Content.Shared.Void.Standing;
 using Content.Shared.Movement.Components;
 
 namespace Content.Shared.Stunnable;
