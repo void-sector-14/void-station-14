@@ -58,7 +58,7 @@ public sealed class JukeboxSystem : SharedJukeboxSystem
 
             var audioParams = AudioParams.Default
                 .WithVolume(-8f)
-                .WithMaxDistance(10f);
+                .WithMaxDistance(32f);
 
             component.AudioStream = Audio.PlayPvs(jukeboxProto.Path, uid, audioParams)?.Entity;
             Dirty(uid, component);

@@ -1,4 +1,7 @@
+using Content.Shared.Buckle;
+using Content.Shared.Buckle.Components;
 using Content.Shared.Hands.Components;
+using Content.Shared.Movement.Systems;
 using Content.Shared.Physics;
 using Content.Shared.Rotation;
 using Robust.Shared.Audio.Systems;
@@ -12,6 +15,7 @@ public sealed class StandingStateSystem : EntitySystem
     [Dependency] private readonly SharedAppearanceSystem _appearance = default!;
     [Dependency] private readonly SharedAudioSystem _audio = default!;
     [Dependency] private readonly SharedPhysicsSystem _physics = default!;
+    [Dependency] private readonly MovementSpeedModifierSystem _movement = default!; // CorvaxNext EDIT
 
     // If StandingCollisionLayer value is ever changed to more than one layer, the logic needs to be edited.
     private const int StandingCollisionLayer = (int) CollisionGroup.MidImpassable;
@@ -52,6 +56,9 @@ public sealed class StandingStateSystem : EntitySystem
             RaiseLocalEvent(uid, ref ev, false);
         }
 
+        //if (TryComp(uid, out BuckleComponent? buckle) && buckle.Buckled && !_buckle.TryUnbuckle(uid, uid, buckleComp: buckle)) // WD EDIT
+        //    return false;
+
         if (!force)
         {
             var msg = new DownAttemptEvent();
@@ -61,6 +68,7 @@ public sealed class StandingStateSystem : EntitySystem
                 return false;
         }
 
+        standingState.CurrentState = StandingState.Lying;
         standingState.Standing = false;
         Dirty(uid, standingState);
         RaiseLocalEvent(uid, new DownedEvent(), false);
@@ -91,6 +99,7 @@ public sealed class StandingStateSystem : EntitySystem
             _audio.PlayPredicted(standingState.DownSound, uid, uid);
         }
 
+        _movement.RefreshMovementSpeedModifiers(uid); // CorvaxNext EDIT
         return true;
     }
 
@@ -109,6 +118,9 @@ public sealed class StandingStateSystem : EntitySystem
         if (standingState.Standing)
             return true;
 
+        //if (TryComp(uid, out BuckleComponent? buckle) && buckle.Buckled && !_buckle.TryUnbuckle(uid, uid, buckleComp: buckle)) // WD EDIT
+        //    return false;
+
         if (!force)
         {
             var msg = new StandAttemptEvent();
@@ -118,6 +130,7 @@ public sealed class StandingStateSystem : EntitySystem
                 return false;
         }
 
+        standingState.CurrentState = StandingState.Standing;
         standingState.Standing = true;
         Dirty(uid, standingState);
         RaiseLocalEvent(uid, new StoodEvent(), false);
@@ -133,6 +146,7 @@ public sealed class StandingStateSystem : EntitySystem
             }
         }
         standingState.ChangedFixtures.Clear();
+        _movement.RefreshMovementSpeedModifiers(uid); // CorvaxNext EDIT
 
         return true;
     }
@@ -187,5 +201,3 @@ public sealed class FellDownEvent : EntityEventArgs
 /// </summary>
 [ByRefEvent]
 public record struct FellDownThrowAttemptEvent(EntityUid Thrower, bool Cancelled = false);
-
-
