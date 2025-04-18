@@ -216,3 +216,41 @@
   - type: HeldSpeedModifier
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetAdamSmasher
+
+- type: entity
+  parent: [ClothingOuterHardsuitBase, BaseSecurityContraband, BaseToggleClothing]
+  id: ClothingHardsuitNanoTrasenElite
+  name: элитный скафандр нанотрейзен
+  description: Скафандр носимый элитными корпоративными отрядами и агентами НаноТрейзен. Имеет встроенный модуль активной маскировки.
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/OuterClothing/Hardsuits/EliteNT.rsi
+  - type: Clothing
+    sprite: Void/Clothing/OuterClothing/Hardsuits/EliteNT.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.6
+    lowPressureMultiplier: 1000
+  - type: TemperatureProtection
+    heatingCoefficient: 0.01
+    coolingCoefficient: 0.01
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.8
+        Slash: 0.8
+        Piercing: 0.8
+        Heat: 0.8
+  - type: ToggleClothing
+    action: ActionTogglePhaseCloak
+  - type: ComponentToggler
+    parent: true
+    components:
+    - type: Stealth
+      minVisibility: 0
+      lastVisibility: 0
+      maxVisibility: 0
+  - type: ClothingSpeedModifier
+    walkModifier: 0.8
+    sprintModifier: 1
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHelmetEliteNanoTrasen
