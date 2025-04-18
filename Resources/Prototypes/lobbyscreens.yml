@@ -93,3 +93,7 @@
 - type: lobbyBackground
   id: Medbay
   background: /Textures/LobbyScreens/medbay.png
+
+- type: lobbyBackground
+  id: VoidSector
+  background: /Textures/LobbyScreens/VoidSector.png
