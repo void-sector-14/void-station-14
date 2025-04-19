@@ -1,0 +1,15 @@
+- type: entity
+  parent: [ClothingHandsButcherable, BaseMedicalContraband]
+  id: ClothingHandsGlovesParamedic
+  name: изолированные перчатки парамедика
+  description: Изолированные перчатки с добавлением нетрила, что обеспечивает стерильность.
+  components:
+  - type: FingerprintMask
+  - type: Sprite
+    sprite: Clothing/Hands/Gloves/Color/yellow.rsi
+  - type: Clothing
+    sprite: Clothing/Hands/Gloves/Color/yellow.rsi
+  - type: Insulated
+  - type: Fiber
+    fiberMaterial: fibers-insulative
+    fiberColor: fibers-blue
