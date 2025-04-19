@@ -1,5 +1,5 @@
 - type: entityTable
-  id: LockerFillQuarterMaster
+  id: LockerFillQuarterMasterNoHardsuit
   table: !type:AllSelector
     children:
     - id: BoxEncryptionKeyCargo
@@ -20,6 +20,16 @@
     - id: AstroNavCartridge
     - id: MailTeleporterMachineCircuitboard
 
+# Hardsuit table, used for suit storage as well
+- type: entityTable
+  id: FillQuarterMasterHardsuit
+  table: !type:AllSelector
+    children:
+    - id: ClothingMaskGasExplorer
+    - id: ClothingOuterHardsuitQuartermaster
+    - id: ClothingShoesBootsMag
+    - id: OxygenTankFilled
+
 - type: entity
   id: LockerQuarterMasterFilled
   suffix: Filled
@@ -28,7 +38,22 @@
   - type: EntityTableContainerFill
     containers:
       entity_storage: !type:NestedSelector
-        tableId: LockerFillQuarterMaster
+        tableId: LockerFillQuarterMasterNoHardsuit
+
+# No hardsuit + Hardsuit locker
+- type: entity
+  id: LockerQuarterMasterFilledHardsuit
+  suffix: Filled, Hardsuit
+  parent: LockerQuarterMaster
+  components:
+  - type: EntityTableContainerFill
+    containers:
+      entity_storage: !type:AllSelector
+        children:
+        - !type:NestedSelector
+          tableId: LockerFillQuarterMasterNoHardsuit
+        - !type:NestedSelector
+          tableId: FillQuarterMasterHardsuit
 
 # No laser table
 - type: entityTable
