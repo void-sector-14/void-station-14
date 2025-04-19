@@ -97,6 +97,18 @@
   - LauncherSyringe
   - MiniSyringe
 
+- type: technology
+  id: MedJawsOfLife
+  name: research-technology-med-jaws-of-life
+  icon:
+    sprite: Void/Objects/Tools/jaws_of_life.rsi
+    state: jaws_pry
+  discipline: Biochemical
+  tier: 2
+  cost: 5000
+  recipeUnlocks:
+  - MedJawsOfLife
+
 # Tier 3
 
 - type: technology

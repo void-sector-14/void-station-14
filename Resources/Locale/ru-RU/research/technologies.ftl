@@ -82,3 +82,4 @@ research-technology-syringelauncher = Дистанционное лечение
 research-technology-military-machinery = Военная машинерия
 research-technology-modern-combat-mechs = Передовые боевые мехи
 research-technology-compact-reanimation = Компактная реанимация
+research-technology-med-jaws-of-life = Ускоренное спасение
