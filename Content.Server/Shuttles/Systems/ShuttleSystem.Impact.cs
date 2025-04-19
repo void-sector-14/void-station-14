@@ -26,12 +26,12 @@ public sealed partial class ShuttleSystem
     /// <summary>
     /// Kinetic energy required to dismantle a single tile
     /// </summary>
-    private const float TileBreakEnergy = 5000;
+    private const float TileBreakEnergy = 10000;
 
     /// <summary>
     /// Kinetic energy required to spawn sparks
     /// </summary>
-    private const float SparkEnergy = 7000;
+    private const float SparkEnergy = 14000;
     // Horizon end
 
     private readonly SoundCollectionSpecifier _shuttleImpactSound = new("ShuttleImpactSound");
