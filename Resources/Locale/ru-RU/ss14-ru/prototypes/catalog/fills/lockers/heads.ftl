@@ -1,6 +1,9 @@
 ent-LockerQuarterMasterFilled = { ent-LockerQuarterMaster }
     .suffix = Заполненный
     .desc = { ent-LockerQuarterMaster.desc }
+ent-LockerQuarterMasterFilledHardsuit = { ent-LockerQuarterMaster }
+    .suffix = Заполненный, Скафандр
+    .desc = { ent-LockerQuarterMaster.desc }
 ent-LockerCaptainFilledHardsuit = { ent-LockerCaptain }
     .suffix = Заполненный, Скафандр
     .desc = { ent-LockerCaptain.desc }
