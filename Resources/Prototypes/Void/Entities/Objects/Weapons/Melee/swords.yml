@@ -1,0 +1,81 @@
+- type: entity
+  name: молот войны
+  parent: [ BaseSword ]
+  id: Warhammer
+  description: Мощный молот прошлого времени, его ещё называют "молотом войны". Говорят, у него есть ещё что-то около тридцать-девять тысяч изданий.
+  components:
+  - type: Sprite
+    sprite: Void/Objects/Weapons/Melee/warhammer.rsi
+  - type: MeleeWeapon
+    attackRate: 0.80
+    damage:
+      types:
+        Blunt: 10
+    soundHit:
+        path: /Audio/Weapons/smash.ogg
+  - type: Item
+    sprite: Void/Objects/Weapons/Melee/warhammer.rsi
+  - type: DisarmMalus
+
+- type: entity
+  name: средневековый меч
+  parent: [ BaseSword ]
+  id: MedievalSword
+  description: Древний меч, который использовался в средние века, сейчас он просто лежит без дела.
+  components:
+  - type: Sprite
+    sprite: Void/Objects/Weapons/Melee/sword.rsi
+  - type: MeleeWeapon
+    attackRate: 0.85
+    damage:
+      types:
+        Slash: 15
+    soundHit:
+        path: /Audio/Weapons/bladeslice.ogg
+  - type: Item
+  - type: Clothing
+    sprite: Void/Objects/Weapons/Melee/sword.rsi
+    slots:
+    - back
+  - type: DisarmMalus
+
+- type: entity
+  name: сабля
+  parent: [ BaseSword ]
+  id: MedievalSabre
+  description: Церемониальный меч из древнего времени.
+  components:
+  - type: Sprite
+    sprite: Void/Objects/Weapons/Melee/medival_sabre.rsi
+  - type: MeleeWeapon
+    attackRate: 0.90
+    damage:
+      types:
+        Slash: 10
+        Piercing: 5
+    soundHit:
+        path: /Audio/Weapons/bladeslice.ogg
+  - type: Item
+    sprite: Void/Objects/Weapons/Melee/medival_sabre.rsi
+  - type: DisarmMalus
+
+- type: entity
+  name: рапира
+  parent: [ BaseSword ]
+  id: DarkRapier
+  description: Сложное в обращении оружие, которое требует от своего владельца высокой ловкости и точности.
+  components:
+  - type: Sprite
+    sprite: Void/Objects/Weapons/Melee/dark_rapier.rsi
+  - type: MeleeWeapon
+    attackRate: 0.90
+    damage:
+      types:
+        Slash: 15
+        Piercing: 5
+    soundHit:
+        path: /Audio/Weapons/bladeslice.ogg
+  - type: Item
+    sprite: Void/Objects/Weapons/Melee/dark_rapier.rsi
+  - type: DisarmMalus
+

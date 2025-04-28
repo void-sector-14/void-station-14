@@ -13,3 +13,45 @@
   - type: Fiber
     fiberMaterial: fibers-insulative
     fiberColor: fibers-blue
+
+- type: entity
+  parent: ClothingHandsBase
+  id: ClothingHandsGlovesPlateDracula
+  name: проклятые перчатки
+  description: Перчатки, покрытые странным красным туманом.
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Hands/Gloves/cursed_gloves.rsi
+  - type: Clothing
+    sprite: Void/Clothing/Hands/Gloves/cursed_gloves.rsi
+  - type: Fiber
+    fiberMaterial: Floating Haze
+    fiberColor: Dark-Red
+  - type: Armor
+    modifiers:
+      coefficients:
+        Slash: 0.95
+        Blunt: 0.95
+        Piercing: 0.95
+  - type: FingerprintMask
+
+- type: entity
+  parent: ClothingHandsBase
+  id: ClothingHandsGlovesPlateRusty
+  name: ржавые перчатки
+  description: Пара ржавых перчаток с пластинчатой защитой.
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Hands/Gloves/rusty_plate_gloves.rsi
+  - type: Clothing
+    sprite: Void/Clothing/Hands/Gloves/rusty_plate_gloves.rsi
+  - type: Fiber
+    fiberMaterial: Rust
+    fiberColor: Red-Brown
+  - type: Armor
+    modifiers:
+      coefficients:
+        Slash: 0.95
+        Blunt: 0.95
+        Piercing: 0.95
+  - type: FingerprintMask
