@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "license": "None",
+  "copyright": "Made by RayLig",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "riot-icon"
+    },
+    {
+      "name": "riot-inhand-right",
+      "directions": 4
+    },
+    {
+      "name": "riot-inhand-left",
+      "directions": 4
+    }
+  ]
+}

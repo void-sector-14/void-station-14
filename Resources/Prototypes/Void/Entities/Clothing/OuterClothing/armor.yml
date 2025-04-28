@@ -63,3 +63,41 @@
         Piercing: 0.65
         Heat: 0.85
         Caustic: 0.75
+
+- type: entity
+  parent: ClothingOuterArmorBasic
+  id: ClothingOuterArmorCursedPlate
+  name: проклятая броня
+  description: Странные доспехи, которые излучают красный туман из трещин.
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/OuterClothing/Armor/cursed_armor.rsi
+  - type: Clothing
+    sprite: Void/Clothing/OuterClothing/Armor/cursed_armor.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.80
+        Slash: 0.75
+        Piercing: 0.90
+  - type: ExplosionResistance
+    damageCoefficient: 0.90
+
+- type: entity
+  parent: ClothingOuterArmorBasic
+  id: ClothingOuterArmorRustyBreastPlate
+  name: ржавый нагрудник
+  description: Просто ржавый нагрудник.
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/OuterClothing/Armor/rusty_chestplate.rsi
+  - type: Clothing
+    sprite: Void/Clothing/OuterClothing/Armor/rusty_chestplate.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.80
+        Slash: 0.75
+        Piercing: 0.90
+  - type: ExplosionResistance
+    damageCoefficient: 0.95

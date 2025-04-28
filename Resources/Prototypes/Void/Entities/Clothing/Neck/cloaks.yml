@@ -69,3 +69,25 @@
   components:
   - type: Sprite
     sprite: Void/Clothing/Neck/ponchoSB.rsi
+
+- type: entity
+  parent: [ClothingNeckBase]
+  id: ClothingNeckBanditCloackGreen
+  name: плащ бандита
+  description: яркко-зелёный плащ бандита.
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Neck/bandit_cloak_green.rsi
+  - type: Clothing
+    sprite: Void/Clothing/Neck/bandit_cloak_green.rsi
+
+- type: entity
+  parent: [ClothingNeckBase]
+  id: ClothingNeckCrusaderCloack
+  name: плащ крестоносца
+  description: Ярко-белый плащ, который часто носили крестоносцы.
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Neck/crusader_cloak.rsi
+  - type: Clothing
+    sprite: Void/Clothing/Neck/crusader_cloak.rsi
