@@ -24,6 +24,7 @@
   - Dragon
   - AllHostile
   - Wizard
+  - Xenoborg
 
 - type: npcFaction
   id: Mouse
@@ -60,9 +61,11 @@
   - SyndicateAgent
   - Slimecat
   - SlimecatAgressive
+  - Dragon
+  - Xeno
   - AllHostile
   - Wizard
-  - Dragon
+  - Xenoborg
 
 - type: npcFaction
   id: SimpleNeutral
@@ -78,6 +81,7 @@
   - Dragon
   - AllHostile
   - Wizard
+  - Xenoborg
 
 - type: npcFaction
   id: Xeno
@@ -94,6 +98,7 @@
   - AllHostile
   - Wizard
   - Dragon
+  - Xenoborg
 
 - type: npcFaction
   id: Zombie
@@ -111,6 +116,7 @@
   - AllHostile
   - Wizard
   - Dragon
+  - Xenoborg
 
 - type: npcFaction
   id: Revolutionary
@@ -121,6 +127,7 @@
   - Dragon
   - AllHostile
   - Wizard
+  - Xenoborg
 
 - type: npcFaction
   id: AllHostile
@@ -140,6 +147,7 @@
   - Slimecat
   - SlimecatAgressive
   - Wizard
+  - Xenoborg
 
 - type: npcFaction
   id: Wizard
@@ -158,3 +166,23 @@
   - Revolutionary
   - AllHostile
   - SlimecatAgressive
+  - Xenoborg
+
+- type: npcFaction
+  id: Xenoborg
+  hostile:
+  # they have brains
+  - NanoTrasen
+  - Syndicate
+  - Zombie
+  - Revolutionary
+  - Wizard
+  - SyndicateAgent
+  - Slimecat
+  - SlimecatAgressive
+
+  - Xeno # rivalry
+
+  # cause they are hostile to them
+  - SimpleHostile
+  - AllHostile

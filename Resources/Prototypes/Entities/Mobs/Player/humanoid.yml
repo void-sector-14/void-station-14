@@ -6,18 +6,20 @@
     - type: RandomHumanoidAppearance
       randomizeName: false
     - type: GhostTakeoverAvailable
+    - type: IdBind
 
 - type: randomHumanoidSettings
   id: EventHumanoidMindShielded
   parent: EventHumanoid
-  speciesBlacklist: [Arachnid, Diona, Dwarf, Moth, Reptilian, SlimePerson, Vox, DemonSpecies, Katunian, TajaranSpecies, VulpkaninPerson, Felinid]
+  randomizeName: false
   components:
     - type: MindShield
     - type: AntagImmune
 
 - type: randomHumanoidSettings
   id: EventHumanoidCentcomm
-  parent: EventHumanoidMindShielded
+  parent:
+  speciesBlacklist: [Arachnid, Diona, Dwarf, Moth, Reptilian, SlimePerson, Vox, DemonSpecies, Katunian, TajaranSpecies, VulpkaninPerson, Felinid]
   components:
   - type: AutoImplant
     implants:
@@ -44,7 +46,6 @@
 - type: randomHumanoidSettings
   id: DeathSquad
   parent: EventHumanoidCentcomm
-  randomizeName: false
   components:
     - type: GhostRole
       name: ghost-role-information-Death-Squad-name
@@ -85,7 +86,6 @@
 - type: randomHumanoidSettings
   id: ERTLeader
   parent: EventHumanoidCentcomm
-  randomizeName: false
   components:
     - type: GhostRole
       name: ghost-role-information-ert-leader-name

@@ -16,7 +16,7 @@
   minBankBalance: 350
   maxBankBalance: 550
   wageDepartment: Science
-  wage: 30 
+  wage: 30
 
 - type: startingGear
   id: ResearchAssistantGear

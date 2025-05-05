@@ -1,6 +1,9 @@
 - type: latheRecipe
   id: FanTinyElectronics
   result: FanTinyElectronics
+  categories:
+  - Machines
+  - Engineering
   completetime: 4
   materials:
      Steel: 200
@@ -10,6 +13,9 @@
 - type: latheRecipe
   id: TurretAntiMeteorCircuitboard
   result: TurretAntiMeteorCircuitboard
+  categories:
+  - Machines
+  - Engineering
   completetime: 8
   materials:
      Steel: 100
@@ -18,6 +24,107 @@
      Gold: 50
 
 - type: latheRecipe
-  parent: BaseGoldCircuitboardRecipe
+  parent: [ BaseGoldCircuitboardRecipe, BaseResearchMachineRecipeCategory ]
   id: ExperimentalArtifactAnalyzerMachineCircuitboard
   result: ExperimentalArtifactAnalyzerMachineCircuitboard
+
+# Circuitboard Mech
+# Clarke
+
+- type: latheRecipe
+  parent: [ BaseGoldCircuitboardRecipe, BaseMechRecipeCategory ]
+  id: ClarkeCentralElectronics
+  result: ClarkeCentralElectronics
+
+- type: latheRecipe
+  parent: [ BaseGoldCircuitboardRecipe, BaseMechRecipeCategory ]
+  id: ClarkePeripheralsElectronics
+  result: ClarkePeripheralsElectronics
+
+# RipleyMKii
+
+- type: latheRecipe
+  parent: [ BaseGoldCircuitboardRecipe, BaseMechRecipeCategory ]
+  id: RipleyMKiiPeripheralsElectronics
+  result: RipleyMKiiPeripheralsElectronics
+
+- type: latheRecipe
+  parent: [ BaseGoldCircuitboardRecipe, BaseMechRecipeCategory ]
+  id: RipleyMKiiCentralElectronics
+  result: RipleyMKiiCentralElectronics
+
+# FireFighter
+
+- type: latheRecipe
+  parent: [ BaseGoldCircuitboardRecipe, BaseMechRecipeCategory ]
+  id: FireFighterPeripheralsElectronics
+  result: FireFighterPeripheralsElectronics
+
+- type: latheRecipe
+  parent: [ BaseGoldCircuitboardRecipe, BaseMechRecipeCategory ]
+  id: FireFighterCentralElectronics
+  result: FireFighterCentralElectronics
+
+# Hauler
+
+- type: latheRecipe
+  parent: [ BaseGoldCircuitboardRecipe, BaseMechRecipeCategory ]
+  id: HaulerPeripheralsElectronics
+  result: HaulerPeripheralsElectronics
+
+- type: latheRecipe
+  parent: [ BaseGoldCircuitboardRecipe, BaseMechRecipeCategory ]
+  id: HaulerCentralElectronics
+  result: HaulerCentralElectronics
+
+# Odysseus
+
+- type: latheRecipe
+  parent: [ BaseGoldCircuitboardRecipe, BaseMechRecipeCategory ]
+  id: OdysseusPeripheralsElectronics
+  result: OdysseusPeripheralsElectronics
+
+- type: latheRecipe
+  parent: [ BaseGoldCircuitboardRecipe, BaseMechRecipeCategory ]
+  id: OdysseusCentralElectronics
+  result: OdysseusCentralElectronics
+
+- type: latheRecipe
+  parent: [ BaseCheapCircuitboardRecipe, BaseEngineeringMachineRecipeCategory ]
+  id: WallmountGeneratorElectronics
+  result: WallmountGeneratorElectronics
+
+- type: latheRecipe
+  parent: [ BaseCircuitboardRecipe, BaseEngineeringMachineRecipeCategory ]
+  id: WallmountGeneratorAPUElectronics
+  result: WallmountGeneratorAPUElectronics
+
+- type: latheRecipe
+  parent: [ BaseCombatCircuitboardRecipe, BaseMechRecipeCategory ]
+  id: GygaxCentralElectronics
+  result: GygaxCentralElectronics
+
+- type: latheRecipe
+  parent: [ BaseCombatCircuitboardRecipe, BaseMechRecipeCategory ]
+  id: GygaxPeripheralsElectronics
+  result: GygaxPeripheralsElectronics
+
+- type: latheRecipe
+  parent: [ BaseCombatCircuitboardRecipe, BaseMechRecipeCategory ]
+  id: DarkGygaxCentralElectronics
+  result: DarkGygaxCentralElectronics
+
+- type: latheRecipe
+  parent: [ BaseCombatCircuitboardRecipe, BaseMechRecipeCategory ]
+  id: DarkGygaxPeripheralsElectronics
+  result: DarkGygaxPeripheralsElectronics
+
+- type: latheRecipe
+  parent: [ BaseAdvCombatCircuitboardRecipe, BaseMechRecipeCategory ]
+  id: DurandCentralElectronics
+  result: DurandCentralElectronics
+
+- type: latheRecipe
+  parent: [ BaseAdvCombatCircuitboardRecipe, BaseMechRecipeCategory ]
+  id: DurandPeripheralsElectronics
+  result: DurandPeripheralsElectronics

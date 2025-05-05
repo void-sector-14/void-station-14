@@ -25,3 +25,9 @@
   id: ParamedicWintercoat
   equipment:
     outerClothing: ClothingOuterWinterPara
+
+# Shoes
+- type: loadout
+  id: BlueShoes
+  equipment:
+    shoes: ClothingShoesColorBlue
