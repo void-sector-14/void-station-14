@@ -100,31 +100,31 @@
   result: WallmountGeneratorAPUElectronics
 
 - type: latheRecipe
-  parent: [ BaseCombatCircuitboardRecipe, BaseMechRecipeCategory ]
+  parent: [BaseSilverCircuitboardRecipe, BaseMechRecipeCategory ]
   id: GygaxCentralElectronics
   result: GygaxCentralElectronics
 
 - type: latheRecipe
-  parent: [ BaseCombatCircuitboardRecipe, BaseMechRecipeCategory ]
+  parent: [BaseSilverCircuitboardRecipe, BaseMechRecipeCategory ]
   id: GygaxPeripheralsElectronics
   result: GygaxPeripheralsElectronics
 
 - type: latheRecipe
-  parent: [ BaseCombatCircuitboardRecipe, BaseMechRecipeCategory ]
+  parent: [BaseSilverCircuitboardRecipe, BaseMechRecipeCategory ]
   id: DarkGygaxCentralElectronics
   result: DarkGygaxCentralElectronics
 
 - type: latheRecipe
-  parent: [ BaseCombatCircuitboardRecipe, BaseMechRecipeCategory ]
+  parent: [BaseSilverCircuitboardRecipe, BaseMechRecipeCategory ]
   id: DarkGygaxPeripheralsElectronics
   result: DarkGygaxPeripheralsElectronics
 
 - type: latheRecipe
-  parent: [ BaseAdvCombatCircuitboardRecipe, BaseMechRecipeCategory ]
+  parent: [ BaseGoldCircuitboardRecipe, BaseMechRecipeCategory ]
   id: DurandCentralElectronics
   result: DurandCentralElectronics
 
 - type: latheRecipe
-  parent: [ BaseAdvCombatCircuitboardRecipe, BaseMechRecipeCategory ]
+  parent: [ BaseGoldCircuitboardRecipe, BaseMechRecipeCategory ]
   id: DurandPeripheralsElectronics
   result: DurandPeripheralsElectronics
