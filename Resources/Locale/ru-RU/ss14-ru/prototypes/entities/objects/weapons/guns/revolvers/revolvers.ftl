@@ -21,3 +21,6 @@ ent-WeaponRevolverPythonAP = { ent-WeaponRevolverPython }
 ent-WeaponRevolverPirate = пиратский револьвер
     .desc = Странный, старый на вид револьвер, который использовали пираты. Использует патроны калибра .45 магнум.
     .suffix = Револьвер
+ent-WeaponRevolverPirateEmpty = пиратский револьвер
+    .desc = Странный, старый на вид револьвер, который использовали пираты. Использует патроны калибра .45 магнум.
+    .suffix = Пустой

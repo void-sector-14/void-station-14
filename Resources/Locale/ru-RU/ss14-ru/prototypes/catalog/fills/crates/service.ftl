@@ -35,3 +35,5 @@ ent-CrateTrashCartFilled = { ent-CrateTrashCart }
     .desc = { ent-CrateTrashCart.desc }
 ent-CrateCandles = ящик свечей
     .desc = В комплекте 4 коробки свечей, 2 большие и 2 маленькие. Для атмосферы или чего-то в этом роде.
+ent-CrateServiceColorfulLights = ящик разноцветных лампочек
+    .desc = Это не вечеринка, пока не становится трудно видеть, немного дезориентирует и болят уши.

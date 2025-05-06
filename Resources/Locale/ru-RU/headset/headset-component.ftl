@@ -16,4 +16,6 @@ chat-radio-freelance = Фриланс
 chat-radio-legal = Юридический
 # not headset but whatever
 chat-radio-handheld = Портативный
+chat-radio-xenoborg = Ксеноборг
+chat-radio-mothership = Материнский корабль
 chat-radio-binary = Двоичный

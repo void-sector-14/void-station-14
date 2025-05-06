@@ -323,6 +323,11 @@ reagent-effect-guidebook-wash-cream-pie-reaction =
         [1] Смывает
        *[other] смыть
     } кремовый пирог с лица
+reagent-effect-guidebook-artifact-unlock =
+    { $chance ->
+        [1] Помогает
+       *[other] помочь
+    } разблокировать инопланетный артефакт.
 reagent-effect-guidebook-area-reaction =
     { $chance ->
         [1] Вызывает

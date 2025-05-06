@@ -9,3 +9,4 @@ id-card-console-window-job-selection-label = Предустановки долж
 access-id-card-console-component-no-hands-error = У вас нет рук.
 id-card-console-privileged-id = Основной ID
 id-card-console-target-id = Целевой ID
+id-card-console-damaged = Нарушена целостность конструкции, извлечение содержимого.
