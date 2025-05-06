@@ -73,7 +73,7 @@ cargo-funding-alloc-console-label-help-non-adjustible = Отдел снабже�
 cargo-funding-alloc-console-label-help-adjustible = Оставшиеся средства от источников, не связанных с спец ящиками, распределяются следующим образом:
 cargo-funding-alloc-console-button-save = Сохранить
 cargo-funding-alloc-console-label-save-fail =
-    [bold]Доли доходов недействительны![/bold] [color=red]({ $pos ->
+    {"["}bold]Доли доходов недействительны![/bold] [color=red]({ $pos ->
         [1] +
        *[-1] -
     }{ $val }%)[/color]
