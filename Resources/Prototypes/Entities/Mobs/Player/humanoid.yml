@@ -18,7 +18,7 @@
 
 - type: randomHumanoidSettings
   id: EventHumanoidCentcomm
-  parent:
+  parent: EventHumanoidMindShielded
   speciesBlacklist: [Arachnid, Diona, Dwarf, Moth, Reptilian, SlimePerson, Vox, DemonSpecies, Katunian, TajaranSpecies, VulpkaninPerson, Felinid]
   components:
   - type: AutoImplant

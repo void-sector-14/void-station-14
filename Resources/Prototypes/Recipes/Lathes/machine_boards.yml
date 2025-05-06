@@ -423,7 +423,6 @@
 
 # Cell chargers
 - type: latheRecipe
-  parent: BaseCircuitboardRecipe
   parent: [ BaseCheapElectronicsRecipe, BaseGeneralMachineRecipeCategory ]
   id: BorgChargerCircuitboard
   result: BorgChargerCircuitboard
