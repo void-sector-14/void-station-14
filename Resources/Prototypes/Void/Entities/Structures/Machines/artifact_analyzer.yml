@@ -14,7 +14,7 @@
       shader: unshaded
       map: ["enum.PowerDeviceVisualLayers.Powered"]
   - type: ApcPowerReceiver
-    powerLoad: 30000
+    powerLoad: 40000
     needsPower: false #only turns on when scanning
   - type: ArtifactAnalyzer
     analysisDuration: 10
