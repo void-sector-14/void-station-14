@@ -1,0 +1,36 @@
+- type: entity
+  name: облегченные челюсти жизни
+  parent: BaseItem
+  id: MedJawsOfLife
+  description: Облегченная версия челюстей жизни. Используется только для открытия шлюзов и других объектов.
+  components:
+  - type: Tag
+    tags:
+    - JawsOfLife
+  - type: Sprite
+    sprite: Void/Objects/Tools/jaws_of_life.rsi
+    state: jaws_pry
+  - type: Item
+    size: Normal
+  - type: Clothing
+    sprite: Void/Objects/Tools/jaws_of_life.rsi
+    quickEquip: false
+    slots:
+      - Belt
+  - type: ToolTileCompatible
+    delay: 0.5
+  - type: Tool
+    qualities:
+      - Prying
+    useSound: /Audio/Items/jaws_pry.ogg
+  - type: Prying
+    speedModifier: 1.3
+    pryPowered: true
+    useSound: /Audio/Items/jaws_pry.ogg
+  - type: MeleeWeapon
+    wideAnimationRotation: 90
+    damage:
+      types:
+        Blunt: 8
+    soundHit:
+      collection: MetalThud

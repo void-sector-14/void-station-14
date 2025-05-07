@@ -44,3 +44,43 @@
     sprite: Void/Clothing/Shoes/Boots/jackbootscross.rsi
   - type: Clothing
     sprite: Void/Clothing/Shoes/Boots/jackbootscross.rsi
+
+- type: entity
+  parent: ClothingShoesMilitaryBase
+  id: ClothingShoesBootsRustyPlate
+  name: ржавые пластинчатые ботинки
+  description: Пара ржавых ботинок с пластинчатой защитой.
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Shoes/Boots/rusty_plate_boots.rsi
+  - type: Clothing
+    sprite: Void/Clothing/Shoes/Boots/rusty_plate_boots.rsi
+  - type: FootstepModifier
+    footstepSoundCollection:
+      collection: FootstepSpurs
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.95
+        Slash: 0.95
+        Piercing: 0.95
+
+- type: entity
+  parent: ClothingShoesMilitaryBase
+  id: ClothingShoesBootsCursedPlate
+  name: проклятые ботинки
+  description: Пара ботинок с защитой. Из них исходит странный красный туман.
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Shoes/Boots/cursed_boots.rsi
+  - type: Clothing
+    sprite: Void/Clothing/Shoes/Boots/cursed_boots.rsi
+  - type: FootstepModifier
+    footstepSoundCollection:
+      collection: FootstepSpurs
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.95
+        Slash: 0.95
+        Piercing: 0.95

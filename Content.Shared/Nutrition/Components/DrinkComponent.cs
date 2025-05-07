@@ -16,7 +16,7 @@ public sealed partial class DrinkComponent : Component
     public SoundSpecifier UseSound = new SoundPathSpecifier("/Audio/Items/drink.ogg");
 
     [DataField, AutoNetworkedField]
-    public FixedPoint2 TransferAmount = FixedPoint2.New(5);
+    public FixedPoint2 TransferAmount = FixedPoint2.New(1);
 
     /// <summary>
     /// How long it takes to drink this yourself.

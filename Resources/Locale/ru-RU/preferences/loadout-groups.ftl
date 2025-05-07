@@ -161,6 +161,7 @@ loadout-group-medical-doctor-jumpsuit = Врач, комбинезон
 loadout-group-medical-doctor-outerclothing = Врач, верхняя одежда
 loadout-group-medical-doctor-backpack = Врач, рюкзак
 loadout-group-medical-doctor-shoes = Врач, обувь
+loadout-group-medical-glasses = Медицинский отдел, очки
 loadout-group-medical-doctor-id = Врач, ID
 loadout-group-medical-intern-jumpsuit = Интерн, комбинезон
 loadout-group-chemist-jumpsuit = Химик, комбинезон

@@ -127,10 +127,6 @@
         - proto: WeaponMakeshiftLaser
           cost: 5
           prob: 0.5
-        - proto: ClothingOuterHardsuitQuartermaster
-          cost: 15
-          prob: 0.3
-
 
 
 

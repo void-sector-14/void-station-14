@@ -37,6 +37,10 @@ public sealed class RoundstartStationVariationRuleSystem : GameRuleSystem<Rounds
         if (!GameTicker.IsGameRuleAdded<RoundstartStationVariationRuleComponent>())
             return;
 
+        // only apply variation if station is eligible for events
+        if (!HasComp<StationEventEligibleComponent>(ev.Station))
+            return;
+
         // this is unlikely, but could theoretically happen if it was saved and reloaded, so check anyway
         if (HasComp<StationVariationHasRunComponent>(ev.Station))
             return;

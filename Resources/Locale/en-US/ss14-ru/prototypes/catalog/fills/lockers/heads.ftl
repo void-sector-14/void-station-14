@@ -1,6 +1,9 @@
 ent-LockerQuarterMasterFilled = { ent-LockerQuarterMaster }
     .suffix = Filled
     .desc = { ent-LockerQuarterMaster.desc }
+ent-LockerQuarterMasterFilledHardsuit = { ent-LockerQuarterMaster }
+    .suffix = Filled, Hardsuit
+    .desc = { ent-LockerQuarterMaster.desc }
 ent-LockerCaptainFilledNoLaser = { ent-LockerCaptain }
     .suffix = Filled
     .desc = { ent-LockerCaptain.desc }

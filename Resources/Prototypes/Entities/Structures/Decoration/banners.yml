@@ -104,7 +104,7 @@
   description: A banner displaying the colors of the science department. Where science has no bounds, and regulations are rarely followed.
   components:
   - type: Sprite
-    sprite: Structures/Decoration/banner.rsi
+    sprite: Void/Structures/Decoration/banner.rsi
     state: banner_science
 
 - type: entity

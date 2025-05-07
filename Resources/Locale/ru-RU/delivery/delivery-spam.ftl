@@ -28,7 +28,7 @@
     ║░░░░░░░░░░░██░░░░░║
     ║░░░░░████████░░░░░║
     ╚══════════════════╝[/color]
-delivery-spam-robust-toolboxes =
+delivery-spam-1 =
     { "[color=blue][head=1]" }
     ░░▄▀░░
     ░▄█▄▄▀ [head=3]ROBUST - ЯЩИКИ ДЛЯ ИНСТРУМЕНТОВ И ИНСТРУМЕНТЫ[/head]
@@ -45,7 +45,8 @@ delivery-spam-robust-toolboxes =
     - ИЛИ СО СВИНЦОМ И АСБЕСТОМ, ЕСЛИ ВЫ ПРЕДПОЧИТАЕТЕ!
     - ДЕШЕВО! ВСЕГО ЛИШЬ ОДИН ОРГАН! ЭТО МЕНЬШЕ, ЧЕМ ДВА ОРГАНА!
     - НЕ ОБЯЗАТЕЛЬНО ВАШ ОРГАН! МЫ НЕ СУДИМ!
-delivery-spam-reasons-to-chose-nanotrasen = {-delivery-header-nanotrasen}
+delivery-spam-2 =
+    { -delivery-header-nanotrasen }
 
     { "[head=2]ТОП ТРИ ПРИЧИНЫ, ПОЧЕМУ СИНДИКАТ ОТСТОЙ[/head]" }
 
@@ -57,7 +58,8 @@ delivery-spam-reasons-to-chose-nanotrasen = {-delivery-header-nanotrasen}
 
     { "[bold]ПРИЧИНА НОМЕР ТРИ[/bold]" }
     ИХ ЛОГОТИП УЖАСЕН! ОНИ ДУМАЮТ, ЧТО ОНИ КРУТЫЕ С ИХ ЛОГОТИПОМ! ОЙ, СМОТРИТЕ НА МЕНЯ, Я ТАКОЙ КРУТОЙ! ОЙ, ЗМЕЯ, КОТОРАЯ ТАКЖЕ БУКВА S! КАК КРЕАТИВНО! МОЙ ТРЕХЛЕТНИЙ СЫН МОГ БЫ НАРИСОВАТЬ ЛУЧШИЙ ЛОГОТИП!
-delivery-spam-reasons-to-choose-syndicate = {-delivery-header-syndicate}
+delivery-spam-3 =
+    { -delivery-header-syndicate }
 
     { "[head=2]ТОП ТРИ ПРИЧИНЫ, ПОЧЕМУ NANOTRASEN ОТСТОЙ[/head]" }
 
@@ -69,7 +71,7 @@ delivery-spam-reasons-to-choose-syndicate = {-delivery-header-syndicate}
 
     { "[bold]ПРИЧИНА НОМЕР ТРИ[/bold]" }
     ИХ МЕТОДЫ УБИЙСТВА НЕВООБРАЗИМЫ! ПРОСТО ОРУЖИЕ! НИКАКОГО ВЫБРАСЫВАНИЯ ЛЮДЕЙ В ОТКРЫТЫЙ КОСМОС, НИКАКОГО ЗАБРАСЫВАНИЯ ЛЮДЕЙ В ПЕРЕРАБОТЧИКИ С ОТКЛЮЧЕННЫМ РЕЖИМОМ БЕЗОПАСНОСТИ, НИКАКИХ БОМБ В КАРМАНАХ! ТАК СКУЧНО!
-delivery-spam-tired-of-science =
+delivery-spam-4 =
     { "[" }head=3]Наука ПОЛЮБИТ вас за это!!
 
     { "[" }bold]ВЫ[/bold] Устали от того, что НИО вашей станции взрывается, не делая никаких настоящих исследований? Ну, вам повезло![/head]
@@ -83,7 +85,7 @@ delivery-spam-tired-of-science =
     - Шаг пятый: Наши работники в Spid-ex Inc предоставят вашей станции один (1) диск технологий в неделю.
 
     { "[color=lightgray]Примечание: Клан Паука не несет ответственности за любое наказание, выданное вашим руководством.[/color]" }
-delivery-spam-free-all-access =
+delivery-spam-5 =
     { "[" }head=3]ВЫ когда-нибудь хотели [italic][color=green]Бесплатный [bold]Полный Доступ!?!?[/bold][/color][/italic][/head]
     { "[head=2]Ну ТЕПЕРЬ ВЫ МОЖЕТЕ!![/head]!" }
 
@@ -97,7 +99,7 @@ delivery-spam-free-all-access =
     { "[bullet/]P.S. Платежи, поступающие в отдел поставок станции клиента, составляют около 15000 кредитов за транзакцию, не включая индивидуальные сборы за обработку." }
     { "[bullet/]P.S. Мы в Gour-Lecksss LMT. не несем ответственности, если ГП вашей станции заставит вас заполнить РЕАЛЬНУЮ форму бесплатного ПД, если он узнает об этом письме" }
     { "[/color]" }
-delivery-spam-centcomm-retribution =
+delivery-spam-6 =
     { "[" }color=red] ЭТО ОФИЦИАЛЬНОЕ УВЕДОМЛЕНИЕ ОТ ГЛАВЫ [color=blue]NANOTRASEN[/color][/color]
 
     Уважаемый(-ая) сэр, мадам или другой незначительный персонал станции,
@@ -107,7 +109,8 @@ delivery-spam-centcomm-retribution =
     Тогда вы должны организовать отправку трёх [color=blue]Nt[/color] стандартных стопок [color=blue]nt[/color] стандартных золотых слитков на торговые посты вашей станции в течение 5 [color=blue]nT[/color] стандартных рабочих смен.
 
     { "[head=2][color=red]ИГНОРИРУЙТЕ ЭТОТ ПРИКАЗ НА СВОЙ СТРАХ И РИСК ПЕРЕД [color=green]ЦЕНТКОММ[/color]!!!!![/head][/color]" }
-delivery-spam-alternate-timeline = {-delivery-header-nanotrasen-alternate-timeline}
+delivery-spam-7 =
+    { -delivery-header-nanotrasen-alternate-timeline }
     { "[head=2]Это официальное уведомление от [color=red]Главного офицера безопасности[/color] космической станции Nanotrasen 15.[/head]" }
 
     Всем, кто получит это письмо. Я сержант Ригель. Моя профессия — ГОБ. Нам нужна немедленная помощь.
@@ -117,7 +120,7 @@ delivery-spam-alternate-timeline = {-delivery-header-nanotrasen-alternate-timeli
     В настоящее время я заперт на мостике, если вы получите это сообщение, пожалуйста, немедленно отправьте помощь. Я не знаю, сколько еще мы сможем продержаться.
 
     Слава Nanotrasen.
-delivery-spam-narsie-cult =
+delivery-spam-8 =
     { "[" }color=#134975][head=2]Дитя Нар'Си[/head][/color]
                                       Начало Новой Эры
     { "[bold]══──══──══──══──══──══──══──══──══──══──══[/bold]" }
@@ -134,7 +137,7 @@ delivery-spam-narsie-cult =
     Если вы ответили "Да" на любой из этих вопросов, свяжитесь с одним из наших представителей уже сегодня! У нас есть члены на станциях по всей галактике, которые с радостью примут новых участников в нашу паству. Станьте одним из клинков, которые помогут приветствовать Геометра Крови в нашей вселенной, чтобы все могли познать его блаженство!!!
 
     Вам надо всего лишь сказать [color=#FF0000][italic]"Sas'so c'arta forbici!"[/italic][/color]
-delivery-spam-rage-cage =
+delivery-spam-9 =
     { "[" }color=#aaaaaa]▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[/color]
                                  { "[bold][head=1]КЛЕТКА ЯРОСТИ[/head][/bold]" }
     { "[color=#aaaaaa]▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬[/color]" }
@@ -153,7 +156,7 @@ delivery-spam-rage-cage =
     В [color=#FF0000][bold]КЛЕТКЕ ЯРОСТИ[/bold][/color] только одно правило: [italic]Два бойца входит. Один боец выходит. [/italic]
     ──────────────────────────────────────────
     Никакого оружия, никакой брони, только чистый, неподдельный [bold]БОЙ[/bold]. Не проиграйте и не будьте [bold]СЛАБАКОМ[/bold]. Заслужите славу самого сильного бойца своей станции в [color=#FF0000][bold]КЛЕТКЕ ЯРОСТИ[/bold][/color] сегодня!
-delivery-spam-evil-lizard =
+delivery-spam-10 =
     { "[" }color=#FF0000][bold][head=2]СТОЙ[/head][/bold][/color]
 
     Если ты читаешь это письмо...[color=#FF0000][head=3]ТЫ УЖЕ ПРОКЛЯТ!!![/head][/color]
@@ -192,7 +195,7 @@ delivery-spam-evil-lizard =
     ░░░░[color=#6EC543]████[/color][color=#61D034]██[/color][color=#86E158]████████[/color][color=#61D034]██[/color][color=#6EC543]██████[/color][color=#52A037]████[/color]░░░░
     ░░░░░░[color=#6EC543]████[/color]░░░░░░░░[color=#6EC543]████████[/color]░░░░░░░░
     ░░░░░░░░░░░░░░░░░░░░[color=#6EC543]████[/color]░░░░░░░░░░
-delivery-spam-parents-need-money =
+delivery-spam-11 =
     { "[" }bold]Привет Дорогой,[/bold]
 
     Это твои родители пишут тебе: нам нужны деньги! Наши налоги были проверены, и мы должны 100'000 кредитов правительству! Пожалуйста, помоги! Они хотят только подарочные карты, поэтому тебе нужно будет отправить нам 100 подарочных карт Bisa на 1000 кредитов.
@@ -207,7 +210,7 @@ delivery-spam-parents-need-money =
 
     { "[bold]спасибо, и мы любим тебя.,[/bold]" }
     { "[italic]родители[/italics]" }
-delivery-spam-voyage-advertisement =
+delivery-spam-12 =
     { "[" }head=2]Присоединяйтесь к нам в первом рейсе...[/head]
 
          ░█▀▀░█▀▀░░░█▀▄░█▀▀░█░░░█▀█░█░█░█▀█░█▀▄

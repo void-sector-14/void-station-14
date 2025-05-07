@@ -14,6 +14,7 @@
     - Mouse
     - SimpleHostile
     - Dragon
+    - Xenoborg
 
 - type: npcFaction
   id: SlimecatAgressive
@@ -31,6 +32,7 @@
     - Passive
     - SimpleNeutral
     - Wizard
+    - Xenoborg
 
 - type: npcFaction
   id: SyndicateAgent
@@ -41,3 +43,4 @@
     - SlimecatAgressive
     - Dragon
     - Wizard
+    - Xenoborg
