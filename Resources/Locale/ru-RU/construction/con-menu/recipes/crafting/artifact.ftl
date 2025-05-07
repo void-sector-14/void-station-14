@@ -1,2 +1,2 @@
-con-Artifact = { ent-VariedXenoArtifactItem }
-    .desc = { ent-VariedXenoArtifactItem.desc }
+con-Artifact = инопланетный артефакт
+    .desc = Странный артефакт из неизвестного времени. Выглядит интересно. Идеально помещается в руку.
