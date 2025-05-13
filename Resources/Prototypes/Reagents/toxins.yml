@@ -478,6 +478,9 @@
             type: Animal
             shouldHave: false
           - !type:OrganType
+            type: Vox
+            shouldHave: false
+          - !type:OrganType
             type: Demon
             shouldHave: false
         type: Local
@@ -491,12 +494,18 @@
             type: Animal
             shouldHave: false
           - !type:OrganType
+            type: Vox
+            shouldHave: false
+          - !type:OrganType
             type: Demon
             shouldHave: false
       - !type:HealthChange
         conditions:
         - !type:OrganType
           type: Animal
+          shouldHave: false
+        - !type:OrganType
+          type: Vox
           shouldHave: false
         - !type:OrganType
           type: Demon
@@ -508,12 +517,16 @@
         conditions:
         - !type:OrganType
           type: Animal
-          shouldHave: true
-        - !type:OrganType
-          type: Demon
-          shouldHave: true
         reagent: Protein
         amount: 0.5
+      - !type:AdjustReagent
+        conditions:
+        - !type:OrganType
+          type: Vox
+        - !type:OrganType
+          type: Demon
+        reagent: Protein
+        amount: 0.25
 
 - type: reagent
   id: Allicin
@@ -713,3 +726,19 @@
           shouldHave: false
         walkSpeedModifier: 0.4
         sprintSpeedModifier: 0.4
+
+- type: reagent
+  id: ToxinTrash
+  name: reagent-name-toxintrash
+  group: Toxins
+  desc: reagent-desc-toxintrash
+  flavor: trashy
+  physicalDesc: reagent-physical-desc-nondescript
+  metabolisms:
+    Food:
+      effects:
+      - !type:SatiateHunger
+        factor: 1
+        conditions:
+        - !type:OrganType
+          type: Vox
