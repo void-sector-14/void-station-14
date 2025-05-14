@@ -19,3 +19,6 @@ ent-HyperEutacticBlade = гиперэвтактический меч
 ent-CyborgEnergySwordDouble = { ent-EnergySwordDouble }
     .desc = Стажёры Триглава Синдиката решили, что одного лезвия на энергетическом мече недостаточно. Специальная разработка для киборгов Синдиката.
     .suffix = Одноручное, Для боргов
+ent-EnergyDaggerLoudBlue = { ent-EnergyDaggerLoud }
+    .suffix = Голубой
+    .desc = { ent-EnergyDaggerLoud.desc }

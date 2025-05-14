@@ -14,3 +14,7 @@ ent-ClothingDeckerHeadset = наушники декера
     .desc = Стильные наушники декера, самое то для синтвейва.
 ent-ClothingNeckPonchoSB = пончо службы безопасности
     .desc = Удобное и размашистое пончо которое отлично подходит для эффектных появлений.
+ent-ClothingNeckBanditCloackGreen = плащ бандита
+    .desc = яркко-зелёный плащ бандита.
+ent-ClothingNeckCrusaderCloack = плащ крестоносца
+    .desc = Ярко-белый плащ, который часто носили крестоносцы.

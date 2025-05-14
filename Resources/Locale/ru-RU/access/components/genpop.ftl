@@ -22,5 +22,5 @@ genpop-locker-ui-label-sentence = [bold]Длина приговора в мин�
 genpop-locker-ui-label-crime = [bold]Преступление:[/bold]
 genpop-locket-ui-button-done = Готово
 genpop-locker-action-end-early = Досрочно завершить срок
-genpop-locker-action-clear-id = Чистый ID
+genpop-locker-action-clear-id = Очистить ID
 genpop-locker-action-reset-sentence = Сбросить срок ({ NATURALFIXED($percent, 0) }% отбыто)

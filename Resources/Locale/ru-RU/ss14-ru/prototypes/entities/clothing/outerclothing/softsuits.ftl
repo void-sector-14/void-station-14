@@ -1,6 +1,8 @@
 ent-ClothingOuterHardsuitEVA = скафандр EVA
     .desc = Легкий космический скафандр, способный защитить владельца от космического вакуума во время аварийной ситуации.
     .suffix = { ent-ClothingOuterEVASuitBase.suffix }
+ent-ClothingOuterEVASuitSyndicate = скафандр EVA синдиката
+    .desc = На бирке написано 'Совершенно не собственность вражеской корпорации, честно!'
 ent-ClothingOuterHardsuitSyndicate = скафандр EVA синдиката
     .desc = На бирке написано 'Совершенно не собственность вражеской корпорации, честно!'.
     .suffix = { ent-ClothingOuterEVASuitBase.suffix }

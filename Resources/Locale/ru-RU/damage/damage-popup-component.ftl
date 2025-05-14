@@ -4,6 +4,6 @@
         [total] Общий
         [delta] Разница
         [hit] Попадание
-        *[other] Неизвестно
+       *[other] Неизвестно
     }
 damage-popup-component-switched = Мишень установлена на: { -damage-popup-component-type(setting: $setting) }
