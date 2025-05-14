@@ -74,7 +74,7 @@
   parent: [ClothingNeckBase]
   id: ClothingNeckBanditCloackGreen
   name: плащ бандита
-  description: яркко-зелёный плащ бандита.
+  description: ярко-зелёный плащ бандита.
   components:
   - type: Sprite
     sprite: Void/Clothing/Neck/bandit_cloak_green.rsi

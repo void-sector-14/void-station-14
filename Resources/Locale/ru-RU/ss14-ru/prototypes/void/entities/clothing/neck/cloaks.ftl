@@ -1,5 +1,5 @@
 ent-ClothingNeckCloakCentCom = фирменный плащ Центкома
-    .desc = Дорогой плащ, который вам не по корману
+    .desc = Дорогой плащ, который вам не по карману
     .suffix = { ent-ClothingNeckBase.suffix }
 ent-ClothingNeckCloakCowboyPoncho = пончо
     .desc = Пока еще дырки от пуль на нем не появлялись
@@ -16,3 +16,7 @@ ent-ClothingDeckerHeadset = наушники декера
     .desc = Стильные наушники декера, самое то для синтвейва.
 ent-ClothingNeckPonchoSB = пончо службы безопасности
     .desc = Удобное и размашистое пончо которое отлично подходит для эффектных появлений.
+ent-ClothingNeckBanditCloackGreen = плащ бандита
+    .desc = ярко-зелёный плащ бандита.
+ent-ClothingNeckCrusaderCloack = плащ крестоносца
+    .desc = Ярко-белый плащ, который часто носили крестоносцы.

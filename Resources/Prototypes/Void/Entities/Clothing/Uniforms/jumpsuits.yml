@@ -79,7 +79,7 @@
   parent: ClothingUniformBase
   id: ClothingMedievalHauberk
   name: кольчужный доспех
-  description: Обычный кольчужный доспех, сплетенный из колец. Исскустная работа.
+  description: Обычный кольчужный доспех, сплетенный из колец. Искусная работа.
   components:
   - type: Sprite
     sprite: Void/Clothing/Uniforms/hauberk.rsi
