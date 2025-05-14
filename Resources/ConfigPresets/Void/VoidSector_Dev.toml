@@ -18,6 +18,7 @@ lobbyduration = 180
 defaultpreset = "Sandbox"
 fallbackpreset = "Extended"
 map_pool = "VoidMapPool"
+contraband_examine = false
 
 [hub]
 advertise = false

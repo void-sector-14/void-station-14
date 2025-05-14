@@ -36,6 +36,7 @@ lobbyduration = 180
 defaultpreset = "Extended"
 fallbackpreset = "Extended"
 map_pool = "VoidMapPool"
+contraband_examine = false
 
 [replay]
 auto_record = true
