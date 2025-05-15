@@ -631,3 +631,6 @@ ComputerCargoShuttle: null
 CargoShuttleComputerCircuitboard: null
 ComputerShuttleCargo: null
 CargoShuttleConsoleCircuitboard: null
+
+# 2025-05-15
+BorgModuleTreatment: BorgModuleTopicals
