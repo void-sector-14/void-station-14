@@ -217,8 +217,6 @@
     - state: fleet
   - type: Item
     heldPrefix: blue
-  - type: PresetIdCard
-    job: NTSFF
   - type: IdCard
     jobTitle: Пехотинец-СКФНТ
     jobIcon: JobIconNtsff
@@ -240,8 +238,6 @@
     - state: fleet
   - type: Item
     heldPrefix: blue
-  - type: PresetIdCard
-    job: NTSFF
   - type: IdCard
     jobTitle: Канонир-СКФНТ
     jobIcon: JobIconNtsff
@@ -263,8 +259,6 @@
     - state: fleet
   - type: Item
     heldPrefix: blue
-  - type: PresetIdCard
-    job: NTSFF
   - type: IdCard
     jobTitle: Пилот-СКФНТ
     jobIcon: JobIconNtsff
@@ -286,8 +280,6 @@
     - state: fleet
   - type: Item
     heldPrefix: blue
-  - type: PresetIdCard
-    job: NTSFF
   - type: IdCard
     jobTitle: Капитан-СКФНТ
     jobIcon: JobIconNtsff
@@ -309,8 +301,6 @@
     - state: ntan
   - type: Item
     heldPrefix: blue
-  - type: PresetIdCard
-    job: NTAN
   - type: IdCard
     jobTitle: Сотрудник АСНТ
     jobIcon: JobIconNtsff
@@ -332,8 +322,6 @@
     - state: centcomcustom
   - type: Item
     heldPrefix: blue
-  - type: PresetIdCard
-    job: NTAN
   - type: IdCard
     jobTitle: Оператор Центком
     jobIcon: JobIconNtsff
@@ -346,7 +334,7 @@
 - type: entity
   parent: IDCardVoid
   id: CentcomCustomRoleTechicalOperatorIDCard
-  suffix: Главный Технический Оператор 
+  suffix: Главный Технический Оператор
   name: ID карта ГТО
   description: ID карта сотрудника Центком. На ней содержится необходимая информация о владельце и его должности, конкретно эта принадлежит главному техническому оператору центрального командования.
   components:
@@ -355,8 +343,6 @@
     - state: centcomcustom
   - type: Item
     heldPrefix: blue
-  - type: PresetIdCard
-    job: NTAN
   - type: IdCard
     jobTitle: Главный Технический Оператор
     jobIcon: JobIconNtsff
@@ -378,8 +364,6 @@
     - state: centcomcustom
   - type: Item
     heldPrefix: blue
-  - type: PresetIdCard
-    job: NTAN
   - type: IdCard
     jobTitle: Итендант
     jobIcon: JobIconNtsff
@@ -401,8 +385,6 @@
     - state: centcomcustom
   - type: Item
     heldPrefix: blue
-  - type: PresetIdCard
-    job: NTAN
   - type: IdCard
     jobTitle: Представитель НаноТрейзен
     jobIcon: JobIconNtsff
@@ -424,8 +406,6 @@
     - state: centcomcustom
   - type: Item
     heldPrefix: blue
-  - type: PresetIdCard
-    job: NTAN
   - type: IdCard
     jobTitle: ОКО
     jobIcon: JobIconNtsff
@@ -447,8 +427,6 @@
     - state: centcomcustom
   - type: Item
     heldPrefix: blue
-  - type: PresetIdCard
-    job: NTAN
   - type: IdCard
     jobTitle: СДЦК
     jobIcon: JobIconNtsff
@@ -470,8 +448,6 @@
     - state: centcomcustom
   - type: Item
     heldPrefix: blue
-  - type: PresetIdCard
-    job: NTAN
   - type: IdCard
     jobTitle: САЦК
     jobIcon: JobIconNtsff
