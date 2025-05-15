@@ -204,3 +204,279 @@
     - type: Access
       groups:
       - MasterLevel
+
+- type: entity
+  parent: IDCardVoid
+  id: CentcomFleetTrooperIDCard
+  suffix: Пехотинец
+  name: ID карта флота
+  description: ID карта Сил Космического Флота НаноТрейзен. На ней содержится вся информация о владельце и его должности.
+  components:
+  - type: Sprite
+    layers:
+    - state: fleet
+  - type: Item
+    heldPrefix: blue
+  - type: PresetIdCard
+    job: NTSFF
+  - type: IdCard
+    jobTitle: Пехотинец-СКФНТ
+    jobIcon: JobIconNtsff
+  - type: Access
+    groups:
+    - AllAccess
+    tags:
+    - CentralCommand
+
+- type: entity
+  parent: IDCardVoid
+  id: CentcomFleetCannoneerIDCard
+  suffix: Канонир
+  name: ID карта флота
+  description: ID карта Сил Космического Флота НаноТрейзен. На ней содержится вся информация о владельце и его должности.
+  components:
+  - type: Sprite
+    layers:
+    - state: fleet
+  - type: Item
+    heldPrefix: blue
+  - type: PresetIdCard
+    job: NTSFF
+  - type: IdCard
+    jobTitle: Канонир-СКФНТ
+    jobIcon: JobIconNtsff
+  - type: Access
+    groups:
+    - AllAccess
+    tags:
+    - CentralCommand
+
+- type: entity
+  parent: IDCardVoid
+  id: CentcomFleetPilotIDCard
+  suffix: Пилот
+  name: ID карта флота
+  description: ID карта Сил Космического Флота НаноТрейзен. На ней содержится вся информация о владельце и его должности.
+  components:
+  - type: Sprite
+    layers:
+    - state: fleet
+  - type: Item
+    heldPrefix: blue
+  - type: PresetIdCard
+    job: NTSFF
+  - type: IdCard
+    jobTitle: Пилот-СКФНТ
+    jobIcon: JobIconNtsff
+  - type: Access
+    groups:
+    - AllAccess
+    tags:
+    - CentralCommand
+
+- type: entity
+  parent: IDCardVoid
+  id: CentcomFleetCaptainIDCard
+  suffix: Капитан
+  name: ID карта флота
+  description: ID карта Сил Космического Флота НаноТрейзен. На ней содержится вся информация о владельце и его должности.
+  components:
+  - type: Sprite
+    layers:
+    - state: fleet
+  - type: Item
+    heldPrefix: blue
+  - type: PresetIdCard
+    job: NTSFF
+  - type: IdCard
+    jobTitle: Капитан-СКФНТ
+    jobIcon: JobIconNtsff
+  - type: Access
+    groups:
+    - AllAccess
+    tags:
+    - CentralCommand
+
+- type: entity
+  parent: IDCardVoid
+  id: NtAgentNetworkIDCard
+  suffix: Агент НТ
+  name: ID карта АСНТ
+  description: ID карта Агенутрной Сети НаноТрейзен. На ней содержится необходимая информация о владельце и его должности.
+  components:
+  - type: Sprite
+    layers:
+    - state: ntan
+  - type: Item
+    heldPrefix: blue
+  - type: PresetIdCard
+    job: NTAN
+  - type: IdCard
+    jobTitle: Сотрудник АСНТ
+    jobIcon: JobIconNtsff
+  - type: Access
+    groups:
+    - AllAccess
+    tags:
+    - CentralCommand
+
+- type: entity
+  parent: IDCardVoid
+  id: CentcomCustomRoleOperatorIDCard
+  suffix: Оператор ЦентКом
+  name: ID карта ОЦК
+  description: ID карта сотрудника Центком. На ней содержится необходимая информация о владельце и его должности, конкретно эта принадлежит оператору центрального командования.
+  components:
+  - type: Sprite
+    layers:
+    - state: centcomcustom
+  - type: Item
+    heldPrefix: blue
+  - type: PresetIdCard
+    job: NTAN
+  - type: IdCard
+    jobTitle: Оператор Центком
+    jobIcon: JobIconNtsff
+  - type: Access
+    groups:
+    - AllAccess
+    tags:
+    - CentralCommand
+
+- type: entity
+  parent: IDCardVoid
+  id: CentcomCustomRoleTechicalOperatorIDCard
+  suffix: Главный Технический Оператор 
+  name: ID карта ГТО
+  description: ID карта сотрудника Центком. На ней содержится необходимая информация о владельце и его должности, конкретно эта принадлежит главному техническому оператору центрального командования.
+  components:
+  - type: Sprite
+    layers:
+    - state: centcomcustom
+  - type: Item
+    heldPrefix: blue
+  - type: PresetIdCard
+    job: NTAN
+  - type: IdCard
+    jobTitle: Главный Технический Оператор
+    jobIcon: JobIconNtsff
+  - type: Access
+    groups:
+    - AllAccess
+    tags:
+    - CentralCommand
+
+- type: entity
+  parent: IDCardVoid
+  id: CentcomCustomRoleIntendantIDCard
+  suffix: Итендант
+  name: ID карта итенданта
+  description: ID карта сотрудника Центком. На ней содержится необходимая информация о владельце и его должности, конкретно эта принадлежит итенданту центрального командования.
+  components:
+  - type: Sprite
+    layers:
+    - state: centcomcustom
+  - type: Item
+    heldPrefix: blue
+  - type: PresetIdCard
+    job: NTAN
+  - type: IdCard
+    jobTitle: Итендант
+    jobIcon: JobIconNtsff
+  - type: Access
+    groups:
+    - AllAccess
+    tags:
+    - CentralCommand
+
+- type: entity
+  parent: IDCardVoid
+  id: CentcomCustomRoleRepresentativeIDCard
+  suffix: Представитель
+  name: ID карта представителя
+  description: ID карта сотрудника Центком. На ней содержится необходимая информация о владельце и его должности, конкретно эта принадлежит представителю нанотрейзен.
+  components:
+  - type: Sprite
+    layers:
+    - state: centcomcustom
+  - type: Item
+    heldPrefix: blue
+  - type: PresetIdCard
+    job: NTAN
+  - type: IdCard
+    jobTitle: Представитель НаноТрейзен
+    jobIcon: JobIconNtsff
+  - type: Access
+    groups:
+    - AllAccess
+    tags:
+    - CentralCommand
+
+- type: entity
+  parent: IDCardVoid
+  id: CentcomCustomRoleOkoIDCard
+  suffix: ОКО
+  name: ID карта офицера контрразведовательных операций
+  description: ID карта сотрудника Центком. На ней содержится необходимая информация о владельце и его должности, конкретно эта принадлежит офицеру контрразведовательных операций центрального командования.
+  components:
+  - type: Sprite
+    layers:
+    - state: centcomcustom
+  - type: Item
+    heldPrefix: blue
+  - type: PresetIdCard
+    job: NTAN
+  - type: IdCard
+    jobTitle: ОКО
+    jobIcon: JobIconNtsff
+  - type: Access
+    groups:
+    - AllAccess
+    tags:
+    - CentralCommand
+
+- type: entity
+  parent: IDCardVoid
+  id: CentcomCustomRoleDispatchIDCard
+  suffix: Диспетчер
+  name: ID карта диспетчера
+  description: ID карта сотрудника Центком. На ней содержится необходимая информация о владельце и его должности, конкретно эта принадлежит секториальному диспетчеру центрального командования.
+  components:
+  - type: Sprite
+    layers:
+    - state: centcomcustom
+  - type: Item
+    heldPrefix: blue
+  - type: PresetIdCard
+    job: NTAN
+  - type: IdCard
+    jobTitle: СДЦК
+    jobIcon: JobIconNtsff
+  - type: Access
+    groups:
+    - AllAccess
+    tags:
+    - CentralCommand
+
+- type: entity
+  parent: IDCardVoid
+  id: CentcomCustomRoleAdmiralIDCard
+  suffix: Адмирал
+  name: ID карта адмирала
+  description: ID карта сотрудника Центком. На ней содержится необходимая информация о владельце и его должности, конкретно эта принадлежит секториальному адмиралу центрального командования.
+  components:
+  - type: Sprite
+    layers:
+    - state: centcomcustom
+  - type: Item
+    heldPrefix: blue
+  - type: PresetIdCard
+    job: NTAN
+  - type: IdCard
+    jobTitle: САЦК
+    jobIcon: JobIconNtsff
+  - type: Access
+    groups:
+    - AllAccess
+    tags:
+    - CentralCommand

@@ -37,6 +37,9 @@
       "name": "idmagistrate"
     },
     {
+      "name": "idcentcomm"
+    },
+    {
         "name": "idblueshield"
     },
     {
@@ -71,6 +74,15 @@
     },
     {
         "name": "card_master"
+    },
+    {
+      "name": "fleet"
+    },
+    {
+      "name": "ntan"
+    },
+    {
+      "name": "centcomcustom"
     }
   ]
 }
