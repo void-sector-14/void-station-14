@@ -21,11 +21,3 @@
     sprite: /Textures/Void/Interface/Misc/job_icons.rsi
     state: Blueshield
   jobName: job-name-blueshieldofficer
-
-- type: jobIcon
-  parent: JobIcon
-  id: JobIconNtsff
-  icon:
-    sprite: /Textures/Void/Interface/Misc/job_icons.rsi
-    state: ntsff
-  jobName: СКФНТ
