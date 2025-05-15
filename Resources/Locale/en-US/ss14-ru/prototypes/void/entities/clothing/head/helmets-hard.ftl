@@ -1,2 +1,10 @@
 ent-ClothingHeadHelmetLight = лёгкий шлем службы безопасности
     .desc = Стандартный шлем охраны из облегчённых материалов, всё ещё не уступает по защите остальным вариантам.
+ent-ClothingHeadHelmetCursedOpenMouth = проклятый шлем
+    .desc = Это шлем покрытый странным красным туманом.
+ent-ClothingHeadHelmetCursed = проклятый шлем
+    .desc = Это шлем покрытый странным красным туманом.
+ent-ClothingHeadHelmetRustySallet = ржавый шлем
+    .desc = Это просто ржавый шлем.
+ent-ClothingHeadHelmetRustyHundsgugel = ржавый хундсгугель
+    .desc = Просто ржавый хундсгугель.

@@ -19,6 +19,7 @@ defaultpreset = "Sandbox"
 fallbackpreset = "Sandbox"
 map = "Empty"
 role_timers = false
+contraband_examine = false
 
 [gateway]
 generator_enabled = false

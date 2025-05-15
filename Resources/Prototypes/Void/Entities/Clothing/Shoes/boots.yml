@@ -24,7 +24,7 @@
   parent: ClothingShoesBaseButcherable
   id: ClothingShoesGlowBoot
   name: ботинки декера
-  description: Ботинки декера с подсветкой. Честно, никто не понимает почему именно они должны светиться, да и в целом они не светятся. Никто даже не понимает что означет слово "декер"
+  description: Ботинки декера с подсветкой. Честно, никто не понимает почему именно они должны светиться, да и в целом они не светятся. Никто даже не понимает что означает слово "декер"
   components:
   - type: Sprite
     sprite: Void/Clothing/Shoes/Boots/deckerboots.rsi
@@ -38,7 +38,7 @@
   parent: ClothingShoesBaseButcherable
   id: ClothingJackBootsCross
   name: тактические ботинки
-  description: Пара ботинок обычно носимых спец. подразделениями. 
+  description: Пара ботинок обычно носимых спец. подразделениями.
   components:
   - type: Sprite
     sprite: Void/Clothing/Shoes/Boots/jackbootscross.rsi

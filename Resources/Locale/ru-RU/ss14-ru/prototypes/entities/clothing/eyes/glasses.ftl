@@ -45,3 +45,5 @@ ent-ClothingEyesGlassesChemical = очки химического анализа
 ent-ClothingEyesVisorNinja = визор ниндзя
     .desc = Усовершенствованный визор, защищающий глаза ниндзя от вспышек.
     .suffix = { ent-ClothingEyesBase.suffix }
+ent-ClothingEyesGlassesNoir = нуарные очки
+    .desc = Пара очков, которые симулируют, как выглядел мир до изобретения цвета.

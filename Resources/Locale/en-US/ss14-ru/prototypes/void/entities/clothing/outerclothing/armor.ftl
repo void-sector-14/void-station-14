@@ -4,3 +4,7 @@ ent-ClothingOuterVestKevlarCent = фирменный кевларовый жил
     .desc = Стоит как три станции.
 ent-ClothingBrigmedicVest = бронежилет бригмедика
     .desc = Бронежилет врача брига с парой креплений под снаряжение, немного удобней чем его альтернатива.
+ent-ClothingOuterArmorCursedPlate = проклятая броня
+    .desc = Странные доспехи, которые излучают красный туман из трещин.
+ent-ClothingOuterArmorRustyBreastPlate = ржавый нагрудник
+    .desc = Просто ржавый нагрудник.

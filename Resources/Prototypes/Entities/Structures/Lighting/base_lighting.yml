@@ -469,8 +469,8 @@
       visible: false
   - type: Appearance
   - type: Construction
-    graph: emergencylight
-    node: emergencylight
+    graph: emergencyLight
+    node: emergencyLight
   - type: Destructible
     thresholds:
     - trigger:

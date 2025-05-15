@@ -66,3 +66,7 @@ ent-WeaponBehonkerLaser = глаз бехонкера
     .desc = Глаз бехонкера, стреляет лазером при сжатии.
 ent-WeaponTemperatureGun = температурное оружие
     .desc = Продвинутое оружие, стреляющее лучами, изменяющими температуру тела. Это, вероятно, можно считать военным преступлением.
+ent-XenoborgLaserGun = лазерный бластер ксеноборга
+    .desc = { ent-WeaponAdvancedLaser.desc }
+ent-XenoborgHeavyLaserGun = тяжёлый лазерный бластер ксеноборга
+    .desc = { ent-WeaponAdvancedLaser.desc }

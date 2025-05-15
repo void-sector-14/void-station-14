@@ -543,7 +543,8 @@ public sealed partial class EmergencyShuttleSystem : EntitySystem
             return;
         }
 
-        var grid = _gameTicker.MergeGameMap(gameMapPrototype, mapId, null);
+        var coords = new Vector2(0, 0);
+        var grid = _gameTicker.MergeGameMap(gameMapPrototype, mapId, null, null, coords, Angle.Zero);
 
         if (!Exists(map))
         {

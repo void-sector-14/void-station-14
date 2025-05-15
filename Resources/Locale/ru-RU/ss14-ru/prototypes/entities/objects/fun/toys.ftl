@@ -1,3 +1,5 @@
+ent-BaseStash = { "" }
+    .desc = { "" }
 ent-BasePlushie = { ent-BaseItem }
     .desc = { ent-BaseItem.desc }
 ent-PlushieThrongler = плюшевый громовержец
@@ -71,6 +73,8 @@ ent-PlushiePenguin = плюшевый пингвин
     .desc = Я использую arch между прочим!
 ent-PlushieHuman = плюшевый человечек
     .desc = Плюшевый человек из войлока. Качество - ниже не бывает. Человек голый. Человек плачет. Человек кричит.
+ent-BaseRubberToy = { ent-BaseItem }
+    .desc = { ent-BaseItem.desc }
 ent-PlushieMoth = плюшевый ниан
     .desc = Милый и пушистый плюшевый ниан. Наслаждайтесь, бз!
 ent-BaseFigurineCheapo = фигурка

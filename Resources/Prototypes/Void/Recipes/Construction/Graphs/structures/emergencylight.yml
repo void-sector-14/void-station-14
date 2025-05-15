@@ -1,0 +1,33 @@
+- type: constructionGraph
+  id: emergencyLight
+  start: start
+  graph:
+    - node: start
+      edges:
+        - to: emergencyLight
+          steps:
+            - material: Steel
+              amount: 2
+              doAfter: 2.0
+            - material: Glass
+              amount: 1
+              doAfter: 2.0
+            - material: CableMV
+              amount: 4
+              doAfter: 2.0
+    - node: emergencyLight
+      entity: EmergencyLight
+      edges:
+        - to: start
+          steps:
+            - tool: Screwing
+              doAfter: 3.0
+          completed:
+            - !type:SpawnPrototype
+              prototype: SheetSteel1
+              amount: 2
+            - !type:SpawnPrototype
+              prototype: Glass1
+              amount: 1
+            - !type:DeleteEntity {}
+

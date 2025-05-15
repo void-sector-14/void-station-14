@@ -25,6 +25,7 @@ materials-bones = кости
 materials-coal = уголь
 materials-diamond = алмаз
 materials-gunpowder = порох
+materials-cotton = хлопок
 # Ores
 materials-raw-iron = руда железа
 materials-raw-quartz = руда кварца

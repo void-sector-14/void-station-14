@@ -30,3 +30,6 @@ ent-SheetPlasteel10 = { ent-SheetPlasteel }
 ent-SheetPlasteel1 = { ent-SheetPlasteel }
     .suffix = Один
     .desc = { ent-SheetPlasteel.desc }
+ent-SheetPlasteelLingering0 = { ent-SheetPlasteel }
+    .suffix = Постоянный, 0
+    .desc = { ent-SheetPlasteel.desc }

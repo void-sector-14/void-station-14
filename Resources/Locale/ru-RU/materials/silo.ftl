@@ -7,5 +7,5 @@ ore-silo-ui-itemlist-entry =
        *[False] { "" }
     } { $name } ({ $beacon }) { $inRange ->
         [true] { "" }
-    *[false] (Вне диапазона)
+       *[false] (Вне диапазона)
     }
