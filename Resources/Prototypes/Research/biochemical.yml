@@ -54,8 +54,6 @@
   tier: 2
   cost: 5000
   recipeUnlocks:
-  - BorgModuleAdvancedTreatment
-  - BorgModuleDefibrillator
   - BorgModuleAdvancedChemical
 
 - type: technology
