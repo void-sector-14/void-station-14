@@ -219,7 +219,7 @@
     heldPrefix: blue
   - type: IdCard
     jobTitle: Пехотинец-СКФНТ
-    jobIcon: JobIconNtsff
+    jobIcon: JobIconNanotrasen
   - type: Access
     groups:
     - AllAccess
@@ -240,7 +240,7 @@
     heldPrefix: blue
   - type: IdCard
     jobTitle: Канонир-СКФНТ
-    jobIcon: JobIconNtsff
+    jobIcon: JobIconNanotrasen
   - type: Access
     groups:
     - AllAccess
@@ -261,7 +261,7 @@
     heldPrefix: blue
   - type: IdCard
     jobTitle: Пилот-СКФНТ
-    jobIcon: JobIconNtsff
+    jobIcon: JobIconNanotrasen
   - type: Access
     groups:
     - AllAccess
@@ -282,7 +282,7 @@
     heldPrefix: blue
   - type: IdCard
     jobTitle: Капитан-СКФНТ
-    jobIcon: JobIconNtsff
+    jobIcon: JobIconNanotrasen
   - type: Access
     groups:
     - AllAccess
@@ -294,7 +294,7 @@
   id: NtAgentNetworkIDCard
   suffix: Агент НТ
   name: ID карта АСНТ
-  description: ID карта Агенутрной Сети НаноТрейзен. На ней содержится необходимая информация о владельце и его должности.
+  description: ID карта Агентурной Сети НаноТрейзен. На ней содержится необходимая информация о владельце и его должности.
   components:
   - type: Sprite
     layers:
@@ -303,7 +303,7 @@
     heldPrefix: blue
   - type: IdCard
     jobTitle: Сотрудник АСНТ
-    jobIcon: JobIconNtsff
+    jobIcon: JobIconNanotrasen
   - type: Access
     groups:
     - AllAccess
@@ -324,7 +324,7 @@
     heldPrefix: blue
   - type: IdCard
     jobTitle: Оператор Центком
-    jobIcon: JobIconNtsff
+    jobIcon: JobIconNanotrasen
   - type: Access
     groups:
     - AllAccess
@@ -345,7 +345,7 @@
     heldPrefix: blue
   - type: IdCard
     jobTitle: Главный Технический Оператор
-    jobIcon: JobIconNtsff
+    jobIcon: JobIconNanotrasen
   - type: Access
     groups:
     - AllAccess
@@ -366,7 +366,7 @@
     heldPrefix: blue
   - type: IdCard
     jobTitle: Итендант
-    jobIcon: JobIconNtsff
+    jobIcon: JobIconNanotrasen
   - type: Access
     groups:
     - AllAccess
@@ -387,7 +387,7 @@
     heldPrefix: blue
   - type: IdCard
     jobTitle: Представитель НаноТрейзен
-    jobIcon: JobIconNtsff
+    jobIcon: JobIconNanotrasen
   - type: Access
     groups:
     - AllAccess
@@ -408,7 +408,7 @@
     heldPrefix: blue
   - type: IdCard
     jobTitle: ОКО
-    jobIcon: JobIconNtsff
+    jobIcon: JobIconNanotrasen
   - type: Access
     groups:
     - AllAccess
@@ -429,7 +429,7 @@
     heldPrefix: blue
   - type: IdCard
     jobTitle: СДЦК
-    jobIcon: JobIconNtsff
+    jobIcon: JobIconNanotrasen
   - type: Access
     groups:
     - AllAccess
@@ -450,7 +450,7 @@
     heldPrefix: blue
   - type: IdCard
     jobTitle: САЦК
-    jobIcon: JobIconNtsff
+    jobIcon: JobIconNanotrasen
   - type: Access
     groups:
     - AllAccess
