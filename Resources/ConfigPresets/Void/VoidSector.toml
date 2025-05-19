@@ -45,6 +45,10 @@ auto_record = true
 advertise = true
 tags = "lang:ru,region:eu_e,rp:med,18+"
 server_url = "ss14://37.27.103.62:1212"
+hub_urls = "https://hub.fallback.spacestation14.com/"
+
+[auth]
+server = "https://auth.fallback.spacestation14.com/"
 
 [server]
 rules_file = "VoidRuleset"
