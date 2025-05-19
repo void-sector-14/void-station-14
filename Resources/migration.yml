@@ -627,10 +627,8 @@ AirlockMaintCommonLocked: AirlockMaintLocked
 AirlockMaintIntLocked: AirlockMaintLocked
 
 # 2025-05-07
-ComputerCargoShuttle: null
-CargoShuttleComputerCircuitboard: null
-ComputerShuttleCargo: null
-CargoShuttleConsoleCircuitboard: null
+ComputerCargoShuttle: ComputerShuttleCargo
+CargoShuttleComputerCircuitboard: CargoShuttleConsoleCircuitboard
 
 # 2025-05-15
 BorgModuleTreatment: BorgModuleTopicals
