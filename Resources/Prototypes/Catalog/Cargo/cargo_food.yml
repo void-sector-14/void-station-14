@@ -85,6 +85,8 @@
     state: kvass
   product: KvassTankFull
   cost: 2000
+  category: cargoproduct-category-name-food
+  group: market
 
 - type: cargoProduct
   id: FoodCookGetmore
@@ -121,6 +123,7 @@
   icon:
     sprite: Objects/Consumable/Food/frozen.rsi
     state: cone
+  product: CrateFoodSnowcone
   cost: 1100
   category: cargoproduct-category-name-food
   group: market
