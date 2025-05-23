@@ -26,7 +26,7 @@
     range: 20
     criteria:
       components:
-      - Artifact
+      - type: XenoArtifact
   - type: Beeper
     minBeepInterval: 0.15
     maxBeepInterval: 1.00
