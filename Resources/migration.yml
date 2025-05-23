@@ -626,10 +626,6 @@ ClothingOuterHardsuitSyndicate: ClothingOuterEVASuitSyndicate
 AirlockMaintCommonLocked: AirlockMaintLocked
 AirlockMaintIntLocked: AirlockMaintLocked
 
-# 2025-05-07
-ComputerCargoShuttle: ComputerShuttleCargo
-CargoShuttleComputerCircuitboard: CargoShuttleConsoleCircuitboard
-
 # 2025-05-02
 CigPackMixedNasty: CigPackMixed
 CigPackMixedMedical: CigPackMixed
@@ -651,3 +647,7 @@ BorgModuleTreatment: BorgModuleTopicals
 
 # 2025-05-18
 ClothingNeckCloakMiner: null
+
+# 2025-05-23
+ComputerCargoShuttle: ComputerSalvageJobBoard
+CargoShuttleComputerCircuitboard: SalvageJobBoardComputerCircuitboard
