@@ -173,6 +173,9 @@
     - id: ClothingOuterHardsuitBasic
       prob: 0.001
       orGroup: Clothes
+    - id: ClothingOuterHardsuitSanta
+      prob: 0.001
+      orGroup: Clothes
     - id: ClothingBackpackERTClown
       prob: 0.001
       orGroup: Clothes

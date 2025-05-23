@@ -24,6 +24,7 @@
     - BaseStationMagnet
     - BaseStationExpeditions
     - BaseStationSiliconLawNTDefault
+    - BaseStationSalvageJobs
     - BaseStationAllEventsEligible
     - BaseStationNanotrasen
     - BaseStationDeliveries
