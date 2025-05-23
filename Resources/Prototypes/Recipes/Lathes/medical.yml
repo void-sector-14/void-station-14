@@ -258,18 +258,21 @@
 - type: latheRecipe
   id: LauncherSyringe
   result: LauncherSyringe
-  completetime: 4
+  completetime: 10
   materials:
-    Steel: 300
-    Plastic: 100
+    Silver: 200
+    Steel: 1000
+    Plastic: 200
     Glass: 100
 
 - type: latheRecipe
   id: MiniSyringe
   result: MiniSyringe
-  completetime: 1
+  completetime: 2
   materials:
-    Plastic: 75
+    Steel: 200
+    Glass: 100
+    Plastic: 100
 
 - type: latheRecipe
   id: ClothingOuterStraightjacket

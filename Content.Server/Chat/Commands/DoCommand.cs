@@ -8,9 +8,9 @@ namespace Content.Server.Chat.Commands
     [AnyCommand]
     internal sealed class DoCommand : IConsoleCommand
     {
-        public string Command => "do";
+        public string Command => "doemote";
         public string Description => "Perform a description.";
-        public string Help => "do <text>";
+        public string Help => "doemote <text>";
 
         public void Execute(IConsoleShell shell, string argStr, string[] args)
         {

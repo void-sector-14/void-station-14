@@ -77,6 +77,21 @@ reagent-effect-guidebook-health-change =
                *[both] изменить здоровье на
             }
     } { $changes }
+reagent-effect-guidebook-even-health-change =
+    { $chance ->
+        [1]
+            { $healsordeals ->
+                [heals] Равномерно лечит
+                [deals] Равномерно наносит урон
+               *[both] Равномерно изменяет здоровье на
+            }
+       *[other]
+            { $healsordeals ->
+                [heals] равномерно лечивают
+                [deals] равномерно наносят урон
+               *[both] равномерно изменяют здоровье на
+            }
+    } { $changes }
 reagent-effect-guidebook-status-effect =
     { $type ->
         [add]
@@ -222,6 +237,11 @@ reagent-effect-guidebook-drunk =
         [1] Вызывает
        *[other] вызвать
     } опьянение
+reagent-effect-guidebook-emote =
+    { $chance ->
+        [1] Заставит
+       *[other] может заставить
+    } организм [bold][color=white]{ $emote }[/color][/bold]
 reagent-effect-guidebook-electrocute =
     { $chance ->
         [1] Бьёт током

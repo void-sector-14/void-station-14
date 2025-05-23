@@ -1,6 +1,11 @@
+ent-BaseStructureWall = стена
+    .desc = Удерживает воздух внутри, а ассистентов снаружи.
 ent-BaseWall = базовая стена
     .desc = Удерживает воздух внутри, а ассистентов снаружи.
     .suffix = { "" }
+ent-WallDiagonalBase = { ent-BaseStructureWall }
+    .suffix = Диагональ
+    .desc = { ent-BaseStructureWall.desc }
 ent-WallBrick = кирпичная стена
     .desc = { ent-BaseWall.desc }
     .suffix = { "" }

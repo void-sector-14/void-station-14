@@ -24,9 +24,8 @@
   - type: ProximityBeeper
   - type: ProximityDetector
     range: 20
-    criteria:
-      components:
-      - Artifact
+    components:
+      - type: XenoArtifact
   - type: Beeper
     minBeepInterval: 0.15
     maxBeepInterval: 1.00

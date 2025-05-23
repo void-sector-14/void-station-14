@@ -24,9 +24,8 @@
   - type: ProximityBeeper
   - type: ProximityDetector
     range: 10
-    criteria:
-      components:
-      - SignalEM
+    components:
+      - type: SignalEM
   - type: Beeper
     minBeepInterval: 0.15
     maxBeepInterval: 1.00
@@ -48,9 +47,8 @@
   - type: Sprite
     sprite: Void/Objects/Specific/Event/astrallocator.rsi
   - type: ProximityDetector
-    criteria:
-      components:
-      - SignalAstral
+    components:
+      - type: SignalAstral
 
 - type: entity
   parent: EMLocator
@@ -61,9 +59,8 @@
   - type: Sprite
     sprite: Void/Objects/Specific/Event/ionlocator.rsi
   - type: ProximityDetector
-    criteria:
-      components:
-      - SignalIon
+    components:
+      - type: SignalIon
 
 - type: entity
   parent: EMLocator
@@ -74,6 +71,5 @@
   - type: Sprite
     sprite: Void/Objects/Specific/Event/radiolocator.rsi
   - type: ProximityDetector
-    criteria:
-      components:
-      - SignalRadio
+    components:
+      - type: SignalRadio

@@ -9,7 +9,7 @@ delivery-unlocked-others = { CAPITALIZE($recipient) } разблокирует {
 delivery-opened-others = { CAPITALIZE($recipient) } открывает { $delivery }.
 delivery-unlock-verb = Разблокировать
 delivery-open-verb = Открыть
-delivery-slice-verb = Slice open
+delivery-slice-verb = Вскрыть
 delivery-teleporter-amount-examine =
     { $amount ->
         [one] Содержит [color=yellow]{ $amount }[/color] посылку.
@@ -24,3 +24,5 @@ delivery-priority-delivered-examine = Это [color=orange]приоритетн�
 delivery-priority-expired-examine = Это [color=orange]приоритетная { $type }[/color]. Время на доставку истекло.
 delivery-fragile-examine = Это [color=red]хрупкая { $type }[/color]. Доставьте её в целости, чтобы получить бонус.
 delivery-fragile-broken-examine = Это [color=red]хрупкая { $type }[/color]. Она выглядит сильно повреждённой.
+delivery-bomb-examine = Это [color=purple]бомба { $type }[/color]. Вот это поворот!
+delivery-bomb-primed-examine = Это [color=purple]бомба { $type }[/color]. Серьёзно, сейчас не время читать!

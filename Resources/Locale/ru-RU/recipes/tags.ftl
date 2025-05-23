@@ -7,7 +7,7 @@ construction-graph-tag-clown-recorder = клоунский диктофон
 construction-graph-tag-clown-bike-horn = клоунский велосипедный гудок
 construction-graph-tag-clowne-horn = сломанный велосипедный гудок
 construction-graph-tag-happy-honk-meal = обед счастливый "Хонк"
-construction-graph-tag-woeful-cluwne-meal =  обед печальный "Клувн"
+construction-graph-tag-woeful-cluwne-meal = обед печальный "Клувн"
 # мим
 construction-graph-tag-suspenders = подтяжки
 construction-graph-tag-mime-meal = обед "Хонк" для мима
@@ -61,6 +61,7 @@ construction-graph-tag-match-stick = спичка
 construction-graph-tag-potato = картофель
 construction-graph-tag-wheat-bushel = пучок пшеницы
 construction-graph-tag-corgi-hide = шкура корги
+soil-construction-graph-any-mushroom = любой гриб
 # игрушки
 construction-graph-tag-rubber-ducky = резиновая уточка
 construction-graph-tag-ghost = мягкая игрушка-призрак

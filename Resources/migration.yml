@@ -626,9 +626,28 @@ ClothingOuterHardsuitSyndicate: ClothingOuterEVASuitSyndicate
 AirlockMaintCommonLocked: AirlockMaintLocked
 AirlockMaintIntLocked: AirlockMaintLocked
 
-# 2025-05-07
-ComputerCargoShuttle: ComputerShuttleCargo
-CargoShuttleComputerCircuitboard: CargoShuttleConsoleCircuitboard
+# 2025-05-02
+CigPackMixedNasty: CigPackMixed
+CigPackMixedMedical: CigPackMixed
+CigaretteIpecac: CigaretteNutriment
+CigarettePax: CigaretteSaline
+CigaretteTHC: CigaretteRobustHarvest
+CigaretteMuteToxin: CigaretteSodiumPolyacrylate
+CigaretteSpaceDrugs: CigaretteLipolicide
+CigaretteMilk: CigaretteHaloperidol
+CigaretteBread: CigaretteBbqSauce
+
+# 2025-05-09
+ClothingOuterHardsuitBasic: ClothingOuterHardsuitEVA
+ClothingHeadHelmetHardsuitBasic: null
+SuitStorageBasic: SuitStorageEVA
 
 # 2025-05-15
 BorgModuleTreatment: BorgModuleTopicals
+
+# 2025-05-18
+ClothingNeckCloakMiner: null
+
+# 2025-05-23
+ComputerCargoShuttle: ComputerSalvageJobBoard
+CargoShuttleComputerCircuitboard: SalvageJobBoardComputerCircuitboard

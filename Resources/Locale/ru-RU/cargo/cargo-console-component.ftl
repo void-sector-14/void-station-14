@@ -81,7 +81,7 @@ cargo-funding-alloc-console-label-save-fail =
 # Slip template
 
 cargo-acquisition-slip-body =
-    {"["}head=3]Детали актива[/head]
+    { "[" }head=3]Детали заказа[/head]
     { "[bold]Товар:[/bold]" } { $product }
     { "[bold]Описание:[/bold]" } { $description }
     { "[bold]Цена за единицу:[/bold]" } ${ $unit }
