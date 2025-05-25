@@ -68,7 +68,7 @@ internal sealed class ChatManager : IChatManager
                 break;
 
             case ChatSelectChannel.Do:
-                _consoleHost.ExecuteCommand($"do \"{CommandParsing.Escape(str)}\"");
+                _consoleHost.ExecuteCommand($"doemote \"{CommandParsing.Escape(str)}\"");
                 break;
 
             case ChatSelectChannel.ERP:
