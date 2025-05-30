@@ -138,4 +138,4 @@
   - MechReactorUranium
   - MechReactorTesla
   technologyPrerequisites:
-  - PortableFission
+  - OptimizedMicrogalvanism
