@@ -11,6 +11,8 @@
   - type: Clothing
     sprite: Clothing/Belt/utility.rsi
   - type: Storage
+    grid:
+    - 0,0,9,1
     maxItemSize: Normal
     # TODO: Fill this out more.
     whitelist:
@@ -93,7 +95,7 @@
     sprite: Clothing/Belt/ce.rsi
   - type: Storage
     grid:
-    - 0,0,9,1
+    - 0,0,10,1
     # TODO: Fill this out more.
     whitelist:
       tags:
@@ -258,6 +260,8 @@
   - type: Clothing
     sprite: Clothing/Belt/medical.rsi
   - type: Storage
+    grid:
+    - 0,0,9,1
     whitelist:
       tags:
         - Wrench
@@ -472,6 +476,8 @@
   - type: ExplosionResistance
     damageCoefficient: 0.9
   - type: Storage
+    grid:
+    - 0,0,9,1
     whitelist:
       tags:
         - CigPack
