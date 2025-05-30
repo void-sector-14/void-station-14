@@ -1,0 +1,79 @@
+- type: entity
+  parent: BaseStructure
+  id: SleeperPodBase
+  categories: [ HideSpawnMenu ]
+  name: капсул длительного сна
+  description: Капсула длительного сна, предназначенная для и транспортировки людей в состоянии анабиоза. Что-то с ней не так.
+  components:
+  - type: Transform
+    noRot: true
+  - type: Anchorable
+  - type: Sprite # Fix our initial state (occupied, occupied-unlit visible).  This sucks.
+    noRot: true
+    sprite: Void/Structures/sleeper.rsi
+    layers:
+    - state: sleeper-open
+      map: ["enum.StorageVisualLayers.Base"]
+    - state: sleeper
+      map: ["enum.StorageVisualLayers.Door"]
+  - type: InteractionOutline
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.4,-0.2,0.4,0.2"
+        density: 400 # Heavy, same density as high value trading crate
+        mask:
+        - CrateMask # Match crate mask/layer
+        layer:
+        - MachineLayer
+  - type: EntityStorage
+    openSound: /Audio/Mecha/mechmove03.ogg # Internals on/off
+    closeSound: /Audio/Mecha/mechmove03.ogg # Internals on/off
+    capacity: 1
+    airtight: true
+    air:
+      volume: 1000
+      temperature: 293.15
+      moles:
+        - 393.0592071 # oxygen 21%
+        - 1478.6513029 # nitrogen 79%
+  - type: Damageable
+    damageContainer: StructuralInorganic
+    damageModifierSet: Metallic
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 200 # Should be relatively tanky given its weight
+      behaviors:
+      - !type:DoActsBehavior
+        acts: ["Destruction"]
+      - !type:PlaySoundBehavior
+        sound:
+          collection: MetalBreak
+  - type: Appearance
+  - type: EntityStorageVisuals
+    stateBaseOpen: sleeper-open
+    stateBaseClosed: sleeper
+    stateDoorClosed: sleeper
+  - type: GenericVisualizer
+    visuals:
+      enum.StorageVisuals.HasContents:
+        occupied:
+          True: { visible: true }
+          False: { visible: false }
+  - type: ContainerContainer
+    containers:
+      entity_storage: !type:Container
+  - type: RequireProjectileTarget
+
+- type: entity
+  parent: SleeperPodBase
+  id: SleeperPodUrist
+  suffix: Заполненный, Урист
+  components:
+  - type: StorageFill
+    contents:
+    - id: MobHuman

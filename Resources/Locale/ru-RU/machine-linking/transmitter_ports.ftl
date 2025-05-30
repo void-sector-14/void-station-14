@@ -46,3 +46,5 @@ signal-port-name-power-charging = Зарядка
 signal-port-description-power-charging = Этот порт задействуется с ВЕРХНИМ параметром, когда батарея набирает заряд, и НИЖНИМ, когда нет.
 signal-port-name-power-discharging = Разрядка
 signal-port-description-power-discharging = Этот порт задействуется с ВЕРХНИМ параметром, когда батарея теряет заряд, и НИЖНИМ, когда нет.
+signal-port-name-item-detected = Обнаружено
+signal-port-description-item-detected = Этот порт задействуется всякий раз, когда передатчик обнаруживает предмет.
