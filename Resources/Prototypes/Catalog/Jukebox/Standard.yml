@@ -339,3 +339,45 @@
   name: Валентин Стрыкало - Я бью женщин и детей
   path:
     path: /Audio/Void/Jukebox/Valentin_Strykalo_-_YA_byu_zhenshhin_i_detejj.ogg
+
+- type: jukebox
+  id: Chippin_in
+  name: Damian Ukeje - Chippin in
+  path:
+    path: /Audio/Void/Jukebox/Damian Ukeje - Chippin in.ogg
+
+- type: jukebox
+  id: Money_For_Nothing
+  name: Dire Straits - Money For Nothing
+  path:
+    path: /Audio/Void/Jukebox/Dire Straits - Money For Nothing.ogg
+
+- type: jukebox
+  id: Invisible_Big_Boss
+  name: Duran Duran - Invisible
+  path:
+    path: /Audio/Void/Jukebox/Duran duran - Invisible.ogg
+
+- type: jukebox
+  id: Bigger_man
+  name: Konrad OldMoney - Bigger man
+  path:
+    path: /Audio/Void/Jukebox/Konrad OldMoney - Bigger man.ogg
+
+- type: jukebox
+  id: Hello_good_morning
+  name: Konrad OldMoney - Hello good morning
+  path:
+    path: /Audio/Void/Jukebox/Konrad OldMoney - Hello good morning.ogg
+
+- type: jukebox
+  id: Problem_kids
+  name: Konrad OldMoney - Problem kids
+  path:
+    path: /Audio/Void/Jukebox/Konrad OldMoney - Problem kids.ogg
+
+- type: jukebox
+  id: Where_Do_You_Get_Off
+  name: White Knuckle Jerk - Where Do You Get Off
+  path:
+    path: /Audio/Void/Jukebox/White Knuckle Jerk - Where Do You Get Off.ogg
