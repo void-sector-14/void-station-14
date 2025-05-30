@@ -9,11 +9,11 @@ job-board-ui-label-items = Цель: [color=red]{ $item }[/color]
 job-board-label-text =
     { "[" }head=2]Партия с грузом для утилизации[/head]
     { "[italic]Только для официальных грузов со станций.[/italic]" }
-
+    
     { "[bold]Цель:[/bold]" } { $target }
     { "[bold]Награда:[/bold]" } ${ $reward }
-
-
+    
+    
     { "[italic]Партии подлежат досмотру корпорацией Донк[/italic]" }
 salv-job-board-name-BountyTeethSpaceCarp = Космический карп
 salv-job-board-name-BountySalvageScrap = Космический мусор

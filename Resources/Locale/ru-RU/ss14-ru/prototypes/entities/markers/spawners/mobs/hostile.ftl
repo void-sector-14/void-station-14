@@ -22,6 +22,7 @@ ent-SpawnMobOreCrab = спавнер рудного краба
 ent-SpawnMobPurpleSnake = спавнер пурпурной змеи
     .desc = { ent-MarkerBase.desc }
 ent-SpawnMobSmallPurpleSnake = спавнер маленькой пурпурной змеи
+    .desc = { ent-MarkerBase.desc }
 ent-SpawnMobSpaceCobra = спавнер космической кобры
     .desc = { ent-MarkerBase.desc }
 ent-SpawnMobSpaceSpider = спавнер космического паука

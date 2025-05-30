@@ -61,7 +61,6 @@ reagent-effect-condition-guidebook-breathing =
         [true] дышит нормально
        *[false] задыхается
     }
-
 reagent-effect-condition-guidebook-internals =
     организм { $usingInternals ->
         [true] использует внутреннюю подачу воздуха
