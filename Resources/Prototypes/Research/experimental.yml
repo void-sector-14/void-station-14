@@ -93,7 +93,7 @@
   cost: 5000
   recipeUnlocks:
   - ArtifactCrusherMachineCircuitboard
-  - ExperimentalArtifactAnalyzerMachineCircuitboard
+  # - ExperimentalArtifactAnalyzerMachineCircuitboard
 
 - type: technology
   id: AdvancedAnomalyResearch
