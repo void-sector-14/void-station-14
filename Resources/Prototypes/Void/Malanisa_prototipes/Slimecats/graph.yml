@@ -248,23 +248,6 @@
     tags:
     - SlimecatSimpleCraft
 
-- type: constructionGraph
-  id: CloakMiner
-  start: start
-  graph:
-  - node: start
-    edges:
-    - to: CloakMiner
-      steps:
-      - tag: ClothingNeckCloakMiner
-        name: плащ шахтёра
-        icon:
-          sprite: Void/Malanisa_sprites/Objects/Slimecat_items/Clothing/Neck/Cloaks/miner.rsi
-          state: icon
-        doAfter: 4
-  - node: CloakMiner
-    entity: ClothingNeckCloakMinerSlimecat
-
 - type: construction
   name: торжественный плащ капитана
   id: CapFormal
