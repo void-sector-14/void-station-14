@@ -12,6 +12,14 @@
       - material: Steel
         amount: 4
         doAfter: 2
+    - to: highSecAssembly
+      completed:
+      - !type:SetAnchor
+        value: false
+      steps:
+      - material: Plasteel
+        amount: 6
+        doAfter: 3
 
   - node: assembly
     entity: AirlockAssembly
@@ -39,6 +47,32 @@
       - tool: Welding
         doAfter: 3
 
+  - node: highSecAssembly
+    entity: AirlockAssemblyHighSec
+    actions:
+    - !type:SnapToGrid {}
+    - !type:SetAnchor {}
+    edges:
+    - to: highSecWired
+      conditions:
+      - !type:EntityAnchored {}
+      steps:
+      - material: Cable
+        amount: 5
+        doAfter: 3
+    - to: start
+      conditions:
+      - !type:EntityAnchored
+        anchored: false
+      completed:
+      - !type:SpawnPrototype
+        prototype: SheetPlasteel1
+        amount: 6
+      - !type:DeleteEntity {}
+      steps:
+      - tool: Welding
+      doAfter: 4.5
+
   - node: wired
     entity: AirlockAssembly
     edges:
@@ -61,6 +95,29 @@
       steps:
       - tool: Cutting
         doAfter: 2.5
+
+  - node: highSecWired
+    entity: AirlockAssemblyHighSec
+    edges:
+    - to: highSecElectronics
+      conditions:
+      - !type:EntityAnchored {}
+      steps:
+      - component: DoorElectronics
+      store: board
+      name: construction-graph-component-door-electronics-circuit-board
+      icon:
+        sprite: "Objects/Misc/module.rsi"
+        state: "door_electronics"
+      doAfter: 4
+    - to: highSecAssembly
+      completed:
+      - !type:SpawnPrototype
+        prototype: CableApcStack1
+        amount: 5
+      steps:
+      - tool: Cutting
+        doAfter: 3
 
   - node: electronics
     edges:
@@ -87,6 +144,25 @@
       steps:
       - tool: Prying
         doAfter: 5
+
+  - node: highSecElectronics
+    edges:
+    - to: highSecDoor
+      conditions:
+      - !type:EntityAnchored {}
+      steps:
+      - tool: Screwing
+        doAfter: 3
+    - to: highSecWired
+      conditions:
+      - !type:EntityAnchored {}
+      completed:
+      - !type:EmptyAllContainers
+        pickup: true
+        emptyAtUser: true
+      steps:
+      - tool: Prying
+        doAfter: 5.5
 
   - node: glassElectronics
     entity: AirlockAssembly
@@ -196,10 +272,28 @@
 
 ## High security door
   - node: highSecDoor
+    entity: HighSecDoor
+    doNotReplaceInheritingEntities: true
     actions:
     - !type:SetWiresPanelSecurity
       wiresAccessible: true
     edges:
+    - to: highSecWired
+      conditions:
+      - !type:EntityAnchored {}
+      - !type:DoorWelded {}
+      - !type:DoorBolted
+        value: false
+      - !type:WirePanel {}
+      - !type:AllWiresCut
+      completed:
+      - !type:EmptyAllContainers
+        pickup: true
+        emptyAtUser: true
+      steps:
+      - tool: Prying
+        doAfter: 5
+
     - to: medSecurityUnfinished
       conditions:
       - !type:WirePanel {}

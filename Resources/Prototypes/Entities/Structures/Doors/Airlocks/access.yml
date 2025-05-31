@@ -1206,7 +1206,7 @@
 
 #HighSecDoors
 - type: entity
-  parent: HighSecDoor
+  parent: HighSecDoorSecured
   id: HighSecCentralCommandLocked
   suffix: Central Command, Locked
   components:
@@ -1215,7 +1215,7 @@
       board: [ DoorElectronicsCentralCommand ]
 
 - type: entity
-  parent: HighSecDoor
+  parent: HighSecDoorSecured
   id: HighSecCommandLocked
   suffix: Command, Locked
   components:
@@ -1224,7 +1224,7 @@
       board: [ DoorElectronicsCommand ]
 
 - type: entity
-  parent: HighSecDoor
+  parent: HighSecDoorSecured
   id: HighSecCaptainLocked
   suffix: Captain, Locked
   components:
@@ -1233,7 +1233,7 @@
       board: [ DoorElectronicsCaptain ]
 
 - type: entity
-  parent: HighSecDoor
+  parent: HighSecDoorSecured
   id: HighSecArmoryLocked
   suffix: Armory, Locked
   components:
