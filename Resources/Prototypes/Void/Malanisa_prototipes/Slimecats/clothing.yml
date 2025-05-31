@@ -215,9 +215,6 @@
     - Slimecatgear
     - SlimecatgearGourmand
     - ClothMade
-  - type: Construction
-    graph: CloakMiner
-    node: CloakMiner
 
 - type: entity
   parent: [ClothingNeckBase, BaseCommandContraband]
