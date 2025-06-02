@@ -91,3 +91,14 @@
         Blunt: 0.95
         Slash: 0.95
         Piercing: 0.95
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitMailCarrier
+  name: комбинезон почтальона
+  description: Комбинезон сотрудника почтовой службы. Имеет дополнительную защиту против собак.
+  components:
+    - type: Sprite
+      sprite: Void/Clothing/Uniforms/Jumpsuit/mailman.rsi
+    - type: Clothing
+      sprite: Void/Clothing/Uniforms/Jumpsuit/mailman.rsi
