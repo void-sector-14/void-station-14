@@ -101,3 +101,14 @@
         Slash: 0.8
         Piercing: 0.9
         Heat: 0.9
+
+- type: entity
+  parent: ClothingOuterWinterCoat
+  id: ClothingOuterWinterCoatMail
+  name: зимняя куртка почтальона
+  description: Защищает от холода, но не от собак.
+  components:
+    - type: Sprite
+      sprite: Void/Clothing/OuterClothing/Coats/mail_winter_coat.rsi
+    - type: Clothing
+      sprite: Void/Clothing/OuterClothing/Coats/mail_winter_coat.rsi

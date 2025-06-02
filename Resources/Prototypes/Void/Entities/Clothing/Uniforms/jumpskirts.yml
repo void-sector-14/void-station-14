@@ -20,3 +20,14 @@
   - type: Clothing
     slots: [ outerClothing ]
     sprite: Void/Clothing/Uniforms/Jumpskirt/armorkn.rsi
+
+- type: entity
+  parent: ClothingUniformSkirtBase
+  id: ClothingUniformJumpskirtMailCarrier
+  name: юбка-комбинезон почтальона
+  description: Юбка-комбинезон сотрудника почтовой службы. Имеет дополнительную защиту против собак.
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Uniforms/Jumpskirt/mailman.rsi
+  - type: Clothing
+    sprite: Void/Clothing/Uniforms/Jumpskirt/mailman.rsi
