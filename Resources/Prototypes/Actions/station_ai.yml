@@ -1,28 +1,32 @@
-﻿# Actions
+# Actions
 - type: entity
+  parent: BaseAction
   id: ActionJumpToCore
   name: Jump to core
   description: Sends your eye back to the core.
   components:
-  - type: InstantAction
+  - type: Action
     priority: -9
     itemIconStyle: BigAction
     icon:
       sprite: Interface/Actions/actions_ai.rsi
       state: ai_core
+  - type: InstantAction
     event: !type:JumpToCoreEvent
 
 - type: entity
+  parent: BaseAction
   id: ActionSurvCameraLights
   name: Toggle camera lights
   description: Enable surveillance camera lights near wherever you're viewing.
   components:
-  - type: InstantAction
+  - type: Action
     priority: -5
     itemIconStyle: BigAction
     icon:
       sprite: Interface/Actions/actions_ai.rsi
       state: camera_light
+  - type: InstantAction
     event: !type:RelayedActionComponentChangeEvent
       components:
       - type: LightOnCollideCollider
@@ -38,22 +42,23 @@
             - GhostImpassable
 
 - type: entity
+  parent: BaseMentalAction
   id: ActionAIViewLaws
   name: View Laws
   description: View the laws that you must follow.
   components:
-  - type: InstantAction
-    checkCanInteract: false
-    checkConsciousness: false
+  - type: Action
     priority: -3
     itemIconStyle: NoItem
     icon:
       sprite: Interface/Actions/actions_ai.rsi
       state: state_laws
-    event: !type:ToggleLawsScreenEvent
     useDelay: 0.5
+  - type: InstantAction
+    event: !type:ToggleLawsScreenEvent
 
 - type: entity
+  parent: BaseAction
   id: ActionAIShowCommunications
   name: Communications Interface
   description: View a communications interface.
@@ -66,6 +71,7 @@
     event: !type:ToggleIntrinsicUIEvent { key: enum.CommunicationsConsoleUiKey.Key }
 
 - type: entity
+  parent: BaseAction
   id: ActionAIShowCrewMonitoring
   name: Crew Monitoring Interface
   description: View a crew monitoring interface.
@@ -78,6 +84,7 @@
     event: !type:ToggleIntrinsicUIEvent { key: enum.CrewMonitoringUIKey.Key }
 
 - type: entity
+  parent: BaseAction
   id: ActionAIShowStationRecords
   name: Station Records Interface
   description: View a station records Interface.
@@ -90,6 +97,7 @@
     event: !type:ToggleIntrinsicUIEvent { key: enum.GeneralStationRecordConsoleKey.Key }
 
 - type: entity
+  parent: BaseAction
   id: ActionAIShowRadar
   name: Mass Scanner Interface
   description: View a mass scanner interface.
@@ -100,3 +108,5 @@
     keywords: [ "AI", "console", "interface" ]
     priority: -7
     event: !type:ToggleIntrinsicUIEvent { key: enum.RadarConsoleUiKey.Key }
+  - type: InstantAction
+    event: !type:ToggleLawsScreenEvent
