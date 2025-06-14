@@ -28,3 +28,5 @@ ent-ClosetWallAtmospherics = атмосферный настенный шкаф
     .desc = { ent-BaseWallCloset.desc }
 ent-LockerWallMedical = врачебный настенный шкаф
     .desc = { ent-BaseWallLocker.desc }
+ent-LockerWallEvacRepair = настенный шкаф для ремонта шаттла
+    .desc = { ent-BaseWallLocker.desc }

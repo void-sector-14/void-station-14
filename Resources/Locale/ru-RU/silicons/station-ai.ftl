@@ -37,7 +37,6 @@ station-ai-icon-gentoo = Генту
 station-ai-icon-helios = Гелиос
 station-ai-icon-matrix = Матрица
 station-ai-icon-techdemon = Техно-демон
-
 station-ai-hologram-female = Женский облик
 station-ai-hologram-male = Мужской облик
 station-ai-hologram-face = Отделённая голова
