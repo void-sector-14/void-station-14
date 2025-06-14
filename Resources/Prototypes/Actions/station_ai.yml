@@ -108,5 +108,3 @@
     keywords: [ "AI", "console", "interface" ]
     priority: -7
     event: !type:ToggleIntrinsicUIEvent { key: enum.RadarConsoleUiKey.Key }
-  - type: InstantAction
-    event: !type:ToggleLawsScreenEvent
