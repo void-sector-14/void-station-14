@@ -2,7 +2,7 @@ using System.Numerics;
 using Content.Server.Body.Systems;
 using Content.Shared.Buckle;
 using Content.Shared.ActionBlocker;
-using Content.Shared._CorvaxNext.Standing;
+using Content.Shared.Void.Standing;
 using Content.Shared.Body.Components;
 using Content.Shared.Body.Part;
 using Content.Shared.Buckle.Components;
