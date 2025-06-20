@@ -35,6 +35,7 @@ using Content.Shared.Mind.Components;
 using Content.Shared.Popups;
 using Content.Shared.Random;
 using Content.Shared.Zombies;
+using Content.Shared.Void.Parasites;
 using Robust.Server.GameObjects;
 using Robust.Shared.Audio;
 using Robust.Shared.Audio.Systems;
@@ -549,6 +550,12 @@ public sealed class EntityEffectSystem : EntitySystem
     {
         EnsureComp<ZombifyOnDeathComponent>(args.Args.TargetEntity);
         EnsureComp<PendingZombieComponent>(args.Args.TargetEntity);
+    }
+
+    private void OnExecuteCauseParasiteInfection(ref ExecuteEntityEffectEvent<CauseParasiteInfection> args)
+    {
+        EnsureComp<ParasiteOnDeathComponent>(args.Args.TargetEntity);
+        EnsureComp<PendingParasiteComponent>(args.Args.TargetEntity);
     }
 
     private void OnExecuteChemCleanBloodstream(ref ExecuteEntityEffectEvent<ChemCleanBloodstream> args)
