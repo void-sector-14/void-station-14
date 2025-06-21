@@ -29,6 +29,16 @@ hud-chatbox-channel-Visual = Визуальный
 hud-chatbox-channel-Notifications = Уведомления
 hud-chatbox-channel-Unspecified = Неопределенный
 hud-chatbox-select-channel-Damage = Повреждения
+hud-chatbox-highlights = Выделение:
+hud-chatbox-highlights-button = Подтвердить
+hud-chatbox-highlights-tooltip =
+    Слова должны быть разделены новой строкой,
+    если заключены в " они будут выделены
+    только если разделены пробелами или знаками препинания.
+hud-chatbox-highlights-placeholder =
+    МакЧеловек
+    "Судья"
+    Медицинский
 hud-chatbox-select-channel-Visual = Действия
 hud-chatbox-channel-Damage = Повреждения
 hud-chatbox-channel-ERP = ERP

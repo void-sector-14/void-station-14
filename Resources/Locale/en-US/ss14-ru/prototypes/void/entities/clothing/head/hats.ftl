@@ -12,3 +12,5 @@ ent-ClothingHeadFlash = шлем вспышки
     .desc = Дополняет великолепный костюм вспышки!
 ent-ClothingExpensiveHat = дорогая шляпа
     .desc = Ваша невероятно дорогая шляпа, к вашей невероятно дорогой шубе!
+ent-ClothingHeadMailCarrier = кепка почтальона
+    .desc = Пахнет посылками.

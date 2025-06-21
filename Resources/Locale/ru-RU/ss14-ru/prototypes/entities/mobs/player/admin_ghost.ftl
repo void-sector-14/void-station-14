@@ -1,6 +1,8 @@
 ent-AdminObserver = адмем
     .desc = Летают тут всякие, подглядывают, записывают в книгу обид.
     .suffix = { "" }
+ent-BaseAGhostAction = { ent-BaseAction }
+    .desc = { ent-BaseAction.desc }
 ent-ActionAGhostShowSolar = Интерфейс управления солнечными батареями
     .desc = Просмотр интерфейса управления солнечными батареями.
     .suffix = { "" }

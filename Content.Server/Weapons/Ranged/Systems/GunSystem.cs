@@ -5,6 +5,7 @@ using Content.Server.Power.EntitySystems;
 using Content.Server.Mech.Equipment.Components;
 using Content.Server.Stunnable;
 using Content.Server.Weapons.Ranged.Components;
+using Content.Shared.Cargo;
 using Content.Shared.Damage;
 using Content.Shared.Damage.Systems;
 using Content.Shared.Database;
@@ -25,7 +26,6 @@ using Robust.Shared.Player;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Utility;
 using Robust.Shared.Containers;
-using Content.Server.PowerCell;
 
 namespace Content.Server.Weapons.Ranged.Systems;
 

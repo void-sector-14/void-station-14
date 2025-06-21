@@ -74,3 +74,14 @@
     sprite: Void/Clothing/Head/Hats/expensive_hat.rsi
   - type: Clothing
     sprite: Void/Clothing/Head/Hats/expensive_hat.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadMailCarrier
+  name: кепка почтальона
+  description: Пахнет посылками.
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Head/Hats/mailman.rsi
+  - type: Clothing
+    sprite: Void/Clothing/Head/Hats/mailman.rsi

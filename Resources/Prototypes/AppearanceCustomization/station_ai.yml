@@ -11,6 +11,14 @@
   - StationAiIconDorf
   - StationAiIconHeartline
   - StationAiIconSmiley
+  - StationAiIconPresident
+  - StationAiIconCatamari
+  - StationAiIconDarkmatter
+  - StationAiIconDatabase
+  - StationAiIconGentoo
+  - StationAiIconHelios
+  - StationAiIconMatrix
+  - StationAiIconTechdemon
 
 - type: stationAiCustomizationGroup
   id: StationAiHolograms
@@ -22,6 +30,8 @@
   - StationAiHologramFace
   - StationAiHologramCat
   - StationAiHologramDog
+  - StationAiHologramBall
+  - StationAiHologramAuto
 
 # Iconography
 - type: stationAiCustomization
@@ -30,6 +40,14 @@
   previewKey: Occupied
   previewBackground:
     sprite: Mobs/Silicon/station_ai.rsi
+    state: base
+
+- type: stationAiCustomization
+  abstract: true
+  id: StationAiIconBaseVoid
+  previewKey: Occupied
+  previewBackground:
+    sprite: Void/Mobs/Silicon/station_ai.rsi
     state: base
 
 - type: stationAiCustomization
@@ -117,16 +135,100 @@
       state: "ai_dead"
 
 - type: stationAiCustomization
-  parent: StationAiIconBase
+  parent: StationAiIconBaseVoid
   id: StationAiIconPresident
   name: station-ai-icon-president
   layerData:
     Occupied:
-      sprite: Mobs/Silicon/station_ai.rsi
-      state: "ai_president"
+      sprite: Void/Mobs/Silicon/station_ai.rsi
+      state: ai-president
     Dead:
       sprite: Mobs/Silicon/station_ai.rsi
-      state: "ai_dead"
+      state: ai_dead
+
+- type: stationAiCustomization
+  parent: StationAiIconBaseVoid
+  id: StationAiIconCatamari
+  name: station-ai-icon-catamari
+  layerData:
+    Occupied:
+      sprite: Void/Mobs/Silicon/station_ai.rsi
+      state: ai-catamari
+    Dead:
+      sprite: Mobs/Silicon/station_ai.rsi
+      state: ai_dead
+
+- type: stationAiCustomization
+  parent: StationAiIconBaseVoid
+  id: StationAiIconDarkmatter
+  name: station-ai-icon-darkmatter
+  layerData:
+    Occupied:
+      sprite: Void/Mobs/Silicon/station_ai.rsi
+      state: ai-darkmatter
+    Dead:
+      sprite: Mobs/Silicon/station_ai.rsi
+      state: ai_dead
+
+- type: stationAiCustomization
+  parent: StationAiIconBaseVoid
+  id: StationAiIconDatabase
+  name: station-ai-icon-database
+  layerData:
+    Occupied:
+      sprite: Void/Mobs/Silicon/station_ai.rsi
+      state: ai-database
+    Dead:
+      sprite: Void/Mobs/Silicon/station_ai.rsi
+      state: ai-database_dead
+
+- type: stationAiCustomization
+  parent: StationAiIconBaseVoid
+  id: StationAiIconGentoo
+  name: station-ai-icon-gentoo
+  layerData:
+    Occupied:
+      sprite: Void/Mobs/Silicon/station_ai.rsi
+      state: ai-gentoo
+    Dead:
+      sprite: Void/Mobs/Silicon/station_ai.rsi
+      state: ai-gentoo_dead
+
+- type: stationAiCustomization
+  parent: StationAiIconBaseVoid
+  id: StationAiIconHelios
+  name: station-ai-icon-helios
+  layerData:
+    Occupied:
+      sprite: Void/Mobs/Silicon/station_ai.rsi
+      state: ai-helios
+    Dead:
+      sprite: Mobs/Silicon/station_ai.rsi
+      state: ai_dead
+
+- type: stationAiCustomization
+  parent: StationAiIconBaseVoid
+  id: StationAiIconMatrix
+  name: station-ai-icon-matrix
+  layerData:
+    Occupied:
+      sprite: Void/Mobs/Silicon/station_ai.rsi
+      state: ai-matrix
+    Dead:
+      sprite: Mobs/Silicon/station_ai.rsi
+      state: ai_dead
+
+- type: stationAiCustomization
+  parent: StationAiIconBaseVoid
+  id: StationAiIconTechdemon
+  name: station-ai-icon-techdemon
+  layerData:
+    Occupied:
+      sprite: Void/Mobs/Silicon/station_ai.rsi
+      state: ai-techdemon
+    Dead:
+      sprite: Void/Mobs/Silicon/station_ai.rsi
+      state: ai-techdemon_dead
 
 # Holograms
 - type: stationAiCustomization
@@ -173,3 +275,21 @@
     Hologram:
       sprite: Mobs/Silicon/holograms.rsi
       state: ai_dog
+
+- type: stationAiCustomization
+  id: StationAiHologramBall
+  name: station-ai-hologram-ball
+  previewKey: Hologram
+  layerData:
+    Hologram:
+      sprite: Void/Mobs/Silicon/holograms.rsi
+      state: ai_ball
+
+- type: stationAiCustomization
+  id: StationAiHologramAuto
+  name: station-ai-hologram-auto
+  previewKey: Hologram
+  layerData:
+    Hologram:
+      sprite: Void/Mobs/Silicon/holograms.rsi
+      state: ai_auto
