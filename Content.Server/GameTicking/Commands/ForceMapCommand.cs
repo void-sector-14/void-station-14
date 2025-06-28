@@ -35,7 +35,7 @@ namespace Content.Server.GameTicking.Commands
                 return;
             }
 
-            gameMap.SelectMap(name);
+            _gameMapManager.SelectMap(name);
 
             if (string.IsNullOrEmpty(name))
                 shell.WriteLine(Loc.GetString("cmd-forcemap-cleared"));
