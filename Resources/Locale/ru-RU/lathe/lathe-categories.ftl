@@ -26,6 +26,7 @@ lathe-category-maints = Технические помещения
 lathe-category-steel = Сталь
 lathe-category-white = Белое
 lathe-category-wood = Дерево
+lathe-category-modules = Модули
 lathe-category-chemicals = Химикаты
 lathe-category-materials = Материалы
 lathe-category-boxes = Коробки

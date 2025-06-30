@@ -62,6 +62,8 @@ construction-graph-tag-rifle-stock = приклад винтовки
 construction-graph-tag-match-stick = спичка
 construction-graph-tag-potato = картофель
 construction-graph-tag-wheat-bushel = пучок пшеницы
+construction-graph-tag-apron = фартук
+construction-graph-tag-utility-belt = пояс для инструментов
 construction-graph-tag-corgi-hide = шкура корги
 soil-construction-graph-any-mushroom = любой гриб
 # игрушки
@@ -126,5 +128,7 @@ construction-graph-tag-torch = факел
 # атмос
 construction-graph-tag-fire-extinguisher = огнетушитель
 construction-graph-tag-fire-helmet = пожарный шлем
+# clothing
+construction-graph-tag-backpack = рюкзак
 # спасение
 construction-graph-tag-spationaut-hardsuit = скафандр космонавта
