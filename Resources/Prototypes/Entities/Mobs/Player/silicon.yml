@@ -161,7 +161,7 @@
     sprite: Mobs/Silicon/station_ai.rsi
     layers:
     - state: base
-    - state: ai-president
+    - state: ai
       shader: unshaded
 
 - type: entity
