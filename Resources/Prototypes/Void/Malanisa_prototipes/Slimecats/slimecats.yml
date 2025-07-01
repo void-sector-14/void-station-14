@@ -887,13 +887,15 @@
     rules: ghost-role-information-nonantagonist-rules
 
 - type: entity
+  parent: BaseAction
   id: ActionSericultureGourmand
   name: выплюнуть комок
   description: Никто не знает, что хранится в вашем желудке...
   components:
   - type: InstantAction
-    icon: Void/Malanisa_sprites/Objects/Slimecat_items/clot.rsi/clot.png
     event: !type:SericultureActionEvent
+  - type: Action
+    icon: Void/Malanisa_sprites/Objects/Slimecat_items/clot.rsi/clot.png
     useDelay: 1
 
 ### Техник
@@ -993,13 +995,15 @@
     - Arti_Spear
 
 - type: entity
+  parent: BaseAction
   id: ActionSericultureArtificer
   name: выплюнуть комок
   description: Вы создаёте комок из запасов питательных веществ.
   components:
   - type: InstantAction
-    icon: Void/Malanisa_sprites/Objects/Slimecat_items/artificer_craft.rsi/item.png
     event: !type:SericultureActionEvent
+  - type: Action
+    icon: Void/Malanisa_sprites/Objects/Slimecat_items/artificer_craft.rsi/item.png
     useDelay: 1
 
 ### Мастер копья
@@ -1078,13 +1082,15 @@
     rules: ghost-role-information-nonantagonist-rules
 
 - type: entity
+  parent: BaseAction
   id: ActionSericultureSpearmaster
   name: Создать копье
   description: Вы создаёте костяное копье из запасов питательных веществ.
   components:
   - type: InstantAction
-    icon: Void/Malanisa_sprites/Objects/Slimecat_items/sm_spear.rsi/spear.png
     event: !type:SericultureActionEvent
+  - type: Action
+    icon: Void/Malanisa_sprites/Objects/Slimecat_items/sm_spear.rsi/spear.png
     useDelay: 1
 
 ### Ручей
