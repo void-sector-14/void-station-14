@@ -71,7 +71,7 @@
   parent: [ BaseWeaponBattery, BaseRestrictedContraband ]
   id: WeaponTaserCompact
   description: Тазер выдаваемый сотрудникам службы безопасности. В ходе многих испытаний было принято решение сделать его разовым, с целью предотвращения травм у офицеров. На корпусе есть надпись - УТИЛИЗИРОВАТЬ ПОСЛЕ ПРИМЕНЕНИЯ, ВЗРЫВООПАСНО, ИСПОЛЬЗОВАНИЕ ПОСЛЕ ПРИМЕНЕНИЯ РАССЦЕНИВАЕТСЯ КАК ХАЛАТНОСТЬ.
-  components:  
+  components:
   - type: Battery
     maxCharge: 100000
     startingCharge: 100000 #<== Сделать так что-б взрывался если его полностью зарядить.
@@ -86,7 +86,6 @@
       map: ["enum.GunVisualLayers.Base"]
     - state: mag-unshaded-0
       map: ["enum.GunVisualLayers.MagUnshaded"]
-      shader: none
   - type: Item
     size: Small
     heldPrefix: taser4
