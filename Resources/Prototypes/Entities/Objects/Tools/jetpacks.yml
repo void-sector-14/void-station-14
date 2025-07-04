@@ -126,6 +126,8 @@
     sprite: Void/Objects/Tanks/Jetpacks/black.rsi
     slots:
       - Back
+  - type: StaticPrice
+    price: 1000
 
 # Filled black
 - type: entity

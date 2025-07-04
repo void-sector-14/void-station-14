@@ -19,3 +19,5 @@ ent-MobPurpleSnake = пурпурная змея
 ent-MobSmallPurpleSnake = пурпурная змея
     .desc = Уменьшенная версия грозной пурпурной змеи из Kepler-283c.
     .suffix = маленькая
+ent-MobXenoLonePraetorianNoGhost = одинокий преторианец
+    .desc = Последний в своем роде.

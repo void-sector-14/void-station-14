@@ -20,3 +20,5 @@ reagent-name-weh = сок Weh
 reagent-desc-weh = Чистая суть плюшевой ящерицы. Делает тебя Weh!
 reagent-name-hew = сок Hew
 reagent-desc-hew = Чистая суть инверсированной плюшевой ящерицы. Делает тебя Hew!
+reagent-name-corgiessence = коргиум
+reagent-desc-corgiessence = На вкус как собачий корм. Очевидно, на любителя.
