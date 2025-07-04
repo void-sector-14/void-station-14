@@ -678,6 +678,7 @@
   minLimit: 0
   loadouts:
   - CargoTechnicianHead
+  - ClothingHeadMailCarrier
 
 - type: loadoutGroup
   id: CargoTechnicianJumpsuit
@@ -685,6 +686,8 @@
   loadouts:
   - CargoTechnicianJumpsuit
   - CargoTechnicianJumpskirt
+  - ClothingUniformJumpsuitMailCarrier
+  - ClothingUniformJumpskirtMailCarrier
 
 - type: loadoutGroup
   id: CargoTechnicianBackpack
@@ -700,6 +703,7 @@
   minLimit: 0
   loadouts:
   - CargoTechnicianWintercoat
+  - ClothingOuterWinterCoatMail
 
 - type: loadoutGroup
   id: CargoTechnicianShoes

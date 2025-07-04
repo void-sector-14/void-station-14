@@ -4,6 +4,11 @@
   equipment:
     head: ClothingHeadHatCargosoft
 
+- type: loadout
+  id: ClothingHeadMailCarrier
+  equipment:
+    head: ClothingHeadMailCarrier
+
 # Jumpsuit
 - type: loadout
   id: CargoTechnicianJumpsuit
@@ -14,6 +19,16 @@
   id: CargoTechnicianJumpskirt
   equipment:
     jumpsuit: ClothingUniformJumpskirtCargo
+
+- type: loadout
+  id: ClothingUniformJumpsuitMailCarrier
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitMailCarrier
+
+- type: loadout
+  id: ClothingUniformJumpskirtMailCarrier
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtMailCarrier
 
 # Back
 - type: loadout
@@ -36,6 +51,11 @@
   id: CargoTechnicianWintercoat
   equipment:
     outerClothing: ClothingOuterWinterCargo
+
+- type: loadout
+  id: ClothingOuterWinterCoatMail
+  equipment:
+    outerClothing: ClothingOuterWinterCoatMail
 
 # Shoes
 - type: loadout
