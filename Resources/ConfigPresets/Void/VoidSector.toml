@@ -74,8 +74,8 @@ rate_limit_announce_admins_delay = -1
 [infolinks]
 discord = "https://discord.gg/Tc5RNEWVWS"
 wiki = "https://voidsector.org/"
-infolinks.github = "https://github.com/void-sector-14/void-station-14"
-infolinks.patreon = "https://boosty.to/voidstation"
+github = "https://github.com/void-sector-14/void-station-14"
+patreon = "https://boosty.to/voidstation"
 
 ################################################################################
 ##### In Game ##################################################################
