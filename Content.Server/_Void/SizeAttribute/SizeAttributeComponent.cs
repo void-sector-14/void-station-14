@@ -1,5 +1,5 @@
 
-using Content.Shared.Void.Cloning;
+using Content.Shared._Void.Cloning;
 
 namespace Content.Server.SizeAttribute
 {

@@ -1,7 +1,7 @@
 ﻿using Content.Shared.FixedPoint;
 using Robust.Shared.Serialization;
 
-namespace Content.Shared.Void.Economy.ATM;
+namespace Content.Shared._Void.Economy.ATM;
 
 [Serializable, NetSerializable]
 public enum ATMUiKey : byte

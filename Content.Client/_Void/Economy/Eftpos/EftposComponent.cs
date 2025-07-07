@@ -1,6 +1,6 @@
-﻿using Content.Shared.Void.Economy.Eftpos;
+﻿using Content.Shared._Void.Economy.Eftpos;
 
-namespace Content.Client.Void.Economy.Eftpos;
+namespace Content.Client._Void.Economy.Eftpos;
 
 [RegisterComponent]
 [Access(typeof(EftposSystem))]

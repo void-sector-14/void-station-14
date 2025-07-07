@@ -1,9 +1,9 @@
-﻿using Content.Shared.Void.Economy;
-using Content.Shared.Void.Economy.Eftpos;
+﻿using Content.Shared._Void.Economy;
+using Content.Shared._Void.Economy.Eftpos;
 using Content.Shared.FixedPoint;
 using Robust.Shared.Audio;
 
-namespace Content.Server.Void.Economy.Eftpos;
+namespace Content.Server._Void.Economy.Eftpos;
 
 [RegisterComponent]
 [Access(typeof(EftposSystem), typeof(EconomySystem))]

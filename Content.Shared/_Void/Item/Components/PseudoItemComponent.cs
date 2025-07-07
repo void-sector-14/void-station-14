@@ -1,4 +1,4 @@
-using Content.Shared.Void.Cloning;
+using Content.Shared._Void.Cloning;
 using Robust.Shared.Serialization.TypeSerializers.Implementations.Custom.Prototype;
 
 namespace Content.Shared.Item.PseudoItem;

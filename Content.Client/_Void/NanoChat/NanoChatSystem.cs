@@ -1,5 +1,5 @@
-using Content.Shared.Void.NanoChat;
+using Content.Shared._Void.NanoChat;
 
-namespace Content.Client.Void.NanoChat;
+namespace Content.Client._Void.NanoChat;
 
 public sealed class NanoChatSystem : SharedNanoChatSystem;

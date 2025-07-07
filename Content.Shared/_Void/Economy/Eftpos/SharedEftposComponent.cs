@@ -2,7 +2,7 @@
 using Robust.Shared.GameStates;
 using Robust.Shared.Serialization;
 
-namespace Content.Shared.Void.Economy.Eftpos;
+namespace Content.Shared._Void.Economy.Eftpos;
 
 [NetworkedComponent]
 public abstract partial class SharedEftposComponent : Component

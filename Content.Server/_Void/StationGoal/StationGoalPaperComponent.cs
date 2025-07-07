@@ -1,4 +1,4 @@
-namespace Content.Server.Void.StationGoal
+namespace Content.Server._Void.StationGoal
 {
     /// <summary>
     ///     Paper with a written station goal in it.

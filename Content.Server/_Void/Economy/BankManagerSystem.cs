@@ -1,9 +1,9 @@
 ﻿using System.Diagnostics.CodeAnalysis;
 using Content.Server.Administration.Logs;
-using Content.Server.Void.CartridgeLoader.Cartridges;
-using Content.Server.Void.Economy.ATM;
-using Content.Shared.Void.Economy;
-using Content.Shared.Void.Economy.ATM;
+using Content.Server._Void.CartridgeLoader.Cartridges;
+using Content.Server._Void.Economy.ATM;
+using Content.Shared._Void.Economy;
+using Content.Shared._Void.Economy.ATM;
 using Content.Shared.Database;
 using Content.Shared.FixedPoint;
 using Content.Shared.GameTicking;
@@ -14,7 +14,7 @@ using Robust.Shared.Prototypes;
 using Robust.Shared.Random;
 using Robust.Shared.Utility;
 
-namespace Content.Server.Void.Economy;
+namespace Content.Server._Void.Economy;
 
     public sealed class BankManagerSystem : EntitySystem
     {

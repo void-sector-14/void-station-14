@@ -1,4 +1,4 @@
-﻿namespace Content.Shared.Void.Parasites;
+﻿namespace Content.Shared._Void.Parasites;
 public abstract class SharedParasiteSystem : EntitySystem
 {
     /// <inheritdoc/>

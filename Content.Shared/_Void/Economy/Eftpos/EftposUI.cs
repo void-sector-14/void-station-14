@@ -1,7 +1,7 @@
 ﻿using Content.Shared.FixedPoint;
 using Robust.Shared.Serialization;
 
-namespace Content.Shared.Void.Economy.Eftpos;
+namespace Content.Shared._Void.Economy.Eftpos;
 
 [Serializable, NetSerializable]
 public enum EftposUiKey : byte

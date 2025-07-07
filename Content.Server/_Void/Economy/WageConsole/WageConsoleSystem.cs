@@ -1,16 +1,16 @@
 using System.Linq;
 using Content.Server.Administration.Logs;
-using Content.Server.Void.Economy.Wage;
+using Content.Server._Void.Economy.Wage;
 using Content.Server.Popups;
 using Content.Shared.Access.Systems;
-using Content.Shared.Void.Economy.WageConsole;
+using Content.Shared._Void.Economy.WageConsole;
 using Content.Shared.Database;
 using Content.Shared.Popups;
 using Content.Shared.UserInterface;
 using Robust.Server.GameObjects;
 using Robust.Shared.Player;
 
-namespace Content.Server.Void.Economy.WageConsole;
+namespace Content.Server._Void.Economy.WageConsole;
 
 public sealed class WageConsoleSystem : SharedWageConsoleSystem
 {

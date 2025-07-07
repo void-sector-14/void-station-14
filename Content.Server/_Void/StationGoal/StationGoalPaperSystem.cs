@@ -12,7 +12,7 @@ using Robust.Server.Player;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Random;
 
-namespace Content.Server.Void.StationGoal
+namespace Content.Server._Void.StationGoal
 {
     /// <summary>
     ///     System to spawn paper with station goal.

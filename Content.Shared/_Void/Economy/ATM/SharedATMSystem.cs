@@ -1,6 +1,6 @@
 ﻿using Content.Shared.Containers.ItemSlots;
 
-namespace Content.Shared.Void.Economy.ATM;
+namespace Content.Shared._Void.Economy.ATM;
 
 public abstract class SharedATMSystem : EntitySystem
 {

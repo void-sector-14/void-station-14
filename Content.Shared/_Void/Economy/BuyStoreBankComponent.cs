@@ -4,7 +4,7 @@ using Robust.Shared.Audio;
 using Robust.Shared.GameStates;
 using Robust.Shared.Serialization.TypeSerializers.Implementations.Custom.Prototype.Set;
 
-namespace Content.Shared.Void.Store;
+namespace Content.Shared._Void.Store;
 
 [RegisterComponent, NetworkedComponent]
 public sealed partial class BuyStoreBankComponent : Component

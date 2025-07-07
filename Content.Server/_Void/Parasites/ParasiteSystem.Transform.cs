@@ -1,10 +1,10 @@
 using Content.Shared.Mobs;
 using Content.Shared.Mobs.Components;
 using Content.Shared.Popups;
-using Content.Shared.Void.Parasites;
+using Content.Shared._Void.Parasites;
 using Robust.Shared.Prototypes;
 
-namespace Content.Server.Void.Parasites;
+namespace Content.Server._Void.Parasites;
 
 public sealed partial class ParasiteSystem
 {

@@ -1,6 +1,6 @@
 using Robust.Shared.Configuration;
 
-namespace Content.Shared.Void.CCVar;
+namespace Content.Shared._Void.CCVar;
 
 [CVarDefs]
 public sealed class VoidCVars

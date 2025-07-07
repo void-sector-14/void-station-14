@@ -2,7 +2,7 @@
 using Content.Server.Store.Components;
 using Content.Server.Store.Conditions;
 using Content.Server.VendingMachines;
-using Content.Shared.Void.Store;
+using Content.Shared._Void.Store;
 using Content.Shared.DoAfter;
 using Content.Shared.Emag.Systems;
 using Content.Shared.Interaction;
@@ -13,7 +13,7 @@ using Content.Shared.Wires;
 using Robust.Shared.Audio;
 using Robust.Shared.Audio.Systems;
 
-namespace Content.Server.Void.Economy;
+namespace Content.Server._Void.Economy;
 
 public sealed class StoreBankSystem : EntitySystem
 {

@@ -1,4 +1,4 @@
-﻿using Content.Shared.Void.CartridgeLoader.Cartridges; // DeltaV
+﻿using Content.Shared._Void.CartridgeLoader.Cartridges; // DeltaV
 using Robust.Shared.Serialization;
 
 namespace Content.Shared.CartridgeLoader.Cartridges;

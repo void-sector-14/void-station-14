@@ -1,13 +1,13 @@
-﻿//using Content.Server.Void.Economy.ATM;
+﻿//using Content.Server._Void.Economy.ATM;
 
 using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 using Content.Server.Access.Systems;
 using Content.Server.Administration.Managers;
-using Content.Server.Void.CartridgeLoader.Cartridges;
-using Content.Server.Void.Economy.Eftpos;
-using Content.Server.Void.Economy.Wage;
-using Content.Server.Void.Mind;
+using Content.Server._Void.CartridgeLoader.Cartridges;
+using Content.Server._Void.Economy.Eftpos;
+using Content.Server._Void.Economy.Wage;
+using Content.Server._Void.Mind;
 using Content.Server.Chat.Managers;
 using Content.Server.GameTicking;
 using Content.Server.GameTicking.Events;
@@ -15,7 +15,7 @@ using Content.Server.Mind;
 using Content.Server.Roles;
 using Content.Shared.Access.Components;
 using Content.Shared.Administration;
-using Content.Shared.Void.Economy;
+using Content.Shared._Void.Economy;
 using Content.Shared.CartridgeLoader;
 using Content.Shared.Chat;
 using Content.Shared.Database;
@@ -31,7 +31,7 @@ using Robust.Shared.Player;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Utility;
 
-namespace Content.Server.Void.Economy;
+namespace Content.Server._Void.Economy;
 
 public sealed class EconomySystem : EntitySystem
 {

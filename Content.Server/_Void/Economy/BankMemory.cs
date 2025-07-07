@@ -1,6 +1,6 @@
-﻿using Content.Shared.Void.Economy;
+﻿using Content.Shared._Void.Economy;
 
-namespace Content.Server.Void.Economy;
+namespace Content.Server._Void.Economy;
 
 [RegisterComponent]
 public sealed partial class BankMemoryComponent : Component

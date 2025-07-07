@@ -1,6 +1,6 @@
 using Robust.Shared.GameStates;
 
-namespace Content.Shared.Void.Signal;
+namespace Content.Shared._Void.Signal;
 
 /// <summary>
 /// Marker component to identify entities with signals.

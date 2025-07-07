@@ -4,8 +4,8 @@ using Content.Server.Power.EntitySystems;
 using Content.Server.Stack;
 using Content.Server.Store.Systems;
 using Content.Shared.Access.Components;
-using Content.Shared.Void.Economy;
-using Content.Shared.Void.Economy.ATM;
+using Content.Shared._Void.Economy;
+using Content.Shared._Void.Economy.ATM;
 using Content.Shared.FixedPoint;
 using Content.Shared.Hands.EntitySystems;
 using Content.Shared.Interaction;
@@ -23,7 +23,7 @@ using Robust.Shared.Containers;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Utility;
 
-namespace Content.Server.Void.Economy.ATM;
+namespace Content.Server._Void.Economy.ATM;
 
     public sealed class ATMSystem : SharedATMSystem
     {

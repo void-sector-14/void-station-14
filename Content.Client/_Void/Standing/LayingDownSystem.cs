@@ -1,6 +1,6 @@
 using Content.Shared.ActionBlocker;
-using Content.Shared.Void.CCVar;
-using Content.Shared.Void.Standing;
+using Content.Shared._Void.CCVar;
+using Content.Shared._Void.Standing;
 using Content.Shared.Buckle;
 using Content.Shared.Rotation;
 using Content.Shared.Standing;
@@ -10,7 +10,7 @@ using Robust.Shared.Configuration;
 using Robust.Shared.Player;
 using Robust.Shared.Timing;
 
-namespace Content.Client.Void.Standing;
+namespace Content.Client._Void.Standing;
 
 public sealed class LayingDownSystem : SharedLayingDownSystem
 {

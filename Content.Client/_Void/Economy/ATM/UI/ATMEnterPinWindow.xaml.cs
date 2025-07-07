@@ -2,7 +2,7 @@
 using Robust.Client.UserInterface.CustomControls;
 using Robust.Client.UserInterface.XAML;
 
-namespace Content.Client.Void.Economy.ATM.UI;
+namespace Content.Client._Void.Economy.ATM.UI;
 
 [GenerateTypedNameReferences]
 public sealed partial class ATMEnterPinWindow : DefaultWindow

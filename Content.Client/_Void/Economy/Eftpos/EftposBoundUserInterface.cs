@@ -1,8 +1,8 @@
-﻿using Content.Client.Void.Economy.Eftpos.UI;
-using Content.Shared.Void.Economy.Eftpos;
+﻿using Content.Client._Void.Economy.Eftpos.UI;
+using Content.Shared._Void.Economy.Eftpos;
 using Robust.Client.GameObjects;
 
-namespace Content.Client.Void.Economy.Eftpos;
+namespace Content.Client._Void.Economy.Eftpos;
 
 public sealed class EftposBoundUserInterface : BoundUserInterface
 {

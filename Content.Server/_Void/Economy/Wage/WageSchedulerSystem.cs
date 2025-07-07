@@ -1,7 +1,7 @@
 ﻿using Content.Server.GameTicking.Rules;
 using Content.Shared.GameTicking.Components;
 
-namespace Content.Server.Void.Economy.Wage;
+namespace Content.Server._Void.Economy.Wage;
 
 [RegisterComponent, Access(typeof(WageSchedulerSystem))]
 public sealed partial class WageSchedulerRuleComponent : Component

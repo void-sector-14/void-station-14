@@ -1,9 +1,9 @@
 using System.Text.RegularExpressions;
-using Content.Server.Void.Speech.Components;
+using Content.Server._Void.Speech.Components;
 using Content.Server.Speech;
 using Robust.Shared.Random;
 
-namespace Content.Server.Void.Speech.Systems;
+namespace Content.Server._Void.Speech.Systems;
 
 public sealed class RoarAccentSystem : EntitySystem
 {

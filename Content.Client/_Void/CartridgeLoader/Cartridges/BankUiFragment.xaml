@@ -1,4 +1,4 @@
-﻿<cartridges:BankUiFragment xmlns:cartridges="clr-namespace:Content.Client.Void.CartridgeLoader.Cartridges"
+﻿<cartridges:BankUiFragment xmlns:cartridges="clr-namespace:Content.Client._Void.CartridgeLoader.Cartridges"
                            xmlns="https://spacestation14.io">
     <PanelContainer StyleClasses="BackgroundDark"></PanelContainer>
     <BoxContainer Orientation="Vertical" HorizontalExpand="True" VerticalExpand="True" Margin="8">

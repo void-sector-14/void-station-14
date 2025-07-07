@@ -1,7 +1,7 @@
-﻿using Content.Shared.Void.Economy.ATM;
+﻿using Content.Shared._Void.Economy.ATM;
 using Robust.Client.GameObjects;
 
-namespace Content.Client.Void.Economy.ATM;
+namespace Content.Client._Void.Economy.ATM;
 
 public sealed class ATMSystem : SharedATMSystem
 {

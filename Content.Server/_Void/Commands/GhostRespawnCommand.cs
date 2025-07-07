@@ -5,7 +5,7 @@ using Content.Shared.Administration;
 using Content.Shared.CCVar;
 using Content.Shared.Ghost;
 using Content.Shared.Mind;
-using Content.Shared.Void.CCVar;
+using Content.Shared._Void.CCVar;
 using Content.Shared.Roles;
 using Robust.Server.Player;
 using Robust.Shared.Configuration;
@@ -13,7 +13,7 @@ using Robust.Shared.Console;
 using Robust.Shared.Player;
 using Robust.Shared.Timing;
 
-namespace Content.Server.Void.Commands;
+namespace Content.Server._Void.Commands;
 
 [AnyCommand()]
 public sealed class GhostRespawnCommand : IConsoleCommand

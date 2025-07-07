@@ -2,8 +2,8 @@
 using Content.Server.Chat.Managers;
 using Content.Server.PDA.Ringer;
 using Content.Server.Popups;
-using Content.Shared.Void.CartridgeLoader.Cartridges;
-using Content.Shared.Void.Economy;
+using Content.Shared._Void.CartridgeLoader.Cartridges;
+using Content.Shared._Void.Economy;
 using Content.Shared.CartridgeLoader;
 using Content.Shared.Chat;
 using Content.Shared.Popups;
@@ -13,7 +13,7 @@ using Robust.Shared.Containers;
 using Robust.Shared.Player;
 using Robust.Shared.Prototypes;
 
-namespace Content.Server.Void.CartridgeLoader.Cartridges;
+namespace Content.Server._Void.CartridgeLoader.Cartridges;
 
 public sealed class BankCartridgeSystem : EntitySystem
 {

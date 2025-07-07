@@ -1,11 +1,11 @@
-﻿using Content.Client.Void.Economy.ATM.UI;
-using Content.Shared.Void.Economy.ATM;
+﻿using Content.Client._Void.Economy.ATM.UI;
+using Content.Shared._Void.Economy.ATM;
 using Content.Shared.Containers.ItemSlots;
 using Content.Shared.FixedPoint;
 using Robust.Client.GameObjects;
 using Robust.Client.UserInterface.Controls;
 
-namespace Content.Client.Void.Economy.ATM;
+namespace Content.Client._Void.Economy.ATM;
 
 public sealed class ATMBoundUserInterface : BoundUserInterface
 {

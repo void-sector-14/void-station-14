@@ -1,4 +1,4 @@
-namespace Content.Shared.Void.Sponsors.Systems
+namespace Content.Shared._Void.Sponsors.Systems
 {
     public sealed class SponsorsSystem : EntitySystem
     {

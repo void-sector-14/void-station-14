@@ -1,6 +1,6 @@
-﻿using Content.Shared.Void.Economy.WageConsole;
+﻿using Content.Shared._Void.Economy.WageConsole;
 
-namespace Content.Client.Void.Economy.WageConsole;
+namespace Content.Client._Void.Economy.WageConsole;
 
 public sealed class WageConsoleSystem : SharedWageConsoleSystem
 {

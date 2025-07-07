@@ -1,4 +1,4 @@
-namespace Content.Server.Void.Speech.Components;
+namespace Content.Server._Void.Speech.Components;
 
 [RegisterComponent]
 public sealed partial class RoarAccentComponent : Component

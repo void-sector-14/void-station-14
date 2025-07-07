@@ -1,7 +1,7 @@
 ﻿using Content.Shared.FixedPoint;
 using Robust.Shared.Serialization;
 
-namespace Content.Shared.Void.Economy.WageConsole;
+namespace Content.Shared._Void.Economy.WageConsole;
 
 [Serializable, NetSerializable]
 public enum WageUiKey : byte

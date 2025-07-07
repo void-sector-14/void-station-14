@@ -1,6 +1,6 @@
 using Robust.Shared.Prototypes;
 
-namespace Content.Server.Void.StationGoal
+namespace Content.Server._Void.StationGoal
 {
     /// <summary>
     ///     if attached to a station prototype, will send the station a random goal from the list

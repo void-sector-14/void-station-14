@@ -1,7 +1,7 @@
 ﻿using Content.Shared.FixedPoint;
 using Robust.Shared.GameStates;
 
-namespace Content.Shared.Void.Economy;
+namespace Content.Shared._Void.Economy;
 
 [RegisterComponent, NetworkedComponent]
 [AutoGenerateComponentState(true)]

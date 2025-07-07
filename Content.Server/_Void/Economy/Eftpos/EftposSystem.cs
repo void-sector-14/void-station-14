@@ -1,8 +1,8 @@
 ﻿using Content.Server.Access.Systems;
 using Content.Server.Popups;
 using Content.Shared.Access.Components;
-using Content.Shared.Void.Economy;
-using Content.Shared.Void.Economy.Eftpos;
+using Content.Shared._Void.Economy;
+using Content.Shared._Void.Economy.Eftpos;
 using Content.Shared.FixedPoint;
 using Content.Shared.Interaction;
 using Content.Shared.Popups;
@@ -14,7 +14,7 @@ using Robust.Shared.Audio;
 using Robust.Shared.Player;
 using Robust.Shared.Prototypes;
 
-namespace Content.Server.Void.Economy.Eftpos;
+namespace Content.Server._Void.Economy.Eftpos;
 
     public sealed class EftposSystem : EntitySystem
     {

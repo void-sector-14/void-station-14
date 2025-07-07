@@ -1,6 +1,6 @@
 ﻿using Content.Shared.FixedPoint;
 
-namespace Content.Server.Void.Economy;
+namespace Content.Server._Void.Economy;
 
 public sealed class BankChangeBalanceEvent : HandledEntityEventArgs
 {

@@ -1,12 +1,12 @@
 ﻿using System.Linq;
-using Content.Shared.Void.Economy;
+using Content.Shared._Void.Economy;
 using Content.Shared.FixedPoint;
 using Content.Shared.GameTicking;
 using Content.Shared.Roles;
 using Robust.Shared.Configuration;
 using Robust.Shared.Prototypes;
 
-namespace Content.Server.Void.Economy.Wage;
+namespace Content.Server._Void.Economy.Wage;
 
 public sealed class WagePaydayEvent : EntityEventArgs
 {
@@ -44,7 +44,7 @@ public sealed class WageManagerSystem : EntitySystem
     public override void Initialize()
     {
         base.Initialize();
-        _configurationManager.OnValueChanged(Shared.Void.CCVar.VoidCVars.EconomyWagesEnabled, SetEnabled, true);
+        _configurationManager.OnValueChanged(Shared._Void.CCVar.VoidCVars.EconomyWagesEnabled, SetEnabled, true);
         SubscribeLocalEvent<RoundRestartCleanupEvent>(OnCleanup);
         SubscribeLocalEvent<WagePaydayEvent>(OnPayday);
     }
@@ -58,7 +58,7 @@ public sealed class WageManagerSystem : EntitySystem
     public override void Shutdown()
     {
         base.Shutdown();
-        _configurationManager.UnsubValueChanged(Shared.Void.CCVar.VoidCVars.EconomyWagesEnabled, SetEnabled);
+        _configurationManager.UnsubValueChanged(Shared._Void.CCVar.VoidCVars.EconomyWagesEnabled, SetEnabled);
     }
 
     public void OnPayday(WagePaydayEvent ev)

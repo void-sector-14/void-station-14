@@ -6,7 +6,7 @@ using Robust.Shared.GameStates;
 using Robust.Shared.Serialization;
 using Robust.Shared.Serialization.TypeSerializers.Implementations.Custom.Prototype.Set;
 
-namespace Content.Shared.Void.Economy.ATM;
+namespace Content.Shared._Void.Economy.ATM;
 
 [NetworkedComponent, RegisterComponent]
 public sealed partial class AtmComponent : Component

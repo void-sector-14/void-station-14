@@ -1,7 +1,7 @@
-﻿using Content.Shared.Void.Economy;
+﻿using Content.Shared._Void.Economy;
 using Content.Shared.FixedPoint;
 
-namespace Content.Server.Void.CartridgeLoader.Cartridges;
+namespace Content.Server._Void.CartridgeLoader.Cartridges;
 
 [RegisterComponent]
 public sealed partial class BankCartridgeComponent : Component

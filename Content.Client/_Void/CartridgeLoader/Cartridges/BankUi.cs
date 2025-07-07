@@ -1,9 +1,9 @@
 ﻿using Content.Client.UserInterface.Fragments;
-using Content.Shared.Void.CartridgeLoader.Cartridges;
+using Content.Shared._Void.CartridgeLoader.Cartridges;
 using Robust.Client.GameObjects;
 using Robust.Client.UserInterface;
 
-namespace Content.Client.Void.CartridgeLoader.Cartridges;
+namespace Content.Client._Void.CartridgeLoader.Cartridges;
 
 public sealed partial class BankUi : UIFragment
 {

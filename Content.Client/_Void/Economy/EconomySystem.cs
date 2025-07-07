@@ -1,9 +1,9 @@
 ﻿using System.Linq;
 using System.Timers;
-using Content.Client.Void.CartridgeLoader.Cartridges;
+using Content.Client._Void.CartridgeLoader.Cartridges;
 using Content.Client.PDA;
 using Content.Client.UserInterface.Fragments;
-using Content.Shared.Void.Economy;
+using Content.Shared._Void.Economy;
 using Content.Shared.Mobs;
 using Content.Shared.PDA;
 using Robust.Client.GameObjects;
@@ -13,7 +13,7 @@ using Robust.Shared.Containers;
 using Robust.Shared.GameStates;
 using Timer = Robust.Shared.Timing.Timer;
 
-namespace Content.Client.Void.Economy;
+namespace Content.Client._Void.Economy;
 
 public sealed class EconomySystem : EntitySystem
 {

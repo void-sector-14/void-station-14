@@ -1,11 +1,11 @@
-using Content.Shared.Void.CCVar;
-using Content.Shared.Void.Standing;
+using Content.Shared._Void.CCVar;
+using Content.Shared._Void.Standing;
 using Content.Shared.Rotation;
 using Content.Shared.Standing;
 using Robust.Shared.Configuration;
 using Robust.Shared.Player;
 
-namespace Content.Server.Void.Standing;
+namespace Content.Server._Void.Standing;
 
 public sealed class LayingDownSystem : SharedLayingDownSystem // WD EDIT
 {

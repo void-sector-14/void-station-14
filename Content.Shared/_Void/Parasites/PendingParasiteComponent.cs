@@ -2,7 +2,7 @@ using Content.Shared.Damage;
 using Robust.Shared.GameStates;
 using Robust.Shared.Serialization.TypeSerializers.Implementations.Custom;
 
-namespace Content.Shared.Void.Parasites;
+namespace Content.Shared._Void.Parasites;
 
 /// <summary>
 /// Temporary because diseases suck.

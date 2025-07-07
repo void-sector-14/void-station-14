@@ -1,16 +1,16 @@
 using Content.Server.Popups;
-using Content.Server.Void.Weapons.Ranged.Components;
+using Content.Server._Void.Weapons.Ranged.Components;
 using Content.Shared.Database;
 using Content.Shared.Examine;
 using Content.Shared.Interaction;
 using Content.Shared.Verbs;
 using Content.Shared.Item;
-using Content.Shared.Void.Weapons.Ranged;
+using Content.Shared._Void.Weapons.Ranged;
 using Content.Shared.Weapons.Ranged.Components;
 using Robust.Shared.Prototypes;
 using System.Linq;
 
-namespace Content.Server.Void.Weapons.Ranged.Systems;
+namespace Content.Server._Void.Weapons.Ranged.Systems;
 
 public sealed class EnergyGunSystem : EntitySystem
 {

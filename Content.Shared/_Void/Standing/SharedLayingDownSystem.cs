@@ -1,5 +1,5 @@
 using System.Diagnostics.CodeAnalysis;
-using Content.Shared.Void.CCVar;
+using Content.Shared._Void.CCVar;
 using Content.Shared.Body.Components;
 using Content.Shared.Buckle;
 using Content.Shared.Buckle.Components;
@@ -35,7 +35,7 @@ using Robust.Shared.Player;
 using Robust.Shared.Serialization;
 using Robust.Shared.Timing;
 
-namespace Content.Shared.Void.Standing;
+namespace Content.Shared._Void.Standing;
 
 public abstract class SharedLayingDownSystem : EntitySystem
 {

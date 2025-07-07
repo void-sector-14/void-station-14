@@ -1,10 +1,10 @@
 ﻿// ReSharper disable once CheckNamespace
 
 using Content.Server.Access.Systems;
-using Content.Server.Void.Economy;
+using Content.Server._Void.Economy;
 using Content.Server.Store.Components;
 using Content.Server.VendingMachines;
-using Content.Shared.Void.Store;
+using Content.Shared._Void.Store;
 using Content.Shared.Store;
 using Content.Shared.Store.Components;
 using Content.Shared.VendingMachines;
