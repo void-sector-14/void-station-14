@@ -1,0 +1,16 @@
+# То же самое что и печень ставить вместо печени.
+- type: entity
+  id: IzolationHandImplant
+  name: hands insulated implant
+  description: ...
+  parent: [ BaseItem, BaseImplant ]
+  components:
+  - type: Sprite
+    sprite: Void/Objects/Specific/Medical/implants.rsi
+    state: implant
+  - type: Organ
+  - type: HandImplant
+  - type: Gibbable
+  - type: FunctionalOrgan
+    comps:
+    - type: Insulated

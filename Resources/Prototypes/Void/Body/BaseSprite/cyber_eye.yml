@@ -1,0 +1,11 @@
+- type: humanoidBaseSprite
+  id: CyberEyesNightVision
+  baseSprite:
+    sprite: Void/Mobs/Species/Cyberlimbs/parts.rsi
+    state: eyes_night
+
+- type: humanoidBaseSprite
+  id: CyberEyesThermalVision
+  baseSprite:
+    sprite: Void/Mobs/Species/Cyberlimbs/parts.rsi
+    state: eyes_thermal

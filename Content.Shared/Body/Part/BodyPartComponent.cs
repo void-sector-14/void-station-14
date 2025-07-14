@@ -1,4 +1,5 @@
-﻿using Content.Shared.Body.Components;
+﻿using Content.Shared._Void.Medical.Limbs;
+using Content.Shared.Body.Components;
 using Content.Shared.Body.Systems;
 using Robust.Shared.Containers;
 using Robust.Shared.GameStates;
@@ -7,7 +8,7 @@ using Robust.Shared.Serialization;
 namespace Content.Shared.Body.Part;
 
 [RegisterComponent, NetworkedComponent, AutoGenerateComponentState]
-[Access(typeof(SharedBodySystem))]
+[Access(typeof(SharedBodySystem), typeof(SharedLimbSystem))]//starlight
 public sealed partial class BodyPartComponent : Component
 {
     // Need to set this on container changes as it may be several transform parents up the hierarchy.
@@ -56,7 +57,7 @@ public sealed partial class BodyPartComponent : Component
 
             foreach (var slotId in Children.Keys)
             {
-                temp.Add((ContainerSlot) containerSystem.GetContainer(Owner, SharedBodySystem.PartSlotContainerIdPrefix+slotId));
+                temp.Add((ContainerSlot)containerSystem.GetContainer(Owner, SharedBodySystem.PartSlotContainerIdPrefix + slotId));
             }
 
             return temp;
@@ -73,7 +74,7 @@ public sealed partial class BodyPartComponent : Component
 
             foreach (var slotId in Organs.Keys)
             {
-                temp.Add((ContainerSlot) containerSystem.GetContainer(Owner, SharedBodySystem.OrganSlotContainerIdPrefix+slotId));
+                temp.Add((ContainerSlot)containerSystem.GetContainer(Owner, SharedBodySystem.OrganSlotContainerIdPrefix + slotId));
             }
 
             return temp;

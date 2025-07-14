@@ -1,0 +1,41 @@
+- type: entity
+  id: BaseBoneImplant
+  abstract: true
+  parent: [ BaseItem, BaseImplant ]
+  components:
+  - type: Sprite
+    sprite: Void/Objects/Specific/Medical/implants.rsi
+  - type: Organ
+  - type: BoneImplant
+  - type: Gibbable
+
+# Bone for tier 1 to 3
+- type: entity
+  id: BoneLightImplant
+  name: light weight bones
+  description: Oh...how light it is...
+  parent: BaseBoneImplant
+  components:
+  - type: Sprite
+    state: bone_implant
+  - type: FunctionalOrgan
+    speed: 0.05
+    armor:
+      modifiers:
+      coefficients:
+        Blunt: 1.05
+
+- type: entity
+  id: BoneHeavyImplant
+  name: armored bones
+  description: Oh...how heavy it is...
+  parent: BaseBoneImplant
+  components:
+  - type: Sprite
+    state: bone_implant
+  - type: FunctionalOrgan
+    speed: -0.05
+    armor:
+      modifiers:
+      coefficients:
+        Blunt: 0.85

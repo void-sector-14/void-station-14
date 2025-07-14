@@ -1,6 +1,6 @@
 using Content.Server.Actions;
 using Content.Server.Hands.Systems;
-using Content.Shared._Void.;
+using Content.Shared._Void;
 using Robust.Server.Audio;
 using Robust.Server.Containers;
 

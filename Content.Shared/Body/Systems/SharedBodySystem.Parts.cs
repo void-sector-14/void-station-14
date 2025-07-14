@@ -602,7 +602,35 @@ public partial class SharedBodySystem
             }
         }
     }
+    // Horizon start
+    public IEnumerable<Entity<BodyPartComponent>> GetAllBodyPart(
+        EntityUid partId,
+        BodyPartComponent? part = null)
+    {
+        if (!Resolve(partId, ref part, logMissing: false))
+            yield break;
 
+        foreach (var (slotId, slot) in part.Children)
+        {
+            var containerSlotId = GetPartSlotContainerId(slotId);
+
+            if (Containers.TryGetContainer(partId, containerSlotId, out var container))
+            {
+                foreach (var containedEnt in container.ContainedEntities)
+                {
+                    if (!TryComp(containedEnt, out BodyPartComponent? childPart))
+                        continue;
+                    yield return (containedEnt, childPart);
+
+                    foreach (var subPart in GetAllBodyPart(containedEnt, childPart))
+                    {
+                        yield return subPart;
+                    }
+                }
+            }
+        }
+    }
+    // Horizon end
     /// <summary>
     /// Returns true if the bodyId has any parts of this type.
     /// </summary>
@@ -790,5 +818,46 @@ public partial class SharedBodySystem
         return false;
     }
 
+    public bool TryGetFreePartSlot(EntityUid partId, [NotNullWhen(true)] out string? freeSlotId, BodyPartComponent? part = null)
+    {
+        freeSlotId = null;
+
+        if (!Resolve(partId, ref part, logMissing: false))
+            return false;
+
+        foreach (var (slotId, slot) in part.Children)
+        {
+            var containerId = GetPartSlotContainerId(slotId);
+
+            if (!Containers.TryGetContainer(partId, containerId, out var container))
+                continue;
+
+            if (container.ContainedEntities.Count == 0)
+            {
+                freeSlotId = slotId;
+                return true;
+            }
+        }
+
+        return false;
+    }
+    public IEnumerable<string> TryGetFreePartSlots(EntityUid partId, BodyPartComponent? part = null)
+    {
+        if (!Resolve(partId, ref part, logMissing: false))
+            yield break;
+
+        foreach (var (slotId, slot) in part.Children)
+        {
+            var containerId = GetPartSlotContainerId(slotId);
+
+            if (!Containers.TryGetContainer(partId, containerId, out var container))
+                continue;
+
+            if (container.ContainedEntities.Count == 0)
+            {
+                yield return slotId;
+            }
+        }
+    }
     #endregion
 }

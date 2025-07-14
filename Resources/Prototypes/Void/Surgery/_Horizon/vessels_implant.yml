@@ -1,0 +1,24 @@
+- type: entity
+  id: BaseVesselsImplant
+  abstract: true
+  parent: [ BaseItem, BaseImplant ]
+  components:
+  - type: Sprite
+    sprite: Void/Objects/Specific/Medical/implants.rsi
+  - type: Organ
+  - type: VesselsImplant
+  - type: Gibbable
+
+- type: entity
+  id: VesselsImplant
+  name: vessels implant
+  description: Oh...how heavy it is...
+  parent: BaseVesselsImplant
+  components:
+  - type: Sprite
+    state: implant
+  - type: FunctionalOrgan
+    armor:
+      modifiers:
+      coefficients:
+        Bloodloss: 0.50

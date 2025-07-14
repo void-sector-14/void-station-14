@@ -8,7 +8,7 @@ using Content.Shared.Body.Part;
 using Content.Shared.Body.Systems;
 using Content.Shared.Damage;
 using Content.Shared.Humanoid;
-using Content.Shared._Void.;
+using Content.Shared._Void;
 
 namespace Content.Server._Void.Medical.Surgery;
 // Based on the RMC14.

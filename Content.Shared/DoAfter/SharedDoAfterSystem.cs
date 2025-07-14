@@ -240,7 +240,10 @@ public abstract partial class SharedDoAfterSystem : EntitySystem
         {
             RaiseDoAfterEvents(doAfter, comp);
             // We don't store instant do-afters. This is just a lazy way of hiding them from client-side visuals.
-            return true;
+            if (!args.ForceNet)
+                return true;
+            else
+                args.Delay = TimeSpan.FromMilliseconds(100);
         }
 
         comp.DoAfters.Add(doAfter.Index, doAfter);

@@ -5,10 +5,14 @@
   components:
   - type: Stomach
     specialDigestible:
-      tags:
-      - ClothMade
-      - Paper
-      - Pill
+      # Frontier: general moth digestion
+      # tags:
+      # - ClothMade
+      # - Paper
+      # - Pill
+      components:
+      - MothFood
+      # End Frontier: general moth digestion
   - type: SolutionContainerManager
     solutions:
       stomach:
@@ -25,3 +29,7 @@
     groups:
       - id: Food
       - id: Drink
+      - id: Medicine
+      - id: Poison
+      - id: Narcotic
+      - id: Alcohol

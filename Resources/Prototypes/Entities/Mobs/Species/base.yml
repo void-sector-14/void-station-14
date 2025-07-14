@@ -9,6 +9,7 @@
   id: BaseMobSpecies
   abstract: true
   components:
+  - type: SurgeryTarget
   - type: Sprite
     layers:
     - map: [ "enum.HumanoidVisualLayers.Chest" ]

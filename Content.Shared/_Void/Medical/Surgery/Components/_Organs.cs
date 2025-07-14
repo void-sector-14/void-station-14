@@ -1,5 +1,4 @@
-﻿using Content.Shared._Void.Mech.Components;
-using Content.Shared.Damage;
+﻿using Content.Shared.Damage;
 using Content.Shared.Humanoid;
 using Content.Shared.Humanoid.Prototypes;
 using Robust.Shared.GameStates;

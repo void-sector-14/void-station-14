@@ -1,0 +1,21 @@
+- type: entity
+  id: BaseBloodPumpImplant
+  abstract: true
+  parent: [ BaseItem, BaseImplant ]
+  components:
+  - type: Sprite
+    sprite: Void/Objects/Specific/Medical/implants.rsi
+  - type: Organ
+  - type: BloodPumpImplant
+  - type: Gibbable
+
+- type: entity
+  id: BloodPumpImplant
+  name: blood pump
+  description: ...
+  parent: BaseBloodPumpImplant
+  components:
+  - type: Sprite
+    state: implant
+  - type: FunctionalOrgan
+    speed: 0.1
