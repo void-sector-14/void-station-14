@@ -21,3 +21,12 @@
   - SyndicateDoctor
   - SyndicatePilot
   accountNumber: 9999
+
+- type: department
+  id: Freelance
+  name: department-Freelance
+  description: department-Freelance-description
+  color: "#FFCF40"
+  roles:
+  - Freelancer
+  accountNumber: 9998

@@ -10,3 +10,4 @@ department-Silicon-description = Подчинятесь законам и слу
 department-Specific-description = Должности, которые есть не на всех станциях.
 department-Legal-description = Следите за исполнением закона, требуйте бумажки от всех и на все.
 department-Syndicate-description = Стройте козни Нанотрейзен, следите за ними и выполняйте задачи Триглава.
+department-Freelance-description = Выполняйте задания для Нанотрейзен, Синдиката или других организаций, не привязываясь к одной из них.
