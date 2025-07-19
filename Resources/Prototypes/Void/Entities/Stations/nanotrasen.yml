@@ -7,7 +7,7 @@
     - BaseStationJobsSpawning
     - BaseStationRecords
     - BaseStationArrivals
-    - BaseStationShuttles
+    - BaseSierraStationShuttles
     - BaseStationAlertLevels
     - BaseStationMagnet
     - BaseStationExpeditions
