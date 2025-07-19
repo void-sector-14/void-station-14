@@ -1,0 +1,31 @@
+- type: entity
+  parent: LockerAtmosphericsFilled
+  id: LockerAtmosphericsFilledSyndicate
+  suffix: Заполненный, Синдикат
+  components:
+  - type: AccessReader
+    access: [["SyndicateAgent"]]
+
+- type: entity
+  parent: LockerEngineerFilled
+  id: LockerEngineerFilledSyndicate
+  suffix: Заполненный, Синдикат
+  components:
+  - type: AccessReader
+    access: [["SyndicateAgent"]]
+
+- type: entity
+  parent: SuitStorageAtmos
+  id: SuitStorageAtmosSyndicate
+  suffix: Атмосферный Техник, Синдикат
+  components:
+  - type: AccessReader
+    access: [["SyndicateAgent"]]
+
+- type: entity
+  parent: SuitStorageEngi
+  id: SuitStorageEngiSyndicate
+  suffix: Инженер, Синдикат
+  components:
+  - type: AccessReader
+    access: [["SyndicateAgent"]]

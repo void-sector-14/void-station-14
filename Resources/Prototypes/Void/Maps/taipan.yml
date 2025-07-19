@@ -1,0 +1,21 @@
+- type: gameMap
+  id: VSTaipan
+  mapName: 'Taipan'
+  mapPath: /Maps_Void/taipan.yml
+  minPlayers: 0
+  stations:
+    Taipan:
+      stationProto: StandardTaipanStation
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: '{0} Taipan {1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: 'SY'
+        - type: StationJobs
+          availableJobs:
+            SyndicateCaptain: [ 1, 1 ]
+            SyndicateFirstMate: [ 1, 1 ]
+            SyndicateEngineer: [ 1, 1 ]
+            SyndicateDoctor: [ 1, 1 ]
+            SyndicatePilot: [ 1, 1 ]

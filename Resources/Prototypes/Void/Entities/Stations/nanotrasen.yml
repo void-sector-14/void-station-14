@@ -1,0 +1,21 @@
+- type: entity
+  id: StandardSierraStation
+  parent:
+    - BaseStation
+    - BaseStationGoal
+    - BaseStationCargo
+    - BaseStationJobsSpawning
+    - BaseStationRecords
+    - BaseStationArrivals
+    - BaseStationShuttles
+    - BaseStationAlertLevels
+    - BaseStationMagnet
+    - BaseStationExpeditions
+    - BaseStationSiliconLawNTDefault
+    - BaseStationSalvageJobs
+    - BaseStationAllEventsEligible
+    - BaseStationNanotrasen
+    - BaseStationDeliveries
+  categories: [ HideSpawnMenu ]
+  components:
+    - type: Transform

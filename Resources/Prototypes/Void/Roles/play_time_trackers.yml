@@ -9,3 +9,18 @@
 
 - type: playTimeTracker
   id: JobBlueShieldOfficer
+
+- type: playTimeTracker
+  id: JobSyndicateCaptain
+
+- type: playTimeTracker
+  id: JobSyndicateFirstMate
+
+- type: playTimeTracker
+  id: JobSyndicateEngineer
+
+- type: playTimeTracker
+  id: JobSyndicateDoctor
+
+- type: playTimeTracker
+  id: JobSyndicatePilot

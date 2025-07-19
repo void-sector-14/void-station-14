@@ -139,3 +139,16 @@ JobMagistrate = { job-name-magistrate }
 job-title-visitor = Посетитель
 job-title-cluwne = Клувень
 job-title-universal = Матрица
+job-title-freelancer = Фрилансер
+JobFreelancer = { job-title-freelancer }
+# Синдикат
+job-name-syndicate-captain = Капитан Синдиката
+job-name-syndicate-first-mate = Старпом Синдиката
+job-name-syndicate-engineer = Инженер Синдиката
+job-name-syndicate-doctor = Врач Синдиката
+job-name-syndicate-pilot = Пилот Синдиката
+JobSyndicateCaptain = { job-name-syndicate-captain }
+JobSyndicateFirstMate = { job-name-syndicate-first-mate }
+JobSyndicateEngineer = { job-name-syndicate-engineer }
+JobSyndicateDoctor = { job-name-syndicate-doctor }
+JobSyndicatePilot = { job-name-syndicate-pilot }

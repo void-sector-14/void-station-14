@@ -62,3 +62,85 @@
     layers:
       - state: green
       - state: centcom
+
+# Syndicate
+
+- type: entity
+  id: SpawnPointCaptainSyndicate
+  parent: SpawnPointJobBase
+  name: капитан Тайпана
+  components:
+  - type: SpawnPoint
+    job_id: JobSyndicateCaptain
+  - type: Sprite
+    layers:
+    - state: green
+    - sprite: Structures/Decoration/banner.rsi
+      state: banner_syndicate
+
+- type: entity
+  id: SpawnPointFirstMateSyndicate
+  parent: SpawnPointJobBase
+  name: старпом Тайпана
+  components:
+  - type: SpawnPoint
+    job_id: JobSyndicateFirstMate
+  - type: Sprite
+    layers:
+    - state: green
+    - sprite: Structures/Decoration/banner.rsi
+      state: banner_syndicate
+
+- type: entity
+  id: SpawnPointEngineerSyndicate
+  parent: SpawnPointJobBase
+  name: инженер Тайпана
+  components:
+  - type: SpawnPoint
+    job_id: JobSyndicateEngineer
+  - type: Sprite
+    layers:
+    - state: green
+    - sprite: Structures/Decoration/banner.rsi
+      state: banner_syndicate
+
+- type: entity
+  id: SpawnPointDoctorSyndicate
+  parent: SpawnPointJobBase
+  name: врач Тайпана
+  components:
+  - type: SpawnPoint
+    job_id: JobSyndicateDoctor
+  - type: Sprite
+    layers:
+    - state: green
+    - sprite: Structures/Decoration/banner.rsi
+      state: banner_syndicate
+
+- type: entity
+  id: SpawnPointPilotSyndicate
+  parent: SpawnPointJobBase
+  name: пилот Тайпана
+  components:
+  - type: SpawnPoint
+    job_id: JobSyndicatePilot
+  - type: Sprite
+    layers:
+    - state: green
+    - sprite: Structures/Decoration/banner.rsi
+      state: banner_syndicate
+
+# Other
+
+- type: entity
+  id: SpawnPointFreelancer
+  parent: SpawnPointJobBase
+  name: фрилансер
+  components:
+    - type: SpawnPoint
+        job_id: JobFreelancer
+    - type: Sprite
+      layers:
+      - state: green
+      - sprite: Structures/Decoration/banner.rsi
+        state: banner-yellow

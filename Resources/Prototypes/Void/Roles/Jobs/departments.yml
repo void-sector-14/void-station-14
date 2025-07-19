@@ -8,3 +8,16 @@
   - IAA
   - Lawyer
   accountNumber: 1323
+
+- type: department
+  id: Syndicate
+  name: department-Syndicate
+  description: department-Syndicate-description
+  color: "#FF0000"
+  roles:
+  - SyndicateCaptain
+  - SyndicateFirstMate
+  - SyndicateEngineer
+  - SyndicateDoctor
+  - SyndicatePilot
+  accountNumber: 9999

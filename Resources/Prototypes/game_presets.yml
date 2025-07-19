@@ -269,3 +269,15 @@
   - SpaceTrafficControlEventScheduler
   - Thief
   - Traitor
+
+- type: gamePreset
+  id: Sierra
+  name: sierra-title
+  description: sierra-description
+  showInVote: true
+  supportedMaps: SierraMapPool
+  rules:
+  - BasicRoundstartVariation
+  - SpaceTrafficControlEventScheduler
+  - BasicStationEventScheduler
+  - SubGamemodesRule
