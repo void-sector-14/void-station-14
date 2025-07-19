@@ -64,7 +64,7 @@
           - /Maps/Ruins/wrecklaimer.yml
           - /Maps/Ruins/displaced_telescience.yml
         wrecks: !type:DungeonSpawnGroup
-          minimumDistance: 250
+          minimumDistance: 500
           maximumDistance: 6000
           stationGrid: false
           minCount: 500
