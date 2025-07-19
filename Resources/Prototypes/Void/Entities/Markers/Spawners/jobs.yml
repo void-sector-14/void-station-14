@@ -138,7 +138,7 @@
   name: фрилансер
   components:
     - type: SpawnPoint
-        job_id: JobFreelancer
+      job_id: JobFreelancer
     - type: Sprite
       layers:
       - state: green
