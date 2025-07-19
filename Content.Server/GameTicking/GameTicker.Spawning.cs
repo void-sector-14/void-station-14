@@ -22,7 +22,7 @@ using Content.Shared.Random;
 using Content.Shared.Random.Helpers;
 using Content.Shared.Roles;
 using Content.Shared.Roles.Jobs;
-using Content.Shared.Void.Sponsors.Systems;
+using Content.Shared._Void.Sponsors.Systems;
 using JetBrains.Annotations;
 using Robust.Shared.Map;
 using Robust.Shared.Map.Components;

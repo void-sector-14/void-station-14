@@ -1,0 +1,44 @@
+- type: entity
+  parent: VendingMachineDinnerware
+  id: VendingMachineDinnerwareSyndicate
+  name: СиндиСуда
+  description: Все что нужно для подачи яда капитану.
+  components:
+  - type: AccessReader
+    access: [["SyndicateAgent"]]
+
+- type: entity
+  parent: VendingMachineNutri
+  id: VendingMachineNutriSyndicate
+  name: СиндиБот
+  description: Вырасти свою армию помидоров убийц!
+  components:
+  - type: AccessReader
+    access: [["SyndicateAgent"]]
+
+- type: entity
+  parent: VendingMachineMedical
+  id: VendingMachineMedicalSyndicate
+  name: СиндиМед
+  description: Раздатчик медицинских препаратов для синдиката.
+  components:
+  - type: AccessReader
+    access: [["SyndicateAgent"]]
+
+- type: entity
+  parent: VendingMachineRobotics
+  id: VendingMachineRoboticsSyndicate
+  name: СиндиТех
+  description: Все что нужно для сборки СиндиКота.
+  components:
+  - type: AccessReader
+    access: [["SyndicateAgent"]]
+
+- type: entity
+  parent: VendingMachineEngivend
+  id: VendingMachineEngivendSyndicate
+  name: СиндИнструменты
+  description: Разбери станцию на запчасти!
+  components:
+  - type: AccessReader
+    access: [["SyndicateAgent"]]

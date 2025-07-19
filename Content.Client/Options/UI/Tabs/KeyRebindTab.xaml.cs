@@ -154,7 +154,7 @@ namespace Content.Client.Options.UI.Tabs
             // start-_CorvaxNext: Laying System
             void HandleToggleAutoGetUp(BaseButton.ButtonToggledEventArgs args) // WD EDIT
             {
-                _cfg.SetCVar(Shared.Void.CCVar.VoidCVars.AutoGetUp, args.Pressed);
+                _cfg.SetCVar(Shared._Void.CCVar.VoidCVars.AutoGetUp, args.Pressed);
                 _cfg.SaveToFile();
             }
             // end-_CorvaxNext: Laying System
@@ -169,7 +169,7 @@ namespace Content.Client.Options.UI.Tabs
             AddButton(EngineKeyFunctions.MoveRight);
             AddButton(EngineKeyFunctions.Walk);
             AddCheckBox("ui-options-hotkey-toggle-walk", _cfg.GetCVar(CCVars.ToggleWalk), HandleToggleWalk);
-            AddCheckBox("ui-options-hotkey-auto-up", _cfg.GetCVar(Shared.Void.CCVar.VoidCVars.AutoGetUp), HandleToggleAutoGetUp); // _CorvaxNext: Laying System
+            AddCheckBox("ui-options-hotkey-auto-up", _cfg.GetCVar(Shared._Void.CCVar.VoidCVars.AutoGetUp), HandleToggleAutoGetUp); // _CorvaxNext: Laying System
             InitToggleWalk();
 
             AddHeader("ui-options-header-camera");

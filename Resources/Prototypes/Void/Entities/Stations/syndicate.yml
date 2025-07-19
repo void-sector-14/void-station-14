@@ -1,0 +1,11 @@
+- type: entity
+  id: StandardTaipanStation
+  parent:
+  - BaseStation
+  - BaseStationSyndicate
+  - BaseStationJobsSpawning
+  - BaseStationRecords
+  - BaseSyndicateStationShuttles
+  categories: [ HideSpawnMenu ]
+  components:
+    - type: Transform

@@ -16,3 +16,6 @@ job-supervisors-everyone = вообще всем
 job-supervisors-magistrate = магистрату
 job-supervisors-command = командованию станции
 job-supervisors-ai = станционнному ИИ
+job-supervisors-self = самому себе
+job-supervisors-syndicate-high-command = Триглаву Синдиката
+job-supervisors-syndicate-captain = капитану Синдиката

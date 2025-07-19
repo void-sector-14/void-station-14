@@ -1,0 +1,35 @@
+- type: job
+  id: SyndicateDoctor
+  name: job-name-syndicate-doctor
+  description: job-description-syndicate-doctor
+  playTimeTracker: JobSyndicateDoctor
+  weight: 10
+  startingGear: SyndicateDoctorGear
+  icon: "JobIconSyndicate"
+  supervisors: job-supervisors-syndicate-captain
+  canBeAntag: false
+  access:
+  - NuclearOperative
+  - SyndicateAgent
+  special:
+    - !type:AddComponentSpecial
+      components:
+        - type: NpcFactionMember
+          factions:
+          - Syndicate
+  minBankBalance: 750
+  maxBankBalance: 1050
+  wageDepartment: Syndicate
+  wage: 70
+
+- type: startingGear
+  id: SyndicateDoctorGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitParamedicSyndie
+    back: ClothingBackpackSyndicate
+    shoes: ClothingShoesBootsSyndieFilled
+    gloves: ClothingHandsGlovesColorBlack
+    ears: ClothingHeadsetAltSyndicate
+  storage:
+    back:
+    - BoxSurvivalSyndicate

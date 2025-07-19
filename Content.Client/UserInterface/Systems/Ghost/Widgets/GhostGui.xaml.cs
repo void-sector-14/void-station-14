@@ -6,7 +6,7 @@ using Robust.Client.UserInterface.XAML;
 using Robust.Shared.Timing;
 using Robust.Shared.Configuration;
 using Content.Shared.CCVar;
-using Content.Shared.Void.CCVar;
+using Content.Shared._Void.CCVar;
 
 namespace Content.Client.UserInterface.Systems.Ghost.Widgets;
 

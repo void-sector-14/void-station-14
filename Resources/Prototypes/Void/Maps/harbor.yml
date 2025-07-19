@@ -1,0 +1,17 @@
+- type: gameMap
+  id: VSHarbor
+  mapName: 'Свободная Гавань'
+  mapPath: /Maps_Void/harbor.yml
+  minPlayers: 0
+  stations:
+    Harbor:
+      stationProto: StandardSierraStation
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: '{0} Свободная Гавань {1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: 'FR'
+        - type: StationJobs
+          availableJobs:
+            Freelancer: [ -1, -1 ]

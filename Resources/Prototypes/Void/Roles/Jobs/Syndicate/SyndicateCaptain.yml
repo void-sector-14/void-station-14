@@ -1,0 +1,23 @@
+- type: job
+  id: SyndicateCaptain
+  name: job-name-syndicate-captain
+  description: job-description-syndicate-captain
+  playTimeTracker: JobSyndicateCaptain
+  weight: 20
+  startingGear: SyndicateOperativeGearCivilian
+  icon: "JobIconSyndicate"
+  supervisors: job-supervisors-syndicate-high-command
+  canBeAntag: false
+  access:
+  - NuclearOperative
+  - SyndicateAgent
+  special:
+    - !type:AddComponentSpecial
+      components:
+        - type: NpcFactionMember
+          factions:
+          - Syndicate
+  minBankBalance: 750
+  maxBankBalance: 1050
+  wageDepartment: Syndicate
+  wage: 100

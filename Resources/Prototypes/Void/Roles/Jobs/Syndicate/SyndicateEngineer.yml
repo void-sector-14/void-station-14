@@ -1,0 +1,35 @@
+- type: job
+  id: SyndicateEngineer
+  name: job-name-syndicate-engineer
+  description: job-description-syndicate-engineer
+  playTimeTracker: JobSyndicateEngineer
+  weight: 10
+  startingGear: SyndicateEngineerGear
+  icon: "JobIconSyndicate"
+  supervisors: job-supervisors-syndicate-captain
+  canBeAntag: false
+  access:
+  - NuclearOperative
+  - SyndicateAgent
+  special:
+    - !type:AddComponentSpecial
+      components:
+        - type: NpcFactionMember
+          factions:
+          - Syndicate
+  minBankBalance: 750
+  maxBankBalance: 1050
+  wageDepartment: Syndicate
+  wage: 70
+
+- type: startingGear
+  id: SyndicateEngineerGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitRepairmanSyndie
+    back: ClothingBackpackSyndicate
+    shoes: ClothingShoesBootsSyndieFilled
+    gloves: ClothingHandsGlovesColorBlack
+    ears: ClothingHeadsetAltSyndicate
+  storage:
+    back:
+    - BoxSurvivalSyndicate

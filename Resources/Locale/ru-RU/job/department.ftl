@@ -10,3 +10,5 @@ department-Silicon = Синтетики
 department-Specific = На определённых станциях
 department-Unknown = Неизвестно
 department-Legal = Юридический отдел
+department-Syndicate = Синдикат
+department-Freelance = Фриланс

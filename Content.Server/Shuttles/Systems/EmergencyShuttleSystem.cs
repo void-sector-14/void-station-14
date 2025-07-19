@@ -29,7 +29,7 @@ using Content.Shared.Shuttles.Components;
 using Content.Shared.Shuttles.Events;
 using Content.Shared.Tag;
 using Content.Shared.Tiles;
-using Content.Shared.Void.CCVar;
+using Content.Shared._Void.CCVar;
 using Robust.Server.GameObjects;
 using Robust.Shared.Audio.Systems;
 using Robust.Shared.Configuration;

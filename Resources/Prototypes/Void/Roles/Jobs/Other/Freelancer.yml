@@ -1,0 +1,29 @@
+- type: job
+  id: Freelancer
+  name: job-name-freelancer
+  description: job-description-freelancer
+  playTimeTracker: JobFreelancer
+  weight: 10
+  startingGear: FreelancerGear
+  icon: "JobIconVisitor"
+  supervisors: job-supervisors-self
+  canBeAntag: false
+  access:
+  - Maintenance
+  - External
+  minBankBalance: 2050
+  maxBankBalance: 2550
+
+- type: startingGear
+  id: FreelancerGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitColorWhite
+    shoes: ClothingShoesColorBlack
+    id: VisitorPDA
+    back: ClothingBackpackSatchelLeather
+    belt: ClothingBeltUtility
+    ears: ClothingHeadsetFreelance
+    pocket1: HandheldGPSBasic
+  storage:
+    back:
+    - BoxSurvival
