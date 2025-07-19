@@ -139,8 +139,9 @@ JobMagistrate = { job-name-magistrate }
 job-title-visitor = Посетитель
 job-title-cluwne = Клувень
 job-title-universal = Матрица
-job-title-freelancer = Фрилансер
-JobFreelancer = { job-title-freelancer }
+# Фриланс
+job-name-freelancer = Фрилансер
+JobFreelancer = { job-name-freelancer }
 # Синдикат
 job-name-syndicate-captain = Капитан Синдиката
 job-name-syndicate-first-mate = Старпом Синдиката
