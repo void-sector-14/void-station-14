@@ -7396,7 +7396,7 @@ entities:
     - type: GasTileOverlay
     - type: RadiationGridResistance
     - type: BecomesStation
-      id: Exo
+      id: Echo
     - type: ImplicitRoof
   - uid: 20517
     components:
