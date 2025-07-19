@@ -1,16 +1,16 @@
 meta:
   format: 7
-  category: Grid
+  category: Map
   engineVersion: 262.0.0
   forkId: ""
   forkVersion: ""
-  time: 07/13/2025 13:33:30
-  entityCount: 20516
-maps: []
+  time: 07/19/2025 14:19:35
+  entityCount: 20517
+maps:
+- 20517
 grids:
 - 2
-orphans:
-- 2
+orphans: []
 nullspace: []
 tilemap:
   0: Space
@@ -85,7 +85,7 @@ entities:
       name: NT "ECHO" 000
     - type: Transform
       pos: -0.7083334,0.8811691
-      parent: invalid
+      parent: 20517
     - type: MapGrid
       chunks:
         0,0:
@@ -7396,8 +7396,18 @@ entities:
     - type: GasTileOverlay
     - type: RadiationGridResistance
     - type: BecomesStation
-      id: Echo
+      id: Exo
     - type: ImplicitRoof
+  - uid: 20517
+    components:
+    - type: MetaData
+      name: Map Entity
+    - type: Transform
+    - type: Map
+      mapPaused: True
+    - type: GridTree
+    - type: Broadphase
+    - type: OccluderTree
 - proto: AcousticGuitarInstrument
   entities:
   - uid: 3
@@ -11093,7 +11103,7 @@ entities:
       pos: 76.5,-50.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -20155.771
+      secondsUntilStateChange: -20170.037
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -11312,7 +11322,7 @@ entities:
       pos: 11.5,-30.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -136620.89
+      secondsUntilStateChange: -136635.16
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -90853,7 +90863,7 @@ entities:
         ✱[color=#fa0505][bold]DIAGNOSE. HEAL. EXTRACT. REACTION TIME 3 MINUTES[/bold][/color]✱
 
 
-        [head=7]Одноразовый контракт Trauma Team Interstellar[/head]
+        [head=7]Одноразовый контракт Trauma Team Interstellar[/head] 
 
 
         ✱ ✱ ✱ ✱ ✱ ✱ ✱ ✱ ✱ ✱ ✱ ✱ ✱ ✱ ✱ ✱ ✱ ✱ ✱ ✱ ✱ ✱ ✱ ✱ ✱ ✱ ✱ ✱ ✱
@@ -90927,7 +90937,7 @@ entities:
         ✱[color=#fa0505][bold]DIAGNOSE. HEAL. EXTRACT. REACTION TIME 3 MINUTES[/bold][/color]✱
 
 
-        [head=7]Одноразовый контракт Trauma Team Interstellar[/head]
+        [head=7]Одноразовый контракт Trauma Team Interstellar[/head] 
 
 
         ✱ ✱ ✱ ✱ ✱ ✱ ✱ ✱ ✱ ✱ ✱ ✱ ✱ ✱ ✱ ✱ ✱ ✱ ✱ ✱ ✱ ✱ ✱ ✱ ✱ ✱ ✱ ✱ ✱
@@ -91001,7 +91011,7 @@ entities:
         ✱[color=#fa0505][bold]DIAGNOSE. HEAL. EXTRACT. REACTION TIME 3 MINUTES[/bold][/color]✱
 
 
-        [head=7]Одноразовый контракт Trauma Team Interstellar[/head]
+        [head=7]Одноразовый контракт Trauma Team Interstellar[/head] 
 
 
         ✱ ✱ ✱ ✱ ✱ ✱ ✱ ✱ ✱ ✱ ✱ ✱ ✱ ✱ ✱ ✱ ✱ ✱ ✱ ✱ ✱ ✱ ✱ ✱ ✱ ✱ ✱ ✱ ✱
@@ -91075,7 +91085,7 @@ entities:
         ✱[color=#fa0505][bold]DIAGNOSE. HEAL. EXTRACT. REACTION TIME 3 MINUTES[/bold][/color]✱
 
 
-        [head=7]Одноразовый контракт Trauma Team Interstellar[/head]
+        [head=7]Одноразовый контракт Trauma Team Interstellar[/head] 
 
 
         ✱ ✱ ✱ ✱ ✱ ✱ ✱ ✱ ✱ ✱ ✱ ✱ ✱ ✱ ✱ ✱ ✱ ✱ ✱ ✱ ✱ ✱ ✱ ✱ ✱ ✱ ✱ ✱ ✱
@@ -91149,7 +91159,7 @@ entities:
         ✱[color=#fa0505][bold]DIAGNOSE. HEAL. EXTRACT. REACTION TIME 3 MINUTES[/bold][/color]✱
 
 
-        [head=7]Одноразовый контракт Trauma Team Interstellar[/head]
+        [head=7]Одноразовый контракт Trauma Team Interstellar[/head] 
 
 
         ✱ ✱ ✱ ✱ ✱ ✱ ✱ ✱ ✱ ✱ ✱ ✱ ✱ ✱ ✱ ✱ ✱ ✱ ✱ ✱ ✱ ✱ ✱ ✱ ✱ ✱ ✱ ✱ ✱
@@ -91344,7 +91354,7 @@ entities:
         Нарушение данного пункта расценивается как нарушение статьи 307.
 
 
-        Каждое судно* обязано чётко и ясно декларировать причину стыковки.
+        Каждое судно* обязано чётко и ясно декларировать причину стыковки. 
 
         Валидные причины стыковки с кораблём:
 
@@ -91358,7 +91368,7 @@ entities:
 
         > Нужда в экстренной помощи
 
-        Иные другие причины должны рассматриваться основываясь на вопросах безопасности экипажа корабля и его активов.
+        Иные другие причины должны рассматриваться основываясь на вопросах безопасности экипажа корабля и его активов. 
 
 
         Каждое судно обязано соответствовать общегалактическому стандарту индетификации, а именно, сигнатура корабля должна иметь:
@@ -91384,7 +91394,7 @@ entities:
       parent: 2
     - type: Paper
       content: >+
-        [bold]Черезвычайные положения позволяют вам свободно запрашивать удар БСА или вызов локальной флотилии для реагирования на внешние угрозы вблизи корабля.
+        [bold]Черезвычайные положения позволяют вам свободно запрашивать удар БСА или вызов локальной флотилии для реагирования на внешние угрозы вблизи корабля. 
 
 
         Спутник ИИ может и должен использоваться как бункер для экипажа и ценных активов станции.
