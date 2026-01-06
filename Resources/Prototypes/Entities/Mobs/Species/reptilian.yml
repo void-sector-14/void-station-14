@@ -84,6 +84,11 @@
           32:
             sprite: Mobs/Species/Human/displacement.rsi
             state: jumpsuit-female
+  - type: LanguageSpeaker
+    languages:
+      GalacticCommon: Speak
+      Draconic: Speak
+      CintaTaj: Speak
 
 
 - type: entity

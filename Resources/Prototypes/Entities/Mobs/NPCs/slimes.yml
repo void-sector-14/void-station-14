@@ -110,6 +110,10 @@
     speechSounds: Slime
   - type: TypingIndicator
     proto: slime
+  # ADT tweak start
+  - type: LanguageSpeaker
+    languages:
+      Bubblish: Speak
 
 - type: entity
   name: basic slime
@@ -140,6 +144,10 @@
   - type: HTN
     rootTask:
       task: SimpleHostileCompound
+  # ADT tweak start
+  - type: LanguageSpeaker
+    languages:
+      Bubblish: Speak
 
 - type: entity
   name: blue slime

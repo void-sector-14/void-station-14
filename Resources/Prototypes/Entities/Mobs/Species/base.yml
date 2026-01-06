@@ -215,6 +215,9 @@
     - DoorBumpOpener
     - AnomalyHost
   - type: LayingDown # _CorvaxNext: LayingDown Laying Down
+  - type: LanguageSpeaker
+    languages:
+      GalacticCommon: Speak
 
 - type: entity
   save: false

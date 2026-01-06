@@ -46,33 +46,33 @@ namespace Content.Client.UserInterface.Systems.Chat;
 
 public sealed partial class ChatUIController : UIController
 {
-    [Dependency] private readonly IClientAdminManager _admin = default!;
-    [Dependency] private readonly IChatManager _manager = default!;
-    [Dependency] private readonly IConfigurationManager _config = default!;
-    [Dependency] private readonly IEyeManager _eye = default!;
-    [Dependency] private readonly IEntityManager _ent = default!;
-    [Dependency] private readonly IInputManager _input = default!;
-    [Dependency] private readonly IClientNetManager _net = default!;
-    [Dependency] private readonly IPlayerManager _player = default!;
-    [Dependency] private readonly IPrototypeManager _prototypeManager = default!;
-    [Dependency] private readonly IStateManager _state = default!;
-    [Dependency] private readonly IGameTiming _timing = default!;
-    [Dependency] private readonly IReplayRecordingManager _replayRecording = default!;
+    [Dependency] private readonly IClientAdminManager _admin = null!;
+    [Dependency] private readonly IChatManager _manager = null!;
+    [Dependency] private readonly IConfigurationManager _config = null!;
+    [Dependency] private readonly IEyeManager _eye = null!;
+    [Dependency] private readonly IEntityManager _ent = null!;
+    [Dependency] private readonly IInputManager _input = null!;
+    [Dependency] private readonly IClientNetManager _net = null!;
+    [Dependency] private readonly IPlayerManager _player = null!;
+    [Dependency] private readonly IPrototypeManager _prototypeManager = null!;
+    [Dependency] private readonly IStateManager _state = null!;
+    [Dependency] private readonly IGameTiming _timing = null!;
+    [Dependency] private readonly IReplayRecordingManager _replayRecording = null!;
 
-    [UISystemDependency] private readonly ExamineSystem? _examine = default;
-    [UISystemDependency] private readonly GhostSystem? _ghost = default;
-    [UISystemDependency] private readonly TypingIndicatorSystem? _typingIndicator = default;
-    [UISystemDependency] private readonly ChatSystem? _chatSys = default;
-    [UISystemDependency] private readonly TransformSystem? _transform = default;
-    [UISystemDependency] private readonly MindSystem? _mindSystem = default!;
-    [UISystemDependency] private readonly RoleCodewordSystem? _roleCodewordSystem = default!;
+    [UISystemDependency] private readonly ExamineSystem? _examine = null;
+    [UISystemDependency] private readonly GhostSystem? _ghost = null;
+    [UISystemDependency] private readonly TypingIndicatorSystem? _typingIndicator = null;
+    [UISystemDependency] private readonly ChatSystem? _chatSys = null;
+    [UISystemDependency] private readonly TransformSystem? _transform = null;
+    [UISystemDependency] private readonly MindSystem? _mindSystem = null!;
+    [UISystemDependency] private readonly RoleCodewordSystem? _roleCodewordSystem = null!;
 
     [ValidatePrototypeId<ColorPalettePrototype>]
     private const string ChatNamePalette = "ChatNames";
-    private string[] _chatNameColors = default!;
+    private string[] _chatNameColors = null!;
     private bool _chatNameColorsEnabled;
 
-    private ISawmill _sawmill = default!;
+    private ISawmill _sawmill = null!;
 
     public static readonly Dictionary<char, ChatSelectChannel> PrefixToChannel = new()
     {
@@ -125,7 +125,7 @@ public sealed partial class ChatUIController : UIController
     /// </summary>
     private const int SpeechBubbleCap = 4;
 
-    private LayoutContainer _speechBubbleRoot = default!;
+    private LayoutContainer _speechBubbleRoot = null!;
 
     /// <summary>
     ///     Speech bubbles that are currently visible on screen.

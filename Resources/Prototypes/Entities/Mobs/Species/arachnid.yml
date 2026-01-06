@@ -123,6 +123,10 @@
   - type: Inventory
     templateId: arachnid
     speciesId: arachnid
+  - type: LanguageSpeaker
+    languages:
+      GalacticCommon: Speak
+      Arachnid: Speak
 
 
 - type: entity

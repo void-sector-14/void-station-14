@@ -1,0 +1,68 @@
+using System.Linq;
+using Content.Shared.Examine;
+using Content.Shared.Hands.EntitySystems;
+using Content.Shared.Hands.Components;
+using Content.Shared.Toggleable;
+
+namespace Content.Shared.ADT.Language;
+
+public abstract class SharedTranslatorSystem : EntitySystem
+{
+    [Dependency] private readonly SharedAppearanceSystem _appearance = default!;
+    [Dependency] private readonly SharedHandsSystem _hands = default!;
+
+    public override void Initialize()
+    {
+        base.Initialize();
+
+        SubscribeLocalEvent<HandheldTranslatorComponent, ExaminedEvent>(OnExamined);
+        SubscribeLocalEvent<HandheldTranslatorComponent, GetLanguagesEvent>(OnTranslatorGetLanguages);
+        SubscribeLocalEvent<HandsComponent, GetLanguagesEvent>(OnGetLanguages);
+    }
+
+    private void OnGetLanguages(EntityUid uid, HandsComponent comp, ref GetLanguagesEvent args)
+    {
+        foreach (var (name, hand) in comp.Hands)
+        {
+            if (_hands.TryGetHeldItem(uid, name, out var heldEntity))
+                RaiseLocalEvent(heldEntity.Value, ref args);
+        }
+    }
+
+    private void OnTranslatorGetLanguages(EntityUid uid, HandheldTranslatorComponent comp, ref GetLanguagesEvent args)
+    {
+        if (!comp.Enabled)
+            return;
+        if (!TryComp<LanguageSpeakerComponent>(comp.User, out var speaker))
+            return;
+        if (speaker.Languages.Keys.Count(x => comp.Languages.ContainsKey(x)) <= 0)
+            return;
+
+        foreach (var (key, value) in comp.Languages)
+        {
+            if (args.Translator.TryAdd(key, value))
+                continue;
+
+            if (args.Translator[key] >= value)
+                continue;
+            args.Translator[key] = value;
+        }
+    }
+
+    private void OnExamined(EntityUid uid, HandheldTranslatorComponent component, ExaminedEvent args)
+    {
+        var state = Loc.GetString(component.Enabled
+            ? "translator-enabled"
+            : "translator-disabled");
+
+        args.PushMarkup(state);
+    }
+
+    protected void OnAppearanceChange(EntityUid translator, HandheldTranslatorComponent? comp = null)
+    {
+        if (comp == null && !TryComp(translator, out comp))
+            return;
+
+        _appearance.SetData(translator, ToggleableVisuals.Enabled, comp.Enabled);
+    }
+}

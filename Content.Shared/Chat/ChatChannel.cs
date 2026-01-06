@@ -95,6 +95,8 @@ namespace Content.Shared.Chat
         /// </summary>
         Do = 1 << 16,
 
+        CollectiveMind = 1 << 17,
+
         /// <summary>
         ///     Channels considered to be IC.
         /// </summary>

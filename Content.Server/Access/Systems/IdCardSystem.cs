@@ -11,6 +11,7 @@ using Content.Shared.Popups;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Random;
 using Content.Server.Kitchen.EntitySystems;
+using Content.Shared.Chat;
 
 namespace Content.Server.Access.Systems;
 
@@ -46,11 +47,13 @@ public sealed class IdCardSystem : SharedIdCardSystem
                 if (transformComponent != null)
                 {
                     _popupSystem.PopupCoordinates(Loc.GetString("id-card-component-microwave-burnt", ("id", uid)),
-                     transformComponent.Coordinates, PopupType.Medium);
+                     transformComponent.Coordinates,
+                     PopupType.Medium);
                     EntityManager.SpawnEntity("FoodBadRecipe",
                         transformComponent.Coordinates);
                 }
-                _adminLogger.Add(LogType.Action, LogImpact.Medium,
+                _adminLogger.Add(LogType.Action,
+                    LogImpact.Medium,
                     $"{ToPrettyString(args.Microwave)} burnt {ToPrettyString(uid):entity}");
                 EntityManager.QueueDeleteEntity(uid);
                 return;
@@ -71,7 +74,8 @@ public sealed class IdCardSystem : SharedIdCardSystem
                 access.Tags.Clear();
                 Dirty(uid, access);
 
-                _adminLogger.Add(LogType.Action, LogImpact.Medium,
+                _adminLogger.Add(LogType.Action,
+                    LogImpact.Medium,
                     $"{ToPrettyString(args.Microwave)} cleared access on {ToPrettyString(uid):entity}");
             }
             else
@@ -90,7 +94,8 @@ public sealed class IdCardSystem : SharedIdCardSystem
             access.Tags.Add(random.ID);
             Dirty(uid, access);
 
-            _adminLogger.Add(LogType.Action, LogImpact.High,
+            _adminLogger.Add(LogType.Action,
+                LogImpact.High,
                     $"{ToPrettyString(args.Microwave)} added {random.ID} access to {ToPrettyString(uid):entity}");
 
         }
