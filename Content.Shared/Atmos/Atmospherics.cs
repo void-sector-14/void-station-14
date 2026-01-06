@@ -369,6 +369,19 @@ namespace Content.Shared.Atmos
         WaterVapor = 5,
         Ammonia = 6,
         NitrousOxide = 7,
-        Frezon = 8
+        Frezon = 8,
+        //ADT-Gas-Start
+        BZ = 9,
+        Pluoxium = 10,
+        Hydrogen = 11,
+        Nitrium = 12,
+        Healium = 13,
+        HyperNoblium = 14,
+        ProtoNitrate = 15,
+        Zauker = 16,
+        Halon = 17,
+        Helium = 18,
+        AntiNoblium = 19
+        //ADT-Gas-End
     }
 }
