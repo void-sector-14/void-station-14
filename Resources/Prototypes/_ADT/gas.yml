@@ -1,0 +1,812 @@
+- type: gas
+  id: 9
+  name: gases-bz
+  specificHeat: 20
+  heatCapacityRatio: 1.3
+  molarMass: 100
+  color: e69edd
+  reagent: BZ
+  pricePerMole: 1.5
+
+- type: gas
+  id: 10
+  name: gases-pluoxium
+  specificHeat: 80
+  heatCapacityRatio: 1.3
+  molarMass: 40
+  color: 0054AA
+  reagent: Pluoxium
+  pricePerMole: 3
+
+- type: gas
+  id: 11
+  name: gases-hydrogen
+  specificHeat: 15
+  heatCapacityRatio: 1.4
+  molarMass: 2
+  color: FFFFFF
+  reagent: Hydrogen
+  pricePerMole: 0.5
+
+- type: gas
+  id: 12
+  name: gases-nitrium
+  specificHeat: 10
+  heatCapacityRatio: 1.3
+  molarMass: 60
+  gasOverlaySprite: /Textures/Effects/atmospherics.rsi
+  gasOverlayState: nitrium
+  gasMolesVisible: 0.1
+  gasVisbilityFactor: 500
+  color: 7E4732
+  reagent: Nitrium
+  pricePerMole: 15
+
+- type: gas
+  id: 13
+  name: gases-healium
+  specificHeat: 10
+  heatCapacityRatio: 1.3
+  molarMass: 40
+  gasOverlaySprite: /Textures/Effects/atmospherics.rsi
+  gasOverlayState: healium
+  gasMolesVisible: 0.1
+  gasVisbilityFactor: 500
+  color: d97e7e
+  reagent: Healium
+  pricePerMole: 40
+
+- type: gas
+  id: 14
+  name: gases-hyper-noblium
+  specificHeat: 1000
+  heatCapacityRatio: 1.3
+  molarMass: 500
+  gasOverlaySprite: /Textures/Effects/atmospherics.rsi
+  gasOverlayState: frezon
+  gasMolesVisible: 0.1
+  gasVisbilityFactor: 1000
+  color: 33cccc
+  reagent: Hyper-Noblium
+  pricePerMole: 70
+
+- type: gas
+  id: 15
+  name: gases-proto-nitrate
+  specificHeat: 30
+  heatCapacityRatio: 1.3
+  molarMass: 120
+  gasOverlaySprite: /Textures/Effects/atmospherics.rsi
+  gasOverlayState: proto_nitrate
+  gasMolesVisible: 0.1
+  gasVisbilityFactor: 1000
+  color: 009933
+  reagent: Proto-Nitrate
+  pricePerMole: 5
+
+- type: gas
+  id: 16
+  name: gases-zauker
+  specificHeat: 350
+  heatCapacityRatio: 1.3
+  molarMass: 110
+  gasOverlaySprite: /Textures/Effects/atmospherics.rsi
+  gasOverlayState: zauker
+  gasMolesVisible: 0.1
+  gasVisbilityFactor: 250
+  color: 1c1a1a
+  reagent: Zauker
+  pricePerMole: 150
+
+- type: gas
+  id: 17
+  name: gases-halon
+  specificHeat: 1.4
+  heatCapacityRatio: 1.3
+  molarMass: 150
+  gasOverlaySprite: /Textures/Effects/atmospherics.rsi
+  gasOverlayState: halon
+  gasMolesVisible: 0.1
+  gasVisbilityFactor: 500
+  color: e3574d
+  reagent: Halon
+  pricePerMole: 10
+
+- type: gas
+  id: 18
+  name: gases-helium
+  specificHeat: 15
+  heatCapacityRatio: 20
+  molarMass: 4
+  color: 005959
+  reagent: Helium
+  pricePerMole: 0.1
+
+- type: gas
+  id: 19
+  name: gases-anti-noblium
+  specificHeat: 1
+  heatCapacityRatio: 1
+  molarMass: 200
+  gasOverlaySprite: /Textures/Effects/atmospherics.rsi
+  gasOverlayState: anti_noblium
+  gasMolesVisible: 0.1
+  gasVisbilityFactor: 100
+  color: 525151
+  reagent: Anti-Noblium
+  pricePerMole: 150
+
+# region Reactions
+- type: gasReaction
+  id: BZProductionReaction
+  priority: 3
+  maximumTemperature: 313.149
+  minimumRequirements:
+  - 0     # oxygen
+  - 0     # nitrogen
+  - 0     # carbon dioxide
+  - 10    # plasma
+  - 0     # tritium
+  - 0     # vapor
+  - 0     # miasma
+  - 10    # n2o
+  - 0     # frezon
+  - 0     # bz
+  effects:
+  - !type:BZProductionReaction {}
+
+- type: gasReaction
+  id: PluoxiumProductionReaction
+  priority: 4
+  minimumTemperature: 50
+  maximumTemperature: 273.15
+  minimumRequirements:
+  - 0.01  # oxygen
+  - 0     # nitrogen
+  - 0.01  # carbon dioxide
+  - 0     # plasma
+  - 0.01  # tritium
+  - 0     # vapor
+  - 0     # miasma
+  - 0     # n2o
+  - 0     # frezon
+  - 0     # bz
+  - 0     # pluoxium
+  effects:
+  - !type:PluoxiumProductionReaction {}
+
+- type: gasReaction
+  id: HydrogenFireReaction
+  priority: -3
+  minimumTemperature: 373.149 # Same as Atmospherics.FireMinimumTemperatureToExist
+  minimumRequirements:
+  - 0.01  # oxygen
+  - 0     # nitrogen
+  - 0     # carbon dioxide
+  - 0     # plasma
+  - 0     # tritium
+  - 0     # vapor
+  - 0     # miasma
+  - 0     # n2o
+  - 0     # frezon
+  - 0     # bz
+  - 0     # pluoxium
+  - 0.01  # hydrogen
+  effects:
+  - !type:HydrogenFireReaction {}
+
+- type: gasReaction
+  id: NitriumProduction
+  priority: 5
+  minimumTemperature: 1500
+  minimumRequirements:
+  - 0     # oxygen
+  - 10    # nitrogen
+  - 0     # carbon dioxide
+  - 0     # plasma
+  - 20    # tritium
+  - 0     # vapor
+  - 0     # miasma
+  - 0     # n2o
+  - 0     # frezon
+  - 5     # bz
+  - 0     # pluoxium
+  - 0     # hydrogen
+  - 0     # nitrium
+  - 0     # healium
+  - 0     # hyper-noblium
+  - 0     # proto-nitrate
+  - 0     # zauker
+  - 0     # halon
+  - 0     # helium
+  - 0     # anti-noblium
+  effects:
+  - !type:NitriumProductionReaction {}
+
+- type: gasReaction
+  id: NitriumDecomposition
+  priority: 6
+  maximumTemperature: 600.324
+  minimumRequirements:
+  - 0.01  # oxygen
+  - 0     # nitrogen
+  - 0     # carbon dioxide
+  - 0     # plasma
+  - 0     # tritium
+  - 0     # vapor
+  - 0     # miasma
+  - 0     # n2o
+  - 0     # frezon
+  - 0     # bz
+  - 0     # pluoxium
+  - 0     # hydrogen
+  - 0.01  # nitrium
+  - 0     # healium
+  - 0     # hyper-noblium
+  - 0     # proto-nitrate
+  - 0     # zauker
+  - 0     # halon
+  - 0     # helium
+  - 0     # anti-noblium
+  effects:
+  - !type:NitriumDecompositionReaction {}
+
+- type: gasReaction
+  id: HyperNobliumProduction
+  priority: 7
+  minimumTemperature: 23.15
+  maximumTemperature: 27.85
+  minimumRequirements:
+  - 0     # oxygen
+  - 10     # nitrogen
+  - 0     # carbon dioxide
+  - 0     # plasma
+  - 5     # tritium
+  - 0     # vapor
+  - 0     # miasma
+  - 0    # n2o
+  - 0     # frezon
+  - 0     # bz
+  - 0     # pluoxium
+  - 0     # hydrogen
+  - 0     # nitrium
+  - 0     # healium
+  - 0     # hyper-noblium
+  - 0     # proto-nitrate
+  - 0     # zauker
+  - 0     # halon
+  - 0     # helium
+  - 0     # anti-noblium
+  effects:
+  - !type:HyperNobliumProductionReaction {}
+
+- type: gasReaction
+  id: HalonOxygenAbsorption
+  priority: -4
+  minimumTemperature: 373.149
+  minimumRequirements:
+  - 0.01  # oxygen
+  - 0     # nitrogen
+  - 0     # carbon dioxide
+  - 0     # plasma
+  - 0     # tritium
+  - 0     # vapor
+  - 0     # miasma
+  - 0     # n2o
+  - 0     # frezon
+  - 0     # bz
+  - 0     # pluoxium
+  - 0     # hydrogen
+  - 0     # nitrium
+  - 0     # healium
+  - 0     # hyper-noblium
+  - 0     # proto-nitrate
+  - 0     # zauker
+  - 0.01  # halon
+  - 0     # helium
+  - 0     # anti-noblium
+  effects:
+  - !type:HalonOxygenAbsorptionReaction {}
+
+- type: gasReaction
+  id: HealiumProduction
+  priority: 8
+  minimumTemperature: 25
+  maximumTemperature: 300
+  minimumRequirements:
+  - 0     # oxygen
+  - 0     # nitrogen
+  - 0     # carbon dioxide
+  - 0     # plasma
+  - 0     # tritium
+  - 0     # vapor
+  - 0     # miasma
+  - 0     # n2o
+  - 0.01  # frezon
+  - 0.01  # bz
+  - 0     # pluoxium
+  - 0     # hydrogen
+  - 0     # nitrium
+  - 0     # healium
+  - 0     # hyper-noblium
+  - 0     # proto-nitrate
+  - 0     # zauker
+  - 0     # halon
+  - 0     # helium
+  - 0     # anti-noblium
+  effects:
+  - !type:HealiumProductionReaction {}
+
+- type: gasReaction
+  id: ZaukerProduction
+  priority: 9
+  minimumTemperature: 20000
+  maximumTemperature: 100000
+  minimumRequirements:
+  - 0     # oxygen
+  - 0     # nitrogen
+  - 0     # carbon dioxide
+  - 0     # plasma
+  - 0     # tritium
+  - 0     # vapor
+  - 0     # miasma
+  - 0     # n2o
+  - 0     # frezon
+  - 0     # bz
+  - 0     # pluoxium
+  - 0     # hydrogen
+  - 5   # nitrium
+  - 0     # healium
+  - 0.1   # hyper-noblium
+  - 0     # proto-nitrate
+  - 0     # zauker
+  - 0     # halon
+  - 0     # helium
+  - 0     # anti-noblium
+  effects:
+  - !type:ZaukerProductionReaction {}
+
+- type: gasReaction
+  id: ZaukerDecomposition
+  priority: 10
+  minimumTemperature: 373.149
+  minimumRequirements:
+  - 0     # oxygen
+  - 0.01  # nitrogen
+  - 0     # carbon dioxide
+  - 0     # plasma
+  - 0     # tritium
+  - 0     # vapor
+  - 0     # miasma
+  - 0     # n2o
+  - 0     # frezon
+  - 0     # bz
+  - 0     # pluoxium
+  - 0     # hydrogen
+  - 0     # nitrium
+  - 0     # healium
+  - 0     # hyper-noblium
+  - 0     # proto-nitrate
+  - 0.01  # zauker
+  - 0     # halon
+  - 0     # helium
+  - 0     # anti-noblium
+  effects:
+  - !type:ZaukerDecompositionReaction {}
+
+- type: gasReaction
+  id: ProtoNitrateProduction
+  priority: 11
+  minimumTemperature: 5000
+  maximumTemperature: 10000
+  minimumRequirements:
+  - 0     # oxygen
+  - 0     # nitrogen
+  - 0     # carbon dioxide
+  - 0     # plasma
+  - 0     # tritium
+  - 0     # vapor
+  - 0     # miasma
+  - 0     # n2o
+  - 0     # frezon
+  - 0     # bz
+  - 0.01  # pluoxium
+  - 0.01  # hydrogen
+  - 0     # nitrium
+  - 0     # healium
+  - 0     # hyper-noblium
+  - 0     # proto-nitrate
+  - 0     # zauker
+  - 0     # halon
+  - 0     # helium
+  - 0     # anti-noblium
+  effects:
+  - !type:ProtoNitrateProductionReaction {}
+
+- type: gasReaction
+  id: ProtoNitrateHydrogenConversion
+  priority: 12
+  minimumRequirements:
+  - 0     # oxygen
+  - 0     # nitrogen
+  - 0     # carbon dioxide
+  - 0     # plasma
+  - 0     # tritium
+  - 0     # vapor
+  - 0     # miasma
+  - 0     # n2o
+  - 0     # frezon
+  - 0     # bz
+  - 0     # pluoxium
+  - 150   # hydrogen
+  - 0     # nitrium
+  - 0     # healium
+  - 0     # hyper-noblium
+  - 0.01  # proto-nitrate
+  - 0     # zauker
+  - 0     # halon
+  - 0     # helium
+  - 0     # anti-noblium
+  effects:
+  - !type:ProtoNitrateHydrogenConversionReaction {}
+
+- type: gasReaction
+  id: ProtoNitrateTritiumDeirradiation
+  priority: 13
+  minimumTemperature: 150
+  maximumTemperature: 340
+  minimumRequirements:
+  - 0     # oxygen
+  - 0     # nitrogen
+  - 0     # carbon dioxide
+  - 0     # plasma
+  - 0.01  # tritium
+  - 0     # vapor
+  - 0     # miasma
+  - 0     # n2o
+  - 0     # frezon
+  - 0     # bz
+  - 0     # pluoxium
+  - 0     # hydrogen
+  - 0     # nitrium
+  - 0     # healium
+  - 0     # hyper-noblium
+  - 0.01  # proto-nitrate
+  - 0     # zauker
+  - 0     # halon
+  - 0     # helium
+  - 0     # anti-noblium
+  effects:
+  - !type:ProtoNitrateTritiumConversionReaction {}
+
+- type: gasReaction
+  id: ProtoNitrateBZaseAction
+  priority: 14
+  minimumTemperature: 260
+  maximumTemperature: 280
+  minimumRequirements:
+  - 0     # oxygen
+  - 0     # nitrogen
+  - 0     # carbon dioxide
+  - 0     # plasma
+  - 0     # tritium
+  - 0     # vapor
+  - 0     # miasma
+  - 0     # n2o
+  - 0     # frezon
+  - 0.01  # bz
+  - 0     # pluoxium
+  - 0     # hydrogen
+  - 0     # nitrium
+  - 0     # healium
+  - 0     # hyper-noblium
+  - 0.01  # proto-nitrate
+  - 0     # zauker
+  - 0     # halon
+  - 0     # helium
+  - 0     # anti-noblium
+  effects:
+  - !type:ProtoNitrateBZaseConversionReaction {}
+
+# region Reagents
+- type: reagent
+  id: BZ
+  name: reagent-name-bz
+  desc: reagent-desc-bz
+  physicalDesc: reagent-physical-desc-gaseous
+  flavor: bitter
+  color: "#e69edd"
+  metabolisms:
+    Gas:
+      effects:
+      - !type:GenericStatusEffect
+        key: SeeingRainbows
+        component: SeeingRainbows
+        type: Add
+        time: 8
+        refresh: false
+      - !type:HealthChange
+        conditions:
+        - !type:ReagentThreshold
+          reagent: BZ
+          min: 0.5
+        scaleByQuantity: true
+        ignoreResistances: true
+        damage:
+          types:
+            Cellular: 0.005
+      - !type:PopupMessage
+        conditions:
+        - !type:ReagentThreshold
+          reagent: BZ
+          min: 1
+        - !type:OrganType
+          type: Slime
+        type: Local
+        visualType: Medium
+        messages: [ "effect-sleepy" ]
+        probability: 0.1
+      - !type:MovespeedModifier
+        conditions:
+        - !type:ReagentThreshold
+          reagent: BZ
+          min: 1
+        - !type:OrganType
+          type: Slime
+        walkSpeedModifier: 0.65
+        sprintSpeedModifier: 0.65
+      - !type:GenericStatusEffect
+        conditions:
+        - !type:ReagentThreshold
+          reagent: BZ
+          min: 1
+        - !type:OrganType
+          type: Slime
+        key: ForcedSleep
+        component: ForcedSleeping
+        time: 3
+        type: Add
+
+- type: reagent
+  id: Pluoxium
+  name: reagent-name-pluoxium
+  desc: reagent-desc-pluoxium
+  physicalDesc: reagent-physical-desc-gaseous
+  flavor: bitter
+  color: "#0054AA"
+  boilingPoint: -183.0
+  meltingPoint: -218.4
+  metabolisms:
+    Gas:
+      effects:
+      - !type:Oxygenate
+        factor: 8
+        conditions:
+        - !type:OrganType
+          type: Human
+      - !type:Oxygenate
+        factor: 8
+        conditions:
+        - !type:OrganType
+          type: Animal
+      - !type:Oxygenate
+        factor: 8
+        conditions:
+        - !type:OrganType
+          type: Rat
+      - !type:Oxygenate
+        factor: 8
+        conditions:
+        - !type:OrganType
+          type: Plant
+      - !type:ModifyLungGas
+        conditions:
+        - !type:OrganType
+          type: Vox
+          shouldHave: false
+        ratios:
+          CarbonDioxide: 1.0
+          Pluoxium: -1.0
+      - !type:HealthChange
+        conditions:
+        - !type:OrganType
+          type: Vox
+        scaleByQuantity: true
+        ignoreResistances: true
+        damage:
+          types:
+            Poison:
+              15
+
+- type: reagent
+  id: Hydrogen
+  name: reagent-name-hydrogen
+  desc: reagent-desc-hydrogen
+  physicalDesc: reagent-physical-desc-gaseous
+  flavor: bitter
+  color: "#808080"
+  boilingPoint: -253.0
+  meltingPoint: -259.2
+
+- type: reagent
+  id: Nitrium
+  name: reagent-name-nitrium
+  desc: reagent-desc-nitrium
+  physicalDesc: reagent-physical-desc-gaseous
+  flavor: bitter
+  color: "#7E4732"
+  boilingPoint: -253.0
+  meltingPoint: -259.2
+  metabolisms:
+    Gas:
+      effects:
+      - !type:MovespeedModifier
+        conditions:
+          - !type:ReagentThreshold
+            reagent: Nitrium
+            min: 3
+        statusLifetime: 15
+        walkSpeedModifier: 1.35
+        sprintSpeedModifier: 1.35
+      - !type:GenericStatusEffect
+        conditions:
+          - !type:ReagentThreshold
+            reagent: Nitrium
+            min: 6
+        key: Stun
+        time: 3
+        type: Remove
+      - !type:GenericStatusEffect
+        conditions:
+          - !type:ReagentThreshold
+            reagent: Nitrium
+            min: 6
+        key: KnockedDown
+        time: 3
+        type: Remove
+      - !type:GenericStatusEffect
+        conditions:
+          - !type:ReagentThreshold
+            reagent: Nitrium
+            min: 6
+        key: ForcedSleep
+        component: ForcedSleeping
+        time: 15
+        type: Remove
+      - !type:HealthChange
+        conditions:
+          - !type:ReagentThreshold
+            reagent: Nitrium
+            min: 9
+        scaleByQuantity: true
+        ignoreResistances: true
+        damage:
+          types:
+            Poison: 0.05
+
+- type: reagent
+  id: Healium
+  name: reagent-name-healium
+  desc: reagent-desc-healium
+  physicalDesc: reagent-physical-desc-gaseous
+  flavor: bitter
+  color: "#d97e7e"
+  boilingPoint: -253.0
+  meltingPoint: -259.2
+  metabolisms:
+    Gas:
+      effects:
+      - !type:GenericStatusEffect
+        conditions:
+        - !type:ReagentThreshold
+          reagent: Healium
+          min: 1
+        key: ForcedSleep
+        component: ForcedSleeping
+        refresh: false
+        type: Add
+      - !type:HealthChange
+        conditions:
+        - !type:ReagentThreshold
+          reagent: Healium
+          min: 2
+        scaleByQuantity: true
+        ignoreResistances: true
+        damage:
+          groups:
+            Brute: -1.5
+            Burn: -2
+          types:
+            Asphyxiation: -0.5
+            Poison: -0.5
+
+
+- type: reagent
+  id: Hyper-Noblium
+  name: reagent-name-hyper-nob
+  desc: reagent-desc-hyper-nob
+  physicalDesc: reagent-physical-desc-gaseous
+  flavor: bitter
+  color: "#33cccc"
+  boilingPoint: -253.0
+  meltingPoint: -259.2
+
+- type: reagent
+  id: Proto-Nitrate
+  name: reagent-name-proto-nitrate
+  desc: reagent-desc-proto-nitrate
+  physicalDesc: reagent-physical-desc-gaseous
+  flavor: bitter
+  color: "#009933"
+  boilingPoint: -253.0
+  meltingPoint: -259.2
+
+- type: reagent
+  id: Zauker
+  name: reagent-name-zauker
+  desc: reagent-desc-zauker
+  physicalDesc: reagent-physical-desc-gaseous
+  flavor: bitter
+  color: "#1c1a1a"
+  boilingPoint: -253.0
+  meltingPoint: -259.2
+  metabolisms:
+    Gas:
+      effects:
+      - !type:HealthChange
+        conditions:
+        - !type:ReagentThreshold
+          reagent: Zauker
+          min: 0.25
+          max: 8
+        scaleByQuantity: true
+        ignoreResistances: true
+        damage:
+          types:
+            Slash: 0.75
+            Heat: 0.25
+            Poison: 0.25
+            Bloodloss: 0.25
+      - !type:HealthChange
+        conditions:
+        - !type:ReagentThreshold
+          reagent: Zauker
+          min: 8
+        scaleByQuantity: true
+        ignoreResistances: true
+        damage:
+          types:
+            Slash: 0.015
+            Heat: 0.005
+            Poison: 0.005
+            Bloodloss: 0.005
+
+- type: reagent
+  id: Halon
+  name: reagent-name-halon
+  desc: reagent-desc-halon
+  physicalDesc: reagent-physical-desc-gaseous
+  flavor: bitter
+  color: "#e3574d"
+  boilingPoint: -253.0
+  meltingPoint: -259.2
+
+- type: reagent
+  id: Helium
+  name: reagent-name-helium
+  desc: reagent-desc-helium
+  physicalDesc: reagent-physical-desc-gaseous
+  flavor: bitter
+  color: "#005959"
+  boilingPoint: -253.0
+  meltingPoint: -259.2
+
+- type: reagent
+  id: Anti-Noblium
+  name: reagent-name-anti-nob
+  desc: reagent-desc-anti-nob
+  physicalDesc: reagent-physical-desc-gaseous
+  flavor: bitter
+  color: "#525151"
+  boilingPoint: -253.0
+  meltingPoint: -259.2
