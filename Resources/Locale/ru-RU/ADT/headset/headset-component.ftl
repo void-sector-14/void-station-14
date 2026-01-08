@@ -1,0 +1,6 @@
+ADT-Lawyer-Channel-name = Юридический
+ADT-SpaceSec-Channel-name = SPACE SEC линия
+ADT-DroneAntag-Channel-name = Дроны
+chat-radio-trader = Трейд
+chat-radio-broadcast = Радио-трансляция
+ADT-Close-Channel-name = Закрытая радиопередача

@@ -7,3 +7,12 @@
   markingLimits: MobHumanMarkingLimits
   dollPrototype: MobDwarfDummy
   skinColoration: HumanToned
+  # ADT start
+  defaultLanguages:
+  - GalacticCommon
+  - Dwarf
+  minAge: 20
+  maxAge: 150
+  youngAge: 51
+  oldAge: 101
+  # ADT end

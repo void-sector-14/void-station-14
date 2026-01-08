@@ -19,17 +19,19 @@ namespace Content.Shared.Electrocution
         }
     }
 
-    public sealed class ElectrocutedEvent : EntityEventArgs
+    public sealed class ElectrocutedEvent(
+        EntityUid targetUid,
+        EntityUid? sourceUid,
+        float siemensCoefficient,
+        float? shockDamage = null)
+        : EntityEventArgs
     {
-        public readonly EntityUid TargetUid;
-        public readonly EntityUid? SourceUid;
-        public readonly float SiemensCoefficient;
+        public readonly EntityUid TargetUid = targetUid;
+        public readonly EntityUid? SourceUid = sourceUid;
+        public readonly float SiemensCoefficient = siemensCoefficient;
+        public readonly float? ShockDamage = shockDamage; // Parkstation-IPC
+            // Parkstation-IPC
 
-        public ElectrocutedEvent(EntityUid targetUid, EntityUid? sourceUid, float siemensCoefficient)
-        {
-            TargetUid = targetUid;
-            SourceUid = sourceUid;
-            SiemensCoefficient = siemensCoefficient;
-        }
+        // Parkstation-IPC
     }
 }

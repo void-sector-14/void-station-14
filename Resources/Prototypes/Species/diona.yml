@@ -10,9 +10,21 @@
   skinColoration: Hues
   maleFirstNames: NamesDionaFirst
   femaleFirstNames: NamesDionaFirst
-  maleLastNames: NamesDionaLast
-  femaleLastNames: NamesDionaLast
+  maleLastNames: NamesDionaLast # Corvax-LastnameGender
+  femaleLastNames: NamesDionaLast # Corvax-LastnameGender
   naming: TheFirstofLast
+  # ADT start
+  defaultLanguages:
+  - GalacticCommon
+  - RootSpeak
+  uniqueLanguages:
+  - RootSpeak
+  forceLanguages:
+  - DionaCollectiveMind
+  maxAge: 500
+  oldAge: 91
+  youngAge: 26
+  # ADT end
 
 - type: speciesBaseSprites
   id: MobDionaSprites

@@ -10,10 +10,15 @@
   skinColoration: Hues
   maleFirstNames: NamesArachnidFirst
   femaleFirstNames: NamesArachnidFirst
-  maleLastNames: NamesArachnidLast
-  femaleLastNames: NamesArachnidLast
+  maleLastNames: NamesArachnidLast # Corvax-LastnameGender
+  femaleLastNames: NamesArachnidLast # Corvax-LastnameGender
   sexes:
   - Unsexed
+  # ADT start
+  defaultLanguages:
+  - GalacticCommon
+  - Arachnid
+  # ADT end
 
 - type: speciesBaseSprites
   id: MobArachnidSprites
