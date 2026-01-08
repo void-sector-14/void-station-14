@@ -619,16 +619,6 @@
               15
 
 - type: reagent
-  id: Hydrogen
-  name: reagent-name-hydrogen
-  desc: reagent-desc-hydrogen
-  physicalDesc: reagent-physical-desc-gaseous
-  flavor: bitter
-  color: "#808080"
-  boilingPoint: -253.0
-  meltingPoint: -259.2
-
-- type: reagent
   id: Nitrium
   name: reagent-name-nitrium
   desc: reagent-desc-nitrium

@@ -30,7 +30,6 @@
     noRot: true
   - type: Clickable
   - type: InteractionOutline
-  - type: PhysicsGunBlacklist
   - type: Sprite
     sprite: ADT/Objects/Specific/Fishing/fishing_spot.rsi
     state: water

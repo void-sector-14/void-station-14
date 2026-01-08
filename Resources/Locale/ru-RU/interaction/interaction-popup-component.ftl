@@ -92,3 +92,5 @@ petting-success-tesla = Вы гладите { $target }, попутно нару
 petting-failure-tesla = Вы тянетесь погладить { $target }, но разряд заставляет вас отдёрнуть руку.
 petting-success-mail-teleporter = Вы гладите { $target } по { POSS-ADJ($target) } долговечной, холодной поверхности.
 petting-failure-mail-teleporter = Вы тянетесь погладить { $target }, но { SUBJECT($target) } занят сортировкой почты!
+petting-success-supermatter = Вы гладите { $target }, чувствуя, как ваше тело начинает светиться изнутри.
+petting-failure-supermatter = Вы тянетесь к { $target }, но { POSS-ADJ($target) } излучение мгновенно обжигает вашу руку.
