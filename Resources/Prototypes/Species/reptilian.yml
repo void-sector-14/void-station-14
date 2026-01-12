@@ -11,6 +11,15 @@
   maleFirstNames: NamesReptilianMale
   femaleFirstNames: NamesReptilianFemale
   naming: FirstDashFirst
+  # ADT start
+  defaultLanguages:
+  - GalacticCommon
+  - Draconic
+  - CintaTaj
+  maxAge: 90
+  oldAge: 50
+  youngAge: 30
+  # ADT end
 
 - type: speciesBaseSprites
   id: MobReptilianSprites

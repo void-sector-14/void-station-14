@@ -1,0 +1,611 @@
+# Simple Station
+
+- type: entity
+  save: false
+  abstract: true
+  id: ADTPlayerSiliconBase # For player controlled silicons
+  components:
+    - type: Reactive
+      groups:
+        Acidic: [Touch]
+    - type: Input
+      context: "human"
+    - type: InputMover
+    - type: ZombieImmune
+      # (P4A)-Start
+    - type: IgnoreHealOnBuckle # Никакого лечение через Кровати/Регенеративные кровати для Синтетиков
+    - type: IgnoreCryopods  # Никакого применения химии через Криокамеры
+    - type: DamagedSiliconAccent # Теперь Синтетики также будут получать акцент "Поврежденного киборга" при получении травм
+      # (P4A)-End
+    - type: MobMover
+    - type: DamageOnHighSpeedImpact
+      damage:
+        types:
+          Blunt: 5
+      soundHit:
+        path: /Audio/Effects/hit_kick.ogg
+    - type: Clickable
+    - type: Damageable
+      damageContainer: Inorganic # Note that for dumb reasons, this essentially makes them a wall.
+    - type: InteractionOutline
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape:
+            !type:PhysShapeCircle
+            radius: 0.35
+          density: 185 ### влияет на шанс Disarm. было 50
+          mask:
+            - MobMask
+          layer:
+            - MobLayer
+    - type: FloorOcclusion
+    - type: MovementSpeedModifier
+      baseWalkSpeed: 3
+      baseSprintSpeed: 4
+    - type: Sprite
+      sprite: ADT/Mobs/Species/IPC/parts.rsi
+      state: full
+      noRot: true
+      drawdepth: Mobs
+    - type: Physics
+      bodyType: KinematicController
+    - type: Body
+      prototype: Drone
+    - type: DoAfter
+    - type: Examiner
+    # - type: Recyclable
+    #   safe: false
+    - type: StandingState
+    - type: Alerts
+    - type: EyeProtection #ipc nerf
+      protectionTime: 12
+    - type: Silicon
+      entityType: enum.SiliconType.Player
+      batteryPowered: false # Needs to also have a battery!
+      chargeThresholdMid: 0.60
+      chargeThresholdLow: 0.30
+      chargeThresholdCritical: 0
+      speedModifierThresholds:
+        4: 1
+        3: 1
+        2: 0.80
+        1: 0.45
+        0: 0.00
+    - type: RadiationReceiver
+    - type: AtmosExposed
+    - type: Temperature
+      heatDamageThreshold: 700
+      coldDamageThreshold: 0
+      currentTemperature: 400
+      specificHeat: 24
+      coldDamage:
+        types:
+          Cold: 0.1 # Per second, scales with temperature & other constants.
+      heatDamage:
+        types:
+          Heat: 0.25 # Per second, scales with temperature & other constants.
+      atmosTemperatureTransferEfficiency: 0.05
+    - type: ThermalRegulator
+      metabolismHeat: 600
+      radiatedHeat: 350
+      implicitHeatRegulation: 350
+      sweatHeatRegulation: 0 # This might end up being a problem if they can't cool themselves down?
+      shiveringHeatRegulation: 1200
+      normalBodyTemperature: 400
+      thermalRegulationTemperatureThreshold: 125
+    - type: ComplexInteraction
+    - type: MobCollision
+
+- type: entity
+  parent: ADTPlayerSiliconBase
+  id: PlayerSiliconHumanoidBase
+  abstract: true
+  components:
+    - type: StatusIcon
+    - type: SSDIndicator
+    - type: MobState
+      allowedStates:
+        - Alive
+        - Dead
+    - type: MobThresholds
+      thresholds:
+        0: Alive
+        165: Dead
+    - type: Damageable
+      damageContainer: ADTSiliconDamageContainer # Not a wall.
+    - type: Stamina
+      critThreshold: 200
+    - type: Destructible
+      thresholds:
+        - trigger: !type:DamageTrigger
+            damage: 300
+          behaviors:
+            - !type:GibBehavior {}
+    - type: Icon
+      sprite: ADT/Mobs/Species/IPC/parts.rsi
+      state: full
+    - type: MindContainer
+      showExamineInfo: true
+    - type: Sprite
+      noRot: true
+      drawdepth: Mobs
+      layers:
+        - map: ["enum.HumanoidVisualLayers.Chest"]
+        - map: ["enum.HumanoidVisualLayers.Head"]
+        - map: ["enum.HumanoidVisualLayers.Snout"]
+        - map: ["enum.HumanoidVisualLayers.Eyes"]
+        - map: ["enum.HumanoidVisualLayers.RArm"]
+        - map: ["enum.HumanoidVisualLayers.LArm"]
+        - map: ["enum.HumanoidVisualLayers.RLeg"]
+        - map: ["enum.HumanoidVisualLayers.LLeg"]
+        - shader: StencilClear
+          sprite: Mobs/Species/Human/parts.rsi
+          state: l_leg
+        - shader: StencilMask
+          map: ["enum.HumanoidVisualLayers.StencilMask"]
+          sprite: Mobs/Customization/masking_helpers.rsi
+          state: female_full
+          visible: false
+        - map: ["enum.HumanoidVisualLayers.LFoot"]
+        - map: ["enum.HumanoidVisualLayers.RFoot"]
+        - map: ["socks"]
+        - map: ["underpants"]
+        - map: ["undershirt"]
+        - map: ["jumpsuit"]
+        - map: ["enum.HumanoidVisualLayers.LHand"]
+        - map: ["enum.HumanoidVisualLayers.RHand"]
+        - map: ["enum.HumanoidVisualLayers.Handcuffs"]
+          color: "#ffffff"
+          sprite: Objects/Misc/handcuffs.rsi
+          state: body-overlay-2
+          visible: false
+        - map: ["id"]
+        - map: ["gloves"]
+        - map: ["shoes"]
+        - map: ["ears"]
+        - map: ["outerClothing"]
+        - map: ["eyes"]
+        - map: ["belt"]
+        - map: ["neck"]
+        - map: ["back"]
+        - map: ["enum.HumanoidVisualLayers.FacialHair"]
+        - map: ["enum.HumanoidVisualLayers.Hair"]
+        - map: ["enum.HumanoidVisualLayers.HeadSide"]
+        - map: ["enum.HumanoidVisualLayers.HeadTop"]
+        - map: ["mask"]
+        - map: ["head"]
+        - map: ["pocket1"]
+        - map: ["pocket2"]
+        - map: ["enum.HumanoidVisualLayers.Tail"]
+        #- map: ["enum.HumanoidVisualLayers.Wings"]
+        - map: ["clownedon"] # Dynamically generated
+          sprite: "Effects/creampie.rsi"
+          state: "creampie_human"
+          visible: false
+    - type: Repairable # Взамен на быструю починку я урезал лечение примерно в 3 раза. Это лучше, чем DoAfter на 30 секунд при попытке вылечить себя
+      fuelCost: 3
+      selfRepairPenalty: 2
+      doAfterDelay: 2 # was 10 # was 18
+      damage:
+        types:
+          Blunt: -10
+          Slash: -10
+          Piercing: -10
+      #bloodlossModifier: -100
+    - type: Bloodstream ### я добавил компонент Bloodstream как заглушку. Он нужен,
+# чтобы хилиться с помощью CableStack. Дело в том, что HealingSystem использует проверку на наличие BloodstreamComponent.
+# В любом случае Bloodstream здесь является костылём, чтобы не лезть в код. В будущем можно зделать для IPC нормальную bloodstream систему.
+      damageBleedModifiers: BloodlossIPC
+      bloodReagent: Water
+      bleedReductionAmount: 0
+      bloodMaxVolume: 0
+      chemicalMaxVolume: 0
+      bleedPuddleThreshold: 3
+      bloodRefreshAmount: 0
+      bloodlossThreshold: 0
+      maxBleedAmount: 0
+      bloodlossDamage:
+        types:
+          Burn: 1.5
+      bloodlossHealDamage:
+        types:
+          Burn: 0
+    - type: Flammable
+      fireSpread: true
+      canResistFire: true
+      damage:
+        types:
+          Heat: 0.75
+    - type: Temperature
+      heatDamageThreshold: 320
+      coldDamageThreshold: 255
+      currentTemperature: 280
+      specificHeat: 50
+      coldDamage:
+        types:
+          Cold: 0.1 #per second, scales with temperature & other constants
+      heatDamage:
+        types:
+          Heat: 0.15 #per second, scales with temperature & other constants
+      atmosTemperatureTransferEfficiency: 0.4
+    - type: ThermalRegulator
+      metabolismHeat: 1000 # Increase once we have more ways to regulate temperature
+      radiatedHeat: 800
+      implicitHeatRegulation: 600
+      sweatHeatRegulation: 0
+      shiveringHeatRegulation: 12000 # Overclocking, yo
+      normalBodyTemperature: 280
+      thermalRegulationTemperatureThreshold: 32
+    - type: Polymorphable
+    - type: Identity
+    - type: MovedByPressure
+    - type: DamageOnHighSpeedImpact
+      damage:
+        types:
+          Blunt: 5
+      soundHit:
+        path: /Audio/Effects/metal_break1.ogg
+    - type: LagCompensation
+    - type: RangedDamageSound
+      soundGroups:
+        Brute:
+          collection: MetalBulletImpact
+      soundTypes:
+        Heat:
+          collection: MetalLaserImpact
+    - type: Tag
+      tags:
+        - CanPilot
+        - FootstepSound
+        - DoorBumpOpener
+    - type: Hands
+    - type: Inventory
+      templateId: human
+    - type: InventorySlots
+    - type: Appearance
+    - type: GenericVisualizer
+      visuals:
+        enum.CreamPiedVisuals.Creamed:
+          clownedon:
+            True: { visible: true }
+            False: { visible: false }
+    - type: RotationVisuals
+    - type: FloatingVisuals
+    - type: FireVisuals
+      sprite: Mobs/Effects/onfire.rsi
+      normalState: Generic_mob_burning
+      alternateState: Standing
+      fireStackAlternateState: 3
+    - type: CombatMode
+      canDisarm: true
+    - type: Climbing
+    - type: Cuffable
+    - type: AnimationPlayer
+    - type: Buckle
+    - type: CreamPied
+    - type: Stripping
+    - type: Strippable
+    - type: UserInterface
+      interfaces:
+        enum.VoiceMaskUIKey.Key:
+          type: VoiceMaskBoundUserInterface
+        enum.HumanoidMarkingModifierKey.Key:
+          type: HumanoidMarkingModifierBoundUserInterface
+        enum.StrippingUiKey.Key:
+          type: StrippableBoundUserInterface
+        enum.StoreUiKey.Key:
+          type: StoreBoundUserInterface
+    - type: Emoting
+    - type: Grammar
+      attributes:
+        proper: true
+    - type: StandingState
+    - type: CanEscapeInventory
+    - type: HumanoidAppearance
+      species: IPC
+    - type: Body
+      prototype: IPC
+      requiredLegs: 2
+    - type: Ensnareable
+      sprite: Objects/Misc/ensnare.rsi
+    - type: Speech
+      speechSounds: Pai
+    - type: Vocal
+      sounds:
+        Male: MaleHuman
+        Female: FemaleHuman
+        Unsexed: MaleHuman
+    - type: MeleeWeapon
+      hidden: true
+      soundHit:
+        collection: Punch
+      angle: 30
+      animation: WeaponArcFist
+      attackRate: 1
+      damage:
+        types:
+          Blunt: 6 # It's tough.
+    - type: MobPrice
+      price: 1500 # Kidnapping a living person and selling them for cred is a good move.
+      deathPenalty: 0.01 # However they really ought to be living and intact, otherwise they're worth 100x less.
+    - type: Pullable
+    - type: Puller
+    - type: Reactive
+      groups:
+        Flammable: [Touch]
+        Extinguish: [Touch]
+        Acidic: [Touch, Ingestion]
+      reactions:
+        - reagents: [Water, SpaceCleaner]
+          methods: [Touch]
+          effects:
+            - !type:WashCreamPieReaction
+    - type: BodyEmotes
+      soundsId: GeneralBodyEmotes
+    - type: DamageVisuals
+      thresholds: [20, 50, 100]
+      targetLayers:
+        - "enum.HumanoidVisualLayers.Chest"
+        - "enum.HumanoidVisualLayers.Head"
+        - "enum.HumanoidVisualLayers.LArm"
+        - "enum.HumanoidVisualLayers.LLeg"
+        - "enum.HumanoidVisualLayers.RArm"
+        - "enum.HumanoidVisualLayers.RLeg"
+      damageOverlayGroups:
+        Brute:
+          sprite: Mobs/Effects/brute_damage.rsi
+          color: "#1a1a1a"
+        Burn:
+          sprite: Mobs/Effects/burn_damage.rsi
+    # Organs
+    - type: IdExaminable
+    - type: HealthExaminable
+      examinableTypes:
+        - Blunt
+        - Slash
+        - Piercing
+        - Heat
+        - Shock
+    - type: StatusEffects
+      allowed:
+        - Stun
+        - KnockedDown
+        - SlowedDown
+        - Stutter
+        - Weakness
+        - SeeingRainbows
+        - Electrocution
+        # - Drunk
+        - SlurredSpeech
+        # - PressureImmunity
+        - Muted
+        # - ForcedSleep
+        - TemporaryBlindness
+        - Pacified
+        # - PsionicsDisabled
+        # - PsionicallyInsulated
+        - SeeingStatic
+    - type: Blindable
+
+# region IPC
+- type: entity
+  id: BaseMobIPC
+  parent: PlayerSiliconHumanoidBase
+  name: Урист МакПозитроник
+  abstract: true
+  components:
+  - type: PowerCellSlot
+    cellSlotId: cell_slot
+    fitsInCharger: true
+  - type: ItemSlots
+    slots:
+      cell_slot:
+        locked: true
+        name: power-cell-slot-component-slot-name-default
+        startingItem: PowerCellMedium
+  - type: Lock
+    locked: true
+    lockOnClick: false
+    unlockOnClick: false
+    lockTime: 5
+    unlockTime: 5
+    breakOnAccessBreaker: false
+  - type: BatterySlotRequiresLock
+    itemSlot: cell_slot
+  - type: InteractionPopup
+    interactSuccessString: petting-success-ipc
+    interactSuccessSound:
+      path: /Audio/Ambience/Objects/periodic_beep.ogg
+  - type: SiliconEmitSoundOnDrained
+    sound: "/Audio/Weapons/Guns/EmptyAlarm/smg_empty_alarm.ogg"
+    minInterval: 8
+    maxInterval: 12
+    popUp: silicon-power-low
+  - type: MobState
+    allowedStates:
+      - Alive
+      - Dead
+  - type: MobThresholds
+    thresholds:
+      0: Alive
+      125: Dead
+    stateAlertDict:
+      Alive: BorgHealth
+      Critical: BorgCrit
+      Dead: BorgDead
+    allowRevives: true
+  - type: NpcFactionMember
+    factions:
+    - NanoTrasen
+  - type: TypingIndicator
+    proto: robot
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTypeTrigger
+        damageType: Blunt
+        damage: 220
+      behaviors:
+      - !type:GibBehavior { }
+  - type: SlowOnDamage
+    speedModifierThresholds:
+      40: 0.8
+      60: 0.6
+      80: 0.4
+      100: 0.3
+  - type: SiliconDownOnDead
+  - type: EyeProtection
+    protectionTime: 12
+  - type: Silicon
+    entityType: enum.SiliconType.Player
+    batteryPowered: true
+    drainPerSecond: 1.3
+    idleDrainReduction: 0.6
+    chargeThresholdMid: 0.80
+    chargeThresholdLow: 0.35
+    chargeThresholdCritical: 0.10
+    speedModifierThresholds:
+      4: 1
+      3: 1
+      2: 0.80
+      1: 0.45
+      0: 0.00
+  - type: BatteryDrinker
+  - type: UnpoweredFlashlight
+  - type: PointLight
+    enabled: false
+    color: "#ffffff"
+    mask: /Textures/Effects/LightMasks/cone.png
+    offset: 0,-0.3
+    autoRot: true
+    radius: 3
+    energy: 2
+  - type: Wires
+    boardName: "ipc-board-name"
+    layoutId: IPC
+  - type: WiresPanel
+  - type: EncryptionKeyHolder
+    keySlots: 3
+    examineWhileLocked: false
+    keysExtractionMethod: Cutting
+  - type: ActiveRadio
+  - type: IntrinsicRadioReceiver
+  - type: IntrinsicRadioTransmitter
+  - type: ContentEye
+    maxZoom: 1.0,1.0
+  - type: LightningTarget
+    priority: 4
+    lightningExplode: false
+  - type: Vocal
+    sounds:
+      Male: UnisexIPC
+      Female: UnisexIPC
+      Unsexed: UnisexIPC
+  - type: TriggerOnMobstateChange
+    mobState:
+    - Dead
+  - type: EmitSoundOnTrigger
+    sound:
+      path: /Audio/ADT/IPC/borg_deathsound.ogg
+  - type: LanguageSpeaker
+    languages:
+      GalacticCommon: Speak
+      BorgTalk: Speak
+      RobotTalk: Speak
+  - type: Tag
+    tags:
+    - CanPilot
+    - FootstepSound
+    - DoorBumpOpener
+    - SiliconEmotes
+    - Unimplantable
+    - AnomalyHost
+  - type: Inventory
+    templateId: ipc
+    displacements:
+      jumpsuit:
+        sizeMaps:
+          32:
+            sprite: Mobs/Species/Human/displacement.rsi
+            state: jumpsuit-female
+  - type: SizeAttributeWhitelist
+    tall: true
+    tallscale: 1.1
+    short: true
+    shortscale: 0.9
+  - type: CanEnterCryostorage
+  - type: UserInterface
+    interfaces:
+      enum.VoiceMaskUIKey.Key:
+        type: VoiceMaskBoundUserInterface
+      enum.HumanoidMarkingModifierKey.Key:
+        type: HumanoidMarkingModifierBoundUserInterface
+      enum.StrippingUiKey.Key:
+        type: StrippableBoundUserInterface
+      enum.StoreUiKey.Key:
+        type: StoreBoundUserInterface
+
+- type: entity
+  save: false
+  name: Urist McPositronic
+  parent: MobHumanDummy
+  id: MobIPCDummy
+  categories: [ HideSpawnMenu ]
+  description: A dummy IPC meant to be used in character setup.
+  components:
+  - type: HumanoidAppearance
+    species: IPC
+  - type: Inventory
+    templateId: ipc
+    displacements:
+      jumpsuit:
+        sizeMaps:
+          32:
+            sprite: Mobs/Species/Human/displacement.rsi
+            state: jumpsuit-female
+
+- type: entity
+  save: false
+  name: Урист МакПозитроник
+  parent: BaseMobIPC
+  id: MobIPC
+
+# region Damage container
+- type: damageContainer
+  id: ADTSiliconDamageContainer
+  supportedGroups:
+    - Brute
+    - Burn
+    - Metaphysical
+
+# region Names
+- type: localizedDataset
+  id: IpcFirst
+  values:
+    prefix: name-ipc-first-
+    count: 114
+
+- type: localizedDataset
+  id: IpcLast
+  values:
+    prefix: names_IpcLast-
+    count: 1000
+
+- type: localizedDataset
+  id: NamesIpcFirstMale
+  values:
+    prefix: names-ipc-first-male-dataset-
+    count: 100
+
+- type: localizedDataset
+  id: NamesIpcFirstFemale
+  values:
+    prefix: names-ipc-first-female-dataset-
+    count: 100
+  
+- type: localizedDataset
+  id: NamesIpcLast
+  values:
+    prefix: names-ipc-last-dataset-
+    count: 100

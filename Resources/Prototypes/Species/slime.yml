@@ -8,6 +8,13 @@
   markingLimits: MobSlimeMarkingLimits
   dollPrototype: MobSlimePersonDummy
   skinColoration: Hues
+  # ADT start
+  defaultLanguages:
+  - GalacticCommon
+  - Bubblish
+  uniqueLanguages:
+  - Bubblish
+  # ADT end
 
 - type: speciesBaseSprites
   id: MobSlimeSprites

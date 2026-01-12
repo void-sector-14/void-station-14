@@ -36,6 +36,7 @@ using Content.Shared.Popups;
 using Content.Shared.Random;
 using Content.Shared.Zombies;
 using Content.Shared._Void.Parasites;
+using Content.Shared.Chat;
 using Robust.Server.GameObjects;
 using Robust.Shared.Audio;
 using Robust.Shared.Audio.Systems;

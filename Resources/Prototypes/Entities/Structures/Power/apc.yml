@@ -153,6 +153,8 @@
     guides:
     - VoltageNetworks
     - Power
+  - type: BatteryDrinkerSource # ADT - IPC
+    maxAmount: 10000
 
 # APC under construction
 - type: entity

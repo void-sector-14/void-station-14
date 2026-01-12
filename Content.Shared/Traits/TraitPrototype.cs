@@ -55,6 +55,8 @@ public sealed partial class TraitPrototype : IPrototype
     [DataField]
     public int Cost = 0;
 
+    [DataField]
+    public bool Quirk = false;
     /// <summary>
     /// Adds a trait to a category, allowing you to limit the selection of some traits to the settings of that category.
     /// </summary>

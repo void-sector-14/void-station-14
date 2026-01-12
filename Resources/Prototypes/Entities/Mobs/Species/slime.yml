@@ -121,6 +121,10 @@
           32:
             sprite: Mobs/Species/Human/displacement.rsi
             state: jumpsuit-female
+  - type: LanguageSpeaker
+    languages:
+      GalacticCommon: Speak
+      Bubblish: Speak
 
 - type: entity
   parent: MobHumanDummy

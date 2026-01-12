@@ -12,6 +12,13 @@
   femaleFirstNames: NamesMothFirstFemale
   maleLastNames: NamesMothLast
   femaleLastNames: NamesMothLast
+  # ADT-name-custom
+  defaultLanguages:
+  - GalacticCommon
+  - Nian
+  maxAge: 70
+  oldAge: 45
+  youngAge: 20
 
 - type: speciesBaseSprites
   id: MobMothSprites

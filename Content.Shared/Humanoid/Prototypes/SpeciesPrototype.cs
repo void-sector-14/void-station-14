@@ -1,3 +1,4 @@
+using Content.Shared.ADT.Language;
 using Content.Shared.Dataset;
 using Content.Shared.Humanoid.Markings;
 using Robust.Shared.Prototypes;
@@ -128,6 +129,23 @@ public sealed partial class SpeciesPrototype : IPrototype
     /// </summary>
     [DataField]
     public int MaxAge = 120;
+
+    /// <summary>
+    /// Особые языки, которые не могут выбрать представители других рас.
+    /// Уникальные языки не должны быть раундстартовыми.
+    /// </summary>
+    [DataField]
+    public List<ProtoId<LanguagePrototype>> UniqueLanguages = new();
+
+    [DataField]
+    public List<ProtoId<LanguagePrototype>> DefaultLanguages = new() { "GalacticCommon" };
+
+    [DataField]
+    public int MaxLanguages = 3;
+
+    [DataField]
+    public List<ProtoId<LanguagePrototype>> ForceLanguages = new();
+    // ADT end
 }
 
 public enum SpeciesNaming : byte
@@ -136,4 +154,5 @@ public enum SpeciesNaming : byte
     FirstLast,
     FirstDashFirst,
     TheFirstofLast,
+    FirstDashLast,
 }

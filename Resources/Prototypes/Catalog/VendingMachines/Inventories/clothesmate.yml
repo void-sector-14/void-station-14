@@ -34,6 +34,15 @@
     ClothingUniformJumpsuitColorYellow: 2
     ClothingUniformJumpskirtColorYellow: 2
     ClothingUniformJumpsuitColorGreen: 2
+# ADT бельё/обмотки/плащи/носки начало
+    ADTClothingUnderwearBottomBoxersWhite: 3
+    ADTClothingUnderwearBottomBriefsWhite: 3
+    ADTClothingUnderwearBottomBoxersAmerica: 2
+    ADTClothingUnderwearBottomBoxersBoom: 2
+    ADTClothingUnderwearBottomPantiesComfyWhite: 3 # ADT-Tweak: уменьшено с 4 до 3 для баланса
+    ADTClothingUnderwearTopBraWhite: 3 # ADT-Tweak: уменьшено с 4 до 3 для баланса
+    ADTClothingUnderwearTopBraComfyWhite: 3 # ADT-Tweak: уменьшено с 4 до 3 для баланса
+# конец белья
     # DO NOT ADD MORE, USE UNIFORM DYING
     ClothingUniformJumpskirtColorGreen: 2
     ClothingUniformJumpsuitColorOrange: 2
