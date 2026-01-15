@@ -1,6 +1,7 @@
 using System.IO;
 using System.Linq;
 using System.Numerics;
+using Content.Shared.ADT.Language;
 using Content.Shared.CCVar;
 using Content.Shared.Decals;
 using Content.Shared.Examine;
@@ -40,6 +41,7 @@ public abstract class SharedHumanoidAppearanceSystem : EntitySystem
     [Dependency] private readonly MarkingManager _markingManager = default!;
     [Dependency] private readonly GrammarSystem _grammarSystem = default!;
     [Dependency] private readonly SharedIdentitySystem _identity = default!;
+    [Dependency] private readonly SharedLanguageSystem _language = null!;
 
     [ValidatePrototypeId<SpeciesPrototype>]
     public const string DefaultSpecies = "Human";
@@ -438,6 +440,17 @@ public abstract class SharedHumanoidAppearanceSystem : EntitySystem
         }
 
         EnsureDefaultMarkings(uid, humanoid);
+        // ADT Start
+        SetLanguages(uid, profile.Languages.ToList());
+        var species = _proto.Index(humanoid.Species);
+        species.ForceLanguages.ForEach(x =>
+        {
+            var lang = Comp<LanguageSpeakerComponent>(uid);
+            if (!lang.Languages.ContainsKey(x))
+                lang.Languages.Add(x, LanguageKnowledge.Speak);
+        });
+        // ADT End
+
 
         humanoid.Gender = profile.Gender;
         if (TryComp<GrammarComponent>(uid, out var grammar))
@@ -516,6 +529,18 @@ public abstract class SharedHumanoidAppearanceSystem : EntitySystem
         if (sync)
             Dirty(uid, humanoid);
     }
+
+    // ADT start
+    public void SetLanguages(EntityUid uid, List<ProtoId<LanguagePrototype>> languages)
+    {
+        var languageSpeaker = EnsureComp<LanguageSpeakerComponent>(uid);
+        languageSpeaker.Languages.Clear();
+
+        languages.ForEach(x => languageSpeaker.Languages.Add(x.ToString(), LanguageKnowledge.Speak));
+        _language.SelectDefaultLanguage(uid);
+        _language.UpdateUi(uid);
+    }
+    // ADT end
 
     /// <summary>
     /// Takes ID of the species prototype, returns UI-friendly name of the species.
